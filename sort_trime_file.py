@@ -168,6 +168,7 @@ shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同�
 
 shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音plus版/fonts/')
 
+
 #實體(藍牙)鍵盤專用
 shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體(藍牙)鍵盤專用/')
 
@@ -179,7 +180,8 @@ shutil.copytree('./trimefiles/舊312版主程式/', './sort_trime/舊312版主�
 #OpenCC_ocd_64位元
 shutil.copytree('./trimefiles/OpenCC_ocd_64位元/', './sort_trime/OpenCC_ocd_64位元/')
 
-#增加日期
+
+#名稱增加日期
 localtime=time.strftime("%Y%m%d", time.localtime())
 
 os.rename('./sort_trime/洋蔥同文純注音版/', './sort_trime/洋蔥同文純注音版_'+localtime)
@@ -189,13 +191,3 @@ os.rename('./sort_trime/洋蔥同文注音plus版/', './sort_trime/洋蔥同文�
 
 os.rename('./sort_trime/', './洋蔥手機同文方案_'+localtime)
 
-
-# #日期
-# print(time.strftime("%Y%m%d", time.localtime()))
-
-
-# #列印顯示該路徑下的所有檔案
-# def batch_showname(path):
-#     for fname in os.listdir(path):
-#         print(os.path.join(path, fname))
-# batch_showname('./sort_trime/')
