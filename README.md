@@ -1,4 +1,4 @@
-# Onion_Trime_Files（洋蔥 手機 Trime 方案）
+# Onion_Trime_Files（洋蔥 手機 同文輸入法 Trime 方案）
 
 - trimefiles 中包含四個主方案（四個注音主方案、一眾掛接方案）
 
