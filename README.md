@@ -17,10 +17,10 @@
 
 # 各方案說明：
 
-- [電腦-RIME 設定檔『 洋蔥 純注音 版』](https://deltazone.pixnet.net/blog/post/264319309)
+- [手機同文 設定檔『 洋蔥 純注音 版』](http://deltazone.pixnet.net/blog/post/321396937)
 
-- [電腦-RIME 設定檔『 洋蔥 雙拼 注音 版 』](https://deltazone.pixnet.net/blog/post/359775341)
+- [手機同文 設定檔『 洋蔥 雙拼 注音 版 』](https://deltazone.pixnet.net/blog/post/360004547)
 
-- [電腦-RIME 設定檔『 洋蔥 plus 注音 版 』](https://deltazone.pixnet.net/blog/post/343650692)
+- [手機同文 設定檔『 洋蔥 plus 注音 版 』](http://deltazone.pixnet.net/blog/post/348003908)
 
-- [電腦-RIME 設定檔『 洋蔥 mix‧in 注音 版 』](https://deltazone.pixnet.net/blog/post/347368709)
+- [手機同文 設定檔『 洋蔥 mix‧in 注音 版 』](http://deltazone.pixnet.net/blog/post/347908319)
