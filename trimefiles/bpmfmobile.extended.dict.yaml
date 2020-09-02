@@ -5,14 +5,14 @@
 #『洋蔥』
 ---
 name: bpmfmobile.extended
-version: "201910"
+version: "202009"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
-  - bpmfmobile
-  - bpmfmobile_add
+  - terra_pinyin_onion
+  - terra_pinyin_onion_add
   - phrases.chtp
 #  - phrases.cht
 ...
