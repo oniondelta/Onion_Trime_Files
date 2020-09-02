@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixins
   name: "《洋蔥手機注音mixinS》"
-  version: "202008"
+  version: "202009"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -260,13 +260,13 @@ speller:
 #    - abbrev/^([bpmfdtnlgkhjqx]).+(\d)$/$1$2/ #同上，但再少了ㄓㄔㄕㄖㄗㄘㄙ
     - derive/^([bpmfdtnlgkhjqx]).+(\d)$/$1$2/
 ##########注音聲韻母亂序##########
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
-    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
-    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+#關#    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
+#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 ##多國語言轉回正常##
     - xform/`Q/Z/
