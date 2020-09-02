@@ -1,4 +1,4 @@
-# Onion_Trime_Files（洋蔥 手機 同文輸入法 Trime 方案）
+# Onion_Trime_Files（洋蔥 手機 同文輸入法 注音&拼音 方案）
 
 ### 內容說明：
 
