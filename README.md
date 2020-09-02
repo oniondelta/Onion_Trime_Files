@@ -17,10 +17,10 @@
 
 # 各方案說明：
 
-- [手機同文 設定檔『 洋蔥 純注音 版』](http://deltazone.pixnet.net/blog/post/321396937)
+- [手機同文輸入法『 洋蔥 純注音 版』](http://deltazone.pixnet.net/blog/post/321396937)
 
-- [手機同文 設定檔『 洋蔥 雙拼 注音 版 』](https://deltazone.pixnet.net/blog/post/360004547)
+- [手機同文輸入法『 洋蔥 雙拼 注音 版 』](https://deltazone.pixnet.net/blog/post/360004547)
 
-- [手機同文 設定檔『 洋蔥 plus 注音 版 』](http://deltazone.pixnet.net/blog/post/348003908)
+- [手機同文輸入法『 洋蔥 plus 注音 版 』](http://deltazone.pixnet.net/blog/post/348003908)
 
-- [手機同文 設定檔『 洋蔥 mix‧in 注音 版 』](http://deltazone.pixnet.net/blog/post/347908319)
+- [手機同文輸入法『 洋蔥 mix‧in 注音 版 』](http://deltazone.pixnet.net/blog/post/347908319)
