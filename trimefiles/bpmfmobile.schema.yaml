@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobile
   name: "《洋蔥手機注音》"
-  version: "202008"
+  version: "202009"
   author:
     - 『洋蔥』 #以佛振注音支持聲韻亂序方案改編
   description: |
