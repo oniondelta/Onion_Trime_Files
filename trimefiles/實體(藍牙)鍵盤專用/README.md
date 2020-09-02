@@ -1,4 +1,6 @@
-實體(藍牙)鍵盤專用 custom 說明：
+# 實體(藍牙)鍵盤專用
+
+### 使用 custom 說明：
 
 	- 使用哪個方案，置入「方案.custom」和「keyboard_punct_bopomo」該檔。
 
