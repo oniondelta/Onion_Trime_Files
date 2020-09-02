@@ -1,0 +1,33 @@
+# Rime dictionary
+# encoding: utf-8
+# 《詞庫匯入設定頁》
+# 《（中文-注音）（韓語）（日語）（拉丁+音標）詞庫》
+# 『洋蔥』
+---
+name: bo_mixin.extended
+version: "202002"
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
+import_tables:
+  - bpmfmobile
+  - bpmfmobile_add
+  - bo_mixin_jp
+  - bo_mixin_kr
+  - bo_mixin_la
+  - phrases.cht_en_w
+  - phrases.chtp
+#  - phrases.cht
+  - phrases.jp_hk
+  - phrases.jp_hkkreduce
+  - phrases.kr
+  - phrases.en_o_w
+  - phrases.la_py_w
+  - phrases.en_l_w
+  - phrases.en_u_w
+...
+##### 測試字（測試是否少掉台灣以外的用字） #####
+#裏面	li3 mian4
+#高峯	gao1 feng1
+##################

@@ -1,0 +1,20 @@
+# Rime dictionary
+# encoding: utf-8
+# 《拉丁+音標詞庫》
+# 『洋蔥』
+---
+name: latinin1.extended
+version: "202001"
+sort: by_weight
+use_preset_vocabulary: false
+#max_phrase_length: 7
+#min_phrase_weight: 100
+import_tables:
+  - latinin1
+  - phrases.en_o_w
+  - phrases.la_py_w
+  - phrases.en_l_w
+  - phrases.en_u_w
+...
+
+

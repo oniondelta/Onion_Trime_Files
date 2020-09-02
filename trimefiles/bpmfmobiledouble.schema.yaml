@@ -1,0 +1,348 @@
+# Rime schema
+# encoding: utf-8
+##########《 洋蔥手機注音設定主頁》############
+schema:
+  schema_id: bpmfmobiledouble
+  name: "《洋蔥手機注音雙拼》"
+  version: "202008"
+  author:
+    - 『洋蔥』
+  description: |
+    注音符號輸入，採用「洋蔥雙拼」鍵盤排列。
+
+  dependencies:
+
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [" 中 ", " 英 "]
+  - name: full_shape
+    reset: 0
+    states: [" 半 ", " 全 "]
+  - name: ascii_punct
+    reset: 0
+    states: [ " 。", " ．" ]
+  - name: simplification
+    reset: 0
+    states: [" 原 ", " 简 "]
+  - name: zh_tw
+#    reset: 0
+    states: [" 原 ", " 精 "]
+  - name: emoji_segestion
+    reset: 1
+    states: [ " 無 ", " 圖 " ]
+  - name: punct_mark
+    reset: 1
+#    states: [ 無, 註 ]
+
+engine:
+  filters:
+    - simplifier@zh_tw
+#    - lua_filter@charset_filter2
+    - simplifier
+    - simplifier@emoji_switch
+    - simplifier@punct_mark
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+
+menu:
+  page_size: 6
+
+simplifier:
+  tips: all
+
+zh_tw:
+  opencc_config: bpm_big5e_hkscs_jis.json
+  option_name: zh_tw
+
+emoji_switch:
+  opencc_config: emoji_s.json
+  option_name: emoji_segestion
+  tags: [ abc ]
+#  tips: all
+
+punct_mark:
+  opencc_config: punct_mark_t.json
+  option_name: punct_mark
+  show_in_comment: true
+  tags: [ punct ]
+  tips: all
+  comment_format:
+    - erase/^.*〔.*〕.+$/
+    - erase/^.+〔.*〕$/
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz;',./"
+  initials: "abcdefghijklmnopqrstuvwxyz"
+  finals: ";',./"
+  delimiter: "\\"
+  algebra:
+    - xform/iu/iou/
+    - xform/ui/uei/
+    - xform/ong/ung/
+    - xform/yi?/i/
+    - xform/wu?/u/
+    - xform/iu/v/
+    - xform/([jqx])u/$1v/
+    - xform/([iuv])n/$1en/
+    - xform/zhi?/Z/
+    - xform/chi?/C/
+    - xform/shi?/S/
+    - xform/([zcsr])i/$1/
+    - xform/ai/A/
+    - xform/ei/I/
+    - xform/ao/O/
+    - xform/ou/U/
+    - xform/ang/K/
+    - xform/eng/G/
+    - xform/an/M/
+    - xform/en/N/
+    - xform/er/R/
+    - xform/eh/E/
+    - xform/([iv])e/$1E/
+###########################
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])v(\d)$/$1y$2/
+    - xform/^v/y/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])iO/$1q/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])iU/$1c/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])(uA|iM)/$1m/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])uo/$1o/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])iE/$1p/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])([vu])N/$1v/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])([vu])G/$1b/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])(vE|uI)/$1l/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])([ui])a/$1z/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])([ui])K/$1x/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])([vu])M/$1n/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])iN/$1r/
+    - xform/^([bpmfdtnlgkhjqxZCSrzcs])iG/$1t/
+    - xform/^([aoeEAIOUMNKGR])(\d)$/o$1$2/
+    - xform/^([rZSCzsc])(\d)$/$1i$2/
+    - xform/^([yui])(\d)$/$1e$2/
+    - 'xlit|ORUAKMNGEIZSC|wrdjshfgkkwav|'
+###########################
+    - abbrev/^([a-z])([a-z])\d$/$1$2/
+    - abbrev/^([abcdfghijklmnopqrstuvwxyz])([a-z])(\d)$/$1/ #
+#    - abbrev/^([yui])([i])([\d])$/$1/
+#    - abbrev/^([yui])([i])([\d])$/$1$3/
+#    - abbrev/^([abcdfghjklmnopqrstvwxz])([a-z])(\d)$/$1$3/
+###########################
+    - "xlit|12345|;/.,'|"
+
+translator:
+  dictionary: bpmfmobile.extended
+  prism: bpmfmobiledouble
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  preedit_format:
+    - xform|^([a-z\\,./';]*)$|\U$1\E\t（$1）|
+    - xform|([A-Z])[,]|$1，|
+    - xform|([A-Z])[.]|$1．|
+    - xform|([A-Z])[/]|$1／|
+    - xform|([A-Z])[;]|$1；|
+    - xform|([A-Z])[']|$1＇|
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ|"
+#######
+    - 'xform/([a-z])([a-z])/$1\U$2\E/'
+    - "xlit|ASDFGHJYUIEW|ㄚㄤㄡㄣㄥㄢㄞㄩㄨㄧㄜㄠ|"
+    - 'xform/([wraszcviuy])ㄧ/$1ㄭ/' #iuy
+    - 'xform/([iuy])ㄜ/$1ㄭ/'
+    - 'xform/Q/:ㄧㄠ/'
+    - 'xform/R/:ㄧㄣ\|ㄦ/'
+    - 'xform/T/:ㄧㄥ/'
+    - 'xform/O/:ㄛ\|ㄨㄛ/'
+    - 'xform/P/:ㄧㄝ/'
+    - 'xform/K/:ㄟ\|ㄝ/'
+    - 'xform/L/:ㄩㄝ\|ㄨㄟ/'
+    - 'xform/Z/:ㄧㄚ\|ㄨㄚ/'
+    - 'xform/X/:ㄧㄤ\|ㄨㄤ/'
+    - 'xform/C/:ㄧㄡ/'
+    - 'xform/V/:ㄨㄣ\|ㄩㄣ/'
+    - 'xform/B/:ㄨㄥ\|ㄩㄥ/'
+    - 'xform/N/:ㄨㄢ\|ㄩㄢ/'
+    - 'xform/M/:ㄧㄢ\|ㄨㄞ/'
+#######
+    - 'xform/([o]):ㄧㄣ\|ㄦ/$1:ㄦ/'
+    - 'xform/([bpmdtnljqx]):ㄧㄣ\|ㄦ/$1:ㄧㄣ/'
+    - 'xform/([bmfiuo]):ㄛ\|ㄨㄛ/$1:ㄛ/'
+    - 'xform/([dtngkhwvarzcs]):ㄛ\|ㄨㄛ/$1:ㄨㄛ/'
+    - 'xform/([bpmfdtnlgkhwvarzcsu]):ㄟ\|ㄝ/$1:ㄟ/' #v
+    - 'xform/([yi]):ㄟ\|ㄝ/$1:ㄝ/'
+    - 'xform/([dtlgkhwvarzcs]):ㄩㄝ\|ㄨㄟ/$1:ㄨㄟ/'
+    - 'xform/([jqx]):ㄩㄝ\|ㄨㄟ/$1:ㄩㄝ/'
+    - 'xform/([pdnljqx]):ㄧㄚ\|ㄨㄚ/$1:ㄧㄚ/'
+    - 'xform/([gkhavw]):ㄧㄚ\|ㄨㄚ/$1:ㄨㄚ/'
+    - 'xform/([nljqx]):ㄧㄤ\|ㄨㄤ/$1:ㄧㄤ/'
+    - 'xform/([gkhavw]):ㄧㄤ\|ㄨㄤ/$1:ㄨㄤ/'
+    - 'xform/([dtnlgkhwvarzcs]):ㄨㄣ\|ㄩㄣ/$1:ㄨㄣ/'
+    - 'xform/([jqx]):ㄨㄣ\|ㄩㄣ/$1:ㄩㄣ/'
+    - 'xform/([dtnlgkhwvarzcs]):ㄨㄥ\|ㄩㄥ/$1:ㄨㄥ/'
+    - 'xform/([jqx]):ㄨㄥ\|ㄩㄥ/$1:ㄩㄥ/'
+    - 'xform/([dtngkhwvarzcs]):ㄨㄢ\|ㄩㄢ/$1:ㄨㄢ/'
+    - 'xform/([jqx]):ㄨㄢ\|ㄩㄢ/$1:ㄩㄢ/'
+    - 'xform/([bpmdtnljqx]):ㄧㄢ\|ㄨㄞ/$1:ㄧㄢ/'
+    - 'xform/([gkhwva]):ㄧㄢ\|ㄨㄞ/$1:ㄨㄞ/'
+#######
+    - "xlit|bpmfdtnlgkhjqxrzcsiuywvao|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄖㄗㄘㄙㄧㄨㄩㄓㄔㄕ◌|"
+    - "xlit|;/.,'|ˉˊˇˋ˙|"
+    - 'xform/\\/ /'
+#######
+    - "xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ，．／；＇|abcdefghijklmnopqrstuvwxyz,./;'|"
+
+punctuator:
+  full_shape:
+    "@" : [ "＠", "@", "﹫", "®", "©", "℗", "㊣", "?", "？", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ]
+    "#" : [ "#", "＃", "﹟", "!", "！", "﹗", "¡", "‼", "⁉" ]
+    "$" : [ "＄", "$", "﹩", "￥", "¥", "€", "￡", "£", "₤", "￠", "¢", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
+    "%" : [ "％", "%", "﹪", "‰", "‱", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
+    "^" : [ "＾", "^", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ] #, "⌅", "⊻"
+    "&" : [ "＆", "&", "﹠", "⁊", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
+    "*" : [ "＊", "*", "﹡", "⁎", "⁕", "×", "╳", ※, "⁜", "†", "‡", ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
+    "(" : [ "（", "(", "﹙", "｟", "⦅", "⁽", "₍", ︵, ⁐ ]
+    ")" : [ "）", ")", "﹚", "｠", "⦆", "⁾", "₎", ︶, ⁐ ]
+    "[" : [ ［, "[", 〔, 【, 〖, 〘, 〚, ﹝, "⁅", ︹, ︻ ]
+    "]" : [ ］, "]", 〕, 】, 〗, 〙, 〛, ﹞, "⁆", ︺, ︼ ]
+    "_" : [ "＿", "_", "₋", "⁻", "ˉ", "¯" ]
+    "-" : [ "－", "-", "﹘", "—", "–", "──", "——", "⸺", "―", "ー" ]
+    "+" : [ "＋", "+", "﹢", "±", "⁺", "₊" ]
+    "=" : [ "＝", "=", "﹦", "⁼", "₌", "‗", "+", "-", "−", "×", "÷", "∕", "√", "∛", "∜", "±", "≠", ≒, ≡, ≈, ≌, ∽, "∞", "∝", "π", "＜", "＞", "≮", "≯", ≤, ≥, ≦, ≧, "∑", ∫, ∮, "∏", "∐", "∇", "∆", ㏑, ㏒, "∅", "∈", "∉", "⊂", "⊃", "⊆", "⊇", ∩, ∪, "¬", "˜", "∃", "∄", "∀", "∂", ∴, ∵, ∷, ⊥, ∟, ∠, ∥, ∧, ∨, "⊻", ⊕, ⊙, ⊿ ]
+    "|" : [ "｜", "|", "︱", "¦", "‖", "§", "¶", "⁋", "❡", "⁌", "⁍" ]
+    "\\" : [ "＼", "\\", "﹨" ]
+    '"' : [ "＂", '"', "々", "〃", "〻", "“", "”", "‟", "„", "〝", "〞", "〟", "‶", "″", "‷", "‴", "⁗" ]
+    "'" : [ "＇", "'", "‘", "’", "‛", "‚", "‵", "′" ]
+    "{" : [ "｛", "{", "﹛", ｢, 「, 『, ﹁, ﹃ ]
+    "}" : [ "｝", "}", "﹜", ｣, 」, 』, ﹂, ﹄ ]
+    "<" : [ "＜", "<", "﹤", "‹", «, 〈, 《, ︿, ︽, ˆ ]
+    ">" : [ "＞", ">", "﹥", "›", », 〉, 》, ﹀, ︾, ˇ ]
+    "`" : [ "｀", "`", "‧", "·", "●", "•", "･", "・", "︑", "、", "､", "﹑" ]
+    ":" : [ "：", ":", "﹕", "⁚", "⁝", "︙", "⋮", "⁞" ]
+    ";" : [ "；", ";", "﹔", "⁏" ]
+    "," : [ "，", ",", "﹐" ]
+    "." : [ "。", "｡", "．", ".", "﹒", "․", "…", "⋯", "……" ]
+    "~" : [ "～", "~", "〜", "⁓", "∼", "˜", "≈", "﹏", "〰" ]
+    "?" : { commit: "？" }
+    "/" : [ "／", "/", "⁄", "∕", "÷" ]
+    "!" : { commit: "！" }
+  half_shape:
+    "@" : [ "@", "＠", "﹫", "®", "©", "℗", "㊣", "?", "？", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ]
+    "#" : [ "＃", "#", "﹟", "!", "！", "﹗", "¡", "‼", "⁉" ]
+    "$" : [ "$", "＄", "﹩", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
+    "%" : [ "%", "％", "﹪", "‰", "‱", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
+    "^" : [ "^", "＾", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ]
+    "&" : [ "&", "＆", "﹠", "⁊", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
+    "*" : [ "*", "＊", "﹡", "⁎", "⁕", "×", "╳", ※, "⁜", "†", "‡", ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
+    "(" : [ "(", "（", "﹙", "｟", "⦅", "⁽", "₍", ︵, ⁐ ]
+    ")" : [ ")", "）", "﹚", "｠", "⦆", "⁾", "₎", ︶, ⁐ ]
+    "[" : [ 〔, 【, 〖, "[", ［, 〘, 〚, ﹝, "⁅", ︹, ︻ ]
+    "]" : [ 〕, 】, 〗, "]", ］, 〙, 〛, ﹞, "⁆", ︺, ︼ ]
+    "_" : [ "_", "＿", "₋", "⁻", "ˉ", "¯" ]
+    "-" : [ "-", "－", "﹘", "—", "–", "──", "——", "⸺", "―", "ー" ]
+    "+" : [ "+", "＋", "﹢", "±", "⁺", "₊" ]
+    "=" : [ "=", "＝", "﹦", "⁼", "₌", "‗", "+", "-", "−", "×", "÷", "∕", "√", "∛", "∜", "±", "≠", ≒, ≡, ≈, ≌, ∽, "∞", "∝", "π", "＜", "＞", "≮", "≯", ≤, ≥, ≦, ≧, "∑", ∫, ∮, "∏", "∐", "∇", "∆", ㏑, ㏒, "∅", "∈", "∉", "⊂", "⊃", "⊆", "⊇", ∩, ∪, "¬", "˜", "∃", "∄", "∀", "∂", ∴, ∵, ∷, ⊥, ∟, ∠, ∥, ∧, ∨, "⊻", ⊕, ⊙, ⊿ ]
+    "|" : [ "|", "｜", "︱", "¦", "‖", "§", "¶", "⁋", "❡", "⁌", "⁍" ]
+    "\\" : [ "\\", "＼", "﹨" ]
+    '"' : [ "々", "〃", "〻", '"', "＂", "“", "”", "‟", "„", "〝", "〞", "〟", "‶", "″", "‷", "‴", "⁗" ]
+    "'" : [ "'", "＇", "‘", "’", "‛", "‚", "‵", "′" ]
+    "{" : [ "{", "｛", "﹛", ｢, 「, 『, ﹁, ﹃ ]
+    "}" : [ "}", "｝", "﹜", ｣, 」, 』, ﹂, ﹄ ]
+    "<" : [ 〈, 《, "<", "＜", "﹤", "‹", «, ︿, ︽, ˆ ]
+    ">" : [ 〉, 》, ">", "＞", "﹥", "›", », ﹀, ︾, ˇ ]
+    "`" : [ "‧", "·", "●", "•", "･", "・", "`", "｀", "︑", "、", "､", "﹑" ]
+    ":" : [ "：", ":", "﹕", "⁚", "⁝", "︙", "⋮", "⁞" ]
+    ";" : [ "；", ";", "﹔", "⁏" ]
+    "," : [ "，", ",", "﹐" ]
+    "." : [ "。", "｡", ".", "．", "﹒", "․", "…", "⋯", "……" ]
+    "~" : [ "～", "~", "〜", "⁓", "∼", "˜", "≈", "﹏", "〰" ]
+    "?" : { commit: "？" }
+    "/" : [ "/", "／", "⁄", "∕", "÷" ]
+    "!" : { commit: "！" }
+  symbols:
+    "e" : [ "","《查找/輸入 注音》" ]
+    "eb" : [ "ㄅ", "ㄨㄥ", "ㄩㄥ" ]
+    "ep" : [ "ㄆ", "ㄧㄝ" ]
+    "em" : [ "ㄇ", "ㄧㄢ", "ㄨㄞ" ]
+    "ef" : [ "ㄈ", "ㄣ" ]
+    "ed" : [ "ㄉ", "ㄡ" ]
+    "et" : [ "ㄊ", "ㄧㄥ" ]
+    "en" : [ "ㄋ", "ㄨㄢ", "ㄩㄢ" ]
+    "el" : [ "ㄌ", "ㄨㄟ", "ㄩㄝ" ]
+    "eg" : [ "ㄍ", "ㄥ" ]
+    "ek" : [ "ㄎ", "ㄟ", "ㄝ" ]
+    "eh" : [ "ㄏ", "ㄢ" ]
+    "ej" : [ "ㄐ", "ㄞ" ]
+    "eq" : [ "ㄑ", "ㄧㄠ" ]
+    "ex" : [ "ㄒ", "ㄧㄤ", "ㄨㄤ" ]
+    "ea" : [ "ㄕ", "ㄚ" ]
+    "ev" : [ "ㄔ", "ㄨㄣ", "ㄩㄣ" ]
+    "ew" : [ "ㄓ", "ㄠ" ]
+    "er" : [ "ㄖ", "ㄦ", "ㄧㄣ" ]
+    "ez" : [ "ㄗ", "ㄧㄚ", "ㄨㄚ" ]
+    "ec" : [ "ㄘ", "ㄧㄡ" ]
+    "es" : [ "ㄙ", "ㄤ" ]
+    "ei" : [ "ㄧ", "ㄭ" ]
+    "eu" : [ "ㄨ" ]
+    "ey" : [ "ㄩ" ]
+    "eo" : [ "ㄛ", "ㄨㄛ", "◌" ]
+    "ee" : [ "ㄜ", "(ㄧㄨㄩ)ㄭ" ]
+    "e;" : [ "ˉ" ]
+    "e," : [ "ˋ" ]
+    "e." : [ "ˇ" ]
+    "e/" : [ "ˊ" ]
+    "e'" : [ "˙" ]
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: space, send: Return, when: paging}
+### 方向鍵鍵 ###
+    - {accept: Left, send: KP_Left, when: composing}
+### 刪除鍵 ###
+    - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
+    - {accept: Control+x, send: Escape, when: composing}
+### 使數字鍵於打字時無效 ###
+    - {accept: 1, send: Pause, when: has_menu}
+    - {accept: 2, send: Pause, when: has_menu}
+    - {accept: 3, send: Pause, when: has_menu}
+    - {accept: 4, send: Pause, when: has_menu}
+    - {accept: 5, send: Pause, when: has_menu}
+    - {accept: 6, send: Pause, when: has_menu}
+    - {accept: 7, send: Pause, when: has_menu}
+    - {accept: 8, send: Pause, when: has_menu}
+    - {accept: 9, send: Pause, when: has_menu}
+    - {accept: 0, send: Pause, when: has_menu}
+
+editor:
+  bindings:
+    Return: confirm
+    Control+Return: commit_raw_input
+    Shift+Return: commit_script_text
+
+recognizer:
+  patterns:
+    punct: "^e[a-z,./;']?$"
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    url: "^(https?:|ftp:|mailto:|file:).*$"
+
