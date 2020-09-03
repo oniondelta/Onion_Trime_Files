@@ -4,4 +4,4 @@
 
 - 鍵盤檔(.trime.yaml)中有引用到「花園明朝體字型B」(HanaMinB.ttf)
 
-- 花園明朝體字型B (HanaMinB.ttf)：http://fonts.jp/hanazono/
+- 花園明朝體：http://fonts.jp/hanazono/
