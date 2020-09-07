@@ -13,6 +13,8 @@ import_tables:
   - jpnin1
   - phrases.jp_hk
 #  - phrases.jp_hkup_w
+#  - phrases.jp_hk_more
+#  - phrases.jp_hkmoreup_w
   - phrases.jp_hkkseg
 #  - phrases.jp_hkk
 ...
