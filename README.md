@@ -1,4 +1,4 @@
-# Onion_Trime_Files（洋蔥 手機 同文輸入法 注音&拼音 方案）
+# Onion_Trime_Files（洋蔥 手機 同文輸入法 注音 方案）
 
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
