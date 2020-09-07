@@ -1,5 +1,8 @@
 # Onion_Trime_Files（洋蔥 手機 同文輸入法 注音&拼音 方案）
 
+####  ※ 請勿使用於商業營利相關行為
+####  ※ Commercial use is prohibited
+
 ### 內容說明：
 
 - trimefiles 中包含四個主方案（四個注音主方案、一眾掛接方案）
