@@ -138,9 +138,11 @@ shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥同
 shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.en_o_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.en_u_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hk.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hk_more.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hk_more.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkk.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hkk.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkkseg.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hkkseg.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkup_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hkup_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hkmoreup_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.jp_hkmoreup_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.kr.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.kr.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.la_py_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.la_py_w.dict.yaml")
 
