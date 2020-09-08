@@ -316,9 +316,10 @@ key_binder:
     - {accept: period, send: period, when: has_menu}
     - {accept: minus, send: minus, when: has_menu}
     - {accept: equal, send: equal, when: has_menu}
-    - {accept: space, send: Return, when: paging}
 ### 方向鍵鍵 ###
     - {accept: Left, send: KP_Left, when: composing}
+    - {accept: Down, send: Control+Right, when: composing} # 特殊情形轉功能
+    - {accept: Up, send: Control+Left, when: composing} # 特殊情形轉功能
 ### 刪除鍵 ###
     - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
     - {accept: Control+x, send: Escape, when: composing}
@@ -339,6 +340,7 @@ editor:
     Return: confirm
     Control+Return: commit_raw_input
     Shift+Return: commit_script_text
+    Pause: noop
 
 recognizer:
   patterns:
