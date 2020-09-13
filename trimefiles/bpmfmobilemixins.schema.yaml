@@ -1,6 +1,6 @@
-# Rime schema
+# Rime schema settings
 # encoding: utf-8
-##########《 洋蔥手機注音mixin設定主頁》############
+# 《洋蔥手機注音 mix-in s版 設定頁》
 schema:
   schema_id: bpmfmobilemixins
   name: "《洋蔥手機注音mixinS》"
