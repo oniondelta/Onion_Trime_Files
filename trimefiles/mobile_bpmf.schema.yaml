@@ -1,7 +1,6 @@
-#錯誤查看%TEMP%\rime.weasel
 # Rime schema settings
 # encoding: utf-8
-# 《完全注音設定頁》
+# 《手機完全注音 設定頁》
 schema:
   schema_id: mobile_bpmf
   name: 注音文(注音)
