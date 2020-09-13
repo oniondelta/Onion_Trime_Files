@@ -1,8 +1,8 @@
 # Rime dictionary
 # encoding: utf-8
-# 《詞庫匯入設定頁》
-# 《（中文-注音）》
-#『洋蔥』
+# 《洋蔥 手機注音 字詞庫匯入頁》
+# 『洋蔥』製作
+# 中文字詞標註使用拼音
 ---
 name: bpmfmobile.extended
 version: "202009"
@@ -19,4 +19,4 @@ import_tables:
 ######## 測試字（測試是否少掉台灣以外的用字） ########
 # 裏面	li3 mian4
 # 高峯	gao1 feng1
-#####
+##### 以下可自行添加詞句 #####
