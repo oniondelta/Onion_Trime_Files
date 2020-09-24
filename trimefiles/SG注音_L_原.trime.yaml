@@ -740,36 +740,36 @@ preset_keyboards:
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '9', long_click: 'text_ddd', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
       - {click: '0', long_click: Hide, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
-      - {label: 'Qㄑ', hint: 'ㄧㄠ', click: 'q', long_click: '=', symbol_text_size: *sf4, width: 11}
-      - {label: 'Wㄓ', hint: 'ㄠ', click: 'w', long_click: '+', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'E查', hint: 'ㄜ|*ㄭ', click: 'e', long_click: '-', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
-      - {label: 'Rㄖ', hint: 'ㄦ|ㄧㄣ', click: 'r', long_click: '_', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Tㄊ', hint: 'ㄧㄥ', click: 't', long_click: '`', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Yㄩ', click: 'y', long_click: '~', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Uㄨ', click: 'u', long_click: 'text_dbb', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Iㄧ', hint: 'ㄭ', click: 'i', long_click: 'text_dyy', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'O◌', hint: 'ㄛ|ㄨㄛ', click: 'o', long_click: 'text_dyy2', symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Pㄆ', hint: 'ㄧㄝ', click: 'p', long_click: 'text_dgg', symbol_text_size: *sf4, width: 11}
+      - {label: '　Q ㄑ', hint: 'ㄧㄠ', click: 'q', long_click: '=', symbol_text_size: *sf4, width: 11}
+      - {label: '　W ㄓ', hint: 'ㄠ', click: 'w', long_click: '+', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　E 查', hint: 'ㄜ|*ㄭ', click: 'e', long_click: '-', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
+      - {label: '　R ㄖ', hint: 'ㄦ|ㄧㄣ', click: 'r', long_click: '_', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　T ㄊ', hint: 'ㄧㄥ', click: 't', long_click: '`', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　Y ㄩ', click: 'y', long_click: '~', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　U ㄨ', click: 'u', long_click: 'text_dbb', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　I ㄧ', hint: 'ㄭ', click: 'i', long_click: 'text_dyy', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　O ◌', hint: 'ㄛ|ㄨㄛ', click: 'o', long_click: 'text_dyy2', symbol_text_size: *sf4, width: 9.75}
+      - {label: '　P ㄆ', hint: 'ㄧㄝ', click: 'p', long_click: 'text_dgg', symbol_text_size: *sf4, width: 11}
 #      - {width: 4.5}
-      - {label: 'Aㄕ', hint: 'ㄚ', click: 'a', long_click: DeleteCandidate, symbol_text_size: *sf4, width: 11}
-      - {label: 'Sㄙ', hint: 'ㄤ', click: 's', long_click: Time, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Dㄉ', hint: 'ㄡ', click: 'd', long_click: Date, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Fㄈ', hint: 'ㄣ', click: 'f', long_click: Home, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Gㄍ', hint: 'ㄥ', click: 'g', long_click: End, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Hㄏ', hint: 'ㄢ', click: 'h', long_click: cut, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Jㄐ', hint: 'ㄞ', click: 'j', long_click: copy, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Kㄎ', hint: 'ㄟ|ㄝ', click: 'k', long_click: paste, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'Lㄌ', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　A ㄕ', hint: 'ㄚ', click: 'a', long_click: DeleteCandidate, symbol_text_size: *sf4, width: 11}
+      - {label: '　S ㄙ', hint: 'ㄤ', click: 's', long_click: Time, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　D ㄉ', hint: 'ㄡ', click: 'd', long_click: Date, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　F ㄈ', hint: 'ㄣ', click: 'f', long_click: Home, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　G ㄍ', hint: 'ㄥ', click: 'g', long_click: End, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　H ㄏ', hint: 'ㄢ', click: 'h', long_click: cut, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　J ㄐ', hint: 'ㄞ', click: 'j', long_click: copy, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　K ㄎ', hint: 'ㄟ|ㄝ', click: 'k', long_click: paste, symbol_text_size: *sf4, width: 9.75}
+      - {label: '　L ㄌ', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all, symbol_text_size: *sf4, width: 9.75}
       - {click: "'", hint: '輕聲', long_click: '"', symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #Tab_3 #composing: delimiter
-      - {label: 'Zㄗ', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_rr', symbol_text_size: *sf4, width: 10.5} #'“”{Left}{Keyboard_default}'
-      - {label: 'Xㄒ', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_ii', symbol_text_size: *sf4, width: 9.8} #'‘’{Left}{Keyboard_default}'
-      - {label: 'Cㄘ', hint: 'ㄧㄡ', click: 'c', long_click: 'text_yy', symbol_text_size: *sf4, width: 9.8} #'「」{Left}{Keyboard_default}'
-      - {label: 'Vㄔ', hint: 'ㄩㄣ|ㄨㄣ', click: 'v', long_click: 'text_gg', symbol_text_size: *sf4, width: 9.8} #'（）{Left}{Keyboard_default}'
-      - {label: 'Bㄅ', hint: 'ㄩㄥ|ㄨㄥ', click: 'b', long_click: 'text_dh', symbol_text_size: *sf4, width: 9.8} #'、'
-      - {label: 'Nㄋ', hint: 'ㄩㄢ|ㄨㄢ', click: 'n', long_click: 'text_do', symbol_text_size: *sf4, width: 9.8}
-      - {label: 'Mㄇ', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi', symbol_text_size: *sf4, width: 10.5}
+      - {label: '　Z ㄗ', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_rr', symbol_text_size: *sf4, width: 10.5} #'“”{Left}{Keyboard_default}'
+      - {label: '　X ㄒ', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_ii', symbol_text_size: *sf4, width: 9.8} #'‘’{Left}{Keyboard_default}'
+      - {label: '　C ㄘ', hint: 'ㄧㄡ', click: 'c', long_click: 'text_yy', symbol_text_size: *sf4, width: 9.8} #'「」{Left}{Keyboard_default}'
+      - {label: '　V ㄔ', hint: 'ㄩㄣ|ㄨㄣ', click: 'v', long_click: 'text_gg', symbol_text_size: *sf4, width: 9.8} #'（）{Left}{Keyboard_default}'
+      - {label: '　B ㄅ', hint: 'ㄩㄥ|ㄨㄥ', click: 'b', long_click: 'text_dh', symbol_text_size: *sf4, width: 9.8} #'、'
+      - {label: '　N ㄋ', hint: 'ㄩㄢ|ㄨㄢ', click: 'n', long_click: 'text_do', symbol_text_size: *sf4, width: 9.8}
+      - {label: '　M ㄇ', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi', symbol_text_size: *sf4, width: 10.5}
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: Theme_settings, swipe_left: Page_Up, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #, width: 12
