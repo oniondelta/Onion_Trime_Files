@@ -491,7 +491,7 @@ translator:
     - xform/Q@/0/
     - xform/([0-9A-Zabcdef])([\+])/$1　/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdef|ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ₁₂³⁴₅⁶⁷₈₉₀,.⸝-;⸋|"
-    - 'xform/\+/\|/' #| #⁞ #⁝ #⋮ #¦ #┆
+    - 'xform/\+/\⁝/' #| #⁞ #⁝ #⋮ #¦ #┆
 
 bpmf_m:
   tag: bpmf_m
