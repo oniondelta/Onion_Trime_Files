@@ -150,7 +150,7 @@ translator:
   enable_user_dict: true
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
-    - 'xform/\+/\|/'
+    - 'xform/\+/\⁝/'
 
 bpmf_m:
   tag: bpmf_m
