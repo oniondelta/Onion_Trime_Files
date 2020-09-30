@@ -1121,12 +1121,12 @@ preset_keyboards:
       - {click: 獎牌, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
-      - {click: 運動, long_click: 武器, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 做運動, long_click: a假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 運動女, long_click: i假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 運動男, long_click: u假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 黃種人, long_click: e假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 棕色人, long_click: o假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動, long_click: a假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 做運動, long_click: i假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動女, long_click: u假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動男, long_click: e假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 黃種人, long_click: o假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 棕色人, long_click: 武器, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 黑人, long_click: 中華, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 白人, long_click: 日用品, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn

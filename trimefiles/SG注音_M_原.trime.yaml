@@ -1586,12 +1586,12 @@ preset_keyboards:
       - {click: 獎牌, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
-      - {click: 運動, long_click: 武器, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 做運動, long_click: a假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 運動女, long_click: i假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 運動男, long_click: u假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 黃種人, long_click: e假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 棕色人, long_click: o假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動, long_click: a假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 做運動, long_click: i假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動女, long_click: u假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 運動男, long_click: e假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 黃種人, long_click: o假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 棕色人, long_click: 武器, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 黑人, long_click: 中華, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 白人, long_click: 日用品, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
@@ -5062,13 +5062,13 @@ preset_keys:
 #  汽車: {text: '{Escape}3ft', label: 汽車, functional: false}
   船隻: {text: '{Escape}3t5', label: 船隻, functional: false}
 
-  k假名: {text: '{Escape}3kra', label: '(k 假名)', functional: false}
-  g假名: {text: '{Escape}3gra', label: '(g 假名)', functional: false}
-  s假名: {text: '{Escape}3sra', label: '(s 假名)', functional: false}
-  z假名: {text: '{Escape}3zra', label: '(z 假名)', functional: false}
-  t假名: {text: '{Escape}3tra', label: '(t 假名)', functional: false}
-  d假名: {text: '{Escape}3dra', label: '(d 假名)', functional: false}
-  n假名: {text: '{Escape}3nra', label: '(n 假名)', functional: false}
+  k假名: {text: '{Escape}3kra', label: 'k 假名', functional: false}
+  g假名: {text: '{Escape}3gra', label: 'g 假名', functional: false}
+  s假名: {text: '{Escape}3sra', label: 's 假名', functional: false}
+  z假名: {text: '{Escape}3zra', label: 'z 假名', functional: false}
+  t假名: {text: '{Escape}3tra', label: 't 假名', functional: false}
+  d假名: {text: '{Escape}3dra', label: 'd 假名', functional: false}
+  n假名: {text: '{Escape}3nra', label: 'n 假名', functional: false}
   十二宮: {text: '{Escape}3g-e', label: 十二宮, functional: false}
 
   飛機: {text: '{Escape}3zr', label: 飛機, functional: false}
@@ -5083,13 +5083,13 @@ preset_keys:
   獎牌: {text: '{Escape}3rq', label: 獎牌, functional: false}
 #  獎項: {text: '{Escape}3rv', label: 獎項, functional: false}
 
-  h假名: {text: '{Escape}3hra', label: '(h 假名)', functional: false}
-  b假名: {text: '{Escape}3bra', label: '(b 假名)', functional: false}
-  p假名: {text: '{Escape}3pra', label: '(p 假名)', functional: false}
-  m假名: {text: '{Escape}3mra', label: '(m 假名)', functional: false}
-  y假名: {text: '{Escape}3yra', label: '(y 假名)', functional: false}
-  r假名: {text: '{Escape}3rra', label: '(r 假名)', functional: false}
-  w假名: {text: '{Escape}3wra', label: '(w 假名)', functional: false}
+  h假名: {text: '{Escape}3hra', label: 'h 假名', functional: false}
+  b假名: {text: '{Escape}3bra', label: 'b 假名', functional: false}
+  p假名: {text: '{Escape}3pra', label: 'p 假名', functional: false}
+  m假名: {text: '{Escape}3mra', label: 'm 假名', functional: false}
+  y假名: {text: '{Escape}3yra', label: 'y 假名', functional: false}
+  r假名: {text: '{Escape}3rra', label: 'r 假名', functional: false}
+  w假名: {text: '{Escape}3wra', label: 'w 假名', functional: false}
   星座名: {text: '{Escape}3vya', label: 星座名, functional: false}
 
   運動: {text: '{Escape}3m2', label: 運動, functional: false}
@@ -5104,11 +5104,11 @@ preset_keys:
   白人: {text: '{Escape}31b', label: 白人, functional: false}
 #  白種人: {text: '{Escape}31yb', label: 白種人, functional: false}
 
-  a假名: {text: '{Escape}3ara', label: '* a假名', functional: false}
-  e假名: {text: '{Escape}3era', label: '* e假名', functional: false}
-  i假名: {text: '{Escape}3ira', label: '* i假名', functional: false}
-  o假名: {text: '{Escape}3ora', label: '* o假名', functional: false}
-  u假名: {text: '{Escape}3ura', label: '* u假名', functional: false}
+  a假名: {text: '{Escape}3ara', label: '*a 假名', functional: false}
+  e假名: {text: '{Escape}3era', label: '*e 假名', functional: false}
+  i假名: {text: '{Escape}3ira', label: '*i 假名', functional: false}
+  o假名: {text: '{Escape}3ora', label: '*o 假名', functional: false}
+  u假名: {text: '{Escape}3ura', label: '*u 假名', functional: false}
   卦名: {text: '{Escape}3ea', label: 卦名, functional: false}
   六十四卦名: {text: '{Escape}3xgnea', label: 64卦名, functional: false}
 
