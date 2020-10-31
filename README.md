@@ -31,3 +31,21 @@
 - [手機同文輸入法『注音 洋蔥mix‧in版 』](http://deltazone.pixnet.net/blog/post/347908319)
 
 - [手機同文輸入法『注音 洋蔥雙拼版 』](https://deltazone.pixnet.net/blog/post/360004547)
+
+### 鍵盤圖示：
+
+![介紹1](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.jpg)
+
+![介紹2](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_02.jpg)
+
+![介紹3](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_03.jpg)
+
+![介紹4](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_04.jpg)
+
+![介紹5](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_05.jpg)
+
+![介紹6](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_06.jpg)
+
+![介紹7](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.jpg)
+
+![介紹8](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.jpg)
