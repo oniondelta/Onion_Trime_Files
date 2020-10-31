@@ -34,18 +34,18 @@
 
 ### 鍵盤圖示：
 
-![介紹1](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.jpg)
+![介紹1](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png)
 
-![介紹2](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_02.jpg)
+![介紹2](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_02.png)
 
-![介紹3](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_03.jpg)
+![介紹3](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_03.png)
 
-![介紹4](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_04.jpg)
+![介紹4](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_04.png)
 
-![介紹5](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_05.jpg)
+![介紹5](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_05.png)
 
-![介紹6](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_06.jpg)
+![介紹6](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_06.png)
 
-![介紹7](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.jpg)
+![介紹7](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.png)
 
 ![介紹8](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.jpg)
