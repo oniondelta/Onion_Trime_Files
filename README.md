@@ -48,4 +48,4 @@
 
 ![介紹7](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.png)
 
-![介紹8](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.jpg)
+![介紹8](https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.png)
