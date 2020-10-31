@@ -1036,7 +1036,7 @@ preset_keyboards:
       - {click: '-', long_click: '−', key_text_size: "18", width: 12, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
       - {click: '+', long_click: '±', key_text_size: "18", width: 12, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
       - {click: 4, long_click: 'text_dyy', key_text_size: "20"}
-      - {click: 5, long_click: select_all, key_text_size: "20"}
+      - {click: 5, long_click: copy_all_duse, key_text_size: "20"}
       - {click: 6, long_click: copy, key_text_size: "20"}
       - {click: BackSpace, key_text_size: "20", width: 16.6, key_back_color: bbs, key_text_color: tbs} #key_back_color: bbs
 
@@ -1044,7 +1044,7 @@ preset_keyboards:
       - {click: Up_duse, key_text_size: "20", width: 12, key_back_color: bjt, key_text_color: tgn} #, long_click: Up
       - {click: '%', long_click: '^', key_text_size: "18", width: 12, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
       - {click: 1, long_click: 'text_dgg', key_text_size: "20"}
-      - {click: 2, long_click: copy_all_duse, key_text_size: "20"}
+      - {click: 2, long_click: select_all, key_text_size: "20"}
       - {click: 3, long_click: paste, key_text_size: "20"}
       - {click: Return, key_text_size: "22", width: 16.6, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
