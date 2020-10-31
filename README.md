@@ -32,7 +32,7 @@
 
 - [手機同文輸入法『注音 洋蔥雙拼版 』](https://deltazone.pixnet.net/blog/post/360004547)
 
-### 鍵盤圖示：
+### 虛擬鍵盤圖示：
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png" alt="介紹1" width="400" />
 
