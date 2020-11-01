@@ -2,46 +2,316 @@
 # encoding: utf-8
 
 config_version: "3.0"
-name: 注音方案高版          #方案名稱
+name: 蝦米方案低版          #方案名稱
 author: 洋蔥        #作者信息
 
 #鍵盤高度
 height:
-  1: &jpgd1 36   #表情鍵盤   #「31.6」 #41.2 #30 #36
-  2: &jpgd2 30.5   #顏文字鍵盤   #「27」 #26.7 #34 #24
-  3: &jpgd3 34   #顏文字鍵盤(固定最後一排)   #「27」 #28.8 #26.7 #34 #24
-  4: &jpgd4 45.8   #表情鍵盤(分類頁)   #「40.5」 #43.4 #52.4 #46 #39.5
-  5: &jpgd5 40.9   #表情鍵盤(固定第一排)   #「36」
-  6: &jpgd6 57   #數字鍵盤(四層)   #「50.5」 #49.7 #49.4 #62 #48
-  7: &jpgd7 43   #注音鍵盤(上面四層)   #「39」 #42 #49 #46
-  8: &jpgd8 52   #注音鍵盤(最底層)   #「41」 #39.4 #42
-  9: &jpgd9 60   #less嘸鍵盤(最底層) #55
-  10: &jpgd10 56 #less嘸鍵盤(上面四層) #52 #48
-
+  1: &jpgd1 30   #表情鍵盤   #『31.6』 #「34.2」 #41.2 #30 #36
+  2: &jpgd2 25.6   #顏文字鍵盤   #『26.7』 #「28.8」 #26.7 #34 #24
+  3: &jpgd3 26   #顏文字鍵盤(固定最後一排)   #『27.8』#「30.2」 #28.8 #26.7 #34 #24
+  4: &jpgd4 38.4   #表情鍵盤(分類頁)   #『40.3』 #「43.5」 #43.4 #52.4 #46 #39.5
+  5: &jpgd5 34   #表情鍵盤(固定第一排)   #『34.8』 #「36」
+  6: &jpgd6 47.5   #數字鍵盤(四層)   #『49.95』 #「53.5」 #49.7 #49.4 #62 #48
+  7: &jpgd7 36   #注音鍵盤(上面四層)   #『38.5』 #「40」 #42 #49 #46
+  8: &jpgd8 44   #注音鍵盤(最底層)   #『42』 #「50」 #39.4 #42
+  9: &jpgd9 53   #less嘸鍵盤(最底層) #55
+  10: &jpgd10 46 #less嘸鍵盤(上面四層) #52 #48
 #鍵盤字型相關
 keyboard:
   1: &tmx1 -2.7
   2: &tmy1 0.8
 font:
-  1: &sf1 9.5
-  2: &sf2 11 #數字鍵盤
-  3: &sf3 10.5 #數字鍵盤(多字)
+  1: &sf1 8.5
+  2: &sf2 8.5 #10.5 #數字鍵盤
+  3: &sf3 8.5 #10 #數字鍵盤(多字)
   4: &sf4 8
 
 #界面風格、功能開關
 style:
-  __include: 洋蔥注音_M.trime:/style
+  auto_caps: false #自動句首大寫:true|false|ascii
+  background_dim_amount: 0.5
+  candidate_font: han.ttf  #候選字體 #Arial Unicode.ttf
+  candidate_padding: 8 #7 #5 #候選項內邊距
+  candidate_spacing: 0 #候選間距
+  candidate_text_size: 18 #19 #18 #候選字號
+  candidate_use_cursor: true #高亮候選項
+  candidate_view_height: 33 #31 #34 #42 #28 #候選區高度
+  color_scheme: default #配色方案
+  comment_font: comment.ttf #編碼提示字體
+  comment_height: 14 #12 #14 #編碼提示區高度
+  comment_on_top: true #編碼提示在上方或右側
+  comment_text_size: 10 #12 #編碼提示字號
+#  destroy_on_quit: false #離開時清理內存
+#  display_tray_icon: false #狀態欄圖標
+  hanb_font: HanaMinB.ttf #hanb.ttf #擴充字體
+  horizontal: true #水平模式
+  horizontal_gap: 4 #4 #鍵水平間距
+  inline_preedit: none #嵌入模式：preview|composition|input|none
+  layout:
+    position: fixed #候選窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
+    min_length: 1 #4 #候選窗口最小詞長
+    max_length: 14 #超過字數則換行
+    sticky_lines: 0 #1 #固頂行數
+    max_entries: 0 #1 #5 #候選窗口最大詞條數
+    border: 1 #0 #候選窗口邊框寬度
+    max_width: 360 #最大寬度，超過則自動換行
+    max_height: 400 #最大高度
+    min_width: 40 #360 #最小寬度
+    min_height: 0 #50 #最小高度
+    margin_x: 7 #3 #5 #水平邊距
+    margin_y: 2 ##3 #5 #竪直邊距
+    line_spacing: 0 #候選詞的行間距(px)
+    line_spacing_multiplier: 1.1 ##1 #1.2 #候選詞的行間距(倍數)
+    spacing: 1 #0 #與預編輯或邊緣的距離
+    round_corner: 8 #0 #候選窗口圓角
+    alpha: 0xff #透明度(0-255)
+    elevation: 0 #陰影(>=Android5.0)
+    background: background.png #顏色或者backgrounds目錄下的圖片文檔名
+    movable: false #是否可移動窗口，或僅移動一次 true|false|once
+    all_phrases: false #顯示所有長詞
+#  window: #懸浮窗口組件
+#    - {start: "", move: 'ㄓ ', end: ""}
+#    - {start: "", composition: "%s", end: "", letter_spacing: 0.12} #letter_spacing需要Android5.0
+#    - {start: "\n", label: "%s.", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
+#####
+  window: #懸浮窗口組件
+    - {start: "", move: '', end: ""} #- {start: "", move: ' ', end: ""}去掉空格
+    - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要Android5.0。TODO: 不爲0時，會導致不換行的問題
+    - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
+######
+  key_font: LucidaGrande.ttc #symbol.ttf #鍵盤字體
+  key_height: 48 #鍵高
+  key_long_text_size: 11 #12 #18 #長標籤字號
+  key_text_size: 16 #18 #20 #22 #24 #鍵字號
+  key_width: 10.0 #鍵寬，佔屏幕寬的百分比
+  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, edit, move, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kmenu, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, bpmfmobiledouble, bpmfmobiledouble_full, bpmfmobile, bpmfmobile_ns, 42keys, duse] #鍵盤配置#, bpmfmobile, ovffmobile
+  label_text_size: 0 #22 #標籤字號
+  label_font: label.ttf #編標籤字體
+  latin_font: latin.ttf #西文本體
+  latin_locale: en_US #西文語言
+  locale: zh_TW #缺省語言 zh_TW,zh_CN,zh_HK,""
+#  longpress_timeout: 300 #150 #按鍵超過800毫秒即為長按
+#  multitap_interval: 400 #800毫秒內快速按兩次鍵
+  preview_font: LucidaGrande.ttc #latin.ttf #按鍵提示字體 #測#
+  preview_height: 54 #59 #56 #按鍵提示高度 #測#
+  preview_offset: -2 #-7 #-4 #-1 #標準 -12 #-32 #按鍵提示縱向偏移 #測#
+  preview_text_size: 24 #28 #32 #40 #26 #按鍵提示字號 #測#
+  proximity_correction: true #按鍵糾錯
+  repeat_interval: 50 #空白鍵、刪除鍵等自動重復間隔：50毫秒即1秒20次
+  repeat_start_delay: 400 #按鍵超過400毫秒後開始重復按鍵
+  reset_ascii_mode: false #顯示鍵盤時重置為中文狀態
+  round_corner: 12 #按鍵圓角半徑
+  shadow_radius: 0.0 #按鍵陰影半徑
+  show_candidate: true #顯示候選區
+  show_comment: true #顯示提示區
+  show_preview: true #按鍵提示
+  show_window: true #顯示浮動窗口
+  soft_cursor: true #false #編碼區軟光標 #測#
+  speech_opencc_config: none #語音輸入簡繁轉換
+  symbol_font: symbol.ttf #符號字體
+  symbol_text_size: 8.5 #10 #符號字號
+  text_font: latin.ttf #編碼字體
+#  text_height: 32 #編碼區高度
+  text_size: 17 ##20 #編碼區字號
+  vertical_correction: -7 ##-10 ##-5
+  vertical_gap: 4 #8 #鍵盤行距
 
 fallback_colors:
-  __include: 洋蔥注音_L.trime:/fallback_colors
+  __include: 洋蔥蝦米_M.trime:/fallback_colors
 
 #顏色
 colors:
-  __include: 洋蔥注音_L.trime:/colors
+  1: &color1 0xff000000 #黑
+  2: &color2 0xffffffff #白
+  3: &color3 0xFFd9d9d9 #灰
+  4: &color4 0xffb3b3b3 #灰+
+  5: &color5 0xFF1f272a #灰+++
+  6: &color6 0xFFf57d51 #橙
+  7: &color7 0x00 #透明
+  8: &color8 0xff253238 #灰++
+  9: &color9 0xff8b969a #灰+
+  10: &color10 0xff354346 #黑綠
+  11: &color11 0xffF2F9FF #淺藍
+  12: &color12 0xffFFE9D6 #淺橘
+  13: &color13 0xffD6EBFF #淺藍
+  14: &color14 0xffededed #灰白 #候選字背景
+  15: &color15 0xff595C5C #深灰
+  16: &color16 0xff7D8080 #深灰 #候選字上方提示（未選時）
+  17: &color17 0xff8b969a #灰藍 #提示氣泡背景
+  18: &color18 0xff57FFF3 #亮青綠 #提示氣泡文字
+  19: &color19 0xffC5FAD3 #淺綠
+  20: &color20 0xffA3A3A3 #灰+
+  21: &color21 0xff009fe8 #藍
+  22: &color22 0xffF58B2F #淺橘
+  23: &color23 0xff0087C4 #灰藍
+  24: &color24 0xff20BDA8 #藍綠
+  25: &color25 0xff545a5f #深灰藍 #候選區背景狀態欄
+  26: &color26 0xff73f782 #青綠 #編碼
+  27: &color27 0xff949492 #灰褐
+  28: &color28 0xff7D7C7C #深灰褐
+  29: &color29 0xff21D1A8 #藍綠
+  30: &color30 0xff7D8080 #中灰
+  31: &color31 0xff8B959E #深藍灰
+  32: &color32 0xff9EA9B2 #藍灰
+  33: &color33 0xfff2f5c4 #鵝黃
+  34: &color34 0xffE3F1FF #淺藍
+  35: &color35 0xffDAEBEB #淺青
+  36: &color36 0xffF0F0F0 #淺灰
+  37: &color37 0xff7D7975 #深灰褐
+  38: &color38 0xff5C5A57 #重深灰褐
+  39: &color39 0xff9E9E9C #深灰褐
+  40: &color40 0xffA8A8A6 #灰褐
+  41: &color41 0xffA3A09B #灰褐
+  42: &color42 0xffA1AEB3 #灰藍
+  43: &color43 0xffE0E0E0 #淺灰
+  44: &color44 0xffDDDDDD #淺灰
+  45: &color45 0xffF2F2F2 #淺灰
+  46: &color46 0xff9E9D88 #黃灰
+  47: &color47 0xff9C948F #灰褐
+  48: &color48 0xffEDE8E4 #淺灰褐
+  49: &color49 0xffD4CFCC #淺灰褐
+  50: &color50 0xffFFFFFC #超淡黃
 
 #配色方案
 preset_color_schemes:
-  __include: 洋蔥注音_L.trime:/preset_color_schemes
+  default:
+    name: "標準配色！"  #方案名稱
+    author: 風花絮 #作者信息
+    back_color: *color48 #候選區背景狀態欄 #*color2
+    border_color: *color4 #邊框 #*color5
+    candidate_separator_color: *color48 #候選分割背景 #*color2
+    candidate_text_color: *color1 #候選文本 #*color2
+    comment_text_color: *color16 #提示 #*color3 #*color9
+    hilited_back_color: *color48 #高亮編碼背景 #*color2
+    hilited_candidate_back_color: *color6 #高亮候選背景 #*color2
+    hilited_candidate_text_color: *color2 #高亮候選文本 #*color6
+    hilited_comment_text_color: *color1 #高亮提示
+    hilited_key_back_color: *color28 #高亮按鍵背景 #*color9 #*color6
+    hilited_key_symbol_color: *color2 #高亮按鍵符號
+    hilited_key_text_color: *color2 #高亮按鍵文本 #*color1
+    hilited_off_key_back_color: *color6 #高亮按鍵關閉狀態背景 #*color2
+    hilited_off_key_text_color: *color2 #高亮按鍵關閉狀態文本 #*color1
+    hilited_text_color: *color1 #高亮編碼
+    key_back_color: *color50 #按鍵背景 #*color2
+    key_symbol_color: *color9 #按鍵符號 #*color8
+    key_text_color: *color1 #按鍵文本
+    keyboard_back_color: *color49 #鍵盤背景 #*color3
+    label_color: *color6 #標籤
+    off_key_back_color: *color4 #按鍵關閉狀態背景 #*color2 #*color4
+    off_key_text_color: *color2 #按鍵關閉狀態文本 #*color1 #*color8
+    preview_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
+    preview_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    text_color: *color16 #編碼 #*color6 #*color1 #*color2
+    text_back_color: *color48 #編碼區背景 #*color2
+    on_key_back_color: *color6 #shift
+    on_key_text_color: *color2 #shift
+
+    bkg: *color2 #空格鍵背景色
+    tkg: *color1 #空格鍵文字顏色
+    benter: *color6 #*color23 #回車鍵背景色
+    tenter: *color2 #回車鍵文字顏色
+    bgn: *color4 #功能鍵背景色
+    bgn2: *color47 #功能鍵背景色2
+    tgn: *color2 #功能鍵文字顏色
+    bbs: *color27 #*color28 #*color9 #*color4 #退格鍵背景色
+    tbs: *color2 #退格鍵文字顏色
+    bmk: *color6 #類別顯目欄位標註背景色
+    tajs: *color8 #深黑 #按鍵上方符號不夠深加深
+    tajs2: *color3 #淺灰 #按鍵上方符號太白加黑
+    bjt: *color47 #箭頭背景色
+#
+    bsz1: *color20 #蝦米上排數字1~5鍵背景色
+    bsz2: *color4 #蝦米上排數字6~0鍵背景色
+    bzymixin: *color19 #注音mixin四個聲調鍵背景色
+    bzymix: *color13 #注音mix四個聲調鍵背景色
+    bzyplus: *color12 #注音plus四個聲調鍵背景色
+#
+    grey1: *color9 #深一點的灰色
+    blue1: *color11 #淺藍
+    blued: *color21 #灰藍色
+#
+  #  bh1: *color2 #第一行背景色
+  #  th1: *color2 #第一行文字顏色
+  #  bh2: *color2 #第二行背景色
+  #  th2: *color2 #第二行文字顏色
+  #  bh3: *color2 #第三行背景色
+  #  th3: *color2 #第三行文字顏色
+  #  bh4: *color2 #第四行背景色
+  #  th4: *color2 #第四行文字顏色
+
+  aqua:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/aqua
+  azure:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/azure
+  luna:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/luna
+  ink:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/ink
+  lost_temple:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/lost_temple
+  dark_temple:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/dark_temple
+  starcraft:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/starcraft
+  google:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/google
+  solarized_rock:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/solarized_rock
+  tintin:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/tintin
+  dota_2:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/dota_2
+  brasil:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/brasil
+  doraemon:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/doraemon
+  espagna:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/espagna
+  gholabok:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/gholabok
+  kuma_shuzboz:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/kuma_shuzboz
+  kuon:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/kuon
+  macau:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/macau
+  nba:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/nba
+  ps4:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/ps4
+  skype:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/skype
+  xbox_silver:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/xbox_silver
+  youtube:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/youtube
+  so_young:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/so_young
+  smurfs:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/smurfs
+  wii:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/wii
+  android:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/android
+  cool_breeze:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/cool_breeze
+  google_plus:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/google_plus
+  modern_warfare:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/modern_warfare
+  brisk:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/brisk
+  starcraft_ii:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/starcraft_ii
+  steam:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/steam
+  flypy:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/flypy
+  tantsing:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/tantsing
+  yygc:
+    __include: 洋蔥蝦米_M.trime:/preset_color_schemes/yygc
 
 
 
@@ -1178,7 +1448,7 @@ preset_keyboards:
       - {click: 單位, long_click: 五, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
       - {click: 數學, long_click: 分數, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2} #, symbol_text_size: '8'
       - {click: 八卦, long_click: 易經, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2} #, symbol_text_size: '8'
-      - {click: 占星, long_click: 文化, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
+      - {click: 占星術, long_click: 文化, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
       - {label: '123', click: Keyboard_number, long_click: Keyboard_kao, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
       - {click: 星號, long_click: 六, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
@@ -1257,7 +1527,7 @@ preset_keyboards:
       - {click: 貓頭, long_click: u的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
       - {click: 獸面, long_click: v的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
       - {click: 怪物, long_click: w的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
-      - {click: 大頭, long_click: x的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3}
+      - {click: 頭像, long_click: x的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 人物, long_click: y的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
@@ -1291,27 +1561,27 @@ preset_keyboards:
 
       - {click: 衣物, long_click: 褲子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 衣服, long_click: 帽子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 鞋子圖, long_click: 眼鏡圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 鞋子圖, long_click: 眼鏡, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 包包, long_click: 十二宮, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 兩性, long_click: 星座名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 愛情, long_click: 卦名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 愛心, long_click: 六十四卦名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 愛心圖, long_click: 六十四卦名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 時鐘, long_click: 干支, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {label: '123', click: Keyboard_number, long_click: Keyboard_kao, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
       - {click: 警消護, long_click: 天干, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 辦公室, long_click: 地支, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 圖示, long_click: 太玄經, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 圖標, long_click: 回收, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 介面, long_click: 回收, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 通訊, long_click: 蘇州碼, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 科學, long_click: 倉頡, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 科學圖, long_click: 倉頡, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 名勝, long_click: 輸入法, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 建築, long_click: 生肖圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 建築, long_click: 生肖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 效果, long_click: 遊戲, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 娛樂, long_click: 遊樂園, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 節日, long_click: 節氣, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 節日圖, long_click: 節氣, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 宗教, long_click: 十字架, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 地球, long_click: 美國, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 景色, long_click: 日本, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
@@ -1319,7 +1589,7 @@ preset_keyboards:
       - {click: 大自然, long_click: 日本年, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
-      - {click: 月相圖, long_click: 月份, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 月相, long_click: 月份, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 夜空, long_click: 日期, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 鈔票, long_click: 時間, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 錢財, long_click: 曜日, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
@@ -1349,10 +1619,10 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bmk, key_text_color: tenter}
 
       - {click: 有害, long_click: k假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 標誌, long_click: s假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 標誌圖, long_click: s假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 交通圖, long_click: t假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 公交, long_click: n假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 捷運, long_click: h假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 軌道, long_click: h假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 火車, long_click: m假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 車輛, long_click: y假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 船隻, long_click: 合字, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
@@ -1362,8 +1632,8 @@ preset_keyboards:
       - {click: 酒類, long_click: z假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 飲料, long_click: d假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 熱飲, long_click: b假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 餐具圖, long_click: p假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 樂器, long_click: r假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 餐具, long_click: p假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 樂器圖, long_click: r假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 球具, long_click: w假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 獎牌, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
@@ -1381,7 +1651,7 @@ preset_keyboards:
       - {click: 阿拉伯, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 指示, long_click: 電子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 打勾, long_click: 電器圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: いろは, long_click: 工具圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: いろは, long_click: 工具, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Keyboard_symbols4, label: 4/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
@@ -1417,28 +1687,28 @@ preset_keyboards:
       - {click: 食物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {label: '123', click: Keyboard_number, long_click: Keyboard_kao, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
-      - {click: 早餐, long_click: 顏喜, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 早點, long_click: 顏喜, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 午餐, long_click: 顏樂, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 零食, long_click: 顏怒, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 甜點, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 甜食, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 速食, long_click: 顏回話, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 日本菜, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 中餐, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 西餐, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 西食, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 串物, long_click: 幾何圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 捲物, long_click: 色塊, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 捲物, long_click: 顏色塊, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 米飯, long_click: 色塊心, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 麵包, long_click: 色塊圓, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 動物圖, long_click: 色塊方, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 動物, long_click: 色塊方, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 牲畜, long_click: 填色, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 禽類, long_click: 單線框, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 鳥類, long_click: 雙線框, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 家禽, long_click: 單線, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 鳥類圖, long_click: 雙線, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 魚圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 精怪圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 精怪, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 精怪女, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 精怪男, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: Keyboard_symbols5, label: 5/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
@@ -4884,4 +5154,4 @@ android_keys:
   __include: trime:/android_keys
 
 preset_keys:
-  __include: 洋蔥注音_M.trime:/preset_keys
+  __include: 洋蔥蝦米_M.trime:/preset_keys

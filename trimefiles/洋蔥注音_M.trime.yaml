@@ -780,6 +780,10 @@ preset_color_schemes:
     off_key_text_color: 0x7f7f7f
     text_color: 0x7f7f7f
 
+
+
+#####################
+#####################
 #####################
 #鍵盤佈局
 preset_keyboards:
@@ -825,7 +829,7 @@ preset_keyboards:
       - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
+      - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
       - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
       - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
@@ -848,8 +852,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', symbol_text_size: *sf1, width: 9.75}
       - {click: '7', long_click: '&', symbol_text_size: *sf1, width: 9.75}
       - {click: '8', long_click: '*', symbol_text_size: *sf1, width: 9.75}
-      - {click: '9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75}
-      - {click: '0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11}
+      - {click: '9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75}
+      - {click: '0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11}
       - {click: 'q', long_click: '`', symbol_text_size: *sf1, width: 11}
       - {click: 'w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {click: 'e', long_click: '[', symbol_text_size: *sf1, width: 9.75}
@@ -905,8 +909,8 @@ preset_keyboards:
       - {label: 'ˊ', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75}
       - {label: '˙', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄚ', click: 'text_8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Theme_settings, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Menu, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Menu_duse, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Theme_settings, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', click: 'text_q', long_click: '`', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', click: 'text_w', long_click: '~', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', click: 'text_e', long_click: '[', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -961,8 +965,8 @@ preset_keyboards:
       - {label: 'ˊ', click: 'text_6', long_click: '^', symbol_text_size: *sf1, width: 9.75}
       - {label: '˙', click: 'text_7', long_click: '&', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄚ', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', click: 'text_q', long_click: '`', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', click: 'text_w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', click: 'text_e', long_click: '[', symbol_text_size: *sf1, width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1018,8 +1022,8 @@ preset_keyboards:
       - {label: 'ˊ', hint: '日 6     ', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzyplus}
       - {label: '˙', hint: '韓 7     ', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzyplus}
       - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', symbol_text_size: *sf1, width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1074,8 +1078,8 @@ preset_keyboards:
       - {label: 'ˊ', hint: '6', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymix}
       - {label: '˙', hint: 'ⓜ 7     ', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymix}
       - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: "'", swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: 'text_m3', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: "'", swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: 'text_m3', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '\', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '|', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '`', symbol_text_size: *sf1, width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1133,8 +1137,8 @@ preset_keyboards:
       - {label: 'ˊ', hint: '     6 日', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', symbol_text_size: *sf1, width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1192,8 +1196,8 @@ preset_keyboards:
       - {label: 'ˊ', hint: '     6 大', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', symbol_text_size: *sf1, width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1248,8 +1252,8 @@ preset_keyboards:
       - {label: 'ˊ', hint: '     6 日', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf1, width: 9.75, key_back_color: bzymixin}
       - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, symbol_text_size: *sf1, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, symbol_text_size: *sf1, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', symbol_text_size: *sf1, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', symbol_text_size: *sf1, width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', symbol_text_size: *sf1, width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1334,8 +1338,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', hint: 'ㄧㄠ', click: 'q', long_click: 'text_eq_d', symbol_text_size: *sf4, width: 11}
       - {label: 'W', hint: 'ㄠ', click: 'w', long_click: 'text_add_d', symbol_text_size: *sf4, width: 9.75}
       - {label: 'E', hint: 'ㄜ|*ㄭ', click: 'e', long_click: 'text_hy_d', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
@@ -1392,8 +1396,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', hint: 'ㄧㄠ', click: 'q', long_click: 'text_eq_d', symbol_text_size: *sf4, width: 11}
       - {label: 'W', hint: 'ㄠ', click: 'w', long_click: 'text_add_d', symbol_text_size: *sf4, width: 9.75}
       - {label: 'E', hint: 'ㄜ|*ㄭ', click: 'e', long_click: 'text_hy_d', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
@@ -1450,8 +1454,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -1508,8 +1512,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -1565,8 +1569,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Menu_duse, swipe_up: Keyboard_duse, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: Theme_settings, swipe_up: Keyboard_duse, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -1752,7 +1756,7 @@ preset_keyboards:
       - {click: '*', hint: 'V X'}
       - {click: 0, hint: 'O Q', long_click: cut}
       - {click: '#', hint: 'D J'}
-      - {click: Return, long_click: Menu, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs}
+      - {click: Return, long_click: Menu_duse, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs}
 #####################
   number:
     author: "洋蔥"
@@ -1877,6 +1881,10 @@ preset_keyboards:
       - {click: Delete_duse, hint: Delete, key_text_size: "20"}
       - {click: Keyboard_last_lock, key_text_size: "12", width: 16.6, key_back_color: benter, key_text_color: tenter, key_symbol_color: tgn}
 #      - {click: space2, key_text_size: "30", width: 11.88, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
+
+
+
+#####################
 #####################
 #####################
 #符號鍵盤之二
