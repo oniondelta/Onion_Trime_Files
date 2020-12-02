@@ -34,6 +34,8 @@
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png" alt="介紹1" width="400" />
 
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-4.png" alt="介紹1-4" width="400" />
+
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-2.png" alt="介紹1-2" width="400" />
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-3.png" alt="介紹1-3" width="400" />
