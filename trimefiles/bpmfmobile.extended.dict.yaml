@@ -5,7 +5,7 @@
 # 中文字詞標註使用拼音
 ---
 name: bpmfmobile.extended
-version: "202009"
+version: "202012"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -14,6 +14,7 @@ import_tables:
   - terra_pinyin_onion
   - terra_pinyin_onion_add
   - phrases.chtp
+#  - phrases.chpp
 #  - phrases.cht
 ...
 ######## 測試字（測試是否少掉台灣以外的用字） ########
