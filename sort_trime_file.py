@@ -20,6 +20,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./sort_trime/洋蔥同�
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtpp.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/phrases.chtpp.dict.yaml")
 
 shutil.copyfile("./trimefiles/punct_bpmf.yaml", "./sort_trime/洋蔥同文注音純注音版/punct_bpmf.yaml")
 shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥同文注音純注音版/rime.lua")
@@ -49,6 +50,7 @@ shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音雙拼
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtpp.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/phrases.chtpp.dict.yaml")
 
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/terra_pinyin_onion.dict.yaml")
@@ -83,6 +85,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./sort_trime/洋蔥同�
 shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.cht_en_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtpp.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.chtpp.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.en_l_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.en_o_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/phrases.en_u_w.dict.yaml")
@@ -134,6 +137,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./sort_trime/洋蔥同�
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtpp.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.chtpp.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.en_l_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.en_o_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥同文注音plus版/phrases.en_u_w.dict.yaml")
