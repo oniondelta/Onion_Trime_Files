@@ -908,9 +908,9 @@ preset_keyboards:
       - {click: "'", hint: '輕聲', long_click: '"', swipe_up: Keyboard_duse, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, key_text_size: 10, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
-      - {click: '.', hint: '三聲', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
+      - {click: '.', hint: '三聲', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 15.5, height: *jpgd8, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
   bpmfmobiledouble_full:
@@ -965,9 +965,9 @@ preset_keyboards:
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, key_text_size: 10, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
-      - {click: '.', hint: '三聲', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
+      - {click: '.', hint: '三聲', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 16, height: *jpgd8, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
 #####################
@@ -1024,9 +1024,9 @@ preset_keyboards:
       - {click: '/', hint: '        韓', long_click: '\', swipe_up: Keyboard_duse, width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd8}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, width: 9.2, height: *jpgd8}
-      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, width: 9.2, height: *jpgd8} #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd8}
+      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd8} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 15.5, height: *jpgd8, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
   ovffmobile_full:
@@ -1081,9 +1081,9 @@ preset_keyboards:
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd8}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd8}
-      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd8} #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8}
+      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 16, height: *jpgd8, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
   ovffmobile_up:
@@ -1138,9 +1138,9 @@ preset_keyboards:
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: Tab_2, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: cut_all, width: 10.25, height: *jpgd8} # swipe_up: Page_Up
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '符    平', long_click: 'text_que', swipe_up: '/', swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd8} # swipe_up: Page_Down
-      - {click: '.', hint: '        片', long_click: 'text_exc', swipe_up: '\', swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd8} #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '符    平', long_click: 'text_que', swipe_up: '/', swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8} # swipe_up: Page_Down
+      - {click: '.', hint: '        片', long_click: 'text_exc', swipe_up: '\', swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 16, height: *jpgd8, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
   ovffmobile_lessd8:
@@ -1196,9 +1196,9 @@ preset_keyboards:
       - {click: '/', hint: '        韓', long_click: DeleteCandidate, swipe_up: Keyboard_duse, width: 9.2} #, long_click: 'text_bs', swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd9}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, width: 25, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, width: 9.2, height: *jpgd9} #long_click: '?'
-      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, width: 9.2, height: *jpgd9} #long_click: '!' #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd9} #long_click: '?'
+      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd9} #long_click: '!' #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 15.5, height: *jpgd9, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
   ovffmobile_less:
@@ -1253,9 +1253,9 @@ preset_keyboards:
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd9}
-      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left, swipe_right: Right, width: 27, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd9} #long_click: '?'
-      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Page_Up, swipe_right: Page_Down, width: 10.25, height: *jpgd9} #long_click: '!' #hint: '    片'
+      - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
+      - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd9} #long_click: '?'
+      - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd9} #long_click: '!' #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 16, height: *jpgd9, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
 #####################
