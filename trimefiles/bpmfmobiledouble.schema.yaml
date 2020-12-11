@@ -4,15 +4,13 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202010"
+  version: "202012"
   author:
     - 『洋蔥』
   description: |
     注音符號輸入，採用「洋蔥雙拼」鍵盤排列。
 
   dependencies:
-    # - sy_bpmf
-    # - mobile_bpmf
 
 switches:
   - name: ascii_mode
@@ -23,18 +21,13 @@ switches:
     states: [" 半 ", " 全 "]
   - name: ascii_punct
     reset: 0
-    states: [ " 。", " ．" ] #[ 。，, ．， ]
+    states: [ " 。", " ．" ]
   - name: simplification
     reset: 0
     states: [" 原 ", " 简 "]
   - name: zh_tw
 #    reset: 0
     states: [" 完 ", " 精 "]
-#   - options: [ utf8, big5]
-# #    reset: 0
-#     states:
-#       - " U "
-#       - " B "
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
@@ -42,14 +35,10 @@ switches:
     reset: 1
 #    states: [ 無, 註 ]
 
-#  - options: [ _key_、 ]
-#    states: [ "、" ]
-
 engine:
   filters:
     - simplifier@zh_tw
 #    - lua_filter@charset_filter2
-#    - charset_filter@big5
     - simplifier
     - simplifier@emoji_switch
     - simplifier@punct_mark
@@ -63,36 +52,26 @@ engine:
     - selector
     - navigator
     - express_editor
-#    - fluency_editor
   segmentors:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    # - affix_segmentor@emoji_sy
-    # - affix_segmentor@bpmf_m
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    # - table_translator@emoji_sy
-    # - script_translator@bpmf_m
     - script_translator
 
 menu:
-#  alternative_select_keys: "ABCDEFGHI"
   page_size: 6
 
 simplifier:
   tips: all
 
 zh_tw:
-  opencc_config: bpm_big5e_hkscs_jis.json #ocm_big5e_hkscs_jis.json #big5e_hkscs_jis.json #big5ehkscsjpk.json #s2tw.json #t2tw.json
+  opencc_config: bpm_big5e_hkscs_jis.json
   option_name: zh_tw
   tags: [ abc ]
-#  tips: all
-
-# big5:
-#   tags: [ abc ]
 
 emoji_switch:
   opencc_config: emoji_s.json
@@ -114,8 +93,7 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz;',./"
   initials: "abcdefghijklmnopqrstuvwxyz"
   finals: ";',./"
-  delimiter: "\\" #" `"
-#  use_space: true
+  delimiter: "\\"
   algebra:
     - xform/iu/iou/
     - xform/ui/uei/
@@ -140,7 +118,6 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
-#    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
 ###########################
     - xform/^([bpmfdtnlgkhjqxZCSrzcs])v(\d)$/$1y$2/
     - xform/^v/y/
@@ -157,61 +134,17 @@ speller:
     - xform/^([bpmfdtnlgkhjqxZCSrzcs])([vu])M/$1n/
     - xform/^([bpmfdtnlgkhjqxZCSrzcs])iN/$1r/
     - xform/^([bpmfdtnlgkhjqxZCSrzcs])iG/$1t/
-
     - xform/^([aoeEAIOUMNKGR])(\d)$/o$1$2/
-#    - xform/^([yuirZSCzsc])(\d)$/$1i$2/
-    - xform/^([rZSCzsc])(\d)$/$1i$2/ #
-    - xform/^([yui])(\d)$/$1e$2/ #
-#    - derive/^([yui])i(\d)$/$1e$2/
-##    - derive/^([yui])i(\d)$/o$1$2/
-
+    - xform/^([rZSCzsc])(\d)$/$1i$2/
+    - xform/^([yui])(\d)$/$1e$2/
     - 'xlit|ORUAKMNGEIZSC|wrdjshfgkkwav|'
-###########################
-#用e交換碼#    - abbrev/^([abcdfghijklmnopqrstuvwxyz])([a-z])(\d)$/$2$1e$3/
-#用e交換碼#    - abbrev/^([abcdfghijklmnopqrstuvwxyz])([a-z])(\d)$/$2$1e/
-### 嵌入注音碼（未完成） ###
-    # - xform/^!01/e1/
-    # - xform/^!02/e2/
-    # - xform/^!03/e3/
-    # - xform/^!04/e4/
-    # - xform/^!05/e5/
-    # - xform/^!06/eb1/
-    # - xform/^!07/ep1/
-    # - xform/^!08/em1/
-    # - xform/^!09/ef1/
-    # - xform/^!10/ed1/
-### 增補ㄧㄨㄩ+韻母，另外編碼（不推薦，因為如果ㄧㄨㄩ可以單出，且使用簡化，會影響詞的輸出） ###
-# #    - derive/^uo(\d)$/uo@$1/ #
-#     - derive/^uk(\d)$/ul@$1/
-#     - derive/^ua(\d)$/uz@$1/
-#     - derive/^us(\d)$/ux@$1/
-#     - derive/^uf(\d)$/uv@$1/
-#     - derive/^ug(\d)$/ub@$1/
-#     - derive/^uh(\d)$/un@$1/
-#     - derive/^uj(\d)$/um@$1/
-#     - derive/^iw(\d)$/iq@$1/
-#     - derive/^if(\d)$/ir@$1/
-#     - derive/^ig(\d)$/it@$1/
-#     - derive/^ik(\d)$/ip@$1/
-#     - derive/^ia(\d)$/iz@$1/
-#     - derive/^is(\d)$/ix@$1/
-#     - derive/^id(\d)$/ic@$1/
-#     - derive/^ih(\d)$/im@$1/
-#     - derive/^yk(\d)$/yl@$1$2/
-#     - derive/^yf(\d)$/yv@$1$2/
-#     - derive/^yg(\d)$/yb@$1$2/
-#     - derive/^yh(\d)$/yn@$1$2/
-#     - abbrev/^([a-z])([a-z])@?\d$/$1$2/
 ###########################
     - abbrev/^([a-z])([a-z])\d$/$1$2/
     - abbrev/^([abcdfghijklmnopqrstuvwxyz])([a-z])(\d)$/$1/ #
 #    - abbrev/^([yui])([i])([\d])$/$1/
 #    - abbrev/^([yui])([i])([\d])$/$1$3/
 #    - abbrev/^([abcdfghjklmnopqrstvwxz])([a-z])(\d)$/$1$3/
-## 會影響出字預測ㄨㄛ ##    - abbrev/^([o])([asdfghjklwero])(\d)$/$1$3/
-## 會影響出字預測 ##    - abbrev/^([abcdfghijklmnopqrstuvwxyz])([a-z])(\d)$/$1$3/ #derive
 ###########################
-#    - xform/@//
     - "xlit|12345|;/.,'|"
 
 translator:
@@ -221,7 +154,6 @@ translator:
   enable_sentence: false
   enable_user_dict: true
   preedit_format:
-###############
     - xform|^([a-z\\,./';]*)$|\U$1\E\t（$1）|
     - xform|([A-Z])[,]|$1，|
     - xform|([A-Z])[.]|$1．|
@@ -229,9 +161,7 @@ translator:
     - xform|([A-Z])[;]|$1；|
     - xform|([A-Z])[']|$1＇|
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ|"
-###############
-###    - 'xform/([a-z])([a-z])e/$2$1☯/'
-###############
+#######
     - 'xform/([a-z])([a-z])/$1\U$2\E/'
     - "xlit|ASDFGHJYUIEW|ㄚㄤㄡㄣㄥㄢㄞㄩㄨㄧㄜㄠ|"
     - 'xform/([wraszcviuy])ㄧ/$1ㄭ/' #iuy
@@ -267,391 +197,24 @@ translator:
     - 'xform/([jqx]):ㄨㄣ\|ㄩㄣ/$1:ㄩㄣ/'
     - 'xform/([dtnlgkhwvarzcs]):ㄨㄥ\|ㄩㄥ/$1:ㄨㄥ/'
     - 'xform/([jqx]):ㄨㄥ\|ㄩㄥ/$1:ㄩㄥ/'
-    - 'xform/([dtngkhwvarzcs]):ㄨㄢ\|ㄩㄢ/$1:ㄨㄢ/' #l
+    - 'xform/([dtngkhwvarzcs]):ㄨㄢ\|ㄩㄢ/$1:ㄨㄢ/'
     - 'xform/([jqx]):ㄨㄢ\|ㄩㄢ/$1:ㄩㄢ/'
     - 'xform/([bpmdtnljqx]):ㄧㄢ\|ㄨㄞ/$1:ㄧㄢ/'
     - 'xform/([gkhwva]):ㄧㄢ\|ㄨㄞ/$1:ㄨㄞ/'
-#######
-    # - 'xform/([i]):ㄧㄠ/〔ㄧㄠ〕/'
-    # - 'xform/([i]):ㄧㄣ\|ㄦ/〔ㄧㄣ〕/'
-    # - 'xform/([i]):ㄧㄥ/〔ㄧㄥ〕/'
-    # - 'xform/([i]):ㄧㄝ/〔ㄧㄝ〕/'
-    # - 'xform/([y]):ㄩㄝ\|ㄨㄟ/〔ㄩㄝ〕/'
-    # - 'xform/([u]):ㄩㄝ\|ㄨㄟ/〔ㄨㄟ〕/'
-    # - 'xform/([i]):ㄧㄚ\|ㄨㄚ/〔ㄧㄚ〕/'
-    # - 'xform/([u]):ㄧㄚ\|ㄨㄚ/〔ㄨㄚ〕/'
-    # - 'xform/([i]):ㄧㄤ\|ㄨㄤ/〔ㄧㄤ〕/'
-    # - 'xform/([u]):ㄧㄤ\|ㄨㄤ/〔ㄨㄤ〕/'
-    # - 'xform/([i]):ㄧㄡ/〔ㄧㄡ〕/'
-    # - 'xform/([y]):ㄨㄣ\|ㄩㄣ/〔ㄩㄣ〕/'
-    # - 'xform/([u]):ㄨㄣ\|ㄩㄣ/〔ㄨㄣ〕/'
-    # - 'xform/([y]):ㄨㄥ\|ㄩㄥ/〔ㄩㄥ〕/'
-    # - 'xform/([u]):ㄨㄥ\|ㄩㄥ/〔ㄨㄥ〕/'
-    # - 'xform/([y]):ㄨㄢ\|ㄩㄢ/〔ㄩㄢ〕/'
-    # - 'xform/([u]):ㄨㄢ\|ㄩㄢ/〔ㄨㄢ〕/'
-    # - 'xform/([i]):ㄧㄢ\|ㄨㄞ/〔ㄧㄢ〕/'
-    # - 'xform/([u]):ㄧㄢ\|ㄨㄞ/〔ㄨㄞ〕/'
 #######
     - "xlit|bpmfdtnlgkhjqxrzcsiuywvao|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄖㄗㄘㄙㄧㄨㄩㄓㄔㄕ◌|"
     - "xlit|;/.,'|ˉˊˇˋ˙|"
     - 'xform/\\/ /'
 #######
-    # - 'xform/ㄐㄡ/ㄐㄡ\!/'
-    # - 'xform/ㄐㄥ/ㄐㄥ\!/'
-    # - 'xform/ㄐ:ㄟ\|ㄝ\!/'
-    # - 'xform/ㄑㄡ/ㄑㄡ\!/'
-    # - 'xform/ㄑㄞ/ㄑㄞ\!/'
-    # - 'xform/ㄑㄣ/ㄑㄣ\!/'
-    # - 'xform/ㄕ:ㄧㄡ\|ㄦ/ㄕ:ㄧㄡ\|ㄦ\!/'
-    # - 'xform/ㄕ:ㄧㄝ/ㄕ:ㄧㄝ/'
-    # - 'xform/ㄕ:ㄨㄥ\|ㄩㄥ/ㄕ:ㄨㄥ\|ㄩㄥ/'
-    # - 'xform/ㄕ:ㄧㄥ/ㄕ:ㄧㄥ/'
-#######
     - "xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ，．／；＇|ABCDEFGHIJKLMNOPQRSTUVWXYZ,./;'|"
-############################
-
-# bpmf_m:
-#   tag: bpmf_m
-#   dictionary: mobile_bpmf
-#   enable_completion: false
-#   enable_sentence: false
-#   enable_user_dict: false
-#   prefix: "'\""
-#   suffix: "'\""
-#   tips: "〔注音文〕▶"
-#   closing_tips: "◀〔注音文〕"
-#   preedit_format:
-#     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-6347 |ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙ˉ|"
-#     - 'xform/\+//' #    - 'xform/\\//'
-#     - xform/˙˙/ˉ/
-# #    - xform/ˊˊ/␣/
-#     - xform/'\"//
-
-# emoji_sy:
-#   tag: emoji_sy
-#   dictionary: sy_bpmf
-#   enable_completion: false
-#   enable_sentence: false
-#   enable_user_dict: true
-#   prefix: "3"
-#   suffix: " "
-#   tips: "〔符集〕▶" #"〔EMOJI集〕▶" #"《EMOJI集》▶"
-#   closing_tips: "◀〔符集〕" #"◀〔EMOJI集〕" #"◀《EMOJI集》"
-#   preedit_format:
-# ##### 以下四字 #####
-#     - xform/m2sm/【運動ㄋㄩ(女)】/
-#     - xform/m2s0/【運動ㄋㄢ(男)】/
-#     - xform/resm/【精怪ㄋㄩ(女)】/
-#     - xform/res0/【精怪ㄋㄢ(男)】/
-#     - xform/eemg/【公共運輸／公交】(公共交通)/
-#     - xform/bgxx/【日式料理／日本料理／日本菜】/
-#     - xform/b1xx/【日本料理／日式料理／日本菜】/
-#     - xform/b1vf/【日本星期】/
-#     - xform/xgnea/【六十四卦名／易經卦名】/
-#     - xform/xagy2/【羅馬數字大】/
-#     - xform/xgne/【六十四卦／易經】/
-#     - xform/urea/【易經卦名／六十四卦名】/
-#     - xform/g-gv/【十二生肖／生肖圖】(生肖)/
-#     - xform/yacf/【字母黑圈／字母圈黑】(字母帶圓圈)/
-#     - xform/yafc/【字母圈黑／字母黑圈】(字母帶圓圈)/
-#     - xform/yacz/【字母黑方／字母方黑／字母框黑／字母黑框】(字母帶圓角方框)/
-#     - xform/yazc/【字母方黑／字母黑方／字母框黑／字母黑框】(字母帶圓角方框)/
-#     - xform/yadc/【字母框黑／字母黑框／字母黑方／字母方黑】(字母帶圓角方框)/
-#     - xform/yacd/【字母黑框／字母框黑／字母黑方／字母方黑】(字母帶圓角方框)/
-#     - xform/rwer/【交通工具／交通圖】(交通)/
-#     - xform/cy1f/【猴子表情／猴子頭】/
-#     - xform/gyfc/【數字圈黑／數字黑圈】/
-#     - xform/gycf/【數字黑圈／數字圈黑】/
-#     - xform/yaf2/【字母圈大】/
-#     - xform/yae2/【字母括大】/
-#     - xform/xagy/【羅馬數字】/
-# ##### 以下三字 #####
-#     - xform/bmq/【日用品】/
-#     - xform/ndv/【色塊心】/
-#     - xform/ndm/【色塊圓】/
-#     - xform/ndz/【色塊方】/
-#     - xform/2fw/【電器圖】(電器)/
-#     - xform/erw/【工具圖】(工具)/
-#     - xform/urw/【眼鏡圖】(眼鏡)/
-#     - xform/b1s/【日本年】/
-#     - xform/8x1/【阿拉伯】/
-#     - xform/c5b/【黃種人／亞裔】/
-#     - xform/xau/【拉美裔／棕色人】/
-#     - xform/ynb/【棕色人／拉美裔】/
-#     - xform/15b/【白種人／白人】/
-#     - xform/ym2/【做運動】/
-#     - xform/2jx/【動物臉／獸面】/
-#     - xform/gjr/【食物捲】/
-#     - xform/b1h/【日本菜／日本料理／日式料理】/
-#     - xform/2yb/【大自然】/
-#     - xform/uxm/【遊樂園】/
-#     - xform/zvf/【飛行器】/
-#     - xform/vyw/【鞋子圖】(鞋子)/
-#     - xform/rew/【精怪圖】(精怪)/
-#     - xform/mvw/【月相圖】(月相)/
-#     - xform/wgw/【甜食圖／甜點】(甜食)/
-#     - xform/rfw/【家禽圖／禽類】(家禽)/
-#     - xform/hrw/【餐具圖】(餐具)/
-#     - xform/mxw/【魚類圖／魚圖】(魚類)/
-#     - xform/wnd/【填色塊／填色】/
-#     - xform/2vd/【單線框】/
-#     - xform/gvd/【雙線框】/
-#     - xform/rvc/【警消護】/
-#     - xform/1eg/【辦公室】/
-#     - xform/rww/【交通圖／交通工具】(交通)/
-#     - xform/gyr/【十字架】/ #(宗教)
-#     - xform/xa2/【羅馬大】/
-#     - xform/2jw/【動物圖】(動物)/
-#     - xform/gvw/【生肖圖／十二生肖】(生肖)/
-#     - xform/gbz/【輸入法】/
-#     - xform/rcw/【幾何圖】(幾何2)/
-#     - xform/cyd/【漢字框】/
-#     - xform/xyv/【咧嘴笑】/
-#     - xform/cyw/【猴子頭／猴子表情】/
-#     - xform/gy1/【數字標】/ #(數字)
-#     - xform/yaz/【字母方／字母框】(字母帶方框)/
-#     - xform/yad/【字母框／字母方】(字母帶方框)/
-#     - xform/vuf/【西洋棋／象棋】/
-#     - xform/qdq/【撲克牌／撲克】/
-#     - xform/wvr/【太玄經】/
-#     - xform/vya/【星座名】/
-#     - xform/g-e/【十二宮】/
-#     - xform/gyf/【數字圈】/
-#     - xform/gye/【數字括】/
-#     - xform/gy2/【數字點】/
-#     - xform/yaf/【字母圈】/
-#     - xform/yae/【字母括】/
-#     - xform/n5a/【蘇州碼】/
-#     - xform/vx2/【希臘大】/
-#     - xform/km2/【俄語大】/
-#     - xform/125/【標點直】/
-#     - xform/cyf/【漢字圈】/
-#     - xform/cye/【漢字括】/
-#     - xform/iro/【 IRO 】(いろは順)/
-#     - xform/kra/【 k 假名】/
-#     - xform/gra/【 g 假名】/
-#     - xform/sra/【 s 假名】/
-#     - xform/zra/【 z 假名】/
-#     - xform/tra/【 t 假名】/
-#     - xform/dra/【 d 假名】/
-#     - xform/nra/【 n 假名】/
-#     - xform/hra/【 h 假名】/
-#     - xform/bra/【 b 假名】/
-#     - xform/pra/【 p 假名】/
-#     - xform/mra/【 m 假名】/
-#     - xform/yra/【 y 假名】/
-#     - xform/rra/【 r 假名】/
-#     - xform/wra/【 w 假名】/
-#     - xform/ara/【 a 假名】/
-#     - xform/ira/【 i 假名】/
-#     - xform/ura/【 u 假名】/
-#     - xform/era/【 e 假名】/
-#     - xform/ora/【 o 假名】/
-#     - xform/raf/【假名圈】/
-#     - xform/ra1/【假名半(形)】/
-#     - xform/qra/【片假名】/
-#     - xform/cjf/【韓文圈】/
-#     - xform/cje/【韓文括】/
-#     - xform/ra/【(平)假名】/
-# ##### 以下二字 #####
-#     - xform/wn/【填色／填色塊】/
-#     - xform/cg/【回收】/
-#     - xform/dy/【褲子】/
-#     - xform/zn/【膚色】/
-#     - xform/nd/【色塊】/
-#     - xform/2y/【電子】/
-#     - xform/jf/【武器】/
-#     - xform/wz/【頭髮】/
-#     - xform/ay/【帽子】/
-#     - xform/5c/【中華】/
-#     - xform/aw/【貓頭】/
-#     - xform/5h/【中餐】(中華料理)/
-#     - xform/5z/【正飯】(正餐)/
-#     - xform/vh/【西餐】/
-#     - xform/tj/【串物】/
-#     - xform/mf/【樂器】/
-#     - xform/uu/【亞裔／黃種人】/
-#     - xform/1b/【白人／白種人】/
-#     - xform/cb/【黑人】/
-#     - xform/jh/【午餐】/
-#     - xform/yh/【早餐／早點】/
-#     - xform/y2/【早點／早餐】/
-#     - xform/rj/【捲物】/
-#     - xform/uy/【葉子】/
-#     - xform/ag/【名勝／景點】/
-#     - xform/r2/【景點／名勝】/
-#     - xform/er/【公交／公共運輸】(公共交通)/
-#     - xform/te/【城軌／捷運】/
-#     - xform/rm/【捷運／城軌】/
-#     - xform/ct/【火車】/
-#     - xform/tq/【鈔票／紙鈔／紙幣】/
-#     - xform/5t/【紙鈔／紙幣／鈔票】/
-#     - xform/51/【紙幣／紙鈔／鈔票】/
-#     - xform/ud/【夜空】/
-#     - xform/rv/【獎項／獎牌】/
-#     - xform/rq/【獎牌／獎項】/
-#     - xform/dh/【快餐／速食】/
-#     - xform/ng/【速食／快餐】/
-#     - xform/ej/【怪物】/
-#     - xform/uc/【有害】/
-#     - xform/ft/【汽車／車輛】/
-#     - xform/tx/【車輛／汽車】/
-#     - xform/bu/【熱飲】/
-#     - xform/gt/【牲畜／畜牲】/
-#     - xform/tg/【畜牲／牲畜】/
-#     - xform/fr/【球具】/
-#     - xform/w2/【甜點／甜食圖】(甜食)/
-#     - xform/fx/【禽類／家禽圖】(家禽)/
-#     - xform/hx/【粗糧】/
-#     - xform/bx/【肉類／肉品】/
-#     - xform/bq/【肉品／肉類】/
-#     - xform/dv/【科學】/
-#     - xform/t5/【船隻】/
-#     - xform/cc/【花卉】/
-#     - xform/gh/【蔬菜】/
-#     - xform/rr/【酒精／酒類】/
-#     - xform/rx/【酒類／酒精】/
-#     - xform/vv/【下雪】/
-#     - xform/xg/【零食】/
-#     - xform/a1/【麵包】/
-#     - xform/zr/【飛機】/
-#     - xform/az/【米飯】/
-#     - xform/sx/【鳥類／鳥圖】/
-#     - xform/mw/【魚圖／魚類圖】(魚類)/
-#     - xform/sw/【鳥圖／鳥類】/
-#     - xform/cj/【韓文】/
-#     - xform/1f/【表情】( 符號表)/
-#     - xform/yb/【自然】( 符號表)/
-#     - xform/ug/【飲食】( 符號表)/
-#     - xform/c2/【活動】( 符號表)/
-#     - xform/xu/【旅遊】( 符號表)/
-#     - xform/jq/【物品】( 符號表)/
-#     - xform/ef/【國旗】( 符號表)/
-#     - xform/zc/【符號】( 符號表)/
-#     - xform/rn/【景色】/
-#     - xform/2f/【地球】/
-#     - xform/ww/【天體】/
-#     - xform/5j/【植物】/
-#     - xform/ge/【水果】/
-#     - xform/gj/【食物】/
-#     - xform/ux/【飲料】/
-#     - xform/rb/【節日】/
-#     - xform/mx/【娛樂】/
-#     - xform/uv/【遊戲】/
-#     - xform/m2/【運動】/
-#     - xform/r5/【建築】/
-#     - xform/ga/【獸面／動物臉】/
-#     - xform/je/【五官】/
-#     - xform/gg/【手勢】/
-#     - xform/uj/【衣物】/
-#     - xform/uz/【衣服】/
-#     - xform/11/【包包】/
-#     - xform/2w/【大頭】(頭像)/
-#     - xform/bj/【人物】/
-#     - xform/c5/【化妝】/
-#     - xform/9f/【愛情】/
-#     - xform/9v/【愛心】/
-#     - xform/ve/【效果】/
-#     - xform/wv/【通訊】/
-#     - xform/fh/【錢財】(金錢)/
-#     - xform/wg/【圖示】(符號)/
-#     - xform/w1/【圖標】(介面)/
-#     - xform/r1/【箭標／指示】/ #(箭頭)
-#     - xform/5g/【指示／箭標】/ #(箭頭)
-#     - xform/yr/【宗教】/
-#     - xform/g5/【時鐘】/
-#     - xform/b1/【日本】/
-#     - xform/ae/【美國】/
-#     - xform/ze/【法國】/
-#     - xform/jv/【微笑】/
-#     - xform/2v/【大笑】/
-#     - xform/wu/【討厭】(厭惡)/
-#     - xform/js/【無奈】(嘆氣)/
-#     - xform/df/【哭泣】/
-#     - xform/x2/【冷淡】/
-#     - xform/v9/【喜愛】(喜歡)/
-#     - xform/ru/【驚訝】/
-#     - xform/gf/【生氣】/
-#     - xform/cu/【懷疑／冒汗】/
-#     - xform/ac/【冒汗／懷疑】/
-#     - xform/15/【標誌】(公共標誌 號誌)/
-#     - xform/cy/【合字】(日語)/
-#     - xform/za/【符碼】(單純符號)/
-#     - xform/2s/【電腦】/
-#     - xform/vf/【象棋／西洋棋】/
-#     - xform/ar/【麻將】/
-#     - xform/gy/【骰子】/
-#     - xform/wy/【骰子】/
-#     - xform/qd/【撲克／撲克牌】/
-#     - xform/wf/【天氣】/
-#     - xform/um/【音樂】/
-#     - xform/xv/【兩性】/
-#     - xform/1e/【八卦】/
-#     - xform/ea/【卦名】/
-#     - xform/vc/【星號】/
-#     - xform/zd/【方塊】/
-#     - xform/rc/【幾何】/
-#     - xform/rw/【箭頭】/
-#     - xform/gv/【數學】/
-#     - xform/5v/【占星】/ #(天體)
-#     - xform/vy/【星座】/
-#     - xform/zg/【分數】/
-#     - xform/xa/【羅馬】/
-#     - xform/g1/【上標】/
-#     - xform/v1/【下標】/
-#     - xform/vx/【希臘】/
-#     - xform/mz/【月份】/
-#     - xform/bf/【日期】/
-#     - xform/ub/【曜日】/
-#     - xform/gr/【時間】/
-#     - xform/we/【天干】/
-#     - xform/25/【地支】/
-#     - xform/e5/【干支】/
-#     - xform/rf/【節氣】/
-#     - xform/2j/【單位】/
-#     - xform/c1/【貨幣】(符號)/
-#     - xform/re/【結構／倉頡】/
-#     - xform/hr/【倉頡／結構】/
-#     - xform/qq/【偏旁】/
-#     - xform/1g/【部首】(康熙)/
-#     - xform/1c/【筆畫】/
-#     - xform/12/【標點】/
-#     - xform/km/【俄語】/
-#     - xform/qu/【拼音】/
-#     - xform/5u/【注音】/
-#     - xform/g2/【聲調】/
-#     - xform/ur/【易經／六十四卦】/
-#     - xform/jc/【文化】/
-#     - xform/v2/【線段】/
-#     - xform/mv/【圓形】/
-#     - xform/nr/【三角】/
-#     - xform/2e/【打勾】/
-#     - xform/31/〘顏文字·開心〙/
-#     - xform/32/〘顏文字·喜歡〙/
-#     - xform/33/〘顏文字·傷心〙/
-#     - xform/34/〘顏文字·生氣〙/
-#     - xform/35/〘顏文字·驚訝〙/
-#     - xform/36/〘顏文字·無奈〙/
-#     - xform/37/〘顏文字·喜〙/
-#     - xform/38/〘顏文字·樂〙/
-#     - xform/39/〘顏文字·怒〙/
-#     - xform/30/〘顏文字·指示和圖示〙/
-#     - xform/3-/〘顏文字·回話〙/
-#     - xform/10/【10】/
-#     - xform/^([0-9])$/【$1】/
-#     - xform/^ab$/【 AB 】/
-#     - xform/^([a-z])$/【 \U$1\E 】/ #〘〙
-#     - xform/^3([a-z])$/【 \U$1\E 變化】/
-#     - xform//Mac/
 
 punctuator:
-#  import_preset: default
   full_shape:
     "@" : [ "＠", "@", "﹫", "®", "©", "℗", "㊣" ]
     "#" : [ "＃", "#", "﹟" ]
     "$" : [ "＄", "$", "﹩", "￥", "¥", "€", "￡", "£", "₤", "￠", "¢", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
     "%" : [ "％", "%", "﹪", "‰", "‱", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
-    "^" : [ "＾", "^", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ] #, "⌅", "⊻"
+    "^" : [ "＾", "^", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ]
     "&" : [ "＆", "&", "﹠", "⁊", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
     "*" : [ "＊", "*", "﹡", "⁎", "⁕", "×", "╳", ※, "⁜", "†", "‡", ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
     "(" : [ "（", "(", "﹙", "｟", "⦅", "⁽", "₍", ︵, ⁐ ]
@@ -676,66 +239,50 @@ punctuator:
     "," : [ "，", ",", "﹐" ]
     "." : [ "。", "｡", "．", ".", "﹒", "․", "…", "⋯", "……" ]
     "~" : [ "～", "~", "〜", "⁓", "∼", "˜", "≈", "﹏", "〰" ]
-    "?" : [ "？", "?", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ] #{ commit: "？" }
+    "?" : [ "？", "?", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ]
     "/" : [ "／", "/", "⁄", "∕", "÷" ]
-    "!" : [ "！", "!", "﹗", "¡", "‼", "⁉" ] #{ commit: "！" }
+    "!" : [ "！", "!", "﹗", "¡", "‼", "⁉" ]
   half_shape:
-#    "$" : [ "$", "＄", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
-#    "%" : [ "%", "％", "‰", "‱", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
-#    "^" :  [ "^", "＝", "＋", "－", "+", "-", "×", "÷", "±", "=", "≠", "＜", "＞", "∈", "∏", "∑", "≮", "≯", "∕", "√", "∝", "∞", ∟, ∠, ∥, ∧, ∨, ∩, ∪, ∫, ∮, ∴, ∵, ∷, ∽, ≈, ≌, ≒, ≡, ≤, ≥, ≦, ≧, ⊕, ⊙, ⊥, ⊿, ㏑, ㏒ ]
-#    "&" : [ "&", "＆", "＃", "＠", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
-#    "*" : [ "*", ＊, "﹡", ※, ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
-    "@" : [ "@", "＠", "﹫", "®", "©", "℗", "㊣" ] #, "☯" #{ commit: "@" }
-    "#" : [ "#", "＃", "﹟" ] #, "⌗", "⌘" #{ commit: "#" }
+    "@" : [ "@", "＠", "﹫", "®", "©", "℗", "㊣" ]
+    "#" : [ "#", "＃", "﹟" ]
     "$" : [ "$", "＄", "﹩", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₩", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
     "%" : [ "%", "％", "﹪", "‰", "‱", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
-#    "^" : [ "^", "＾", "‸", "=", "＝", "﹦", "+", "＋", "﹢", "-", "－", "−", "×", "÷", "∕", "√", "±", "≠", ≒, ≡, ≈, ≌, ∽, "∞", "∝", "π", "＜", "＞", "≮", "≯", ≤, ≥, ≦, ≧, "∑", ∫, ∮, "∏", "∇", ㏑, ㏒, "∅", "∈", "∉", "⊂", "⊃", "⊆", "⊇", ∩, ∪, "¬", "˜", "∃", "∀", "∂", ∴, ∵, ∷, ⊥, ∟, ∠, ∥, ∧, ∨, "⊻", ⊕, ⊙, ⊿ ]
-    "^" : [ "^", "＾", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ] #, "⌅", "⊻"
+    "^" : [ "^", "＾", "‸", "∧", "∨", ●, ◉, ◎, ◯, ○, ◦, ◌, ◆, ◈, ◇, ◊, ■, ◼, ◾, ▪, □, ▢, ◻, ◽, ▫, ▣, ▲, ▴, △, ▵, ▼, ▾, ▽, ▿, ▶, ▸, "‣", ▷, ▹, ◀, ◂, ◁, ◃ ]
     "&" : [ "&", "＆", "﹠", "⁊", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
     "*" : [ "*", "＊", "﹡", "⁎", "⁕", "×", "╳", ※, "⁜", "†", "‡", ❂, ★, ☆, ✡, ❋, ❊, ❉, ❈, ❇, ❆, ❅, ❄, ❃, ❁, ❀, ✿, ✾, ✽, ✼, ✻, ✺, ✹, ✸, ✷, ✶, ✵, ✴, ✳, ✲, ✱, ✰, ✯, ✮, ✭, ✬, ✫, ✪, ✩, ✧, ✦, ✥, ✤, ✣, ✢, ⛤, ⛥, ⛦, ⛧ ]
-    "(" : [ "(", "（", "﹙", "｟", "⦅", "⁽", "₍", ︵, ⁐ ] #{ commit: （ }
-    ")" : [ ")", "）", "﹚", "｠", "⦆", "⁾", "₎", ︶, ⁐ ] #{ commit: ） }
-    "[" : [ 〔, 【, 〖, "[", ［, 〘, 〚, ﹝, "⁅", ︹, ︻ ] #{ commit: 「 }
-    "]" : [ 〕, 】, 〗, "]", ］, 〙, 〛, ﹞, "⁆", ︺, ︼ ] #{ commit: 」 }
-#    "_" : [ "－", "—", "——", "＿", "ー" ]
-    "_" : [ "_", "＿", "₋", "⁻", "ˉ", "¯" ] #[ "＿", "_", "－", "-", "﹘", "—", "–", "──", "——", "⸺", "―", "ー" ]
-#    "-" : { commit: "-" } #[ "ー", "－", "-", "﹘", "—", "–", "──", "——", "⸺", "―" ]
+    "(" : [ "(", "（", "﹙", "｟", "⦅", "⁽", "₍", ︵, ⁐ ]
+    ")" : [ ")", "）", "﹚", "｠", "⦆", "⁾", "₎", ︶, ⁐ ]
+    "[" : [ 〔, 【, 〖, "[", ［, 〘, 〚, ﹝, "⁅", ︹, ︻ ]
+    "]" : [ 〕, 】, 〗, "]", ］, 〙, 〛, ﹞, "⁆", ︺, ︼ ]
+    "_" : [ "_", "＿", "₋", "⁻", "ˉ", "¯" ]
     "-" : [ "-", "－", "﹘", "—", "–", "──", "——", "⸺", "―", "ー" ]
-#    "+" : { commit: "+" }
-#    "=" : { commit: "=" }
     "+" : [ "+", "＋", "﹢", "±", "⁺", "₊" ]
     "=" : [ "=", "＝", "﹦", "⁼", "₌", "‗", "+", "-", "−", "×", "÷", "∕", "√", "∛", "∜", "±", "≠", ≒, ≡, ≈, ≌, ∽, "∞", "∝", "π", "＜", "＞", "≮", "≯", ≤, ≥, ≦, ≧, "∑", ∫, ∮, "∏", "∐", "∇", "∆", ㏑, ㏒, "∅", "∈", "∉", "⊂", "⊃", "⊆", "⊇", ∩, ∪, "¬", "˜", "∃", "∄", "∀", "∂", ∴, ∵, ∷, ⊥, ∟, ∠, ∥, ∧, ∨, "⊻", ⊕, ⊙, ⊿ ]
-#    "|" : [ "‧", "·","|", "｜", "¦", "§", "¶", "⁋", "❡" ]
-#    "|" : [ "‧", "·", "｜", "|", "¦", "§", "¶", "⁋", "❡" ]
     "|" : [ "|", "｜", "︱", "¦", "‖", "§", "¶", "⁋", "❡", "⁌", "⁍" ]
     "\\" : [ "‧", "·", "●", "•", "･", "・", "\\", "＼", "﹨" ]
-    '"' : [ "々", "〃", "〻", '"', "＂", "“", "”", "‟", "„", "〝", "〞", "〟", "‶", "″", "‷", "‴", "⁗" ] #{ pair: [ "“", "”" ] }
-    "'" : [ "'", "＇", "‘", "’", "‛", "‚", "‵", "′" ] #{ pair: [ "‘", "’" ] }
-    "{" : [ 『, 「, ｢, "{", "｛", "﹛", ﹁, ﹃ ] #[ "｛", 〔, ［, 【, 〖, 〘, "﹛", ﹝, "﹙", ︹, ︻, ︵ ]
-    "}" : [ 』, 」, ｣, "}", "｝", "﹜", ﹂, ﹄ ] #[ "｝", 〕, ］, 】, 〗, 〙, "﹜", ﹞, "﹚", ︺, ︼, ︶ ]
-    "<" : [ 〈, 《, "<", "＜", "﹤", "‹", «, ︿, ︽, ˆ ] #[ 〈, 《, 『, "＜", "﹤", "‹", «, ﹁, ︿, ﹃, ︽ ]
-    ">" : [ 〉, 》, ">", "＞", "﹥", "›", », ﹀, ︾, ˇ ] #[ 〉, 》, 』, "＞", "﹥", "›", », ﹂, ﹀, ﹄, ︾ ]
-    "`" : [ "`", "｀", "︑", "、", "､", "﹑" ] #[ "、", "｀" ]
-    ":" : [ "：", ":", "﹕", "⁚", "⁝", "︙", "⋮", "⁞" ] #{ commit: "：" }
-    ";" : [ "；", ";", "﹔", "⁏" ] #{ commit: "；" }
-    "," : [ "，", ",", "﹐" ] #[ "，", ",", "｀", "`" ] #{ commit: ， } #標點符號碼表中已有，已遮掉
-    "." : [ "。", "｡", ".", "．", "﹒", "․", "…", "⋯", "……" ] #標點符號碼表中已有，已遮掉
-#    "~" : [ "〜", "～", "﹏", "〰" ]
-#    "~" : [ "～", "~", "〜", "﹏", "〰" ]
+    '"' : [ "々", "〃", "〻", '"', "＂", "“", "”", "‟", "„", "〝", "〞", "〟", "‶", "″", "‷", "‴", "⁗" ]
+    "'" : [ "'", "＇", "‘", "’", "‛", "‚", "‵", "′" ]
+    "{" : [ 『, 「, ｢, "{", "｛", "﹛", ﹁, ﹃ ]
+    "}" : [ 』, 」, ｣, "}", "｝", "﹜", ﹂, ﹄ ]
+    "<" : [ 〈, 《, "<", "＜", "﹤", "‹", «, ︿, ︽, ˆ ]
+    ">" : [ 〉, 》, ">", "＞", "﹥", "›", », ﹀, ︾, ˇ ]
+    "`" : [ "`", "｀", "︑", "、", "､", "﹑" ]
+    ":" : [ "：", ":", "﹕", "⁚", "⁝", "︙", "⋮", "⁞" ]
+    ";" : [ "；", ";", "﹔", "⁏" ]
+    "," : [ "，", ",", "﹐" ]
+    "." : [ "。", "｡", ".", "．", "﹒", "․", "…", "⋯", "……" ]
     "~" : [ "～", "~", "〜", "⁓", "∼", "˜", "≈", "﹏", "〰" ]
-    "?" : [ "？", "?", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ] #{ commit: "？" }
+    "?" : [ "？", "?", "﹖", "¿", "⁇", "⁈", "‽", "⸘" ]
     "/" : [ "/", "／", "⁄", "∕", "÷" ]
-    "!" : [ "！", "!", "﹗", "¡", "‼", "⁉" ] #{ commit: "！" }
+    "!" : [ "！", "!", "﹗", "¡", "‼", "⁉" ]
   symbols:
-#    "\"'" : [ "、", "；", "…", "「」", "（）", "‘’", "“”" ]
-    "()" : [ "()", "（）", "﹙﹚", "｟｠", "⦅⦆", "⁽⁾", "₍₎", ︵︶, ⁐ ] #{ commit: （ }
-    "[]" : [ 〔〕, 【】, 〖〗, "[]", ［］, 〘〙, 〚〛, ﹝﹞, "⁅⁆", ︹︺, ︻︼ ] #{ commit: 「 }
-    "{}" : [ 『』, 「」, ｢｣, "{}", "｛｝", "﹛﹜", ﹁﹂, ﹃﹄ ] #[ "｛", 〔, ［, 【, 〖, 〘, "﹛", ﹝, "﹙", ︹, ︻, ︵ ]
+    "()" : [ "()", "（）", "﹙﹚", "｟｠", "⦅⦆", "⁽⁾", "₍₎", ︵︶, ⁐ ]
+    "[]" : [ 〔〕, 【】, 〖〗, "[]", ［］, 〘〙, 〚〛, ﹝﹞, "⁅⁆", ︹︺, ︻︼ ]
+    "{}" : [ 『』, 「」, ｢｣, "{}", "｛｝", "﹛﹜", ﹁﹂, ﹃﹄ ]
     "<>" : [ 〈〉, 《》, "<>", "＜＞", "﹤﹥", "‹›", «», ︿﹀, ︽︾, ˆˇ ]
     '""' : [ "\"\"", "＂＂", "“”", "‟”", "„“", "„”", "〝〞", "〝〟", "‶″", "‷‴" ]
     "''" : [ "''", "＇＇", "‘’", "‛’", "‚‘", "‚’", "‵′" ]
 #####
-#    "e" : [ "", "ㄅⒷ ㄆⓟ ㄇⓂ ㄈⒻ ｜ ㄉⒹ ㄊⓉ ㄋⓃ ㄌⓁ ｜ ㄍⒼ ㄎⓀ ㄏⒽ ｜ ㄐⒿ ㄑⓆ ㄒⓍ ｜", "ㄓⓌ ㄔⓋ ㄕⒶ ㄖⓇ ｜ ㄗⓏ ㄘⒸ ㄙⓈ ｜ ㄧⒾ ㄨⓊ ㄩⓎ ║ ㄭⒾ　(ㄧㄨㄩ)ㄭⒺ　◌Ⓞ ║", "ㄚⒶ ㄛⓄ ㄜⒺ ㄝⓀ ｜ ㄞⒿ ㄟⓀ ㄠⓌ ㄡⒹ ｜ ㄢⒽ ㄣⒻ ㄤⓈ ㄥⒼ ㄦⓇ ｜", "ㄧㄚⓏ ㄧㄝⓟ ㄧㄠⓆ ㄧㄡⒸ ㄧㄢⓂ ㄧㄣⓇ ㄧㄤⓍ ㄧㄥⓉ ", "ㄨㄚⓏ ㄨㄞⓂ ㄨㄟⓁ ㄨㄢⓃ ㄨㄣⓋ ㄨㄤⓍ ㄨㄥⒷ ｜ ㄩㄢⓃ ㄩㄝⓁ ㄩㄣⓋ ㄩㄥⒷ " ]
     "e" : [ "","《查找/輸入 注音》" ]
     "eb" : [ "ㄅ", "ㄨㄥ", "ㄩㄥ" ]
     "ep" : [ "ㄆ", "ㄧㄝ" ]
@@ -768,7 +315,6 @@ punctuator:
     "e." : [ "ˇ" ]
     "e/" : [ "ˊ" ]
     "e'" : [ "˙" ]
-#####
 
 key_binder:
   import_preset: default
@@ -781,31 +327,11 @@ key_binder:
     - {accept: Left, send: KP_Left, when: composing}
     - {accept: Down, send: Control+Right, when: composing} # 特殊情形轉功能
     - {accept: Up, send: Control+Left, when: composing} # 特殊情形轉功能
-    # - {accept: Left, send: Page_Up, when: paging}
-    # - {accept: Right, send: Page_Down, when: paging}
     - {accept: Control+Right, send: Page_Down, when: composing} # 特殊情形轉功能
     - {accept: Control+Left, send: Page_Up, when: composing} # 特殊情形轉功能
-##
-    # - {accept: "Control+Shift+Left", send: Left, when: always}
-    # - {accept: "Control+Shift+Right", send: Right, when: always}
-    # - {accept: "Control+Shift+Left", send: "Control+Left", when: composing}
-    # - {accept: "Control+Shift+Right", send: "Control+Right", when: composing}
 ### 刪除鍵 ###
-#?#    - {accept: Control+Shift+Alt+BackSpace, send: Escape, when: composing}
     - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
-    # - {accept: BackSpace, send: Control+BackSpace, when: has_menu} #〔關〕刪除前一個拼音字符〔開〕：刪除整組拼音字符（一個字）
-    # - {accept: Shift+BackSpace, send: BackSpace, when: has_menu}
     - {accept: Control+x, send: Escape, when: composing}
-### Return 和 空白鍵 ###
-    # - {accept: Return, send: space, when: paging}  # express_editor模式下，選擇時打Return直接上屏
-    #原 - {accept: space, send: Return, when: paging} # fluency_editor模式下，方向鍵選字時，打space直接上屏
-    # - {accept: space, send: Return, when: has_menu} # fluency_editor模式下，打空白键直接上屏
-    # - {accept: space, send: space, when: composing}
-    # - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
-    # - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
-## 以下兩則是把enter和空白鍵調換（在有選單時）
-    # - {accept: Return, send: space, when: has_menu} # return,enter直出
-    # - {accept: space, send: Shift+A, when: has_menu} # express_editor模式下，打Return直接上屏第一個候選項
 ### 使數字鍵於打字時無效 ###
     - {accept: 1, send: Pause, when: has_menu}
     - {accept: 2, send: Pause, when: has_menu}
@@ -820,22 +346,14 @@ key_binder:
 
 editor:
   bindings:
-    # space: commit_composition
-    # space: toggle_selection
     Return: confirm
     Control+Return: commit_raw_input
     Shift+Return: commit_script_text
-    # Control+Shift+Left: Left
-    # Control+Shift+Right: Right
     Pause: noop
 
 recognizer:
   patterns:
     punct: "^e[a-z,./;']?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
-#    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     email: "^[a-z][-_.0-9a-z]*@.*$"
-    url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
-    # emoji_sy: "(?<![-,./;a-z125890])3[-/0-9a-z]* ?$" #"^[3][-/0123456789a-z]* ?$"
-    # bpmf_m: "^[-+/0-9a-z.,; ]+['][\"]$|^['][\"][-+/0-9a-z.,; ]*$" #一定要加「+」才可分節
-#    punct: "[\"][']"
+    url: "^(https?:|ftp:|mailto:|file:).*$"
 
