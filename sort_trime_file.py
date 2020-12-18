@@ -74,7 +74,6 @@ shutil.copyfile("./trimefiles/bo_mixin_jp.dict.yaml", "./sort_trime/洋蔥同文
 shutil.copyfile("./trimefiles/bo_mixin_kr.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_kr.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_la.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_la.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin.extended.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin.extended.dict.yaml")
-shutil.copyfile("./trimefiles/bpmfmobilemixin.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/bpmfmobilemixin.schema.yaml")
 shutil.copyfile("./trimefiles/bpmfmobilemixin2.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/bpmfmobilemixin2.schema.yaml")
 shutil.copyfile("./trimefiles/bpmfmobilemixins.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/bpmfmobilemixins.schema.yaml")
 shutil.copyfile("./trimefiles/element_bpmf.yaml", "./sort_trime/洋蔥同文注音mixin版/element_bpmf.yaml")
