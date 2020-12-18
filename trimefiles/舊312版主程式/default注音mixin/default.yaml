@@ -119,8 +119,8 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
-  - schema: bpmfmobilemixin
   - schema: bpmfmobilemixins
+  - schema: bpmfmobilemixin2
   - schema: mobile_bpmf
   - schema: sy_bpmf
 switcher:
