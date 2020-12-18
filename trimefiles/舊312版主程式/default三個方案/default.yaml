@@ -120,8 +120,8 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
   - schema: bpmfmobile
-  - schema: bpmfmobilemixin
   - schema: bpmfmobilemixins
+  - schema: bpmfmobilemixin2
   - schema: bpmfmobileplus
   - schema: hangeul
   - schema: jpnin1
