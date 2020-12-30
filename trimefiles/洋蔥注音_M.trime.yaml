@@ -317,6 +317,9 @@ preset_color_schemes:
     bh4: *color2 #第四行背景色
     th4: *color1 #第四行文字顏色
     bgn3: 0xffacb2c2
+    bsz2: 0xffacb2c2
+#    tajs: *color2
+#    tajs2: *color2
     bmk: 0xff3266a0 #0xff9196A3
     bjt: 0xffacb2c2
     bzyplus: 0xffeef1f5 #0xffe8f0ff
@@ -1440,7 +1443,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all_d, symbol_text_size: *sf4, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} # long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} # long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
@@ -1449,7 +1452,7 @@ preset_keyboards:
       - {label: 'N', hint: 'ㄩㄢ|ㄨㄢ', click: 'n', long_click: 'text_do_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_do_d'
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 14, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 14, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: "'", hint: '輕聲', long_click: '"', swipe_up: Keyboard_duse, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
@@ -1498,7 +1501,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all_d, symbol_text_size: *sf4, width: 9.75}
       - {click: "'", hint: '輕聲', long_click: '"', swipe_up: Keyboard_duse, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
@@ -1507,7 +1510,7 @@ preset_keyboards:
       - {label: 'N', hint: 'ㄩㄢ|ㄨㄢ', click: 'n', long_click: 'text_do_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_do_d'
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -1556,7 +1559,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: select_all, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -1565,7 +1568,7 @@ preset_keyboards:
       - {label: 'N', click: 'n', long_click: 'text_do_2', width: 9.8} #long_click: 'text_do'
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" ##, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 13.5, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 13.5, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: '/', hint: '        韓', long_click: '\', swipe_up: Keyboard_duse, width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd8}
@@ -1614,7 +1617,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: select_all, width: 9.75}
       - {click: '/', hint: '        韓', swipe_up: Keyboard_duse, long_click: '\', width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -1623,7 +1626,7 @@ preset_keyboards:
       - {label: 'N', click: 'n', long_click: 'text_do_2', width: 9.8} #long_click: 'text_do'
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -1671,7 +1674,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: select_all, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: 'text_bs', swipe_up: 'text_bs', width: 11}
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_3, send_bindings: true, width: 15} #composing: delimiter
+      - {click: Shift_L3, composing: Tab_3, send_bindings: true, key_text_color: tbs, width: 15} #composing: delimiter
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -1680,7 +1683,7 @@ preset_keyboards:
       - {label: 'N', click: 'n', long_click: 'text_do_2', width: 9.8} #long_click: 'text_do'
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: Tab_2, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: Tab_2, key_text_color: tbs, key_symbol_color: tajs, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: cut_all, width: 10.25, height: *jpgd8} # swipe_up: Page_Up
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -1728,7 +1731,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '#', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: DeleteCandidate, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_dyy', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dyy2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -1737,7 +1740,7 @@ preset_keyboards:
       - {label: 'N', click: 'n', long_click: '~', width: 9.8} #long_click: 'text_do'
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: "BackToPreviousSyllable3", width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 13.5, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 13.5, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: '/', hint: '        韓', long_click: DeleteCandidate, swipe_up: Keyboard_duse, width: 9.2} #, long_click: 'text_bs', swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd9}
@@ -1786,7 +1789,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '#', width: 9.75}
       - {click: '/', hint: '        韓', long_click: DeleteCandidate, swipe_up: Keyboard_duse, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
+      - {click: Shift_L3, composing: Tab_2, send_bindings: true, key_text_color: tbs, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_dyy', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dyy2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -1795,7 +1798,7 @@ preset_keyboards:
       - {label: 'N', click: 'n', long_click: '~', width: 9.8} #long_click: 'text_do'
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
-      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_symbol_color: tajs, width: 16, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
+      - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs, width: 16, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
       - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd9}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
