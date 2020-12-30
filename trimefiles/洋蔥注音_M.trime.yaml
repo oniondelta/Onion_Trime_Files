@@ -315,8 +315,11 @@ preset_color_schemes:
     th3: *color1 #第三行文字顏色
     bh4: *color2 #第四行背景色
     th4: *color1 #第四行文字顏色
-    bjt: 0xffacb2c2
     bmk: 0xff3266a0 #0xff9196A3
+    bjt: 0xffacb2c2
+    bzyplus: 0xffeef1f5 #0xffe8f0ff
+    bzymix: 0xffeef1f5 #0xffe8f0ff
+    bzymixin: 0xffeef1f5 #0xffe8f0ff
 
   aqua:
     name: 碧水／Aqua
@@ -647,6 +650,12 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xeee8d5
     hilited_comment_text_color: 0xeee8d5
     hilited_candidate_back_color: 0x2aa198
+    bmk: 0x2aa198
+    bjt: 0xf5f4e6 #0xfff8e5
+    bgn: 0xf5f4e6 #0xfff8e5
+    bzyplus: 0xf5f4e6 #0xfff8e5
+    bzymix: 0xf5f4e6 #0xfff8e5
+    bzymixin: 0xf5f4e6 #0xfff8e5
 
   smurfs:
     name: "藍精靈／Smurfs"
@@ -732,6 +741,12 @@ preset_color_schemes:
     comment_text_color: 0xfbfdfc
     hilited_candidate_text_color: 0xdcfeab
     hilited_candidate_back_color: 0x636f67
+    bmk: 0x4b544e #0x636f67
+    bjt: 0x2f382e #0x1C3B16 #0x162e11
+    bgn: 0x2f382e #0x1C3B16 #0x162e11
+    bzyplus: 0x2f382e #0x1C3B16 #0x162e11
+    bzymix: 0x2f382e #0x1C3B16 #0x162e11
+    bzymixin: 0x2f382e #0x1C3B16 #0x162e11
 
   brisk:
     name: "輕盈／Brisk"
@@ -759,6 +774,12 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xffffff
     hilited_candidate_back_color: 0x1eadef
+    bmk: 0x1eadef
+    bjt: 0x0f253d
+    bgn: 0x0f253d
+    bzyplus: 0x0f253d
+    bzymix: 0x0f253d
+    bzymixin: 0x0f253d
 
   steam:
     name: "Steam"
@@ -774,6 +795,12 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xa9a7a7
     hilited_candidate_back_color: 0x314259
+    bmk: 0x314259
+    bjt: 0x262521 #0x383631
+    bgn: 0x262521 #0x383631
+    bzyplus: 0x262521 #0x383631
+    bzymix: 0x262521 #0x383631
+    bzymixin: 0x262521 #0x383631
 
   flypy:
     # description: |
