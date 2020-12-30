@@ -213,6 +213,7 @@ preset_color_schemes:
     tenter: *color2 #回車鍵文字顏色
     bgn: *color4 #功能鍵背景色
     bgn2: *color47 #功能鍵背景色2
+    bgn3: *color4 #功能鍵背景色3
     tgn: *color2 #功能鍵文字顏色
     bbs: *color27 #*color28 #*color9 #*color4 #退格鍵背景色
     tbs: *color2 #退格鍵文字顏色
@@ -364,8 +365,8 @@ preset_keyboards:
       - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
-      - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
+      - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
+      - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs}
       - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
       - {click: '.', label: '。', long_click: Keyboard_kao, key_back_color: bh4, key_text_color: th4}
@@ -1335,8 +1336,8 @@ preset_keyboards:
       - {label: 'ㅡ', click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
-      - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs}
+      - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
+      - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs}
       - {click: ',', label: ',', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch2, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', label: '.', long_click: Keyboard_kao, key_back_color: bh4, key_text_color: th4}
