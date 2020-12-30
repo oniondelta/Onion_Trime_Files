@@ -651,7 +651,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xeee8d5
     hilited_comment_text_color: 0xeee8d5
     hilited_candidate_back_color: 0x2aa198
-    bmk: 0x2aa198
+    bmk: 0xb2d5d6 #0x2aa198
     bjt: 0xf5f4e6 #0xfff8e5
     bgn: 0xf5f4e6 #0xfff8e5
     bzyplus: 0xf5f4e6 #0xfff8e5
