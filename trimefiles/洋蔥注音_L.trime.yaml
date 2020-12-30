@@ -240,6 +240,8 @@ preset_color_schemes:
   #  bh4: *color2 #第四行背景色
   #  th4: *color2 #第四行文字顏色
 
+  tongwenfeng:
+    __include: 洋蔥注音_M.trime:/preset_color_schemes/tongwenfeng
   aqua:
     __include: 洋蔥注音_M.trime:/preset_color_schemes/aqua
   azure:
