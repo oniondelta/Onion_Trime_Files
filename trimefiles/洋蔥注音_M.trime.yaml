@@ -316,6 +316,7 @@ preset_color_schemes:
     th3: *color1 #第三行文字顏色
     bh4: *color2 #第四行背景色
     th4: *color1 #第四行文字顏色
+    bgn3: 0xffacb2c2
     bmk: 0xff3266a0 #0xff9196A3
     bjt: 0xffacb2c2
     bzyplus: 0xffeef1f5 #0xffe8f0ff
