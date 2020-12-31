@@ -271,7 +271,7 @@ preset_color_schemes:
   #  th4: *color2 #第四行文字顏色
 
   tongwenfeng:
-    name: "同文風配色／Tong Weng Feng"  #方案名稱
+    name: "同文風／Tong Weng Feng"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color2 #候選區背景狀態欄
     candidate_separator_color: *color2 #候選分割背景
