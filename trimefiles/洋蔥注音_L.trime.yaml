@@ -219,7 +219,7 @@ preset_color_schemes:
     tbs: *color2 #退格鍵文字顏色
     bmk: *color6 #類別顯目欄位標註背景色
     tajs: *color8 #深黑 #按鍵上方符號不夠深加深
-    tajs2: *color3 #淺灰 #按鍵上方符號太白加黑
+    tajs2: *color1 #*color3 #淺灰 #按鍵上方符號太白加黑
     bjt: *color47 #箭頭背景色
 #
     bsz1: *color20 #蝦米上排數字1~5鍵背景色
