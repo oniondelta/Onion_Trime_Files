@@ -248,7 +248,7 @@ preset_color_schemes:
     tbs: *color2 #退格鍵文字顏色
     bmk: *color6 #類別顯目欄位標註背景色
     tajs: *color8 #深黑 #按鍵上方符號不夠深加深
-    tajs2: *color3 #淺灰 #按鍵上方符號太白加黑
+    tajs2: *color1 #*color3 #淺灰 #按鍵上方符號太白加黑
     bjt: *color47 #箭頭背景色
 #
     bsz1: *color20 #蝦米上排數字1~5鍵背景色
@@ -1982,7 +1982,7 @@ preset_keyboards:
     keys:
       - {click: Clear_duse, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
       - {click: ClearH, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
-      - {click: Tab_duse, hint: 'Tab 空白', long_click: Insert, key_text_size: "12", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
+      - {click: Tab_duse, long_click: Insert, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs} #key_symbol_color: tgn #, hint: 'Tab 空白'
       - {click: Home_duse, hint: 行首, key_text_size: "20"}
       - {click: Up_duse, key_text_size: "25"}
       - {click: Page_Up_duse, hint: 上頁, key_text_size: "25"}
@@ -6531,7 +6531,7 @@ preset_keys:
   Shift_duse: {label: '<I>', functional: false, preview: '<I>', send: Shift_L, shift_lock: click}
   undo1: {label: "↩", functional: false, send: Control+z} #>=Android 6.0
   redo1: {label: "↪", functional: false, send: Control+y} #>=Android 6.0
-  Tab_duse: {label: "↹", functional: false, preview: '↹', repeatable: false, text: '	'}
+  Tab_duse: {label: "Tab空白", functional: false, preview: '↹', repeatable: false, text: '	'}
   Home_duse: {label: ⇤, functional: false, preview: '⇤', send: Home}
   End_duse: {label: ⇥, functional: false, preview: '⇥', send: End}
   Clear_duse: {label: 全清除, functional: false, text: "{Control+a}{BackSpace}"} #全選並刪除 #舊：  Clear: {label: 全清, send: Clear}

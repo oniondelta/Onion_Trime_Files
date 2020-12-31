@@ -1437,7 +1437,7 @@ preset_keyboards:
     keys:
       - {click: Clear_duse, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
       - {click: ClearH, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
-      - {click: Tab_duse, hint: 'Tab 空白', long_click: Insert, key_text_size: "12", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
+      - {click: Tab_duse, long_click: Insert, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs} #key_symbol_color: tgn #, hint: 'Tab 空白'
       - {click: Home_duse, hint: 行首, key_text_size: "20"}
       - {click: Up_duse, key_text_size: "25"}
       - {click: Page_Up_duse, hint: 上頁, key_text_size: "25"}
