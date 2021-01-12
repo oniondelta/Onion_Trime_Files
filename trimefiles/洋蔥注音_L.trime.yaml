@@ -355,7 +355,7 @@ preset_keyboards:
       - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: Shift_L, composing: Escape, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs} #, composing: delimiter
       - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
       - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
@@ -368,9 +368,9 @@ preset_keyboards:
       - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
       - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs}
       - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
+      - {click: space, long_click: Keyboard_kmenu, swipe_left: "Left", swipe_right: "Right", swipe_up: Mode_switch, width: 30, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
       - {click: '.', label: '。', long_click: Keyboard_kao, key_back_color: bh4, key_text_color: th4}
-      - {click: Return, swipe_up: Escape, width: 25, key_back_color: benter, key_text_color: tenter}
+      - {click: Return, swipe_up: CommitRawInput, width: 25, key_back_color: benter, key_text_color: tenter} #, swipe_up: Escape
 #####################
   42keys:
     name: 基礎42鍵
