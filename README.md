@@ -55,3 +55,15 @@
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.png" alt="介紹7" width="400" />
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.png" alt="介紹8" width="400" />
+
+---
+
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/pure_description.png" alt="介紹PURE" width="600" />
+
+---
+
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/plus_description.png" alt="介紹PLUS" width="600" />
+
+---
+
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹MIXIN" width="600" />
