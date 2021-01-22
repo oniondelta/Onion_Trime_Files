@@ -61,7 +61,7 @@
 
 ---
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/pure_description.png" alt="介紹PURE" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹PURE" width="600" />
 
 ---
 
@@ -69,6 +69,6 @@
 
 ---
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹MIXIN" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/pure_description.png" alt="介紹MIXIN" width="600" />
 
 ---
