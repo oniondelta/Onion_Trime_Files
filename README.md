@@ -9,12 +9,12 @@
 
 - trimefiles 中的檔案不以一個資料夾一個方案，為了較好更新（不用同一個檔案更新數次）
 
-- 提供 Python (sort_rime_file.py) 文件，把 Rime 文件分門別類到各個方案資料夾，使其易安裝部署
+- 提供 Python (sort_trime_file.py) 文件，把 Rime 文件分門別類到各個方案資料夾，使其易安裝部署
 
 ### sort_rime_file.py 使用方法：
 - 於本倉庫 Onion_Trime_Files 中按右上綠色 〔↓Code〕 ⇨ Download ZIP ⇨ 解壓縮 ZIP ⇨ 進入解壓縮後的資料夾，確認 trimefiles 資料夾 和 sort_trime_file.py 是在同一層 ⇨ 執行 sort_trime_file.py ⇨ 產生一個『洋蔥手機同文方案_{當天日期}』資料夾
 
-- 產生的『洋蔥手機同文方案_{當天日期}』該資料夾內，會把各方案所須使用的文件，分別安放在該『方案名稱』資料夾，安裝部署時，把內含文件通通放入『 rime 』安裝資料夾中，「重新部署」即可。
+- 產生的『洋蔥手機同文方案_{當天日期}』該資料夾內，會把各方案所須使用的文件，分別安放在該『方案名稱』資料夾，安裝部署時，把內含文件通通放入『 rime 』安裝資料夾中（預設已有 opencc 檔案夾，移動方案 opencc 裡面檔案到手機 rime/opencc ），「重新部署」即可。
 
   > 後面附註的日期為執行 sort_trime_file.py 當天日期！非版本號碼！
 
