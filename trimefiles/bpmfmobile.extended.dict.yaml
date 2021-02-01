@@ -5,9 +5,10 @@
 # 中文字詞標註使用拼音
 ---
 name: bpmfmobile.extended
-version: "202012"
+version: "202102"
 sort: by_weight
-use_preset_vocabulary: true
+vocabulary: essay-zh-hant-onion
+#use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
@@ -15,9 +16,13 @@ import_tables:
   - terra_pinyin_onion_add
   - phrases.chtp
 #  - phrases.chpp
+#  - phrases.chpv
 #  - phrases.cht
 ...
 ######## 測試字（測試是否少掉台灣以外的用字） ########
-# 裏面	li3 mian4
-# 高峯	gao1 feng1
+#裏面	li3 mian4
+#高峯	gao1 feng1
+#####
+# 	kong5
+# 	ri5
 ##### 以下可自行添加詞句 #####
