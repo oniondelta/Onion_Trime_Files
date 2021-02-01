@@ -21,7 +21,6 @@ import_tables:
   - phrases.cht_en_w
   - phrases.chtp
 #  - phrases.chpp
-#  - phrases.chpv
 #  - phrases.cht
   - phrases.jp_hk
   - phrases.jp_hkkreduce
@@ -34,8 +33,4 @@ import_tables:
 ##### 測試字（測試是否少掉台灣以外的用字） #####
 #裏面	li3 mian4
 #高峯	gao1 feng1
-##### 測試調用 #####
-# 	kong5
-# 	ri5
-#is	@is
 ##### 以下可自行添加詞句 #####
