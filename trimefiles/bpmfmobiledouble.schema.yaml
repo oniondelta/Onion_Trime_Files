@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202012"
+  version: "202102"
   author:
     - 『洋蔥』
   description: |
@@ -56,10 +56,12 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@emoji_sy
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator@emoji_sy
     - script_translator
 
 menu:
@@ -207,6 +209,20 @@ translator:
     - 'xform/\\/ /'
 #######
     - "xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ，．／；＇|ABCDEFGHIJKLMNOPQRSTUVWXYZ,./;'|"
+
+emoji_sy:
+  tag: emoji_sy
+  dictionary: sy_bpmf
+  prism: sy_d_bpmf
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  prefix: ";"
+  suffix: " "
+  tips: "〔符集〕▶" #"〔EMOJI集〕▶" #"《EMOJI集》▶"
+  closing_tips: "◀〔符集〕" #"◀〔EMOJI集〕" #"◀《EMOJI集》"
+  preedit_format:
+    __include: sy_d_bpmf.schema.yaml:/translator/preedit_format
 
 punctuator:
   full_shape:
@@ -356,4 +372,5 @@ recognizer:
     punct: "^e[a-z,./;']?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
     email: "^[a-z][-_.0-9a-z]*@.*$"
     url: "^(https?:|ftp:|mailto:|file:).*$"
+    emoji_sy: "(?<![a-z]);[;0-9a-z]* ?$" #"^[3][-/0123456789a-z]* ?$"
 
