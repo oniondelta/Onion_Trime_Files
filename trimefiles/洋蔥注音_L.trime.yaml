@@ -874,8 +874,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', hint: 'ㄧㄠ', click: 'q', long_click: 'text_eq_d', symbol_text_size: *sf4, width: 11}
       - {label: 'W', hint: 'ㄠ', click: 'w', long_click: 'text_add_d', symbol_text_size: *sf4, width: 9.75}
       - {label: 'E', hint: 'ㄜ|*ㄭ', click: 'e', long_click: 'text_hy_d', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
@@ -890,12 +890,12 @@ preset_keyboards:
       - {label: 'A', hint: 'ㄚ', click: 'a', long_click: DeleteCandidate_d, symbol_text_size: *sf4, width: 10.5}
       - {label: 'S', hint: 'ㄤ', click: 's', long_click: Time_d, symbol_text_size: *sf4, width: 10}
       - {label: 'D', hint: 'ㄡ', click: 'd', long_click: Date_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'F', hint: 'ㄣ', click: 'f', long_click: Home_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'G', hint: 'ㄥ', click: 'g', long_click: End_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'H', hint: 'ㄢ', click: 'h', long_click: cut_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'J', hint: 'ㄞ', click: 'j', long_click: copy_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'K', hint: 'ㄟ|ㄝ', click: 'k', long_click: paste_d, symbol_text_size: *sf4, width: 10}
-      - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all_d, symbol_text_size: *sf4, width: 10.5}
+      - {label: 'F', hint: 'ㄣ', click: 'f', long_click: cut_d, symbol_text_size: *sf4, width: 10}
+      - {label: 'G', hint: 'ㄥ', click: 'g', long_click: copy_d, symbol_text_size: *sf4, width: 10}
+      - {label: 'H', hint: 'ㄢ', click: 'h', long_click: paste_d, symbol_text_size: *sf4, width: 10}
+      - {label: 'J', hint: 'ㄞ', click: 'j', long_click: select_all_d, symbol_text_size: *sf4, width: 10}
+      - {label: 'K', hint: 'ㄟ|ㄝ', click: 'k', long_click: text_dvv1_d, symbol_text_size: *sf4, width: 10}
+      - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
@@ -908,8 +908,8 @@ preset_keyboards:
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 14, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: "'", hint: '輕聲', long_click: '"', symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
-      - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, width: 12
+      - {click: "'", hint: '輕聲', long_click: '"', swipe_up: Theme_settings, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {click: '/', hint: '二聲', long_click: '\', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 9.1, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 9.1, height: *jpgd8}
@@ -932,8 +932,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', hint: 'ㄧㄠ', click: 'q', long_click: 'text_eq_d', symbol_text_size: *sf4, width: 11}
       - {label: 'W', hint: 'ㄠ', click: 'w', long_click: 'text_add_d', symbol_text_size: *sf4, width: 9.75}
       - {label: 'E', hint: 'ㄜ|*ㄭ', click: 'e', long_click: 'text_hy_d', symbol_text_size: *sf4, width: 9.75} #'-{Keyboard_default}'
@@ -948,13 +948,13 @@ preset_keyboards:
       - {label: 'A', hint: 'ㄚ', click: 'a', long_click: DeleteCandidate_d, symbol_text_size: *sf4, width: 11}
       - {label: 'S', hint: 'ㄤ', click: 's', long_click: Time_d, symbol_text_size: *sf4, width: 9.75}
       - {label: 'D', hint: 'ㄡ', click: 'd', long_click: Date_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'F', hint: 'ㄣ', click: 'f', long_click: Home_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'G', hint: 'ㄥ', click: 'g', long_click: End_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'H', hint: 'ㄢ', click: 'h', long_click: cut_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'J', hint: 'ㄞ', click: 'j', long_click: copy_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'K', hint: 'ㄟ|ㄝ', click: 'k', long_click: paste_d, symbol_text_size: *sf4, width: 9.75}
-      - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: select_all_d, symbol_text_size: *sf4, width: 9.75}
-      - {click: "'", hint: '輕聲', long_click: '"', symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {label: 'F', hint: 'ㄣ', click: 'f', long_click: cut_d, symbol_text_size: *sf4, width: 9.75}
+      - {label: 'G', hint: 'ㄥ', click: 'g', long_click: copy_d, symbol_text_size: *sf4, width: 9.75}
+      - {label: 'H', hint: 'ㄢ', click: 'h', long_click: paste_d, symbol_text_size: *sf4, width: 9.75}
+      - {label: 'J', hint: 'ㄞ', click: 'j', long_click: select_all_d, symbol_text_size: *sf4, width: 9.75}
+      - {label: 'K', hint: 'ㄟ|ㄝ', click: 'k', long_click: text_dvv1_d, symbol_text_size: *sf4, width: 9.75}
+      - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 9.75}
+      - {click: "'", hint: '輕聲', long_click: '"', swipe_up: Theme_settings, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
@@ -966,7 +966,7 @@ preset_keyboards:
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '二聲', long_click: '\', swipe_up: paste, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #, width: 12
+      - {click: '/', hint: '二聲', long_click: '\', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 10.25, height: *jpgd8} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '四聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 10.25, height: *jpgd8}
@@ -990,28 +990,28 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
       - {label: 'R', click: 'r', long_click: '_', width: 9.75}
       - {label: 'T', click: 't', long_click: '`', width: 9.75}
       - {label: 'Y', click: 'y', long_click: '~', width: 9.75}
-      - {label: 'U', click: 'u', long_click: 'text_dbb', width: 9.75}
-      - {label: 'I', click: 'i', long_click: 'text_dyy', width: 9.75}
-      - {label: 'O', click: 'o', long_click: 'text_dyy2', width: 9.75}
-      - {label: 'P', click: 'p', long_click: 'text_dgg', width: 11}
+      - {label: 'U', click: 'u', long_click: '[', width: 9.75}
+      - {label: 'I', click: 'i', long_click: ']', width: 9.75}
+      - {label: 'O', click: 'o', long_click: '{', width: 9.75}
+      - {label: 'P', click: 'p', long_click: '}', width: 11}
       - {width: 4.5}
       - {label: 'A', click: 'a', long_click: DeleteCandidate, width: 10.5}
       - {label: 'S', click: 's', long_click: Time, width: 10}
       - {label: 'D', click: 'd', long_click: Date, width: 10}
-      - {label: 'F', click: 'f', long_click: Home, width: 10}
-      - {label: 'G', click: 'g', long_click: End, width: 10}
-      - {label: 'H', click: 'h', long_click: cut, width: 10}
-      - {label: 'J', click: 'j', long_click: copy, width: 10}
-      - {label: 'K', click: 'k', long_click: paste, width: 10}
-      - {label: 'L', click: 'l', long_click: select_all, width: 10.5}
+      - {label: 'F', click: 'f', long_click: cut, width: 10}
+      - {label: 'G', click: 'g', long_click: copy, width: 10}
+      - {label: 'H', click: 'h', long_click: paste, width: 10}
+      - {label: 'J', click: 'j', long_click: select_all, width: 10}
+      - {label: 'K', click: 'k', long_click: '<', width: 10}
+      - {label: 'L', click: 'l', long_click: '>', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
@@ -1024,8 +1024,8 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" ##, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 13.5, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '        韓', long_click: '\', width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd8} #, width: 12
+      - {click: '/', hint: '        韓', long_click: '\', swipe_up: Theme_settings, width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 9.2, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd8}
@@ -1048,29 +1048,29 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
       - {label: 'R', click: 'r', long_click: '_', width: 9.75}
       - {label: 'T', click: 't', long_click: '`', width: 9.75}
       - {label: 'Y', click: 'y', long_click: '~', width: 9.75}
-      - {label: 'U', click: 'u', long_click: 'text_dbb', width: 9.75}
-      - {label: 'I', click: 'i', long_click: 'text_dyy', width: 9.75}
-      - {label: 'O', click: 'o', long_click: 'text_dyy2', width: 9.75}
-      - {label: 'P', click: 'p', long_click: 'text_dgg', width: 11}
+      - {label: 'U', click: 'u', long_click: '[', width: 9.75}
+      - {label: 'I', click: 'i', long_click: ']', width: 9.75}
+      - {label: 'O', click: 'o', long_click: '{', width: 9.75}
+      - {label: 'P', click: 'p', long_click: '}', width: 11}
 #      - {width: 4.5}
       - {label: 'A', click: 'a', long_click: DeleteCandidate, width: 11}
       - {label: 'S', click: 's', long_click: Time, width: 9.75}
       - {label: 'D', click: 'd', long_click: Date, width: 9.75}
-      - {label: 'F', click: 'f', long_click: Home, width: 9.75}
-      - {label: 'G', click: 'g', long_click: End, width: 9.75}
-      - {label: 'H', click: 'h', long_click: cut, width: 9.75}
-      - {label: 'J', click: 'j', long_click: copy, width: 9.75}
-      - {label: 'K', click: 'k', long_click: paste, width: 9.75}
-      - {label: 'L', click: 'l', long_click: select_all, width: 9.75}
-      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {label: 'F', click: 'f', long_click: cut, width: 9.75}
+      - {label: 'G', click: 'g', long_click: copy, width: 9.75}
+      - {label: 'H', click: 'h', long_click: paste, width: 9.75}
+      - {label: 'J', click: 'j', long_click: select_all, width: 9.75}
+      - {label: 'K', click: 'k', long_click: '<', width: 9.75}
+      - {label: 'L', click: 'l', long_click: '>', width: 9.75}
+      - {click: '/', hint: '        韓', long_click: '\', swipe_up: Theme_settings, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
@@ -1082,7 +1082,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd8}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8}
@@ -1105,28 +1105,28 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: Menu_duse, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: Theme_settings, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
+      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
       - {label: 'R', click: 'r', long_click: '_', width: 9.75}
       - {label: 'T', click: 't', long_click: '`', width: 9.75}
       - {label: 'Y', click: 'y', long_click: '~', width: 9.75}
-      - {label: 'U', click: 'u', long_click: 'text_dbb', width: 9.75}
-      - {label: 'I', click: 'i', long_click: 'text_dyy', width: 9.75}
-      - {label: 'O', click: 'o', long_click: 'text_dyy2', width: 9.75}
-      - {label: 'P', click: 'p', long_click: 'text_dgg', width: 11}
+      - {label: 'U', click: 'u', long_click: '[', width: 9.75}
+      - {label: 'I', click: 'i', long_click: ']', width: 9.75}
+      - {label: 'O', click: 'o', long_click: '{', width: 9.75}
+      - {label: 'P', click: 'p', long_click: '}', width: 11}
       - {width: 4.5}
       - {label: 'A', click: 'a', long_click: DeleteCandidate, width: 10.5}
       - {label: 'S', click: 's', long_click: Time, width: 10}
       - {label: 'D', click: 'd', long_click: Date, width: 10}
-      - {label: 'F', click: 'f', long_click: Home, width: 10}
-      - {label: 'G', click: 'g', long_click: End, width: 10}
-      - {label: 'H', click: 'h', long_click: cut, width: 10}
-      - {label: 'J', click: 'j', long_click: copy, width: 10}
-      - {label: 'K', click: 'k', long_click: paste, width: 10}
-      - {label: 'L', click: 'l', long_click: select_all, width: 10.5}
+      - {label: 'F', click: 'f', long_click: cut, width: 10}
+      - {label: 'G', click: 'g', long_click: copy, width: 10}
+      - {label: 'H', click: 'h', long_click: paste, width: 10}
+      - {label: 'J', click: 'j', long_click: select_all, width: 10}
+      - {label: 'K', click: 'k', long_click: '<', width: 10}
+      - {label: 'L', click: 'l', long_click: '>', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: 'text_bs', swipe_up: 'text_bs', width: 11}
       - {width: 4.5}
       - {click: Shift_L3, composing: Tab_3, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #composing: delimiter
@@ -1139,7 +1139,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: Tab_2, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd8} #, width: 12
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 10.25, height: *jpgd8} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: cut_all, width: 10.25, height: *jpgd8} # swipe_up: Page_Up
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd8} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: 'text_que', swipe_up: '/', swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd8} # swipe_up: Page_Down
@@ -1175,7 +1175,7 @@ preset_keyboards:
       - {label: 'O', click: 'o', swipe_up: '9', long_click: 'text_o9', width: 9.75}
       - {label: 'P', click: 'p', swipe_up: '0', long_click: 'text_o0', width: 11}
       - {width: 4.5}
-      - {label: 'A', click: 'a', long_click: Theme_settings, width: 10.5}
+      - {label: 'A', click: 'a', long_click: DeleteCandidate, width: 10.5}
       - {label: 'S', click: 's', long_click: Time, width: 10}
       - {label: 'D', click: 'd', long_click: Date, width: 10}
       - {label: 'F', click: 'f', long_click: cut, width: 10}
@@ -1196,8 +1196,8 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: "BackToPreviousSyllable3", width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 13.5, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '        韓', long_click: DeleteCandidate, width: 9.2} #, long_click: 'text_bs', swipe_up: 'text_bs'
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 9.2, height: *jpgd9} #, width: 12
+      - {click: '/', hint: '        韓', long_click: Hide, swipe_up: Theme_settings, width: 9.2} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 9.2, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2, height: *jpgd9}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 9.2, height: *jpgd9} #long_click: '?'
@@ -1233,7 +1233,7 @@ preset_keyboards:
       - {label: 'O', click: 'o', swipe_up: '9', long_click: 'text_o9', width: 9.75}
       - {label: 'P', click: 'p', swipe_up: '0', long_click: 'text_o0', width: 11}
 #      - {width: 4.5}
-      - {label: 'A', click: 'a', long_click: Theme_settings, width: 11}
+      - {label: 'A', click: 'a', long_click: DeleteCandidate, width: 11}
       - {label: 'S', click: 's', long_click: Time, width: 9.75}
       - {label: 'D', click: 'd', long_click: Date, width: 9.75}
       - {label: 'F', click: 'f', long_click: cut, width: 9.75}
@@ -1242,7 +1242,7 @@ preset_keyboards:
       - {label: 'J', click: 'j', long_click: select_all, width: 9.75}
       - {label: 'K', click: 'k', long_click: '@', width: 9.75}
       - {label: 'L', click: 'l', long_click: '#', width: 9.75}
-      - {click: '/', hint: '        韓', long_click: DeleteCandidate, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {click: '/', hint: '        韓', long_click: Hide, swipe_up: Theme_settings, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
@@ -1254,7 +1254,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: paste, width: 10.25, height: *jpgd9} #, width: 12
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 10.25, height: *jpgd9} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25, height: *jpgd9}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27, height: *jpgd9} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25, height: *jpgd9} #long_click: '?'
