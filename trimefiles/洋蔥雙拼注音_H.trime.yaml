@@ -342,8 +342,8 @@ preset_keys:
 #  畜牲: {text: '{Escape};va', label: 畜牲, functional: false}
   禽類: {text: '{Escape};ql', label: 禽類, functional: false}
 #  家禽圖: {text: '{Escape};jqt', label: 家禽圖, functional: false}
-  鳥類: {text: '{Escape};ll', label: 鳥類, functional: false}
-#  鳥圖: {text: '{Escape};lt', label: 鳥圖, functional: false}
+  鳥類: {text: '{Escape};nl', label: 鳥類, functional: false}
+#  鳥圖: {text: '{Escape};nt', label: 鳥圖, functional: false}
 
   魚圖: {text: '{Escape};yt', label: 魚圖, functional: false}
 #  魚類圖: {text: '{Escape};ylt', label: 魚類圖, functional: false}
