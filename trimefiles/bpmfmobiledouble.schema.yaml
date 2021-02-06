@@ -209,6 +209,7 @@ translator:
     - 'xform/\\/ /'
 #######
     - "xlit|ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ，．／；＇|ABCDEFGHIJKLMNOPQRSTUVWXYZ,./;'|"
+    - 'xform/://'
 
 emoji_sy:
   tag: emoji_sy
