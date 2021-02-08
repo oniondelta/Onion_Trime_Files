@@ -129,6 +129,7 @@ shutil.copyfile("./trimefiles/bpmfmobile.extended.dict.yaml", "./sort_trime/洋�
 shutil.copyfile("./trimefiles/bpmfmobileplus.schema.yaml", "./sort_trime/洋蔥同文注音plus版/bpmfmobileplus.schema.yaml")
 shutil.copyfile("./trimefiles/element_bpmf.yaml", "./sort_trime/洋蔥同文注音plus版/element_bpmf.yaml")
 shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-zh-hant-onion.txt")
+shutil.copyfile("./trimefiles/essay-jp-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-jp-onion.txt")
 shutil.copyfile("./trimefiles/hangeul.dict.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.dict.yaml")
 shutil.copyfile("./trimefiles/hangeul.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.extended.dict.yaml")
 shutil.copyfile("./trimefiles/hangeul.schema.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.schema.yaml")
