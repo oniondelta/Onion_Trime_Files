@@ -195,19 +195,19 @@ translator:
   comment_format:
     - "xform/'/ /"
   disable_user_dict_for_patterns:
-    - ^[aiueohn]$
-    - ^[kstnhmrgzdbp][aiueo]$
-    - ^[sc][h][i]$
-    - ^[t][s][u]$
-    - ^[f][u]$
-    - ^[y][auo]$
-    - ^[w][ao]$
-    - ^[n]$
-    - ^[kgsztnhbpmr][y][auo]$
-    - ^[sc][h][auo]$
-    - ^[j][auo]$
-    - ^[-]{1,2}[.]$
-    - ^[.]$
+    - ^[-]{1,2}$
+    # - ^[.]$
+    # - ^[aiueohn]$
+    # - ^[kstnhmrgzdbp][aiueo]$
+    # - ^[sc][h][i]$
+    # - ^[t][s][u]$
+    # - ^[f][u]$
+    # - ^[y][auo]$
+    # - ^[w][ao]$
+    # - ^[n]$
+    # - ^[kgsztnhbpmr][y][auo]$
+    # - ^[sc][h][auo]$
+    # - ^[j][auo]$
 
 punctuator:
   half_shape:

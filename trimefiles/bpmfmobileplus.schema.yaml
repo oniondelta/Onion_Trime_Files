@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobileplus
   name: "《洋蔥手機注音plus》"
-  version: "202010"
+  version: "202102"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -214,19 +214,19 @@ japan:
   suffix: " "
   tips: "《日》"
   disable_user_dict_for_patterns:
-    - ^[aiueohn]$
-    - ^[kstnhmrgzdbp][aiueo]$
-    - ^[sc][h][i]$
-    - ^[t][s][u]$
-    - ^[f][u]$
-    - ^[y][auo]$
-    - ^[w][ao]$
-    - ^[n]$
-    - ^[kgsztnhbpmr][y][auo]$
-    - ^[sc][h][auo]$
-    - ^[j][auo]$
-    - ^[-]{1,2}[.]$
-    - ^[.]$
+    - ^[-]{1,2}$
+    # - ^[.]$
+    # - ^[aiueohn]$
+    # - ^[kstnhmrgzdbp][aiueo]$
+    # - ^[sc][h][i]$
+    # - ^[t][s][u]$
+    # - ^[f][u]$
+    # - ^[y][auo]$
+    # - ^[w][ao]$
+    # - ^[n]$
+    # - ^[kgsztnhbpmr][y][auo]$
+    # - ^[sc][h][auo]$
+    # - ^[j][auo]$
   preedit_format:
     - xform/^/《日》/
     - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
