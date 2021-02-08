@@ -336,10 +336,15 @@ punctuator:
 key_binder:
   import_preset: default
   bindings:
+### 避 RIME 原設定鍵位衝突 ###
     - {accept: comma, send: comma, when: has_menu}
+    - {accept: comma, send: comma, when: paging}
     - {accept: period, send: period, when: has_menu}
+    - {accept: period, send: period, when: paging}
     - {accept: minus, send: minus, when: has_menu}
+    - {accept: minus, send: minus, when: paging}
     - {accept: equal, send: equal, when: has_menu}
+    - {accept: equal, send: equal, when: paging}
 ### 方向鍵鍵 ###
     - {accept: Left, send: KP_Left, when: composing}
     - {accept: Down, send: Control+Right, when: composing} # 特殊情形轉功能
