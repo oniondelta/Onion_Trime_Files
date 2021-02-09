@@ -144,6 +144,7 @@ shutil.copyfile("./trimefiles/hangeul.schema.yaml", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/jpnin1.dict.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.dict.yaml")
 shutil.copyfile("./trimefiles/jpnin1.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.extended.dict.yaml")
 shutil.copyfile("./trimefiles/jpnin1.schema.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.schema.yaml")
+shutil.copyfile("./trimefiles/jpnin1.custom.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.custom.yaml")
 shutil.copyfile("./trimefiles/latinin1.dict.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.extended.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.schema.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.schema.yaml")
