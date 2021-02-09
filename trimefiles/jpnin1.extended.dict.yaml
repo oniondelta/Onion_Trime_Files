@@ -6,14 +6,14 @@
 name: jpnin1.extended
 version: "202102"
 sort: by_weight
-vocabulary: essay-jp-onion
-#use_preset_vocabulary: false
+#vocabulary: essay-jp-onion
+use_preset_vocabulary: false
 #max_phrase_length: 7
 #min_phrase_weight: 100
 import_tables:
   - jpnin1
   - phrases.jp_hk
-#  - phrases.jp_hkup_w
+  - phrases.jp_hkup_w
 #  - phrases.jp_hk_more
 #  - phrases.jp_hkmoreup_w
   - phrases.jp_hkkseg
