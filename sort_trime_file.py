@@ -11,10 +11,12 @@ os.makedirs('./sort_trime/洋蔥同文注音mixin版/opencc/', exist_ok=True)
 
 
 #複製檔案(洋蔥同文注音純注音版)
+shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音純注音版/essay.txt")
+shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音純注音版/essay-zh-hant-onion.txt")
+
 shutil.copyfile("./trimefiles/bpmfmobile.extended.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/bpmfmobile.extended.dict.yaml")
 shutil.copyfile("./trimefiles/bpmfmobile.schema.yaml", "./sort_trime/洋蔥同文注音純注音版/bpmfmobile.schema.yaml")
 shutil.copyfile("./trimefiles/element_bpmf.yaml", "./sort_trime/洋蔥同文注音純注音版/element_bpmf.yaml")
-shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音純注音版/essay-zh-hant-onion.txt")
 shutil.copyfile("./trimefiles/mobile_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/mobile_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音純注音版/mobile_bpmf.schema.yaml")
 
@@ -44,9 +46,11 @@ shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音純注音
 
 
 #複製檔案(洋蔥同文注音雙拼版版)
+shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音雙拼版/essay.txt")
+shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音雙拼版/essay-zh-hant-onion.txt")
+
 shutil.copyfile("./trimefiles/bpmfmobile.extended.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/bpmfmobile.extended.dict.yaml")
 shutil.copyfile("./trimefiles/bpmfmobiledouble.schema.yaml", "./sort_trime/洋蔥同文注音雙拼版/bpmfmobiledouble.schema.yaml")
-shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音雙拼版/essay-zh-hant-onion.txt")
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/phrases.chtp.dict.yaml")
@@ -77,6 +81,9 @@ shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音雙拼版
 
 
 #複製檔案(洋蔥同文注音mixin版)
+shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音mixin版/essay.txt")
+shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音mixin版/essay-zh-hant-onion.txt")
+
 shutil.copyfile("./trimefiles/bo_mixin_jp.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_jp.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_kr.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_kr.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_la.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_la.dict.yaml")
@@ -84,7 +91,6 @@ shutil.copyfile("./trimefiles/bo_mixin.extended.dict.yaml", "./sort_trime/洋蔥
 shutil.copyfile("./trimefiles/bpmfmobilemixin2.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/bpmfmobilemixin2.schema.yaml")
 shutil.copyfile("./trimefiles/bpmfmobilemixins.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/bpmfmobilemixins.schema.yaml")
 shutil.copyfile("./trimefiles/element_bpmf.yaml", "./sort_trime/洋蔥同文注音mixin版/element_bpmf.yaml")
-shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音mixin版/essay-zh-hant-onion.txt")
 shutil.copyfile("./trimefiles/mobile_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/mobile_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/mobile_bpmf.schema.yaml")
 
@@ -125,11 +131,13 @@ shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音mixin版/
 
 
 # #複製檔案(洋蔥同文注音plus版)
+shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音plus版/essay.txt")
+shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-zh-hant-onion.txt")
+shutil.copyfile("./trimefiles/essay-jp-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-jp-onion.txt")
+
 shutil.copyfile("./trimefiles/bpmfmobile.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/bpmfmobile.extended.dict.yaml")
 shutil.copyfile("./trimefiles/bpmfmobileplus.schema.yaml", "./sort_trime/洋蔥同文注音plus版/bpmfmobileplus.schema.yaml")
 shutil.copyfile("./trimefiles/element_bpmf.yaml", "./sort_trime/洋蔥同文注音plus版/element_bpmf.yaml")
-shutil.copyfile("./trimefiles/essay-zh-hant-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-zh-hant-onion.txt")
-shutil.copyfile("./trimefiles/essay-jp-onion.txt", "./sort_trime/洋蔥同文注音plus版/essay-jp-onion.txt")
 shutil.copyfile("./trimefiles/hangeul.dict.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.dict.yaml")
 shutil.copyfile("./trimefiles/hangeul.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.extended.dict.yaml")
 shutil.copyfile("./trimefiles/hangeul.schema.yaml", "./sort_trime/洋蔥同文注音plus版/hangeul.schema.yaml")
