@@ -1,0 +1,11 @@
+# Rime schema 中州輸入法的字碼檔
+# encoding: utf-8
+# 《符號碼表》
+---
+name: punt_ocm
+version: "202101"
+sort: original #by_weight
+use_preset_vocabulary: false #true
+#max_phrase_length: 7
+#min_phrase_weight: 100
+...
