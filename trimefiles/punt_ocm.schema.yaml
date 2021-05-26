@@ -1,0 +1,69 @@
+# symbols_bpmf.schema.yaml
+
+schema:
+  schema_id: punt_ocm
+  name: 標點(蝦)
+  version: "2.2"
+  description: |
+    由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
+    可在Mac中輸入iOS設備通用的Emoji表情，其他系統可能需安装專門字體。
+  author:
+    - 洋蔥
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 標, 英 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半, 全 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+#    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+  filters:
+    - uniquifier
+
+menu:
+#  alternative_select_keys: "012345678"
+  page_size: 9
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz,.'"
+  delimiter: " "
+
+translator:
+  dictionary: punt_ocm
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+
+key_binder:
+  import_preset: default
+#  bindings:
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+#  patterns:
+#    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"

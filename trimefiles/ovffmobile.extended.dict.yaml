@@ -1,0 +1,27 @@
+# Rime schema 中州輸入法的字碼檔
+# encoding: utf-8
+# 《詞庫》
+---
+name: ovffmobile.extended
+version: "202012"
+sort: original
+use_preset_vocabulary: false
+max_phrase_length: 7
+min_phrase_weight: 100
+import_tables:
+  - tcword
+  - uniabcdword
+  - ocm_mixin_jp
+  - ocm_mixin_kr
+  - ocm_mixin_la
+  - phrases.ocmtc_terra
+  - phrases.cht_en_w
+  - phrases.jp_hk
+  - phrases.jp_hkk
+  - phrases.kr
+  - phrases.en_o_w
+  - phrases.la_py_w
+  - phrases.en_l_w
+  - phrases.en_u_w
+...
+
