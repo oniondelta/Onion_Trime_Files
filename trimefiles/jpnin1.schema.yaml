@@ -132,8 +132,8 @@ speller:
     - derive/(?<!d|,|;)dy([auo])/zy$1/
     - derive/(?<!d|,|;)dy([auo])/j$1/
 ### 其他 ###
-    - derive/ttye/cche/ #「崔tye」「陳tyen」：ちぇ、チェ。
-    - derive/ttye/ccye/ #「崔tye」「陳tyen」：ちぇ、チェ。
+    - derive/ttye/cche/ #っちぇ、ッチェ。
+    - derive/ttye/ccye/ #っちぇ、ッチェ。
     - derive/(?<!t)tye/che/ #「崔tye」「陳tyen」：ちぇ、チェ。
     - derive/(?<!t)tye/cye/ #「崔tye」「陳tyen」：ちぇ、チェ。
 ##### 小字假名或符號等，拼音轉寫 #####
