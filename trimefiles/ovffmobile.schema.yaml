@@ -8,7 +8,7 @@ schema:
     
   name: "《手機煆》"
   schema_id: ovffmobile
-  version: "202101"
+  version: "202106"
   dependencies:
     - punt_ocm
     - sy_ocm
