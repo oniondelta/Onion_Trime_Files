@@ -103,8 +103,8 @@ key_binder:
 ######################
     - {accept: space, send: grave, when: has_menu} ##按空白鍵後會空一格並上屏，原「`」鍵會失效變「空格」。
     - {accept: space, send: space, when: paging} ##選單有多字並選擇時，不會跳成單字加上空格。
-#    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 #    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
+#    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 
 editor:
   bindings:

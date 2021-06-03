@@ -51,7 +51,7 @@ menu:
 engine:
   filters:
     - simplifier@zh_tw
-#    - lua_filter@charset_filter2
+    - lua_filter@charset_filter2
 #    - charset_filter@big5
     - simplifier
     - simplifier@emoji_switch
@@ -81,6 +81,8 @@ engine:
     - script_translator
     - table_translator@puntocm
     - table_translator@syocm
+    - lua_translator@email_translator
+    - lua_translator@urlw_translator
 
 simplifier:
   tips: all
@@ -321,7 +323,9 @@ editor:
 recognizer:
 #  import_preset: default
   patterns:
-    email: "^[a-z][-_.0-9a-z]*@.*$"
+    # email: "^[a-z][-_.0-9a-z]*@.*$"
+    # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
     puntocm: "^[,][,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^['][a-z']* ?$"
     punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"

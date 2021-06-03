@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202102"
+  version: "202106"
   author:
     - 『洋蔥』
   description: |
@@ -38,7 +38,7 @@ switches:
 engine:
   filters:
     - simplifier@zh_tw
-#    - lua_filter@charset_filter2
+    - lua_filter@charset_filter2
     - simplifier
     - simplifier@emoji_switch
     - simplifier@punct_mark
@@ -63,6 +63,8 @@ engine:
     - punct_translator
     - table_translator@emoji_sy
     - script_translator
+    - lua_translator@email_translator
+    - lua_translator@url_translator
 
 menu:
   page_size: 6
@@ -354,6 +356,9 @@ key_binder:
 ### 刪除鍵 ###
     - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
     - {accept: Control+x, send: Escape, when: composing}
+### Return 和 空白鍵 ###
+    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
+    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 ### 使數字鍵於打字時無效 ###
     - {accept: 1, send: Pause, when: has_menu}
     - {accept: 2, send: Pause, when: has_menu}
@@ -376,7 +381,7 @@ editor:
 recognizer:
   patterns:
     punct: "^e[a-z,./;']?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
-    email: "^[a-z][-_.0-9a-z]*@.*$"
-    url: "^(https?:|ftp:|mailto:|file:).*$"
+    # email: "^[a-z][-_.0-9a-z]*@.*$"
+    # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
     emoji_sy: "(?<![a-z]);[;0-9a-z]* ?$"
-
+    lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"

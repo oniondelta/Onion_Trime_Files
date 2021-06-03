@@ -37,8 +37,8 @@ key_binder:
     # - {accept: space, send: Return, when: paging} # fluency_editor模式下，方向鍵選字時，打space直接上屏
     # - {accept: space, send: Return, when: has_menu} # fluency_editor模式下，打空白键直接上屏
     # - {accept: space, send: space, when: composing}
-    # - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
-    # - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
+    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
+    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 ## 以下兩則是把enter和空白鍵調換（在有選單時）
     #原 - {accept: Return, send: space, when: has_menu} # return,enter直出
     # - {accept: space, send: Shift+A, when: has_menu} # express_editor模式下，打Return直接上屏第一個候選項
