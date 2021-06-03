@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixin2
   name: "《洋蔥手機注音mixin2》"
-  version: "202010"
+  version: "202106"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -43,7 +43,7 @@ switches:
 engine:
   filters:
     - simplifier@zh_tw
-#    - lua_filter@charset_filter2
+    - lua_filter@charset_filter2
     - simplifier
     - simplifier@emoji_switch
     - simplifier@back_mark
@@ -71,6 +71,8 @@ engine:
     - table_translator@emoji_sy
     - script_translator@bpmf_m
     - script_translator
+    - lua_translator@email_translator
+    - lua_translator@url_translator
 
 menu:
   page_size: 6
@@ -536,8 +538,9 @@ editor:
 recognizer:
   patterns:
 #    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
-    url: "^(https?:|ftp:|mailto:|file:).*$|[-0-9][-0-9]+$"
-    email: "^[a-z][-_.0-9a-z]*@.*$"
+    # url: "^(https?:|ftp:|mailto:|file:).*$|[-0-9][-0-9]+$"
+    # email: "^[a-z][-_.0-9a-z]*@.*$"
     emoji_sy: "(?<![-,./;a-z125890])3[-/0-9a-z]* ?$"
     bpmf_m: "^[-+/0-9a-z.,; ]+['][\"]$|^['][\"][-+/0-9a-z.,; ]*$"
     punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
