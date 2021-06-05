@@ -99,8 +99,8 @@ key_binder:
     - {accept: Tab, send: Shift+Right, when: composing}
 ######################
 #    - {accept: Return, send: grave, when: has_menu}
-    - {accept: Return, send: space, when: paging}
-    - {accept: Return, send: space, when: has_menu} #return,enter直出
+#關#    - {accept: Return, send: space, when: paging}
+#關#    - {accept: Return, send: space, when: has_menu} #return,enter直出
 ######################
 #關#    - {accept: space, send: grave, when: has_menu} ##按空白鍵後會空一格並上屏，原「`」鍵會失效變「空格」。
 #關#    - {accept: space, send: space, when: paging} ##選單有多字並選擇時，不會跳成單字加上空格。
@@ -109,6 +109,7 @@ key_binder:
 
 editor:
   bindings:
+    Return: confirm
     Shift+Return: commit_raw_input
 
 recognizer:
