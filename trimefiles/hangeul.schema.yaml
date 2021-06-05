@@ -4,7 +4,7 @@
 schema:
   schema_id: hangeul # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
   name: ❃韓語形碼❃
-  version: "202102"
+  version: "202106"
   author:
     - 『洋蔥』
   description: |
@@ -20,6 +20,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@endspace #用戶詞典無法記憶，考慮關閉，但使用符號置換方式切分會有問題！且字典已用詞頻校正，測試效果中。hangeul2set 沒有記憶問題則開啟。
     - ascii_composer
     - recognizer
     - key_binder
@@ -64,7 +65,7 @@ translator:
 punctuator:
 #  import_preset: default
   half_shape:
-    "`" : { commit: " " }  ##會空一格並上屏，原「`」鍵會失效變「空格」。可結合key_binder空白鍵，使空白鍵能空一格上屏。
+#關#    "`" : { commit: " " }  ##會空一格並上屏，原「`」鍵會失效變「空格」。可結合key_binder空白鍵，使空白鍵能空一格上屏。
 #    "/" : { commit: " " }  ##會空一格並上屏，原「/」鍵會失效變「空格」。可結合key_binder空白鍵，使空白鍵能空一格上屏。
     "$" : [ "$", "₩", "＄", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
     "%" : [ "%", "％", "‰", "‱", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
@@ -101,8 +102,8 @@ key_binder:
     - {accept: Return, send: space, when: paging}
     - {accept: Return, send: space, when: has_menu} #return,enter直出
 ######################
-    - {accept: space, send: grave, when: has_menu} ##按空白鍵後會空一格並上屏，原「`」鍵會失效變「空格」。
-    - {accept: space, send: space, when: paging} ##選單有多字並選擇時，不會跳成單字加上空格。
+#關#    - {accept: space, send: grave, when: has_menu} ##按空白鍵後會空一格並上屏，原「`」鍵會失效變「空格」。
+#關#    - {accept: space, send: space, when: paging} ##選單有多字並選擇時，不會跳成單字加上空格。
 #    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
 #    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 
