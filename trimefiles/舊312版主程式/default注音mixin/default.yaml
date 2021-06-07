@@ -121,6 +121,7 @@ recognizer:
 schema_list:
   - schema: bpmfmobilemixins
   - schema: bpmfmobilemixin2
+  - schema: bpmfmobilemixin4
   - schema: mobile_bpmf
   - schema: sy_bpmf
 switcher:
