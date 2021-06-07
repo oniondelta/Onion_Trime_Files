@@ -48,6 +48,8 @@ __patch:
   preset_keyboards/bpmfmobilemixin2/keys/@40/height: *jpgd8
   preset_keyboards/bpmfmobilemixin3/height: *jpgd7
   preset_keyboards/bpmfmobilemixin3/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemixin4/height: *jpgd7
+  preset_keyboards/bpmfmobilemixin4/keys/@40/height: *jpgd8
 
   preset_keyboards/bpmfsimple/height: *jpgd6
 

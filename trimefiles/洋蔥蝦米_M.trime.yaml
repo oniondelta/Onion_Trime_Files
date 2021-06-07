@@ -1328,116 +1328,30 @@ preset_keyboards:
     import_preset: bpmfmobilemixin
 #####################
   bpmfmobilemixin2:
-    name: 注音mixin2
-    author: "洋蔥"
-    ascii_mode: 0
-    width: 10
-    height: *jpgd7
-    lock: true
-    keys:
-      - {label: 'ㄅ', hint: '1', click: 'text_1', long_click: '!', width: 11}
-      - {label: 'ㄉ', hint: '2', click: 'text_2', long_click: '@', width: 9.75}
-      - {label: 'ˇ', hint: '集 3 平', click: 'text_3', long_click: '#', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, width: 9.75, key_back_color: bzymixin} #swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right
-      - {label: 'ˋ', hint: '     4 片', click: 'text_4', long_click: '$', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, width: 9.75, key_back_color: bzymixin} #swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right
-      - {label: 'ㄓ', hint: '5', click: 'text_5', long_click: '%', width: 9.75}
-      - {label: 'ˊ', hint: '     6 大', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
-      - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
-      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
-      - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', width: 11} #long_click: 'text_bs'
-      - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', width: 9.75}
-      - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
-      - {label: 'ㄐ', hint: 'R', click: 'text_r', long_click: ']', width: 9.75}
-      - {label: 'ㄔ', hint: 'T', click: 'text_t', long_click: '{', width: 9.75}
-      - {label: 'ㄗ', hint: 'Y', click: 'text_y', long_click: '}', width: 9.75}
-      - {label: 'ㄧ', hint: 'U', click: 'text_u', long_click: '(', width: 9.75}
-      - {label: 'ㄛ', hint: 'I', click: 'text_i', long_click: ')', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄟ', hint: 'O', click: 'text_o', long_click: '\', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄣ', hint: 'P', click: 'text_p', long_click: '|', width: 11} #, key_back_color: blue1
-      - {label: 'ㄇ', hint: 'A', click: 'text_a', long_click: DeleteCandidate, width: 11} #long_click: Hide
-      - {label: 'ㄋ', hint: 'S', click: 'text_s', long_click: cut, width: 9.75}
-      - {label: 'ㄎ', hint: 'D', click: 'text_d', long_click: copy, width: 9.75}
-      - {label: 'ㄑ', hint: 'F', click: 'text_f', long_click: paste, width: 9.75}
-      - {label: 'ㄕ', hint: 'G', click: 'text_g', long_click: 'text_yy_2', width: 9.75}
-      - {label: 'ㄘ', hint: 'H', click: 'text_h', long_click: 'text_mh_2', width: 9.75} #, long_click: 'text_ddd'
-      - {label: 'ㄨ', hint: 'J', click: 'text_j', long_click: 'text_fh_2', width: 9.75}
-      - {label: 'ㄜ', hint: 'K', click: 'text_k', long_click: "'", width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄠ', hint: 'L', click: 'text_l', long_click: '"', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄤ', hint: '；', click: 'text_ang', long_click: ':', width: 11} #◉, key_back_color: blue1
-      - {label: 'ㄈ', hint: 'Z', click: 'text_z', long_click: Time, width: 11} #, long_click: Hide
-      - {label: 'ㄌ', hint: 'X', click: 'text_x', long_click: Date, width: 9.75} #Insert
-      - {label: 'ㄏ', hint: 'C', click: 'text_c', long_click: select_all, width: 9.75}
-      - {label: 'ㄒ', hint: 'V', click: 'text_v', long_click: 'text_ddd_2', width: 9.75} #long_click: '（）{Left}{Keyboard_default}'
-      - {label: 'ㄖ', hint: 'B', click: 'text_b', long_click: 'text_dh_2', width: 9.75}
-      - {label: 'ㄙ', hint: 'N', click: 'text_n', long_click: 'text_jth_2', width: 9.75} #, long_click: 'text_dh'
-      - {label: 'ㄩ', hint: 'M', click: 'text_m', long_click: 'text_wh_2', width: 9.75} #, long_click: '!'
-      - {label: 'ㄝ', hint: ' ，', click: 'text_ie', long_click: '<', width: 9.75} #, long_click: 'text_do' #◉, key_back_color: blue1
-      - {label: 'ㄡ', hint: ' ．', click: 'text_ou', long_click: '>', width: 9.75} #, long_click: 'text_gi' #◉, key_back_color: blue1
-      - {label: 'ㄥ', hint: '/', click: 'text_eng', long_click: '?', width: 11} #◉, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.8, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: Left2 #composing: delimiter_2 #composing: Left
-      - {click: Keyboard_bqrw, composing: delimiter_3, long_click: Keyboard_kao, swipe_up: Keyboard_number, width: 10.9} #composing: Right
-      - {label: 'ㄦ', hint: '-', click: 'text_er', long_click: '_', width: 10.9}
-      - {click: space, hint: '            ␣       小', long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 19.7, key_text_size: "6"} #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, width: 10.9} #click: 'text_add', ascii: '+', composing: 'text_do' #, composing: "Escape"
-      - {click: BackSpace, swipe_up: BackToPreviousSyllable3, key_back_color: bbs, key_text_color: tbs, width: 14.1} #, composing: BackToPreviousSyllable2, swipe_up: BackSpace #, swipe_up: "Escape"
-      - {click: Return, long_click: BPMF, key_text_size: "22", swipe_up: CommitRawInput, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs, width: 19.7} #long_click: CommitScriptText #swipe_up: Theme_settings
+    __include: preset_keyboards/bpmfmobilemixin
+    __patch:
+      keys/@2/hint: '集 3 平'
+      keys/@3/hint: '     4 片'
+      keys/@5/hint: '     6 大'
+      keys/@6/hint: '     7 韓'
+      keys/@29/hint: '；'
+      keys/@37/hint: ' ，'
+      keys/@38/hint: ' ．'
+      keys/@39/hint: '/'
+      keys/@43/hint: '            ␣       小'
 #####################
   bpmfmobilemixin3:
-    name: 注音mixin3
-    author: "洋蔥"
-    ascii_mode: 0
-    width: 10
-    height: *jpgd7
-    lock: true
-    keys:
-      - {label: 'ㄅ', hint: '1', click: 'text_1', long_click: '!', width: 11}
-      - {label: 'ㄉ', hint: '2', click: 'text_2', long_click: '@', width: 9.75}
-      - {label: 'ˇ', hint: '集 3     ', click: 'text_3', long_click: '#', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, width: 9.75, key_back_color: bzymixin} #swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right
-      - {label: 'ˋ', hint: '     4 拉', click: 'text_4', long_click: '$', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, width: 9.75, key_back_color: bzymixin} #swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right
-      - {label: 'ㄓ', hint: '5', click: 'text_5', long_click: '%', width: 9.75}
-      - {label: 'ˊ', hint: '     6 日', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
-      - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
-      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
-      - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', width: 11} #long_click: 'text_bs'
-      - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', width: 9.75}
-      - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
-      - {label: 'ㄐ', hint: 'R', click: 'text_r', long_click: ']', width: 9.75}
-      - {label: 'ㄔ', hint: 'T', click: 'text_t', long_click: '{', width: 9.75}
-      - {label: 'ㄗ', hint: 'Y', click: 'text_y', long_click: '}', width: 9.75}
-      - {label: 'ㄧ', hint: 'U', click: 'text_u', long_click: '(', width: 9.75}
-      - {label: 'ㄛ', hint: 'I', click: 'text_i', long_click: ')', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄟ', hint: 'O', click: 'text_o', long_click: '\', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄣ', hint: 'P', click: 'text_p', long_click: '|', width: 11} #, key_back_color: blue1
-      - {label: 'ㄇ', hint: 'A', click: 'text_a', long_click: DeleteCandidate, width: 11} #long_click: Hide
-      - {label: 'ㄋ', hint: 'S', click: 'text_s', long_click: cut, width: 9.75}
-      - {label: 'ㄎ', hint: 'D', click: 'text_d', long_click: copy, width: 9.75}
-      - {label: 'ㄑ', hint: 'F', click: 'text_f', long_click: paste, width: 9.75}
-      - {label: 'ㄕ', hint: 'G', click: 'text_g', long_click: 'text_yy_2', width: 9.75}
-      - {label: 'ㄘ', hint: 'H', click: 'text_h', long_click: 'text_mh_2', width: 9.75} #, long_click: 'text_ddd'
-      - {label: 'ㄨ', hint: 'J', click: 'text_j', long_click: 'text_fh_2', width: 9.75}
-      - {label: 'ㄜ', hint: 'K', click: 'text_k', long_click: "'", width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄠ', hint: 'L', click: 'text_l', long_click: '"', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄤ', hint: '     ； 大', click: 'text_ang', long_click: ':', width: 11} #◉, key_back_color: blue1
-      - {label: 'ㄈ', hint: 'Z', click: 'text_z', long_click: Time, width: 11} #, long_click: Hide
-      - {label: 'ㄌ', hint: 'X', click: 'text_x', long_click: Date, width: 9.75} #Insert
-      - {label: 'ㄏ', hint: 'C', click: 'text_c', long_click: select_all, width: 9.75}
-      - {label: 'ㄒ', hint: 'V', click: 'text_v', long_click: 'text_ddd_2', width: 9.75} #long_click: '（）{Left}{Keyboard_default}'
-      - {label: 'ㄖ', hint: 'B', click: 'text_b', long_click: 'text_dh_2', width: 9.75}
-      - {label: 'ㄙ', hint: 'N', click: 'text_n', long_click: 'text_jth_2', width: 9.75} #, long_click: 'text_dh'
-      - {label: 'ㄩ', hint: 'M', click: 'text_m', long_click: 'text_wh_2', width: 9.75} #, long_click: '!'
-      - {label: 'ㄝ', hint: '     ，平 ', click: 'text_ie', long_click: '<', width: 9.75} #, long_click: 'text_do' #◉, key_back_color: blue1
-      - {label: 'ㄡ', hint: '     ．片 ', click: 'text_ou', long_click: '>', width: 9.75} #, long_click: 'text_gi' #◉, key_back_color: blue1
-      - {label: 'ㄥ', hint: '       /  小', click: 'text_eng', long_click: '?', width: 11} #◉, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.8, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: Left2 #composing: delimiter_2 #composing: Left
-      - {click: Keyboard_bqrw, composing: delimiter_3, long_click: Keyboard_kao, swipe_up: Keyboard_number, width: 10.9} #composing: Right
-      - {label: 'ㄦ', hint: '-', click: 'text_er', long_click: '_', width: 10.9}
-      - {click: space, hint: '            ␣       全', long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 19.7, key_text_size: "6"} #, swipe_left: Page_Up, swipe_right: Page_Down
-      - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, width: 10.9} #click: 'text_add', ascii: '+', composing: 'text_do' #, composing: "Escape"
-      - {click: BackSpace, swipe_up: BackToPreviousSyllable3, key_back_color: bbs, key_text_color: tbs, width: 14.1} #, composing: BackToPreviousSyllable2, swipe_up: BackSpace #, swipe_up: "Escape"
-      - {click: Return, long_click: BPMF, key_text_size: "22", swipe_up: CommitRawInput, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs, width: 19.7} #long_click: CommitScriptText #swipe_up: Theme_settings
+    __include: preset_keyboards/bpmfmobilemixin
+    __patch:
+      keys/@2/hint: '     4 拉'
+      keys/@43/hint: '            ␣       全'
+#####################
+  bpmfmobilemixin4:
+    __include: preset_keyboards/bpmfmobilemixin
+    __patch:
+      keys/@5/hint: '6'
+      keys/@6/hint: '7'
+      keys/@43/hint: '            ␣   拉日韓'
 #####################
   bpmfsimple:
     name: 注音十二宮
