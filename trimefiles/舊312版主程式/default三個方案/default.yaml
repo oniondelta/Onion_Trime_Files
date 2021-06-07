@@ -122,6 +122,7 @@ schema_list:
   - schema: bpmfmobile
   - schema: bpmfmobilemixins
   - schema: bpmfmobilemixin2
+  - schema: bpmfmobilemixin4
   - schema: bpmfmobileplus
   - schema: hangeul
   - schema: jpnin1
