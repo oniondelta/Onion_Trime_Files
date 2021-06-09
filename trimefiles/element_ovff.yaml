@@ -26,6 +26,8 @@ key_binder:
     # - {accept: "Control+Shift+Right", send: Right, when: always}
     # - {accept: "Control+Shift+Left", send: "Control+Left", when: composing}
     # - {accept: "Control+Shift+Right", send: "Control+Right", when: composing}
+### tab 鍵 ###
+    - { when: composing, accept: Tab, send: Shift+Right }
 ### 刪除鍵 ###
 #?#    - {accept: Control+Shift+Alt+BackSpace, send: Escape, when: composing}
     - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
