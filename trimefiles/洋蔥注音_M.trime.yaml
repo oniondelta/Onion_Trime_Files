@@ -85,7 +85,7 @@ style:
   key_long_text_size: 12 #18 #長標籤字號
   key_text_size: 18 #20 #22 #24 #鍵字號
   key_width: 10.0 #鍵寬，佔屏幕寬的百分比
-  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, edit, move, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kmenu, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, bpmfmobiledouble, bpmfmobiledouble_full, bpmfmobile, bpmfmobile_ns, 42keys, duse] #鍵盤配置#, bpmfmobile, ovffmobile
+  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfsimple, bpmfmobiledouble, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set] #鍵盤配置#, edit, move
   label_text_size: 0 #22 #標籤字號
   label_font: label.ttf #編標籤字體
   latin_font: latin.ttf #西文本體
@@ -5806,7 +5806,7 @@ preset_keys:
   Keyboard_number: {label: 123, functional: false, send: Eisu_toggle, select: number}
   Keyboard_numberb: {label: 123, functional: false, send: Eisu_toggle, select: numberb}
   Keyboard_symbols: {label: 符集, functional: false, send: Eisu_toggle, select: symbols}
-  Keyboard_move: {label: ❖, functional: true, send: Eisu_toggle, select: move}
+  # Keyboard_move: {label: ❖, functional: true, send: Eisu_toggle, select: move}
   Keyboard_next: {label: 后退, functional: false, send: Eisu_toggle, select: .next}
   Keyboard_last: {label: 后退, functional: false, send: Eisu_toggle, select: .last}
   Keyboard_last_lock: {label: 返回, send: Eisu_toggle, select: .last_lock} #直接切換到下一鍵盤
