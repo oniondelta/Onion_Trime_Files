@@ -88,7 +88,7 @@ simplifier:
   tips: all
 
 zh_tw:
-  opencc_config: ocm_big5e_hkscs_jis.json
+  opencc_config: ocm_moedict_big5e_hkscs_jis.json
   option_name: zh_tw
   tags: [ abc ]
 #  tips: all
