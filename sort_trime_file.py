@@ -43,8 +43,6 @@ shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.txt")
 
-shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音純注音版/fonts/')
-
 
 #複製檔案(洋蔥同文注音雙拼版版)
 shutil.copyfile("./trimefiles/essay.txt", "./sort_trime/洋蔥同文注音雙拼版/essay.txt")
@@ -77,8 +75,6 @@ shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_s.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.txt")
-
-shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音雙拼版/fonts/')
 
 
 #複製檔案(洋蔥同文注音mixin版)
@@ -128,8 +124,6 @@ shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_s.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.txt")
-
-shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音mixin版/fonts/')
 
 
 #複製檔案(洋蔥同文注音plus版)
@@ -189,8 +183,6 @@ shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
 
-shutil.copytree('./trimefiles/fonts/', './sort_trime/洋蔥同文注音plus版/fonts/')
-
 
 #複製檔案(手機煆)
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./sort_trime/手機煆/ocm_mixin_jp.dict.yaml")
@@ -232,8 +224,6 @@ shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/手機煆/
 shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/手機煆/opencc/emoji_s.json")
 shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/手機煆/opencc/emoji_s.txt")
 
-shutil.copytree('./trimefiles/fonts/', './sort_trime/手機煆/fonts/')
-
 
 #實體(藍牙)鍵盤專用
 shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體(藍牙)鍵盤專用/')
@@ -245,6 +235,10 @@ shutil.copytree('./trimefiles/舊312版主程式/', './sort_trime/舊312版主�
 
 #OpenCC_ocd_64位元
 shutil.copytree('./trimefiles/OpenCC_ocd_64位元/', './sort_trime/OpenCC_ocd_64位元/')
+
+
+#font字型
+shutil.copytree('./trimefiles/fonts/', './sort_trime/fonts/')
 
 
 #名稱增加日期
