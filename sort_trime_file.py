@@ -249,7 +249,9 @@ os.rename('./sort_trime/洋蔥同文注音純注音版/', './sort_trime/洋蔥�
 os.rename('./sort_trime/洋蔥同文注音雙拼版/', './sort_trime/洋蔥同文注音雙拼版_'+localtime)
 os.rename('./sort_trime/洋蔥同文注音mixin版/', './sort_trime/洋蔥同文注音mixin版_'+localtime)
 os.rename('./sort_trime/洋蔥同文注音plus版/', './sort_trime/洋蔥同文注音plus版_'+localtime)
-os.rename('./sort_trime/洋蔥手機蝦/ocm_mixin/', './sort_trime/洋蔥手機蝦_'+localtime)
+
+os.rename('./sort_trime/洋蔥手機蝦/ocm_mixin/', './sort_trime/洋蔥手機蝦/ocm_mixin_'+localtime)
+os.rename('./sort_trime/洋蔥手機蝦/', './sort_trime/洋蔥手機蝦_'+localtime)
 
 os.rename('./sort_trime/', './洋蔥手機同文方案_'+localtime)
 
