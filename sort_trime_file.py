@@ -9,6 +9,7 @@ os.makedirs('./sort_trime/洋蔥同文注音雙拼版/opencc/', exist_ok=True)
 os.makedirs('./sort_trime/洋蔥同文注音plus版/opencc/', exist_ok=True)
 os.makedirs('./sort_trime/洋蔥同文注音mixin版/opencc/', exist_ok=True)
 os.makedirs('./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/', exist_ok=True)
+os.makedirs('./sort_trime/洋蔥手機蝦/ocm_plus/opencc/', exist_ok=True)
 
 
 #複製檔案(洋蔥同文注音純注音版)
@@ -184,7 +185,7 @@ shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
 
 
-#複製檔案(洋蔥手機蝦)
+#複製檔案(洋蔥手機蝦-mixin)
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_mixin_jp.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_mixin_kr.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_mixin_la.dict.yaml")
@@ -226,6 +227,56 @@ shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥手機�
 shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_s.txt")
 
 
+#複製檔案(洋蔥手機蝦-plus)
+shutil.copyfile("./trimefiles/omp_jp.extended.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_jp.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_jphi.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_jphi.schema.yaml")
+shutil.copyfile("./trimefiles/omp_jpka.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_jpka.schema.yaml")
+shutil.copyfile("./trimefiles/omp_kr.extended.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_kr.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_kr.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_kr.schema.yaml")
+shutil.copyfile("./trimefiles/omp_la.extended.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_la.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_la.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/omp_la.schema.yaml")
+
+shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_mixin_jp.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_mixin_kr.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_mixin_la.dict.yaml")
+shutil.copyfile("./trimefiles/ovffmobile_plus.extended.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ovffmobile_plus.extended.dict.yaml")
+shutil.copyfile("./trimefiles/ovffmobile_plus.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ovffmobile_plus.schema.yaml")
+shutil.copyfile("./trimefiles/punct_ovff.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/punct_ovff.yaml")
+shutil.copyfile("./trimefiles/element_ovff.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/element_ovff.yaml")
+shutil.copyfile("./trimefiles/punt_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/punt_ocm.dict.yaml")
+shutil.copyfile("./trimefiles/punt_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/punt_ocm.schema.yaml")
+
+shutil.copyfile("./trimefiles/phrases.ocmtc_terra.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.ocmtc_terra.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.cht_en_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.jp_hk.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hk_more.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.jp_hk_more.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.kr.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.kr.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.en_o_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.la_py_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.la_py_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.en_l_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.en_u_w.dict.yaml")
+
+shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥手機蝦/ocm_plus/rime.lua")
+shutil.copyfile("./trimefiles/tcword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/tcword.dict.yaml")
+shutil.copyfile("./trimefiles/uniabcdword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/uniabcdword.dict.yaml")
+
+shutil.copyfile("./trimefiles/洋蔥蝦米_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米_L.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米_M.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米_M.trime.yaml")
+
+shutil.copyfile("./trimefiles/sy_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/sy_ocm.dict.yaml")
+shutil.copyfile("./trimefiles/sy_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/sy_ocm.schema.yaml")
+
+shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/ocm_moedict_big5e_hkscs_jis.json")
+shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/ocm_moedict_big5e_hkscs_jis.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_s.json")
+shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_s.txt")
+
+
 #實體(藍牙)鍵盤專用
 shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體(藍牙)鍵盤專用/')
 
@@ -254,5 +305,4 @@ os.rename('./sort_trime/洋蔥手機蝦/ocm_mixin/', './sort_trime/洋蔥手機�
 os.rename('./sort_trime/洋蔥手機蝦/', './sort_trime/洋蔥手機蝦_'+localtime)
 
 os.rename('./sort_trime/', './洋蔥手機同文方案_'+localtime)
-
 
