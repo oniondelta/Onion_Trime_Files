@@ -1,0 +1,300 @@
+# Rime schema settings
+# encoding: utf-8
+schema:
+  author:
+    - "洋蔥"
+  description: |
+    手蝦輸入法
+    
+  name: "《手機蝦-plus》"
+  schema_id: ovffmobile_plus
+  version: "202106"
+  dependencies:
+    - punt_ocm
+    - sy_ocm
+    - omp_jphi
+    - omp_jpka
+    - omp_kr
+    - omp_la
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [" 中 ", " 英 "]
+  - name: full_shape
+    reset: 0
+    states: [" 半 ", " 全 "]
+  - name: ascii_punct
+    reset: 0
+    states: [ " 。", " ．" ]
+  - name: simplification
+    reset: 0
+    states: [" 原 ", " 简 "]
+  - name: zh_tw
+    reset: 0
+    states: [" 完 ", " 精 "]
+#   - options: [ utf8, big5] # (※2) 字符集選單
+# #    reset: 0 # 默認
+#     states: # 可以通過切功能鍵，切至 UTF8 等超大字符集
+#       - " U "
+#       - " B "
+  - name: emoji_segestion
+    reset: 1
+    states: [ " 無 ", " 圖 " ]
+  - name: back_mark
+    reset: 1
+#    states: [ " 無 ", " 註 " ]
+  - name: punct_mark
+    reset: 1
+#    states: [ " 無 ", " 註 " ]
+
+menu:
+  alternative_select_keys: "123456789"
+  page_size: 9
+
+engine:
+  filters:
+    - simplifier@zh_tw
+    - lua_filter@charset_filter2
+#    - charset_filter@big5
+    - simplifier
+    - simplifier@emoji_switch
+    - simplifier@back_mark
+    - simplifier@punct_mark
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@puntocm
+    - affix_segmentor@syocm
+    - affix_segmentor@jphi
+    - affix_segmentor@jpka
+    - affix_segmentor@korea
+    - affix_segmentor@latin
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator@jphi #加上","可以直出日語平假名
+    - script_translator@jpka #加上"."可以直出日語片假名
+    - script_translator@korea #加上"/"可以直出韓語文
+    - script_translator@latin #加上"'"和";"可以直出拉丁文
+    - table_translator@top_fixed
+    - script_translator
+    - table_translator@puntocm
+    - table_translator@syocm
+    - lua_translator@email_translator
+    - lua_translator@urlw_translator
+
+simplifier:
+  tips: all
+
+zh_tw:
+  opencc_config: ocm_moedict_big5e_hkscs_jis.json
+  option_name: zh_tw
+  tags: [ abc ]
+#  tips: all
+
+# big5:
+#   tags: [ abc ]
+
+emoji_switch:
+  opencc_config: emoji_s.json
+  option_name: emoji_segestion
+  tags: [ abc ]
+#  tips: all
+
+back_mark:
+  opencc_config: back_mark_t.json
+  option_name: back_mark
+  show_in_comment: true
+  tags: [ abc, syocm, latin, jphi, jpka, korea ]
+  tips: char #all
+
+punct_mark:
+  opencc_config: punct_mark_t.json
+  option_name: punct_mark
+  show_in_comment: true
+  tags: [ punct ]
+  tips: all
+  comment_format:
+    - erase/^.*〔.*〕.+$/
+    - erase/^.+〔.*〕$/
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyzB"
+  initials: "abcdefghijklmnopqrstuvwxyz"
+  delimiter: "\\Z" #" '"
+  algebra:
+    - xform/^([a-z]+)[.][.]$/$1B/ #注音文偏旁尾綴改寫
+
+translator:
+  dictionary: ovffmobile_plus.extended
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  preedit_format:
+    - 'xform/Z/ /' #㊥
+    - 'xform/B/ᴮ/' #㊟
+    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
+    - 'xform/\\/ /'
+
+top_fixed:
+  __include: /translator
+  enable_user_dict: false
+  initial_quality: 1000
+
+puntocm:
+  tag: puntocm
+  dictionary: punt_ocm
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+  preedit_format:
+    - xform/^/〔蝦符〕/
+
+syocm:
+  tag: syocm
+  dictionary: sy_ocm
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  prefix: "'"
+  suffix: " "
+  tips: "《符集》"
+  closing_tips: "◀《符集》"
+  preedit_format:
+    __include: element_ovff:/emoji_series
+
+jphi:
+  tag: jphi
+  dictionary: omp_jp.extended
+  prism: omp_jphi
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  suffix: ","
+  disable_user_dict_for_patterns:
+#    - ^[a-z,]{1}$
+#    - ^[a-z,]{2}$
+#    - ^[a-z,]{3}$
+#    - ^[a-z,]{4}$
+    - ^[kstnhmrgzdbp][aiueo][,]$
+    - ^[sc][h][i][,]$
+    - ^[t][s][u][,]$
+    - ^[f][u][,]$
+    - ^[y][auo][,]$
+    - ^[w][ao][,]$
+    - ^[n][,]$
+    - ^[kgsztnhbpmr][y][auo][,]$
+    - ^[sc][h][auo][,]$
+    - ^[j][auo][,]$
+    - ^[-]{1,2}[,]$
+#    - ^[.]$
+  preedit_format:
+    - xform/\\/ /
+
+jpka:
+  tag: jpka
+  dictionary: omp_jp.extended
+  prism: omp_jpka
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  suffix: "."
+  disable_user_dict_for_patterns:
+#    - ^[a-z.]{1}$
+#    - ^[a-z.]{2}$
+#    - ^[a-z.]{3}$
+#    - ^[a-z.]{4}$
+    - ^[kstnhmrgzdbp][aiueo][.]$
+    - ^[sc][h][i][.]$
+    - ^[t][s][u][.]$
+    - ^[f][u][.]$
+    - ^[y][auo][.]$
+    - ^[w][ao][.]$
+    - ^[n][.]$
+    - ^[kgsztnhbpmr][y][auo][.]$
+    - ^[sc][h][auo][.]$
+    - ^[j][auo][.]$
+    - ^[-]{1,2}[.]$
+#    - ^[.]$
+  preedit_format:
+    - xform/\\/ /
+
+korea:
+  tag: korea
+  dictionary: omp_kr.extended
+  prism: omp_kr
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+  suffix: "/"
+  disable_user_dict_for_patterns:
+#    - ^[a-z/]{1}$
+#    - ^[a-z/]{2}$
+#    - ^[a-z/]{3}$
+#    - ^[a-z/]{4}$
+    - ^[a-z]{1,2}[/]$
+  preedit_format:
+    - xform/\\/ /
+
+latin:
+  tag: latin
+  dictionary: omp_la.extended
+  prism: omp_la
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: true
+#  prefix: "'"
+  # suffix: "'"
+#  disable_user_dict_for_patterns:
+#    - ^[a-z']{1}$
+#    - ^[a-z']{2}$
+##    - ^[a-z]{1}[']$
+#    - ^[']['][a-z]+[']?$
+##    - ^[a-z]+[']['][']$
+  preedit_format:
+    - xform/\\/ /
+
+punctuator:
+  import_preset: punct_ovff
+  symbols:
+    "s." : [ "？" ]
+    "v." : [ "！" ]
+    "c." : [ "！" ]
+
+key_binder:
+  import_preset: default
+  bindings:
+    __include: element_ovff:/key_binder
+
+editor:
+  bindings:
+    Return: confirm
+    Control+Return: commit_raw_input
+    Shift+Return: commit_script_text
+    Pause: noop
+
+recognizer:
+#  import_preset: default
+  patterns:
+    puntocm: "^[,][,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
+    syocm: "^['][a-z']* ?$"
+    punct: "^[svc][.]?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    jphi: "^([-a-z]+[,][-a-z,.]*)+$"
+    jpka: "^(?![svc][.])([-a-z]+[.][-a-z.,]*)+$"
+    korea: "^([a-z]+[/][a-z/]*)+$"
+    latin: "^([-a-z]+[';][']?[-a-z';]*)+$"
+    lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
+
