@@ -1515,8 +1515,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', hint: '        中', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…' #, has_menu: 'OCM_ZH'
+      - {click: '0', hint: '          ㄅ', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape" #, has_menu: 'OCM_BPMF'
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -1573,8 +1573,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', hint: '        中', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…' #, has_menu: 'OCM_ZH'
+      - {click: '0', hint: '          ㄅ', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape" #, has_menu: 'OCM_BPMF'
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -1630,8 +1630,8 @@ preset_keyboards:
       - {click: '6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
       - {click: '8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75}
-      - {click: '9', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…'
-      - {click: '0', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape"
+      - {click: '9', hint: '        中', long_click: '(', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 9.75} #long_click: "'" #'…' #, has_menu: 'OCM_ZH'
+      - {click: '0', hint: '          ㄅ', long_click: ')', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, composing: "Escape" #long_click: '"' #, long_click: Hide, composing: "Escape" #, has_menu: 'OCM_BPMF'
       - {label: 'Q', click: 'q', long_click: '=', width: 11}
       - {label: 'W', click: 'w', long_click: '+', width: 9.75}
       - {label: 'E', click: 'e', long_click: '-', width: 9.75} #'-{Keyboard_default}'
@@ -5850,6 +5850,8 @@ preset_keys:
   Escape2: {text: '{Escape}', label: ⌧, functional: false}
   Tab_3: {label: 首單, text: '{Home}{Right}'}
   BPMF: {label: 注音文, text: "{'}{\"}"}
+  OCM_ZH: {label: 9, text: "{Z}"}
+  OCM_BPMF: {label: 0, text: "{B}"}
   Shift_L3: {label: Shift, preview: '⇪', send: Shift_L, shift_lock: long}
   space2: {repeatable: true, label: "␣", functional: false, send: 'space'}
   Left2: {label: '左', text: '{Keyboard_default}{Mode_switch}{Left}{Mode_switch}{Keyboard_default}', functional: false} #⇐ #send:
@@ -5977,8 +5979,8 @@ preset_keys:
   text_o6: {label: '6    |   ', preview: '|', text: '|', functional: false}
   text_o7: {label: '7    =   ', preview: '=', text: '=', functional: false}
   text_o8: {label: '8    +   ', preview: '+', text: '+', functional: false}
-  text_o9: {label: '9    -   ', preview: '-', text: '-', functional: false}
-  text_o0: {label: '0     _    ', preview: '_', text: '_', functional: false}
+  text_o9: {label: '9中  -   ', preview: '-', text: '-', functional: false} #label: '9    -   '
+  text_o0: {label: '0ㄅ  _    ', preview: '_', text: '_', functional: false} #label: '0     _    '
   text_obs: {label: '  \   分節', preview: '\', text: '\', functional: false}
 #####################
   # 22自定義功能鍵

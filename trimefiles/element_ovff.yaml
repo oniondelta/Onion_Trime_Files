@@ -53,8 +53,11 @@ key_binder:
     - {accept: 6, send: Pause, when: has_menu}
     - {accept: 7, send: Pause, when: has_menu}
     - {accept: 8, send: Pause, when: has_menu}
-    - {accept: 9, send: Pause, when: has_menu}
-    - {accept: 0, send: Pause, when: has_menu}
+    # - {accept: 9, send: Pause, when: has_menu}
+    # - {accept: 0, send: Pause, when: has_menu}
+    - {accept: 9, send: Z, when: has_menu}
+    - {accept: 0, send: B, when: has_menu}
+
 
 
 emoji_series:
