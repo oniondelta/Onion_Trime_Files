@@ -609,7 +609,7 @@ function s2r(key, env)
   -- if (key:repr() == 'space') and (context:has_menu()) then
     local o_input = context.input
     if (string.find(o_input, "'/")) then
-      if (string.find(o_input, "'/[';/]?[a-z]*$")) or (string.find(o_input, "'/[0-9/-]*$")) or (string.find(o_input, "'/[xcoe][0-9a-z]+$")) then
+      if (string.find(o_input, "'/[';/]?[a-z]*$")) or (string.find(o_input, "'/[0-9./-]*$")) or (string.find(o_input, "'/[xcoe][0-9a-z]+$")) then
 -- or string.find(o_input, "^[a-z][-_.0-9a-z]*@.*$") or string.find(o_input, "^https?:.*$") or string.find(o_input, "^ftp:.*$") or string.find(o_input, "^mailto:.*$") or string.find(o_input, "^file:.*$")
         local s_orig = context:get_commit_text()
         engine:commit_text(s_orig)
@@ -651,7 +651,7 @@ function s2r_mixin3(key, env)
     local o_input = context.input
     -- if (string.find(o_input, "'/")) then
 
-      if ( string.find(o_input, "[@:]") or string.find(o_input, "^'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[-,./;a-z125890][][3467%s]'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "''/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[=][0-9]'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[=][][]'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[=][][][][]'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[=][-,.;=`]'/[';/]?[a-z0-9/-]*$") or string.find(o_input, "[=][-,.;'=`][-,.;'=`]'/[';/]?[a-z0-9/-]*$") ) then
+      if ( string.find(o_input, "[@:]") or string.find(o_input, "^'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[-,./;a-z125890][][3467%s]'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "''/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[=][0-9]'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[=][][]'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[=][][][][]'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[=][-,.;=`]'/[';/]?[a-z0-9./-]*$") or string.find(o_input, "[=][-,.;'=`][-,.;'=`]'/[';/]?[a-z0-9./-]*$") ) then
 -- or string.find(o_input, "^[a-z][-_.0-9a-z]*@.*$") or string.find(o_input, "^https?:.*$") or string.find(o_input, "^ftp:.*$") or string.find(o_input, "^mailto:.*$") or string.find(o_input, "^file:.*$")
 --
 -- 無效的正則，不去影響一般輸入：
@@ -5238,25 +5238,10 @@ function t_translator(input, seg)
       return
     end
 
-    local numberout = string.match(input, "`(%d+)$")
+    -- local numberout = string.match(input, "'//?(%d+)$")
+    local numberout, dot1, afterdot = string.match(input, "`(%d+)(%.?)(%d*)$")
     local nn = string.sub(numberout, 1)
     if (numberout~=nil) and (tonumber(nn)) ~= nil then
-      yield(Candidate("number", seg.start, seg._end, numberout , "〔一般數字〕"))
-      yield(Candidate("number", seg.start, seg._end, fullshape_number(numberout), "〔全形數字〕"))
-      yield(Candidate("number", seg.start, seg._end, math1_number(numberout), "〔數學粗體數字〕"))
-      yield(Candidate("number", seg.start, seg._end, math2_number(numberout), "〔數學空心數字〕"))
-      yield(Candidate("number", seg.start, seg._end, little1_number(numberout), "〔上標數字〕"))
-      yield(Candidate("number", seg.start, seg._end, little2_number(numberout), "〔下標數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled1_number(numberout), "〔帶圈數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled2_number(numberout), "〔帶圈無襯線數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled3_number(numberout), "〔反白帶圈數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled4_number(numberout), "〔反白帶圈無襯線數字〕"))
-      for _, conf in ipairs(confs) do
-        local r = read_number(conf, nn)
-        yield(Candidate("number", seg.start, seg._end, r, conf.comment))
-      end
-      yield(Candidate("number", seg.start, seg._end, purech_number(numberout), "〔純中文數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled5_number(numberout), "〔帶圈中文數字〕"))
       --[[ 用 yield 產生一個候選項
       候選項的構造函數是 Candidate，它有五個參數：
       - type: 字符串，表示候選項的類型（可隨意取）
@@ -5265,15 +5250,37 @@ function t_translator(input, seg)
       - text:  候選項的文本
       - comment: 候選項的注釋
       --]]
+      yield(Candidate("number", seg.start, seg._end, numberout .. dot1 .. afterdot , "〔一般數字〕"))
       -- local k = string.sub(numberout, 1, -1) -- 取參數
       local result = formatnumberthousands(numberout) --- 調用算法
-      yield(Candidate("number", seg.start, seg._end, result, "〔千分位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%E",numberout), "〔科學計數〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%e",numberout), "〔科學計數〕"))
-      yield(Candidate("number", seg.start, seg._end, Dec2bin(numberout), "〔二進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%X",numberout), "〔十六進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%x",numberout), "〔十六進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%o",numberout), "〔八進位〕"))
+      yield(Candidate("number", seg.start, seg._end, result .. dot1 .. afterdot , "〔千分位〕"))
+      yield(Candidate("number", seg.start, seg._end, string.format("%E", numberout .. dot1 .. afterdot ), "〔科學計數〕"))
+      yield(Candidate("number", seg.start, seg._end, string.format("%e", numberout .. dot1 .. afterdot ), "〔科學計數〕"))
+      yield(Candidate("number", seg.start, seg._end, math1_number(numberout) .. dot1 .. math1_number(afterdot), "〔數學粗體數字〕"))
+      yield(Candidate("number", seg.start, seg._end, math2_number(numberout) .. dot1 .. math2_number(afterdot), "〔數學空心數字〕"))
+      yield(Candidate("number", seg.start, seg._end, fullshape_number(numberout) .. dot1 .. fullshape_number(afterdot), "〔全形數字〕"))
+
+      if (dot1~='.') then
+        yield(Candidate("number", seg.start, seg._end, little1_number(numberout), "〔上標數字〕"))
+        yield(Candidate("number", seg.start, seg._end, little2_number(numberout), "〔下標數字〕"))
+
+        for _, conf in ipairs(confs) do
+          local r = read_number(conf, nn)
+          yield(Candidate("number", seg.start, seg._end, r, conf.comment))
+        end
+        yield(Candidate("number", seg.start, seg._end, purech_number(numberout), "〔純中文數字〕"))
+
+        yield(Candidate("number", seg.start, seg._end, circled1_number(numberout), "〔帶圈數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled2_number(numberout), "〔帶圈無襯線數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled3_number(numberout), "〔反白帶圈數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled4_number(numberout), "〔反白帶圈無襯線數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled5_number(numberout), "〔帶圈中文數字〕"))
+
+        yield(Candidate("number", seg.start, seg._end, Dec2bin(numberout), "〔二進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%X",numberout), "〔十六進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%x",numberout), "〔十六進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%o",numberout), "〔八進位〕"))
+      end
       return
     end
 
@@ -6780,25 +6787,9 @@ function t2_translator(input, seg)
     end
 
     -- local numberout = string.match(input, "'//?(%d+)$")
-    local numberout = string.match(input, "'/(%d+)$")
+    local numberout, dot1, afterdot = string.match(input, "'/(%d+)(%.?)(%d*)$")
     local nn = string.sub(numberout, 1)
     if (numberout~=nil) and (tonumber(nn)) ~= nil then
-      yield(Candidate("number", seg.start, seg._end, numberout , "〔一般數字〕"))
-      yield(Candidate("number", seg.start, seg._end, fullshape_number(numberout), "〔全形數字〕"))
-      yield(Candidate("number", seg.start, seg._end, math1_number(numberout), "〔數學粗體數字〕"))
-      yield(Candidate("number", seg.start, seg._end, math2_number(numberout), "〔數學空心數字〕"))
-      yield(Candidate("number", seg.start, seg._end, little1_number(numberout), "〔上標數字〕"))
-      yield(Candidate("number", seg.start, seg._end, little2_number(numberout), "〔下標數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled1_number(numberout), "〔帶圈數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled2_number(numberout), "〔帶圈無襯線數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled3_number(numberout), "〔反白帶圈數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled4_number(numberout), "〔反白帶圈無襯線數字〕"))
-      for _, conf in ipairs(confs) do
-        local r = read_number(conf, nn)
-        yield(Candidate("number", seg.start, seg._end, r, conf.comment))
-      end
-      yield(Candidate("number", seg.start, seg._end, purech_number(numberout), "〔純中文數字〕"))
-      yield(Candidate("number", seg.start, seg._end, circled5_number(numberout), "〔帶圈中文數字〕"))
       --[[ 用 yield 產生一個候選項
       候選項的構造函數是 Candidate，它有五個參數：
       - type: 字符串，表示候選項的類型（可隨意取）
@@ -6807,15 +6798,37 @@ function t2_translator(input, seg)
       - text:  候選項的文本
       - comment: 候選項的注釋
       --]]
+      yield(Candidate("number", seg.start, seg._end, numberout .. dot1 .. afterdot , "〔一般數字〕"))
       -- local k = string.sub(numberout, 1, -1) -- 取參數
       local result = formatnumberthousands(numberout) --- 調用算法
-      yield(Candidate("number", seg.start, seg._end, result, "〔千分位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%E",numberout), "〔科學計數〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%e",numberout), "〔科學計數〕"))
-      yield(Candidate("number", seg.start, seg._end, Dec2bin(numberout), "〔二進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%X",numberout), "〔十六進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%x",numberout), "〔十六進位〕"))
-      yield(Candidate("number", seg.start, seg._end, string.format("%o",numberout), "〔八進位〕"))
+      yield(Candidate("number", seg.start, seg._end, result .. dot1 .. afterdot , "〔千分位〕"))
+      yield(Candidate("number", seg.start, seg._end, string.format("%E", numberout .. dot1 .. afterdot ), "〔科學計數〕"))
+      yield(Candidate("number", seg.start, seg._end, string.format("%e", numberout .. dot1 .. afterdot ), "〔科學計數〕"))
+      yield(Candidate("number", seg.start, seg._end, math1_number(numberout) .. dot1 .. math1_number(afterdot), "〔數學粗體數字〕"))
+      yield(Candidate("number", seg.start, seg._end, math2_number(numberout) .. dot1 .. math2_number(afterdot), "〔數學空心數字〕"))
+      yield(Candidate("number", seg.start, seg._end, fullshape_number(numberout) .. dot1 .. fullshape_number(afterdot), "〔全形數字〕"))
+
+      if (dot1~='.') then
+        yield(Candidate("number", seg.start, seg._end, little1_number(numberout), "〔上標數字〕"))
+        yield(Candidate("number", seg.start, seg._end, little2_number(numberout), "〔下標數字〕"))
+
+        for _, conf in ipairs(confs) do
+          local r = read_number(conf, nn)
+          yield(Candidate("number", seg.start, seg._end, r, conf.comment))
+        end
+        yield(Candidate("number", seg.start, seg._end, purech_number(numberout), "〔純中文數字〕"))
+
+        yield(Candidate("number", seg.start, seg._end, circled1_number(numberout), "〔帶圈數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled2_number(numberout), "〔帶圈無襯線數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled3_number(numberout), "〔反白帶圈數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled4_number(numberout), "〔反白帶圈無襯線數字〕"))
+        yield(Candidate("number", seg.start, seg._end, circled5_number(numberout), "〔帶圈中文數字〕"))
+
+        yield(Candidate("number", seg.start, seg._end, Dec2bin(numberout), "〔二進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%X",numberout), "〔十六進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%x",numberout), "〔十六進位〕"))
+        yield(Candidate("number", seg.start, seg._end, string.format("%o",numberout), "〔八進位〕"))
+      end
       return
     end
 
