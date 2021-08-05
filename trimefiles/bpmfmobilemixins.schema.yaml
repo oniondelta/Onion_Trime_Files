@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixins
   name: "《洋蔥手機注音mixinS》"
-  version: "202106"
+  version: "202108"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -182,39 +182,24 @@ speller:
     - xform/^(\!\!\!)dvyu$/$1dyu/ # デュ #特殊片假名被其他正則不轉寫。
 ##### 日文轉寫結束 #####
 ### 日文特殊符號轉平假名尾綴也可輸入
-    - derive/^\!\!\!(noma|dou|onaji|onazi|odoriji|odorizi)$/\!\!$1/
-##把外語言轉大寫或帶符號，不被注音正則影響##
-    - 'xlit|/;,.-"|ABCD`B|' #注音佔用到的五個符號鍵位
-    - xform/^@BB([a-z]+)/@$1BB/ #轉換「拉丁組合字符」前雙分號到後面
-    - xform/DDDB/@@@@@@@@@@@@@@@@@@@@@@@@@/ #點號＋點號＋點號+分號（…）
-    - xform/CCAB/@@@@@@@@@@@@@@@@@@@@@@@@/ #逗號＋逗號＋斜線+分號（"）
-    - xform/CAB/@@@@@@@@@@@@@@@@@@@@@@@/ #逗號＋斜線+分號（'）
-    - xform/DDB/@@@@@@@@@@@@@@@@@@@@@@/ #點號+點號+分號（:）
-    - xform/CCB/@@@@@@@@@@@@@@@@@@@@@/ #逗號+逗號+分號（~）
-    - xform/CDB/@@@@@@@@@@@@@@@@@@@@/ #逗號+點號+分號（?）
-    - xform/ADB/@@@@@@@@@@@@@@@@@@@/ #斜線+點號+分號（!）
-    - xform/DCB/@@@@@@@@@@@@@@@@@@/ #點號+逗號+分號（;）
-    - xform/CCA/@@@@@@@@@@@@@@@@@/ #逗號＋逗號＋斜線（"）
-    - xform/DDD/```````/ #點號+點號+點號（…）
-    - xform/DAB/``````/ #點號+斜線+分號（空格）
-    - xform/CA/@@@@@@@@@@@@@@@@/ #逗號＋斜線（'）
-    - xform/AB/@@@@@@@@@@@@@@@/ #斜線+分號（/）
-    - xform/CB/@@@@@@@@@@@@@@/ #逗號+分號（,）
-    - xform/DB/@@@@@@@@@@@@@/ #點號+分號（.）
-    - xform/DA/`````/ #點號+斜線（空格）
-    - xform/CC/@/ #逗號+逗號
-    - xform/CD/@@/ #逗號+點號
-    - xform/AA/````````/ #斜線+斜線
-    - xform/A/@@@/ #/斜線
-    - xform/B/@@@@/ #分號
-    - xform/C/@@@@@/ #逗號
-    - xform/D/@@@@@@/ #點號
-    - derive/^@([a-z]+)$/\U$1\E@@@ / #拉丁小寫尾綴「/」#######
-    - xform/^@([`@a-z]+)/\U$1\E / #拉丁尾綴
-    - xform/^!!!([`@]+)/\U$1\E7777/ #日語標點
-    - xform/^!!!([a-z]+)/\U$1\E777/ #片假名尾綴
-    - xform/^!!([a-z]+)/\U$1\E77/ #平假名尾綴
-    - xform/^!([`@a-z]+)/\U$1\E7/ #韓語尾綴
+    # - derive/^\!\!\!(noma|dou|onaji|onazi|odoriji|odorizi)$/\!\!$1/
+##### 把外語言轉大寫或帶符號，不被注音正則影響 #####
+    - 'xlit|/;,.-"|斜分逗點橫分|' #注音佔用到的五個符號鍵位 #A|
+### 各語言標點、組合字符先行轉寫（標點適應方案，多轉其他編碼） ###
+#    - derive/^([@])([逗點橫])$/$1分$2/ #拉丁三個標點「,.-」前加分號
+#    - derive/^([!][!][!])([逗點橫])$/$1分$2/ #日語二個標點「・ー」前加分號
+    - xform/^@分分([a-z]+)$/@$1分分/ #轉換「拉丁組合字符」前雙分號到後面
+#############################################
+### 拉丁 ###
+    - derive/^@([a-z]+)$/\U$1\E斜 / #拉丁小寫尾綴「/」#######
+    - xform/^@([斜分逗點橫a-z]+)$/\U$1\E / #拉丁尾綴
+### 日語 ###
+    - xform/^!!!([斜分逗點橫]+)$/\U$1\E7777/ #日語標點
+    - xform/^!!!([a-z]+)$/\U$1\E777/ #片假名尾綴
+    - xform/^!!([a-z]+)$/\U$1\E77/ #平假名尾綴
+### 韓語 ###
+    - xform/^!([斜分逗點橫a-z]+)$/\U$1\E7/ #韓語尾綴
+###########
     - xform/Z/`Q/
     - xform/C/`W/
     - xform/S/`T/
@@ -228,7 +213,7 @@ speller:
     - xform/K/`X/
     - xform/G/`V/
     - xform/R/`B/
-##############拼音轉注音############
+##### 拼音轉注音 #####
     - xform/iu/iou/
     - xform/ui/uei/
     - xform/ong/ung/
@@ -252,7 +237,7 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
-##############注音字母簡化############
+##### 注音字母簡化 #####
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR]).+$/$1/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcsiuv])([iuvaoeEAIOUMNKGR])\d$/$1$2/
     - abbrev/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])\d$/$1$2$3/
@@ -262,16 +247,16 @@ speller:
 #    - abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+(\d)$/$1$2/ #同上，但少了ㄧㄨㄩ
 #    - abbrev/^([bpmfdtnlgkhjqx]).+(\d)$/$1$2/ #同上，但再少了ㄓㄔㄕㄖㄗㄘㄙ
     - derive/^([bpmfdtnlgkhjqx]).+(\d)$/$1$2/
-##########注音聲韻母亂序##########
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
-#關#    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
-#關#    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
+##### 注音聲韻母亂序 #####
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/
+    - derive/^([iuv])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$2$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$3$1$2/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$2$3$1/
+    - derive/^([bpmfdtnlgkhjqxZCSrzcs])([iuv])([aoeEAIOUMNKGR])/$1$3$2/
     - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|'
-##多國語言轉回正常##
+##### 多國語言轉回正常 #####
     - xform/`Q/Z/
     - xform/`W/C/
     - xform/`T/S/
@@ -286,41 +271,23 @@ speller:
     - xform/`V/G/
     - xform/`B/R/
     - xform/7777/6/ #日文標點
-    - xform/777/@@@@@@6/ #日文片假名
-    - xform/77/@@@@@6/ #日文平假名
-    - derive/^([A-Z]+)[@][@][@][@][@]([6])$/$1$2/ #平假名轉可不使用〔次後綴〕
-    - abbrev/^([A-Z]+)[@][@][@][@][@][@]([6])$/$1/ #片假名簡化〔次後綴+語言補碼〕
-    - abbrev/^([`A-Z]+)[@][@][@][@][ ]$/$1/ #拉丁字母大寫簡化〔次後綴+語言補碼〕
-    - abbrev/^([`@A-Z]+)[ 3467]$/$1/ #外語全部簡化〔語言補碼〕，但保留大小寫平片假名〔次後綴〕
+    - xform/777/點6/ #日文片假名
+    - xform/77/逗6/ #日文平假名
+######################
+### 日語 ###
+    - derive/^([A-Z]+)逗([6])$/$1$2/ #平假名轉可不使用〔次後綴〕
+    - abbrev/^([A-Z]+)點([6])$/$1/ #片假名簡化〔次後綴+語言補碼〕
+### 拉丁 ###
+    - abbrev/^([橫A-Z]+)分[ ]$/$1/ #拉丁字母大寫簡化〔次後綴+語言補碼〕
+##### 多國語言簡化 #####
+    - abbrev/^([斜分逗點橫A-Z]+)[ 3467]$/$1/ #外語全部簡化〔語言補碼〕，但保留大小寫平片假名〔次後綴〕
+##########################################################
     - xform/([A-Z]+)/\L$1\E/
-    - xform|````````|\/\/| #斜線+斜線
-    - xform|```````|\.\.\.| #點號+點號+點號（…）
-    - xform|``````|\.\/\;| #點號+斜線+分號（空格）
-    - xform|`````|\.\/| #點號+斜線（空格）
-    - xform|@@@@@@@@@@@@@@@@@@@@@@@@@|\.\.\.\;| #點號＋點號＋點號+分號（…）
-    - xform|@@@@@@@@@@@@@@@@@@@@@@@@|\,\,\/\;| #逗號+逗號+斜線+分號（"）
-    - xform|@@@@@@@@@@@@@@@@@@@@@@@|\,\/\;| #逗號+斜線+分號（'）
-    - xform|@@@@@@@@@@@@@@@@@@@@@@|\.\.\;| #點號+點號+分號（:）
-    - xform|@@@@@@@@@@@@@@@@@@@@@|\,\,\;| #逗號+逗號+分號（~）
-    - xform|@@@@@@@@@@@@@@@@@@@@|\,\.\;| #逗號+點號+分號（?）
-    - xform|@@@@@@@@@@@@@@@@@@@|\/\.\;| #斜線+點號+分號（!）
-    - xform|@@@@@@@@@@@@@@@@@@|\.\,\;| #點號+逗號+分號（;）
-    - xform|@@@@@@@@@@@@@@@@@|\,\,\/| #逗號＋逗號＋斜線（"）
-    - xform|@@@@@@@@@@@@@@@@|\,\/| #逗號＋斜線（'）
-    - xform|@@@@@@@@@@@@@@@|\/\;| #斜線+分號（/）
-    - xform|@@@@@@@@@@@@@@|\,\;| #逗號+分號（,）
-    - xform|@@@@@@@@@@@@@|\.\;| #點號+分號（.）
-    - xform|@@@@@@@@@@@@|\.\.| #點號+點號
-    - xform|@@@@@@@@@@@|\.\,| #點號+逗號
-    - xform|@@@@@@@@@|\/\.| #斜線+點號
-    - xform|@@@@@@@@|\;\;| #E#分號+分號
-    - xform|@@@@@@|\.| #點號
-    - xform|@@@@@|\,| #逗號
-    - xform|@@@@|\;| #分號
-    - xform|@@@|\/| #斜線
-    - xform|@@|\,\.| #逗號+點號
-    - xform|@|\,\,| #逗號+逗號
-    - xform|`|\-| #連字號
+    - xform|點|\.| #點號
+    - xform|逗|\,| #逗號
+    - xform|分|\;| #分號
+    - xform|斜|\/| #斜線
+    - xform|橫|\-| #連字號
 
 translator:
   dictionary: bo_mixin.extended
