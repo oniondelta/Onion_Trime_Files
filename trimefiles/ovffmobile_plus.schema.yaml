@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202106"
+  version: "202108"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -145,7 +145,7 @@ translator:
   enable_user_dict: true
   preedit_format:
     - 'xform/Z/ /' #㊥
-    - 'xform/B/ᴮ/' #㊟
+    - 'xform/B/ᵇ/' #㊟
     - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
     - 'xform/\\/ /'
 
