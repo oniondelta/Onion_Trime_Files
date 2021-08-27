@@ -180,7 +180,7 @@ jphi:
   tag: jphi
   dictionary: omp_jp.extended
   prism: omp_jphi
-  enable_completion: false
+  # enable_completion: false
   enable_sentence: false
   enable_user_dict: true
   suffix: ","
@@ -208,7 +208,7 @@ jpka:
   tag: jpka
   dictionary: omp_jp.extended
   prism: omp_jpka
-  enable_completion: false
+  # enable_completion: false
   enable_sentence: false
   enable_user_dict: true
   suffix: "."

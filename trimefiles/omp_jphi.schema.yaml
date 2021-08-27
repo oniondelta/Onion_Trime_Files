@@ -5,7 +5,7 @@
 schema:
   schema_id: omp_jphi
   name: ✹OMP-JPHI✹
-  version: "202106"
+  version: "202108"
   author:
     - 『洋蔥』
   description: |
@@ -110,7 +110,7 @@ translator:
   prism: omp_jphi
   enable_user_dict: true
   enable_sentence: false
-  enable_completion: false
+  # enable_completion: false
   preedit_format:
     - 'xform/\\/ /'
 #    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
