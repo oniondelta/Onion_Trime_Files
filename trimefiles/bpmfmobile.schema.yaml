@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobile
   name: "《洋蔥手機注音》"
-  version: "202106"
+  version: "202108"
   author:
     - 『洋蔥』 #以佛振注音支持聲韻亂序方案改編
   description: |
@@ -67,8 +67,7 @@ engine:
     - table_translator@emoji_sy
     - script_translator@bpmf_m
     - script_translator
-    - lua_translator@email_translator
-    - lua_translator@url_translator
+    - lua_translator@email_url_translator
 
 menu:
   page_size: 6

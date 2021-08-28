@@ -71,8 +71,7 @@ engine:
     - table_translator@emoji_sy
     - script_translator@bpmf_m
     - script_translator
-    - lua_translator@email_translator
-    - lua_translator@url_translator
+    - lua_translator@email_url_translator
 
 menu:
   page_size: 6

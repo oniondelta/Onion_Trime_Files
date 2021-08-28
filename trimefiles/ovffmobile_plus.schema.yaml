@@ -93,8 +93,7 @@ engine:
     - script_translator
     - table_translator@puntocm
     - table_translator@syocm
-    - lua_translator@email_translator
-    - lua_translator@urlw_translator
+    - lua_translator@email_urlw_translator
 
 simplifier:
   tips: all

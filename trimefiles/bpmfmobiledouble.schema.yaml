@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202106"
+  version: "202108"
   author:
     - 『洋蔥』
   description: |
@@ -63,8 +63,7 @@ engine:
     - punct_translator
     - table_translator@emoji_sy
     - script_translator
-    - lua_translator@email_translator
-    - lua_translator@url_translator
+    - lua_translator@email_url_translator
 
 menu:
   page_size: 6
