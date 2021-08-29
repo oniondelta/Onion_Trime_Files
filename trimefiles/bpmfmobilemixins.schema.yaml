@@ -50,6 +50,7 @@ engine:
     - simplifier@punct_mark
     - uniquifier
   processors:
+    - lua_processor@mobile_bpmf
     - ascii_composer
     - recognizer
     - key_binder
