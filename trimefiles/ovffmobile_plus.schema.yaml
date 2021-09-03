@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202108"
+  version: "202109"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -198,7 +198,7 @@ jphi:
     - ^[kgsztnhbpmr][y][auo][,]$
     - ^[sc][h][auo][,]$
     - ^[j][auo][,]$
-    - ^[-]{1,2}[,]$
+    - ^-{1,2}[,]$
 #    - ^[.]$
   preedit_format:
     - xform/\\/ /
@@ -226,7 +226,7 @@ jpka:
     - ^[kgsztnhbpmr][y][auo][.]$
     - ^[sc][h][auo][.]$
     - ^[j][auo][.]$
-    - ^[-]{1,2}[.]$
+    - ^-{1,2}[.]$
 #    - ^[.]$
   preedit_format:
     - xform/\\/ /

@@ -216,7 +216,7 @@ japan:
   suffix: " "
   tips: "《日》"
   disable_user_dict_for_patterns:
-    - ^[-]{1,2}$
+    - ^-{1,2}$
     # - ^[.]$
     # - ^[aiueohn]$
     # - ^[kstnhmrgzdbp][aiueo]$
