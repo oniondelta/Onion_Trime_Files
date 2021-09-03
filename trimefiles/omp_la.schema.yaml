@@ -5,7 +5,7 @@
 schema:
   schema_id: omp_la
   name: ✹OCM-LA✹
-  version: "202106"
+  version: "202109"
   author:
     - 『洋蔥』
   description: |
@@ -46,11 +46,9 @@ speller:
 #  finals: ";'"
   delimiter: "\\"
   algebra:
-    - "xlit|'|A|"
-    - xform/^([-a-z]+)[A][A]$/$1;/
-    - derive/^([-a-z]+)[A;]$/$1/
-    - xform/^[;][;]([a-z]+)A/$1AA/
-    - "xlit|A|'|"
+    - xform/^([-a-z]+)['][']$/$1;/
+    - derive/^([-a-z]+)[';]$/$1/
+    - xform/^;;([a-z]+)[']/$1''/
 
 translator:
   dictionary: omp_la.extended
