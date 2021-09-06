@@ -4,7 +4,7 @@
 schema:
   schema_id: sy_d_bpmf
   name: 系列符號(雙拼注音)
-  version: "202102"
+  version: "202109"
   description: |
     由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
     可在Mac中輸入iOS設備通用的Emoji表情，其他系統可能需安装專門字體。
@@ -341,7 +341,7 @@ speller:
     - xform/^39$/;9/ #〖 9  怒〗(顏文字)
     - xform/^30$/;0/ #〖 0  指示和圖示〗(顏文字)
     - xform/^3-$/;;/ #〖 -  回話〗(顏文字)
-    - xform/^([0-9])([-]?)([0-9]?)$/$1$3/ #【 $1 】
+    - xform/^([0-9])-?([0-9]?)$/$1$2/ #【 $1 】
     - xform/^ab$/abt/ #【 AB 】
     - xform/^3([a-z])$/;$1/ #〖 \U$1\E  變化〗
     - xform/!$//

@@ -125,13 +125,13 @@ speller:
   algebra:
 ### 日語 ###
 ## 符號
-    - derive|^([eaovs][v]),$|$1\.|
-    - derive|^([e][e][v]),$|$1\.|
-#手機不用#    - derive|^[e][v]([,.])$|-$1|
-#手機不用#    - derive|^[e][e][v]([,.])$|--$1|
-    - derive|^([x][x]),$|$1\.|
-    - derive|^[x][x]([,.])$|shime$1|
-    - derive|^[x][x]([,.])$|sime$1|
+    - derive|^([eaovs]v),$|$1\.|
+    - derive|^(eev),$|$1\.|
+#手機不用#    - derive|^ev([,.])$|-$1|
+#手機不用#    - derive|^eev([,.])$|--$1|
+    - derive|^(xx),$|$1\.|
+    - derive|^xx([,.])$|shime$1|
+    - derive|^xx([,.])$|sime$1|
     - derive|^noma([.])$|dou$1|
     - derive|^dou([.])$|onaji$1|
     - derive|^dou([.])$|onazi$1|
@@ -188,10 +188,10 @@ speller:
     - derive/^([a-z]+)[,.]$/$1/ #假名 #E
     - xform/^([svc])J$/$1\./ #問號和驚嘆號不被略拼
     - derive|^([a-z]+)[/]$|$1| #韓語
-    - xform|^([a-z]+)[/]!$|$1/| #韓語
-    - xform|^([a-z]+)[/][/]!$|$1//| #韓語
+    - xform|^([a-z]+)([/])!$|$1$2| #韓語
+    - xform|^([a-z]+)([/][/])!$|$1$2| #韓語
     - xform/^([a-z]+)''$/$1;/ #拉丁-大寫改寫成單「;」 #E
-    - xform/^;;([a-z]+)(['])/$1$2$2/ #拉丁-組合變音標記
+    - xform/^;;([a-z]+)(')$/$1$2$2/ #拉丁-組合變音標記
 #測#    - derive/^([a-z]+)[']$/$1'A/
 #測#    - derive/^([a-z]+)['][']$/$1'/ #拉丁-大寫省略成單「'」
     - derive/^([a-z]+)[';]$/$1/ #拉丁 #B' #[']?#E
@@ -255,7 +255,7 @@ recognizer:
   patterns:
     # email: "^[a-z][-_.0-9a-z]*@.*$"
     # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
-    puntocm: "^[,][,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
-    syocm: "^['][a-z']* ?$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
+    syocm: "^'[a-z']* ?$"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"

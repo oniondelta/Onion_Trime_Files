@@ -188,17 +188,17 @@ jphi:
 #    - ^[a-z,]{2}$
 #    - ^[a-z,]{3}$
 #    - ^[a-z,]{4}$
-    - ^[kstnhmrgzdbp][aiueo][,]$
-    - ^[sc][h][i][,]$
-    - ^[t][s][u][,]$
-    - ^[f][u][,]$
-    - ^[y][auo][,]$
-    - ^[w][ao][,]$
-    - ^[n][,]$
-    - ^[kgsztnhbpmr][y][auo][,]$
-    - ^[sc][h][auo][,]$
-    - ^[j][auo][,]$
-    - ^-{1,2}[,]$
+    - ^[kstnhmrgzdbp][aiueo],$
+    - ^[sc]hi,$
+    - ^tsu,$
+    - ^fu,$
+    - ^y[auo],$
+    - ^w[ao],$
+    - ^n,$
+    - ^[kgsztnhbpmr]y[auo],$
+    - ^[sc]h[auo],$
+    - ^j[auo],$
+    - ^-{1,2},$
 #    - ^[.]$
   preedit_format:
     - xform/\\/ /
@@ -217,15 +217,15 @@ jpka:
 #    - ^[a-z.]{3}$
 #    - ^[a-z.]{4}$
     - ^[kstnhmrgzdbp][aiueo][.]$
-    - ^[sc][h][i][.]$
-    - ^[t][s][u][.]$
-    - ^[f][u][.]$
-    - ^[y][auo][.]$
-    - ^[w][ao][.]$
-    - ^[n][.]$
-    - ^[kgsztnhbpmr][y][auo][.]$
-    - ^[sc][h][auo][.]$
-    - ^[j][auo][.]$
+    - ^[sc]hi[.]$
+    - ^tsu[.]$
+    - ^fu[.]$
+    - ^y[auo][.]$
+    - ^w[ao][.]$
+    - ^n[.]$
+    - ^[kgsztnhbpmr]y[auo][.]$
+    - ^[sc]h[auo][.]$
+    - ^j[auo][.]$
     - ^-{1,2}[.]$
 #    - ^[.]$
   preedit_format:
@@ -288,12 +288,12 @@ editor:
 recognizer:
 #  import_preset: default
   patterns:
-    puntocm: "^[,][,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
-    syocm: "^['][a-z']* ?$"
-    punct: "^[svc][.]?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
-    jphi: "^([-a-z]+[,][-a-z,.]*)+$"
+    puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
+    syocm: "^'[a-z']* ?$"
+    punct: "^[svc][.]?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
+    jphi: "^([-a-z]+,[-a-z,.]*)+$"
     jpka: "^(?![svc][.])([-a-z]+[.][-a-z.,]*)+$"
     korea: "^([a-z]+[/][a-z/]*)+$"
-    latin: "^([-a-z]+[';][']?[-a-z';]*)+$"
+    latin: "^([-a-z]+[';]'?[-a-z';]*)+$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 

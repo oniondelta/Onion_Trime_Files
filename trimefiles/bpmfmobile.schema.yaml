@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobile
   name: "《洋蔥手機注音》"
-  version: "202108"
+  version: "202109"
   author:
     - 『洋蔥』 #以佛振注音支持聲韻亂序方案改編
   description: |
@@ -152,7 +152,7 @@ translator:
   enable_user_dict: true
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
-    - 'xform/\+/\⁝/'
+    - 'xform/\+/⁝/'
 
 bpmf_m:
   tag: bpmf_m
@@ -168,7 +168,7 @@ bpmf_m:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-6347 |ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙ˉ|"
     - 'xform/\+//'
     - xform/˙˙/ˉ/
-    - xform/'\"//
+    - xform/'"//
 
 emoji_sy:
   tag: emoji_sy
@@ -202,6 +202,6 @@ recognizer:
 #    url: "^(www[.]|https?:|ftp:|mailto:|file:).*$"
 #    email: "^[a-z][-_.0-9a-z]*@.*$"
     emoji_sy: "(?<![-,./;a-z125890])3[-/0-9a-z]* ?$"
-    bpmf_m: "^[-+/0-9a-z.,; ]+['][\"]$|^['][\"][-+/0-9a-z.,; ]*$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"

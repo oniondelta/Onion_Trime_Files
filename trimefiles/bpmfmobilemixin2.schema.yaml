@@ -198,10 +198,10 @@ speller:
 #    - derive/^!!!([s]?)([斜分逗點橫]+)$/!!$1$2/ #增加平假名標點
 #############################################
 ### 拉丁 ###
-    - xform|^@(%)["]$|$1 | #拉丁標點符號在此方案去掉「;」
+    - xform|^@(%)"$|$1 | #拉丁標點符號在此方案去掉「;」
     - derive|^@><$|" | #拉丁標點符號在此方案改「;」
-    - xform/^@(["]["])([a-z]+)$/\U$2\E$1 / #轉換「拉丁組合字符」前雙分號到後面
-    - xform/^@([a-z]+)["]$/\U$1\E&/ #拉丁大寫
+    - xform/^@("")([a-z]+)$/\U$2\E$1 / #轉換「拉丁組合字符」前雙分號到後面
+    - xform/^@([a-z]+)"$/\U$1\E&/ #拉丁大寫
     - xform/^@([a-z]*)([%"<>_]*)$/\U$1\E$2 / #拉丁小寫和標點
     - derive/^([%"<>_]+) $/$1&/ #在此方案，拉丁標點增加可用大寫尾綴
 ### 日語 ###
@@ -325,7 +325,7 @@ translator:
 #    - xform/8/n@/
 #    - xform/9/p@/
 #    - xform/0/q@/
-#    - xform/^([a-z@\+]+)$/$1　\U$1\E/
+#    - xform/^([a-z@+]+)$/$1　\U$1\E/
 #    - xform/a@/ㄝ/
 #    - xform/b@/ㄡ/
 #    - xform/c@/ㄥ/
@@ -359,7 +359,7 @@ translator:
 #    - xform/N@/8/
 #    - xform/P@/9/
 #    - xform/Q@/0/
-#    - xform/([0-9A-Zabcdef])([\+])/$1 /
+#    - xform/([0-9A-Zabcdef])\+/$1 /
 #    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef647|abcdefghijklmnopqrstuvwxyz,./-;拉平片韓|"
 #    - 'xform/\+/\|/'
 ### 第二種 注音顯示格式 ###
@@ -434,7 +434,7 @@ translator:
     - xform/8/n@/
     - xform/9/p@/
     - xform/0/q@/
-    - xform/^([a-z@\+]+)$/\U$1\E\n$1/ #\r
+    - xform/^([a-z@+]+)$/\U$1\E\n$1/ #\r
     - xform/a@/ㄝ/
     - xform/b@/ㄡ/
     - xform/c@/ㄥ/
@@ -468,9 +468,9 @@ translator:
     - xform/N@/8/
     - xform/P@/9/
     - xform/Q@/0/
-    - xform/([0-9A-Zabcdef])([\+])/$1　/
+    - xform/([0-9A-Zabcdef])\+/$1　/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdef|ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ₁₂³⁴₅⁶⁷₈₉₀,.⸝-;⸋|"
-    - 'xform/\+/\⁝/' #| #⁞ #⁝ #⋮ #¦ #┆
+    - 'xform/\+/⁝/' #| #⁞ #⁝ #⋮ #¦ #┆
 
 bpmf_m:
   tag: bpmf_m
@@ -486,7 +486,7 @@ bpmf_m:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-6347 |ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙ˉ|"
     - 'xform/\+//'
     - xform/˙˙/ˉ/
-    - xform/'\"//
+    - xform/'"//
 
 emoji_sy:
   tag: emoji_sy
@@ -520,6 +520,6 @@ recognizer:
     # url: "^(https?:|ftp:|mailto:|file:).*$|[-0-9][-0-9]+$"
     # email: "^[a-z][-_.0-9a-z]*@.*$"
     emoji_sy: "(?<![-,./;a-z125890])3[-/0-9a-z]* ?$"
-    bpmf_m: "^[-+/0-9a-z.,; ]+['][\"]$|^['][\"][-+/0-9a-z.,; ]*$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"

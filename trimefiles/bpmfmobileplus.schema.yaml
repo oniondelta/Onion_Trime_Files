@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobileplus
   name: "《洋蔥手機注音plus》"
-  version: "202108"
+  version: "202109"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -171,7 +171,7 @@ translator:
   enable_user_dict: true
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
-    - 'xform/\+/\⁝/'
+    - 'xform/\+/⁝/'
 
 european:
   tag: european
@@ -184,7 +184,7 @@ european:
   tips: "《拉》"
   disable_user_dict_for_patterns:
     - ^[-a-z,./]{1}[;/]?$
-    - ^[a-z]+[;][;]$
+    - ^[a-z]+;;$
   preedit_format:
     - xform/^/《拉》/
     - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
@@ -247,7 +247,7 @@ bpmf_m:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-6347 |ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙ˉ|"
     - 'xform/\+//'
     - xform/˙˙/ˉ/
-    - xform/'\"//
+    - xform/'"//
 
 emoji_sy:
   tag: emoji_sy
@@ -283,6 +283,6 @@ recognizer:
     european: "(?<![-,./;a-z125890])4[+a-z;,./-]* ?$"
     japan: "(?<![-,./;a-z125890])6[+a-z;,./-]* ?$"
     korea: "(?<![-,./;a-z125890])7[+a-z;/]* ?$"
-    bpmf_m: "^[-+/0-9a-z.,; ]+['][\"]$|^['][\"][-+/0-9a-z.,; ]*$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|['][']$|[\"][\"]$"
+    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
