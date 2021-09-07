@@ -20,7 +20,6 @@ switches:
 
 engine:
   processors:
-    - lua_processor@endspace #用戶詞典無法記憶，考慮關閉，但使用符號置換方式切分會有問題！且字典已用詞頻校正，測試效果中。hangeul2set 沒有記憶問題則開啟。
     - ascii_composer
     - recognizer
     - key_binder
@@ -62,9 +61,9 @@ translator:
 
 punctuator:
 #  import_preset: default
+  use_space: true
   half_shape:
-#關#    "`" : { commit: " " }  ##會空一格並上屏，原「`」鍵會失效變「空格」。可結合key_binder空白鍵，使空白鍵能空一格上屏。
-#    "/" : { commit: " " }  ##會空一格並上屏，原「/」鍵會失效變「空格」。可結合key_binder空白鍵，使空白鍵能空一格上屏。
+    " ": " "
     "$" : [ "$", "₩", "＄", "¥", "￥", "€", "£", "￡", "₤", "¢", "￠", "₵", "₡", "¤", "৳", "฿", "₠", "₢", "₣", "₥", "₦", "₧", "₪", "₫", "₭", "₮", "₯", "₰", "₱", "₲", "₳", "₴", "₶", "₷", "₸", "₹", "₺", "₨", "﷼" ]
     "%" : [ "%", "％", "‰", "‱", "°", "℃", "℉", "Å", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼" ]
     "&" : [ "&", "＆", "＃", "＠", ⅟, ½, ↉, ⅓, ⅔, ¼, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒ ]
@@ -96,12 +95,10 @@ key_binder:
 ######################
     - {accept: Tab, send: Shift+Right, when: composing}
 ######################
-#    - {accept: Return, send: grave, when: has_menu}
-#關#    - {accept: Return, send: space, when: paging}
-#關#    - {accept: Return, send: space, when: has_menu} #return,enter直出
+    - {accept: space, send: Return, when: paging}
+    # - {accept: Return, send: space, when: composing}
+    # - {accept: Return, send: Return, when: paging}
 ######################
-#關#    - {accept: space, send: grave, when: has_menu} ##按空白鍵後會空一格並上屏，原「`」鍵會失效變「空格」。
-#關#    - {accept: space, send: space, when: paging} ##選單有多字並選擇時，不會跳成單字加上空格。
 #    - {accept: space, send: Escape, when: composing} # 空碼時，按空格清除
 #    - {accept: space, send: space, when: has_menu} # 非空碼時，空白還是空白
 
