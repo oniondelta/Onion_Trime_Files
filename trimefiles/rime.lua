@@ -1005,7 +1005,8 @@ function array30up_mix(key, env)
   local context = engine.context
   local input_array = context.input
   local orig_array = context:get_commit_text()
-  if (key:repr() == "space") and (context:has_menu()) then
+  if (key:repr() == "space") and (context:is_composing()) then
+  -- if (key:repr() == "space") and (context:has_menu()) then
     -- local input_array = context.input
     -- local orig_array = context:get_commit_text()
     -- if (string.find(input_array, "^[a-z.,/;][a-z.,/;][a-z.,/;][a-z.,/;]?i?$")) or (string.find(input_array, "^==[a-z.,/;][a-z.,/;][a-z.,/;][a-z.,/;]?i?$")) or (string.find(input_array, "`.+$")) or (string.find(input_array, "^[a-z][-_.0-9a-z]*@.*$")) or (string.find(input_array, "^https?:.*$")) or (string.find(input_array, "^ftp:.*$")) or (string.find(input_array, "^mailto:.*$")) or (string.find(input_array, "^file:.*$")) or (string.find(input_array, "^www%..+$")) or (string.find(input_array, "^=[a-z0-9,.;/-]+$")) then
@@ -1014,7 +1015,8 @@ function array30up_mix(key, env)
       context:clear()
       return 1 -- kAccepted
     end
-  elseif (key:repr() == "Return") and (context:has_menu()) then
+  elseif (key:repr() == "Return") and (context:is_composing()) then
+  -- elseif (key:repr() == "Return") and (context:has_menu()) then
     -- local input_array = context.input
     -- local orig_array = context:get_commit_text()
     if (string.find(input_array, "^=[a-z0-9,.;/-]+$")) then
@@ -1358,11 +1360,11 @@ end
 function mobile_bpmf(key, env)
   local engine = env.engine
   local context = engine.context
-  if (key:repr() == 'space') and (context:has_menu()) then
+  if (key:repr() == 'space') and (context:is_composing()) then
     local input_m = context.input
     if ( string.find(input_m, "[@:]")) then
       local orig_m = context:get_commit_text()
-      engine:commit_text( orig_m )
+      engine:commit_text(orig_m)
       context:clear()
       return 1 -- kAccepted
     end
