@@ -1356,14 +1356,14 @@ end
 使 email_url_translator 功能按空白都能直接上屏
 --]]
 function mobile_bpmf(key, env)
-  if (key:repr() == 'space') then
-    -- local engine = env.engine
-    -- local context = engine.context
-    local input_m = env.engine.context.input
+  local engine = env.engine
+  local context = engine.context
+  if (key:repr() == 'space') and (context:has_menu()) then
+    local input_m = context.input
     if ( string.find(input_m, "[@:]")) then
-      local orig_m = env.engine.context:get_commit_text()
-      env.engine:commit_text(orig_m)
-      env.engine.context:clear()
+      local orig_m = context:get_commit_text()
+      engine:commit_text( orig_m )
+      context:clear()
       return 1 -- kAccepted
     end
   end
