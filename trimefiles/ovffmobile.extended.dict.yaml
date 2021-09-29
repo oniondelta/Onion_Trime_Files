@@ -3,18 +3,19 @@
 # 《詞庫》
 ---
 name: ovffmobile.extended
-version: "202012"
+version: "202109"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
-  - tcword
+  - ocm_tc
   - uniabcdword
   - ocm_mixin_jp
   - ocm_mixin_kr
   - ocm_mixin_la
-  - phrases.ocmtc_terra
+  # - phrases.ocmtc_terra
+  - phrases.ocmtc_essay_new_m
   - phrases.cht_en_w
   - phrases.jp_hk
   - phrases.jp_hkk

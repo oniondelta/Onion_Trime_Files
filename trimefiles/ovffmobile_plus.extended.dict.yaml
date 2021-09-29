@@ -3,14 +3,15 @@
 # 《詞庫》
 ---
 name: ovffmobile_plus.extended
-version: "202106"
+version: "202109"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
-  - tcword
+  - ocm_tc
   - uniabcdword
-  - phrases.ocmtc_terra
+  - phrases.ocmtc_essay_new_m
+  # - phrases.ocmtc_terra
 ...
 
