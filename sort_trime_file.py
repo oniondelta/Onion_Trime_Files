@@ -189,7 +189,7 @@ shutil.copyfile("./trimefiles/punt_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦
 shutil.copyfile("./trimefiles/punt_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/punt_ocm.schema.yaml")
 
 shutil.copyfile("./trimefiles/phrases.ocmtc_terra.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.ocmtc_terra.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.ocmtc_essay_new_m", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.ocmtc_essay_new_m")
+shutil.copyfile("./trimefiles/phrases.ocmtc_essay_new_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.ocmtc_essay_new_m.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.cht_en_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.jp_hk.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkk.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.jp_hkk.dict.yaml")
@@ -240,7 +240,7 @@ shutil.copyfile("./trimefiles/punt_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦
 shutil.copyfile("./trimefiles/punt_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/punt_ocm.schema.yaml")
 
 shutil.copyfile("./trimefiles/phrases.ocmtc_terra.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.ocmtc_terra.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.ocmtc_essay_new_m.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.ocmtc_essay_new_m.yaml")
+shutil.copyfile("./trimefiles/phrases.ocmtc_essay_new_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.ocmtc_essay_new_m.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.cht_en_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.jp_hk.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hk_more.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.jp_hk_more.dict.yaml")
