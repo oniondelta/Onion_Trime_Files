@@ -200,7 +200,7 @@ shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥手
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/phrases.en_u_w.dict.yaml")
 
 shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥手機蝦/ocm_mixin/rime.lua")
-shutil.copyfile("./trimefiles/ocm_tc.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_tc.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_tc_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_tc_m.dict.yaml")
 shutil.copyfile("./trimefiles/uniabcdword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/uniabcdword.dict.yaml")
 
 shutil.copyfile("./trimefiles/洋蔥蝦米_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米_H.trime.yaml")
@@ -251,7 +251,7 @@ shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime/洋蔥手
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/phrases.en_u_w.dict.yaml")
 
 shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥手機蝦/ocm_plus/rime.lua")
-shutil.copyfile("./trimefiles/ocm_tc.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_tc.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_tc_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_tc_m.dict.yaml")
 shutil.copyfile("./trimefiles/uniabcdword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/uniabcdword.dict.yaml")
 
 shutil.copyfile("./trimefiles/洋蔥蝦米_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米_H.trime.yaml")
