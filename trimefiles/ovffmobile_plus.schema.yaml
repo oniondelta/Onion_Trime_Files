@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202109"
+  version: "202112"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -96,6 +96,7 @@ engine:
     - lua_translator@email_urlw_translator
 
 simplifier:
+  opencc_config: tw2s.json
   tips: all
 
 zh_tw:
