@@ -24,6 +24,8 @@
 
 ### 各方案說明：
 
+> 目前關閉，各方案說明等有閒情逸致時再移植來 GitHub 這邊。
+
 - [手機同文輸入法『注音 洋蔥純注音版』](http://deltazone.pixnet.net/blog/post/321396937)
 
 - [手機同文輸入法『注音 洋蔥plus版 』](http://deltazone.pixnet.net/blog/post/348003908)
