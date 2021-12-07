@@ -46,8 +46,8 @@ engine:
   filters:
     - simplifier@zh_tw
     - lua_filter@charset_filter2
-    - simplifier
     - simplifier@emoji_switch
+    - simplifier
     - simplifier@back_mark
     - simplifier@punct_mark
     - uniquifier
@@ -95,7 +95,7 @@ zh_tw:
   tags: [ abc ]
 
 emoji_switch:
-  opencc_config: emoji_s.json
+  opencc_config: emoji_m_2021t.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all
