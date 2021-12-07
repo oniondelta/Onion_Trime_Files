@@ -37,8 +37,8 @@ shutil.copyfile("./trimefiles/洋蔥注音_M.trime.yaml", "./sort_trime/洋蔥�
 
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音純注音版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文注音純注音版/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/emoji_m_2021t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.txt")
 
@@ -68,8 +68,8 @@ shutil.copyfile("./trimefiles/洋蔥雙拼注音_M.trime.yaml", "./sort_trime/�
 
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_m_2021t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.txt")
 
@@ -115,8 +115,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同�
 shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音mixin版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_m_2021t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.txt")
 
@@ -171,8 +171,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同�
 shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音plus版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音plus版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_m_2021t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
 
@@ -216,8 +216,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手�
 shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/punct_mark_t.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_m_2021t.txt")
 
 
 #複製檔案(洋蔥手機蝦-plus)
@@ -267,8 +267,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手�
 shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.txt")
-shutil.copyfile("./trimefiles/opencc/emoji_s.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_s.json")
-shutil.copyfile("./trimefiles/opencc/emoji_s.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_s.txt")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_m_2021t.json")
+shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_m_2021t.txt")
 
 
 #實體(藍牙)鍵盤專用
