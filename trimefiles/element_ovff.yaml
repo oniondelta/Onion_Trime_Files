@@ -27,7 +27,7 @@ key_binder:
     # - {accept: "Control+Shift+Left", send: "Control+Left", when: composing}
     # - {accept: "Control+Shift+Right", send: "Control+Right", when: composing}
 ### tab 鍵 ###
-    - { when: composing, accept: Tab, send: Shift+Right }
+    - {accept: Tab, send: Shift+Right, when: composing}
 ### 刪除鍵 ###
 #?#    - {accept: Control+Shift+Alt+BackSpace, send: Escape, when: composing}
     - {accept: Control+Shift+BackSpace, send: Control+BackSpace, when: composing}
@@ -86,6 +86,9 @@ emoji_series:
     - xform/^noqt$/【字母黑框／字母框黑／字母黑方／字母方黑】(字母帶圓角方框)/
     - xform/^pjpc$/【平假名(第一碼全碼)】/
     - xform/^pypc$/【片假名(第一碼全碼)】/
+#    - xform/^chay$/【巴黎鐵塔】/
+#    - xform/^pigr$/【自由女神】/
+#    - xform/^mwzn$/【復活節島】/
 ##### 以下三字 #####
     - xform/^dno$/【日用品】/
     - xform/^wny$/【顏色塊】/
