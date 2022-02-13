@@ -4,7 +4,7 @@
 # 『洋蔥』
 ---
 name: sy_ocm
-version: "202111"
+version: "202202"
 sort: original
 use_preset_vocabulary: false
 ...
@@ -1851,6 +1851,7 @@ use_preset_vocabulary: false
 🍲	xs
 🍳	xs
 🥓	xs
+🥘	xs
 ### 飲料 ###
 🍵	xm
 🍶	xm
