@@ -24,7 +24,7 @@
 
 ### 各方案說明：
 
-> 目前關閉，各方案說明等有閒情逸致時再移植來 GitHub 這邊。
+> 密碼：onionrime，請勿傳播密碼！
 
 - [手機同文輸入法『注音 洋蔥純注音版』](http://deltazone.pixnet.net/blog/post/321396937)
 
