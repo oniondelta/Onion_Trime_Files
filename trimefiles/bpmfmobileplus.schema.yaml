@@ -60,8 +60,8 @@ engine:
     - punctuator
     - selector
     - navigator
-    # - express_editor
-    - fluency_editor
+    - express_editor
+    # - fluency_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -273,8 +273,8 @@ key_binder:
 
 editor:
   bindings:
-    space: commit_composition
-    # Return: confirm
+    # space: commit_composition
+    Return: confirm
     Control+Return: commit_raw_input
 
 recognizer:
