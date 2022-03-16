@@ -86,7 +86,9 @@ emoji_series:
     - xform/^noqt$/【字母黑框／字母框黑／字母黑方／字母方黑】(字母帶圓角方框)/
     - xform/^pjpc$/【平假名(第一碼全碼)】/
     - xform/^pypc$/【片假名(第一碼全碼)】/
+    - xform/^qsgs$/【野生動物】/
 ##### 以下三字 #####
+    - xform/^cgq$/【多媒體】/
     - xform/^dno$/【日用品】/
     - xform/^wny$/【顏色塊】/
     - xform/^nyh$/【色塊心】/
@@ -215,7 +217,7 @@ emoji_series:
     - xform/^rz$/【葉子】/
     - xform/^cu$/【名勝／景點圖】(景點)/
     - xform/^bl$/【公交／公共運輸】(公共交通)/
-    - xform/^cb$/【軌道(城軌捷運)】/
+    - xform/^cb$/【軌道】(城軌捷運)/
     - xform/^fc$/【火車】/
     - xform/^ac$/【鈔票／紙鈔】/
     - xform/^sa$/【紙鈔／鈔票】/
@@ -245,20 +247,20 @@ emoji_series:
     - xform/^fu$/【下雪】/
     - xform/^ux$/【零食】/
 #    - xform/^ln$/【麵包】/
-    - xform/^gn$/【麵包】(gn)/
+    - xform/^gn$/【麵包(gn)】/
     - xform/^ft$/【飛機／飛行器】/
     - xform/^mx$/【米飯】/
     - xform/^zm$/【餐具】/
     - xform/^um$/【魚類／魚圖】/
     - xform/^uo$/【魚圖／魚類】/
-    - xform/^hh$/【表情】(符號表)/
-    - xform/^pu$/【自然】(符號表)/
-    - xform/^xx$/【飲食】(符號表)/
-    - xform/^wg$/【活動】(符號表)/
-    - xform/^ff$/【旅遊】(符號表)/
-    - xform/^so$/【物品】(符號表)/
-    - xform/^of$/【國旗】(符號表)/
-    - xform/^zo$/【符號】(符號表)/
+    - xform/^hh$/【表情】(符號)/
+    - xform/^pu$/【自然】(符號)/
+    - xform/^xx$/【飲食】(符號)/
+    - xform/^wg$/【活動】(符號)/
+    - xform/^ff$/【旅遊】(符號)/
+    - xform/^so$/【物品】(符號)/
+    - xform/^of$/【國旗】(符號)/
+    - xform/^zo$/【符號】(符號)/
     - xform/^dn$/【景色】/
     - xform/^yk$/【地球】/
     - xform/^gq$/【天體】/
@@ -275,7 +277,8 @@ emoji_series:
     - xform/^ot$/【獸面／動物臉】/
     - xform/^wn$/【五官】/
     - xform/^hy$/【手勢】/
-    - xform/^ls$/【衣物】/
+    - xform/^ls$/【衣物／服裝】/
+    - xform/^ug$/【服裝／衣物】/
     - xform/^lu$/【衣服】/
     - xform/^nn$/【包包】/
     - xform/^dp$/【頭像】(大頭)/
@@ -285,7 +288,7 @@ emoji_series:
     - xform/^lq$/【效果】/
     - xform/^aa$/【金錢／錢財】/
     - xform/^am$/【錢財／金錢】/
-    - xform/^or$/【圖示(符號)】/
+    - xform/^or$/【圖示】(符號)/
     - xform/^ti$/【通訊】/
     - xform/^bt$/【介面】(圖標)/
 #    - xform/^ot$/【圖標(介面)】/
@@ -354,6 +357,11 @@ emoji_series:
     - xform/^ok$/【圓形】/
     - xform/^sn$/【三角】/
     - xform/^jn$/【打勾】/
+    - xform/^pw$/【血液／血型】/
+    - xform/^pk$/【血型／血液】/
+    - xform/^on$/【器官】/
+    - xform/^cm$/【蟲類／蟲圖】/
+    - xform/^co$/【蟲圖／蟲類】/
     - "xlit|'|=|"
     - xform/^e==/【1 E== 開心〗(顏文字)/
     - xform/^r==/【2 R== 喜歡〗(顏文字)/

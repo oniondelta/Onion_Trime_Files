@@ -2213,7 +2213,7 @@ preset_keyboards:
       - {click: 餐具, long_click: p假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 樂器圖, long_click: r假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 球具, long_click: w假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 獎牌, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 獎牌, long_click: 血型, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 運動, long_click: a假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
@@ -2226,7 +2226,7 @@ preset_keyboards:
       - {click: 白人, long_click: 日用品, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
-      - {click: 阿拉伯, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 阿拉伯, long_click: 多媒體, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 指示, long_click: 電子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 打勾, long_click: 電器圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: いろは, long_click: 工具, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
@@ -2270,9 +2270,9 @@ preset_keyboards:
       - {click: 零食, long_click: 顏怒, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 甜食, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 速食, long_click: 顏回話, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 日本菜, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 中餐, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 西食, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 日本菜, long_click: 器官, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 中餐, long_click: 蟲類, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 西食, long_click: 野生動物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 串物, long_click: 幾何圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
@@ -6456,6 +6456,12 @@ preset_keys:
   單線: {text: "{Escape}'os", label: 單線, functional: false}
   雙線: {text: "{Escape}'vs", label: 雙線, functional: false}
   日用品: {text: "{Escape}'dno", label: 日用品, functional: false}
+
+  血型: {text: "{Escape}'pk", label: 血型, functional: false}
+  器官: {text: "{Escape}'on", label: 器官, functional: false}
+  蟲類: {text: "{Escape}'cm", label: 蟲類, functional: false}
+  多媒體: {text: "{Escape}'cgq", label: 多媒體, functional: false}
+  野生動物: {text: "{Escape}'qsgs", label: 野生動物, functional: false}
 
 ## 以下符號新增第六頁
   a變: {text: "{Escape}''a", label: "A變化", functional: false}

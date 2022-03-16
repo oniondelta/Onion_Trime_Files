@@ -351,7 +351,7 @@ preset_keys:
   精怪女: {text: '{Escape};jgny', label: 精怪女, functional: false}
   精怪男: {text: '{Escape};jgnh', label: 精怪男, functional: false}
 
-  日用品: {text: '{Escape};ryp', label: 日用品, functional: false}
+  日用: {text: '{Escape};ry', label: 日用, functional: false}
   色塊心: {text: '{Escape};skx', label: 色塊心, functional: false}
   色塊圓: {text: '{Escape};sky', label: 色塊圓, functional: false}
   色塊方: {text: '{Escape};skf', label: 色塊方, functional: false}
@@ -370,6 +370,12 @@ preset_keys:
   帽子: {text: '{Escape};mz', label: 帽子, functional: false}
   中華: {text: '{Escape};wh', label: 中華, functional: false}
   回收: {text: '{Escape};ha', label: 回收, functional: false}
+
+  血液: {text: '{Escape};xi', label: 血液, functional: false}
+  器官: {text: '{Escape};qg', label: 器官, functional: false}
+  蟲圖: {text: '{Escape};vt', label: 蟲圖, functional: false}
+  多媒體: {text: '{Escape};dmt', label: 多媒體, functional: false}
+  野生動物: {text: '{Escape};iadu', label: 野生動物, functional: false}
 
 ## 以下符號新增第六頁
   a變: {text: '{Escape};;a', label: 'A變化', functional: false}
