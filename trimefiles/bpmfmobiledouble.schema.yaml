@@ -226,7 +226,7 @@ emoji_sy:
   tips: "〔符集〕▶" #"〔EMOJI集〕▶" #"《EMOJI集》▶"
   closing_tips: "◀〔符集〕" #"◀〔EMOJI集〕" #"◀《EMOJI集》"
   preedit_format:
-    __include: sy_d_bpmf.schema.yaml:/translator/preedit_format
+    __include: element_d_bpmfmobiledouble.yaml:/preedit_format
 
 punctuator:
   full_shape:
