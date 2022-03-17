@@ -58,6 +58,7 @@ shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./sort_trime/洋�
 shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥同文注音雙拼版/rime.lua")
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音雙拼版/sy_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_d_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音雙拼版/sy_d_bpmf.schema.yaml")
+shutil.copyfile("./trimefiles/element_d_bpmfmobiledouble.yaml", "./sort_trime/洋蔥同文注音雙拼版/element_d_bpmfmobiledouble.yaml")
 
 shutil.copyfile("./trimefiles/洋蔥注音_H.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音_H.trime.yaml")
 shutil.copyfile("./trimefiles/洋蔥注音_L.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音_L.trime.yaml")
