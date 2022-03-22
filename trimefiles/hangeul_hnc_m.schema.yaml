@@ -8,7 +8,7 @@ schema:
   author:
     - 『洋蔥』
   description: |
-    韓文形碼
+    韓文HNC
   dependencies:
 
 switches:
