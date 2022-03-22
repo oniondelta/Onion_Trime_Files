@@ -46,6 +46,7 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz;/"
   initials: "abcdefghijklmnoprstuwxyz"
   delimiter: "'"
+  algebra:
 ##### 韓文HNC正碼轉寫開始 #####
     - derive/^l/r/
     - derive/(.+)l/$1r/
