@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+# 《手機 韓語HNC字詞庫匯入頁》
+# 『洋蔥』製作
+---
+name: hangeul_hnc_m.extended
+version: "202203"
+sort: by_weight #original
+use_preset_vocabulary: false
+# max_phrase_length: 7
+# min_phrase_weight: 100
+import_tables:
+  - hangeul_hnc_m
+  - hangeul_hnc_hanja
+  # - phrases.kr_more
+...
+,	,
+.	.
