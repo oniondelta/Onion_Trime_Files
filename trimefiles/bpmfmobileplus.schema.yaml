@@ -213,7 +213,7 @@ korea:
     - xform/;/‹漢›/
     # - xform/;/ /
     - xform/^/《韓》/
-    - 'xform/\\/ /'
+    - 'xform/\+/ /'
 
 #韓文形碼專用#
 # korea:
