@@ -126,9 +126,10 @@ speller:
   algebra:
 ### 日語 ###
 ## 手機上獨有衝突先轉走
-    - xform/^(handakuten)[.][.]$/$1@/
-    - xform/^(dakuten)[.][.]$/$1@/
-    - xform/^(ten)[.][.]$/$1@/
+    # - xform/^(handakuten)[.][.]$/$1@/
+    # - xform/^(dakuten)[.][.]$/$1@/
+    # - xform/^(ten)[.][.]$/$1@/
+    - xform/(ten)[.][.]$/$1@/
     - xform/^([ob]v)[.][.]$/$1@/
 ## 符號
     - derive|^([eaovsb]v),$|$1\.|
