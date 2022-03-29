@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202112"
+  version: "202203"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -125,6 +125,11 @@ speller:
   delimiter: "\\" #" '"
   algebra:
 ### 日語 ###
+## 手機上獨有衝突先轉走
+    - xform/^(handakuten)[.][.]$/$1@/
+    - xform/^(dakuten)[.][.]$/$1@/
+    - xform/^(ten)[.][.]$/$1@/
+    - xform/^([ob]v)[.][.]$/$1@/
 ## 符號
     - derive|^([eaovsb]v),$|$1\.|
     - derive|^(eev),$|$1\.|
@@ -183,6 +188,7 @@ speller:
     # - derive/^([a-z]+)$/$1CC/
     - derive/^([a-z]+)$/$1Z/
     - xform/^([a-z]+)[.][.]$/$1B/
+    - xform/^([a-z]+)@$/$1\.\./ #避衝突轉回來
 #    - xform|\/\!|\/| #韓文單音/
     # - "xlit|/;,.!|ABCDF|" #-E
     - xform/^([svc])[.]$/$1J/ #問號和驚嘆號不被略拼
