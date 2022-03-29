@@ -126,7 +126,7 @@ speller:
   algebra:
 ### 日語 ###
 ## 符號
-    - derive|^([eaovs]v),$|$1\.|
+    - derive|^([eaovsb]v),$|$1\.|
     - derive|^(eev),$|$1\.|
 #手機不用#    - derive|^ev([,.])$|-$1|
 #手機不用#    - derive|^eev([,.])$|--$1|
