@@ -141,7 +141,6 @@ shutil.copyfile("./trimefiles/hangeul_hnc_hanja.dict.yaml", "./sort_trime/洋蔥
 shutil.copyfile("./trimefiles/jpnin1.dict.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.dict.yaml")
 shutil.copyfile("./trimefiles/jpnin1.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.extended.dict.yaml")
 shutil.copyfile("./trimefiles/jpnin1.schema.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.schema.yaml")
-shutil.copyfile("./trimefiles/jpnin1.custom.yaml", "./sort_trime/洋蔥同文注音plus版/jpnin1.custom.yaml")
 shutil.copyfile("./trimefiles/latinin1.dict.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.extended.dict.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.extended.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.schema.yaml", "./sort_trime/洋蔥同文注音plus版/latinin1.schema.yaml")
@@ -182,6 +181,9 @@ shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.json", "./sort_trime/洋蔥�
 shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_m_2021t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
+
+shutil.copytree("./trimefiles/手機jpnin1只出假名custom/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1只出假名custom/")
+shutil.copytree("./trimefiles/手機jpnin1完整轉寫custom/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1完整轉寫custom/")
 
 
 #複製檔案(洋蔥手機蝦-mixin)
