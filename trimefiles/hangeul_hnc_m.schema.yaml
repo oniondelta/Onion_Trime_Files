@@ -4,7 +4,7 @@
 schema:
   schema_id: hangeul_hnc_m # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
   name: ❃韓語HNC❃
-  version: "202203"
+  version: "202204"
   author:
     - 『洋蔥』
   description: |
@@ -71,7 +71,7 @@ translator:
   enable_sentence: false
   enable_completion: false
   disable_user_dict_for_patterns:
-    - ^[a-z]+[/]?[/abcdefghijklmnopqrstuwsyz]$
+    - ^[a-z]+[/]?[/abcdefghijklmnopqrstuwxyz]$
   preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
     - xform/QQ/‹ʜᴊ›/
