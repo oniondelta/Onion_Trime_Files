@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: latinin1.extended
-version: "202001"
+version: "202004"
 sort: by_weight
 use_preset_vocabulary: false
 #max_phrase_length: 7
@@ -15,6 +15,7 @@ import_tables:
   - phrases.la_py_w
   - phrases.en_l_w
   - phrases.en_u_w
+  - phrases.la_eu_w
 ...
 
 

@@ -3,7 +3,7 @@
 # 《詞庫》
 ---
 name: ovffmobile.extended
-version: "202203"
+version: "202204"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 7
@@ -23,5 +23,6 @@ import_tables:
   - phrases.la_py_w
   - phrases.en_l_w
   - phrases.en_u_w
+  - phrases.la_eu_w
 ...
 
