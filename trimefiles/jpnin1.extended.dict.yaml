@@ -1,10 +1,10 @@
 # Rime dictionary
 # encoding: utf-8
-# 《手機 日語（平假名+片假名）字詞庫匯入頁》
+# 《手機 日語（平假名+片假名+漢字+半形假名）字詞庫匯入頁》
 # 『洋蔥』製作
 ---
 name: jpnin1.extended
-version: "202203"
+version: "202204"
 sort: by_weight
 vocabulary: essay-jp-onion
 #use_preset_vocabulary: false
@@ -12,11 +12,10 @@ vocabulary: essay-jp-onion
 #min_phrase_weight: 100
 import_tables:
   - jpnin1
+  - jpnin1_hw
   - phrases.jp_hk
-#  - phrases.jp_hkup_w
 #  - phrases.jp_hk_more
-#  - phrases.jp_hkmoreup_w
   - phrases.jp_hkkseg
-#  - phrases.jp_hkk
+#  - phrases.jp_hkk #不要開，大量mapping，速度會減慢
 ...
 
