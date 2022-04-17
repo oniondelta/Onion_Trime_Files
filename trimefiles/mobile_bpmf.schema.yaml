@@ -4,7 +4,7 @@
 schema:
   schema_id: mobile_bpmf
   name: 注音文(注音)
-  version: "201909"
+  version: "202204"
   author:
     - 『洋蔥』
   description: |
@@ -51,7 +51,7 @@ speller:
 
 translator:
   dictionary: mobile_bpmf
-  enable_user_dict: true
+  enable_user_dict: false #true
   enable_sentence: false
   enable_completion: false
   preedit_format:
