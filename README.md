@@ -2,7 +2,8 @@
 
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
-####  ※ 目前只測試 trime 3.2.1 版，其他版本未測
+####  ※ 預設鍵盤檔適用[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1)
+####  ※ 內有附新版[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6)鍵盤檔
 ### 內容說明：
 
 - trimefiles 中包含六個主方案（三個注音、一個注音雙拼、二個形碼）和一眾掛接方案
