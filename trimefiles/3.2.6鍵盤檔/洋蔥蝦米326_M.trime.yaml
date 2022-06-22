@@ -962,8 +962,8 @@ liquid_keyboard:
   key_height: 40      #按鍵高度
   key_height_land: 40 #橫屏模式按鍵高度
   single_width: 60    #single類型的按鍵寬度
-  vertical_gap: 5 #1     #縱向按鍵間隙
-  margin_x: 5 #0.5         #左右按鍵間隙的1/2
+  vertical_gap: 16 #1     #縱向按鍵間隙
+  margin_x: 8 #0.5         #左右按鍵間隙的1/2
   # keyboards: [emoji, math, ascii, cn, history, clipboard, draft, tabs, exit, candidate, list, ids , table, symbol, unit, new, jp, pinyin, grease, rusa, korea, lation, yinbiao,  exit]  #tab列表
   keyboards: [clipboard, draft, exit]  #tab列表
   exit:
@@ -2418,7 +2418,7 @@ preset_keyboards:
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 14, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: "'", hint: '四聲', long_click: '"', swipe_up: Theme_settings, symbol_text_size: *sf4, width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {click: "'", hint: '四聲', long_click: '"', swipe_up: liquid_keyboard_clipboard, symbol_text_size: *sf4, width: 9.1} #, swipe_up: Theme_settings, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: '/', hint: '二聲', long_click: '\', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 9.1} #, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 9.1}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 25} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2464,7 +2464,7 @@ preset_keyboards:
       - {label: 'J', hint: 'ㄞ', click: 'j', long_click: select_all_d, symbol_text_size: *sf4, width: 9.75}
       - {label: 'K', hint: 'ㄟ|ㄝ', click: 'k', long_click: text_dvv1_d, symbol_text_size: *sf4, width: 9.75}
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 9.75}
-      - {click: "'", hint: '四聲', long_click: '"', swipe_up: Theme_settings, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {click: "'", hint: '四聲', long_click: '"', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
@@ -2476,7 +2476,7 @@ preset_keyboards:
       - {label: 'M', hint: 'ㄧㄢ|ㄨㄞ', click: 'm', long_click: 'text_gi_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_gi_d'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '二聲', long_click: '\', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 10.25} #, width: 12
+      - {click: '/', hint: '二聲', long_click: '\', swipe_up: liquid_keyboard_clipboard, symbol_text_size: *sf4, width: 10.25} #, swipe_up: Theme_settings, width: 12
       - {click: ';', hint: '一聲', long_click: ':', swipe_up: Home, symbol_text_size: *sf4, width: 10.25}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, key_text_size: 10, width: 27} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '三聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 10.25}
@@ -2534,7 +2534,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" ##, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 13.5, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '        韓', long_click: '\', swipe_up: Theme_settings, width: 9.1} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
+      - {click: '/', hint: '        韓', long_click: '\', swipe_up: liquid_keyboard_clipboard, width: 9.1} #, swipe_up: Theme_settings, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 9.2} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2580,7 +2580,7 @@ preset_keyboards:
       - {label: 'J', click: 'j', long_click: select_all, width: 9.75}
       - {label: 'K', click: 'k', long_click: '<', width: 9.75}
       - {label: 'L', click: 'l', long_click: '>', width: 9.75}
-      - {click: '/', hint: '        韓', long_click: '\', swipe_up: Theme_settings, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {click: '/', hint: '        韓', long_click: '\', swipe_up: Menu_duse, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
@@ -2592,7 +2592,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: 'text_gi_2', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape" #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd8} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 10.25} #, width: 12
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: liquid_keyboard_clipboard, width: 10.25} #, swipe_up: Theme_settings, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25}
@@ -2706,7 +2706,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: "BackToPreviousSyllable3", width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 13.5, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: '/', hint: '        韓', long_click: Hide, swipe_up: Theme_settings, width: 9.2} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {click: '/', hint: '        韓', long_click: Theme_settings, swipe_up: liquid_keyboard_clipboard, width: 9.2} #, long_click: Hide, long_click: 'text_bs', swipe_up: 'text_bs'
       - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 9.2} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 9.2}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 25} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2752,7 +2752,7 @@ preset_keyboards:
       - {label: 'J', click: 'j', long_click: select_all, width: 9.75}
       - {label: 'K', click: 'k', long_click: '@', width: 9.75}
       - {label: 'L', click: 'l', long_click: '#', width: 9.75}
-      - {click: '/', hint: '        韓', long_click: Hide, swipe_up: Theme_settings, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
+      - {click: '/', hint: '        韓', long_click: Theme_settings, swipe_up: Menu_duse, width: 11} #, long_click: Hide, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
       - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #composing: delimiter #Tab_3 #composing: "Escape"
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
@@ -2764,7 +2764,7 @@ preset_keyboards:
       - {label: 'M', click: 'm', long_click: '\', width: 10.5} #long_click: 'text_gi'
       - {click: BackSpace, swipe_up: BackToPreviousSyllable3, width: 15, key_back_color: bbs, key_text_color: tbs} #, swipe_up: "Escape3" #, swipe_up: BackToPreviousSyllable #, swipe_up: BackToPreviousSyllable3
       - {click: Keyboard_bqfh, long_click: Keyboard_kao, swipe_up: Keyboard_number, composing: delimiter_4, key_text_color: tbs, key_symbol_color: tajs2, width: 16, height: *jpgd9} #, key_back_color: bgn, key_text_color: tgn#, width: 14 #, send_bindings: true #width: 12 #width: 15
-      - {click: ';', hint: '        大', long_click: ':', swipe_up: Menu_duse, width: 10.25} #, width: 12
+      - {click: ';', hint: '        大', long_click: ':', swipe_up: liquid_keyboard_clipboard, width: 10.25} #, width: 12
       - {click: "'", hint: '集    小', long_click: '"', swipe_up: Home, width: 10.25}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Left1, swipe_right: Right1, width: 27} #width: 32 #width: 37 #width: 34 #, swipe_left: Page_Up, swipe_right: Page_Down
       - {click: ',', hint: '符    平', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, width: 10.25} #long_click: '?'
