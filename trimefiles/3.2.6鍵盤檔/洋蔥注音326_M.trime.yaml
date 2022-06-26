@@ -109,8 +109,8 @@ style:
     max_length: 14 #超過字數則換行
     sticky_lines: 0 #1 #固頂行數
     sticky_lines_land: 0 #橫屏模式下的固頂行數
-    max_entries: 1 #0 #5 #候選窗口最大詞條數
-    min_check: 3 #只要前n個候選詞有長度大於等於min_length的詞，就會把長度符合以及之前的詞全部加到懸浮窗內。
+    max_entries: 0 #1 #5 #候選窗口最大詞條數
+    # min_check: 3 #只要前n個候選詞有長度大於等於min_length的詞，就會把長度符合以及之前的詞全部加到懸浮窗內。
     all_phrases: false #所有滿足條件的詞語都顯示在窗口
     border: 1 #0 #候選窗口邊框寬度
     max_width: 360 #最大寬度，超過則自動換行
@@ -1205,29 +1205,30 @@ preset_keys:
 # 以上官方原生功能鍵
 #####################
 # 以下自定義功能鍵
-  Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
   Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
+  Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
+  # Left2: {label: '左', text: '{Keyboard_default}{Mode_switch}{Left}{Mode_switch}{Keyboard_default}', functional: false} #⇐ #send:
   Shift_L2: {label: 選擇, preview: '⇪', functional: false, send: Shift_L}
+  Shift_L3: {label: Shift, preview: '⇪', send: Shift_L, shift_lock: long}
+  Shift_L_h: {label: Shift, preview: '⇪', functional: true, send: Shift_L, shift_lock: long}
+  Tab_2: {label: 首節, send: Tab} #
+  Tab_3: {label: 首單, text: '{Home}{Right}'}
+  space2: {repeatable: true, label: "␣", functional: false, send: 'space'}
+  Escape2: {text: '{Escape}', label: ⌧, functional: false}
+  Escape3: {label: '⌧', preview: '⌧', repeatable: false, functional: false, send: Control+Shift+Alt+BackSpace}
+  Escape4: {label: ⌧, functional: false, text: '{Escape}{Escape}'}
+  BackToPreviousSyllable2: {label: '⌫', preview: '⌫', repeatable: true, functional: false, send: Control+BackSpace}
+  BackToPreviousSyllable3: {label: '刪音節', preview: '刪音節', repeatable: true, functional: false, send: Control+Shift+BackSpace}
+  Keyboard_backlong: {label: ⏏, functional: false, send: Eisu_toggle, select: .last_lock}
+  Mode_switch2: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 韓, 英 ]}
 ####
   delimiter_1: {label: "分節", text: ''''} #
   delimiter_2: {label: "分節", text: '|'} #
   delimiter_3: {label: 分節, text: '+'} #
   delimiter_4: {label: 分節, text: '\'} #
-  Tab_2: {label: 首節, send: Tab} #
-  Escape2: {text: '{Escape}', label: ⌧, functional: false}
-  Tab_3: {label: 首單, text: '{Home}{Right}'}
   BPMF: {label: 注音文, text: "{'}{\"}"}
   OCM_ZH: {label: 9, text: "{Z}"}
   OCM_BPMF: {label: 0, text: "{B}"}
-  Shift_L3: {label: Shift, preview: '⇪', send: Shift_L, shift_lock: long}
-  space2: {repeatable: true, label: "␣", functional: false, send: 'space'}
-  Left2: {label: '左', text: '{Keyboard_default}{Mode_switch}{Left}{Mode_switch}{Keyboard_default}', functional: false} #⇐ #send:
-  BackToPreviousSyllable2: {label: '⌫', preview: '⌫', repeatable: true, functional: false, send: Control+BackSpace}
-  BackToPreviousSyllable3: {label: '刪音節', preview: '刪音節', repeatable: true, functional: false, send: Control+Shift+BackSpace}
-  Escape3: {label: '⌧', preview: '⌧', repeatable: false, functional: false, send: Control+Shift+Alt+BackSpace}
-  Keyboard_backlong: {label: ⏏, functional: false, send: Eisu_toggle, select: .last_lock}
-  Shift_L_h: {label: Shift, preview: '⇪', functional: true, send: Shift_L, shift_lock: long}
-  Mode_switch2: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 韓, 英 ]}
 #####################
 # 顯示 preview 出現ㄅㄆㄇㄈ和特殊鍵標示
   text_1: {label: '1', preview: 'ㄅ', text: '1', functional: false}
@@ -3043,7 +3044,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols2:
     author: "洋蔥"
     name: 各種符號2
@@ -3102,7 +3103,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols3:
     author: "洋蔥"
     name: 各種符號3
@@ -3161,7 +3162,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols4:
     author: "洋蔥"
     name: 各種符號4
@@ -3220,7 +3221,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols5:
     author: "洋蔥"
     name: 各種符號5
@@ -3279,7 +3280,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols6:
     author: "洋蔥"
     name: 各種符號6
@@ -3337,7 +3338,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
 
 
   bqrw1:
