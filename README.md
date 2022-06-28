@@ -64,6 +64,10 @@
 
 ### 虛擬鍵盤功能說明：
 
+ > 20220628 更新，鍵位與下面說明有所不同 。
+ 
+ > 3.2.6版鍵盤檔，新增剪貼簿功能 。
+
 ---
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹PURE" width="600" />
