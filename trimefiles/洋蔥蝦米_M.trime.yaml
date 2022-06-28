@@ -998,9 +998,9 @@ preset_keyboards:
       - {click: '5', long_click: '%', width: 9.75}
       - {click: '6', long_click: '^', width: 9.75}
       - {click: '7', long_click: '&', width: 9.75}
-      - {click: '8', long_click: '*', width: 9.75}
-      - {click: '9', long_click: '=', swipe_up: Menu_duse, width: 9.75}
-      - {click: '0', long_click: '+', swipe_up: Theme_settings, width: 11}
+      - {click: '8', long_click: '*', swipe_up: Color_settings, width: 9.75}
+      - {click: '9', long_click: '=', swipe_up: Theme_settings, width: 9.75}
+      - {click: '0', long_click: '+', swipe_up: Menu_duse, width: 11}
       - {click: 'q', long_click: '`', width: 11}
       - {click: 'w', long_click: '~', width: 9.75}
       - {click: 'e', long_click: '[', width: 9.75}
@@ -1055,9 +1055,9 @@ preset_keyboards:
       - {label: 'ㄓ', click: 'text_5', long_click: '%', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75}
       - {label: 'ˊ', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75}
       - {label: '˙', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75}
-      - {label: 'ㄚ', click: 'text_8', long_click: '*', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Menu_duse, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Theme_settings, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 11} #, key_back_color: blue1
+      - {label: 'ㄚ', click: 'text_8', long_click: '*', swipe_up: Color_settings, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Theme_settings, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Menu_duse, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', click: 'text_q', long_click: '`', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', click: 'text_w', long_click: '~', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75}
       - {label: 'ㄍ', click: 'text_e', long_click: '[', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1111,9 +1111,9 @@ preset_keyboards:
       - {label: 'ㄓ', click: 'text_5', long_click: '%', width: 9.75}
       - {label: 'ˊ', click: 'text_6', long_click: '^', width: 9.75}
       - {label: '˙', click: 'text_7', long_click: '&', width: 9.75}
-      - {label: 'ㄚ', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
+      - {label: 'ㄚ', click: 'text_8', long_click: '*', swipe_up: Color_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄞ', click: 'text_9', long_click: '=', swipe_up: Theme_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', click: 'text_0', long_click: '+', swipe_up: Menu_duse, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', click: 'text_q', long_click: '`', width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', click: 'text_w', long_click: '~', width: 9.75}
       - {label: 'ㄍ', click: 'text_e', long_click: '[', width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1168,9 +1168,9 @@ preset_keyboards:
       - {label: 'ㄓ', hint: '5', click: 'text_5', long_click: '%', width: 9.75}
       - {label: 'ˊ', hint: '日 6     ', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzyplus}
       - {label: '˙', hint: '韓 7     ', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzyplus}
-      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
+      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', swipe_up: Color_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu_duse, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', width: 9.75} #long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1224,9 +1224,9 @@ preset_keyboards:
       - {label: 'ㄓ', hint: '5', click: 'text_5', long_click: '%', width: 9.75}
       - {label: 'ˊ', hint: '6', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymix}
       - {label: '˙', hint: 'ⓜ 7     ', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymix}
-      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: "'", swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: 'text_m3', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
+      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', swipe_up: Color_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: "'", swipe_up: Theme_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: 'text_m3', swipe_up: Menu_duse, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '\', width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '|', width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '`', width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -1283,9 +1283,9 @@ preset_keyboards:
       - {label: 'ㄓ', hint: '5', click: 'text_5', long_click: '%', width: 9.75}
       - {label: 'ˊ', hint: '     6 日', click: 'text_6', long_click: '^', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
       - {label: '˙', hint: '     7 韓', click: 'text_7', long_click: '&', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75, key_back_color: bzymixin}
-      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Menu_duse, width: 9.75} #, key_back_color: blue1
-      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Theme_settings, width: 11} #, key_back_color: blue1
+      - {label: 'ㄚ', hint: '8', click: 'text_8', long_click: '*', swipe_up: Color_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄞ', hint: '9', click: 'text_9', long_click: '=', swipe_up: Theme_settings, width: 9.75} #, key_back_color: blue1
+      - {label: 'ㄢ', hint: '0', click: 'text_0', long_click: '+', swipe_up: Menu_duse, width: 11} #, key_back_color: blue1
       - {label: 'ㄆ', hint: 'Q', click: 'text_q', long_click: '`', width: 11} #long_click: 'text_bs'
       - {label: 'ㄊ', hint: 'W', click: 'text_w', long_click: '~', width: 9.75}
       - {label: 'ㄍ', hint: 'E', click: 'text_e', long_click: '[', width: 9.75} ##long_click: '{Schema_Eng}-{Keyboard_default}'
@@ -2057,7 +2057,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols2:
     author: "洋蔥"
     name: 各種符號2
@@ -2116,7 +2116,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols3:
     author: "洋蔥"
     name: 各種符號3
@@ -2175,7 +2175,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols4:
     author: "洋蔥"
     name: 各種符號4
@@ -2234,7 +2234,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols5:
     author: "洋蔥"
     name: 各種符號5
@@ -2293,7 +2293,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
   symbols6:
     author: "洋蔥"
     name: 各種符號6
@@ -2351,7 +2351,7 @@ preset_keyboards:
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
       - {click: BackSpace, key_back_color: bbs, key_text_color: tenter} #, key_back_color: bbs, key_text_color: tbs #key_back_color: benter
-      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_last_lock, long_click: Keyboard_backlong, composing: Escape4, width: 14, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
 
 
   bqrw1:
@@ -5807,11 +5807,12 @@ preset_keys:
   Keyboard_numberb: {label: 123, functional: false, send: Eisu_toggle, select: numberb}
   Keyboard_symbols: {label: 符集, functional: false, send: Eisu_toggle, select: symbols}
   # Keyboard_move: {label: ❖, functional: true, send: Eisu_toggle, select: move}
-  Keyboard_next: {label: 后退, functional: false, send: Eisu_toggle, select: .next}
-  Keyboard_last: {label: 后退, functional: false, send: Eisu_toggle, select: .last}
+  Keyboard_next: {label: 後退, functional: false, send: Eisu_toggle, select: .next}
+  Keyboard_last: {label: 後退, functional: false, send: Eisu_toggle, select: .last}
   Keyboard_last_lock: {label: 返回, send: Eisu_toggle, select: .last_lock} #直接切換到下一鍵盤
   Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
   Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
+  Color_settings: {label: 配色, send: SETTINGS, option: "color"}
   Theme_settings: {label: 主題, send: SETTINGS, option: "theme"}
   Color_switch: {label: 配色, functional: false, send: PROG_RED}
   Help: {label: 說明, send: Help}
@@ -5841,6 +5842,7 @@ preset_keys:
   Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
   Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
   Shift_L2: {label: 選擇, preview: '⇪', functional: false, send: Shift_L}
+  Escape4: {label: ⌧, functional: false, text: '{Escape}{Escape}'}
 ####
   delimiter_1: {label: "分節", text: ''''} #
   delimiter_2: {label: "分節", text: '|'} #
