@@ -19,14 +19,16 @@ height:
   10: &jpgd10 52 #less嘸鍵盤(上面四層) #52 #48
 #鍵盤字型相關
 keyboard:
-  1: &tmx1 -2.7
-  2: &tmy1 0.8
+  1: &tmx1 -2.7 #key_hint_offset_x偏移量
+  2: &tmy1 0.8 #key_hint_offset_y偏移量
+  3: &offsetX1 0 #key_press_offset_x偏移量
+  4: &offsetY1 4 #key_press_offset_y偏移量
 font:
   1: &sf1 9.5 #注音鍵盤(符號-字型大小)(已去除連結，不作用)
   2: &sf2 11 #數字鍵盤(沒有連結，不作用)
   3: &sf3 10.5 #數字鍵盤(多字-顏文字按鈕-字型大小)
   4: &sf4 8 #雙拼注音鍵盤(符號-字型大小)
-  5: &sf5 17 #emoji鍵盤(emoji字型大小)
+  5: &sf5 18 #emoji鍵盤(emoji字型大小)
 #顏色
 colors:
   1: &color1 0xff000000 #黑
@@ -1930,6 +1932,8 @@ preset_keyboards:
     width: 10
   #  height: 48
     height: *jpgd10
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     lock: true
     keys:
@@ -1976,9 +1980,11 @@ preset_keyboards:
   42keys:
     name: 基礎42鍵
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '!', width: 11}
@@ -2033,9 +2039,11 @@ preset_keyboards:
   bpmfmobile:
     name: 注音改鍵盤（有滑動）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {label: 'ㄅ', click: 'text_1', long_click: '!', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 11}
@@ -2089,9 +2097,11 @@ preset_keyboards:
   bpmfmobile_ns:
     name: 注音改鍵盤（無滑動）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {label: 'ㄅ', click: 'text_1', long_click: '!', width: 11}
@@ -2146,9 +2156,11 @@ preset_keyboards:
   bpmfmobileplus:
     name: 注音plus
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {label: 'ㄅ', hint: '1', click: 'text_1', long_click: '!', width: 11}
@@ -2202,9 +2214,11 @@ preset_keyboards:
   bpmfmobilemix:
     name: 注音mix
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {label: 'ㄅ', hint: '1', click: 'text_1', long_click: DeleteCandidate, width: 11}
@@ -2258,13 +2272,15 @@ preset_keyboards:
   bpmfmobilemixin:
     name: 注音mixin
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
-    lock: true
-#    ascii_keyboard: default
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
 #    key_press_offset_x: 0
 #    key_press_offset_y: 7
+#    ascii_keyboard: default
+    ascii_mode: 0
+    lock: true
     keys:
       - {label: 'ㄅ', hint: '1', click: 'text_1', long_click: '!', width: 11}
       - {label: 'ㄉ', hint: '2', click: 'text_2', long_click: '@', width: 9.75}
@@ -2346,9 +2362,11 @@ preset_keyboards:
   bpmfsimple:
     name: 注音十二宮
     author: "洋蔥"
-    ascii_mode: 0
     width: 20
     height: *jpgd6
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {label: '：   ；', click: '：', swipe_right: '；', long_click: '「」{Left}{Keyboard_default}', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
@@ -2376,9 +2394,11 @@ preset_keyboards:
   bpmfmobiledouble:
     name: 注音雙拼D8（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '|', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1
@@ -2434,9 +2454,11 @@ preset_keyboards:
   bpmfmobiledouble_full:
     name: 注音雙拼Full（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '|', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1
@@ -2492,9 +2514,11 @@ preset_keyboards:
   ovffmobile:
     name: 蝦米D8（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '|', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1
@@ -2550,9 +2574,11 @@ preset_keyboards:
   ovffmobile_full:
     name: 蝦米Full（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '|', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1
@@ -2607,9 +2633,11 @@ preset_keyboards:
   ovffmobile_up:
     name: 蝦米Up（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd7
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
       - {click: '1', long_click: '|', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, key_back_color: bsz2, key_symbol_color: tbs, width: 11} #, swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1
@@ -2664,9 +2692,11 @@ preset_keyboards:
   ovffmobile_lessd8:
     name: 蝦米LessD8（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd10
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
 #      - {click: '1', long_click: '|', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1, key_symbol_color: tbs, width: 11}
@@ -2722,9 +2752,11 @@ preset_keyboards:
   ovffmobile_less:
     name: 蝦米LessF（預設改36鍵）
     author: "洋蔥"
-    ascii_mode: 0
     width: 10
     height: *jpgd10
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     lock: true
     keys:
 #      - {click: '1', long_click: '|', swipe_up: Page_Up, swipe_down: Page_Down, swipe_left: Home, swipe_right: End, key_back_color: bsz1, key_symbol_color: tbs, width: 11}
@@ -2782,6 +2814,8 @@ preset_keyboards:
     name: 數字蝦米
     width: 20
     height: *jpgd6
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     lock: true
     keys:
@@ -2815,6 +2849,8 @@ preset_keyboards:
     name: hangeul2set佈局
     width: 10
     height: *jpgd10
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     lock: true
     keys:
@@ -2864,6 +2900,8 @@ preset_keyboards:
     name: 數字+
     width:  15.8 #16.6
     height: *jpgd6
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 1
     keys:
       - {click: '#', long_click: '√', key_text_size: "18", width: 12, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tajs} #, long_click: '【】{Left}'
@@ -2905,9 +2943,9 @@ preset_keyboards:
     name: 鍵盤選擇
     width: 16
     height: *jpgd6
-    ascii_mode: 1
     key_press_offset_x: 0
     key_press_offset_y: 8
+    ascii_mode: 1
     keys:
       - {click: '', width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Settings2, width: 16, hint: 設置, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
@@ -2948,6 +2986,8 @@ preset_keyboards:
     name: 方向和功能頁
     width: 16
     height: *jpgd6
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
       - {click: Clear_duse, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
@@ -2994,9 +3034,11 @@ preset_keyboards:
     name: 各種符號
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3054,9 +3096,11 @@ preset_keyboards:
     name: 各種符號2
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3114,9 +3158,11 @@ preset_keyboards:
     name: 各種符號3
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3174,9 +3220,11 @@ preset_keyboards:
     name: 各種符號4
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3234,9 +3282,11 @@ preset_keyboards:
     name: 各種符號5
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3294,9 +3344,11 @@ preset_keyboards:
     name: 各種符號6
     width: 10.75
     height: *jpgd4
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     ascii_mode: 0
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
 #      - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, height: *jpgd5, width: 10, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3353,11 +3405,13 @@ preset_keyboards:
   bqrw1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3425,11 +3479,13 @@ preset_keyboards:
   bqrw2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3497,11 +3553,13 @@ preset_keyboards:
   bqrw3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3569,11 +3627,13 @@ preset_keyboards:
   bqrw4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3641,11 +3701,13 @@ preset_keyboards:
   bqrw5:
     author: "風花絮"
     name: 表情鍵5
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3712,11 +3774,13 @@ preset_keyboards:
   bqrw6:
     author: "風花絮"
     name: 表情鍵6
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bmk, key_text_color: tenter} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3751,11 +3815,13 @@ preset_keyboards:
   bqqt1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3823,11 +3889,13 @@ preset_keyboards:
   bqqt2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3895,11 +3963,13 @@ preset_keyboards:
   bqqt3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -3967,11 +4037,13 @@ preset_keyboards:
   bqqt4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4012,11 +4084,13 @@ preset_keyboards:
   bqqz1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4084,11 +4158,13 @@ preset_keyboards:
   bqqz2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4156,11 +4232,13 @@ preset_keyboards:
   bqqz3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4228,11 +4306,13 @@ preset_keyboards:
   bqqz4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4300,11 +4380,13 @@ preset_keyboards:
   bqqz5:
     author: "風花絮"
     name: 表情鍵5
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4367,11 +4449,13 @@ preset_keyboards:
   bqpt1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4439,11 +4523,13 @@ preset_keyboards:
   bqpt2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4494,11 +4580,13 @@ preset_keyboards:
   bqhd1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4566,11 +4654,13 @@ preset_keyboards:
   bqhd2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4615,11 +4705,13 @@ preset_keyboards:
   bqhc1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bmk, key_text_color: tenter}
@@ -4687,11 +4779,13 @@ preset_keyboards:
   bqhc2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bmk, key_text_color: tenter}
@@ -4759,11 +4853,13 @@ preset_keyboards:
   bqlx1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4831,11 +4927,13 @@ preset_keyboards:
   bqlx2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4903,11 +5001,13 @@ preset_keyboards:
   bqlx3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -4975,11 +5075,13 @@ preset_keyboards:
   bqlx4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5047,11 +5149,13 @@ preset_keyboards:
   bqlx5:
     author: "風花絮"
     name: 表情鍵5
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5095,11 +5199,13 @@ preset_keyboards:
   bqkj1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5167,11 +5273,13 @@ preset_keyboards:
   bqkj2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5239,11 +5347,13 @@ preset_keyboards:
   bqkj3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5311,11 +5421,13 @@ preset_keyboards:
   bqkj4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5368,13 +5480,15 @@ preset_keyboards:
   bqfh1:
     author: "風花絮"
     name: 表情鍵1
-    ascii_mode: 1 #0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1 #0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5445,13 +5559,15 @@ preset_keyboards:
   bqfh2:
     author: "風花絮"
     name: 表情鍵2
-    ascii_mode: 1 #0
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1 #0
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5523,13 +5639,15 @@ preset_keyboards:
   bqfh3:
     author: "風花絮"
     name: 表情鍵3
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5602,13 +5720,15 @@ preset_keyboards:
   bqfh4:
     author: "風花絮"
     name: 表情鍵4
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5679,13 +5799,15 @@ preset_keyboards:
   bqfh5:
     author: "風花絮"
     name: 表情鍵5
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5756,13 +5878,15 @@ preset_keyboards:
   bqfh6:
     author: "風花絮"
     name: 表情鍵6
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5834,13 +5958,15 @@ preset_keyboards:
   bqfh7:
     author: "風花絮"
     name: 表情鍵7
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5912,13 +6038,15 @@ preset_keyboards:
   bqfh8:
     author: "風花絮"
     name: 表情鍵8
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -5989,13 +6117,15 @@ preset_keyboards:
   bqfh9:
     author: "風花絮"
     name: 表情鍵9
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6068,13 +6198,15 @@ preset_keyboards:
   bqfh10:
     author: "風花絮"
     name: 表情鍵10
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6145,13 +6277,15 @@ preset_keyboards:
   bqfh11:
     author: "風花絮"
     name: 表情鍵11
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6221,13 +6355,15 @@ preset_keyboards:
   bqfh12:
     author: "風花絮"
     name: 表情鍵12
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6297,13 +6433,15 @@ preset_keyboards:
   bqfh13:
     author: "風花絮"
     name: 表情鍵13
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6373,13 +6511,15 @@ preset_keyboards:
   bqfh14:
     author: "風花絮"
     name: 表情鍵14
-    ascii_mode: 1
     width: 10
     height: *jpgd1
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
     key_hint_offset_x: *tmx1
     key_hint_offset_y: *tmy1
+    ascii_mode: 1
     keys:
-    - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
+    - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
     - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bmk, key_text_color: tenter} #, key_text_color: tenter
     - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
     - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6454,11 +6594,13 @@ preset_keyboards:
   kao_happy:
     name: 顏文字鍵盤-開心
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2 #27.7 # 28.8 # *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6508,11 +6650,13 @@ preset_keyboards:
   kao_fond:
     name: 顏文字鍵盤-喜歡
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6563,11 +6707,13 @@ preset_keyboards:
   kao_astonished:
     name: 顏文字鍵盤-驚訝
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6616,11 +6762,13 @@ preset_keyboards:
   kao_impotent:
     name: 顏文字鍵盤-無奈
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6671,11 +6819,13 @@ preset_keyboards:
   kao_sad:
     name: 顏文字鍵盤-傷心
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6726,11 +6876,13 @@ preset_keyboards:
   kao_mad:
     name: 顏文字鍵盤-生氣
     author: "llx"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6781,11 +6933,13 @@ preset_keyboards:
   kao_dialogue:
     name: 顏文字鍵盤-對話
     author: "onion"
-    ascii_mode: 1
     width: 16.6
     height: *jpgd2
+    key_press_offset_x: *offsetX1
+    key_press_offset_y: *offsetY1
+    ascii_mode: 1
     keys:
-      - {label: '^_^', key_text_size: 12, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
+      - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bmk, key_text_color: tenter}
       - {label: '#!?', key_text_size: 15, click: Keyboard_bqfh1, width: 9, key_back_color: bgn, key_text_color: tgn}
       - {label: '🙂', key_text_size: 15, click: Keyboard_bqrw1, width: 9, key_back_color: bgn, key_text_color: tgn} #height: 26
       - {label: '🌼', key_text_size: 15, click: Keyboard_bqhc1, width: 9, key_back_color: bgn, key_text_color: tgn}
@@ -6833,9 +6987,9 @@ preset_keyboards:
 
   dgdaniu:
     name: 風頂功
-    ascii_mode: 0
     width: 15
    # height: 48
+    ascii_mode: 0
     keys:
   #  第一行
     - {label: 'Zh', long_click: 1, click: 'z',  width: 15.5, key_back_color: bh1, key_text_color: th1}
@@ -6875,9 +7029,9 @@ preset_keyboards:
 
   dgdaniuzj:
     name: 風頂功助記
-    ascii_mode: 0
     width: 15
   #  height: 48
+    ascii_mode: 0
     keys:
   #  第一行
     - {label: 'Zh', long_click: 1, click: 'z', hint: 'iang uai',  width: 15.5, key_back_color: bh1, key_text_color: th1}
