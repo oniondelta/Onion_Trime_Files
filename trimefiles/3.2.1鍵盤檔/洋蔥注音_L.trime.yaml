@@ -1,0 +1,223 @@
+# Trime custom style settings
+# encoding: utf-8
+
+__include : 洋蔥注音_M.trime.yaml:/
+__patch:
+config_version: "3.0"
+name: 注音方案低版          #方案名稱
+author: 洋蔥        #作者信息
+
+# 鍵盤高度
+## 下方 preset_keyboards 中須引用才可起作用！
+height:
+  1: &jpgd1 30   #表情鍵盤   #『31.6』 #「34.2」 #41.2 #30 #36
+  2: &jpgd2 25.6   #顏文字鍵盤   #『26.7』 #「28.8」 #26.7 #34 #24
+  3: &jpgd3 26   #顏文字鍵盤(固定最後一排)   #『27.8』#「30.2」 #28.8 #26.7 #34 #24
+  4: &jpgd4 38.4   #表情鍵盤(分類頁)   #『40.3』 #「43.5」 #43.4 #52.4 #46 #39.5
+  5: &jpgd5 34   #表情鍵盤(固定第一排)   #『34.8』 #「36」
+  6: &jpgd6 47.5   #數字鍵盤(四層)   #『49.95』 #「53.5」 #49.7 #49.4 #62 #48
+  7: &jpgd7 36   #注音鍵盤(上面四層)   #『38.5』 #「40」 #42 #49 #46
+  8: &jpgd8 44   #注音鍵盤(最底層)   #『42』 #「50」 #39.4 #42
+  9: &jpgd9 53   #less嘸鍵盤(最底層) #55
+  10: &jpgd10 46 #less嘸鍵盤(上面四層) #52 #48
+
+# 字體大小
+## 不起作用，因在下方 preset_keyboards 中未引用！
+font:
+  1: &sf1 8.5 #注音鍵盤(符號-字型大小)(已去除連結，不作用)
+  2: &sf2 8.5 #10.5 #數字鍵盤(沒有連結，不作用)
+  3: &sf3 8.5 #數字鍵盤(多字-顏文字按鈕-字型大小)
+  4: &sf4 8 #雙拼注音鍵盤(符號-字型大小)
+
+style:
+  candidate_text_size: 18 #19 #18 #候選字號
+  candidate_view_height: 33 #31 #34 #42 #28 #候選區高度
+  comment_height: 14 #12 #14 #編碼提示區高度
+  key_long_text_size: 11 #12 #18 #長標籤字號
+  key_text_size: 16 #18 #20 #22 #24 #鍵字號
+  symbol_text_size: 8.5 #10 #符號字號
+
+# fallback_colors:
+#   __include: 洋蔥注音_M.trime:/fallback_colors
+####################################
+__patch:
+  preset_keyboards/default/height: *jpgd10
+  preset_keyboards/default/keys/@30/height: *jpgd9
+
+  preset_keyboards/42keys/height: *jpgd7
+  preset_keyboards/42keys/keys/@40/height: *jpgd8
+
+  preset_keyboards/bpmfmobile/height: *jpgd7
+  preset_keyboards/bpmfmobile/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobile_ns/height: *jpgd7
+  preset_keyboards/bpmfmobile_ns/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobileplus/height: *jpgd7
+  preset_keyboards/bpmfmobileplus/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemix/height: *jpgd7
+  preset_keyboards/bpmfmobilemix/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemixin/height: *jpgd7
+  preset_keyboards/bpmfmobilemixin/keys/@40/height: *jpgd8
+  # preset_keyboards/bpmfmobilemixins/height: *jpgd7
+  # preset_keyboards/bpmfmobilemixins/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemixin2/height: *jpgd7
+  preset_keyboards/bpmfmobilemixin2/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemixin3/height: *jpgd7
+  preset_keyboards/bpmfmobilemixin3/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobilemixin4/height: *jpgd7
+  preset_keyboards/bpmfmobilemixin4/keys/@40/height: *jpgd8
+
+  preset_keyboards/bpmfsimple/height: *jpgd6
+
+  preset_keyboards/bpmfmobiledouble/height: *jpgd7
+  preset_keyboards/bpmfmobiledouble/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobiledouble_full/height: *jpgd7
+  preset_keyboards/bpmfmobiledouble_full/keys/@40/height: *jpgd8
+
+  preset_keyboards/ovffmobile/height: *jpgd7
+  preset_keyboards/ovffmobile/keys/@40/height: *jpgd8
+  preset_keyboards/ovffmobile_full/height: *jpgd7
+  preset_keyboards/ovffmobile_full/keys/@39/height: *jpgd8
+  preset_keyboards/ovffmobile_up/height: *jpgd7
+  preset_keyboards/ovffmobile_up/keys/@40/height: *jpgd8
+
+  preset_keyboards/ovffmobile_lessd8/height: *jpgd10
+  preset_keyboards/ovffmobile_lessd8/keys/@30/height: *jpgd9
+  preset_keyboards/ovffmobile_less/height: *jpgd10
+  preset_keyboards/ovffmobile_less/keys/@29/height: *jpgd9
+
+  preset_keyboards/numov/height: *jpgd6
+
+  preset_keyboards/hangeul2set/height: *jpgd10
+  preset_keyboards/hangeul2set/keys/@30/height: *jpgd9
+
+####################################
+  preset_keyboards/number/height: *jpgd6
+  preset_keyboards/kmenu/height: *jpgd6
+  preset_keyboards/duse/height: *jpgd6
+####################################
+
+  preset_keyboards/symbols/height: *jpgd4
+  preset_keyboards/symbols/keys/@0/height: *jpgd5
+  preset_keyboards/symbols2/height: *jpgd4
+  preset_keyboards/symbols2/keys/@0/height: *jpgd5
+  preset_keyboards/symbols3/height: *jpgd4
+  preset_keyboards/symbols3/keys/@0/height: *jpgd5
+  preset_keyboards/symbols4/height: *jpgd4
+  preset_keyboards/symbols4/keys/@0/height: *jpgd5
+  preset_keyboards/symbols5/height: *jpgd4
+  preset_keyboards/symbols5/keys/@0/height: *jpgd5
+  preset_keyboards/symbols6/height: *jpgd4
+  preset_keyboards/symbols6/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqrw1/height: *jpgd1
+  preset_keyboards/bqrw1/keys/@0/height: *jpgd5
+  preset_keyboards/bqrw2/height: *jpgd1
+  preset_keyboards/bqrw2/keys/@0/height: *jpgd5
+  preset_keyboards/bqrw3/height: *jpgd1
+  preset_keyboards/bqrw3/keys/@0/height: *jpgd5
+  preset_keyboards/bqrw4/height: *jpgd1
+  preset_keyboards/bqrw4/keys/@0/height: *jpgd5
+  preset_keyboards/bqrw5/height: *jpgd1
+  preset_keyboards/bqrw5/keys/@0/height: *jpgd5
+  preset_keyboards/bqrw6/height: *jpgd1
+  preset_keyboards/bqrw6/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqqt1/height: *jpgd1
+  preset_keyboards/bqqt1/keys/@0/height: *jpgd5
+  preset_keyboards/bqqt2/height: *jpgd1
+  preset_keyboards/bqqt2/keys/@0/height: *jpgd5
+  preset_keyboards/bqqt3/height: *jpgd1
+  preset_keyboards/bqqt3/keys/@0/height: *jpgd5
+  preset_keyboards/bqqt4/height: *jpgd1
+  preset_keyboards/bqqt4/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqqz1/height: *jpgd1
+  preset_keyboards/bqqz1/keys/@0/height: *jpgd5
+  preset_keyboards/bqqz2/height: *jpgd1
+  preset_keyboards/bqqz2/keys/@0/height: *jpgd5
+  preset_keyboards/bqqz3/height: *jpgd1
+  preset_keyboards/bqqz3/keys/@0/height: *jpgd5
+  preset_keyboards/bqqz4/height: *jpgd1
+  preset_keyboards/bqqz4/keys/@0/height: *jpgd5
+  preset_keyboards/bqqz5/height: *jpgd1
+  preset_keyboards/bqqz5/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqpt1/height: *jpgd1
+  preset_keyboards/bqpt1/keys/@0/height: *jpgd5
+  preset_keyboards/bqpt2/height: *jpgd1
+  preset_keyboards/bqpt2/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqhd1/height: *jpgd1
+  preset_keyboards/bqhd1/keys/@0/height: *jpgd5
+  preset_keyboards/bqhd2/height: *jpgd1
+  preset_keyboards/bqhd2/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqhc1/height: *jpgd1
+  preset_keyboards/bqhc1/keys/@0/height: *jpgd5
+  preset_keyboards/bqhc2/height: *jpgd1
+  preset_keyboards/bqhc2/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqlx1/height: *jpgd1
+  preset_keyboards/bqlx1/keys/@0/height: *jpgd5
+  preset_keyboards/bqlx2/height: *jpgd1
+  preset_keyboards/bqlx2/keys/@0/height: *jpgd5
+  preset_keyboards/bqlx3/height: *jpgd1
+  preset_keyboards/bqlx3/keys/@0/height: *jpgd5
+  preset_keyboards/bqlx4/height: *jpgd1
+  preset_keyboards/bqlx4/keys/@0/height: *jpgd5
+  preset_keyboards/bqlx5/height: *jpgd1
+  preset_keyboards/bqlx5/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqkj1/height: *jpgd1
+  preset_keyboards/bqkj1/keys/@0/height: *jpgd5
+  preset_keyboards/bqkj2/height: *jpgd1
+  preset_keyboards/bqkj2/keys/@0/height: *jpgd5
+  preset_keyboards/bqkj3/height: *jpgd1
+  preset_keyboards/bqkj3/keys/@0/height: *jpgd5
+  preset_keyboards/bqkj4/height: *jpgd1
+  preset_keyboards/bqkj4/keys/@0/height: *jpgd5
+
+  preset_keyboards/bqfh1/height: *jpgd1
+  preset_keyboards/bqfh1/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh2/height: *jpgd1
+  preset_keyboards/bqfh2/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh3/height: *jpgd1
+  preset_keyboards/bqfh3/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh4/height: *jpgd1
+  preset_keyboards/bqfh4/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh5/height: *jpgd1
+  preset_keyboards/bqfh5/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh6/height: *jpgd1
+  preset_keyboards/bqfh6/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh7/height: *jpgd1
+  preset_keyboards/bqfh7/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh8/height: *jpgd1
+  preset_keyboards/bqfh8/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh9/height: *jpgd1
+  preset_keyboards/bqfh9/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh10/height: *jpgd1
+  preset_keyboards/bqfh10/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh11/height: *jpgd1
+  preset_keyboards/bqfh11/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh12/height: *jpgd1
+  preset_keyboards/bqfh12/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh13/height: *jpgd1
+  preset_keyboards/bqfh13/keys/@0/height: *jpgd5
+  preset_keyboards/bqfh14/height: *jpgd1
+  preset_keyboards/bqfh14/keys/@0/height: *jpgd5
+
+####################################
+  preset_keyboards/kao_happy/height: *jpgd2
+  preset_keyboards/kao_happy/keys/@23/height: *jpgd3
+  preset_keyboards/kao_fond/height: *jpgd2
+  preset_keyboards/kao_fond/keys/@24/height: *jpgd3
+  preset_keyboards/kao_astonished/height: *jpgd2
+  preset_keyboards/kao_astonished/keys/@22/height: *jpgd3
+  preset_keyboards/kao_impotent/height: *jpgd2
+  preset_keyboards/kao_impotent/keys/@24/height: *jpgd3
+  preset_keyboards/kao_sad/height: *jpgd2
+  preset_keyboards/kao_sad/keys/@24/height: *jpgd3
+  preset_keyboards/kao_mad/height: *jpgd2
+  preset_keyboards/kao_mad/keys/@24/height: *jpgd3
+####################################
+####################################
