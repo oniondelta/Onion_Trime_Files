@@ -6613,24 +6613,24 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "^_^", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "^ω^", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "^o^", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "^_^", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "^ω^", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "^o^", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "~\\(≧▽≦)/~", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "*^_^*", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "↖(^ω^)↗", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "(^o^)／", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "*^_^*", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "↖(^ω^)↗", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "(^o^)／", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "(=^▽^=)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "=^_^=", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "(*^ω^*)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "=^_^=", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "(*^ω^*)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "٩(๑^o^๑)۶", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "o(￣▽￣)o", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "Y(^_^)Y", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "٩( 'ω' )و", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "Y(^_^)Y", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "٩( 'ω' )و", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "╰(*´︶`*)╯", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "*罒▽罒*", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "ヾ ^_^♪", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      - {click: "=￣ω￣=", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "*罒▽罒*", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "ヾ ^_^♪", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
+      - {click: "=￣ω￣=", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "︿(￣︶￣)︿", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "(´▽｀)ノ♪", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "乁( ˙ ω˙乁)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
@@ -6669,29 +6669,29 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "QwQ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(●—●)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(๑• . •๑)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "QwQ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(●—●)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(๑• . •๑)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "ヾ(≧O≦)〃嗷~", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "罒ω罒", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(｡ì _ í｡)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(๑•ี_เ•ี๑)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "罒ω罒", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(｡ì _ í｡)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(๑•ี_เ•ี๑)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "ㄟ(≧◇≦)ㄏ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(*/ω＼*)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "●▽●", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(*/ω＼*)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "●▽●", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "٩(๑òωó๑)۶", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "✺◟(∗❛ัᴗ❛ั∗)◞✺", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "( σ'ω')σ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "( σ'ω')σ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "♡＾▽＾♡", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "(๑•̀ㅂ•́)و✧", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(ง •̀_•́)ง", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(ง •̀_•́)ง", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "(｡･ω･｡)ﾉ♡", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(☆_☆)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(๑°3°๑)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(☆_☆)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(๑°3°๑)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "_(•̀ω•́ 」∠)_", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "♪～(´ε｀　)", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "♪～(´ε｀　)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "～(^з^)-☆", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      - {click: "(´∀｀)♡", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
+      - {click: "(´∀｀)♡", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "ლ(´ڡ`ლ)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
@@ -6726,22 +6726,22 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "⊙_⊙", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "d(ŐдŐ๑)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "⊙_⊙", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "d(ŐдŐ๑)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "Σ( ° △ °|||)︴", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "(((φ(◎ロ◎;)φ)))", key_text_size: "8", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "⊙▽⊙", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "(๑ŐдŐ)b", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "╭(°A°`)╮", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "(๑òᆺó๑)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "⊙ω⊙", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "⊙▽⊙", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "(๑ŐдŐ)b", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "╭(°A°`)╮", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "(๑òᆺó๑)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "⊙ω⊙", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "Σ(っ °Д °;)っ", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: " (ﾟДﾟ≡ﾟдﾟ)!?", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "( *・ω・)✄╰ひ╯", key_text_size: "8", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "(⊙x⊙;)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "┌(。Д。)┐", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "(°ー°〃)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      - {click: "(;ﾟДﾟi|!)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "(⊙x⊙;)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "┌(。Д。)┐", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "(°ー°〃)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
+      - {click: "(;ﾟДﾟi|!)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "︽⊙_⊙︽", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "!!!∑(°Д°ノ)ノ", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "Σ⊙▃⊙川", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
@@ -6781,27 +6781,27 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "=_=", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "=_=", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "╮(╯_╰)╭", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "（︶︿︶）", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "_(:з」∠)_", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "@_@", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "（︶︿︶）", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "_(:з」∠)_", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "@_@", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "╮(╯▽╰)╭", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "(＠￣ー￣＠)", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "_(:3」∠❀)_", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "눈_눈", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "╭(╯ε╰)╮", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "(ー_ー)!!", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "_(:D)∠)_", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "o_O", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "╭(╯^╰)╮", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "(；一_一)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "´_>`", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "-_-#", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "눈_눈", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "╭(╯ε╰)╮", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "(ー_ー)!!", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "_(:D)∠)_", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "o_O", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "╭(╯^╰)╮", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "(；一_一)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "´_>`", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "-_-#", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "┑(￣Д ￣)┍", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "≡￣﹏￣≡", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "○|￣|_", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      - {click: "-_-||", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "≡￣﹏￣≡", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "○|￣|_", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
+      - {click: "-_-||", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "ㄟ( ▔, ▔ )ㄏ", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "( ＿ ＿)ノ｜壁", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "▄█▀█●", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
@@ -6838,30 +6838,30 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "(＞﹏＜)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "T_T", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "⊙︿⊙", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "〒▽〒", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "⊙﹏⊙", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "π_π", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(｡•́︿•̀｡)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(＞﹏＜)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "T_T", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "⊙︿⊙", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "〒▽〒", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "⊙﹏⊙", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "π_π", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(｡•́︿•̀｡)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "(ToT)/~~~", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "╯﹏╰", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "ಥ_ಥ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "╯﹏╰", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "ಥ_ಥ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "(╥╯^╰╥)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(〃′o`)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "●﹏●", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "( •̥́ ˍ •̀ू )", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(つд⊂)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(〃′o`)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "●﹏●", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "( •̥́ ˍ •̀ू )", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(つд⊂)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "心塞(´-ωก`)", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(╥﹏╥)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(╥﹏╥)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "┭┮﹏┭┮", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "（；´д｀）ゞ", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(´;︵;`)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "(。﹏。)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "┗( T﹏T )┛", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "QAQ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      - {click: "ヘ(_ _ヘ)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "（；´д｀）ゞ", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(´;︵;`)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "(。﹏。)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "┗( T﹏T )┛", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "QAQ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
+      - {click: "ヘ(_ _ヘ)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -6895,30 +6895,30 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "╰（‵□′）╯", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(*￣︿￣)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: ">o<", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(-`ェ´-怒)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "╰（‵□′）╯", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(*￣︿￣)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: ">o<", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(-`ェ´-怒)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "ヽ(‘⌒´メ)ノ", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(*｀Ω´*)v", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(｡•ˇ‸ˇ•｡)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(怒｀Д´怒)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(*｀Ω´*)v", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(｡•ˇ‸ˇ•｡)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(怒｀Д´怒)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "٩(๑`^´๑)۶", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(;｀O´)o", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "╰_╯", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(;｀O´)o", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "╰_╯", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "(#｀皿´)<怒怒怒!!!", key_text_size: "7", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "<(｀^´)>", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "<(｀^´)>", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "（｀Δ´）！", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "ψ(｀∇´)ψ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(；′⌒`)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "ψ(｀∇´)ψ", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(；′⌒`)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "s(・｀ヘ´・;)ゞ", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "(▼皿▼#)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "￣へ￣", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "←_←", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "(▼皿▼#)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "￣へ￣", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "←_←", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "（╯‵□′）╯︵┴─┴", key_text_size: "7", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "（▼へ▼メ）", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "（▼へ▼メ）", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "☄ฺ(◣д◢)☄ฺ", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      - {click: "→_→", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
+      - {click: "→_→", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -6952,18 +6952,18 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bgn, key_text_color: tgn}
 #    - {label: '上', click: Keyboard_bqfh3}
 
-      - {click: "( ﾟ､ゝﾟ)ﾉ讚～", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "( ﾟ､ゝﾟ)ﾉ讚～", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "(○´∀`)ﾉﾞ嗨!★", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "σ ´Å`o) me?", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "σ(ﾟ∀ﾟ*)me♪", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "σ(*´∀`*)", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "σ(≧ω≦*)", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "σ(Д･`)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "b’∀` ~OK!", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "(｡･ˇ_ˇ･｡) 嗯!…", key_text_size: "8", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      - {click: "( •́ _ •̀)？", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "(｡･ˇ_ˇ･｡) 嗯!…", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "b’∀` ~OK!", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "(･⊂_･ヽ) 等待中♪", key_text_size: "7", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "☸ヾ(｡╹ω╹｡)ﾉ☸加油！", key_text_size: "6", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "( •́ _ •̀)？", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "σ ´Å`o) me?", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "σ(ﾟ∀ﾟ*)me♪", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "σ(*´∀`*)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "σ(≧ω≦*)", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
+      - {click: "σ(Д･`)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "【黒板】＼_( ﾟ益ﾟ)ここ重要!", width: 33.2, key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "φ(o･ω･o)ﾉ⌒@ !!!正忙!!!", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "忙碌ing~  _φ(ﾟ▽ﾟ*)♪", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
