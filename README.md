@@ -2,8 +2,8 @@
 
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
-####  ※ 預設鍵盤檔適用[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1)
-####  ※ 內有附新版[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 鍵盤檔
+####  ※ 預設鍵盤檔只適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6)
+####  ※ 內有附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 鍵盤檔
 ####  ※ 3.2.6 版不知為何，方案部署比舊版慢很多，需耐心
 ### 內容說明：
 
@@ -67,7 +67,7 @@
 
  > 20220628 更新，右上角鍵位與下面說明不同 。
  
- > 3.2.6 版鍵盤檔，注音「ㄦ」向上滑，新增剪貼簿功能 。
+ > 3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號emoji」鍵盤 。
 
 ---
 
