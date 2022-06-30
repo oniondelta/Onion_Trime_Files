@@ -1154,7 +1154,7 @@ preset_keys:
   # liquid_keyboard_switch2: { toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 更多 ] }
   # liquid_keyboard_emoji: { label: 🙂, command: liquid_keyboard, option: "emoji" }
   liquid_keyboard_clipboard: { label: 剪貼, command: liquid_keyboard, option: "剪貼" }
-  liquid_keyboard_clipboard2: { label: ✎, command: liquid_keyboard, option: "剪貼" }
+  liquid_keyboard_clipboard2: { label: ↱▤, command: liquid_keyboard, option: "剪貼" }
   # trime設定
   #舊# IME_switch: {label: 下一輸入法, send: LANGUAGE_SWITCH, select: .next}
   IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
