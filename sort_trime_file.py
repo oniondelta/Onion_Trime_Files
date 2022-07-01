@@ -288,7 +288,7 @@ shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體
 
 
 #舊312版主程式
-shutil.copytree('./trimefiles/舊312版主程式/', './sort_trime/舊312版主程式/')
+shutil.copytree('./trimefiles/各版主程式/', './sort_trime/各版主程式/')
 
 
 #適用3.2.1鍵盤檔
