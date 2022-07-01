@@ -4,7 +4,7 @@
 ####  ※ Commercial use is prohibited
 ####  ※ 預設鍵盤檔只適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6)
 ####  ※ 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 鍵盤檔
-####  ※ 3.2.6 版不知為何，方案部署比舊版慢很多，需耐心
+####  ※ 3.2.6 版方案部署比舊版慢很多，需耐心
 ####  ※ 建議把手機「設定」中，螢幕休眠時間拉到最長再「部署」。螢幕休眠會影響「部署」時間，甚至「部署」不起來。
 ### 內容說明：
 
