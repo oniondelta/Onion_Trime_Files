@@ -295,6 +295,10 @@ shutil.copytree('./trimefiles/舊312版主程式/', './sort_trime/舊312版主�
 shutil.copytree('./trimefiles/3.2.1鍵盤檔/', './sort_trime/3.2.1鍵盤檔/')
 
 
+#初始化方案
+shutil.copytree('./trimefiles/初始化方案/', './sort_trime/初始化方案/')
+
+
 #OpenCC_ocd_64位元
 shutil.copytree('./trimefiles/OpenCC_ocd_64位元/', './sort_trime/OpenCC_ocd_64位元/')
 
