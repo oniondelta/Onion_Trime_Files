@@ -287,7 +287,7 @@ shutil.copyfile("./trimefiles/opencc/emoji_m_2021t.txt", "./sort_trime/洋蔥手
 shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體(藍牙)鍵盤專用/')
 
 
-#舊312版主程式
+#各版主程式
 shutil.copytree('./trimefiles/各版主程式/', './sort_trime/各版主程式/')
 
 
