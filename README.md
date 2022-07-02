@@ -39,7 +39,7 @@
 
 ### 虛擬鍵盤圖示：
 
- > 以下為 20220628 更新適用於 3.2.6 版鍵盤檔
+ > 以下為 20220628 更新適用於 3.2.6 版鍵盤檔圖示
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png" alt="介紹1" width="400" />
 
