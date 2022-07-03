@@ -1454,6 +1454,7 @@ preset_keys:
   Keyboard_kaoa: {label: 驚訝, functional: false, send: Eisu_toggle, select: kao_astonished}
   Keyboard_kaoi: {label: 無奈, functional: false, send: Eisu_toggle, select: kao_impotent}
   Keyboard_kaod: {label: 回話, functional: false, send: Eisu_toggle, select: kao_dialogue}
+  Keyboard_knext: {label: '1/1↕', functional: false, send: Eisu_toggle, select: kao_happy}
 
   Zcj: {label: 單字, functional: false, text: "{Home}{Right}{Right}"}
   Tab: {label: 字詞, send: Tab}
@@ -6637,14 +6638,15 @@ preset_keyboards:
       - {click: "✧*｡٩(ˊωˋ*)و✧*｡", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "～(￣▽￣～)(～￣▽￣)～", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_fond:
@@ -6694,14 +6696,15 @@ preset_keyboards:
       - {click: "(´∀｀)♡", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "ლ(´ڡ`ლ)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_astonished:
@@ -6749,14 +6752,15 @@ preset_keyboards:
       - {click: "(๑ŐдŐ)b☆d(ŐдŐ๑)", width: 33.2, key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "━((*′д｀)爻(′д｀*))━!!!!", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_impotent:
@@ -6806,14 +6810,15 @@ preset_keyboards:
       - {click: "( ＿ ＿)ノ｜壁", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "▄█▀█●", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_sad:
@@ -6863,14 +6868,15 @@ preset_keyboards:
       - {click: "QAQ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "ヘ(_ _ヘ)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_mad:
@@ -6920,14 +6926,15 @@ preset_keyboards:
       - {click: "☄ฺ(◣д◢)☄ฺ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "→_→", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       # - {click: '', width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_dialogue:
@@ -6971,14 +6978,15 @@ preset_keyboards:
       - {click: "Ⓣⓗⓐⓝⓚ｡:.ﾟヽ(｡◕‿◕｡)ﾉﾟ.:｡+ﾟ Ⓨⓞⓤ☆", width: 33.2, key_text_size: "7", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: ":+*☆SёёYou☆*+:｡(◎’v`)ﾉ～～～", width: 33.2, key_text_size: "8", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       # - {click: '', width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh, hilited_key_back_color: keyboard_back_color}
-      - {click: Keyboard_kaoh, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
-      - {click: Keyboard_kaof, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoa, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaoi, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaos, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaom, width: 11.4, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_kaod, width: 11.4, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
-      - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
+      - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaoi, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaos, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
+      - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
+      # - {click: '', width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
 
