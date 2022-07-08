@@ -33,7 +33,6 @@
 
   > 如果缺少檔案，會立即出錯無法執行！
 
-
 ## 各方案說明：
 
 - [手機同文輸入法『注音 洋蔥純注音版』](http://deltazone.pixnet.net/blog/post/321396937)
@@ -79,19 +78,15 @@
  
  > 3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
----
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹PURE" width="600" />
 
----
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/plus_description.png" alt="介紹PLUS" width="600" />
 
----
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/pure_description.png" alt="介紹MIXIN" width="600" />
 
----
 
 ## 贊助 Donate：
 
