@@ -21,7 +21,7 @@
 
 - 為較好更新，不用同一檔案更新數次，trimefiles 中檔案不先分方案。
 
-- 提供 sort_rime_file.py，分門別類所需 Rime 文件到各個方案資料夾。
+- 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
 
 ## sort_trime_file.py 使用方法：
 
