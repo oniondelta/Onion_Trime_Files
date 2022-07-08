@@ -3,7 +3,7 @@
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
 
-## 提要：
+## 版本：
 
 - 預設鍵盤檔只適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 和[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)
 
