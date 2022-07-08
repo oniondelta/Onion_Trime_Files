@@ -3,7 +3,7 @@
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
 
-## 版本與安裝：
+## 版本與先導：
 
 - 預設鍵盤檔只適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 和[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)
 
@@ -13,7 +13,7 @@
 
 - 建議把手機「設定」「螢幕亮屏」時間拉到最長再「部署」。「螢幕關閉休眠」會影響「部署」時間，甚至「部署」不起來。
 
-- 建議先安裝 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/master/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝以下方案。
+- 建議先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/master/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊大型方案。
 
 ## 內容說明：
 
