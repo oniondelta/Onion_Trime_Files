@@ -19,9 +19,9 @@
 
 - 二個形碼方案已刪除碼表內容，無法使用！
 
-- trimefiles 中的檔案不以一個資料夾一個方案，為了較好更新（不用同一個檔案更新數次）
+- 為較好更新，不用同一檔案更新數次，trimefiles 中檔案不先分方案。
 
-- 提供 Python (sort_trime_file.py) 文件，把 Rime 文件分門別類到各個方案資料夾，使其易安裝部署
+- 提供 sort_rime_file.py，分門別類所需 Rime 文件到各個方案資料夾。
 
 ## sort_trime_file.py 使用方法：
 
