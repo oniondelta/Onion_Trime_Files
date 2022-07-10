@@ -1760,6 +1760,7 @@ preset_keys:
   肉類: {text: '{Escape}3bx', label: 肉類, functional: false}
 #  肉品: {text: '{Escape}3bq', label: 肉品, functional: false}
   食物: {text: '{Escape}3gj', label: 食物, functional: false}
+  工業: {text: '{Escape}3eu', label: 工業, functional: false}
 
   顏開心: {text: '{Escape}331', label: 〘開心〙, functional: false}
   顏喜歡: {text: '{Escape}332', label: 〘喜歡〙, functional: false}
@@ -3308,7 +3309,7 @@ preset_keyboards:
       - {click: 蔬菜, long_click: 顏驚訝, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 粗糧, long_click: 顏無奈, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 肉類, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 食物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 食物, long_click: 工業, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {label: '123', click: Keyboard_number, long_click: liquid_keyboard_clipboard2, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
       - {click: 早餐, long_click: 顏喜, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
