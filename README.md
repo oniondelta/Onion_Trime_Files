@@ -5,15 +5,17 @@
 
 ## 版本與先導：
 
-- 預設鍵盤檔只適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 和[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)
+- 預設鍵盤檔適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 、[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)、[ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8)
 
 - 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 鍵盤檔
 
-- 3.2.6 和 3.2.7 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」需要 50 分鐘 XD
+- 3.2.6、3.2.7、3.2.8 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
 
-- 「偏好設定」→「每頁顯示候選詞數量」選「由方案指定」，輸入時較順暢。
+- 「設定」→「鍵盤設定」→「每頁顯示候選詞數量」選「由方案指定」，「重新部署」，輸入時較順暢。
 
-- 「偏好設定」→「嵌入式編輯模式」選「無」，符合方案初衷樣式。
+- 「設定」→「鍵盤設定」→「嵌入式編輯模式」選「無」，符合方案初衷樣式。
+
+- 「設定」→「鍵盤設定」→「點擊候選詞」打開選「直接上屏候選詞」，操作才符合方案初衷。
 
 - 手機「設定」「螢幕亮屏」時間拉到最長再「部署」。「螢幕關閉休眠」會影響「部署」時間，甚至「部署」不起來。
 
