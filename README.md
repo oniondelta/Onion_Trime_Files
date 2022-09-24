@@ -53,7 +53,7 @@
 
 ## 虛擬鍵盤圖示：
 
- > 以下為 20220628 更新適用於 3.2.6 版鍵盤檔圖示
+以下為 20220628 更新適用於 3.2.6 版鍵盤檔圖示
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png" alt="介紹1" width="400" />
 
@@ -84,7 +84,7 @@
 
 ## 虛擬鍵盤功能說明：
  
- > 3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
+3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹PURE" width="600" />
 
