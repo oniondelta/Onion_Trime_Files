@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202112"
+  version: "202209"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -30,7 +30,7 @@ switches:
   - name: simplification
     reset: 0
     states: [" 原 ", " 简 "]
-  - name: zh_tw
+  - name: character_range_bhjm
     reset: 0
     states: [" 完 ", " 精 "]
 #   - options: [ utf8, big5] # (※2) 字符集選單
@@ -54,7 +54,7 @@ menu:
 
 engine:
   filters:
-    - simplifier@zh_tw
+    - simplifier@character_range_bhjm
     - lua_filter@charset_filter2
 #    - charset_filter@big5
     - simplifier@emoji_switch
@@ -99,9 +99,9 @@ simplifier:
   opencc_config: tw2s.json
   tips: all
 
-zh_tw:
+character_range_bhjm:
   opencc_config: ocm_moedict_big5e_hkscs_jis.json
-  option_name: zh_tw
+  option_name: character_range_bhjm
   tags: [ abc ]
 #  tips: all
 
