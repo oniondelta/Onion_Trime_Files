@@ -99,8 +99,8 @@ speller:
   finals: ";',./"
   delimiter: "\\"
   algebra:
-    - xform/iu/iou/
-    - xform/ui/uei/
+    - xform/iu/iU/ #iou
+    - xform/ui/uI/ #uei
     - xform/ong/ung/
     - xform/yi?/i/
     - xform/wu?/u/
