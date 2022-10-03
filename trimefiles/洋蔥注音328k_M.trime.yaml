@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 config_version: "3.0"
-name: 蝦米方案中版          #方案名稱
+name: 注音方案中版          #方案名稱
 author: 洋蔥        #作者信息
 
 #鍵盤高度
@@ -141,6 +141,10 @@ style:
     - {start: "", move: '', end: ""} #- {start: "", move: ' ', end: ""}去掉空格
     - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要Android5.0。TODO: 不爲0時，會導致不換行的問題
     - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
+  liquid_keyboard_window:  #液態鍵盤模式下顯示的懸浮窗口組件
+    - {start: "", click: "", label: ""}
+    # - {start: "", click: "Return", label: " ↲ "}  #某些操作下會當機
+    # - {start: "", click: "BackSpace", label: " ⌫ "}  #某些操作下會當機
 ######
   key_font: LucidaGrande.ttc #symbol.ttf #鍵盤字體
   key_height: 48 #鍵高
@@ -1469,402 +1473,402 @@ preset_keys:
   Keyboard_symbols6: {label: 符集6, functional: false, send: Eisu_toggle, select: symbols6}
 
 ## 以下符號新增第一頁
-  符碼: {text: "{Escape}'zl", label: 符碼, functional: false}
-  電腦: {text: "{Escape}'uu", label: 電腦, functional: false}
-  象棋: {text: "{Escape}'nt", label: 象棋, functional: false}
-#  西洋棋: {text: "{Escape}'cwt", label: 西洋棋, functional: false}
-  麻將: {text: "{Escape}'lg", label: 麻將, functional: false}
-  骰子: {text: "{Escape}'qz", label: 骰子, functional: false}
-  撲克: {text: "{Escape}'jj", label: 撲克, functional: false}
-  天氣: {text: "{Escape}'gk", label: 天氣, functional: false}
-  音樂: {text: "{Escape}'lw", label: 音樂, functional: false}
-  八卦: {text: "{Escape}'by", label: 八卦, functional: false}
-  易經: {text: "{Escape}'ds", label: 易經, functional: false}
-  天體: {text: "{Escape}'gq", label: 天體, functional: false}
-  星座: {text: "{Escape}'dl", label: 星座, functional: false}
-  星號: {text: "{Escape}'do", label: 星號, functional: false}
-  方塊: {text: "{Escape}'fy", label: 方塊, functional: false}
-  幾何: {text: "{Escape}'wp", label: 幾何, functional: false}
-  箭頭: {text: "{Escape}'zd", label: 箭頭, functional: false}
-  數學: {text: "{Escape}'ms", label: 數學, functional: false}
-  上標: {text: "{Escape}'fet", label: 上標, functional: false}
-  下標: {text: "{Escape}'fat", label: 下標, functional: false}
-  單位: {text: "{Escape}'op", label: 單位, functional: false}
-  貨幣: {text: "{Escape}'ps", label: 貨幣, functional: false}
-  拼音: {text: "{Escape}'jl", label: 拼音, functional: false}
-  注音: {text: "{Escape}'wl", label: 注音, functional: false}
-  假名: {text: "{Escape}'pjpc", label: 假名, functional: false}
-  片假名: {text: "{Escape}'pypc", label: 片假名, functional: false}
-  韓文: {text: "{Escape}'jw", label: 韓文, functional: false}
-  希臘: {text: "{Escape}'xu", label: 希臘, functional: false}
-  希臘大寫: {text: "{Escape}'xud", label: 大寫, functional: false}
-  羅馬: {text: "{Escape}'fm", label: 羅馬, functional: false}
-  羅馬大寫: {text: "{Escape}'fmd", label: 大寫, functional: false}
-  俄語: {text: "{Escape}'pi", label: 俄語, functional: false}
-  俄語大寫: {text: "{Escape}'pid", label: 大寫, functional: false}
-  一: {text: "{Escape}'e'", label: 1}
-  二: {text: "{Escape}'r'", label: 2}
-  三: {text: "{Escape}'s'", label: 3}
-  四: {text: "{Escape}'f'", label: 4}
-  五: {text: "{Escape}'w'", label: 5}
-  六: {text: "{Escape}'l'", label: 6}
-  七: {text: "{Escape}'c'", label: 7}
-  八: {text: "{Escape}'b'", label: 8}
-  九: {text: "{Escape}'k'", label: 9}
-  零: {text: "{Escape}'o'", label: 0}
-  十: {text: "{Escape}'j'", label: 10}
-  分數: {text: "{Escape}'bm", label: 分數, functional: false}
-  標點: {text: "{Escape}'tq", label: 標點, functional: false}
-  偏旁: {text: "{Escape}'pl", label: 偏旁, functional: false}
-  竪標點: {text: "{Escape}'tqj", label: 竪標, functional: false}
+  符碼: {text: '{Escape}3za', label: 符碼, functional: false}
+  電腦: {text: '{Escape}32s', label: 電腦, functional: false}
+  象棋: {text: '{Escape}3vf', label: 象棋, functional: false}
+#  西洋棋: {text: '{Escape}3vuf', label: 西洋棋, functional: false}
+  麻將: {text: '{Escape}3ar', label: 麻將, functional: false}
+  骰子: {text: '{Escape}3gy', label: 骰子, functional: false}
+  撲克: {text: '{Escape}3qd', label: 撲克, functional: false}
+  天氣: {text: '{Escape}3wf', label: 天氣, functional: false}
+  音樂: {text: '{Escape}3um', label: 音樂, functional: false}
+  八卦: {text: '{Escape}31e', label: 八卦, functional: false}
+  易經: {text: '{Escape}3ur', label: 易經, functional: false} #text: '{Escape}3xgne'
+  天體: {text: '{Escape}3ww', label: 天體, functional: false}
+  星座: {text: '{Escape}3vy', label: 星座, functional: false}
+  星號: {text: '{Escape}3vc', label: 星號, functional: false}
+  方塊: {text: '{Escape}3zd', label: 方塊, functional: false}
+  幾何: {text: '{Escape}3rc', label: 幾何, functional: false}
+  箭頭: {text: '{Escape}3rw', label: 箭頭, functional: false}
+  數學: {text: '{Escape}3gv', label: 數學, functional: false}
+  上標: {text: '{Escape}3g1', label: 上標, functional: false}
+  下標: {text: '{Escape}3v1', label: 下標, functional: false}
+  單位: {text: '{Escape}32j', label: 單位, functional: false}
+  貨幣: {text: '{Escape}3c1', label: 貨幣, functional: false}
+  拼音: {text: '{Escape}3qu', label: 拼音, functional: false}
+  注音: {text: '{Escape}35u', label: 注音, functional: false}
+  假名: {text: '{Escape}3ra', label: 假名, functional: false}
+  片假名: {text: '{Escape}3qra', label: 片假名, functional: false}
+  韓文: {text: '{Escape}3cj', label: 韓文, functional: false}
+  希臘: {text: '{Escape}3vx', label: 希臘, functional: false}
+  希臘大寫: {text: '{Escape}3vx2', label: 大寫, functional: false}
+  羅馬: {text: '{Escape}3xa', label: 羅馬, functional: false}
+  羅馬大寫: {text: '{Escape}3xa2', label: 大寫, functional: false}
+  俄語: {text: '{Escape}3km', label: 俄語, functional: false}
+  俄語大寫: {text: '{Escape}3km2', label: 大寫, functional: false}
+  一: {text: '{Escape}31', label: 1}
+  二: {text: '{Escape}32', label: 2}
+  三: {text: '{Escape}33', label: 3}
+  四: {text: '{Escape}34', label: 4}
+  五: {text: '{Escape}35', label: 5}
+  六: {text: '{Escape}36', label: 6}
+  七: {text: '{Escape}37', label: 7}
+  八: {text: '{Escape}38', label: 8}
+  九: {text: '{Escape}39', label: 9}
+  零: {text: '{Escape}30', label: 0}
+  十: {text: '{Escape}310', label: 10}
+  分數: {text: '{Escape}3zg', label: 分數, functional: false}
+  標點: {text: '{Escape}312', label: 標點, functional: false}
+  偏旁: {text: '{Escape}3qq', label: 偏旁, functional: false}
+  竪標點: {text: '{Escape}3125', label: 竪標, functional: false}
 
-  占星術: {text: "{Escape}'zdm", label: 占星術, functional: false}
-  文化: {text: "{Escape}'wxp", label: 文化, functional: false}
-  線段: {text: "{Escape}'se", label: 線段, functional: false}
-  三角: {text: "{Escape}'sn", label: 三角, functional: false}
-  聲調: {text: "{Escape}'yi", label: 聲調, functional: false}
-  部首: {text: "{Escape}'lb", label: 部首, functional: false}
-  筆畫: {text: "{Escape}'ze", label: 筆畫, functional: false}
-  圓形: {text: "{Escape}'ok", label: 圓形, functional: false}
-  假名半: {text: "{Escape}'pcb", label: 假名半, functional: false}
+  占星: {text: '{Escape}35v', label: 占星, functional: false}
+  文化: {text: '{Escape}3jc', label: 文化, functional: false}
+  線段: {text: '{Escape}3v2', label: 線段, functional: false}
+  三角: {text: '{Escape}3nr', label: 三角, functional: false}
+  聲調: {text: '{Escape}3g2', label: 聲調, functional: false}
+  部首: {text: '{Escape}31g', label: 部首, functional: false}
+  筆畫: {text: '{Escape}31c', label: 筆畫, functional: false}
+  圓形: {text: '{Escape}3mv', label: 圓形, functional: false}
+  假名半: {text: '{Escape}3ra1', label: 假名半形, functional: false}
 
 ## 以下符號新增第二頁
-  表情: {text: "{Escape}'hh", label: 表情, functional: false} #, label: 😁
-  自然: {text: "{Escape}'pu", label: 自然, functional: false}
-  飲食: {text: "{Escape}'xx", label: 飲食, functional: false}
-  活動: {text: "{Escape}'wg", label: 活動, functional: false}
-  旅遊: {text: "{Escape}'ff", label: 旅遊, functional: false}
-  物品: {text: "{Escape}'so", label: 物品, functional: false}
-  符號: {text: "{Escape}'zo", label: 符號, functional: false}
-  國旗: {text: "{Escape}'of", label: 國旗, functional: false}
+  表情: {text: '{Escape}31f', label: 表情, functional: false} #, label: 😁
+  自然: {text: '{Escape}3yb', label: 自然, functional: false}
+  飲食: {text: '{Escape}3ug', label: 飲食, functional: false}
+  活動: {text: '{Escape}3c2', label: 活動, functional: false}
+  旅遊: {text: '{Escape}3xu', label: 旅遊, functional: false}
+  物品: {text: '{Escape}3jq', label: 物品, functional: false}
+  符號: {text: '{Escape}3zc', label: 符號, functional: false}
+  國旗: {text: '{Escape}3ef', label: 國旗, functional: false}
 
-  a的: {text: "{Escape}'a", label: A, functional: false}
-  b的: {text: "{Escape}'b", label: B, functional: false}
-  c的: {text: "{Escape}'c", label: C, functional: false}
-  d的: {text: "{Escape}'d", label: D, functional: false}
-  e的: {text: "{Escape}'e", label: E, functional: false}
-  f的: {text: "{Escape}'f", label: F, functional: false}
-  g的: {text: "{Escape}'g", label: G, functional: false}
-  h的: {text: "{Escape}'h", label: H, functional: false}
+  a的: {text: '{Escape}3a', label: A, functional: false}
+  b的: {text: '{Escape}3b', label: B, functional: false}
+  c的: {text: '{Escape}3c', label: C, functional: false}
+  d的: {text: '{Escape}3d', label: D, functional: false}
+  e的: {text: '{Escape}3e', label: E, functional: false}
+  f的: {text: '{Escape}3f', label: F, functional: false}
+  g的: {text: '{Escape}3g', label: G, functional: false}
+  h的: {text: '{Escape}3h', label: H, functional: false}
 
-  微笑: {text: "{Escape}'mz", label: 微笑, functional: false}
-  大笑: {text: "{Escape}'dz", label: 大笑, functional: false}
-  討厭: {text: "{Escape}'il", label: 討厭, functional: false}
-  無奈: {text: "{Escape}'vd", label: 無奈, functional: false}
-  哭泣: {text: "{Escape}'ow", label: 哭泣, functional: false}
-  冷淡: {text: "{Escape}'bw", label: 冷淡, functional: false}
-  驚訝: {text: "{Escape}'ri", label: 驚訝, functional: false}
-  懷疑: {text: "{Escape}'hf", label: 懷疑, functional: false}
-#  冒汗: {text: "{Escape}'dw", label: 冒汗, functional: false}
+  微笑: {text: '{Escape}3jv', label: 微笑, functional: false}
+  大笑: {text: '{Escape}32v', label: 大笑, functional: false}
+  討厭: {text: '{Escape}3wu', label: 討厭, functional: false}
+  無奈: {text: '{Escape}3js', label: 無奈, functional: false}
+  哭泣: {text: '{Escape}3df', label: 哭泣, functional: false}
+  冷淡: {text: '{Escape}3x2', label: 冷淡, functional: false}
+  驚訝: {text: '{Escape}3ru', label: 驚訝, functional: false}
+  懷疑: {text: '{Escape}3cu', label: 懷疑, functional: false}
+#  冒汗: {text: '{Escape}3ac', label: 冒汗, functional: false}
 
-  i的: {text: "{Escape}'i", label: I, functional: false}
-  j的: {text: "{Escape}'j", label: J, functional: false}
-  k的: {text: "{Escape}'k", label: K, functional: false}
-  l的: {text: "{Escape}'l", label: L, functional: false}
-  m的: {text: "{Escape}'m", label: M, functional: false}
-  n的: {text: "{Escape}'n", label: N, functional: false}
-  o的: {text: "{Escape}'o", label: O, functional: false}
-  p的: {text: "{Escape}'p", label: P, functional: false}
+  i的: {text: '{Escape}3i', label: I, functional: false}
+  j的: {text: '{Escape}3j', label: J, functional: false}
+  k的: {text: '{Escape}3k', label: K, functional: false}
+  l的: {text: '{Escape}3l', label: L, functional: false}
+  m的: {text: '{Escape}3m', label: M, functional: false}
+  n的: {text: '{Escape}3n', label: N, functional: false}
+  o的: {text: '{Escape}3o', label: O, functional: false}
+  p的: {text: '{Escape}3p', label: P, functional: false}
 
-  生氣: {text: "{Escape}'sk", label: 生氣, functional: false}
-  喜愛: {text: "{Escape}'ye", label: 喜愛, functional: false}
-  咧嘴笑: {text: "{Escape}'ooz", label: 咧嘴笑, functional: false}
-  猴子頭: {text: "{Escape}'qzd", label: 猴子頭, functional: false}
-  動物臉: {text: "{Escape}'gsu", label: 動物臉, functional: false}
-  頭像: {text: "{Escape}'dp", label: 頭像, functional: false}
-  獸面: {text: "{Escape}'ot", label: 獸面, functional: false}
-  貓頭: {text: "{Escape}'ud", label: 貓頭, functional: false}
-  人物: {text: "{Escape}'bs", label: 人物, functional: false}
+  生氣: {text: '{Escape}3gf', label: 生氣, functional: false}
+  喜愛: {text: '{Escape}3v9', label: 喜愛, functional: false}
+  咧嘴笑: {text: '{Escape}3xyv', label: 咧嘴笑, functional: false}
+  猴子頭: {text: '{Escape}3cyw', label: 猴子頭, functional: false}
+  動物臉: {text: '{Escape}32jx', label: 動物臉, functional: false}
+  大頭: {text: '{Escape}32w', label: 大頭, functional: false}
+  獸面: {text: '{Escape}3ga', label: 獸面, functional: false}
+  貓頭: {text: '{Escape}3aw', label: 貓頭, functional: false}
+  人物: {text: '{Escape}3bj', label: 人物, functional: false}
 
-  q的: {text: "{Escape}'q", label: Q, functional: false}
-  r的: {text: "{Escape}'r", label: R, functional: false}
-  s的: {text: "{Escape}'s", label: S, functional: false}
-  t的: {text: "{Escape}'t", label: T, functional: false}
-  u的: {text: "{Escape}'u", label: U, functional: false}
-  v的: {text: "{Escape}'v", label: V, functional: false}
-  w的: {text: "{Escape}'w", label: W, functional: false}
-  x的: {text: "{Escape}'x", label: X, functional: false}
+  q的: {text: '{Escape}3q', label: Q, functional: false}
+  r的: {text: '{Escape}3r', label: R, functional: false}
+  s的: {text: '{Escape}3s', label: S, functional: false}
+  t的: {text: '{Escape}3t', label: T, functional: false}
+  u的: {text: '{Escape}3u', label: U, functional: false}
+  v的: {text: '{Escape}3v', label: V, functional: false}
+  w的: {text: '{Escape}3w', label: W, functional: false}
+  x的: {text: '{Escape}3x', label: X, functional: false}
 
-  手勢: {text: "{Escape}'hy", label: 手勢, functional: false}
-  衣物: {text: "{Escape}'ls", label: 衣物, functional: false}
-  化妝: {text: "{Escape}'pg", label: 化妝, functional: false}
-  效果: {text: "{Escape}'lq", label: 效果, functional: false}
+  手勢: {text: '{Escape}3gg', label: 手勢, functional: false}
+  衣物: {text: '{Escape}3uj', label: 衣物, functional: false}
+  化妝: {text: '{Escape}3c5', label: 化妝, functional: false}
+  效果: {text: '{Escape}3ve', label: 效果, functional: false}
 
-  y的: {text: "{Escape}'y", label: Y, functional: false}
-  z的: {text: "{Escape}'z", label: Z, functional: false}
-  五官: {text: "{Escape}'wn", label: 五官, functional: false}
-  兩性: {text: "{Escape}'th", label: 兩性, functional: false}
+  y的: {text: '{Escape}3y', label: Y, functional: false}
+  z的: {text: '{Escape}3z', label: Z, functional: false}
+  五官: {text: '{Escape}3je', label: 五官, functional: false}
+  兩性: {text: '{Escape}3xv', label: 兩性, functional: false}
 
 ## 以下符號新增第三頁
-  假名圈: {text: "{Escape}'pco", label: '假名◯', functional: false}
-  字母圈: {text: "{Escape}'noo", label: '字母◯小', functional: false}
-  字母括: {text: "{Escape}'noj", label: '字母( )小', functional: false}
-  字母框: {text: "{Escape}'not", label: '字母□', functional: false}
+  假名圈: {text: '{Escape}3raf', label: '假名◯', functional: false}
+  字母圈: {text: '{Escape}3yaf', label: '字母◯小', functional: false}
+  字母括: {text: '{Escape}3yae', label: '字母( )小', functional: false}
+  字母框: {text: '{Escape}3yad', label: '字母□', functional: false}
 #  字母方(字母帶方框)
-  數字圈: {text: "{Escape}'mno", label: '數字◯', functional: false}
-  愛情: {text: "{Escape}'eh", label: 愛情, functional: false}
-  愛心圖: {text: "{Escape}'eho", label: 愛心圖, functional: false}
-  時鐘: {text: "{Escape}'da", label: 時鐘, functional: false}
+  數字圈: {text: '{Escape}3gyf', label: '數字◯', functional: false}
+  愛情: {text: '{Escape}39f', label: 愛情, functional: false}
+  愛心: {text: '{Escape}39v', label: 愛心, functional: false}
+  時鐘: {text: '{Escape}3g5', label: 時鐘, functional: false}
 
-  字母圈黑: {text: "{Escape}'nooq", label: '字母⚫︎', functional: false}
+  字母圈黑: {text: '{Escape}3yafc', label: '字母⚫︎', functional: false}
 #  字母黑圈(字母帶圓圈)
-  字母圈大: {text: "{Escape}'nood", label: 字母◯大, functional: false}
-  字母括大: {text: "{Escape}'nojd", label: 字母( )大, functional: false}
-  字母框黑: {text: "{Escape}'notq", label: '字母◼', functional: false}
+  字母圈大: {text: '{Escape}3yaf2', label: 字母◯大, functional: false}
+  字母括大: {text: '{Escape}3yae2', label: 字母( )大, functional: false}
+  字母框黑: {text: '{Escape}3yadc', label: '字母◼', functional: false}
 #  字母黑方(字母帶圓角方框)
 #  字母方黑(字母帶圓角方框)
 #  字母黑框(字母帶圓角方框)
-  數字圈黑: {text: "{Escape}'mnoq", label: '數字⚫︎', functional: false}
-#  數字黑圈: {text: "{Escape}'mnqo", label: 數字黑圈, functional: false}
-  數字括: {text: "{Escape}'mnj", label: '數字( )', functional: false}
-  數字點: {text: "{Escape}'mnq", label: '數字．', functional: false}
-  數字標: {text: "{Escape}'mnt", label: 數字標, functional: false}
+  數字圈黑: {text: '{Escape}3gyfc', label: '數字⚫︎', functional: false}
+#  數字黑圈: {text: '{Escape}3gycf', label: 數字黑圈, functional: false}
+  數字括: {text: '{Escape}3gye', label: '數字( )', functional: false}
+  數字點: {text: '{Escape}3gy2', label: '數字．', functional: false}
+  數字標: {text: '{Escape}3gy1', label: 數字標, functional: false}
 
-  警消護: {text: "{Escape}'rwi", label: 警消護, functional: false}
-  辦公室: {text: "{Escape}'lbn", label: 辦公室, functional: false}
-  圖示: {text: "{Escape}'or", label: 圖示, functional: false}
-  介面: {text: "{Escape}'bt", label: 介面, functional: false}
-  通訊: {text: "{Escape}'ti", label: 通訊, functional: false}
-  科學圖: {text: "{Escape}'hso", label: 科學圖, functional: false}
-#  景點圖: {text: "{Escape}'dqo", label: 景點圖, functional: false}
-  名勝: {text: "{Escape}'cu", label: 名勝, functional: false}
-  建築: {text: "{Escape}'ez", label: 建築, functional: false}
+  警消護: {text: '{Escape}3rvc', label: 警消護, functional: false}
+  辦公室: {text: '{Escape}31eg', label: 辦公室, functional: false}
+  圖示: {text: '{Escape}3wg', label: 圖示, functional: false}
+  圖標: {text: '{Escape}3w1', label: 圖標, functional: false}
+  通訊: {text: '{Escape}3wv', label: 通訊, functional: false}
+  科學: {text: '{Escape}3dv', label: 科學, functional: false}
+#  景點: {text: '{Escape}3r2', label: 景點, functional: false}
+  名勝: {text: '{Escape}3ag', label: 名勝, functional: false}
+  建築: {text: '{Escape}3r5', label: 建築, functional: false}
 
-#  漢字: {text: "{Escape}'", label: 漢字, functional: false}
-  漢字圈: {text: "{Escape}'wno", label: '漢字◯', functional: false}
-  漢字框: {text: "{Escape}'wnt", label: '漢字□', functional: false}
-  漢字括: {text: "{Escape}'wnj", label: '漢字( )', functional: false}
-  韓文圈: {text: "{Escape}'jwo", label: '韓文◯', functional: false}
-  韓文括: {text: "{Escape}'jwj", label: '韓文( )', functional: false}
-  輸入法: {text: "{Escape}'cbw", label: 輸入法, functional: false}
-  倉頡: {text: "{Escape}'ay", label: 倉頡, functional: false}
-  蘇州碼: {text: "{Escape}'ryl", label: 蘇州碼, functional: false}
-  日本年: {text: "{Escape}'dtv", label: 日本年, functional: false}
-  合字: {text: "{Escape}'an", label: 合字, functional: false}
-#  羅馬數字: {text: "{Escape}'fmmn", label: 羅馬數字, functional: false}
-#  羅馬數字大: {text: "{Escape}'fmmnd", label: 羅馬數字大, functional: false}
+#  漢字: {text: '{Escape}3cy', label: 漢字, functional: false}
+  漢字圈: {text: '{Escape}3cyf', label: '漢字◯', functional: false}
+  漢字框: {text: '{Escape}3cyd', label: '漢字□', functional: false}
+  漢字括: {text: '{Escape}3cye', label: '漢字( )', functional: false}
+  韓文圈: {text: '{Escape}3cjf', label: '韓文◯', functional: false}
+  韓文括: {text: '{Escape}3cje', label: '韓文( )', functional: false}
+  輸入法: {text: '{Escape}3gbz', label: 輸入法, functional: false}
+  倉頡: {text: '{Escape}3hr', label: 倉頡, functional: false}
+  蘇州碼: {text: '{Escape}3n5a', label: 蘇州碼, functional: false}
+  日本年: {text: '{Escape}3b1s', label: 日本年, functional: false}
+  合字: {text: '{Escape}3cy', label: 合字, functional: false}
+#  羅馬數字: {text: '{Escape}3xagy', label: 羅馬數字, functional: false}
+#  羅馬數字大: {text: '{Escape}3xagy2', label: 羅馬數字大, functional: false}
 
-  娛樂: {text: "{Escape}'gw", label: 娛樂, functional: false}
-  遊戲: {text: "{Escape}'fz", label: 遊戲, functional: false}
-  節日圖: {text: "{Escape}'zdo", label: 節日圖, functional: false}
-  宗教: {text: "{Escape}'ny", label: 宗教, functional: false}
-  地球: {text: "{Escape}'yk", label: 地球, functional: false}
-  景色: {text: "{Escape}'dn", label: 景色, functional: false}
-  下雪: {text: "{Escape}'fu", label: 下雪, functional: false}
-  大自然: {text: "{Escape}'dpu", label: 大自然, functional: false}
+  娛樂: {text: '{Escape}3mx', label: 娛樂, functional: false}
+  遊戲: {text: '{Escape}3uv', label: 遊戲, functional: false}
+  節日: {text: '{Escape}3rb', label: 節日, functional: false}
+  宗教: {text: '{Escape}3yr', label: 宗教, functional: false}
+  地球: {text: '{Escape}32f', label: 地球, functional: false}
+  景色: {text: '{Escape}3rn', label: 景色, functional: false}
+  下雪: {text: '{Escape}3vv', label: 下雪, functional: false}
+  大自然: {text: '{Escape}32yb', label: 大自然, functional: false}
 
-  怪物: {text: "{Escape}'hs", label: 怪物, functional: false}
-  遊樂園: {text: "{Escape}'fwo", label: 遊樂園, functional: false}
-  生肖: {text: "{Escape}'ss", label: 生肖, functional: false}
-  十字架: {text: "{Escape}'jnd", label: 十字架, functional: false}
-  美國: {text: "{Escape}'bo", label: 美國, functional: false}
-  日本: {text: "{Escape}'dt", label: 日本, functional: false}
-  法國: {text: "{Escape}'wo", label: 法國, functional: false}
-  節氣: {text: "{Escape}'zk", label: 節氣, functional: false}
+  怪物: {text: '{Escape}3ej', label: 怪物, functional: false}
+  遊樂園: {text: '{Escape}3uxm', label: 遊樂園, functional: false}
+  生肖圖: {text: '{Escape}3gvw', label: 生肖圖, functional: false}
+  十字架: {text: '{Escape}3gyr', label: 十字架, functional: false}
+  美國: {text: '{Escape}3ae', label: 美國, functional: false}
+  日本: {text: '{Escape}3b1', label: 日本, functional: false}
+  法國: {text: '{Escape}3ze', label: 法國, functional: false}
+  節氣: {text: '{Escape}3rf', label: 節氣, functional: false}
 
-  月相: {text: "{Escape}'ut", label: 月相, functional: false}
-  夜空: {text: "{Escape}'ln", label: 夜空, functional: false}
-  鈔票: {text: "{Escape}'ac", label: 鈔票, functional: false}
-#  紙鈔: {text: "{Escape}'sa", label: 紙鈔, functional: false}
-#  紙幣: {text: "{Escape}'", label: 紙幣, functional: false}
-  錢財: {text: "{Escape}'am", label: 錢財, functional: false}
+  月相圖: {text: '{Escape}3mvw', label: 月相圖, functional: false}
+  夜空: {text: '{Escape}3ud', label: 夜空, functional: false}
+  鈔票: {text: '{Escape}3tq', label: 鈔票, functional: false}
+#  紙鈔: {text: '{Escape}35t', label: 紙鈔, functional: false}
+#  紙幣: {text: '{Escape}351', label: 紙幣, functional: false}
+  錢財: {text: '{Escape}3fh', label: 錢財, functional: false}
 
-  月份: {text: "{Escape}'up", label: 月份, functional: false}
-  日期: {text: "{Escape}'dk", label: 日期, functional: false}
-  時間: {text: "{Escape}'dm", label: 時間, functional: false}
-  曜日: {text: "{Escape}'dd", label: 曜日, functional: false}
-#  日本星期: {text: "{Escape}'dtdk", label: 日本星期, functional: false}
+  月份: {text: '{Escape}3mz', label: 月份, functional: false}
+  日期: {text: '{Escape}3bf', label: 日期, functional: false}
+  時間: {text: '{Escape}3gr', label: 時間, functional: false}
+  曜日: {text: '{Escape}3ub', label: 曜日, functional: false}
+#  日本星期: {text: '{Escape}3b1vf', label: 日本星期, functional: false}
 
 ## 以下符號新增第四頁
-  有害: {text: "{Escape}'xn", label: 有害, functional: false}
-  標誌圖: {text: "{Escape}'tio", label: 標誌圖, functional: false}
-  交通圖: {text: "{Escape}'lto", label: 交通圖, functional: false}
-  公交: {text: "{Escape}'bl", label: 公交, functional: false}
-#  公共運輸: {text: "{Escape}'brnc", label: 公共運輸, functional: false}
-  軌道: {text: "{Escape}'cb", label: 軌道, functional: false}
-#  捷運: {text: "{Escape}'", label: 捷運, functional: false}
-  火車: {text: "{Escape}'fc", label: 火車, functional: false}
-  車輛: {text: "{Escape}'cc", label: 車輛, functional: false}
-#  汽車: {text: "{Escape}'wc", label: 汽車, functional: false}
-  船隻: {text: "{Escape}'zv", label: 船隻, functional: false}
+  有害: {text: '{Escape}3uc', label: 有害, functional: false}
+  標誌: {text: '{Escape}315', label: 標誌, functional: false}
+  交通圖: {text: '{Escape}3rww', label: 交通圖, functional: false}
+  公交: {text: '{Escape}3er', label: 公交, functional: false}
+#  公共運輸: {text: '{Escape}3eemg', label: 公共運輸, functional: false}
+  捷運: {text: '{Escape}3rm', label: 捷運, functional: false}
+#  城軌: {text: '{Escape}3te', label: 城軌, functional: false}
+  火車: {text: '{Escape}3ct', label: 火車, functional: false}
+  車輛: {text: '{Escape}3tx', label: 車輛, functional: false}
+#  汽車: {text: '{Escape}3ft', label: 汽車, functional: false}
+  船隻: {text: '{Escape}3t5', label: 船隻, functional: false}
 
-  k假名: {text: "{Escape}'kpc", label: "k 假名", functional: false}
-  g假名: {text: "{Escape}'gpc", label: "g 假名", functional: false}
-  s假名: {text: "{Escape}'spc", label: "s 假名", functional: false}
-  z假名: {text: "{Escape}'zpc", label: "z 假名", functional: false}
-  t假名: {text: "{Escape}'tpc", label: "t 假名", functional: false}
-  d假名: {text: "{Escape}'dpc", label: "d 假名", functional: false}
-  n假名: {text: "{Escape}'npc", label: "n 假名", functional: false}
-  十二宮: {text: "{Escape}'jrn", label: 十二宮, functional: false}
+  k假名: {text: '{Escape}3kra', label: 'k 假名', functional: false}
+  g假名: {text: '{Escape}3gra', label: 'g 假名', functional: false}
+  s假名: {text: '{Escape}3sra', label: 's 假名', functional: false}
+  z假名: {text: '{Escape}3zra', label: 'z 假名', functional: false}
+  t假名: {text: '{Escape}3tra', label: 't 假名', functional: false}
+  d假名: {text: '{Escape}3dra', label: 'd 假名', functional: false}
+  n假名: {text: '{Escape}3nra', label: 'n 假名', functional: false}
+  十二宮: {text: '{Escape}3g-e', label: 十二宮, functional: false}
 
-  飛機: {text: "{Escape}'ft", label: 飛機, functional: false}
-#  飛行器: {text: "{Escape}'fmo", label: 飛行器, functional: false}
-  酒類: {text: "{Escape}'wm", label: 酒類, functional: false}
-#  酒精: {text: "{Escape}'wm", label: 酒精, functional: false}
-  飲料: {text: "{Escape}'xm", label: 飲料, functional: false}
-  熱飲: {text: "{Escape}'yx", label: 熱飲, functional: false}
-  餐具: {text: "{Escape}'zm", label: 餐具, functional: false}
-  樂器圖: {text: "{Escape}'woo", label: 樂器圖, functional: false}
-  球具: {text: "{Escape}'km", label: 球具, functional: false}
-  獎牌: {text: "{Escape}'gp", label: 獎牌, functional: false}
-#  獎項: {text: "{Escape}'gi", label: 獎項, functional: false}
+  飛機: {text: '{Escape}3zr', label: 飛機, functional: false}
+#  飛行器: {text: '{Escape}3zvf', label: 飛行器, functional: false}
+  酒類: {text: '{Escape}3rx', label: 酒類, functional: false}
+#  酒精: {text: '{Escape}3rr', label: 酒精, functional: false}
+  飲料: {text: '{Escape}3ux', label: 飲料, functional: false}
+  熱飲: {text: '{Escape}3bu', label: 熱飲, functional: false}
+  餐具圖: {text: '{Escape}3hrw', label: 餐具圖, functional: false}
+  樂器: {text: '{Escape}3mf', label: 樂器, functional: false}
+  球具: {text: '{Escape}3fr', label: 球具, functional: false}
+  獎牌: {text: '{Escape}3rq', label: 獎牌, functional: false}
+#  獎項: {text: '{Escape}3rv', label: 獎項, functional: false}
 
-  h假名: {text: "{Escape}'hpc", label: "h 假名", functional: false}
-  b假名: {text: "{Escape}'bpc", label: "b 假名", functional: false}
-  p假名: {text: "{Escape}'ppc", label: "p 假名", functional: false}
-  m假名: {text: "{Escape}'mpc", label: "m 假名", functional: false}
-  y假名: {text: "{Escape}'ypc", label: "y 假名", functional: false}
-  r假名: {text: "{Escape}'rpc", label: "r 假名", functional: false}
-  w假名: {text: "{Escape}'wpc", label: "w 假名", functional: false}
-  星座名: {text: "{Escape}'dlc", label: 星座名, functional: false}
+  h假名: {text: '{Escape}3hra', label: 'h 假名', functional: false}
+  b假名: {text: '{Escape}3bra', label: 'b 假名', functional: false}
+  p假名: {text: '{Escape}3pra', label: 'p 假名', functional: false}
+  m假名: {text: '{Escape}3mra', label: 'm 假名', functional: false}
+  y假名: {text: '{Escape}3yra', label: 'y 假名', functional: false}
+  r假名: {text: '{Escape}3rra', label: 'r 假名', functional: false}
+  w假名: {text: '{Escape}3wra', label: 'w 假名', functional: false}
+  星座名: {text: '{Escape}3vya', label: 星座名, functional: false}
 
-  運動: {text: "{Escape}'ng", label: 運動, functional: false}
-  做運動: {text: "{Escape}'png", label: 做運動, functional: false}
-  運動女: {text: "{Escape}'ngg", label: 運動女, functional: false}
-  運動男: {text: "{Escape}'ngq", label: 運動男, functional: false}
-  黃種人: {text: "{Escape}'khb", label: 黃種人, functional: false}
-#  亞裔: {text: "{Escape}'ol", label: 亞裔, functional: false}
-  棕色人: {text: "{Escape}'tnb", label: 棕色人, functional: false}
-#  拉美裔: {text: "{Escape}'jbl", label: 拉美裔, functional: false}
-  黑人: {text: "{Escape}'qb", label: 黑人, functional: false}
-  白人: {text: "{Escape}'pb", label: 白人, functional: false}
-#  白種人: {text: "{Escape}'phb", label: 白種人, functional: false}
+  運動: {text: '{Escape}3m2', label: 運動, functional: false}
+  做運動: {text: '{Escape}3ym2', label: 做運動, functional: false}
+  運動女: {text: '{Escape}3m2sm', label: 運動女, functional: false}
+  運動男: {text: '{Escape}3m2s0', label: 運動男, functional: false}
+  黃種人: {text: '{Escape}3c5b', label: 黃種人, functional: false}
+#  亞裔: {text: '{Escape}3uu', label: 亞裔, functional: false}
+  棕色人: {text: '{Escape}3ynb', label: 棕色人, functional: false}
+#  拉美裔: {text: '{Escape}3xau', label: 拉美裔, functional: false}
+  黑人: {text: '{Escape}3cb', label: 黑人, functional: false}
+  白人: {text: '{Escape}31b', label: 白人, functional: false}
+#  白種人: {text: '{Escape}31yb', label: 白種人, functional: false}
 
-  a假名: {text: "{Escape}'apc", label: "*a 假名", functional: false}
-  e假名: {text: "{Escape}'epc", label: "*e 假名", functional: false}
-  i假名: {text: "{Escape}'ipc", label: "*i 假名", functional: false}
-  o假名: {text: "{Escape}'opc", label: "*o 假名", functional: false}
-  u假名: {text: "{Escape}'upc", label: "*u 假名", functional: false}
-  卦名: {text: "{Escape}'yc", label: 卦名, functional: false}
-  六十四卦名: {text: "{Escape}'ljfyc", label: 64卦名, functional: false}
+  a假名: {text: '{Escape}3ara', label: '*a 假名', functional: false}
+  e假名: {text: '{Escape}3era', label: '*e 假名', functional: false}
+  i假名: {text: '{Escape}3ira', label: '*i 假名', functional: false}
+  o假名: {text: '{Escape}3ora', label: '*o 假名', functional: false}
+  u假名: {text: '{Escape}3ura', label: '*u 假名', functional: false}
+  卦名: {text: '{Escape}3ea', label: 卦名, functional: false}
+  六十四卦名: {text: '{Escape}3xgnea', label: 64卦名, functional: false}
 
-  阿拉伯: {text: "{Escape}'bjp", label: 阿拉伯, functional: false}
-  幾何圖: {text: "{Escape}'wpo", label: 幾何圖, functional: false}
-  指示: {text: "{Escape}'jr", label: 指示, functional: false}
-#  箭標: {text: "{Escape}'zt", label: 箭標, functional: false}
-  打勾: {text: "{Escape}'jn", label: 打勾, functional: false}
-  いろは: {text: "{Escape}'iro", label: いろは, functional: false}
+  阿拉伯: {text: '{Escape}38x1', label: 阿拉伯, functional: false}
+  幾何圖: {text: '{Escape}3rcw', label: 幾何圖, functional: false}
+  指示: {text: '{Escape}35g', label: 指示, functional: false}
+#  箭標: {text: '{Escape}3r1', label: 箭標, functional: false}
+  打勾: {text: '{Escape}32e', label: 打勾, functional: false}
+  いろは: {text: '{Escape}3iro', label: いろは, functional: false}
 
-  太玄經: {text: "{Escape}'dls", label: 太玄經, functional: false}
-  天干: {text: "{Escape}'gg", label: 天干, functional: false}
-  地支: {text: "{Escape}'yj", label: 地支, functional: false}
-  干支: {text: "{Escape}'gj", label: 60干支, functional: false}
+  太玄經: {text: '{Escape}3wvr', label: 太玄經, functional: false}
+  天干: {text: '{Escape}3we', label: 天干, functional: false}
+  地支: {text: '{Escape}325', label: 地支, functional: false}
+  干支: {text: '{Escape}3e5', label: 60干支, functional: false}
 
 ## 以下符號新增第五頁
-  植物: {text: "{Escape}'ts", label: 植物, functional: false}
-  水果: {text: "{Escape}'wq", label: 水果, functional: false}
-  葉子: {text: "{Escape}'rz", label: 葉子, functional: false}
-  花卉: {text: "{Escape}'rj", label: 花卉, functional: false}
-  蔬菜: {text: "{Escape}'rr", label: 蔬菜, functional: false}
-  粗糧: {text: "{Escape}'mm", label: 粗糧, functional: false}
-  肉類: {text: "{Escape}'nm", label: 肉類, functional: false}
-#  肉品: {text: "{Escape}'no", label: 肉品, functional: false}
-  食物: {text: "{Escape}'xs", label: 食物, functional: false}
-  工業: {text: "{Escape}'if", label: 工業, functional: false}
+  植物: {text: '{Escape}35j', label: 植物, functional: false}
+  水果: {text: '{Escape}3ge', label: 水果, functional: false}
+  葉子: {text: '{Escape}3uy', label: 葉子, functional: false}
+  花卉: {text: '{Escape}3cc', label: 花卉, functional: false}
+  蔬菜: {text: '{Escape}3gh', label: 蔬菜, functional: false}
+  粗糧: {text: '{Escape}3hx', label: 粗糧, functional: false}
+  肉類: {text: '{Escape}3bx', label: 肉類, functional: false}
+#  肉品: {text: '{Escape}3bq', label: 肉品, functional: false}
+  食物: {text: '{Escape}3gj', label: 食物, functional: false}
+  工業: {text: '{Escape}3eu', label: 工業, functional: false}
 
-  顏開心: {text: "{Escape}'e''", label: 〘開心〙, functional: false}
-  顏喜歡: {text: "{Escape}'r''", label: 〘喜歡〙, functional: false}
-  顏傷心: {text: "{Escape}'s''", label: 〘傷心〙, functional: false}
-  顏生氣: {text: "{Escape}'f''", label: 〘生氣〙, functional: false}
-  顏驚訝: {text: "{Escape}'w''", label: 〘驚訝〙, functional: false}
-  顏無奈: {text: "{Escape}'l''", label: 〘無奈〙, functional: false}
+  顏開心: {text: '{Escape}331', label: 〘開心〙, functional: false}
+  顏喜歡: {text: '{Escape}332', label: 〘喜歡〙, functional: false}
+  顏傷心: {text: '{Escape}333', label: 〘傷心〙, functional: false}
+  顏生氣: {text: '{Escape}334', label: 〘生氣〙, functional: false}
+  顏驚訝: {text: '{Escape}335', label: 〘驚訝〙, functional: false}
+  顏無奈: {text: '{Escape}336', label: 〘無奈〙, functional: false}
 
-#  早餐: {text: "{Escape}'", label: 早餐, functional: false}
-  早點: {text: "{Escape}'dq", label: 早點, functional: false}
-  午餐: {text: "{Escape}'wz", label: 午餐, functional: false}
-#  正飯: {text: "{Escape}'ex", label: 正飯, functional: false}
-  零食: {text: "{Escape}'ux", label: 零食, functional: false}
-  甜食: {text: "{Escape}'gx", label: 甜食, functional: false}
-#  甜食圖: {text: "{Escape}'", label: 甜食圖, functional: false}
-  速食: {text: "{Escape}'jx", label: 速食, functional: false}
-#  快餐: {text: "{Escape}'hz", label: 快餐, functional: false}
-  日本菜: {text: "{Escape}'dtr", label: 日本菜, functional: false}
-#  日式料理: {text: "{Escape}'damk", label: 日式料理, functional: false}
-#  日本料理: {text: "{Escape}'dtmk", label: 日本料理, functional: false}
-  中餐: {text: "{Escape}'cz", label: 中餐, functional: false}
-  西食: {text: "{Escape}'cx", label: 西食, functional: false}
+  早餐: {text: '{Escape}3yh', label: 早餐, functional: false}
+#  早點: {text: '{Escape}3y2', label: 早點, functional: false}
+  午餐: {text: '{Escape}3jh', label: 午餐, functional: false}
+#  正飯: {text: '{Escape}35z', label: 正飯, functional: false}
+  零食: {text: '{Escape}3xg', label: 零食, functional: false}
+  甜點: {text: '{Escape}3w2', label: 甜點, functional: false}
+#  甜食圖: {text: '{Escape}3wgw', label: 甜食圖, functional: false}
+  速食: {text: '{Escape}3ng', label: 速食, functional: false}
+#  快餐: {text: '{Escape}3dh', label: 快餐, functional: false}
+  日本菜: {text: '{Escape}3b1h', label: 日本菜, functional: false}
+#  日式料理: {text: '{Escape}3bgxx', label: 日式料理, functional: false}
+#  日本料理: {text: '{Escape}3b1xx', label: 日本料理, functional: false}
+  中餐: {text: '{Escape}35h', label: 中餐, functional: false}
+  西餐: {text: '{Escape}3vh', label: 西餐, functional: false}
 
-  顏喜: {text: "{Escape}'c''", label: 〘喜〙, functional: false}
-  顏樂: {text: "{Escape}'b''", label: 〘樂〙, functional: false}
-  顏怒: {text: "{Escape}'k''", label: 〘怒〙, functional: false}
-  顏指示: {text: "{Escape}'o''", label: 〘指示〙, functional: false}
-  顏回話: {text: "{Escape}'j''", label: 〘回話〙, functional: false}
-  衣服: {text: "{Escape}'lu", label: 衣服, functional: false}
-  包包: {text: "{Escape}'nn", label: 包包, functional: false}
-  鞋子圖: {text: "{Escape}'rzo", label: 鞋子圖, functional: false}
+  顏喜: {text: '{Escape}337', label: 〘喜〙, functional: false}
+  顏樂: {text: '{Escape}338', label: 〘樂〙, functional: false}
+  顏怒: {text: '{Escape}339', label: 〘怒〙, functional: false}
+  顏指示: {text: '{Escape}330', label: 〘指示〙, functional: false}
+  顏回話: {text: '{Escape}33-', label: 〘回話〙, functional: false}
+  衣服: {text: '{Escape}3uz', label: 衣服, functional: false}
+  包包: {text: '{Escape}311', label: 包包, functional: false}
+  鞋子圖: {text: '{Escape}3vyw', label: 鞋子圖, functional: false}
 
-  串物: {text: "{Escape}'cs", label: 串物, functional: false}
-  捲物: {text: "{Escape}'js", label: 捲物, functional: false}
-#  食物捲: {text: "{Escape}'xsj", label: 食物捲, functional: false}
-  米飯: {text: "{Escape}'mx", label: 米飯, functional: false}
-  麵包: {text: "{Escape}'gn", label: 麵包, functional: false}
-  動物: {text: "{Escape}'gs", label: 動物, functional: false}
-  牲畜: {text: "{Escape}'sl", label: 牲畜, functional: false}
-#  畜牲: {text: "{Escape}'", label: 畜牲, functional: false}
-#  禽類圖: {text: "{Escape}'bmo", label: 禽類圖, functional: false}
-  家禽: {text: "{Escape}'nb", label: 家禽, functional: false}
-  鳥類圖: {text: "{Escape}'nmo", label: 鳥類圖, functional: false}
-#  鳥圖: {text: "{Escape}'", label: 鳥圖, functional: false}
+  串物: {text: '{Escape}3tj', label: 串物, functional: false}
+  捲物: {text: '{Escape}3rj', label: 捲物, functional: false}
+#  食物捲: {text: '{Escape}3gjr', label: 食物捲, functional: false}
+  米飯: {text: '{Escape}3az', label: 米飯, functional: false}
+  麵包: {text: '{Escape}3a1', label: 麵包, functional: false}
+  動物圖: {text: '{Escape}32jw', label: 動物圖, functional: false}
+  牲畜: {text: '{Escape}3gt', label: 牲畜, functional: false}
+#  畜牲: {text: '{Escape}3tg', label: 畜牲, functional: false}
+  禽類: {text: '{Escape}3fx', label: 禽類, functional: false}
+#  家禽圖: {text: '{Escape}3rfw', label: 家禽圖, functional: false}
+  鳥類: {text: '{Escape}3sx', label: 鳥類, functional: false}
+#  鳥圖: {text: '{Escape}3sw', label: 鳥圖, functional: false}
 
-  魚圖: {text: "{Escape}'uo", label: 魚圖, functional: false}
-#  魚類圖: {text: "{Escape}'", label: 魚類圖, functional: false}
-  精怪: {text: "{Escape}'mh", label: 精怪, functional: false}
-  精怪女: {text: "{Escape}'mhg", label: 精怪女, functional: false}
-  精怪男: {text: "{Escape}'mhq", label: 精怪男, functional: false}
+  魚圖: {text: '{Escape}3mw', label: 魚圖, functional: false}
+#  魚類圖: {text: '{Escape}3mxw', label: 魚類圖, functional: false}
+  精怪圖: {text: '{Escape}3rew', label: 精怪圖, functional: false}
+  精怪女: {text: '{Escape}3resm', label: 精怪女, functional: false}
+  精怪男: {text: '{Escape}3res0', label: 精怪男, functional: false}
 
-  回收: {text: "{Escape}'og", label: 回收, functional: false}
-  中華: {text: "{Escape}'cr", label: 中華, functional: false}
-  帽子: {text: "{Escape}'nz", label: 帽子, functional: false}
-  褲子: {text: "{Escape}'vz", label: 褲子, functional: false}
-  眼鏡: {text: "{Escape}'ma", label: 眼鏡, functional: false}
-  頭髮: {text: "{Escape}'dv", label: 頭髮, functional: false}
-  工具: {text: "{Escape}'im", label: 工具, functional: false}
-  武器: {text: "{Escape}'eo", label: 武器, functional: false}
-  電子: {text: "{Escape}'uz", label: 電子, functional: false}
-  膚色: {text: "{Escape}'zn", label: 膚色, functional: false}
-  電器圖: {text: "{Escape}'uoo", label: 電器圖, functional: false}
-  色塊方: {text: "{Escape}'nyf", label: 色塊方, functional: false}
-  色塊圓: {text: "{Escape}'nyo", label: 色塊圓, functional: false}
-  色塊心: {text: "{Escape}'nyh", label: 色塊心, functional: false}
-  顏色塊: {text: "{Escape}'wny", label: 顏色塊, functional: false}
-  填色: {text: "{Escape}'yn", label: 填色, functional: false}
-  單線: {text: "{Escape}'os", label: 單線, functional: false}
-  雙線: {text: "{Escape}'vs", label: 雙線, functional: false}
-  日用品: {text: "{Escape}'dno", label: 日用品, functional: false}
+  日用: {text: '{Escape}3bm', label: 日用, functional: false}
+  色塊心: {text: '{Escape}3ndv', label: 色塊心, functional: false}
+  色塊圓: {text: '{Escape}3ndm', label: 色塊圓, functional: false}
+  色塊方: {text: '{Escape}3ndz', label: 色塊方, functional: false}
+  填色: {text: '{Escape}3wn', label: 填色, functional: false}
+  單線框: {text: '{Escape}32vd', label: 單線框, functional: false}
+  雙線框: {text: '{Escape}3gvd', label: 雙線框, functional: false}
+  電器圖: {text: '{Escape}32fw', label: 電器圖, functional: false}
+  工具圖: {text: '{Escape}3erw', label: 工具圖, functional: false}
+  眼鏡圖: {text: '{Escape}3urw', label: 眼鏡圖, functional: false}
+  褲子: {text: '{Escape}3dy', label: 褲子, functional: false}
+  膚色: {text: '{Escape}3zn', label: 膚色, functional: false}
+  色塊: {text: '{Escape}3nd', label: 色塊, functional: false}
+  電子: {text: '{Escape}32y', label: 電子, functional: false}
+  武器: {text: '{Escape}3jf', label: 武器, functional: false}
+  頭髮: {text: '{Escape}3wz', label: 頭髮, functional: false}
+  帽子: {text: '{Escape}3ay', label: 帽子, functional: false}
+  中華: {text: '{Escape}35c', label: 中華, functional: false}
+  回收: {text: '{Escape}3cg', label: 回收, functional: false}
 
-  血型: {text: "{Escape}'pk", label: 血型, functional: false}
-  器官: {text: "{Escape}'on", label: 器官, functional: false}
-  蟲類: {text: "{Escape}'cm", label: 蟲類, functional: false}
-  多媒體: {text: "{Escape}'cgq", label: 多媒體, functional: false}
-  野生動物: {text: "{Escape}'qsgs", label: 野生動物, functional: false}
+  血液: {text: '{Escape}3vu', label: 血液, functional: false}
+  器官: {text: '{Escape}3fe', label: 器官, functional: false}
+  蟲圖: {text: '{Escape}3tw', label: 蟲圖, functional: false}
+  多媒體: {text: '{Escape}32aw', label: 多媒體, functional: false}
+  野生動物: {text: '{Escape}3ug2j', label: 野生動物, functional: false}
 
 ## 以下符號新增第六頁
-  a變: {text: "{Escape}''a", label: "A變化", functional: false}
-  b變: {text: "{Escape}''b", label: "B變化", functional: false}
-  c變: {text: "{Escape}''c", label: "C變化", functional: false}
-  d變: {text: "{Escape}''d", label: "D變化", functional: false}
-  e變: {text: "{Escape}''e", label: "E變化", functional: false}
-  f變: {text: "{Escape}''f", label: "F變化", functional: false}
-  g變: {text: "{Escape}''g", label: "G變化", functional: false}
-  h變: {text: "{Escape}''h", label: "H變化", functional: false}
-  i變: {text: "{Escape}''i", label: "I變化", functional: false}
-  j變: {text: "{Escape}''j", label: "J變化", functional: false}
-  k變: {text: "{Escape}''k", label: "K變化", functional: false}
-  l變: {text: "{Escape}''l", label: "L變化", functional: false}
-  m變: {text: "{Escape}''m", label: "M變化", functional: false}
-  n變: {text: "{Escape}''n", label: "N變化", functional: false}
-  o變: {text: "{Escape}''o", label: "O變化", functional: false}
-  p變: {text: "{Escape}''p", label: "P變化", functional: false}
-  q變: {text: "{Escape}''q", label: "Q變化", functional: false}
-  r變: {text: "{Escape}''r", label: "R變化", functional: false}
-  s變: {text: "{Escape}''s", label: "S變化", functional: false}
-  t變: {text: "{Escape}''t", label: "T變化", functional: false}
-  u變: {text: "{Escape}''u", label: "U變化", functional: false}
-  v變: {text: "{Escape}''v", label: "V變化", functional: false}
-  w變: {text: "{Escape}''w", label: "W變化", functional: false}
-  x變: {text: "{Escape}''x", label: "X變化", functional: false}
-  y變: {text: "{Escape}''y", label: "Y變化", functional: false}
-  z變: {text: "{Escape}''z", label: "Z變化", functional: false}
+  a變: {text: '{Escape}33a', label: 'A變化', functional: false}
+  b變: {text: '{Escape}33b', label: 'B變化', functional: false}
+  c變: {text: '{Escape}33c', label: 'C變化', functional: false}
+  d變: {text: '{Escape}33d', label: 'D變化', functional: false}
+  e變: {text: '{Escape}33e', label: 'E變化', functional: false}
+  f變: {text: '{Escape}33f', label: 'F變化', functional: false}
+  g變: {text: '{Escape}33g', label: 'G變化', functional: false}
+  h變: {text: '{Escape}33h', label: 'H變化', functional: false}
+  i變: {text: '{Escape}33i', label: 'I變化', functional: false}
+  j變: {text: '{Escape}33j', label: 'J變化', functional: false}
+  k變: {text: '{Escape}33k', label: 'K變化', functional: false}
+  l變: {text: '{Escape}33l', label: 'L變化', functional: false}
+  m變: {text: '{Escape}33m', label: 'M變化', functional: false}
+  n變: {text: '{Escape}33n', label: 'N變化', functional: false}
+  o變: {text: '{Escape}33o', label: 'O變化', functional: false}
+  p變: {text: '{Escape}33p', label: 'P變化', functional: false}
+  q變: {text: '{Escape}33q', label: 'Q變化', functional: false}
+  r變: {text: '{Escape}33r', label: 'R變化', functional: false}
+  s變: {text: '{Escape}33s', label: 'S變化', functional: false}
+  t變: {text: '{Escape}33t', label: 'T變化', functional: false}
+  u變: {text: '{Escape}33u', label: 'U變化', functional: false}
+  v變: {text: '{Escape}33v', label: 'V變化', functional: false}
+  w變: {text: '{Escape}33w', label: 'W變化', functional: false}
+  x變: {text: '{Escape}33x', label: 'X變化', functional: false}
+  y變: {text: '{Escape}33y', label: 'Y變化', functional: false}
+  z變: {text: '{Escape}33z', label: 'Z變化', functional: false}
 ##############################
 #以下鍵盤功能頁使用之功能鍵
   Settings2: {label: ⚙, functional: false, send: SETTINGS}
@@ -3061,7 +3065,7 @@ preset_keyboards:
       - {click: 單位, long_click: 五, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
       - {click: 數學, long_click: 分數, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2} #, symbol_text_size: '8'
       - {click: 八卦, long_click: 易經, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2} #, symbol_text_size: '8'
-      - {click: 占星術, long_click: 文化, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
+      - {click: 占星, long_click: 文化, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
       - {label: '123', click: Keyboard_number, long_click: liquid_keyboard_clipboard2, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
       - {click: 星號, long_click: 六, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols6, swipe_down: Keyboard_symbols2}
@@ -3143,7 +3147,7 @@ preset_keyboards:
       - {click: 貓頭, long_click: u的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
       - {click: 獸面, long_click: v的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
       - {click: 怪物, long_click: w的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
-      - {click: 頭像, long_click: x的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3}
+      - {click: 大頭, long_click: x的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 人物, long_click: y的, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols, swipe_down: Keyboard_symbols3} #, symbol_text_size: '8'
@@ -3180,27 +3184,27 @@ preset_keyboards:
 
       - {click: 衣物, long_click: 褲子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 衣服, long_click: 帽子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 鞋子圖, long_click: 眼鏡, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 鞋子圖, long_click: 眼鏡圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 包包, long_click: 十二宮, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 兩性, long_click: 星座名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 愛情, long_click: 卦名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 愛心圖, long_click: 六十四卦名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 愛心, long_click: 六十四卦名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 時鐘, long_click: 干支, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {label: '123', click: Keyboard_number, long_click: liquid_keyboard_clipboard2, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
       - {click: 警消護, long_click: 天干, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 辦公室, long_click: 地支, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 圖示, long_click: 太玄經, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 介面, long_click: 回收, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 圖標, long_click: 回收, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 通訊, long_click: 蘇州碼, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
-      - {click: 科學圖, long_click: 倉頡, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 科學, long_click: 倉頡, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 名勝, long_click: 輸入法, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 建築, long_click: 生肖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
+      - {click: 建築, long_click: 生肖圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 效果, long_click: 遊戲, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: 娛樂, long_click: 遊樂園, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
-      - {click: 節日圖, long_click: 節氣, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 節日, long_click: 節氣, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 宗教, long_click: 十字架, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 地球, long_click: 美國, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 景色, long_click: 日本, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
@@ -3208,7 +3212,7 @@ preset_keyboards:
       - {click: 大自然, long_click: 日本年, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
-      - {click: 月相, long_click: 月份, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
+      - {click: 月相圖, long_click: 月份, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 夜空, long_click: 日期, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 鈔票, long_click: 時間, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4} #, symbol_text_size: '8'
       - {click: 錢財, long_click: 曜日, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols2, swipe_down: Keyboard_symbols4}
@@ -3241,10 +3245,10 @@ preset_keyboards:
       - {label: '符集', click: Keyboard_symbols, width: 10, key_text_size: "14", key_back_color: bmk, key_text_color: tenter}
 
       - {click: 有害, long_click: k假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 標誌圖, long_click: s假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 標誌, long_click: s假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 交通圖, long_click: t假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 公交, long_click: n假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 軌道, long_click: h假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 捷運, long_click: h假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 火車, long_click: m假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 車輛, long_click: y假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 船隻, long_click: 合字, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
@@ -3254,8 +3258,8 @@ preset_keyboards:
       - {click: 酒類, long_click: z假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 飲料, long_click: d假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: 熱飲, long_click: b假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 餐具, long_click: p假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
-      - {click: 樂器圖, long_click: r假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
+      - {click: 餐具圖, long_click: p假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 樂器, long_click: r假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 球具, long_click: w假名, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 獎牌, long_click: 工業, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
@@ -3267,13 +3271,13 @@ preset_keyboards:
       - {click: 黃種人, long_click: o假名, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 棕色人, long_click: 武器, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 黑人, long_click: 中華, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: 白人, long_click: 日用品, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: 白人, long_click: 日用, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 阿拉伯, long_click: 多媒體, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 指示, long_click: 電子, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
       - {click: 打勾, long_click: 電器圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5} #, symbol_text_size: '8'
-      - {click: いろは, long_click: 工具, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
+      - {click: いろは, long_click: 工具圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5}
       - {click: Keyboard_symbols4, label: 4/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols3, swipe_down: Keyboard_symbols5, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
@@ -3309,31 +3313,31 @@ preset_keyboards:
       - {click: 蔬菜, long_click: 顏驚訝, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 粗糧, long_click: 顏無奈, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 肉類, long_click: 器官, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 食物, long_click: 血型, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 食物, long_click: 血液, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {label: '123', click: Keyboard_number, long_click: liquid_keyboard_clipboard2, swipe_up: Keyboard_duse, composing: Page_Up, width: 14, key_back_color: bbs, key_text_color: tbs, key_symbol_color: tajs2} #long_click: Schema_switchen
 
-      - {click: 早點, long_click: 顏喜, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 早餐, long_click: 顏喜, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 午餐, long_click: 顏樂, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 零食, long_click: 顏怒, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 甜食, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 甜點, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 速食, long_click: 顏回話, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 日本菜, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 中餐, long_click: 蟲類, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 西食, long_click: 野生動物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 中餐, long_click: 蟲圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 西餐, long_click: 野生動物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
 
       - {click: 串物, long_click: 幾何圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 捲物, long_click: 顏色塊, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 捲物, long_click: 色塊, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 米飯, long_click: 色塊心, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 麵包, long_click: 色塊圓, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 動物, long_click: 色塊方, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 動物圖, long_click: 色塊方, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 牲畜, long_click: 填色, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 家禽, long_click: 單線, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 鳥類圖, long_click: 雙線, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 禽類, long_click: 單線框, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 鳥類, long_click: 雙線框, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 魚圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 精怪, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 精怪圖, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 精怪女, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 精怪男, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: Keyboard_symbols5, label: 5/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}

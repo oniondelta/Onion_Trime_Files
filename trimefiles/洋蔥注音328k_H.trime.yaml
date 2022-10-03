@@ -1,10 +1,10 @@
 # Trime custom style settings
 # encoding: utf-8
 
-__include : 洋蔥蝦米326k_M.trime.yaml:/
+__include : 洋蔥注音328k_M.trime.yaml:/
 __patch:
 config_version: "3.0"
-name: 蝦米方案高版          #方案名稱
+name: 注音方案高版          #方案名稱
 author: 洋蔥        #作者信息
 
 # 鍵盤高度
@@ -27,7 +27,7 @@ style:
 
 # #配色方案
 # preset_color_schemes:
-#   __include: 洋蔥蝦米_L.trime:/preset_color_schemes
+#   __include: 洋蔥注音_L.trime:/preset_color_schemes
 ####################################
 __patch:
   preset_keyboards/default/height: *jpgd10

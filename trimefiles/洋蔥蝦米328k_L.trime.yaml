@@ -1,7 +1,7 @@
 # Trime custom style settings
 # encoding: utf-8
 
-__include : 洋蔥蝦米326k_M.trime.yaml:/
+__include : 洋蔥蝦米328k_M.trime.yaml:/
 __patch:
 config_version: "3.0"
 name: 蝦米方案低版          #方案名稱

@@ -1,10 +1,10 @@
 # Trime custom style settings
 # encoding: utf-8
 
-__include : 洋蔥注音326k_L.trime.yaml:/
+__include : 洋蔥注音328k_M.trime.yaml:/
 __patch:
 config_version: "3.0"
-name: 雙拼注音方案低版          #方案名稱
+name: 雙拼注音方案中版          #方案名稱
 author: 洋蔥        #作者信息
 
 preset_keys:
@@ -300,6 +300,7 @@ preset_keys:
   肉類: {text: '{Escape};rl', label: 肉類, functional: false}
 #  肉品: {text: '{Escape};rp', label: 肉品, functional: false}
   食物: {text: '{Escape};au', label: 食物, functional: false}
+  工業: {text: '{Escape};gi', label: 工業, functional: false}
 
   顏開心: {text: '{Escape};;1', label: 〘開心〙, functional: false}
   顏喜歡: {text: '{Escape};;2', label: 〘喜歡〙, functional: false}
