@@ -21,7 +21,7 @@
 
 - 手機「設定」「螢幕亮屏」時間拉到最長再「部署」。「螢幕關閉休眠」會影響「部署」時間，甚至「部署」不起來。
 
-- 先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/master/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊重型方案。
+- 先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊重型方案。
 
 ## 內容說明：
 
@@ -55,42 +55,42 @@
 
 以下為 20220628 更新適用於 3.2.6 版鍵盤檔圖示
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01.png" alt="介紹1" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_01.png" alt="介紹1" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-4.png" alt="介紹1-4" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_01-4.png" alt="介紹1-4" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-2.png" alt="介紹1-2" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_01-2.png" alt="介紹1-2" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_01-3.png" alt="介紹1-3" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_01-3.png" alt="介紹1-3" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_ocm-mixin.jpg" alt="介紹ocm-mixin" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_ocm-mixin.jpg" alt="介紹ocm-mixin" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_02.png" alt="介紹2" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_02.png" alt="介紹2" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_03.png" alt="介紹3" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_03.png" alt="介紹3" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_04.png" alt="介紹4" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_04.png" alt="介紹4" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_05.png" alt="介紹5" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_05.png" alt="介紹5" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_06.png" alt="介紹6" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_06.png" alt="介紹6" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_07.png" alt="介紹7" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_07.png" alt="介紹7" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_08.png" alt="介紹8" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_08.png" alt="介紹8" width="400" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/onion_mobile_09.png" alt="介紹9" width="400" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_09.png" alt="介紹9" width="400" />
 
 
 ## 虛擬鍵盤功能說明：
  
 3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/mix-in_description.png" alt="介紹PURE" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/mix-in_description.png" alt="介紹PURE" width="600" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/plus_description.png" alt="介紹PLUS" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/plus_description.png" alt="介紹PLUS" width="600" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/master/img/pure_description.png" alt="介紹MIXIN" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/pure_description.png" alt="介紹MIXIN" width="600" />
 
 ## 贊助 Donate：
 
