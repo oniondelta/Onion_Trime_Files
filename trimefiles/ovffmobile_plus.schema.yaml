@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202209"
+  version: "202212"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -292,9 +292,9 @@ recognizer:
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^'[a-z']* ?$"
     punct: "^[svc][.]?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
-    jphi: "^([-a-z]+,[-a-z,.]*)+$"
-    jpka: "^(?![svc][.])([-a-z]+[.][-a-z.,]*)+$"
-    korea: "^([a-z]+[/][a-z/]*)+$"
-    latin: "^([-a-z]+[';]'?[-a-z';]*)+$"
+    jphi: "^[-a-z]+,[-a-z,.]*$"
+    jpka: "^(?![svc][.])[-a-z]+[.][-a-z.,]*$"
+    korea: "^[a-z]+[/][a-z/]*$"
+    latin: "^[-a-z]+[';][-a-z';]*$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 
