@@ -289,12 +289,12 @@ editor:
 recognizer:
 #  import_preset: default
   patterns:
-    puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
+    puntocm: "^,[,.'a-z]*$|^\\.[.,]+[a-z]*$|^\\.(oq|mp)$"
     syocm: "^'[a-z']* ?$"
-    punct: "^[svc][.]?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
+    punct: "^[svc]\\.?$|\\(\\)$|\\[\\]$|\\{\\}$|<>$|''$|\\"\\"$"
     jphi: "^[-a-z]+,[-a-z,.]*$"
-    jpka: "^(?![svc][.])[-a-z]+[.][-a-z.,]*$"
-    korea: "^[a-z]+[/][a-z/]*$"
+    jpka: "^(?![svc]\\.|www\\.)[-a-z]+\\.[-a-z.,]*$"
+    korea: "^[a-z]+/[a-z/]*$"
     latin: "^[-a-z]+[';][-a-z';]*$"
-    lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
+    lua: "^[a-z][-_.0-9a-z]*@.*$|^(www\\.|https?:|ftp:|mailto:|file:).*$"
 
