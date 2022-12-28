@@ -3,7 +3,7 @@
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
 
-## 版本與先導：
+## 版本與先導
 
 - 預設鍵盤檔適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 、[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)、[ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8)
 
@@ -25,7 +25,7 @@
 
 - 先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊重型方案。
 
-## 內容說明：
+## 內容說明
 
 - trimefiles 包含六個主方案（三個注音、一個注音雙拼、二個形碼）和一眾掛接方案
 
@@ -43,7 +43,7 @@
 
 - 選取欲使用方案，內含文件通通放入『 rime 』資料夾。裡面已有 opencc 資料夾，移動 opencc 裡面檔案到 opencc 資料夾內，沒有則整個 opencc 移過去 ，「重新部署」方可。
 
-## 各方案說明：
+## 各方案說明
 
 以下 Blog 說明已關閉。
 
@@ -55,7 +55,7 @@
 
 - [手機同文輸入法『注音 洋蔥雙拼版 』](https://deltazone.pixnet.net/blog/post/360004547)
 
-## 虛擬鍵盤圖示：
+## 虛擬鍵盤圖示
 
 以下為 20220628 更新適用於 3.2.6 版鍵盤檔圖示
 
@@ -86,7 +86,7 @@
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_09.png" alt="介紹9" width="400" />
 
 
-## 虛擬鍵盤功能說明：
+## 虛擬鍵盤功能說明
  
 3.2.6 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
@@ -96,7 +96,7 @@
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/pure_description.png" alt="介紹MIXIN" width="600" />
 
-## 贊助 Donate：
+## 贊助 Donate
 
 方案已持續更新五年以上！大改、新創、新增非常多功能！做了許多圖文說明！花了族繁不及備載的心力！
 
