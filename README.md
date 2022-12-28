@@ -35,7 +35,7 @@
 
 - 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
 
-## sort_trime_file.py 使用方法：
+## sort_trime_file.py 使用方法
 
 - 本倉庫 Onion_Trime_Files 按右上綠色 〔↓Code〕 ⇨ Download ZIP ⇨ 解壓縮 ZIP 進入資料夾 ⇨ Python 執行 sort_trime_file.py ⇨ 產生『洋蔥手機同文方案_{當天日期}』資料夾
 
