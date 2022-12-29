@@ -66,7 +66,7 @@
 
 ## 同文注音系列功能說明
 
-- [功能](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%94%E6%B4%8B%E8%94%A5%E6%B3%A8%E9%9F%B3%E7%B3%BB%E5%88%97%E3%80%95%EF%BC%9A%E5%8A%9F%E8%83%BD)
+- [各方案共通功能](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%94%E6%B4%8B%E8%94%A5%E6%B3%A8%E9%9F%B3%E7%B3%BB%E5%88%97%E3%80%95%EF%BC%9A%E5%8A%9F%E8%83%BD)
 
 
 ## 虛擬鍵盤圖示
