@@ -57,7 +57,7 @@
 
 - [手機同文輸入法『注音（洋蔥 mix‧in 版）』](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-mixin-%E7%89%88-%E3%80%8F)
 
-- [手機同文輸入法『注音（洋蔥雙拼版）』](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-%E9%9B%99%E6%8B%BC-%E7%89%88-%E3%80%8F)
+- [手機同文輸入法『注音（洋蔥 雙拼 版）』](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-%E9%9B%99%E6%8B%BC-%E7%89%88-%E3%80%8F)
 
 - [手機同文輸入法〖 形碼（洋蔥 plus 版）〗](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B4%8B%E8%94%A5%E7%89%88-%E5%BD%A2%E7%A2%BC-plus-%E7%89%88-%E3%80%8F)
 
@@ -66,7 +66,7 @@
 
 ## 同文洋蔥系列功能說明
 
-- [各方案共通功能](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%94%E6%B4%8B%E8%94%A5%E6%B3%A8%E9%9F%B3%E7%B3%BB%E5%88%97%E3%80%95%EF%BC%9A%E5%8A%9F%E8%83%BD)
+- [各方案共通功能](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%94%E6%B4%8B%E8%94%A5%E7%B3%BB%E5%88%97%E3%80%95%EF%BC%9A%E5%8A%9F%E8%83%BD)
 
 
 ## 虛擬鍵盤圖示
