@@ -40,8 +40,8 @@ function charset_filter2(input, env)
   local c_f2_s = env.engine.context:get_option("character_range_bhjm")
   if (c_f2_s) then
     for cand in input:iter() do
-      if (not string.find(cand.text, '᰼᰼' )) then
-      -- if (not string.find(cand.text, '.*᰼᰼.*' )) then
+      if (not string.match(cand.text, '᰼᰼' )) then
+      -- if (not string.match(cand.text, '.*᰼᰼.*' )) then
         yield(cand)
       end
     end
@@ -75,8 +75,8 @@ function mobile_bpmf(key, env)
   --   return 2
   if (key:repr() == "space") and (context:is_composing()) then
     -- local input_m = context.input
-    if (string.find(input_m, "^[a-z][-_.0-9a-z]*@.*$")) or (string.find(input_m, "^https?:.*$")) or (string.find(input_m, "^ftp:.*$")) or (string.find(input_m, "^mailto:.*$")) or (string.find(input_m, "^file:.*$")) then
-    -- if ( string.find(input_m, "[@:]")) then
+    if (string.match(input_m, "^[a-z][-_.0-9a-z]*@.*$")) or (string.match(input_m, "^https?:.*$")) or (string.match(input_m, "^ftp:.*$")) or (string.match(input_m, "^mailto:.*$")) or (string.match(input_m, "^file:.*$")) then
+    -- if ( string.match(input_m, "[@:]")) then
       -- local orig_m = context:get_commit_text()
       engine:commit_text(orig_m)
       context:clear()
