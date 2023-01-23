@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: bo_mixin_la
-version: "202210"
+version: "202301"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -14,15 +14,15 @@ columns:
 ...
 ##### 英文標點符號 #####
 ### mix-in版標點特別增加分號 ###
-# 	@./;	71100
-#.	@.;	1100
+# 	@./;
+#.	@.;
 #,	@,;
 #:	@..;
 #;	@.,;
 #?	@,.;
 #!	@/.;
 /	@/;
-#-	@-;	71100
+#-	@-;
 #~	@,,;
 #'	@,/;
 #"	@,,/;
@@ -30,7 +30,7 @@ columns:
 #'	@';
 #"	@'';
 ### 符號（非字母）打出標點 ###
- 	@./	242100
+ 	@./
 :	@..
 ;	@.,
 ?	@,.
@@ -41,9 +41,9 @@ columns:
 …	@...
 #"	@''
 ### 符號本鍵位直出 ###
-.	@.	1100
+.	@.
 ,	@,
--	@-	71100
+-	@-
 #/	@/
 #:	@:
 #?	@?
@@ -53,12 +53,12 @@ columns:
 #]	@]
 #{	@{
 #}	@}
-#’	@'	0
+#’	@'
 ### 加強英打快速 ###
 #’	@'
 ### 英文常用標點符號 ###
- 	@jj	742100
- 	@jj"	742100
+ 	@jj
+ 	@jj"
 .	@daw
 ,	@ddw
 /	@pw
@@ -84,83 +84,83 @@ columns:
 …	@dawawaw
 ##### 基礎英文字母 #####
 ### 小寫 ###
-a	@a	30000
-b	@b	30000
-c	@c	30000
-d	@d	30000
-e	@e	30000
-f	@f	30000
-g	@g	30000
-h	@h	30000
-i	@i	30000
-j	@j	30000
-k	@k	30000
-l	@l	30000
-m	@m	30000
-n	@n	30000
-o	@o	30000
-p	@p	30000
-q	@q	30000
-r	@r	30000
-s	@s	30000
-t	@t	30000
-u	@u	30000
-v	@v	30000
-w	@w	30000
-x	@x	30000
-y	@y	30000
-z	@z	30000
+a	@a
+b	@b
+c	@c
+d	@d
+e	@e
+f	@f
+g	@g
+h	@h
+i	@i
+j	@j
+k	@k
+l	@l
+m	@m
+n	@n
+o	@o
+p	@p
+q	@q
+r	@r
+s	@s
+t	@t
+u	@u
+v	@v
+w	@w
+x	@x
+y	@y
+z	@z
 ### 大寫 ###
-A	@a"	25000
-B	@b"	25000
-C	@c"	25000
-D	@d"	25000
-E	@e"	25000
-F	@f"	25000
-G	@g"	25000
-H	@h"	25000
-I	@i"	25000
-J	@j"	25000
-K	@k"	25000
-L	@l"	25000
-M	@m"	25000
-N	@n"	25000
-O	@o"	25000
-P	@p"	25000
-Q	@q"	25000
-R	@r"	25000
-S	@s"	25000
-T	@t"	25000
-U	@u"	25000
-V	@v"	25000
-W	@w"	25000
-X	@x"	25000
-Y	@y"	25000
-Z	@z"	25000
+A	@a"
+B	@b"
+C	@c"
+D	@d"
+E	@e"
+F	@f"
+G	@g"
+H	@h"
+I	@i"
+J	@j"
+K	@k"
+L	@l"
+M	@m"
+N	@n"
+O	@o"
+P	@p"
+Q	@q"
+R	@r"
+S	@s"
+T	@t"
+U	@u"
+V	@v"
+W	@w"
+X	@x"
+Y	@y"
+Z	@z"
 ### 基礎拉丁字母其他 ###
-$	@si	0
+$	@si
 ##
-$	@sy	0
-%	@owpwow	0
+$	@sy
+%	@owpwow
 ##
-%	@owxwow	0
+%	@owxwow
 ##
-%	@opwo	0
+%	@opwo
 ##
-%	@oxwo	0
+%	@oxwo
 ##
-%	@oxo	0
+%	@oxo
 ##
-%	@opo	0
-&	@af	0
+%	@opo
+&	@af
 ##
-#&	@bfk	0
+#&	@bfk
 ##
-#&	@and	0
+#&	@and
 ##
-#&	@et	0
-`	@nw	0
-^	@lw	0
+#&	@et
+`	@nw
+^	@lw
 ##### 非拉丁字母增補 #####
 ## 下方為希臘文，但KK音標中有，故收錄
 θ	@qi
@@ -207,85 +207,85 @@ $	@sy	0
 #đĐ##u0110
 #ðÐ##u00d0
 #ɖƉ##u0189
-đ	@dt	500
-ð	@dt	500
+đ	@dt
+ð	@dt
 ##
-ð	@dfx	500
+ð	@dfx
 ##
-ð	@dx	500
+ð	@dx
 ## 下面 ɖ ʒ 為ipa的
-ɖ	@dt	500
+ɖ	@dt
 ##
-ɖ	@dc	500
-ʒ	@zf	900
+ɖ	@dc
+ʒ	@zf
 ##
-#ʒ	@zfg	900
+#ʒ	@zfg
 ##
-#ʒ	@zg	900
+#ʒ	@zg
 ### 校正排序大寫 ###
-Đ	@dt"	500
-Ð	@dt"	500
+Đ	@dt"
+Ð	@dt"
 ##
-Ð	@dx"	500
-Ð	@dfx"	500
-Ɖ	@dt"	500
+Ð	@dx"
+Ð	@dfx"
+Ɖ	@dt"
 ##
-Ɖ	@dc"	500
-Ʒ	@zf"	900
+Ɖ	@dc"
+Ʒ	@zf"
 ##
-#Ʒ	@zfg"	900
+#Ʒ	@zfg"
 ##
-#Ʒ	@zg"	900
+#Ʒ	@zg"
 ## 以下一個為大寫
 ## 以下一個字母為ipa的
-ʀ	@ihr"	500
+ʀ	@ihr"
 ##
-ʀ	@ri"	500
-Ʀ	@ihr"	500
+ʀ	@ri"
+Ʀ	@ihr"
 ##
-Ʀ	@ri"	500
+Ʀ	@ri"
 ##############################
 ##### Latin-1 Supplement #####
 ### 避重碼例外編碼 ###
-ī	@iy	750
-Ī	@iy"	500
+ī	@iy
+Ī	@iy"
 ### Latin-1 Supplement小寫 ###
 ## 以下ß為小寫字母
-ß	@bi	900
+ß	@bi
 ##
-ß	@shs	900
-à	@an	800
-á	@ap	800
-â	@al	800
-ã	@as	800
-ä	@ab	800
-å	@ao	800
-æ	@ahe	900
+ß	@shs
+à	@an
+á	@ap
+â	@al
+ã	@as
+ä	@ab
+å	@ao
+æ	@ahe
 ##
 #æ	@ae
-ç	@cj	800
-è	@en	800
-é	@ep	800
-ê	@el	800
-ë	@eb	800
-ì	@in	800
-í	@ip	800
-î	@il	800
-ï	@ib	800
+ç	@cj
+è	@en
+é	@ep
+ê	@el
+ë	@eb
+ì	@in
+í	@ip
+î	@il
+ï	@ib
 #ð	@dfx
 ##
 #ð	@dx
-ñ	@ns	800
-ò	@on	800
-ó	@op	800
-ô	@ol	800
-õ	@os	800
-ö	@ob	800
-ø	@ox	800
-ù	@un	800
-ú	@up	800
-û	@ul	800
-ü	@ub	800
+ñ	@ns
+ò	@on
+ó	@op
+ô	@ol
+õ	@os
+ö	@ob
+ø	@ox
+ù	@un
+ú	@up
+û	@ul
+ü	@ub
 ý	@yp
 þ	@lf
 ##
@@ -297,39 +297,39 @@ $	@sy	0
 ÿ	@yb
 µ	@mi
 ### Latin-1 Supplement大寫 ###
-ẞ	@bi"	800
+ẞ	@bi"
 ##
-ẞ	@shs"	800
-À	@an"	800
-Á	@ap"	800
-Â	@al"	800
-Ã	@as"	800
-Ä	@ab"	800
-Å	@ao"	800
-Æ	@ahe"	900
+ẞ	@shs"
+À	@an"
+Á	@ap"
+Â	@al"
+Ã	@as"
+Ä	@ab"
+Å	@ao"
+Æ	@ahe"
 ##
 #Æ	@ae"
-Ç	@cj"	800
-È	@en"	800
-É	@ep"	800
-Ê	@el"	800
-Ë	@eb"	800
-Ì	@in"	800
-Í	@ip"	800
-Î	@il"	800
-Ï	@ib"	800
+Ç	@cj"
+È	@en"
+É	@ep"
+Ê	@el"
+Ë	@eb"
+Ì	@in"
+Í	@ip"
+Î	@il"
+Ï	@ib"
 #Ð	@dt"
-Ñ	@ns"	800
-Ò	@on"	800
-Ó	@op"	800
-Ô	@ol"	800
-Õ	@os"	800
-Ö	@ob"	800
-Ø	@ox"	800
-Ù	@un"	800
-Ú	@up"	800
-Û	@ul"	800
-Ü	@ub"	800
+Ñ	@ns"
+Ò	@on"
+Ó	@op"
+Ô	@ol"
+Õ	@os"
+Ö	@ob"
+Ø	@ox"
+Ù	@un"
+Ú	@up"
+Û	@ul"
+Ü	@ub"
 Ý	@yp"
 Þ	@lf"
 ##
@@ -394,30 +394,30 @@ $	@sy	0
 #¬	@lq
 ##### Latin Extended-A #####
 ### Latin Extended-A小寫 ###
-ā	@ae	750
-ă	@au	750
-ą	@ac	750
+ā	@ae
+ă	@au
+ą	@ac
 ć	@cp
 ĉ	@cl
 ċ	@ca
 č	@cv
 ď	@dd
 #đ	@dt
-ē	@ee	750
-ĕ	@eu	750
-ė	@ea	750
-ę	@ec	750
-ě	@ev	750
+ē	@ee
+ĕ	@eu
+ė	@ea
+ę	@ec
+ě	@ev
 ĝ	@gl
 ğ	@gu
 ġ	@ga
 ģ	@gw
 ĥ	@hl
 ħ	@ht
-ĩ	@is	750
-ī	@ie	750
-ĭ	@iu	750
-į	@ic	750
+ĩ	@is
+ī	@ie	90%
+ĭ	@iu
+į	@ic
 ı	@ii
 ĳ	@ihj
 ĵ	@jl
@@ -440,10 +440,10 @@ $	@sy	0
 ň	@nv
 ŉ	@nd
 ŋ	@nj
-ō	@oe	750
-ŏ	@ou	750
-ő	@opp	750
-œ	@ohe	900
+ō	@oe
+ŏ	@ou
+ő	@opp
+œ	@ohe
 ŕ	@rp
 ŗ	@rdd
 ##
@@ -456,12 +456,12 @@ $	@sy	0
 ţ	@tj
 ť	@td
 ŧ	@tt
-ũ	@us	750
-ū	@ue	750
-ŭ	@uu	750
-ů	@uo	750
-ű	@upp	750
-ų	@uc	750
+ũ	@us
+ū	@ue
+ŭ	@uu
+ů	@uo
+ű	@upp
+ų	@uc
 ŵ	@wl
 ŷ	@yl
 ź	@zp
@@ -472,20 +472,20 @@ $	@sy	0
 ſ	@jq
 ſ	@jqh
 ### Latin Extended-A大寫 ###
-Ā	@ae"	750
-Ă	@au"	750
-Ą	@ac"	750
+Ā	@ae"
+Ă	@au"
+Ą	@ac"
 Ć	@cp"
 Ĉ	@cl"
 Ċ	@ca"
 Č	@cv"
 Ď	@dv"
 #Đ	@dt"
-Ē	@ee"	750
-Ĕ	@eu"	750
-Ė	@ea"	750
-Ę	@ec"	750
-Ě	@ev"	750
+Ē	@ee"
+Ĕ	@eu"
+Ė	@ea"
+Ę	@ec"
+Ě	@ev"
 Ĝ	@gl"
 Ğ	@gu"
 Ġ	@ga"
@@ -494,11 +494,11 @@ $	@sy	0
 Ģ	@gj"
 Ĥ	@hl"
 Ħ	@ht"
-Ĩ	@is"	750
-Ī	@ie"	750
-Ĭ	@iu"	750
-Į	@ic"	750
-İ	@ia"	750
+Ĩ	@is"
+Ī	@ie"	90%
+Ĭ	@iu"
+Į	@ic"
+İ	@ia"
 Ĳ	@ihj"
 Ĵ	@jl"
 Ķ	@kdd"
@@ -519,10 +519,10 @@ $	@sy	0
 Ŋ	@nj"
 ##
 Ŋ	@lg"
-Ō	@oe"	750
-Ŏ	@ou"	750
-Ő	@opp"	750
-Œ	@ohe"	900
+Ō	@oe"
+Ŏ	@ou"
+Ő	@opp"
+Œ	@ohe"
 Ŕ	@rp"
 Ŗ	@rdd"
 ##
@@ -535,12 +535,12 @@ $	@sy	0
 Ţ	@tj"
 Ť	@tv"
 Ŧ	@tt"
-Ũ	@us"	750
-Ū	@ue"	750
-Ŭ	@uu"	750
-Ů	@uo"	750
-Ű	@upp"	750
-Ų	@uc"	750
+Ũ	@us"
+Ū	@ue"
+Ŭ	@uu"
+Ů	@uo"
+Ű	@upp"
+Ų	@uc"
 Ŵ	@wl"
 Ŷ	@yl"
 Ÿ	@yb"
@@ -603,7 +603,7 @@ $	@sy	0
 ǘ	@upb
 ǚ	@uvb
 ǜ	@unb
-ǝ	@eq	901
+ǝ	@eq
 ǟ	@aeb
 ǡ	@aea
 ǣ	@ahee
@@ -658,8 +658,8 @@ $	@sy	0
 ȥ	@zy
 ##
 ȥ	@zj
-ȧ	@aa	700
-ȩ	@ej	700
+ȧ	@aa
+ȩ	@ej
 ȫ	@oeb
 ȭ	@oes
 ȯ	@oa
@@ -695,7 +695,7 @@ $	@sy	0
 ɍ	@rt
 ɏ	@yt
 ### Latin Extended-B大寫 ###
-Ə	@eq"	700
+Ə	@eq"
 Ɓ	@br"
 Ƃ	@si"
 Ƅ	@bi"
@@ -840,8 +840,8 @@ $	@sy	0
 Ȥ	@zy"
 ##
 Ȥ	@zj"
-Ȧ	@aa"	700
-Ȩ	@ej"	700
+Ȧ	@aa"
+Ȩ	@ej"
 Ȫ	@oeb"
 Ȭ	@oes"
 Ȯ	@oa"
@@ -1247,232 +1247,232 @@ $	@sy	0
 ##
 Ỿ	@yg"
 ### Latin Extended Additional其他 ###
-#Ỻ	@il	0
+#Ỻ	@il
 ##
-Ỻ	@ihl	0
-ỻ	@ilt	0
+Ỻ	@ihl
+ỻ	@ilt
 ##
-# ỻ	@ihlt	0
+# ỻ	@ihlt
 ##
-ỻ	@llt	0
+ỻ	@llt
 ##
-# ỻ	@lhlt	0
+# ỻ	@lhlt
 ##
-ỻ	@iit	0
+ỻ	@iit
 ##
-# ỻ	@ihit	0
+# ỻ	@ihit
 ##
-ỻ	@tftf	0
+ỻ	@tftf
 ##
-ỻ	@iwiwt	0
+ỻ	@iwiwt
 ##### Latin Extended-C #####
 ### Latin Extended-C小寫 ###
-ⱡ	@ltt	0
+ⱡ	@ltt
 ##
-ⱡ	@nfq	0
-ⱥ	@ax	0
-ⱦ	@tx	0
-ⱨ	@hy	0
-ⱪ	@ky	0
-ⱬ	@zy	0
-ⱳ	@wr	0
-ⱶ	@ih	0
-ⱷ	@eq	0
+ⱡ	@nfq
+ⱥ	@ax
+ⱦ	@tx
+ⱨ	@hy
+ⱪ	@ky
+ⱬ	@zy
+ⱳ	@wr
+ⱶ	@ih
+ⱷ	@eq
 ## 不鏡射而成都設成[q]，下面容錯碼
-ⱷ	@eqk	0
+ⱷ	@eqk
 ##
-ⱷ	@ekq	0
+ⱷ	@ekq
 ##
 #ⱷ	fi
-ⱸ	@ec	0
-ⱹ	@rqr	0
+ⱸ	@ec
+ⱹ	@rqr
 ##
-ⱹ	@rcq	0
+ⱹ	@rcq
 ### Latin Extended-C大寫 ###
-Ⱡ	@ltt"	0
-Ɫ	@lz"	0
-Ᵽ	@pt"	0
-Ɽ	@rc"	0
-Ⱨ	@hy"	0
-Ⱪ	@ky"	0
-Ⱬ	@zy"	0
-Ɑ	@ai"	0
-Ɱ	@mj"	0
-Ɐ	@ak"	0
-Ɒ	@aq"	0
+Ⱡ	@ltt"
+Ɫ	@lz"
+Ᵽ	@pt"
+Ɽ	@rc"
+Ⱨ	@hy"
+Ⱪ	@ky"
+Ⱬ	@zy"
+Ɑ	@ai"
+Ɱ	@mj"
+Ɐ	@ak"
+Ɒ	@aq"
 ##
-Ɒ	@ak"	0
-Ⱳ	@wr"	0
-Ⱶ	@ih"	0
-Ȿ	@sc"	0
-Ɀ	@vfc"	0
+Ɒ	@ak"
+Ⱳ	@wr"
+Ⱶ	@ih"
+Ȿ	@sc"
+Ɀ	@vfc"
 ##
-#Ɀ	@zfc"	0
+#Ɀ	@zfc"
 ##
-#Ɀ	@zc"	0
+#Ɀ	@zc"
 ### Latin Extended-C其他 ###
-ⱱ	@vr	0
-ⱴ	@vg	0
-ⱺ	@omo	0
+ⱱ	@vr
+ⱴ	@vg
+ⱺ	@omo
 ##
-ⱺ	@oo	0
+ⱺ	@oo
 ## 以下一個為大寫
-ⱻ	@ek"	0
+ⱻ	@ek"
 ##
-ⱻ	@eq"	0
-ⱼ	@djh	0
+ⱻ	@eq"
+ⱼ	@djh
 ## 以下一個為大寫
-ⱽ	@vh"	0
+ⱽ	@vh"
 ##### Latin Extended-D #####
 ### Latin Extended-D小寫 ###
-ꜣ	@jfjf	0
+ꜣ	@jfjf
 ##
-ꜣ	@jfhjf	0
-ꜥ	@cf	0
+ꜣ	@jfhjf
+ꜥ	@cf
 ##
-ꜥ	@cfh	0
-#ꜥ	@ci	0
-#ꜥ	@ch	0
-ꜧ	@hj	0
-ꜫ	@ei	0
-ꜭ	@dfj	0
-ꜯ	@dfjdd	0
-ꜳ	@aha	0
+ꜥ	@cfh
+#ꜥ	@ci
+#ꜥ	@ch
+ꜧ	@hj
+ꜫ	@ei
+ꜭ	@dfj
+ꜯ	@dfjdd
+ꜳ	@aha
 ##
-#ꜳ	@aa	0
-ꜵ	@aho	0
-ꜷ	@au	0
+#ꜳ	@aa
+ꜵ	@aho
+ꜷ	@au
 ##
-ꜷ	@ahu	0
-ꜹ	@ahv	0
-ꜻ	@ahvt	0
+ꜷ	@ahu
+ꜹ	@ahv
+ꜻ	@ahvt
 ##
-ꜻ	@avt	0
-ꜽ	@ahy	0
-ꜿ	@jfma	0
+ꜻ	@avt
+ꜽ	@ahy
+ꜿ	@jfma
 ##
-ꜿ	@ckma	0
-ꝁ	@kt	0
-ꝃ	@kx	0
-ꝅ	@ktx	0
-ꝇ	@li	0
-ꝉ	@lt	0
+ꜿ	@ckma
+ꝁ	@kt
+ꝃ	@kx
+ꝅ	@ktx
+ꝇ	@li
+ꝉ	@lt
 ##
-ꝉ	@tf	0
+ꝉ	@tf
 ##
-ꝉ	@iwt	0
-ꝋ	@ot	0
-ꝍ	@or	0
+ꝉ	@iwt
+ꝋ	@ot
+ꝍ	@or
 ##
-ꝍ	@oo	0
-ꝏ	@oho	0
-ꝑ	@pt	0
-ꝓ	@pk	0
-ꝕ	@pk	0
-ꝗ	@qt	0
-ꝙ	@qx	0
-ꝛ	@rf	0
-ꝝ	@rfx	0
-ꝟ	@vx	0
-ꝡ	@wj	0
+ꝍ	@oo
+ꝏ	@oho
+ꝑ	@pt
+ꝓ	@pk
+ꝕ	@pk
+ꝗ	@qt
+ꝙ	@qx
+ꝛ	@rf
+ꝝ	@rfx
+ꝟ	@vx
+ꝡ	@wj
 ##
-ꝡ	@why	0
-#ꝣ	@zgr	0
+ꝡ	@why
+#ꝣ	@zgr
 ##
-#ꝣ	@zfgr	0
+#ꝣ	@zfgr
 ##
-ꝣ	@zfr	0
+ꝣ	@zfr
 ##
-#ꝣ	@czg	0
+#ꝣ	@czg
 ##
-#ꝣ	@czfg	0
+#ꝣ	@czfg
 ##
-ꝣ	@czf	0
+ꝣ	@czf
 ##
-#ꝣ	@chzg	0
+#ꝣ	@chzg
 ##
-#ꝣ	@chzfg	0
+#ꝣ	@chzfg
 ##
-ꝣ	@chzf	0
-ꝥ	@lft	0
+ꝣ	@chzf
+ꝥ	@lft
 ##
-ꝥ	@bhpt	0
+ꝥ	@bhpt
 ##
-ꝥ	@bpt	0
+ꝥ	@bpt
 ##
-ꝥ	@ihot	0
+ꝥ	@ihot
 ##
-ꝥ	@iot	0
+ꝥ	@iot
 ##
-ꝥ	@lhot	0
+ꝥ	@lhot
 ##
-ꝥ	@lot	0
-ꝧ	@lft	0
+ꝥ	@lot
+ꝧ	@lft
 ##
-ꝧ	@bhpt	0
+ꝧ	@bhpt
 ##
-ꝧ	@bpt	0
+ꝧ	@bpt
 ##
-ꝧ	@ihot	0
+ꝧ	@ihot
 ##
-ꝧ	@iot	0
+ꝧ	@iot
 ##
-ꝧ	@lhot	0
+ꝧ	@lhot
 ##
-ꝧ	@lot	0
-ꝩ	@yf	0
-ꝫ	@zi	0
-ꝭ	@kf	0
+ꝧ	@lot
+ꝩ	@yf
+ꝫ	@zi
+ꝭ	@kf
 ##
-ꝭ	@sfg	0
-ꝯ	@gf	0
-ꝱ	@dhlx	0
-ꝲ	@lx	0
-ꝳ	@mhlx	0
-ꝴ	@nhlx	0
-ꝵ	@rrx	0
+ꝭ	@sfg
+ꝯ	@gf
+ꝱ	@dhlx
+ꝲ	@lx
+ꝳ	@mhlx
+ꝴ	@nhlx
+ꝵ	@rrx
 ##
-ꝵ	@rx	0
-ꝶ	@rx	0
-ꝷ	@tx	0
-ꝸ	@bf	0
-Ꝺ	@or	0
+ꝵ	@rx
+ꝶ	@rx
+ꝷ	@tx
+ꝸ	@bf
+Ꝺ	@or
 ##
-Ꝺ	@sk	0
-ꝺ	@or	0
+Ꝺ	@sk
+ꝺ	@or
 ##
-ꝺ	@df	0
-ꝼ	@rh	0
-ꝿ	@dfq	0
+ꝺ	@df
+ꝼ	@rh
+ꝿ	@dfq
 ##
 #ꝿ	@dq
 ##
-ꝿ	@zfoq	0
+ꝿ	@zfoq
 ##
-ꝿ	@zfqo	0
-ꞁ	@lq	0
+ꝿ	@zfqo
+ꞁ	@lq
 ##
-ꞁ	@lk	0
-ꞃ	@hf	0
+ꞁ	@lk
+ꞃ	@hf
 ##
-ꞃ	@nyc	0
-ꞅ	@ri	0
-ꞇ	@tf	0
+ꞃ	@nyc
+ꞅ	@ri
+ꞇ	@tf
 ##
 #ꞇ	ti
-ꞎ	@lck	0
+ꞎ	@lck
 ##
-ꞎ	@lkc	0
+ꞎ	@lkc
 ##
-ꞎ	@ick	0
+ꞎ	@ick
 ##
-ꞎ	@ikc	0
-ꞑ	@ny	0
-ꞓ	@ct	0
-ꞕ	@hj	0
-ꞗ	@bk	0
-ꞛ	@bk	0
-ꞝ	@bfk	0
+ꞎ	@ikc
+ꞑ	@ny
+ꞓ	@ct
+ꞕ	@hj
+ꞗ	@bk
+ꞛ	@bk
+ꞝ	@bfk
 ꞟ	@rfq
 ꞡ	@gx
 ꞣ	@kx
@@ -1509,13 +1509,13 @@ $	@sy	0
 ##
 #ꜩ	@thzfg
 ### Latin Extended-D大寫 ###
-Ᵹ	@df"	0
+Ᵹ	@df"
 ##
-#Ᵹ	@dk"	0
+#Ᵹ	@dk"
 ##
-Ᵹ	@zfo"	0
+Ᵹ	@zfo"
 ##
-Ᵹ	@zfho"	0
+Ᵹ	@zfho"
 Ꭓ	@xi"
 ꜰ	@fi"
 ꜱ	@si"
@@ -1856,27 +1856,27 @@ $	@sy	0
 ##### 發音字母啟始 #####
 ##### IPA Extensions #####
 ɐ	@aq
-ɑ	@ai	700
+ɑ	@ai
 ɒ	@aq
 ɓ	@br
 ##
 ɓ	@gq
-ɔ	@jf	700
+ɔ	@jf
 ##
-ɔ	@ck	700
+ɔ	@ck
 ɕ	@cg
 ##
 ɕ	@gfq
 #移前#ɖ	@dc
 ɗ	@dr
 ɘ	@ek
-ə	@eq	700
-ɚ	@eqk	700
-ɛ	@ei	700
+ə	@eq
+ɚ	@eqk
+ɛ	@ei
 ɜ	@zi
-ɝ	@zk	700
+ɝ	@zk
 ## 下面一個是容錯碼
-ɝ	@zr	700
+ɝ	@zr
 ɞ	@bf
 ɟ	@jt
 ɠ	@gr
@@ -1911,7 +1911,7 @@ $	@sy	0
 ɨ	@it
 ɩ	@ii
 ## 以下一個為大寫
-ɪ	@ii"	700
+ɪ	@ii"
 ɫ	@iz
 ##
 ɫ	@lz
@@ -1979,7 +1979,7 @@ $	@sy	0
 ## 以下一個為大寫
 ʁ	@rk"
 ʂ	@sc
-ʃ	@sf	700
+ʃ	@sf
 ʄ	@sft
 ##
 ʄ	@sftt
@@ -1992,24 +1992,24 @@ $	@sy	0
 ##
 ʈ	@tc
 ʉ	@ut
-ʊ	@wk	700
+ʊ	@wk
 ʋ	@vf
 ##
 ʋ	@yi
-ʌ	@li	700
+ʌ	@li
 ##
-ʌ	@vk	700
+ʌ	@vk
 ʍ	@wk
 ʎ	@yq
 ## 以下一個為大寫
 ʏ	@yi"
 ʐ	@zc
 ʑ	@zg
-#移前#ʒ	@zfg	700
+#移前#ʒ	@zfg
 ##
-#移前#ʒ	@zf	700
+#移前#ʒ	@zf
 ##
-#移前#ʒ	@zg	700
+#移前#ʒ	@zg
 #ʓ	@zfgg
 ##
 ʓ	@zfg
@@ -2081,24 +2081,24 @@ $	@sy	0
 ##
 ʢ	@cftf
 ʣ	@dhz
-#ʤ	@dzfg	700
+#ʤ	@dzfg
 ##
-ʤ	@dzf	700
+ʤ	@dzf
 ##
-#ʤ	@dzg	700
+#ʤ	@dzg
 ##
-#ʤ	@dhzfg	700
+#ʤ	@dhzfg
 ##
-ʤ	@dhzf	700
+ʤ	@dhzf
 ##
-#ʤ	@dhzg	700
+#ʤ	@dhzg
 ʥ	@dzg
 ##
 ʥ	@dhzg
 ʦ	@ths
-ʧ	@tsf	700
+ʧ	@tsf
 ##
-ʧ	@thsf	700
+ʧ	@thsf
 ʨ	@tcg
 ##
 ʨ	@tgq
@@ -2422,7 +2422,7 @@ $	@sy	0
 ᶒ	@ec
 ᶓ	@ec
 ᶔ	@zc
-ᶕ	@eqk	700
+ᶕ	@eqk
 ᶖ	@ic
 ᶗ	@jfc
 ##

@@ -6,9 +6,9 @@
 # 包含中文、韓語、日語、拉丁+音標
 ---
 name: bo_mixin.extended
-version: "202204"
+version: "202301"
 sort: by_weight
-vocabulary: essay-zh-hant-mc
+vocabulary: essay-zh-hant-mc-mixin
 use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
@@ -16,8 +16,8 @@ import_tables:
   - terra_pinyin_onion
   - terra_pinyin_onion_add
   - bo_mixin_jp
-  # - bo_mixin_kr  #《韓文洋蔥形碼》  #此項打開時，bo_mixin_kr_hnc 請關閉。
-  - bo_mixin_kr_hnc_m  #《韓文HNC羅馬字》  #此項打開時，bo_mixin_kr 請關閉。
+  # - bo_mixin_kr_m  #《韓文洋蔥形碼》  #此項打開時，bo_mixin_kr_hnc_m 請關閉。
+  - bo_mixin_kr_hnc_m  #《韓文HNC羅馬字》  #此項打開時，bo_mixin_kr_m 請關閉。
   - bo_mixin_la
   # - bo_mixin_en  #《英文26字母和符號》  #此項打開時，bo_mixin_la 和 phrases.la_py_w 請關閉。
   - phrases.cht_en_w

@@ -67,7 +67,7 @@
 #===================================
 ---
 name: jpnin1
-version: "202203"
+version: "202301"
 sort: by_weight #original
 use_preset_vocabulary: false
 columns:
@@ -121,7 +121,7 @@ columns:
 #用正則轉#〆	sime,
 #用正則轉#〆	sime.
 #用正則轉#〆	xx,
-〆	xx.
+〆	xx.	40899
 #用正則轉#〆	kigou.
 #々	naa.
 #々	na.
@@ -135,7 +135,7 @@ columns:
 #々	kurikaesi.
 #々	kurikaeshi.
 #ゝ	naa.
-ゝ	dou.
+ゝ	dou.	37056
 #用正則轉#ゝ	onaji.
 #用正則轉#ゝ	onazi.
 #用正則轉#ゝ	odoriji.
@@ -144,7 +144,7 @@ columns:
 #ゝ	kurikaesi.
 #ゝ	kurikaeshi.
 #ゞ	naa.
-ゞ	dou.
+ゞ	dou.	42869
 #用正則轉#ゞ	onaji.
 #用正則轉#ゞ	onazi.
 #用正則轉#ゞ	odoriji.
@@ -153,7 +153,7 @@ columns:
 #ゞ	kurikaesi.
 #ゞ	kurikaeshi.
 #ヽ	naa.
-ヽ	dou.
+ヽ	dou.	42798
 #用正則轉#ヽ	onaji.
 #用正則轉#ヽ	onazi.
 #用正則轉#ヽ	odoriji.
@@ -162,7 +162,7 @@ columns:
 #ヽ	kurikaesi.
 #ヽ	kurikaeshi.
 #ヾ	naa.
-ヾ	dou.
+ヾ	dou.	37847
 #用正則轉#ヾ	onaji.
 #用正則轉#ヾ	onazi.
 #用正則轉#ヾ	odoriji.
@@ -364,35 +364,35 @@ columns:
 ### 濁点和半濁点結束 ###
 ##### 『符號』結束 #####
 ##### 『基本平假名』開始 #####
-あ	a,
+あ	a,	28648
 #ぁ	a, #MAC日語輸入法沒有，精簡！
-い	i,
+い	i,	117280
 #ぃ	i, #MAC日語輸入法沒有，精簡！
 #い	yi, #MAC日語輸入法沒有，精簡！
-う	u,
+う	u,	55782
 #う	wu, #用正則取代
 #ぅ	u, #MAC日語輸入法沒有，精簡！
 #ぅ	wu, #MAC日語輸入法沒有，精簡！
-え	e,
+え	e,	117280
 #ぇ	e, #MAC日語輸入法沒有，精簡！
-お	o,
+お	o,	28648
 #ぉ	o, #MAC日語輸入法沒有，精簡！
-か	ka,
-き	ki,
-く	ku,
-け	ke,
-こ	ko,
-さ	sa,
-し	shi,
+か	ka,	117280
+き	ki,	117280
+く	ku,	117280
+け	ke,	117280
+こ	ko,	117280
+さ	sa,	117280
+し	shi,	117280
 #し	si, #用正則取代
 #し	ci, #MAC日語輸入法沒有，精簡！
-す	su,
-せ	se,
-そ	so,
-た	ta,
-ち	chi,
+す	su,	36221
+せ	se,	117280
+そ	so,	117280
+た	ta,	117280
+ち	chi,	13539
 #ち	ti, #用正則取代
-つ	tsu,
+つ	tsu,	117280
 #つ	tu, #用正則取代
 #っ	tsu, #MAC日語輸入法沒有，精簡！
 #っ	tu, #MAC日語輸入法沒有，精簡！
@@ -400,96 +400,96 @@ columns:
 #っ	ss, #太多選項精簡
 #っ	tv, #太多選項精簡
 #っ	kk, #太多選項精簡
-て	te,
-と	to,
-な	na,
-に	ni,
-ぬ	nu,
-ね	ne,
-の	no,
-は	ha,
+て	te,	117280
+と	to,	28648
+な	na,	28648
+に	ni,	117280
+ぬ	nu,	117280
+ね	ne,	116096
+の	no,	117280
+は	ha,	28648
 #は	wa, #MAC日語輸入法沒有，精簡！
-ひ	hi,
+ひ	hi,	4521
 #ふ	hu, #用正則取代
-ふ	fu,
-へ	he,
+ふ	fu,	17954
+へ	he,	10850
 #へ	e, #MAC日語輸入法沒有，精簡！
-ほ	ho,
-ま	ma,
-み	mi,
+ほ	ho,	15621
+ま	ma,	28648
+み	mi,	117280
 む	mu,
-め	me,
-も	mo,
-や	ya,
+め	me,	35460
+も	mo,	117280
+や	ya,	28648
 #ゃ	ya, #MAC日語輸入法沒有，精簡！
-ゆ	yu,
+ゆ	yu,	38592
 #ゅ	yu, #MAC日語輸入法沒有，精簡！
-よ	yo,
+よ	yo,	82389
 #ょ	yo, #MAC日語輸入法沒有，精簡！
-ら	ra,
+ら	ra,	30955
 #ら	la, #MAC日語輸入法沒有，精簡！
-り	ri,
+り	ri,	28648
 #り	li, #MAC日語輸入法沒有，精簡！
-る	ru,
+る	ru,	117280
 #る	lu, #MAC日語輸入法沒有，精簡！
-れ	re,
+れ	re,	117280
 #れ	le, #MAC日語輸入法沒有，精簡！
-ろ	ro,
+ろ	ro,	117280
 #ろ	lo, #MAC日語輸入法沒有，精簡！
-わ	wa,
+わ	wa,	29964
 #ゎ	wa, #MAC日語輸入法沒有，精簡！
-を	wo,
+を	wo,	117280
 #を	o, #MAC日語輸入法沒有，精簡！
-ん	n,
+ん	n,	117280
 #ん	nn, #用正則取代
 #ん	mn, #MAC日語輸入法沒有，精簡！
 #ん	m, #MAC日語輸入法沒有，精簡！
 #ん	ng, #MAC日語輸入法沒有，精簡！
-が	ga,
+が	ga,	117280
 ぎ	gi,
 ぐ	gu,
-げ	ge,
-ご	go,
+げ	ge,	51514
+ご	go,	117280
 ざ	za,
-じ	ji,
+じ	ji,	117280
 #じ	zi, #用正則取代
-ず	zu,
-ぜ	ze,
-ぞ	zo,
-だ	da,
-ぢ	di,
+ず	zu,	117280
+ぜ	ze,	117280
+ぞ	zo,	117280
+だ	da,	117280
+ぢ	di,	30579
 #ぢ	ji, #MAC日語輸入法沒有，精簡！
 #ぢ	zi, #MAC日語輸入法沒有，精簡！
 #ぢ	dji, #MAC日語輸入法沒有，精簡！
 づ	du,
 #づ	zu, #MAC日語輸入法沒有，精簡！
-で	de,
-ど	do,
-ば	ba,
+で	de,	117280
+ど	do,	28648
+ば	ba,	31963
 び	bi,
-ぶ	bu,
-べ	be,
-ぼ	bo,
+ぶ	bu,	15072
+べ	be,	117280
+ぼ	bo,	15234
 ぱ	pa,
 ぴ	pi,
 ぷ	pu,
 ぺ	pe,
-ぽ	po,
+ぽ	po,	117280
 ##
 ゔ	vu,
 #ゔ	va, #MAC日語輸入法沒有，精簡！
 ゑ	we,
 ゑ	e,
 ゑ	wye,
-ゐ	wi,
-ゐ	i,
-ゐ	wyi,
+ゐ	wi,	32124
+ゐ	i,	32124
+ゐ	wyi,	32124
 ### 小字 ###
-ぁ	xa,
-ぃ	xi,
-ぅ	xu,
-ぇ	xe,
-ぉ	xo,
+ぁ	xa,	76781
+ぃ	xi,	74703
+ぅ	xu,	65925
+ぇ	xe,	70356
+ぉ	xo,	67860
 #ぁ	la, #用正則取代
 #ぃ	li, #用正則取代
 #ぅ	lu, #用正則取代
@@ -497,7 +497,7 @@ columns:
 #ぉ	lo, #用正則取代
 ゃ	xya,
 ゅ	xyu,
-ょ	xyo,
+ょ	xyo,	72075
 ゎ	xwa,
 #ゃ	lya, #用正則取代
 #ゅ	lyu, #用正則取代
@@ -508,7 +508,7 @@ columns:
 #ゕ	lka, #用正則轉寫
 #ゖ	lke, #用正則轉寫
 ### 日文促音單記號 ###
-っ	q,
+っ	q,	117280
 #っ	xtu, #用正則取代
 #っ	ltu, #用正則取代
 #っ	xtsu, #用正則取代
@@ -537,12 +537,12 @@ columns:
 ケ	ke.
 コ	ko.
 サ	sa.
-シ	shi.
+シ	shi.	24041
 #シ	si. #用正則取代
 #シ	ci. #MAC日語輸入法沒有，精簡！
-ス	su.
-セ	se.
-ソ	so.
+ス	su.	4540
+セ	se.	24386
+ソ	so.	15952
 タ	ta.
 チ	chi.
 #チ	ti. #用正則取代
@@ -556,21 +556,21 @@ columns:
 #ッ	kk.#太多選項精簡
 テ	te.
 ト	to.
-ナ	na.
+ナ	na.	35317
 ニ	ni.
 ヌ	nu.
-ネ	ne.
-ノ	no.
+ネ	ne.	26961
+ノ	no.	53387
 ハ	ha.
 #ハ	wa. #MAC日語輸入法沒有，精簡！
 ヒ	hi.
 フ	fu.
 #フ	hu. #用正則取代
-ヘ	he.
+ヘ	he.	117280
 #ヘ	e. #MAC日語輸入法沒有，精簡！
-ホ	ho.
+ホ	ho.	14052
 マ	ma.
-ミ	mi.
+ミ	mi.	22843
 ム	mu.
 メ	me.
 モ	mo.
@@ -578,28 +578,28 @@ columns:
 #ャ	ya. #MAC日語輸入法沒有，精簡！
 ユ	yu.
 #ュ	yu. #MAC日語輸入法沒有，精簡！
-ヨ	yo.
+ヨ	yo.	47251
 #ョ	yo. #MAC日語輸入法沒有，精簡！
-ラ	ra.
+ラ	ra.	16992
 #ラ	la. #MAC日語輸入法沒有，精簡！
-リ	ri.
+リ	ri.	52256
 #リ	li. #MAC日語輸入法沒有，精簡！
 ル	ru.
 #ル	lu. #MAC日語輸入法沒有，精簡！
-レ	re.
+レ	re.	27683
 #レ	le. #MAC日語輸入法沒有，精簡！
-ロ	ro.
+ロ	ro.	19927
 #ロ	lo. #MAC日語輸入法沒有，精簡！
-ワ	wa.
+ワ	wa.	40577
 #ヮ	wa. #MAC日語輸入法沒有，精簡！
-ヲ	wo.
+ヲ	wo.	39716
 #ヲ	o. #MAC日語輸入法沒有，精簡！
-ン	n.
+ン	n.	117280
 #ン	nn. #用正則取代
 #ン	mn. #MAC日語輸入法沒有，精簡！
 #ン	m. #MAC日語輸入法沒有，精簡！
 #ン	ng. #MAC日語輸入法沒有，精簡！
-ガ	ga.
+ガ	ga.	22874
 #ヶ	ga. #用正則取代
 ギ	gi.
 グ	gu.
@@ -619,18 +619,18 @@ columns:
 #ヂ	dji. #MAC日語輸入法沒有，精簡！
 ヅ	du.
 #ヅ	zu. #MAC日語輸入法沒有，精簡！
-デ	de.
-ド	do.
+デ	de.	117280
+ド	do.	17695
 バ	ba.
 ビ	bi.
 ブ	bu.
 ベ	be.
 ボ	bo.
-パ	pa.
+パ	pa.	64018
 ピ	pi.
 プ	pu.
-ペ	pe.
-ポ	po.
+ペ	pe.	18364
+ポ	po.	19956
 ##
 ヴ	vu.
 ヷ	va.
@@ -644,7 +644,7 @@ columns:
 ヹ	ve.
 ヺ	vo.
 ### 小字 ###
-ァ	xa.
+ァ	xa.	111169
 ィ	xi.
 ゥ	xu.
 ェ	xe.
@@ -674,7 +674,7 @@ columns:
 #ヵ	lka. #用正則取代
 ヵ	xka.
 ### 日文促音單記號 ###
-ッ	q.
+ッ	q.	60203
 #ッ	xtu. #用正則取代
 #ッ	ltu. #用正則取代
 #ッ	xtsu. #用正則取代
@@ -684,28 +684,28 @@ columns:
 ##### 『基本片假名』結束 #####
 ##### 日語『補充平假名』開始 #####
 ### 日文拗音平假名 ###
-きゃ	kya,
-ぎゃ	gya,
-しゃ	sha,
+きゃ	kya,	117280
+ぎゃ	gya,	16866
+しゃ	sha,	117280
 #しゃ	sya, #用正則取代
-ちゃ	cha,
+ちゃ	cha,	30192
 #ちゃ	cya, #用正則取代
 #ちゃ	tya,
-じゃ	ja,
+じゃ	ja,	117280
 #じゃ	jya, #用正則取代
 #じゃ	zya, #用正則取代
 ぢゃ	dya,
 #ぢゃ	zya, #用正則取代
 #ぢゃ	ja, #用正則取代
-にゃ	nya,
+にゃ	nya,	117280
 ひゃ	hya,
-びゃ	bya,
-ぴゃ	pya,
+びゃ	bya,	6627
+ぴゃ	pya,	7705
 みゃ	mya,
-りゃ	rya,
+りゃ	rya,	117280
 #りゃ	lya, #MAC日語輸入法沒有，精簡！
 きゅ	kyu,
-ぎゅ	gyu,
+ぎゅ	gyu,	18865
 しゅ	shu,
 #しゅ	syu, #用正則取代
 ちゅ	chu,
@@ -714,21 +714,21 @@ columns:
 じゅ	ju,
 #じゅ	jyu, #用正則取代
 #じゅ	zyu, #用正則取代
-ぢゅ	dyu,
+ぢゅ	dyu,	12000
 #ぢゅ	ju, #用正則取代
 #ぢゅ	zyu, #用正則取代
 にゅ	nyu,
 ひゅ	hyu,
-びゅ	byu,
-ぴゅ	pyu,
+びゅ	byu,	15440
+ぴゅ	pyu,	12204
 みゅ	myu,
 りゅ	ryu,
 #りゅ	lyu, #MAC日語輸入法沒有，精簡！
 きょ	kyo,
-ぎょ	gyo,
-しょ	sho,
+ぎょ	gyo,	59525
+しょ	sho,	27717
 #しょ	syo, #用正則取代
-ちょ	cho,
+ちょ	cho,	93563
 #ちょ	cyo, #用正則取代
 #ちょ	tyo, #用正則取代
 じょ	jo,
@@ -739,8 +739,8 @@ columns:
 #ぢょ	zyo, #用正則取代
 にょ	nyo,
 ひょ	hyo,
-びょ	byo,
-ぴょ	pyo,
+びょ	byo,	8472
+ぴょ	pyo,	12934
 みょ	myo,
 りょ	ryo,
 #りょ	lyo, #MAC日語輸入法沒有，精簡！
@@ -763,7 +763,7 @@ columns:
 っに	nni,
 っち	cchi,
 #っち	tti, #用正則取代
-っし	sshi,
+っし	sshi,	117280
 #っし	ssi, #用正則取代
 っき	kki,
 #っい	ii,
@@ -775,7 +775,7 @@ columns:
 っぬ	nnu,
 っつ	ttsu,
 #っつ	ttu, #用正則取代
-っす	ssu,
+っす	ssu,	117280
 っく	kku,
 #っう	uu,
 っゑ	wwe,
@@ -783,9 +783,9 @@ columns:
 っめ	mme,
 っへ	hhe,
 っね	nne,
-って	tte,
+って	tte,	117280
 っせ	sse,
-っけ	kke,
+っけ	kke,	117280
 #っえ	ee,
 っを	wwo,
 っろ	rro,
@@ -793,7 +793,7 @@ columns:
 っも	mmo,
 っほ	hho,
 っの	nno,
-っと	tto,
+っと	tto,	117280
 っそ	sso,
 っこ	kko,
 #っお	oo,
@@ -801,7 +801,7 @@ columns:
 っざ	zza,
 っだ	dda,
 っば	bba,
-っぱ	ppa,
+っぱ	ppa,	41744
 っぎ	ggi,
 っじ	jji,
 #っじ	zzi, #用正則取代
@@ -825,9 +825,9 @@ columns:
 っぞ	zzo,
 っど	ddo,
 っぼ	bbo,
-っぽ	ppo,
+っぽ	ppo,	117280
 ### 促音加拗音 ###
-っきゃ	kkya,
+っきゃ	kkya,	117280
 っしゃ	ssha,
 #っしゃ	ssya, #用正則取代
 っちゃ	ccha,
@@ -870,7 +870,7 @@ columns:
 っぴゅ	ppyu,
 ##
 っきょ	kkyo,
-っしょ	ssho,
+っしょ	ssho,	117280
 #っしょ	ssyo, #用正則取代
 っちょ	ccho,
 #っちょ	ccyo, #用正則取代
@@ -926,7 +926,7 @@ columns:
 き゚ゅ	ngyu,
 き゚ょ	ngyo,
 ### 特殊讀音拼法 ###
-ぎぃ	gyi,
+ぎぃ	gyi,	8000
 ぎぇ	gye,
 しぃ	syi,
 しぇ	sye,
@@ -943,9 +943,9 @@ columns:
 にぇ	nye,
 ひぃ	hyi,
 ひぇ	hye,
-ぴぃ	pyi,
-ぴぇ	pye,
-みぃ	myi,
+ぴぃ	pyi,	16588
+ぴぇ	pye,	3053
+みぃ	myi,	23359
 みぇ	mye,
 いぇ	ye,
 りぃ	ryi,
@@ -965,7 +965,7 @@ columns:
 てゃ	tha,
 てぃ	thi,
 てゅ	thu,
-てぇ	the,
+てぇ	the,	115013
 てょ	tho,
 でゃ	dha,
 でぃ	dhi,
@@ -981,7 +981,7 @@ columns:
 どぃ	dwi,
 どぅ	dwu,
 どぇ	dwe,
-どぉ	dwo,
+どぉ	dwo,	117280
 ふぁ	fa,
 ふぃ	fi,
 ふぇ	fe,
@@ -992,9 +992,9 @@ columns:
 ずゎ	zwa,
 ## 202202補充
 # うぉ	wo, #MAC日語輸入法沒有，精簡！
-ゔぁ	va,
-ゔぃ	vi,
-ゔぇ	ve,
+ゔぁ	va,	4935
+ゔぃ	vi,	3235
+ゔぇ	ve,	2657
 ゔぉ	vo,
 # すぃ	si, #MAC日語輸入法沒有，精簡！
 # ずぃ	zi, #MAC日語輸入法沒有，精簡！
@@ -1018,10 +1018,10 @@ columns:
 くぃ	kwi,
 くぇ	kwe,
 くぉ	kwo,
-ぐゎ	gwa,
-ぐぃ	gwi,
-ぐぇ	gwe,
-ぐぉ	gwo,
+ぐゎ	gwa,	7914
+ぐぃ	gwi,	3575
+ぐぇ	gwe,	2668
+ぐぉ	gwo,	3049
 いぃ	yi,
 # うぁ	wa, #MAC日語輸入法沒有，精簡！
 # うぅ	wu, #MAC日語輸入法沒有，精簡！
@@ -1032,16 +1032,16 @@ columns:
 ゔょ	vyo,
 きぇ	kye,
 くぁ	kwa,
-ぐぁ	gwa,
+ぐぁ	gwa,	6866
 つゅ	tsyu,
 びぇ	bye,
 ふゃ	fya,
 ふぃぇ	fye,
 # ほぅ	hu, #MAC日語輸入法沒有，精簡！
-ほぅ	hwu,
+ほぅ	hwu,	33454
 うぁ	wha,
 うぃ	whi,
-うぅ	whu,
+うぅ	whu,	74608
 うぇ	whe,
 うぉ	who,
 くゃ	qya,
@@ -1051,87 +1051,87 @@ columns:
 くょ	qyo,
 くぁ	qwa,
 くぃ	qwi,
-くぅ	qwu,
-くぅ	kwu,
+くぅ	qwu,	78266
+くぅ	kwu,	78266
 くぇ	qwe,
 くぉ	qwo,
-ぐぅ	gwu,
+ぐぅ	gwu,	12326
 すぃ	swi,
-すぅ	swu,
+すぅ	swu,	74892
 すぇ	swe,
 すぉ	swo,
 ふぃ	fyi,
 ふぇ	fye,
 ふぁ	fwa,
 ふぃ	fwi,
-ふぅ	fwu,
+ふぅ	fwu,	49429
 ふぇ	fwe,
 ふぉ	fwo,
-ゔぃ	vyi,
-ゔぇ	vye,
+ゔぃ	vyi,	3235
+ゔぇ	vye,	2657
 ##### 日語『補充平假名』結束 #####
 ####### 日語『補充片假名』開始 #######
 ### 日文拗音片假名 ###
-キャ	kya.
+キャ	kya.	117280
 シャ	sha.
 #シャ	sya. #用正則取代
-チャ	cha.
+チャ	cha.	25536
 #チャ	cya. #用正則取代
 #チャ	tya. #用正則取代
-ニャ	nya.
-ヒャ	hya.
-ミャ	mya.
+ニャ	nya.	117280
+ヒャ	hya.	5282
+ミャ	mya.	8250
 リャ	rya.
 #リャ	lya. #MAC日語輸入法沒有，精簡！
-ギャ	gya.
-ジャ	ja.
+ギャ	gya.	12934
+ジャ	ja.	35512
 #ジャ	jya. #用正則取代
 #ジャ	zya. #用正則取代
 ヂャ	dya.
 #ヂャ	zya. #用正則取代
 #ヂャ	ja. #用正則取代
 ビャ	bya.
-ピャ	pya.
-キュ	kyu.
-シュ	shu.
+ピャ	pya.	2776
+キュ	kyu.	14077
+シュ	shu.	15414
 #シュ	syu. #用正則取代
-チュ	chu.
+チュ	chu.	16295
 #チュ	cyu. #用正則取代
 #チュ	tyu. #用正則取代
-ニュ	nyu.
-ヒュ	hyu.
-ミュ	myu.
-リュ	ryu.
+ニュ	nyu.	13076
+ヒュ	hyu.	8187
+ミュ	myu.	17210
+リュ	ryu.	9747
 #リュ	lyu. #MAC日語輸入法沒有，精簡！
-ギュ	gyu.
-ジュ	ju.
+ギュ	gyu.	15838
+ジュ	ju.	27706
 #ジュ	jyu. #用正則取代
 #ジュ	zyu. #用正則取代
-ヂュ	dyu.
+ヂュ	dyu.	12000
 #ヂュ	zyu. #用正則取代
 #ヂュ	ju. #用正則取代
-ビュ	byu.
-ピュ	pyu.
-キョ	kyo.
+ビュ	byu.	8143
+ピュ	pyu.	10944
+キョ	kyo.	7596
 ショ	sho.
 #ショ	syo. #用正則取代
 チョ	cho.
 #チョ	cyo. #用正則取代
 #チョ	tyo. #用正則取代
-ニョ	nyo.
-ヒョ	hyo.
-ミョ	myo.
-リョ	ryo.
+ニョ	nyo.	7051
+ヒョ	hyo.	5162
+ミョ	myo.	4738
+リョ	ryo.	10800
 #リョ	lyo. #MAC日語輸入法沒有，精簡！
-ギョ	gyo.
-ジョ	jo.
+ギョ	gyo.	15440
+ジョ	jo.	13323
 #ジョ	jyo. #用正則取代
 #ジョ	zyo. #用正則取代
 ヂョ	dyo.
 #ヂョ	zyo. #用正則取代
 #ヂョ	jo. #用正則取代
-ビョ	byo.
-ピョ	pyo.
+ビョ	byo.	3979
+ピョ	pyo.	5332
 ### 日文促音片假名 ###
 ッワ	wwa.
 ッラ	rra.
@@ -1163,7 +1163,7 @@ columns:
 ッヌ	nnu.
 ッツ	ttsu.
 #ッツ	ttu. #用正則取代
-ッス	ssu.
+ッス	ssu.	117280
 ック	kku.
 #ッウ	uu.
 ッヱ	wwe.
@@ -1181,9 +1181,9 @@ columns:
 ッモ	mmo.
 ッホ	hho.
 ッノ	nno.
-ット	tto.
+ット	tto.	117280
 ッソ	sso.
-ッコ	kko.
+ッコ	kko.	21746
 #ッオ	oo.
 ッガ	gga.
 ッザ	zza.
@@ -1258,7 +1258,7 @@ columns:
 ッピュ	ppyu.
 ##
 ッキョ	kkyo.
-ッショ	ssho.
+ッショ	ssho.	117280
 #ッショ	ssyo. #用正則取代
 ッチョ	ccho.
 #ッチョ	ccyo. #用正則取代
@@ -1319,68 +1319,68 @@ columns:
 キ゚ュ	ngyu.
 キ゚ョ	ngyo.
 ### 日文拗音外國讀音片假名(一) ###
-イェ	ye.
-ウィ	wi.
-ウェ	we.
+イェ	ye.	8050
+ウィ	wi.	12450
+ウェ	we.	11569
 # ウォ	wo. #MAC日語輸入法沒有，精簡！
 #ヴァ(可怱略)#va.
-ヴィ	vi.
-ヴェ	ve.
-ヴォ	vo.
+ヴィ	vi.	12824
+ヴェ	ve.	6667
+ヴォ	vo.	7488
 # スィ	si. #MAC日語輸入法沒有，精簡！
 # ズィ	zi. #MAC日語輸入法沒有，精簡！
-ズィ	zwi.
-シェ	she.
-ジェ	je.
+ズィ	zwi.	3802
+シェ	she.	14491
+ジェ	je.	11251
 #チェ	che. #用正則取代
 # ティ	ti. #MAC日語輸入法沒有，精簡！
 # トゥ	tu. #MAC日語輸入法沒有，精簡！
 # ディ	di. #MAC日語輸入法沒有，精簡！
 # ドゥ	du. #MAC日語輸入法沒有，精簡！
-ツァ	tsa.
-ツィ	tsi.
-ファ	fa.
-フィ	fi.
-ツェ	tse.
-ツォ	tso.
-フェ	fe.
-フォ	fo.
+ツァ	tsa.	4006
+ツィ	tsi.	5984
+ファ	fa.	28332
+フィ	fi.	14324
+ツェ	tse.	4629
+ツォ	tso.	3700
+フェ	fe.	54529
+フォ	fo.	13507
 スュ	syu.
 ズュ	zyu.
 テュ	tyu.
 ## 下一個20160930新加
 # テュ	tu. #MAC日語輸入法沒有，精簡！
-デュ	dvyu.
+デュ	dvyu.	11317
 #デュ	dyu. #用正則轉寫
-フュ	fyu.
+フュ	fyu.	4911
 ## 下一個20160930新加
 # フュ	fu. #MAC日語輸入法沒有，精簡！
 フョ	fyo.
 クヮ	kwa.
-クィ	kwi.
-クェ	kwe.
-クォ	kwo.
+クィ	kwi.	6370
+クェ	kwe.	9829
+クォ	kwo.	4719
 グヮ	gwa.
-グィ	gwi.
+グィ	gwi.	3918
 グェ	gwe.
-グォ	gwo.
+グォ	gwo.	2758
 ### 日文拗音外國讀音片假名(二) ###
-イィ	yi.
+イィ	yi.	9597
 # ウァ	wa. #MAC日語輸入法沒有，精簡！
 # ウゥ	wu. #MAC日語輸入法沒有，精簡！
 ウュ	wyu.
-ヴァ	va.
+ヴァ	va.	3616
 ヴャ	vya.
-ヴュ	vyu.
+ヴュ	vyu.	2776
 ヴィェ	vye.
 ヴョ	vyo.
 キェ	kye.
 ギェ	gye.
 クァ	kwa.
-グァ	gwa.
+グァ	gwa.	3730
 ツュ	tsyu.
-ニェ	nye.
-ヒェ	hye.
+ニェ	nye.	3407
+ヒェ	hye.	5393
 ビェ	bye.
 ピェ	pye.
 フャ	fya.
@@ -1392,76 +1392,76 @@ columns:
 ## 以要下一個新補充
 リェ	lye.
 ## 201610新增日語
-ウァ	wha.
-ウィ	whi.
-ウゥ	whu.
-ウェ	whe.
-ウォ	who.
+ウァ	wha.	52446
+ウィ	whi.	12450
+ウゥ	whu.	52446
+ウェ	whe.	11569
+ウォ	who.	14801
 クャ	qya.
-クィ	qyi.
+クィ	qyi.	6370
 クュ	qyu.
-クェ	qye.
+クェ	qye.	9829
 クョ	qyo.
 クァ	qwa.
-クィ	qwi.
+クィ	qwi.	6370
 クゥ	qwu.
 クゥ	kwu.
-クェ	qwe.
-クォ	qwo.
-ギィ	gyi.
-グゥ	gwu.
-シィ	syi.
-シェ	sye.
+クェ	qwe.	9829
+クォ	qwo.	4719
+ギィ	gyi.	7380
+グゥ	gwu.	9713
+シィ	syi.	7004
+シェ	sye.	14491
 スァ	swa.
-スィ	swi.
-スゥ	swu.
+スィ	swi.	6786
+スゥ	swu.	55292
 スェ	swe.
 スォ	swo.
-ジィ	jyi.
-ジェ	jye.
-ジィ	zyi.
-ジェ	zye.
-チィ	tyi.
-チェ	tye.
-チィ	cyi.
+ジィ	jyi.	8332
+ジェ	jye.	11251
+ジィ	zyi.	8332
+ジェ	zye.	11251
+チィ	tyi.	7315
+チェ	tye.	41631
+チィ	cyi.	7315
 #チェ	cye. #用正則取代
 テャ	tha.
-ティ	thi.
+ティ	thi.	30132
 テュ	thu.
 テェ	the.
 テョ	tho.
 トァ	twa.
 トィ	twi.
-トゥ	twu.
+トゥ	twu.	18131
 トェ	twe.
 トォ	two.
 ヂィ	dyi.
 ヂェ	dye.
 デャ	dha.
-ディ	dhi.
-デュ	dhu.
-デェ	dhe.
+ディ	dhi.	17778
+デュ	dhu.	11317
+デェ	dhe.	3335
 デョ	dho.
 ドァ	dwa.
 ドィ	dwi.
-ドゥ	dwu.
+ドゥ	dwu.	17686
 ドェ	dwe.
-ドォ	dwo.
-ニィ	nyi.
-ヒィ	hyi.
-フィ	fyi.
-フェ	fye.
-ファ	fwa.
-フィ	fwi.
+ドォ	dwo.	14541
+ニィ	nyi.	5989
+ヒィ	hyi.	7291
+フィ	fyi.	14324
+フェ	fye.	54529
+ファ	fwa.	28332
+フィ	fwi.	14324
 フゥ	fwu.
-フェ	fwe.
-フォ	fwo.
-ピィ	pyi.
-ミィ	myi.
-リィ	ryi.
-リィ	lyi.
-ヴィ	vyi.
-ヴェ	vye.
+フェ	fwe.	54529
+フォ	fwo.	13507
+ピィ	pyi.	11273
+ミィ	myi.	12074
+リィ	ryi.	8370
+リィ	lyi.	8370
+ヴィ	vyi.	12824
+ヴェ	vye.	6667
 ## 202202補充
 # チィ	thi. #MAC日語輸入法沒有，精簡！
 プヮ	pwa.

@@ -4,7 +4,7 @@
 # 『洋蔥』
 ---
 name: phrases.en_o_w
-version: "202209"
+version: "202301"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -26,25 +26,25 @@ dll
 DLL
 php
 PHP
-google	10000
+google	110000
 Google
 GOOGLE
-instagram	10000
+instagram	110000
 Instagram
 INSTAGRAM
-facebook	10000
+facebook	110000
 Facebook
 FACEBOOK
-evernote	10000
+evernote	110000
 Evernote
 EVERNOTE
-youtube	10000
+youtube	110000
 YouTube
 YOUTUBE
-gmail	10000
+gmail	110000
 Gmail
 GMAIL
-wikipedia	10000
+wikipedia	110000
 Wikipedia
 WIKIPEDIA
 iTunes
@@ -60,54 +60,54 @@ iPad
 iPod
 AirPods
 Siri
-MacBook	10000
+MacBook	110000
 macbook
 WiSpy
 FaceTime
-Skype	10000
+Skype	110000
 skype
 SKYPE
-hotmail	10000
+hotmail	110000
 Hotmail
 msn
-Msn	10000
+Msn	110000
 MSN
 XP
 xp
-Xbox	10000
+Xbox	110000
 XBOX
 xbox
-TorBrowser	10000
+TorBrowser	110000
 MATLAB
-MatLab	10000
+MatLab	110000
 matlab
-Minitab	10000
+Minitab	110000
 minitab
-VirtualBox	10000
+VirtualBox	110000
 VB
 vb
 MySQL
-Joomla	10000
+Joomla	110000
 joomla
 ORCL
 orcl
 CVS
-Apps	10000
+Apps	110000
 apps
 APPS
 ftp
 Ftp
 FTP
-Bluetooth	10000
+Bluetooth	110000
 bluetooth
 NVIDIA
-nVIDIA	10000
+nVIDIA	110000
 nvidia
 GeForce
 FAQ
-USB	10000
+USB	110000
 usb
-WiFi	10000
+WiFi	110000
 wifi
 WIFI
 agp
@@ -115,18 +115,18 @@ AGP
 xyz
 XYZ
 Xyz
-Photoshop	10000
+Photoshop	110000
 photoshop
 PHOTOSHOP
-InDesign	10000
+InDesign	110000
 indesign
 INDESIGN
-Linux	10000
+Linux	110000
 linux
 Ubuntu
-Firefox	10000
+Firefox	110000
 firefox
-Unicode	10000
+Unicode	110000
 unicode
 UNICODE
 GPL
@@ -136,8 +136,8 @@ yaml
 html
 xml
 ppt
-PPT	10000
-PDF	10000
+PPT	110000
+PDF	110000
 pdf
 jpg
 JPG
@@ -195,11 +195,11 @@ NTFS
 exFAT
 HFS
 ReFS
-Bitcoin	10000
+Bitcoin	110000
 bitcoin
 BITCOIN
 onLINE
-SanDisk	10000
+SanDisk	110000
 sandisk
 vob
 VOB
@@ -207,7 +207,7 @@ PUBG
 VPN
 vpn
 HDMI
-PayPal	10000
+PayPal	110000
 paypal
 eSHOP
 AppStore
@@ -240,20 +240,20 @@ OGV
 oga
 OGA
 HTC
-hTC	10000
+hTC	110000
 htc
-ASUS	10000
+ASUS	110000
 Asus
 asus
-Garmin	10000
+Garmin	110000
 garmin
 GARMIN
-Wii	10000
+Wii	110000
 wii
 WII
-Logitech	10000
+Logitech	110000
 logitech
-PChome	10000
+PChome	110000
 pchome
 Engadget
 tsmc
@@ -261,9 +261,9 @@ TSMC
 ASML
 asml
 LinkedIn
-GitHub	10000
+GitHub	110000
 github
-Stellarium	10000
+Stellarium	110000
 stellarium
 STELLARIUM
 DivX
@@ -280,32 +280,32 @@ OpenGL
 DirectX
 SDL
 OpenAL
-Playstation	10000
+Playstation	110000
 PLAYSTATION
 playstation
-CorelDRAW	10000
+CorelDRAW	110000
 coreldraw
 QuarkXPress
 QK
 qk
 Qk
-PageMaker	10000
-AutoCAD	10000
-Autodesk	10000
+PageMaker	110000
+AutoCAD	110000
+Autodesk	110000
 autodesk
 AUTODESK
-SolidWorks	10000
+SolidWorks	110000
 solidworks
 SOLIDWORKS
-PowerPoint	10000
+PowerPoint	110000
 powerpoint
 POWERPOINT
-SketchUp	10000
+SketchUp	110000
 sketchup
 SKETCHUP
-LMK	10000
+LMK	110000
 lmk
-BRB	10000
+BRB	110000
 brb
 TBA
 tba
@@ -315,7 +315,7 @@ FOMO
 fomo
 WTF
 wtf
-Lvl	10000
+Lvl	110000
 lvl
 Dcard
 dcard
@@ -330,22 +330,22 @@ FWD
 BBA
 dict
 DICT
-GoPro	10000
+GoPro	110000
 gopro
 GOPRO
 NAVER
 naver
 Naver
 synology
-Synology	10000
+Synology	110000
 SYNOLOGY
 QNAP
-Qnap	10000
+Qnap	110000
 qnap
-Login	10000
+Login	110000
 login
 LOGIN
-DSM	10000
+DSM	110000
 Dsm
 dsm
 Tenda
@@ -359,20 +359,20 @@ NETGEAR
 Netgear
 NetGear
 TOTOLINK
-ToToLink	10000
+ToToLink	110000
 totolink
 Totolink
 TotoLink
 IEEE
 ieee
 mbps
-Mbps	10000
+Mbps	110000
 gbps
-Gbps	10000
+Gbps	110000
 kbps
-Kbps	10000
+Kbps	110000
 tbps
-Tbps	10000
+Tbps	110000
 mbs
 Mbs
 gbs
@@ -381,7 +381,7 @@ kbs
 Kbs
 PoE
 LINUX
-Realtek	10000
+Realtek	110000
 realtek
 REALTEK
 GbE
@@ -389,30 +389,30 @@ Sonet
 SoNet
 sonet
 SONET
-HiNet	10000
+HiNet	110000
 HINET
 hinet
-ADSL	10000
+ADSL	110000
 adsl
 allin
 ALLIN
 AllIn
-LaTeX	10000
+LaTeX	110000
 Emacs
-Netflix	10000
+Netflix	110000
 netflix
 ##### 體育 #####
-MLB	10000
+MLB	110000
 mlb
-BWF	10000
+BWF	110000
 bwf
 ##### 補充（） #####
-KTV	10000
+KTV	110000
 ktv
 TOEIC
 iBT
 IELTS
-LV	10000
+LV	110000
 lv
 Lv
 UNIQLO
@@ -424,16 +424,16 @@ ESLITE
 Eslite
 VICTORINOX
 victorinox
-LoL	10000
+LoL	110000
 LOL
 lol
-OMG	10000
+OMG	110000
 omg
 THX
 thx
 QRcode
 QRCODE
-Cosplay	10000
+Cosplay	110000
 COSPLAY
 cosplay
 HangTen
@@ -467,16 +467,16 @@ SOFTIMAGE
 Lightwave
 lightwave
 LIGHTWAVE
-AnimaTek	10000
+AnimaTek	110000
 Animatek
 animatek
 ANIMATEK
 uniqlo
-Uniqlo	10000
-CitiBank	10000
-HSBC	10000
+Uniqlo	110000
+CitiBank	110000
+HSBC	110000
 hsbc
-KHS	10000
+KHS	110000
 Khs
 khs
 COLNAGO
@@ -596,7 +596,7 @@ maybach
 McLaren
 MercedesBenz
 MERCEDESBENZ
-Mitsuoka	10000
+Mitsuoka	110000
 MITSUOKA
 mitsuoka
 Oldsmobile
@@ -688,19 +688,19 @@ Rokon
 rokon
 ##### 一般「品牌」#####
 HBO
-CocaCola	10000
+CocaCola	110000
 cocacola
 COCACOLA
 CBD
 cbd
 Cbd
-Levis	10000
+Levis	110000
 LEVIS
 levis
-Prada	10000
+Prada	110000
 PRADA
 prada
-BVLGARI	10000
+BVLGARI	110000
 Bvlgari
 bvlgari
 Fendi
@@ -709,7 +709,7 @@ fendi
 Gabbana
 GABBANA
 gabbana
-Montblanc	10000
+Montblanc	110000
 MONTBLANC
 montblanc
 Kenzo
@@ -721,26 +721,26 @@ jil
 Celine
 CELINE
 celine
-Ferragamo	10000
+Ferragamo	110000
 FERRAGAMO
 ferragamo
 BCBG
 Bcbg
 bcbg
 ##### 時尚「品牌」#####
-Azria	10000
+Azria	110000
 AZRIA
 azria
-Moschino	10000
+Moschino	110000
 MOSCHINO
 moschino
-Trussardi	10000
+Trussardi	110000
 TRUSSARDI
 trussardi
 Agnesb
 AGNESB
 agnesb
-Emporio	10000
+Emporio	110000
 EMPORIO
 emporio
 Veneta
@@ -1208,11 +1208,11 @@ EMOJI
 msg
 IDK
 idk
-Windows	10000
-Xeon	10000
+Windows	110000
+Xeon	110000
 QQ	1000
-Arduino	10000
-ATI	10000
+Arduino	110000
+ATI	110000
 vlog
 Vlog
 VLOG
@@ -1268,21 +1268,21 @@ weren't
 Weren't
 WEREN'T
 ##### 含有「.」 #####
-Agnes.b	10000
+Agnes.b	110000
 AGNES.B
 agnes.b
 a.m.
-A.M.	10000
+A.M.	110000
 al.
 AL.
-AM.	10000
+AM.	110000
 am.
 C.C.
 c.c.
 CO.
-Co.	10000
+Co.	110000
 co.
-Corp.	10000
+Corp.	110000
 corp.
 dept.
 DEPT.
@@ -1307,31 +1307,31 @@ fwd.
 FWD.
 i.e.
 I.E.
-Inc.	10000
+Inc.	110000
 inc.
 INC.
 Jr.
-Ltd.	10000
+Ltd.	110000
 ltd.
 lv.
 MR.
-Mr.	10000
+Mr.	110000
 MS.
-Ms.	10000
-No.	10000
+Ms.	110000
+No.	110000
 no.
 NO.
-P.K.	10000
+P.K.	110000
 p.k.
 P.k.
 p.m.
-P.M.	10000
+P.M.	110000
 P.S.
 p.s.
 PK.
 pk.
 Pk.
-PM.	10000
+PM.	110000
 pm.
 r.i.p
 R.I.P.
@@ -1339,9 +1339,9 @@ re.
 RE.
 recd.
 RECD.
-U.S.	10000
+U.S.	110000
 u.s.
-V.S.	10000
+V.S.	110000
 v.s.
 V.s.
 VS.
@@ -1583,26 +1583,26 @@ www.
 .json
 ##### 含有「-」 #####
 G-SHOCK
-X-Plane	10000
+X-Plane	110000
 X-PLANE
 D-Link
 TP-LINK
 tp-link
-Tp-Link	10000
+Tp-Link	110000
 So-net
 so-net
 SO-NET
 Hi-Net
 HI-NET
 hi-net
-Full-Duplex	10000
+Full-Duplex	110000
 ful-duplex
 FULL-DUPLEX
 GONG-CHA
 gong-cha
 Gong-Cha
 Gong-cha
-Mercedes-Benz	10000
+Mercedes-Benz	110000
 MERCEDES-BENZ
 HARLEY-DAVIDSON
 Harley-Davidson
@@ -1632,33 +1632,33 @@ K-TOUCH
 UT-Starcom
 ut-starcom
 UT-STARCOM
-All-In	10000
+All-In	110000
 ALL-in
 all-in
 ALL-IN
-T-Shirt	10000
+T-Shirt	110000
 T-shirt
 t-shirt
 T-SHIRT
 S-Video
 PCI-E
-Wi-Fi	10000
+Wi-Fi	110000
 wi-fi
-a-z	10000
+a-z	110000
 A-Z
 ##### 含有「/」「:」「~」 #####
 B/C
 B/W
-C/P	10000
+C/P	110000
 c/p
-i/o	10000
-I/O	10000
-N/A	10000
+i/o	110000
+I/O	110000
+N/A	110000
 n/a
-Re:	10000
-RE:	10000
-re:	10000
-a~z	10000
+Re:	110000
+RE:	110000
+re:	110000
+a~z	110000
 A~Z
 ####### 20200923補充開始@ #######
 ##### 特殊大小寫混合@ #####

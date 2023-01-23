@@ -76,10 +76,10 @@ shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同�
 
 
 #複製檔案(洋蔥同文注音mixin版)
-shutil.copyfile("./trimefiles/essay-zh-hant-mc.txt", "./sort_trime/洋蔥同文注音mixin版/essay-zh-hant-mc.txt")
+shutil.copyfile("./trimefiles/essay-zh-hant-mc-mixin.txt", "./sort_trime/洋蔥同文注音mixin版/essay-zh-hant-mc-mixin.txt")
 
 shutil.copyfile("./trimefiles/bo_mixin_jp.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_jp.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin_kr.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_kr.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin_kr_m.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_kr_m.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_kr_hnc_m.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_kr_hnc_m.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_la.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_la.dict.yaml")
 shutil.copyfile("./trimefiles/bo_mixin_en.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/bo_mixin_en.dict.yaml")
