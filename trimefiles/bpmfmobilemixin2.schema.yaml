@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixin2
   name: "《洋蔥手機注音mixin2》"
-  version: "202209"
+  version: "202301"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -129,28 +129,28 @@ speller:
 ##### 韓文HNC轉寫結束 #####
 ##### 日文轉寫開始 #####
 ## 符號
-    - derive|^(!!!)-$|$1ev|
-    - derive|^(!!!)[/]$|$1av|
-    - derive|^(!!!),,$|$1sv|
-    - derive|^(!!!)[.];$|$1ov|
-    - derive|^(!!!),;$|$1vv|
-    - derive|^(!!!)--$|$1eev|
-    - derive|^(!!)!-$|$1ev|
-    - derive|^(!!)![/]$|$1av|
-    - derive|^(!!)!,,$|$1sv|
-    - derive|^(!!)![.];$|$1ov|
-    - derive|^(!!)!,;$|$1vv|
-    - derive|^(!!)!--$|$1eev|
-    - derive/^(!!!)xx$/$1shime/
-    - derive/^(!!!)xx$/$1sime/
-    - derive/^(!!)!(xx)$/$1$2/
-    - derive/^(!!)!(shime)$/$1$2/
-    - derive/^(!!)!(sime)$/$1$2/
-    - derive/^(!!!)noma$/$1dou/
-    - derive/^(!!!)dou$/$1onaji/
-    - derive/^(!!!)dou$/$1onazi/
-    - derive/^(!!!)dou$/$1odoriji/
-    - derive/^(!!!)dou$/$1odorizi/
+    - derive|^(!!)-$|$1ev|
+    - derive|^(!!)[/]$|$1av|
+    - derive|^(!!),,$|$1sv|
+    - derive|^(!!)[.];$|$1ov|
+    - derive|^(!!),;$|$1vv|
+    - derive|^(!!)--$|$1eev|
+    - derive|^(!!)-$|$1!ev|
+    - derive|^(!!)[/]$|$1!av|
+    - derive|^(!!),,$|$1!sv|
+    - derive|^(!!)[.];$|$1!ov|
+    - derive|^(!!),;$|$1!vv|
+    - derive|^(!!)--$|$1!eev|
+    - derive/^(!!)xx$/$1shime/
+    - derive/^(!!)xx$/$1sime/
+    - derive/^(!!)(xx)$/$1!$2/
+    - derive/^(!!)(shime)$/$1!$2/
+    - derive/^(!!)(sime)$/$1!$2/
+    - derive/^(!!)noma$/$1dou/
+    - derive/^(!!)dou$/$1onaji/
+    - derive/^(!!)dou$/$1onazi/
+    - derive/^(!!)dou$/$1odoriji/
+    - derive/^(!!)dou$/$1odorizi/
 ## 小字
     - derive/^(!!!?)xtu$/$1ltu/
     - derive/^(!!!?)xtu$/$1xtsu/
@@ -158,9 +158,9 @@ speller:
     - derive/^(!!!?)x([aeiou])/$1l$2/
     - derive/^(!!!?)x(y[auo]|wa)$/$1l$2/
     - derive/^(!!!?)xke$/$1lke/
-    - derive/^(!!!)xke$/$1ke/
+    - derive/^(!!)xke$/$1ke/
     - derive/^(!!!?)xka$/$1lka/
-    - derive/^(!!!)xka$/$1ka/
+    - derive/^(!!)xka$/$1ka/
 ## 促音+拗音
     - derive/^(!!!?)ssh([auo])$/$1ssy$2/
     - derive/^(!!!?)cch([auo])$/$1ccy$2/
@@ -194,7 +194,7 @@ speller:
     - xform/^(!!!?)dvyu$/$1dyu/ # デュ #特殊片假名被其他正則不轉寫。
 ##### 日文轉寫結束 #####
 ### 日文特殊符號轉平假名尾綴也可輸入
-    # - derive/^\!\!\!(noma|dou|onaji|onazi|odoriji|odorizi)$/\!\!$1/
+    # - derive/^\!\!(noma|dou|onaji|onazi|odoriji|odorizi)$/\!\!\!$1/
 ##### 該方案標點特殊處理 #####
 ##    - xform|^([!][!][!])([-.,/]+)([;])$|$1$2| #日語標點符號在此方案去掉「;」
 ##    - xform|^([@])([-.,/]+)([;])$|$1$2| #拉丁標點符號在此方案去掉「;」
@@ -221,9 +221,9 @@ speller:
     - derive/^([A-Z]+)>>[[]$/$1>>]/ #日語(濁点與半濁点)
     # - derive/^([A-Z]+)>>([[])$/$1<<$2/ #日語(濁点與半濁点)
     # - derive/^([A-Z]+)>>[[]$/$1<<]/ #日語(濁点與半濁点)
-    - derive/^!!!([%"<>_]+)$/$1[/ #增加平假名標點
-    - xform/^!!!([a-z]*)([%"<>_]*)$/\U$1\E$2]/ #片假名尾綴
-    - xform/^!!([a-z]*)([%"<>_]*)$/\U$1\E$2[/ #平假名尾綴
+    - derive/^!!([%"<>_]+)$/$1[/ #增加平假名標點
+    - xform/^!!([a-z]*)([%"<>_]*)$/\U$1\E$2]/ #片假名尾綴
+    - xform/^!!!([a-z]*)([%"<>_]*)$/\U$1\E$2[/ #平假名尾綴
 ### 韓語 ###
     - xform/^!([a-z]+)(%*)$/\U$1\E$2~/ #韓語尾綴
 ###########
