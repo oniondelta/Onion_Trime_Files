@@ -4,7 +4,7 @@
 # 『洋蔥』
 ---
 name: phrases.en_u_w
-version: "202209"
+version: "202301"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -105952,7 +105952,7 @@ Untithable	25000
 Untithed	25000
 Untitillated	25000
 Untitillating	25000
-Untitle	11000
+Untitle	25000
 Untitled	25000
 Untittering	25000
 Untitular	25000
