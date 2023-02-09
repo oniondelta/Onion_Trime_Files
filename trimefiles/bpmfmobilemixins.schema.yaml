@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixins
   name: "《洋蔥手機注音mixinS》"
-  version: "202301"
+  version: "202302"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -88,7 +88,7 @@ character_range_bhjm:
   tags: [ abc ]
 
 emoji_switch:
-  opencc_config: emoji_m_2021t.json
+  opencc_config: emoji_t_m.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all

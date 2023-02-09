@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202212"
+  version: "202302"
   author:
     - 『洋蔥』
   description: |
@@ -78,7 +78,7 @@ character_range_bhjm:
   tags: [ abc ]
 
 emoji_switch:
-  opencc_config: emoji_m_2021t.json
+  opencc_config: emoji_t_m.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all

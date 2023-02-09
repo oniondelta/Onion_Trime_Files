@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202212"
+  version: "202302"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -97,7 +97,7 @@ character_range_bhjm:
 #   tags: [ abc ]
 
 emoji_switch:
-  opencc_config: emoji_m_2021t.json
+  opencc_config: emoji_t_m.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all
