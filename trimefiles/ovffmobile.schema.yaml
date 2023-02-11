@@ -265,5 +265,5 @@ recognizer:
     # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^'[a-z']* ?$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|<>$|''$|["]["]$"
+    punct: "[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
     lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
