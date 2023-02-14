@@ -42,8 +42,8 @@ function charset_filter2(input, env)
   local c_f2_s = context:get_option("character_range_bhjm")
   if c_f2_s then
     for cand in input:iter() do
-      if not string.match(cand.text, '᰼᰼' ) then
-      -- if (not string.match(cand.text, '.*᰼᰼.*' )) then
+      if not string.match(cand.text, "᰼᰼" ) then
+      -- if (not string.match(cand.text, ".*᰼᰼.*" )) then
         yield(cand)
       end
     end
@@ -69,6 +69,7 @@ end
 function mobile_bpmf(key, env)
   local engine = env.engine
   local context = engine.context
+  local o_ascii_mode = context:get_option("ascii_mode")
   local input_m = context.input
   local orig_m = context:get_commit_text()
   -- local check_i1 = string.match(input_m, "^[a-z][-_.0-9a-z]*@.*$")
@@ -83,15 +84,15 @@ function mobile_bpmf(key, env)
                   string.match(input_m, "^file:.*$")
 
   -- if context:get_option("ascii_mode") then
-  --   return 2
-  -- elseif (not context:is_composing()) then
-  --   return 2
-  if key:repr() == "space" and context:is_composing() then
-    -- local input_m = context.input
+  if o_ascii_mode then
+    return 2
+  elseif not context:is_composing() then
+    return 2
+  elseif key:repr() == "space" then
+  -- if key:repr() == "space" and context:is_composing() then
     if check_i then
     -- if check_i1 or check_i2 or check_i3 or check_i4 or check_i5 then
     -- if ( string.match(input_m, "[@:]")) then
-      -- local orig_m = context:get_commit_text()
       engine:commit_text(orig_m)
       context:clear()
       return 1 -- kAccepted
