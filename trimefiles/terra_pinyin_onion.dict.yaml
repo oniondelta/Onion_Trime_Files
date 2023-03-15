@@ -147,7 +147,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202302"
+version: "202303"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -66064,6 +66064,7 @@ min_phrase_weight: 100
 單薄	dan1 bo2
 單薄	dan1 bao2
 單行	dan1 xing2
+單行	dan1 hang2
 單行本	dan1 xing2 ben3
 單行法	dan1 xing2 fa3
 單行法規	dan1 xing2 fa3 gui1
@@ -112538,4 +112539,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112541 #####
+##### @結束 END - 112542 #####
