@@ -125,6 +125,7 @@
 #    詞句中，「場」臺灣日常慣用語音為「chang3」，臺灣標準為「chang2」，故「場」全都補齊「chang3」「chang2」，「chang2」詞頻設為3%。
 #    詞句中，「膜」臺灣日常慣用語音為「mo2」，臺灣標準為「mo4」，除「膜拜」語意之詞彙為「mo2」，故「膜」除前面語意詞彙，皆補齊「mo2」「mo4」，「mo4」詞頻設為3%。
 #    詞句中，「質」臺灣字典不同語意分別發音「zhi2」「zhi4」，但語意品質時發「zhi2」，大陸則為「zhi4」，日常易混，故皆補齊「zhi2」「zhi4」，語意為品質等「zhi4」詞頻設為3%。
+#    詞句中，「塑」日常發音常會誤發為「shuo4」，故皆補齊「su4」「shuo4」，後者詞頻設為80%。
 #    預計比對「輕聲和一聲」變音。
 #
 #  〈2020修改字詞彙發音〉：
@@ -21316,7 +21317,7 @@ min_phrase_weight: 100
 朞	ji1
 朞	qi1
 期	ji1	3%
-期	qi1
+期	qi1	30%
 期	qi2
 朠	ying1
 朡	zong1
@@ -55091,6 +55092,7 @@ min_phrase_weight: 100
 三級片	san1 ji2 pian4
 三維空間	san1 wei2 kong1 jian1
 三聚氰胺塑膠	san1 ju4 qing1 an1 su4 jiao1
+三聚氰胺塑膠	san1 ju4 qing1 an1 shuo4 jiao1	80%
 三腳蝦蟆沒處尋	san1 jiao3 ha2 ma2 mei2 chu4 xun2
 三腳蝦蟆沒處尋	san1 jiao3 ha2 ma5 mei2 chu4 xun2
 三自愛國教會	san1 zi4 ai4 guo2 jiao4 hui4
@@ -67665,8 +67667,11 @@ min_phrase_weight: 100
 塌鼻子	ta1 bi2 zi5
 塌鼻子	ta1 bi2 zi3
 塑膠炸彈	su4 jiao1 zha4 dan4
+塑膠炸彈	shuo4 jiao1 zha4 dan4	80%
 塑膠爆炸	su4 jiao1 bao4 zha4
+塑膠爆炸	shuo4 jiao1 bao4 zha4	80%
 塑膠玻璃	su4 jiao1 bo1 li2
+塑膠玻璃	shuo4 jiao1 bo1 li2	80%
 塔什干	ta3 shi2 gan1
 塔什庫爾干塔吉克自治縣	ta3 shi2 ku4 er3 gan1 ta3 ji2 ke4 zi4 zhi4 xian4
 塔什庫爾干自治縣	ta3 shi2 ku4 er3 gan1 zi4 zhi4 xian4
@@ -69029,6 +69034,7 @@ min_phrase_weight: 100
 夾帶	jia2 dai4
 夾帶	jia1 dai4
 夾彩塑	jia2 cai3 su4
+夾彩塑	jia2 cai3 shuo4	80%
 夾心餅乾	jia2 xin1 bing3 gan1
 夾擊	jia2 ji2
 夾攻	jia2 gong1
@@ -77763,6 +77769,7 @@ min_phrase_weight: 100
 捺定性子	na4 ding4 xing4 zi5
 捻合	nie1 he2
 捻塑	nie1 su4
+捻塑	nie1 shuo4	80%
 捻子	nian3 zi5
 捻手捻腳	nie1 shou3 nie1 jiao3
 捻熄	nian3 xi2
@@ -79996,6 +80003,7 @@ min_phrase_weight: 100
 敵後伏擊	di2 hou4 fu2 ji2
 敵愾同仇	di2 kai4 tong2 chou2
 敷彩泥塑	fu1 cai3 ni2 su4
+敷彩泥塑	fu1 cai3 ni2 shuo4	80%
 敷教	fu1 jiao4
 敷教明倫	fu1 jiao4 ming2 lun2
 敷蓋物	fu1 gai4 wu4
@@ -82129,6 +82137,7 @@ min_phrase_weight: 100
 木里藏族自治縣	mu4 li3 zang4 zu2 zi4 zhi4 xian4
 木鋸	mu4 ju4
 木雕泥塑	mu4 diao1 ni2 su4
+木雕泥塑	mu4 diao1 ni2 shuo4	80%
 木難	mu4 nan2
 木頭	mu4 tou5
 木頭	mu4 tou2
@@ -83598,6 +83607,7 @@ min_phrase_weight: 100
 模塊式	mo2 kuai4 shi4
 模塊板	mo2 kuai4 ban3
 模塑成形	mo2 su4 cheng2 xing2
+模塑成形	mo2 shuo4 cheng2 xing2	80%
 模子	mu2 zi5
 模寫	mo2 xie3
 模寫論	mo2 xie3 lun4
@@ -85729,7 +85739,9 @@ min_phrase_weight: 100
 泥垣宮	ni2 yuan2 gong1
 泥堆	ni2 dui1
 泥塑	ni2 su4
+泥塑	ni2 shuo4	80%
 泥塑木雕	ni2 su4 mu4 diao1
+泥塑木雕	ni2 shuo4 mu4 diao1	80%
 泥塗	ni2 tu2
 泥塘	ni2 tang2
 泥塞竹管	ni2 se4 zhu2 guan3
@@ -106355,6 +106367,7 @@ min_phrase_weight: 100
 重地	zhong4 di4
 重型	zhong4 xing2
 重塑	chong2 su4
+重塑	chong2 shuo4	80%
 重壁	chong2 bi4
 重壓	zhong4 ya1
 重壓	chong2 ya1
@@ -112539,4 +112552,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112542 #####
+##### @結束 END - 112555 #####
