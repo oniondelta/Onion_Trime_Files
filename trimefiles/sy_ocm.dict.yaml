@@ -4,7 +4,7 @@
 # 『洋蔥』
 ---
 name: sy_ocm
-version: "202207"
+version: "202304"
 sort: original
 use_preset_vocabulary: false
 ...
@@ -2476,13 +2476,21 @@ use_preset_vocabulary: false
 💖	eho
 💗	eho
 💘	eho
-💙	eho
-💚	eho
-💛	eho
-💜	eho
 💝	eho
 💞	eho
 💟	eho
+❤️	eho
+🧡	eho
+💛	eho
+💚	eho
+🩵	eho
+💙	eho
+💜	eho
+🩷	eho
+🤎	eho
+🖤	eho
+🩶	eho
+🤍	eho
 ### 效果 ###
 💠	lq
 💡	lq
@@ -7836,6 +7844,7 @@ $	tq
 🎹	woo
 🎷	woo
 🎺	woo
+📯️	woo
 🥁	woo
 🪕	woo
 🪘	woo
@@ -8673,6 +8682,11 @@ $	tq
 🥮	cr
 🧨	cr
 🧮	cr
+🥢	cr
+🪈	cr
+🪭	cr
+🧋	cr
+🀄️	cr
 ### 帽子 ###
 👒	nz
 🧢	nz
@@ -8769,10 +8783,13 @@ $	tq
 🧡	nyh
 💛	nyh
 💚	nyh
+🩵	nyh
 💙	nyh
 💜	nyh
+🩷	nyh
 🤎	nyh
 🖤	nyh
+🩶	nyh
 🤍	nyh
 ### 顏色塊 ###
 🟥	wny
@@ -8797,10 +8814,13 @@ $	tq
 🧡	wny
 💛	wny
 💚	wny
+🩵	wny
 💙	wny
 💜	wny
+🩷	wny
 🤎	wny
 🖤	wny
+🩶	wny
 🤍	wny
 ### 膚色 ###
  🏻	zn
