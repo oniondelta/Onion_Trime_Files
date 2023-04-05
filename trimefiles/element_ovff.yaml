@@ -212,8 +212,8 @@ emoji_series:
     - xform/^cx$/【西食】(西餐)/
     - xform/^ol$/【亞裔／黃種人】/
     - xform/^pb$/【白人／白種人】/
-    - xform/^qb/【黑人／非裔】/
-    - xform/^rl/【非裔／黑人】/
+    - xform/^qb$/【黑人／非裔】/
+    - xform/^rl$/【非裔／黑人】/
     - xform/^wz$/【午餐／午飯】/
     - xform/^wx$/【午飯／午餐】/
     - xform/^dx$/【早飯／早點】(早餐)/
