@@ -43,8 +43,9 @@ algebra:
     - xform/^b1s$/rbn!/ #【日本年】
     - xform/^8x1$/olb!/ #【阿拉伯】
     - xform/^c5b$/hwr!/ #【黃種人／亞裔】
-    - xform/^xau$/lmi!/ #【拉美裔／棕色人】
-    - xform/^ynb$/zsr!/ #【棕色人／拉美裔】
+    - xform/^xau$/lmi!/ #【拉美裔／拉丁裔／棕色人】
+    - xform/^ynb$/zsr!/ #【棕色人／拉美裔／拉丁裔】
+    - xform/^x2u$/ldi!/ #【拉丁裔／拉美裔／棕色人】
     - xform/^15b$/bwr!/ #【白種人／白人】
     - xform/^ym2$/zyd!/ #【做運動】
     - xform/^2jx$/dul!/ #【動物臉／獸面】
@@ -119,6 +120,9 @@ algebra:
     - xform/^qra$/pmjm!/ #【PM(片)假名】
     - xform/^cjf$/huq!/ #【韓文圈】
     - xform/^cje$/hug!/ #【韓文括】
+    - xform/^rwn$/jts!/ #【箭頭色(塊)】
+    - xform/^gyn$/azs!/ #【數字色(塊)】
+    - xform/^cyn$/hzs!/ #【漢字色(塊)】
     - xform/^ra$/jm!/ #【(平)假名】
 ##### 以下二字 #####
     - xform/^wn$/ts!/ #【填色／填色塊】
@@ -139,7 +143,8 @@ algebra:
     - xform/^mf$/yq!/ #【樂器】
     - xform/^uu$/ii!/ #【亞裔／黃種人】
     - xform/^1b$/br!/ #【白人／白種人】
-    - xform/^cb$/hr!/ #【黑人】
+    - xform/^cb$/hr!/ #【黑人／非裔】
+    - xform/^zu$/fi!/ #【非裔／黑人】
     - xform/^jh$/uc!/ #【午餐】
     - xform/^yh$/zc!/ #【早餐／早點】
     - xform/^y2$/zd!/ #【早點／早餐】
@@ -358,8 +363,9 @@ preedit_format:
     - xform/^rbn$/【日本年】/
     - xform/^olb$/【阿拉伯】/
     - xform/^hwr$/【黃種人／亞裔】/
-    - xform/^lmi$/【拉美裔／棕色人】/
-    - xform/^zsr$/【棕色人／拉美裔】/
+    - xform/^lmi$/【拉美裔／拉丁裔／棕色人】/
+    - xform/^zsr$/【棕色人／拉美裔／拉丁裔】/
+    - xform/^ldi$/【拉丁裔／拉美裔／棕色人】/
     - xform/^bwr$/【白種人／白人】/
     - xform/^zyd$/【做運動】/
     - xform/^dul$/【動物臉／獸面】/
@@ -434,6 +440,9 @@ preedit_format:
     - xform/^pmjm$/【PM(片)假名】/
     - xform/^huq$/【韓文圈】/
     - xform/^hug$/【韓文括】/
+    - xform/^jts$/【箭頭色(塊)】/
+    - xform/^azs$/【數字色(塊)】/
+    - xform/^hzs$/【漢字色(塊)】/
     - xform/^jm$/【(平)假名】/
 ##### 以下二字 #####
     - xform/^ts$/【填色／填色塊】/
@@ -454,7 +463,8 @@ preedit_format:
     - xform/^yq$/【樂器】/
     - xform/^ii$/【亞裔／黃種人】/
     - xform/^br$/【白人／白種人】/
-    - xform/^hr$/【黑人】/
+    - xform/^hr$/【黑人／非裔】/
+    - xform/^fi$/【非裔／黑人】/
     - xform/^uc$/【午餐】/
     - xform/^zc$/【早餐／早點】/
     - xform/^zd$/【早點／早餐】/

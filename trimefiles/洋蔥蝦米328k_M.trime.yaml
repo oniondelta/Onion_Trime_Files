@@ -1842,6 +1842,10 @@ preset_keys:
   多媒體: {text: "{Escape}'cgq", label: 多媒體, functional: false}
   野生動物: {text: "{Escape}'qsgs", label: 野生動物, functional: false}
 
+  箭頭色: {text: "{Escape}'zdn", label: 箭頭色, functional: false}
+  數字色: {text: "{Escape}'mnn", label: 數字色, functional: false}
+  漢字色: {text: "{Escape}'wnn", label: 漢字色, functional: false}
+
 ## 以下符號新增第六頁
   a變: {text: "{Escape}''a", label: "A變化", functional: false}
   b變: {text: "{Escape}''b", label: "B變化", functional: false}
@@ -3337,9 +3341,9 @@ preset_keyboards:
       - {click: Return, width: 14, key_back_color: benter, key_text_color: tgn} #key_back_color: bgn
 
       - {click: 魚圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 精怪, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 精怪女, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
-      - {click: 精怪男, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
+      - {click: 精怪, long_click: 漢字色, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 精怪女, long_click: 數字色, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 精怪男, long_click: 箭頭色, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: Keyboard_symbols5, label: 5/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right

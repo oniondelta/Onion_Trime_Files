@@ -106,8 +106,9 @@ emoji_series:
     - xform/^b1s/【日本年】/
     - xform/^8x1/【阿拉伯】/
     - xform/^c5b/【黃種人／亞裔】/
-    - xform/^xau/【拉美裔／棕色人】/
-    - xform/^ynb/【棕色人／拉美裔】/
+    - xform/^xau/【拉美裔／拉丁裔／棕色人】/
+    - xform/^ynb/【棕色人／拉美裔／拉丁裔】/
+    - xform/^x2u/【拉丁裔／拉美裔／棕色人】/
     - xform/^15b/【白種人／白人】/
     - xform/^ym2/【做運動】/
     - xform/^2jx/【動物臉／獸面】/
@@ -182,6 +183,9 @@ emoji_series:
     - xform/^qra/【片假名】/
     - xform/^cjf/【韓文圈】/
     - xform/^cje/【韓文括】/
+    - xform/^rwn/【箭頭色(塊)】/
+    - xform/^gyn/【數字色(塊)】/
+    - xform/^cyn/【漢字色(塊)】/
     - xform/^ra/【(平)假名】/
 ##### 以下二字 #####
     - xform/^wn/【填色／填色塊】/
@@ -202,7 +206,8 @@ emoji_series:
     - xform/^mf/【樂器】/
     - xform/^uu/【亞裔／黃種人】/
     - xform/^1b/【白人／白種人】/
-    - xform/^cb/【黑人】/
+    - xform/^cb/【黑人／非裔】/
+    - xform/^zu/【非裔／黑人】/
     - xform/^jh/【午餐】/
     - xform/^yh/【早餐／早點】/
     - xform/^y2/【早點／早餐】/

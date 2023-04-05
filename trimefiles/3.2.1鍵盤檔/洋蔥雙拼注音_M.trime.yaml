@@ -378,6 +378,10 @@ preset_keys:
   多媒體: {text: '{Escape};dmt', label: 多媒體, functional: false}
   野生動物: {text: '{Escape};iadu', label: 野生動物, functional: false}
 
+  箭頭色: {text: '{Escape};jts', label: 箭頭色, functional: false}
+  數字色: {text: '{Escape};azs', label: 數字色, functional: false}
+  漢字色: {text: '{Escape};hzs', label: 漢字色, functional: false}
+
 ## 以下符號新增第六頁
   a變: {text: '{Escape};;a', label: 'A變化', functional: false}
   b變: {text: '{Escape};;b', label: 'B變化', functional: false}
