@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "202212"
+version: "202304"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -48,7 +48,6 @@ min_phrase_weight: 100
 蒲	pu3
 逾	yu4	90%
 蛤	ge3
-丼	dong4	200%
 樺	hua2
 緋	fei3	60%
 腕	wan3
@@ -64,7 +63,6 @@ min_phrase_weight: 100
 绮	qi2
 躍	yao4
 跃	yao4
-嚮	xiang3	200%
 蹚	tang3
 携	xi4	60%
 攜	xi4	30%
