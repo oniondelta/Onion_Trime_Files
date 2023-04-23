@@ -2171,6 +2171,7 @@ min_phrase_weight: 100
 丼	dong4	200%
 嚮	xiang3	200%
 焖	men1	1%
+察	cui4	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -55229,6 +55230,7 @@ min_phrase_weight: 100
 上行星	shang4 xing2 xing1
 上調	shang4 tiao2
 上證綜合指數	shang4 zheng4 zong1 he2 zhi3 shu4
+上證綜合指數	shang4 zheng4 zong4 he2 zhi3 shu4
 上載	shang4 zai4
 上載	shang4 zai3
 上輩子	shang4 bei4 zi5
@@ -68086,6 +68088,7 @@ min_phrase_weight: 100
 多山地區	duo1 shan1 di4 qu1
 多年媳婦熬成婆	duo1 nian2 xi2 fu4 ao2 cheng2 po2
 多式綜合語	duo1 shi4 zong4 he2 yu3
+多式綜合語	duo1 shi4 zong1 he2 yu3
 多得	duo1 de2
 多得	duo1 de5
 多得不如少得	duo1 de2 bu4 ru2 shao3 de2
@@ -72043,6 +72046,7 @@ min_phrase_weight: 100
 工作量	gong1 zuo4 liang4
 工倕	gong1 chui2
 工傷假	gong1 shang1 jia4
+工商綜合區	gong1 shang1 zong1 he2 qu1
 工商綜合區	gong1 shang1 zong4 he2 qu1
 工地	gong1 di4
 工地秀	gong1 di4 xiu4
@@ -80403,6 +80407,7 @@ min_phrase_weight: 100
 新興經濟國家	xin1 xing1 jing1 ji4 guo2 jia1
 新興縣	xin1 xing1 xian4
 新藝綜合體	xin1 yi4 zong4 he2 ti3
+新藝綜合體	xin1 yi4 zong1 he2 ti3
 新血輪	xin1 xie3 lun2
 新血輪	xin1 xue4 lun2
 新親	xin1 qin1
@@ -95224,14 +95229,21 @@ min_phrase_weight: 100
 綜合報導	zong4 he2 bao4 dao3
 綜合報導	zong1 he2 bao4 dao3
 綜合存款	zong4 he2 cun2 kuan3
+綜合存款	zong1 he2 cun2 kuan3
 綜合所得稅	zong4 he2 suo3 de2 shui4
+綜合所得稅	zong1 he2 suo3 de2 shui4
 綜合擴大機	zong4 he2 kuo4 da4 ji1
+綜合擴大機	zong1 he2 kuo4 da4 ji1
 綜合服務數位網絡	zong1 he2 fu2 wu4 shu4 wei4 wang3 luo4
+綜合服務數位網絡	zong4 he2 fu2 wu4 shu4 wei4 wang3 luo4
 綜合業務數字網	zong1 he2 ye4 wu4 shu4 zi4 wang3
+綜合業務數字網	zong4 he2 ye4 wu4 shu4 zi4 wang3
 綜合藝術	zong4 he2 yi4 shu4
 綜合藝術	zong1 he2 yi4 shu4
 綜合語	zong4 he2 yu3
+綜合語	zong1 he2 yu3
 綜合銀行	zong4 he2 yin2 hang2
+綜合銀行	zong1 he2 yin2 hang2
 綜括	zong4 gua1
 綜括	zong1 kuo4
 綜攬	zong4 lan3
@@ -95240,6 +95252,7 @@ min_phrase_weight: 100
 綜理	zong4 li3
 綜理	zong1 li3
 綜藝團	zong4 yi4 tuan2
+綜藝團	zong1 yi4 tuan2
 綜藝節目	zong4 yi4 jie2 mu4
 綜藝節目	zong1 yi4 jie2 mu4
 綜觀	zong4 guan1
@@ -109248,6 +109261,7 @@ min_phrase_weight: 100
 隱睪症	yin3 gao3 zheng4	80%
 隱祕	yin3 mi4
 隱蔽強迫下載	yin3 bi4 qiang3 po4 xia4 zai4
+隱蔽強迫下載	yin3 bi4 qiang3 po4 xia4 zai3
 隱藏	yin3 cang2
 隱藏處	yin3 cang2 chu4
 隱血	yin3 xie3
@@ -112556,4 +112570,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112559 #####
+##### @結束 END - 112573 #####
