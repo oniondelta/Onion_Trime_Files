@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobileplus
   name: "《洋蔥手機注音plus》"
-  version: "202302"
+  version: "202304"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -313,4 +313,4 @@ recognizer:
     #韓文形碼專用# korea: "(?<![-,./;a-z125890])7[+a-z;/]* ?$"
     bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
     punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
-    lua: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
+    email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"

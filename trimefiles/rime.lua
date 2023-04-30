@@ -43,7 +43,7 @@ function charset_filter2(input, env)
   if c_f2_s then
     for cand in input:iter() do
       if not string.match(cand.text, "᰼᰼" ) then
-      -- if (not string.match(cand.text, ".*᰼᰼.*" )) then
+      -- if not string.match(cand.text, ".*᰼᰼.*" ) then
         yield(cand)
       end
     end
@@ -51,7 +51,7 @@ function charset_filter2(input, env)
     for cand in input:iter() do
       yield(cand)
     end
-    -- if (input == nil) then
+    -- if input == nil then
     --   cand = nil
     -- end
   end
@@ -66,22 +66,26 @@ end
 （手機注音用）
 使 email_url_translator 功能按空白都能直接上屏
 --]]
+
 function mobile_bpmf(key, env)
+-- local function processor(key, env)
   local engine = env.engine
   local context = engine.context
+  local c_input = context.input
+  local comp = context.composition
+  local seg = comp:back()
+  local g_c_t = context:get_commit_text()
   local o_ascii_mode = context:get_option("ascii_mode")
-  local input_m = context.input
-  local orig_m = context:get_commit_text()
-  -- local check_i1 = string.match(input_m, "^[a-z][-_.0-9a-z]*@.*$")
-  -- local check_i2 = string.match(input_m, "^https?:.*$")
-  -- local check_i3 = string.match(input_m, "^ftp:.*$")
-  -- local check_i4 = string.match(input_m, "^mailto:.*$")
-  -- local check_i5 = string.match(input_m, "^file:.*$")
-  local check_i = string.match(input_m, "^[a-z][-_.0-9a-z]*@.*$") or
-                  string.match(input_m, "^https?:.*$") or
-                  string.match(input_m, "^ftp:.*$") or
-                  string.match(input_m, "^mailto:.*$") or
-                  string.match(input_m, "^file:.*$")
+  -- local check_i1 = string.match(c_input, "^[a-z][-_.0-9a-z]*@.*$")
+  -- local check_i2 = string.match(c_input, "^https?:.*$")
+  -- local check_i3 = string.match(c_input, "^ftp:.*$")
+  -- local check_i4 = string.match(c_input, "^mailto:.*$")
+  -- local check_i5 = string.match(c_input, "^file:.*$")
+  -- local check_i = string.match(c_input, "^[a-z][-_.0-9a-z]*@.*$") or
+  --                 string.match(c_input, "^https?:.*$") or
+  --                 string.match(c_input, "^ftp:.*$") or
+  --                 string.match(c_input, "^mailto:.*$") or
+  --                 string.match(c_input, "^file:.*$")
 
   -- if context:get_option("ascii_mode") then
   if o_ascii_mode then
@@ -90,10 +94,11 @@ function mobile_bpmf(key, env)
     return 2
   elseif key:repr() == "space" then
   -- if key:repr() == "space" and context:is_composing() then
-    if check_i then
+    if seg:has_tag("email_url_translator") then
+    -- if check_i then
     -- if check_i1 or check_i2 or check_i3 or check_i4 or check_i5 then
-    -- if ( string.match(input_m, "[@:]")) then
-      engine:commit_text(orig_m)
+    -- if ( string.match(c_input, "[@:]")) then
+      engine:commit_text(g_c_t)
       context:clear()
       return 1 -- kAccepted
     end
@@ -109,71 +114,49 @@ end
 --[[
 把 recognizer 正則輸入 email 使用 lua 實現，使之有選項，避免設定空白清屏時無法上屏。
 把 recognizer 正則輸入網址使用 lua 實現，使之有選項，避免設定空白清屏時無法上屏。
+可多加「www.」
 --]]
+-- local function init(env)
+-- end
+
 function email_url_translator(input, seg)
-  local url1_in = string.match(input, "^https?:.*$")
-  local url2_in = string.match(input, "^ftp:.*$")
-  local url3_in = string.match(input, "^mailto:.*$")
-  local url4_in = string.match(input, "^file:.*$")
-  -- local url_in = string.match(input, "^https?:.*$") or
-  --                string.match(input, "^ftp:.*$") or
-  --                string.match(input, "^mailto:.*$") or
-  --                string.match(input, "^file:.*$")
-  local email_in = string.match(input, "^[a-z][-_.0-9a-z]*@.*$")
-
-  -- local url_cand = Candidate("englishtype", seg.start, seg._end, input , "〔URL〕")
-  -- local email_cand = Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕")
-
-  -- if string.match(input, "^https?:.*$") or string.match(input, "^ftp:.*$") or string.match(input, "^mailto:.*$") or string.match(input, "^file:.*$") then
-  if url1_in or url2_in or url3_in or url4_in then
-  -- if url_in then
-    yield(Candidate("englishtype", seg.start, seg._end, input , "〔URL〕"))
-    -- yield(url_cand)
-    -- return
-  -- end
-  -- elseif string.match(input, "^[a-z][-_.0-9a-z]*@.*$") then
-  elseif email_in then
-    yield(Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕"))
-    -- yield(email_cand)
-    -- return
-  end
-
-end
-
-
---- @@ email_urlw_translator
---[[
-把 recognizer 正則輸入網址使用 lua 實現，使之有選項，避免設定空白清屏時無法上屏。
-該項多加「www.」
---]]
-function email_urlw_translator(input, seg)
-  local www_in = string.match(input, "^www[.][-_0-9a-z]*[-_.0-9a-z]*$")
-  local url1_in = string.match(input, "^https?:.*$")
-  local url2_in = string.match(input, "^ftp:.*$")
-  local url3_in = string.match(input, "^mailto:.*$")
-  local url4_in = string.match(input, "^file:.*$")
+-- local function translate(input, seg)
+  -- local www_in = string.match(input, "^www[.][-_0-9a-z]*[-_.0-9a-z]*$")
+  -- local url1_in = string.match(input, "^https?:.*$")
+  -- local url2_in = string.match(input, "^ftp:.*$")
+  -- local url3_in = string.match(input, "^mailto:.*$")
+  -- local url4_in = string.match(input, "^file:.*$")
   -- local www_url_in = string.match(input, "^www[.][-_0-9a-z]*[-_.0-9a-z]*$") or
   --                    string.match(input, "^https?:.*$") or
   --                    string.match(input, "^ftp:.*$") or
   --                    string.match(input, "^mailto:.*$") or
   --                    string.match(input, "^file:.*$")
-  local email_in = string.match(input, "^[a-z][-_.0-9a-z]*@.*$")
+  -- local url_in = string.match(input, "^https?:.*$") or
+  --                string.match(input, "^ftp:.*$") or
+  --                string.match(input, "^mailto:.*$") or
+  --                string.match(input, "^file:.*$")
+  -- local email_in = string.match(input, "^[a-z][-_.0-9a-z]*@.*$")
 
   -- local url_cand = Candidate("englishtype", seg.start, seg._end, input , "〔URL〕")
   -- local email_cand = Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕")
 
-  -- if string.match(input, "^www[.][-_0-9a-z]*[-_.0-9a-z]*$") or string.match(input, "^https?:.*$") or string.match(input, "^ftp:.*$") or string.match(input, "^mailto:.*$") or string.match(input, "^file:.*$") then
-  if www_in or url1_in or url2_in or url3_in or url4_in then
-  -- if www_url_in then
-    yield(Candidate("englishtype", seg.start, seg._end, input , "〔URL〕"))
-    -- yield(url_cand)
-    -- return
-  -- end
-  -- elseif string.match(input, "^[a-z][-_.0-9a-z]*@.*$") then
-  elseif email_in then
-    yield(Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕"))
-    -- yield(email_cand)
-    -- return
+  if seg:has_tag("email_url_translator") then
+    if not string.match(input, "@") then
+    -- if string.match(input, "^www[.][-_0-9a-z]*[-_.0-9a-z]*$") or string.match(input, "^https?:.*$") or string.match(input, "^ftp:.*$") or string.match(input, "^mailto:.*$") or string.match(input, "^file:.*$") then
+    -- if www_in or url1_in or url2_in or url3_in or url4_in then
+    -- if www_url_in then
+    -- if url_in then
+      yield(Candidate("englishtype", seg.start, seg._end, input , "〔URL〕"))
+      -- yield(url_cand)
+      -- return
+    -- end
+    else
+    -- elseif string.match(input, "^[a-z][-_.0-9a-z]*@.*$") then
+    -- elseif email_in then
+      yield(Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕"))
+      -- yield(email_cand)
+      -- return
+    end
   end
 
 end

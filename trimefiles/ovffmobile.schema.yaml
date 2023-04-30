@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202302"
+  version: "202304"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -81,7 +81,7 @@ engine:
     - script_translator
     - table_translator@puntocm
     - table_translator@syocm
-    - lua_translator@email_urlw_translator
+    - lua_translator@email_url_translator
 
 simplifier:
   opencc_config: tw2s.json
@@ -266,4 +266,4 @@ recognizer:
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^'[a-z']* ?$"
     punct: "[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
-    lua: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
+    email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
