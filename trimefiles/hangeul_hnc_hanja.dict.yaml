@@ -1,6 +1,6 @@
 # Rime dictionary
 # encoding: utf-8
-# 《韓語 HNC 鍵位碼表》
+# 《韓語 HNC 鍵位（純漢字）碼表》
 #
 # 參考以下製作：
 # 正碼：https://mynb.wordpress.com/2010/11/10/hnc-romaja-%e8%bc%b8%e5%85%a5%e6%b3%95%ef%bc%9a%e9%9f%93%e8%8b%b1%e5%b0%8d%e7%85%a7/
@@ -62,24 +62,24 @@ use_preset_vocabulary: false
 枷	ga;
 哥	ga;
 呵	ga;
-價	ga;	2754
-假	ga;	2760
+價	ga;
+假	ga;
 袈	ga;
-街	ga;	2164
+街	ga;
 駕	ga;
 迦	ga;
 茄	ga;
 苛	ga;
 稼	ga;
 珂	ga;
-歌	ga;	2382
+歌	ga;
 架	ga;
 暇	ga;
-家	ga;	2583
+家	ga;
 嫁	ga;
 嘉	ga;
-可	ga;	2678
-加	ga;	2715
+可	ga;
+加	ga;
 佳	ga;
 伽	ga;
 仮	ga;
@@ -99,8 +99,8 @@ use_preset_vocabulary: false
 脚	gag;
 却	gag;
 閣	gag;
-角	gag;	2154
-各	gag;	2675
+角	gag;
+各	gag;
 迀	gan;
 衎	gan;
 茛	gan;
@@ -126,11 +126,11 @@ use_preset_vocabulary: false
 艮	gan;
 懇	gan;
 墾	gan;
-間	gan;	2055
+間	gan;
 肝	gan;
 簡	gan;
 竿	gan;
-看	gan;	2279
+看	gan;
 澗	gan;
 幹	gan;
 干	gan;
@@ -179,14 +179,14 @@ use_preset_vocabulary: false
 坩	gam;
 坎	gam;
 紺	gam;
-減	gam;	2336
+減	gam;
 鑑	gam;
 監	gam;
-甘	gam;	2309
+甘	gam;
 柑	gam;
-敢	gam;	2451
+敢	gam;
 憾	gam;
-感	gam;	2491
+感	gam;
 堪	gam;
 勘	gam;
 韐	gab;
@@ -226,16 +226,16 @@ use_preset_vocabulary: false
 姜	gax;
 僵	gax;
 剛	gax;
-降	gax;	2052
+降	gax;
 鋼	gax;
-講	gax;	2130
+講	gax;
 腔	gax;
 綱	gax;
 糠	gax;
-江	gax;	2362
+江	gax;
 康	gax;
 彊	gax;
-強	gax;	2529
+強	gax;
 橿	gax;
 岡	gax;
 闓	gai;
@@ -254,25 +254,25 @@ use_preset_vocabulary: false
 愾	gai;
 剴	gai;
 价	gai;
-個	gai;	2762
+個	gai;
 鎧	gai;
 蓋	gai;
 慨	gai;
 凱	gai;
-開	gai;	2057
+開	gai;
 芥	gai;
-皆	gai;	2289
-改	gai;	2459
+皆	gai;
+改	gai;
 介	gai;
 箇	gai;
 喀	gaig;
-客	gaig;	2586
+客	gaig;
 賡	gaix;
 硜	gaix;
 鏗	gaix;
 羹	gaix;
 粳	gaix;
-更	gaix;	2419
+更	gaix;
 坑	gaix;
 醵	gyag;
 駏	ge;
@@ -293,20 +293,20 @@ use_preset_vocabulary: false
 筥	ge;
 秬	ge;
 炬	ge;
-舉	ge;	2194
+舉	ge;
 擧	ge;
 據	ge;
 倨	ge;
 裾	ge;
 据	ge;
-車	ge;	2101
+車	ge;
 鋸	ge;
 距	ge;
 渠	ge;
 拒	ge;
-巨	ge;	2553
-居	ge;	2562
-去	ge;	2689
+巨	ge;
+居	ge;
+去	ge;
 鞬	gen;
 褰	gen;
 睷	gen;
@@ -320,7 +320,7 @@ use_preset_vocabulary: false
 腱	gen;
 愆	gen;
 鍵	gen;
-建	gen;	2535
+建	gen;
 健	gen;
 件	gen;
 巾	gen;
@@ -374,12 +374,12 @@ use_preset_vocabulary: false
 狷	gyen;
 繭	gyen;
 遣	gyen;
-見	gyen;	2158
+見	gyen;
 肩	gyen;
 絹	gyen;
-犬	gyen;	2316
+犬	gyen;
 牽	gyen;
-堅	gyen;	2633
+堅	gyen;
 鰹	gyen;
 樫	gyen;
 闋	gyel;
@@ -388,9 +388,9 @@ use_preset_vocabulary: false
 缺	gyel;
 抉	gyel;
 訣	gyel;
-結	gyel;	2228
-潔	gyel;	2330
-決	gyel;	2361
+結	gyel;
+潔	gyel;
+決	gyel;
 鼸	gyem;
 黚	gyem;
 縑	gyem;
@@ -431,12 +431,12 @@ use_preset_vocabulary: false
 頸	gyex;
 竟	gyex;
 逕	gyex;
-輕	gyex;	2099
+輕	gyex;
 謦	gyex;
 莖	gyex;
 脛	gyex;
 耿	gyex;
-經	gyex;	2224
+經	gyex;
 絅	gyex;
 磬	gyex;
 痙	gyex;
@@ -454,24 +454,24 @@ use_preset_vocabulary: false
 冏	gyex;
 竸	gyex;
 頃	gyex;
-耕	gyex;	2211
+耕	gyex;
 硬	gyex;
 梗	gyex;
-更	gyex;	2419
+更	gyex;
 庚	gyex;
 鯨	gyex;
 頚	gyex;
 警	gyex;
-景	gyex;	2427
-敬	gyex;	2449
-慶	gyex;	2489
+景	gyex;
+敬	gyex;
+慶	gyex;
 傾	gyex;
-驚	gyex;	2014
+驚	gyex;
 鏡	gyex;
 境	gyex;
 卿	gyex;
-競	gyex;	2246
-京	gyex;	2790
+競	gyex;
+京	gyex;
 雞	gyei;
 葪	gyei;
 罽	gyei;
@@ -496,16 +496,16 @@ use_preset_vocabulary: false
 悸	gyei;
 屆	gyei;
 堺	gyei;
-計	gyei;	2151
+計	gyei;
 系	gyei;
 稽	gyei;
 桂	gyei;
 契	gyei;
 啓	gyei;
 係	gyei;
-季	gyei;	2598
+季	gyei;
 階	gyei;
-界	gyei;	2301
+界	gyei;
 械	gyei;
 戒	gyei;
 鷱	go;
@@ -555,11 +555,11 @@ use_preset_vocabulary: false
 叩	go;
 尻	go;
 皐	go;
-告	go;	2666
+告	go;
 拷	go;
-高	go;	2011
+高	go;
 膏	go;
-考	go;	2213
+考	go;
 稿	go;
 鼓	go;
 顧	go;
@@ -569,13 +569,13 @@ use_preset_vocabulary: false
 股	go;
 袴	go;
 枯	go;
-故	go;	2456
+故	go;
 庫	go;
 孤	go;
 姑	go;
-固	go;	2647
-古	go;	2680
-苦	go;	2184
+固	go;
+古	go;
+苦	go;
 觳	gog;
 縠	gog;
 嚳	gog;
@@ -584,10 +584,10 @@ use_preset_vocabulary: false
 梏	gog;
 斛	gog;
 哭	gog;
-谷	gog;	2254
+谷	gog;
 鵠	gog;
 穀	gog;
-曲	gog;	2420
+曲	gog;
 齫	gon;
 鵾	gon;
 髡	gon;
@@ -611,13 +611,13 @@ use_preset_vocabulary: false
 梱	gon;
 昆	gon;
 坤	gon;
-困	gon;	2648
+困	gon;
 矻	gol;
 搰	gol;
 鶻	gol;
 汨	gol;
 榾	gol;
-骨	gol;	2013
+骨	gol;
 滑	gol;
 龔	gox;
 贛	gox;
@@ -638,14 +638,14 @@ use_preset_vocabulary: false
 貢	gox;
 攻	gox;
 控	gox;
-工	gox;	2555
+工	gox;
 孔	gox;
-功	gox;	2716
-公	gox;	2739
-空	gox;	2252
+功	gox;
+公	gox;
+空	gox;
 恭	gox;
 恐	gox;
-共	gox;	2737
+共	gox;
 供	gox;
 串	goj;
 騍	goa;
@@ -666,11 +666,11 @@ use_preset_vocabulary: false
 鍋	goa;
 跨	goa;
 誇	goa;
-過	goa;	2082
-課	goa;	2136
+過	goa;
+課	goa;
 菓	goa;
-果	goa;	2399
-科	goa;	2258
+果	goa;
+科	goa;
 寡	goa;
 瓜	goa;
 鞹	goag;
@@ -696,9 +696,9 @@ use_preset_vocabulary: false
 寬	goan;
 鸛	goan;
 顴	goan;
-關	goan;	2054
+關	goan;
 鑵	goan;
-觀	goan;	2155
+觀	goan;
 罐	goan;
 綰	goan;
 盥	goan;
@@ -712,7 +712,7 @@ use_preset_vocabulary: false
 款	goan;
 棺	goan;
 慣	goan;
-官	goan;	2589
+官	goan;
 冠	goan;
 鴰	goal;
 髺	goal;
@@ -743,9 +743,9 @@ use_preset_vocabulary: false
 洸	goax;
 框	goax;
 曠	goax;
-廣	goax;	2536
+廣	goax;
 壙	goax;
-光	goax;	2747
+光	goax;
 狂	goax;
 匡	goax;
 詿	goai;
@@ -815,14 +815,14 @@ use_preset_vocabulary: false
 鮫	gyo;
 郊	gyo;
 絞	gyo;
-校	gyo;	2396
+校	gyo;
 巧	gyo;
 佼	gyo;
-交	gyo;	2791
+交	gyo;
 蕎	gyo;
 矯	gyo;
-橋	gyo;	2386
-教	gyo;	2452
+橋	gyo;
+教	gyo;
 喬	gyo;
 僑	gyo;
 較	gyo;
@@ -875,7 +875,7 @@ use_preset_vocabulary: false
 蚯	gu;
 蒟	gu;
 苟	gu;
-舊	gu;	2193
+舊	gu;
 舅	gu;
 篝	gu;
 窶	gu;
@@ -897,7 +897,7 @@ use_preset_vocabulary: false
 媾	gu;
 嘔	gu;
 咎	gu;
-區	gu;	2702
+區	gu;
 劬	gu;
 冓	gu;
 傴	gu;
@@ -910,7 +910,7 @@ use_preset_vocabulary: false
 構	gu;
 拘	gu;
 垢	gu;
-口	gu;	2681
+口	gu;
 勾	gu;
 具	gu;
 駒	gu;
@@ -918,15 +918,15 @@ use_preset_vocabulary: false
 矩	gu;
 玖	gu;
 狗	gu;
-句	gu;	2679
-九	gu;	2797
-究	gu;	2253
-球	gu;	2311
+句	gu;
+九	gu;
+究	gu;
+球	gu;
 灸	gu;
 求	gu;
-救	gu;	2454
+救	gu;
 仇	gu;
-久	gu;	2799
+久	gu;
 丘	gu;
 臼	gu;
 麴	gug;
@@ -934,8 +934,8 @@ use_preset_vocabulary: false
 匊	gug;
 跼	gug;
 鞫	gug;
-國	gug;	2646
-局	gug;	2563
+國	gug;
+局	gug;
 鞠	gug;
 菊	gug;
 掬	gug;
@@ -947,9 +947,9 @@ use_preset_vocabulary: false
 皸	gun;
 桾	gun;
 郡	gun;
-軍	gun;	2100
+軍	gun;
 群	gun;
-君	gun;	2669
+君	gun;
 詘	gul;
 淈	gul;
 崛	gul;
@@ -963,7 +963,7 @@ use_preset_vocabulary: false
 躬	gux;
 穹	gux;
 窮	gux;
-弓	gux;	2533
+弓	gux;
 宮	gux;
 睠	guen;
 淃	guen;
@@ -972,11 +972,11 @@ use_preset_vocabulary: false
 蜷	guen;
 綣	guen;
 眷	guen;
-權	guen;	2385
+權	guen;
 惓	guen;
 圈	guen;
-卷	guen;	2692
-勸	guen;	2705
+卷	guen;
+勸	guen;
 捲	guen;
 拳	guen;
 券	guen;
@@ -1009,10 +1009,10 @@ use_preset_vocabulary: false
 机	guei;
 晷	gui;
 龜	gui;
-歸	gui;	2374
-句	gui;	2679
+歸	gui;
+句	gui;
 鬼	gui;
-貴	gui;	2114
+貴	gui;
 頍	gyu;
 闚	gyu;
 邽	gyu;
@@ -1054,7 +1054,7 @@ use_preset_vocabulary: false
 龜	gyun;
 鈞	gyun;
 菌	gyun;
-均	gyun;	2638
+均	gyun;
 橘	gyul;
 郄	gwg;
 郤	gwg;
@@ -1067,7 +1067,7 @@ use_preset_vocabulary: false
 隙	gwg;
 戟	gwg;
 劇	gwg;
-極	gwg;	2390
+極	gwg;
 靳	gwn;
 觔	gwn;
 漌	gwn;
@@ -1085,13 +1085,13 @@ use_preset_vocabulary: false
 瑾	gwn;
 槿	gwn;
 懃	gwn;
-根	gwn;	2395
-近	gwn;	2095
+根	gwn;
+近	gwn;
 謹	gwn;
 芹	gwn;
 筋	gwn;
 斤	gwn;
-勤	gwn;	2706
+勤	gwn;
 僅	gwn;
 契	gwl;
 黅	gwm;
@@ -1104,13 +1104,13 @@ use_preset_vocabulary: false
 衾	gwm;
 擒	gwm;
 噤	gwm;
-今	gwm;	2787
+今	gwm;
 檎	gwm;
-金	gwm;	2066
+金	gwm;
 襟	gwm;
 衿	gwm;
 禽	gwm;
-禁	gwm;	2264
+禁	gwm;
 琴	gwm;
 錦	gwm;
 芨	gwb;
@@ -1119,12 +1119,12 @@ use_preset_vocabulary: false
 伋	gwb;
 皀	gwb;
 岌	gwb;
-給	gwb;	2226
+給	gwb;
 級	gwb;
 笈	gwb;
 汲	gwb;
-急	gwb;	2507
-及	gwb;	2686
+急	gwb;
+及	gwb;
 扱	gwb;
 殑	gwx;
 矜	gwx;
@@ -1185,7 +1185,7 @@ use_preset_vocabulary: false
 畸	gi;
 淇	gi;
 沂	gi;
-氣	gi;	2365
+氣	gi;
 棊	gi;
 杞	gi;
 朞	gi;
@@ -1203,16 +1203,16 @@ use_preset_vocabulary: false
 埼	gi;
 崎	gi;
 碁	gi;
-己	gi;	2552
+己	gi;
 祁	gi;
 祇	gi;
 欺	gi;
-技	gi;	2475
+技	gi;
 妓	gi;
 騎	gi;
 飢	gi;
-起	gi;	2105
-記	gi;	2149
+起	gi;
+記	gi;
 紀	gi;
 祈	gi;
 畿	gi;
@@ -1220,14 +1220,14 @@ use_preset_vocabulary: false
 機	gi;
 棄	gi;
 棋	gi;
-期	gi;	2410
+期	gi;
 旗	gi;
 忌	gi;
 幾	gi;
 岐	gi;
 寄	gi;
 奇	gi;
-基	gi;	2635
+基	gi;
 器	gi;
 伎	gi;
 企	gi;
@@ -1238,8 +1238,8 @@ use_preset_vocabulary: false
 拮	gil;
 佶	gil;
 桔	gil;
-吉	gil;	2673
-金	gim;	2066
+吉	gil;
+金	gim;
 喫	ggig;
 糥	na;
 挪	na;
@@ -1259,8 +1259,8 @@ use_preset_vocabulary: false
 煗	nan;
 偄	nan;
 赧	nan;
-難	nan;	2044
-暖	nan;	2424
+難	nan;
+暖	nan;
 捏	nal;
 捺	nal;
 湳	nam;
@@ -1269,8 +1269,8 @@ use_preset_vocabulary: false
 娚	nam;
 喃	nam;
 楠	nam;
-南	nam;	2695
-男	nam;	2302
+南	nam;
+男	nam;
 衲	nab;
 納	nab;
 囊	nax;
@@ -1280,22 +1280,22 @@ use_preset_vocabulary: false
 柰	nai;
 嬭	nai;
 奶	nai;
-內	nai;	2743
+內	nai;
 迺	nai;
 乃	nai;
 匂	nai;
 奈	nai;
 耐	nai;
-女	nye;	2614
+女	nye;
 惄	nyeg;
 秊	nyen;
 碾	nyen;
 撚	nyen;
-年	nyen;	2543
+年	nyen;
 拈	nyem;
 恬	nyem;
 捻	nyem;
-念	nyem;	2510
+念	nyem;
 寗	nyex;
 儜	nyex;
 濘	nyex;
@@ -1311,14 +1311,14 @@ use_preset_vocabulary: false
 弩	no;
 孥	no;
 呶	no;
-怒	no;	2509
+怒	no;
 奴	no;
 努	no;
 醲	nox;
 穠	nox;
 噥	nox;
 儂	nox;
-農	nox;	2097
+農	nox;
 膿	nox;
 濃	nox;
 餒	noi;
@@ -1343,7 +1343,7 @@ use_preset_vocabulary: false
 紐	nyu;
 靵	nyu;
 衄	nyug;
-能	nwx;	2202
+能	nwx;
 柅	ni;
 呢	ni;
 你	ni;
@@ -1358,8 +1358,8 @@ use_preset_vocabulary: false
 暱	nil;
 昵	nil;
 爹	da;
-茶	da;	2182
-多	da;	2623
+茶	da;
+多	da;
 腶	dan;
 耑	dan;
 簞	dan;
@@ -1374,8 +1374,8 @@ use_preset_vocabulary: false
 斷	dan;
 慱	dan;
 彖	dan;
-團	dan;	2642
-單	dan;	2653
+團	dan;
+單	dan;
 亶	dan;
 椴	dan;
 段	dan;
@@ -1384,8 +1384,8 @@ use_preset_vocabulary: false
 鍛	dan;
 蛋	dan;
 胆	dan;
-端	dan;	2247
-短	dan;	2273
+端	dan;
+短	dan;
 旦	dan;
 担	dan;
 丹	dan;
@@ -1399,7 +1399,7 @@ use_preset_vocabulary: false
 撻	dal;
 怛	dal;
 妲	dal;
-達	dal;	2080
+達	dal;
 黵	dam;
 黮	dam;
 錟	dam;
@@ -1425,14 +1425,14 @@ use_preset_vocabulary: false
 啗	dam;
 啖	dam;
 曇	dam;
-談	dam;	2134
+談	dam;
 湛	dam;
 淡	dam;
 龘	dab;
 遝	dab;
 畓	dab;
 踏	dab;
-答	dab;	2240
+答	dab;
 沓	dab;
 餹	dax;
 餳	dax;
@@ -1451,13 +1451,13 @@ use_preset_vocabulary: false
 螳	dax;
 礑	dax;
 瞠	dax;
-當	dax;	2296
+當	dax;
 溏	dax;
 棠	dax;
 幢	dax;
 儻	dax;
 撞	dax;
-堂	dax;	2634
+堂	dax;
 糖	dax;
 塘	dax;
 唐	dax;
@@ -1471,20 +1471,20 @@ use_preset_vocabulary: false
 玳	dai;
 擡	dai;
 帶	dai;
-對	dai;	2569
+對	dai;
 垈	dai;
-大	dai;	2621
-代	dai;	2784
+大	dai;
+代	dai;
 黛	dai;
 隊	dai;
 貸	dai;
 袋	dai;
 戴	dai;
-待	dai;	2525
+待	dai;
 岱	dai;
 碓	dai;
-宅	daig;	2595
-德	daig;	2519
+宅	daig;
+德	daig;
 悳	daig;
 鼗	do;
 鞱	do;
@@ -1517,29 +1517,29 @@ use_preset_vocabulary: false
 搗	do;
 掉	do;
 掏	do;
-圖	do;	2643
+圖	do;
 叨	do;
-道	do;	2081
+道	do;
 萄	do;
 導	do;
 陶	do;
 逃	do;
-到	do;	2720
+到	do;
 淘	do;
 桃	do;
 悼	do;
 嶋	do;
-島	do;	2558
-刀	do;	2728
+島	do;
+刀	do;
 倒	do;
-度	do;	2538
+度	do;
 鍍	do;
-都	do;	2074
+都	do;
 途	do;
 賭	do;
 菟	do;
 渡	do;
-徒	do;	2522
+徒	do;
 屠	do;
 塗	do;
 堵	do;
@@ -1548,9 +1548,9 @@ use_preset_vocabulary: false
 瀆	dog;
 櫝	dog;
 黷	dog;
-讀	dog;	2125
+讀	dog;
 纛	dog;
-獨	dog;	2315
+獨	dog;
 犢	dog;
 牘	dog;
 毒	dog;
@@ -1594,33 +1594,33 @@ use_preset_vocabulary: false
 錬	dox;
 銅	dox;
 胴	dox;
-童	dox;	2248
+童	dox;
 瞳	dox;
 洞	dox;
 憧	dox;
-同	dox;	2672
-動	dox;	2711
+同	dox;
+動	dox;
 働	dox;
 董	dox;
 棟	dox;
-東	dox;	2402
+東	dox;
 凍	dox;
-冬	dox;	2732
+冬	dox;
 桐	dox;
 仝	dox;
 陡	du;
 脰	du;
 枓	du;
 斁	du;
-讀	du;	2125
+讀	du;
 蠹	du;
 蚪	du;
 荳	du;
 肚	du;
 竇	du;
 抖	du;
-頭	du;	2027
-豆	du;	2122
+頭	du;
+豆	du;
 痘	du;
 杜	du;
 斗	du;
@@ -1635,7 +1635,7 @@ use_preset_vocabulary: false
 遁	dun;
 屯	dun;
 乧	dul;
-得	dwg;	2521
+得	dwg;
 螣	dwx;
 墱	dwx;
 凳	dwx;
@@ -1650,9 +1650,9 @@ use_preset_vocabulary: false
 鐙	dwx;
 謄	dwx;
 藤	dwx;
-等	dwx;	2241
-燈	dwx;	2323
-登	dwx;	2294
+等	dwx;
+燈	dwx;
+登	dwx;
 驘	la;
 臝	la;
 砢	la;
@@ -1675,9 +1675,9 @@ use_preset_vocabulary: false
 珞	lag;
 犖	lag;
 烙	lag;
-樂	lag;	2388
+樂	lag;
 酪	lag;
-落	lag;	2177
+落	lag;
 絡	lag;
 洛	lag;
 灓	lan;
@@ -1727,7 +1727,7 @@ use_preset_vocabulary: false
 琅	lax;
 郎	lax;
 狼	lax;
-浪	lax;	2347
+浪	lax;
 榔	lax;
 朗	lax;
 廊	lax;
@@ -1736,8 +1736,8 @@ use_preset_vocabulary: false
 淶	lai;
 崍	lai;
 徠	lai;
-來	lai;	2770
-冷	laix;	2730
+來	lai;
+冷	laix;
 畧	lyag;
 略	lyag;
 掠	lyag;
@@ -1750,13 +1750,13 @@ use_preset_vocabulary: false
 粱	lyax;
 喨	lyax;
 凉	lyax;
-兩	lyax;	2741
+兩	lyax;
 倆	lyax;
-量	lyax;	2067
+量	lyax;
 諒	lyax;
-良	lyax;	2188
+良	lyax;
 糧	lyax;
-涼	lyax;	2342
+涼	lyax;
 梁	lyax;
 亮	lyax;
 椋	lyax;
@@ -1786,11 +1786,11 @@ use_preset_vocabulary: false
 儷	lye;
 呂	lye;
 麗	lye;
-旅	lye;	2441
+旅	lye;
 慮	lye;
 侶	lye;
 酈	lyeg;
-歷	lyeg;	2375
+歷	lyeg;
 曆	lyeg;
 攊	lyeg;
 靂	lyeg;
@@ -1801,17 +1801,17 @@ use_preset_vocabulary: false
 瀝	lyeg;
 櫪	lyeg;
 櫟	lyeg;
-力	lyeg;	2717
+力	lyeg;
 湅	lyen;
 孌	lyen;
 璉	lyen;
 楝	lyen;
 攣	lyen;
 戀	lyen;
-連	lyen;	2087
+連	lyen;
 蓮	lyen;
 聯	lyen;
-練	lyen;	2221
+練	lyen;
 煉	lyen;
 漣	lyen;
 憐	lyen;
@@ -1822,9 +1822,9 @@ use_preset_vocabulary: false
 捩	lyel;
 冽	lyel;
 裂	lyel;
-烈	lyel;	2328
+烈	lyel;
 劣	lyel;
-列	lyel;	2725
+列	lyel;
 磏	lyem;
 殮	lyem;
 瀲	lyem;
@@ -1864,15 +1864,15 @@ use_preset_vocabulary: false
 怜	lyex;
 嶺	lyex;
 伶	lyex;
-令	lyex;	2783
-領	lyex;	2028
+令	lyex;
+領	lyex;
 澧	lyei;
 鱧	lyei;
 隸	lyei;
 醴	lyei;
-禮	lyei;	2262
+禮	lyei;
 隷	lyei;
-例	lyei;	2769
+例	lyei;
 鸕	lo;
 髗	lo;
 鐪	lo;
@@ -1897,10 +1897,10 @@ use_preset_vocabulary: false
 瀘	lo;
 滷	lo;
 撈	lo;
-勞	lo;	2708
-老	lo;	2214
-露	lo;	2039
-路	lo;	2103
+勞	lo;
+老	lo;
+露	lo;
+路	lo;
 櫓	lo;
 魯	lo;
 虜	lo;
@@ -1912,14 +1912,14 @@ use_preset_vocabulary: false
 淥	log;
 彔	log;
 圥	log;
-綠	log;	2223
+綠	log;
 轆	log;
 祿	log;
 碌	log;
 麓	log;
 鹿	log;
 漉	log;
-論	lon;	2132
+論	lon;
 龎	lox;
 礱	lox;
 曨	lox;
@@ -1974,7 +1974,7 @@ use_preset_vocabulary: false
 遼	lyo;
 瞭	lyo;
 療	lyo;
-料	lyo;	2445
+料	lyo;
 寮	lyo;
 僚	lyo;
 了	lyo;
@@ -2012,18 +2012,18 @@ use_preset_vocabulary: false
 類	lyu;
 瑠	lyu;
 硫	lyu;
-留	lyu;	2300
+留	lyu;
 琉	lyu;
 溜	lyu;
-流	lyu;	2348
+流	lyu;
 劉	lyu;
 柳	lyu;
 謬	lyu;
 僇	lyug;
 戮	lyug;
 勠	lyug;
-六	lyug;	2738
-陸	lyug;	2048
+六	lyug;
+陸	lyug;
 掄	lyun;
 綸	lyun;
 淪	lyun;
@@ -2034,7 +2034,7 @@ use_preset_vocabulary: false
 溧	lyul;
 嵂	lyul;
 慄	lyul;
-律	lyul;	2524
+律	lyul;
 栗	lyul;
 癃	lyux;
 窿	lyux;
@@ -2079,17 +2079,17 @@ use_preset_vocabulary: false
 俚	li;
 厘	li;
 離	li;
-里	li;	2070
+里	li;
 裡	li;
 裏	li;
 痢	li;
 璃	li;
-理	li;	2310
+理	li;
 梨	li;
 李	li;
 履	li;
 吏	li;
-利	li;	2721
+利	li;
 哩	li;
 狸	li;
 鯉	li;
@@ -2120,11 +2120,11 @@ use_preset_vocabulary: false
 臨	lim;
 琳	lim;
 淋	lim;
-林	lim;	2400
+林	lim;
 砬	lib;
 岦	lib;
 粒	lib;
-立	lib;	2250
+立	lib;
 笠	lib;
 麽	ma;
 螞	ma;
@@ -2140,7 +2140,7 @@ use_preset_vocabulary: false
 魔	ma;
 磨	ma;
 摩	ma;
-馬	ma;	2015
+馬	ma;
 鏌	mag;
 邈	mag;
 瞙	mag;
@@ -2150,7 +2150,7 @@ use_preset_vocabulary: false
 莫	mag;
 漠	mag;
 鏋	man;
-晚	man;	2429
+晚	man;
 嫚	man;
 墁	man;
 鬘	man;
@@ -2160,11 +2160,11 @@ use_preset_vocabulary: false
 蹣	man;
 謾	man;
 蠻	man;
-萬	man;	2178
+萬	man;
 縵	man;
 瞞	man;
 灣	man;
-滿	man;	2333
+滿	man;
 彎	man;
 幔	man;
 巒	man;
@@ -2185,7 +2185,7 @@ use_preset_vocabulary: false
 茉	mal;
 秣	mal;
 沫	mal;
-末	mal;	2407
+末	mal;
 抹	mal;
 邙	max;
 輞	max;
@@ -2201,18 +2201,18 @@ use_preset_vocabulary: false
 惘	max;
 網	max;
 妄	max;
-望	max;	2412
-忙	max;	2513
-忘	max;	2514
-亡	max;	2792
+望	max;
+忙	max;
+忘	max;
+亡	max;
 霉	mai;
 酶	mai;
 玫	mai;
 沬	mai;
-每	mai;	2370
+每	mai;
 怰	mai;
 邁	mai;
-賣	mai;	2109
+賣	mai;
 莓	mai;
 苺	mai;
 眛	mai;
@@ -2220,17 +2220,17 @@ use_preset_vocabulary: false
 魅	mai;
 枚	mai;
 昧	mai;
-妹	mai;	2610
+妹	mai;
 埋	mai;
 呆	mai;
-買	mai;	2113
+買	mai;
 煤	mai;
 楳	mai;
 梅	mai;
 媒	mai;
 罵	mai;
 貃	maig;
-麥	maig;	2006
+麥	maig;
 驀	maig;
 陌	maig;
 貘	maig;
@@ -2260,13 +2260,13 @@ use_preset_vocabulary: false
 湎	myen;
 冕	myen;
 俛	myen;
-面	myen;	2035
+面	myen;
 緬	myen;
 綿	myen;
 棉	myen;
-免	myen;	2746
-眠	myen;	2277
-勉	myen;	2712
+免	myen;
+眠	myen;
+勉	myen;
 衊	myel;
 篾	myel;
 滅	myel;
@@ -2280,11 +2280,11 @@ use_preset_vocabulary: false
 瞑	myex;
 溟	myex;
 暝	myex;
-鳴	myex;	2007
+鳴	myex;
 銘	myex;
-明	myex;	2437
-命	myex;	2663
-名	myex;	2671
+明	myex;
+命	myex;
+名	myex;
 冥	myex;
 皿	myex;
 袂	myei;
@@ -2309,7 +2309,7 @@ use_preset_vocabulary: false
 旄	mo;
 姆	mo;
 耗	mo;
-毛	mo;	2368
+毛	mo;
 模	mo;
 摸	mo;
 矛	mo;
@@ -2321,8 +2321,8 @@ use_preset_vocabulary: false
 冒	mo;
 某	mo;
 帽	mo;
-母	mo;	2371
-暮	mo;	2422
+母	mo;
+暮	mo;
 慕	mo;
 募	mo;
 侮	mo;
@@ -2334,8 +2334,8 @@ use_preset_vocabulary: false
 苜	mog;
 沐	mog;
 凩	mog;
-目	mog;	2283
-木	mog;	2409
+目	mog;
+木	mog;
 穆	mog;
 睦	mog;
 牧	mog;
@@ -2362,7 +2362,7 @@ use_preset_vocabulary: false
 渺	myo;
 昴	myo;
 杳	myo;
-妙	myo;	2611
+妙	myo;
 墓	myo;
 錨	myo;
 苗	myo;
@@ -2388,13 +2388,13 @@ use_preset_vocabulary: false
 茂	mu;
 鵡	mu;
 霧	mu;
-無	mu;	2327
-務	mu;	2710
+無	mu;
+務	mu;
 貿	mu;
 戊	mu;
 蕪	mu;
-舞	mu;	2190
-武	mu;	2377
+舞	mu;
+武	mu;
 撫	mu;
 畝	mu;
 嘿	mug;
@@ -2412,16 +2412,16 @@ use_preset_vocabulary: false
 刎	mun;
 們	mun;
 匁	mun;
-門	mun;	2059
+門	mun;
 紋	mun;
-問	mun;	2657
-聞	mun;	2208
-文	mun;	2446
+問	mun;
+聞	mun;
+文	mun;
 吻	mun;
 蚊	mun;
 沕	mul;
 勿	mul;
-物	mul;	2318
+物	mul;
 蘼	mi;
 苿	mi;
 獼	mi;
@@ -2447,13 +2447,13 @@ use_preset_vocabulary: false
 媚	mi;
 弥	mi;
 迷	mi;
-未	mi;	2408
-味	mi;	2665
-米	mi;	2237
-美	mi;	2217
+未	mi;
+味	mi;
+米	mi;
+美	mi;
 眉	mi;
 微	mi;
-尾	mi;	2564
+尾	mi;
 謎	mi;
 梶	mi;
 鰵	min;
@@ -2479,13 +2479,13 @@ use_preset_vocabulary: false
 愍	min;
 岷	min;
 悶	min;
-民	min;	2366
+民	min;
 敏	min;
 滵	mil;
 謐	mil;
 樒	mil;
 蜜	mil;
-密	mil;	2580
+密	mil;
 髆	bag;
 鎛	bag;
 牔	bag;
@@ -2533,7 +2533,7 @@ use_preset_vocabulary: false
 返	ban;
 磐	ban;
 盤	ban;
-飯	ban;	2021
+飯	ban;
 頒	ban;
 般	ban;
 畔	ban;
@@ -2541,8 +2541,8 @@ use_preset_vocabulary: false
 斑	ban;
 搬	ban;
 叛	ban;
-反	ban;	2684
-半	ban;	2698
+反	ban;
+半	ban;
 伴	ban;
 鵓	bal;
 鈸	bal;
@@ -2554,7 +2554,7 @@ use_preset_vocabulary: false
 魃	bal;
 髮	bal;
 跋	bal;
-發	bal;	2293
+發	bal;
 渤	bal;
 撥	bal;
 拔	bal;
@@ -2588,7 +2588,7 @@ use_preset_vocabulary: false
 幇	bax;
 尨	bax;
 厖	bax;
-防	bax;	2053
+防	bax;
 肪	bax;
 紡	bax;
 房	bax;
@@ -2596,10 +2596,10 @@ use_preset_vocabulary: false
 坊	bax;
 傍	bax;
 邦	bax;
-訪	bax;	2148
+訪	bax;
 芳	bax;
-方	bax;	2443
-放	bax;	2458
+方	bax;
+放	bax;
 倣	bax;
 褙	bai;
 蓓	bai;
@@ -2611,10 +2611,10 @@ use_preset_vocabulary: false
 琲	bai;
 焙	bai;
 湃	bai;
-拜	bai;	2471
+拜	bai;
 徘	bai;
 坏	bai;
-北	bai;	2703
+北	bai;
 陪	bai;
 賠	bai;
 培	bai;
@@ -2630,8 +2630,8 @@ use_preset_vocabulary: false
 粨	baig;
 帛	baig;
 佰	baig;
-百	baig;	2291
-白	baig;	2292
+百	baig;
+白	baig;
 柏	baig;
 伯	baig;
 栢	baig;
@@ -2644,7 +2644,7 @@ use_preset_vocabulary: false
 樊	ben;
 翻	ben;
 蕃	ben;
-番	ben;	2299
+番	ben;
 煩	ben;
 藩	ben;
 繁	ben;
@@ -2654,7 +2654,7 @@ use_preset_vocabulary: false
 閥	bel;
 筏	bel;
 罰	bel;
-伐	bel;	2779
+伐	bel;
 颿	bem;
 釩	bem;
 訉	bem;
@@ -2669,7 +2669,7 @@ use_preset_vocabulary: false
 氾	bem;
 帆	bem;
 琺	beb;
-法	beb;	2356
+法	beb;
 鼊	byeg;
 鷿	byeg;
 疈	byeg;
@@ -2697,18 +2697,18 @@ use_preset_vocabulary: false
 邊	byen;
 辯	byen;
 辮	byen;
-變	byen;	2124
+變	byen;
 抃	byen;
 卞	byen;
 辨	byen;
 弁	byen;
-便	byen;	2767
+便	byen;
 鷩	byel;
 鱉	byel;
 彆	byel;
 鼈	byel;
 瞥	byel;
-別	byel;	2722
+別	byel;
 騈	byex;
 鉼	byex;
 鈵	byex;
@@ -2731,10 +2731,10 @@ use_preset_vocabulary: false
 並	byex;
 柄	byex;
 塀	byex;
-兵	byex;	2736
+兵	byex;
 丙	byex;
 鋲	byex;
-病	byex;	2295
+病	byex;
 靌	bo;
 簠	bo;
 盙	bo;
@@ -2742,19 +2742,19 @@ use_preset_vocabulary: false
 潽	bo;
 湺	bo;
 洑	bo;
-步	bo;	2378
+步	bo;
 俌	bo;
 黼	bo;
 褓	bo;
 葆	bo;
 寶	bo;
 堡	bo;
-報	bo;	2632
+報	bo;
 菩	bo;
 輔	bo;
 補	bo;
 甫	bo;
-保	bo;	2765
+保	bo;
 譜	bo;
 普	bo;
 鴇	bo;
@@ -2780,11 +2780,11 @@ use_preset_vocabulary: false
 覆	bog;
 複	bog;
 腹	bog;
-福	bog;	2263
-服	bog;	2413
+福	bog;
+服	bog;
 復	bog;
-伏	bog;	2780
-本	bon;	2406
+伏	bog;
+本	bon;
 乶	bol;
 鴌	box;
 綘	box;
@@ -2804,7 +2804,7 @@ use_preset_vocabulary: false
 捧	box;
 峯	box;
 峰	box;
-奉	box;	2615
+奉	box;
 俸	box;
 封	box;
 逢	box;
@@ -2853,7 +2853,7 @@ use_preset_vocabulary: false
 覆	bu;
 復	bu;
 副	bu;
-部	bu;	2075
+部	bu;
 附	bu;
 阜	bu;
 赴	bu;
@@ -2863,23 +2863,23 @@ use_preset_vocabulary: false
 膚	bu;
 腐	bu;
 符	bu;
-父	bu;	2321
-浮	bu;	2346
+父	bu;
+浮	bu;
 斧	bu;
 敷	bu;
-扶	bu;	2477
+扶	bu;
 府	bu;
-富	bu;	2579
-婦	bu;	2603
-夫	bu;	2618
+富	bu;
+婦	bu;
+夫	bu;
 埠	bu;
 付	bu;
-不	bu;	2803
-否	bu;	2668
+不	bu;
+否	bu;
 蔀	bu;
 缶	bu;
 釜	bu;
-北	bug;	2703
+北	bug;
 鼢	bun;
 黺	bun;
 轒	bun;
@@ -2916,7 +2916,7 @@ use_preset_vocabulary: false
 憤	bun;
 墳	bun;
 噴	bun;
-分	bun;	2727
+分	bun;
 体	bun;
 韍	bul;
 茀	bul;
@@ -2928,9 +2928,9 @@ use_preset_vocabulary: false
 祓	bul;
 拂	bul;
 彿	bul;
-佛	bul;	2773
+佛	bul;
 弗	bul;
-不	bul;	2803
+不	bul;
 鬅	bux;
 漰	bux;
 繃	bux;
@@ -3002,13 +3002,13 @@ use_preset_vocabulary: false
 俾	bi;
 丕	bi;
 沸	bi;
-鼻	bi;	2002
+鼻	bi;
 琵	bi;
 毘	bi;
 枇	bi;
-備	bi;	2757
-飛	bi;	2023
-非	bi;	2036
+備	bi;
+飛	bi;
+非	bi;
 費	bi;
 誹	bi;
 肥	bi;
@@ -3016,11 +3016,11 @@ use_preset_vocabulary: false
 秘	bi;
 碑	bi;
 泌	bi;
-比	bi;	2369
+比	bi;
 斐	bi;
 批	bi;
 扉	bi;
-悲	bi;	2500
+悲	bi;
 庇	bi;
 妃	bi;
 卑	bi;
@@ -3049,7 +3049,7 @@ use_preset_vocabulary: false
 牝	bin;
 頻	bin;
 賓	bin;
-貧	bin;	2118
+貧	bin;
 瀕	bin;
 浜	bin;
 斌	bin;
@@ -3061,7 +3061,7 @@ use_preset_vocabulary: false
 憑	bix;
 娉	bix;
 凭	bix;
-冰	bix;	2731
+冰	bix;
 氷	bix;
 魦	sa;
 蜡	sa;
@@ -3083,7 +3083,7 @@ use_preset_vocabulary: false
 駟	sa;
 辭	sa;
 莎	sa;
-舍	sa;	2191
+舍	sa;
 肆	sa;
 耜	sa;
 絲	sa;
@@ -3096,7 +3096,7 @@ use_preset_vocabulary: false
 泗	sa;
 梭	sa;
 徙	sa;
-寫	sa;	2575
+寫	sa;
 娑	sa;
 奢	sa;
 俟	sa;
@@ -3107,31 +3107,31 @@ use_preset_vocabulary: false
 笥	sa;
 邪	sa;
 蛇	sa;
-謝	sa;	2129
+謝	sa;
 紗	sa;
 社	sa;
 斜	sa;
 赦	sa;
 捨	sa;
-射	sa;	2572
-寺	sa;	2573
+射	sa;
+寺	sa;
 似	sa;
-事	sa;	2796
+事	sa;
 飼	sa;
 賜	sa;
 詞	sa;
-私	sa;	2260
+私	sa;
 獅	sa;
-死	sa;	2373
+死	sa;
 斯	sa;
-思	sa;	2508
-師	sa;	2547
-士	sa;	2629
-四	sa;	2651
+思	sa;
+師	sa;
+士	sa;
+四	sa;
 嗣	sa;
-史	sa;	2677
+史	sa;
 司	sa;
-使	sa;	2771
+使	sa;
 伺	sa;
 仕	sa;
 咋	sa;
@@ -3147,7 +3147,7 @@ use_preset_vocabulary: false
 鑠	sag;
 爍	sag;
 槊	sag;
-數	sag;	2447
+數	sag;
 索	sag;
 朔	sag;
 削	sag;
@@ -3169,17 +3169,17 @@ use_preset_vocabulary: false
 刪	san;
 蒜	san;
 酸	san;
-算	san;	2239
+算	san;
 産	san;
 珊	san;
-散	san;	2450
-山	san;	2559
+散	san;
+山	san;
 傘	san;
 煞	sal;
 乷	sal;
 撒	sal;
 薩	sal;
-殺	sal;	2372
+殺	sal;
 鬖	sam;
 糝	sam;
 渗	sam;
@@ -3187,10 +3187,10 @@ use_preset_vocabulary: false
 衫	sam;
 蔘	sam;
 芟	sam;
-參	sam;	2688
+參	sam;
 杉	sam;
 森	sam;
-三	sam;	2806
+三	sam;
 霅	sab;
 鍤	sab;
 鈒	sab;
@@ -3224,13 +3224,13 @@ use_preset_vocabulary: false
 峠	sax;
 像	sax;
 霜	sax;
-相	sax;	2281
-想	sax;	2495
+相	sax;
+想	sax;
 爽	sax;
-喪	sax;	2654
-常	sax;	2545
-上	sax;	2805
-賞	sax;	2111
+喪	sax;
+常	sax;
+上	sax;
+賞	sax;
 象	sax;
 詳	sax;
 裳	sax;
@@ -3238,9 +3238,9 @@ use_preset_vocabulary: false
 湘	sax;
 床	sax;
 嘗	sax;
-商	sax;	2658
+商	sax;
 償	sax;
-傷	sax;	2755
+傷	sax;
 桑	sax;
 鰓	sai;
 賽	sai;
@@ -3251,15 +3251,15 @@ use_preset_vocabulary: false
 穡	saig;
 槭	saig;
 嗇	saig;
-色	saig;	2187
+色	saig;
 索	saig;
 塞	saig;
 眚	saix;
 鉎	saix;
 笙	saix;
-生	saix;	2308
+生	saix;
 牲	saix;
-省	saix;	2280
+省	saix;
 甥	saix;
 鉏	se;
 諝	se;
@@ -3286,20 +3286,20 @@ use_preset_vocabulary: false
 鼠	se;
 逝	se;
 誓	se;
-西	se;	2160
+西	se;
 栖	se;
 棲	se;
 瑞	se;
 鋤	se;
 恕	se;
 徐	se;
-序	se;	2540
+序	se;
 薯	se;
-書	se;	2418
+書	se;
 署	se;
 庶	se;
 曙	se;
-暑	se;	2425
+暑	se;
 犀	se;
 黍	se;
 鼫	seg;
@@ -3314,13 +3314,13 @@ use_preset_vocabulary: false
 蓆	seg;
 淅	seg;
 晰	seg;
-夕	seg;	2625
+夕	seg;
 碩	seg;
-石	seg;	2272
+石	seg;
 析	seg;
-昔	seg;	2435
-惜	seg;	2498
-席	seg;	2546
+昔	seg;
+惜	seg;
+席	seg;
 錫	seg;
 汐	seg;
 潟	seg;
@@ -3358,21 +3358,21 @@ use_preset_vocabulary: false
 僊	sen;
 膳	sen;
 繕	sen;
-善	sen;	2656
-鮮	sen;	2009
+善	sen;
+鮮	sen;
 銑	sen;
-選	sen;	2077
-船	sen;	2189
+選	sen;
+船	sen;
 腺	sen;
 羨	sen;
-線	sen;	2222
+線	sen;
 旋	sen;
 煽	sen;
 扇	sen;
 宣	sen;
-先	sen;	2748
-仙	sen;	2785
-說	sel;	2138
+先	sen;
+仙	sen;
+說	sel;
 稧	sel;
 碟	sel;
 爇	sel;
@@ -3388,9 +3388,9 @@ use_preset_vocabulary: false
 渫	sel;
 泄	sel;
 楔	sel;
-舌	sel;	2192
-雪	sel;	2042
-設	sel;	2147
+舌	sel;
+雪	sel;
+設	sel;
 屑	sel;
 洩	sel;
 韱	sem;
@@ -3418,40 +3418,40 @@ use_preset_vocabulary: false
 懾	seb;
 囁	seb;
 燮	seb;
-葉	seb;	2176
+葉	seb;
 騂	sex;
 瑆	sex;
 珹	sex;
 宬	sex;
 腥	sex;
-聲	sex;	2207
+聲	sex;
 筬	sex;
 猩	sex;
 晟	sex;
 惺	sex;
 醒	sex;
-誠	sex;	2140
-聖	sex;	2209
-盛	sex;	2285
-星	sex;	2434
-成	sex;	2485
-性	sex;	2506
-姓	sex;	2606
-城	sex;	2637
-省	sex;	2280
-說	sei;	2138
+誠	sex;
+聖	sex;
+盛	sex;
+星	sex;
+成	sex;
+性	sex;
+姓	sex;
+城	sex;
+省	sex;
+說	sei;
 繐	sei;
-稅	sei;	2256
-歲	sei;	2376
+稅	sei;
+歲	sei;
 帨	sei;
 蛻	sei;
 洒	sei;
 貰	sei;
-洗	sei;	2350
-勢	sei;	2707
-世	sei;	2802
+洗	sei;
+勢	sei;
+世	sei;
 笹	sei;
-細	sei;	2230
+細	sei;
 魈	so;
 膆	so;
 翛	so;
@@ -3497,30 +3497,30 @@ use_preset_vocabulary: false
 遡	so;
 訴	so;
 蘇	so;
-素	so;	2231
+素	so;
 疎	so;
 疏	so;
 塑	so;
 紹	so;
-笑	so;	2244
-消	so;	2343
+笑	so;
+消	so;
 沼	so;
 昭	so;
-少	so;	2567
-小	so;	2568
+少	so;
+小	so;
 宵	so;
 召	so;
-所	so;	2481
+所	so;
 篠	so;
 遬	saig;
 涑	saig;
 洬	saig;
 贖	saig;
 謖	saig;
-續	saig;	2220
+續	saig;
 屬	saig;
-俗	saig;	2766
-速	saig;	2089
+俗	saig;
+速	saig;
 束	saig;
 粟	saig;
 飱	son;
@@ -3530,7 +3530,7 @@ use_preset_vocabulary: false
 巽	son;
 遜	son;
 損	son;
-孫	son;	2597
+孫	son;
 窣	sol;
 蟀	sol;
 率	sol;
@@ -3541,10 +3541,10 @@ use_preset_vocabulary: false
 竦	sox;
 淞	sox;
 悚	sox;
-送	sox;	2092
+送	sox;
 宋	sox;
 訟	sox;
-松	sox;	2401
+松	sox;
 曬	soai;
 惢	soai;
 碎	soai;
@@ -3599,43 +3599,43 @@ use_preset_vocabulary: false
 洙	su;
 泅	su;
 殳	su;
-數	su;	2447
-收	su;	2460
+數	su;
+收	su;
 搜	su;
 戍	su;
 岫	su;
 嫂	su;
-壽	su;	2627
+壽	su;
 嗽	su;
 售	su;
 叟	su;
 輸	su;
-誰	su;	2137
+誰	su;
 竪	su;
 袖	su;
 遂	su;
 睡	su;
-水	su;	2364
+水	su;
 帥	su;
 垂	su;
-須	su;	2029
+須	su;
 酬	su;
 讐	su;
 蒐	su;
-秀	su;	2261
-愁	su;	2494
-修	su;	2763
+秀	su;
+愁	su;
+修	su;
 囚	su;
 需	su;
 綬	su;
-樹	su;	2387
-授	su;	2467
-受	su;	2682
-首	su;	2017
+樹	su;
+授	su;
+受	su;
+首	su;
 狩	su;
 殊	su;
-手	su;	2480
-守	su;	2593
+手	su;
+守	su;
 鷫	sug;
 驌	sug;
 璹	sug;
@@ -3652,7 +3652,7 @@ use_preset_vocabulary: false
 熟	sug;
 塾	sug;
 淑	sug;
-宿	sug;	2581
+宿	sug;
 夙	sug;
 叔	sug;
 鬊	sun;
@@ -3679,10 +3679,10 @@ use_preset_vocabulary: false
 恂	sun;
 徇	sun;
 馴	sun;
-順	sun;	2030
+順	sun;
 醇	sun;
 巡	sun;
-純	sun;	2233
+純	sun;
 盾	sun;
 淳	sun;
 殉	sun;
@@ -3699,7 +3699,7 @@ use_preset_vocabulary: false
 崧	sux;
 菘	sux;
 嵩	sux;
-崇	sux;	2557
+崇	sux;
 焠	sui;
 淬	sui;
 倅	sui;
@@ -3713,20 +3713,20 @@ use_preset_vocabulary: false
 濕	swb;
 慴	swb;
 襲	swb;
-習	swb;	2215
-拾	swb;	2470
+習	swb;
+拾	swb;
 鬙	swx;
 塍	swx;
 陞	swx;
 蠅	swx;
 繩	swx;
-乘	swx;	2798
+乘	swx;
 僧	swx;
 丞	swx;
 昇	swx;
-承	swx;	2476
+承	swx;
 升	swx;
-勝	swx;	2709
+勝	swx;
 鍉	si;
 釃	si;
 豉	si;
@@ -3757,20 +3757,20 @@ use_preset_vocabulary: false
 啻	si;
 厮	si;
 矢	si;
-是	si;	2431
+是	si;
 柴	si;
 偲	si;
 蒔	si;
-示	si;	2269
-時	si;	2430
+示	si;
+時	si;
 侍	si;
-試	si;	2145
-詩	si;	2144
-視	si;	2157
-施	si;	2442
-市	si;	2550
+試	si;
+詩	si;
+視	si;
+施	si;
+市	si;
 屍	si;
-始	si;	2607
+始	si;
 匙	si;
 篒	sig;
 栻	sig;
@@ -3781,14 +3781,14 @@ use_preset_vocabulary: false
 寔	sig;
 息	sig;
 蝕	sig;
-食	sig;	2022
+食	sig;
 殖	sig;
-植	sig;	2392
+植	sig;
 拭	sig;
 飾	sig;
 埴	sig;
-識	sig;	2127
-式	sig;	2534
+識	sig;
+式	sig;
 喰	sig;
 駪	sin;
 頣	sin;
@@ -3813,23 +3813,23 @@ use_preset_vocabulary: false
 迅	sin;
 訊	sin;
 腎	sin;
-辛	sin;	2098
-身	sin;	2102
+辛	sin;
+身	sin;
 薪	sin;
-臣	sin;	2200
+臣	sin;
 紳	sin;
-神	sin;	2266
-申	sin;	2303
-新	sin;	2444
+神	sin;
+申	sin;
+新	sin;
 娠	sin;
-信	sin;	2764
+信	sin;
 伸	sin;
 飋	sil;
 蟋	sil;
-實	sil;	2576
+實	sil;
 悉	sil;
-室	sil;	2585
-失	sil;	2616
+室	sil;
+失	sil;
 鱏	sim;
 葚	sim;
 燖	sim;
@@ -3843,15 +3843,15 @@ use_preset_vocabulary: false
 甚	sim;
 尋	sim;
 芯	sim;
-深	sim;	2340
-心	sim;	2518
+深	sim;
+心	sim;
 審	sim;
 辻	sib;
-十	sib;	2701
+十	sib;
 什	sib;
-拾	sib;	2470
+拾	sib;
 雙	ssax;
-氏	ssi;	2367
+氏	ssi;
 迓	xa;
 笌	xa;
 砑	xa;
@@ -3870,14 +3870,14 @@ use_preset_vocabulary: false
 婀	xa;
 娥	xa;
 哦	xa;
-兒	xa;	2745
+兒	xa;
 亞	xa;
 餓	xa;
 雅	xa;
 蛾	xa;
 芽	xa;
 牙	xa;
-我	xa;	2484
+我	xa;
 峨	xa;
 俄	xa;
 阿	xa;
@@ -3893,9 +3893,9 @@ use_preset_vocabulary: false
 鄂	xag;
 諤	xag;
 萼	xag;
-樂	xag;	2388
+樂	xag;
 愕	xag;
-惡	xag;	2496
+惡	xag;
 幄	xag;
 嶽	xag;
 堊	xag;
@@ -3914,12 +3914,12 @@ use_preset_vocabulary: false
 顔	xan;
 雁	xan;
 贋	xan;
-眼	xan;	2276
+眼	xan;
 岸	xan;
 鞍	xan;
-案	xan;	2393
+案	xan;
 按	xan;
-安	xan;	2592
+安	xan;
 鴶	xal;
 頞	xal;
 穵	xal;
@@ -3949,7 +3949,7 @@ use_preset_vocabulary: false
 岩	xam;
 癌	xam;
 闇	xam;
-暗	xam;	2423
+暗	xam;
 庵	xam;
 狎	xab;
 壓	xab;
@@ -3965,8 +3965,8 @@ use_preset_vocabulary: false
 泱	xax;
 殃	xax;
 怏	xax;
-仰	xax;	2781
-央	xax;	2617
+仰	xax;
+央	xax;
 騃	xai;
 薆	xai;
 獃	xai;
@@ -3996,8 +3996,8 @@ use_preset_vocabulary: false
 涯	xai;
 崖	xai;
 挨	xai;
-愛	xai;	2492
-哀	xai;	2661
+愛	xai;
+哀	xai;
 搤	xaig;
 戹	xaig;
 呝	xaig;
@@ -4020,29 +4020,29 @@ use_preset_vocabulary: false
 倻	xya;
 椰	xya;
 揶	xya;
-野	xya;	2068
+野	xya;
 耶	xya;
 爺	xya;
-夜	xya;	2622
+夜	xya;
 冶	xya;
 也	xya;
 埜	xya;
 惹	xya;
-若	xya;	2185
+若	xya;
 篛	xyag;
 禴	xyag;
 爚	xyag;
 龠	xyag;
 鶸	xyag;
 鑰	xyag;
-藥	xyag;	2173
+藥	xyag;
 蒻	xyag;
 葯	xyag;
 籥	xyag;
 躍	xyag;
-約	xyag;	2235
-弱	xyag;	2530
-若	xyag;	2185
+約	xyag;
+弱	xyag;
+若	xyag;
 鰯	xyag;
 颺	xyax;
 鑲	xyax;
@@ -4055,7 +4055,7 @@ use_preset_vocabulary: false
 徉	xyax;
 驤	xyax;
 釀	xyax;
-讓	xyax;	2123
+讓	xyax;
 襄	xyax;
 穰	xyax;
 禳	xyax;
@@ -4072,12 +4072,12 @@ use_preset_vocabulary: false
 孃	xyax;
 壤	xyax;
 佯	xyax;
-養	xyax;	2019
-陽	xyax;	2047
-羊	xyax;	2218
-洋	xyax;	2351
+養	xyax;
+陽	xyax;
+羊	xyax;
+洋	xyax;
 楊	xyax;
-揚	xyax;	2462
+揚	xyax;
 瘀	xe;
 敔	xe;
 齬	xe;
@@ -4086,18 +4086,18 @@ use_preset_vocabulary: false
 淤	xe;
 圉	xe;
 圄	xe;
-語	xe;	2141
+語	xe;
 御	xe;
-魚	xe;	2010
+魚	xe;
 禦	xe;
-漁	xe;	2332
+漁	xe;
 於	xe;
 繶	xeg;
 檍	xeg;
 抑	xeg;
 臆	xeg;
-憶	xeg;	2487
-億	xeg;	2753
+憶	xeg;
+億	xeg;
 鼹	xen;
 鼴	xen;
 鄢	xen;
@@ -4109,7 +4109,7 @@ use_preset_vocabulary: false
 偃	xen;
 彦	xen;
 諺	xen;
-言	xen;	2152
+言	xen;
 堰	xen;
 臬	xel;
 孼	xel;
@@ -4121,7 +4121,7 @@ use_preset_vocabulary: false
 罨	xem;
 淹	xem;
 广	xem;
-嚴	xem;	2652
+嚴	xem;
 儼	xem;
 俺	xem;
 掩	xem;
@@ -4129,7 +4129,7 @@ use_preset_vocabulary: false
 鄴	xeb;
 嶫	xeb;
 嶪	xeb;
-業	xeb;	2391
+業	xeb;
 曀	xei;
 恚	xei;
 円	xein;
@@ -4137,17 +4137,17 @@ use_preset_vocabulary: false
 艅	xye;
 礖	xye;
 璵	xye;
-餘	xye;	2018
+餘	xye;
 茹	xye;
-與	xye;	2196
+與	xye;
 舁	xye;
 歟	xye;
 輿	xye;
 余	xye;
 予	xye;
-如	xye;	2612
+如	xye;
 汝	xye;
-女	xye;	2614
+女	xye;
 淢	xyeg;
 嶧	xyeg;
 驛	xyeg;
@@ -4157,16 +4157,16 @@ use_preset_vocabulary: false
 懌	xyeg;
 役	xyeg;
 亦	xyeg;
-逆	xyeg;	2091
+逆	xyeg;
 疫	xyeg;
 域	xyeg;
-易	xyeg;	2436
+易	xyeg;
 鷰	xyen;
 輭	xyen;
 蜵	xyen;
 縯	xyen;
 緣	xyen;
-硏	xyen;	2270
+硏	xyen;
 渷	xyen;
 沇	xyen;
 曣	xyen;
@@ -4197,21 +4197,21 @@ use_preset_vocabulary: false
 燃	xyen;
 軟	xyen;
 鳶	xyen;
-然	xyen;	2326
+然	xyen;
 硯	xyen;
 鉛	xyen;
 燕	xyen;
-煙	xyen;	2325
+煙	xyen;
 演	xyen;
 沿	xyen;
 延	xyen;
 宴	xyen;
 閱	xyel;
-說	xyel;	2138
+說	xyel;
 悅	xyel;
 涅	xyel;
 噎	xyel;
-熱	xyel;	2324
+熱	xyel;
 咽	xyel;
 髥	xyem;
 饜	xyem;
@@ -4241,7 +4241,7 @@ use_preset_vocabulary: false
 燁	xyeb;
 靨	xyeb;
 曄	xyeb;
-葉	xyeb;	2176
+葉	xyeb;
 韺	xyex;
 縈	xyex;
 碤	xyex;
@@ -4265,20 +4265,20 @@ use_preset_vocabulary: false
 獰	xyex;
 瀛	xyex;
 潁	xyex;
-榮	xyex;	2389
+榮	xyex;
 楹	xyex;
 暎	xyex;
 塋	xyex;
 營	xyex;
 咏	xyex;
-迎	xyex;	2096
+迎	xyex;
 詠	xyex;
-英	xyex;	2183
+英	xyex;
 穎	xyex;
 盈	xyex;
 瑛	xyex;
 泳	xyex;
-永	xyex;	2363
+永	xyex;
 映	xyex;
 影	xyex;
 嬰	xyex;
@@ -4302,7 +4302,7 @@ use_preset_vocabulary: false
 譽	xyei;
 裔	xyei;
 蚋	xyei;
-藝	xyei;	2174
+藝	xyei;
 蕋	xyei;
 蘂	xyei;
 翳	xyei;
@@ -4355,7 +4355,7 @@ use_preset_vocabulary: false
 晤	xo;
 敖	xo;
 懊	xo;
-惡	xo;	2496
+惡	xo;
 忤	xo;
 寤	xo;
 奧	xo;
@@ -4366,28 +4366,28 @@ use_preset_vocabulary: false
 唔	xo;
 傲	xo;
 俣	xo;
-誤	xo;	2139
+誤	xo;
 梧	xo;
-悟	xo;	2502
+悟	xo;
 吾	xo;
-午	xo;	2699
+午	xo;
 伍	xo;
-五	xo;	2794
+五	xo;
 襖	xo;
 汚	xo;
 烏	xo;
 鈺	xog;
 沃	xog;
 獄	xog;
-玉	xog;	2314
-屋	xog;	2561
+玉	xog;
+屋	xog;
 韞	xon;
 醞	xon;
 轀	xon;
 縕	xon;
 瑥	xon;
 熅	xon;
-溫	xon;	2334
+溫	xon;
 氳	xon;
 昷	xon;
 鰮	xon;
@@ -4460,7 +4460,7 @@ use_preset_vocabulary: false
 玩	xoan;
 莞	xoan;
 緩	xoan;
-完	xoan;	2591
+完	xoan;
 宛	xoan;
 曰	xoal;
 迬	xoax;
@@ -4468,9 +4468,9 @@ use_preset_vocabulary: false
 瀇	xoax;
 汪	xoax;
 枉	xoax;
-王	xoax;	2313
+王	xoax;
 旺	xoax;
-往	xoax;	2526
+往	xoax;
 媧	xoai;
 矮	xoai;
 歪	xoai;
@@ -4488,7 +4488,7 @@ use_preset_vocabulary: false
 猥	xoi;
 巍	xoi;
 嵬	xoi;
-外	xoi;	2624
+外	xoi;
 畏	xoi;
 繇	xyo;
 窅	xyo;
@@ -4515,7 +4515,7 @@ use_preset_vocabulary: false
 澆	xyo;
 殀	xyo;
 橈	xyo;
-樂	xyo;	2388
+樂	xyo;
 撓	xyo;
 搖	xyo;
 拗	xyo;
@@ -4527,7 +4527,7 @@ use_preset_vocabulary: false
 姚	xyo;
 夭	xyo;
 僥	xyo;
-要	xyo;	2159
+要	xyo;
 耀	xyo;
 窯	xyo;
 曜	xyo;
@@ -4539,8 +4539,8 @@ use_preset_vocabulary: false
 蓐	xyog;
 縟	xyog;
 溽	xyog;
-浴	xyog;	2345
-欲	xyog;	2383
+浴	xyog;
+欲	xyog;
 慾	xyog;
 辱	xyog;
 硧	xyox;
@@ -4565,15 +4565,15 @@ use_preset_vocabulary: false
 俑	xyox;
 踊	xyox;
 蓉	xyox;
-用	xyox;	2306
+用	xyox;
 熔	xyox;
 溶	xyox;
 庸	xyox;
-容	xyox;	2582
+容	xyox;
 傭	xyox;
 涌	xyox;
 湧	xyox;
-勇	xyox;	2713
+勇	xyox;
 茸	xyox;
 冗	xyox;
 麀	xu;
@@ -4609,24 +4609,24 @@ use_preset_vocabulary: false
 于	xu;
 郵	xu;
 祐	xu;
-憂	xu;	2488
-友	xu;	2685
+憂	xu;
+友	xu;
 優	xu;
 佑	xu;
 尤	xu;
-又	xu;	2687
+又	xu;
 隅	xu;
-遇	xu;	2085
+遇	xu;
 寓	xu;
 偶	xu;
 虞	xu;
 愚	xu;
-牛	xu;	2319
-雨	xu;	2043
+牛	xu;
+雨	xu;
 迂	xu;
 羽	xu;
-宇	xu;	2594
-右	xu;	2676
+宇	xu;
+右	xu;
 芋	xu;
 頊	xug;
 稶	xug;
@@ -4653,14 +4653,14 @@ use_preset_vocabulary: false
 殞	xun;
 暈	xun;
 芸	xun;
-雲	xun;	2041
-運	xun;	2083
+雲	xun;
+運	xun;
 云	xun;
 韻	xun;
 亐	xul;
 鬱	xul;
 蔚	xul;
-雄	xux;	2046
+雄	xux;
 熊	xux;
 黿	xuen;
 鵷	xuen;
@@ -4685,29 +4685,29 @@ use_preset_vocabulary: false
 愿	xuen;
 寃	xuen;
 圜	xuen;
-圓	xuen;	2644
+圓	xuen;
 冤	xuen;
 媛	xuen;
 源	xuen;
-原	xuen;	2690
-元	xuen;	2752
-願	xuen;	2025
+原	xuen;
+元	xuen;
+願	xuen;
 垣	xuen;
 鴛	xuen;
-遠	xuen;	2079
+遠	xuen;
 薗	xuen;
 苑	xuen;
 猿	xuen;
 援	xuen;
-怨	xuen;	2505
-園	xuen;	2645
+怨	xuen;
+園	xuen;
 院	xuen;
 員	xuen;
 粵	xuel;
 刖	xuel;
 鉞	xuel;
 粤	xuel;
-月	xuel;	2415
+月	xuel;
 越	xuel;
 骪	xui;
 韡	xui;
@@ -4734,7 +4734,7 @@ use_preset_vocabulary: false
 圍	xui;
 喟	xui;
 僞	xui;
-危	xui;	2693
+危	xui;
 衛	xui;
 違	xui;
 謂	xui;
@@ -4743,10 +4743,10 @@ use_preset_vocabulary: false
 緯	xui;
 慰	xui;
 尉	xui;
-威	xui;	2605
+威	xui;
 委	xui;
-偉	xui;	2759
-位	xui;	2777
+偉	xui;
+位	xui;
 葦	xui;
 龥	xyu;
 逌	xyu;
@@ -4786,7 +4786,7 @@ use_preset_vocabulary: false
 糅	xyu;
 瘉	xyu;
 瑜	xyu;
-游	xyu;	2084
+游	xyu;
 楡	xyu;
 攸	xyu;
 揄	xyu;
@@ -4797,22 +4797,22 @@ use_preset_vocabulary: false
 喩	xyu;
 兪	xyu;
 侑	xyu;
-幼	xyu;	2541
+幼	xyu;
 遊	xyu;
 誘	xyu;
 裕	xyu;
-由	xyu;	2304
+由	xyu;
 猷	xyu;
 猶	xyu;
 柚	xyu;
-有	xyu;	2414
+有	xyu;
 悠	xyu;
 幽	xyu;
 宥	xyu;
 唯	xyu;
 諭	xyu;
 癒	xyu;
-油	xyu;	2359
+油	xyu;
 愈	xyu;
 愉	xyu;
 鮪	xyu;
@@ -4820,16 +4820,16 @@ use_preset_vocabulary: false
 乳	xyu;
 楢	xyu;
 酉	xyu;
-柔	xyu;	2397
+柔	xyu;
 儒	xyu;
-遺	xyu;	2076
+遺	xyu;
 維	xyu;
 惟	xyu;
 堉	xyug;
 儥	xyug;
 毓	xyug;
-肉	xyug;	2205
-育	xyug;	2204
+肉	xyug;
+育	xyug;
 鋆	xyun;
 鈗	xyun;
 玧	xyun;
@@ -4868,8 +4868,8 @@ use_preset_vocabulary: false
 慇	xwn;
 垠	xwn;
 听	xwn;
-銀	xwn;	2064
-恩	xwn;	2503
+銀	xwn;
+恩	xwn;
 鳦	xwl;
 乙	xwl;
 愔	xwm;
@@ -4879,8 +4879,8 @@ use_preset_vocabulary: false
 飮	xwm;
 崟	xwm;
 吟	xwm;
-音	xwm;	2032
-陰	xwm;	2049
+音	xwm;
+陰	xwm;
 蔭	xwm;
 淫	xwm;
 浥	xwb;
@@ -4888,9 +4888,9 @@ use_preset_vocabulary: false
 悒	xwb;
 邑	xwb;
 揖	xwb;
-泣	xwb;	2354
+泣	xwb;
 膺	xwx;
-應	xwx;	2486
+應	xwx;
 鷹	xwx;
 凝	xwx;
 螘	xwi;
@@ -4900,7 +4900,7 @@ use_preset_vocabulary: false
 凒	xwi;
 儗	xwi;
 饐	xwi;
-醫	xwi;	2071
+醫	xwi;
 艤	xwi;
 礒	xwi;
 矣	xwi;
@@ -4909,19 +4909,19 @@ use_preset_vocabulary: false
 懿	xwi;
 嶷	xwi;
 倚	xwi;
-議	xwi;	2126
+議	xwi;
 誼	xwi;
 蟻	xwi;
-義	xwi;	2216
+義	xwi;
 疑	xwi;
 擬	xwi;
 宜	xwi;
 儀	xwi;
 毅	xwi;
-衣	xwi;	2163
+衣	xwi;
 椅	xwi;
-意	xwi;	2493
-依	xwi;	2768
+意	xwi;
+依	xwi;
 迤	xi;
 訑	xi;
 荑	xi;
@@ -4942,21 +4942,21 @@ use_preset_vocabulary: false
 洟	xi;
 怡	xi;
 彝	xi;
-已	xi;	2551
+已	xi;
 姨	xi;
-二	xi;	2795
+二	xi;
 弛	xi;
 詑	xi;
-耳	xi;	2210
+耳	xi;
 而	xi;
 爾	xi;
 餌	xi;
-移	xi;	2257
-異	xi;	2297
-易	xi;	2436
+移	xi;
+異	xi;
+易	xi;
 夷	xi;
 伊	xi;
-以	xi;	2782
+以	xi;
 飴	xi;
 熤	xig;
 瀷	xig;
@@ -4966,7 +4966,7 @@ use_preset_vocabulary: false
 弋	xig;
 翼	xig;
 翌	xig;
-益	xig;	2286
+益	xig;
 靷	xin;
 裀	xin;
 芢	xin;
@@ -4983,18 +4983,18 @@ use_preset_vocabulary: false
 堙	xin;
 仞	xin;
 籾	xin;
-認	xin;	2142
-忍	xin;	2516
+認	xin;
+忍	xin;
 寅	xin;
 靭	xin;
 刃	xin;
-仁	xin;	2788
-人	xin;	2789
-引	xin;	2532
+仁	xin;
+人	xin;
+引	xin;
 姻	xin;
-因	xin;	2649
+因	xin;
 咽	xin;
-印	xin;	2694
+印	xin;
 馹	xil;
 泆	xil;
 佾	xil;
@@ -5002,10 +5002,10 @@ use_preset_vocabulary: false
 軼	xil;
 壹	xil;
 佚	xil;
-日	xil;	2439
+日	xil;
 逸	xil;
 溢	xil;
-一	xil;	2808
+一	xil;
 飪	xim;
 銋	xim;
 絍	xim;
@@ -5020,7 +5020,7 @@ use_preset_vocabulary: false
 壬	xim;
 荏	xim;
 卄	xib;
-入	xib;	2744
+入	xib;
 廿	xib;
 芿	xix;
 孕	xix;
@@ -5060,19 +5060,19 @@ use_preset_vocabulary: false
 呰	ja;
 髭	ja;
 柘	ja;
-者	ja;	2212
+者	ja;
 煮	ja;
-自	ja;	2199
+自	ja;
 磁	ja;
 滋	ja;
-慈	ja;	2490
-字	ja;	2601
+慈	ja;
+字	ja;
 雌	ja;
 資	ja;
 諮	ja;
 紫	ja;
 孜	ja;
-子	ja;	2602
+子	ja;
 姿	ja;
 姉	ja;
 刺	ja;
@@ -5097,8 +5097,8 @@ use_preset_vocabulary: false
 爵	jag;
 灼	jag;
 勺	jag;
-昨	jag;	2432
-作	jag;	2772
+昨	jag;
+作	jag;
 驏	jan;
 剗	jan;
 盞	jan;
@@ -5154,25 +5154,25 @@ use_preset_vocabulary: false
 漿	jax;
 檣	jax;
 嶂	jax;
-將	jax;	2571
+將	jax;
 妝	jax;
 奬	jax;
 奘	jax;
-壯	jax;	2628
+壯	jax;
 墻	jax;
 仗	jax;
-長	jax;	2060
+長	jax;
 腸	jax;
 張	jax;
 帳	jax;
 装	jax;
 葬	jax;
 杖	jax;
-場	jax;	2631
+場	jax;
 丈	jax;
 障	jax;
 粧	jax;
-章	jax;	2249
+章	jax;
 樟	jax;
 掌	jax;
 庄	jax;
@@ -5188,24 +5188,24 @@ use_preset_vocabulary: false
 縡	jai;
 齋	jai;
 滓	jai;
-財	jai;	2119
-材	jai;	2404
-在	jai;	2640
+財	jai;
+材	jai;
+在	jai;
 載	jai;
 裁	jai;
 災	jai;
-栽	jai;	2394
-才	jai;	2479
+栽	jai;
+才	jai;
 宰	jai;
 哉	jai;
-再	jai;	2733
+再	jai;
 梓	jai;
 琤	jaix;
 猙	jaix;
 錚	jaix;
 諍	jaix;
 箏	jaix;
-爭	jaix;	2322
+爭	jaix;
 崢	jaix;
 鎗	jaix;
 陼	je;
@@ -5241,9 +5241,9 @@ use_preset_vocabulary: false
 邸	je;
 抵	je;
 底	je;
-低	je;	2776
-貯	je;	2115
-著	je;	2175
+低	je;
+貯	je;
+著	je;
 苧	je;
 猪	je;
 瀦	je;
@@ -5268,18 +5268,18 @@ use_preset_vocabulary: false
 狄	jeg;
 勣	jeg;
 鏑	jeg;
-適	jeg;	2078
+適	jeg;
 笛	jeg;
-的	jeg;	2290
+的	jeg;
 滴	jeg;
-敵	jeg;	2448
+敵	jeg;
 摘	jeg;
 吊	jeg;
 嫡	jeg;
 賊	jeg;
 蹟	jeg;
 跡	jeg;
-赤	jeg;	2107
+赤	jeg;
 績	jeg;
 籍	jeg;
 積	jeg;
@@ -5316,7 +5316,7 @@ use_preset_vocabulary: false
 顫	jen;
 靦	jen;
 鐫	jen;
-錢	jen;	2063
+錢	jen;
 銓	jen;
 鈿	jen;
 轉	jen;
@@ -5337,7 +5337,7 @@ use_preset_vocabulary: false
 氈	jen;
 旃	jen;
 畋	jen;
-戰	jen;	2483
+戰	jen;
 悛	jen;
 廛	jen;
 巓	jen;
@@ -5347,20 +5347,20 @@ use_preset_vocabulary: false
 吮	jen;
 甸	jen;
 剪	jen;
-傳	jen;	2756
+傳	jen;
 畠	jen;
 畑	jen;
-電	jen;	2040
-田	jen;	2305
+電	jen;
+田	jen;
 澱	jen;
 殿	jen;
 纏	jen;
-展	jen;	2560
-典	jen;	2735
+展	jen;
+典	jen;
 佃	jen;
 揃	jen;
-全	jen;	2742
-前	jen;	2718
+全	jen;
+前	jen;
 詮	jen;
 箭	jen;
 煎	jen;
@@ -5373,7 +5373,7 @@ use_preset_vocabulary: false
 晢	jel;
 截	jel;
 絶	jel;
-節	jel;	2238
+節	jel;
 窃	jel;
 折	jel;
 切	jel;
@@ -5383,7 +5383,7 @@ use_preset_vocabulary: false
 玷	jem;
 墊	jem;
 佔	jem;
-點	jem;	2003
+點	jem;
 黏	jem;
 霑	jem;
 覘	jem;
@@ -5393,7 +5393,7 @@ use_preset_vocabulary: false
 粘	jem;
 苫	jem;
 点	jem;
-店	jem;	2539
+店	jem;
 漸	jem;
 占	jem;
 鮎	jem;
@@ -5404,7 +5404,7 @@ use_preset_vocabulary: false
 楪	jeb;
 椄	jeb;
 蝶	jeb;
-接	jeb;	2464
+接	jeb;
 摺	jeb;
 靚	jex;
 鋥	jex;
@@ -5428,7 +5428,7 @@ use_preset_vocabulary: false
 佂	jex;
 珵	jex;
 楨	jex;
-靜	jex;	2037
+靜	jex;
 霆	jex;
 酲	jex;
 酊	jex;
@@ -5437,7 +5437,7 @@ use_preset_vocabulary: false
 睛	jex;
 疔	jex;
 渟	jex;
-淨	jex;	2341
+淨	jex;
 梃	jex;
 旌	jex;
 掟	jex;
@@ -5459,27 +5459,27 @@ use_preset_vocabulary: false
 汀	jex;
 挺	jex;
 廷	jex;
-庭	jex;	2537
-定	jex;	2587
+庭	jex;
+定	jex;
 呈	jex;
 貞	jex;
 偵	jex;
-停	jex;	2758
+停	jex;
 亭	jex;
-頂	jex;	2031
+頂	jex;
 町	jex;
 丁	jex;
-精	jex;	2236
-正	jex;	2379
+精	jex;
+正	jex;
 整	jex;
-政	jex;	2457
+政	jex;
 征	jex;
 錠	jex;
-情	jex;	2499
+情	jex;
 鉦	jex;
 証	jex;
 晶	jex;
-井	jex;	2793
+井	jex;
 鯷	jei;
 鮧	jei;
 隄	jei;
@@ -5508,18 +5508,18 @@ use_preset_vocabulary: false
 梯	jei;
 提	jei;
 悌	jei;
-弟	jei;	2531
+弟	jei;
 帝	jei;
 堤	jei;
-題	jei;	2026
+題	jei;
 醍	jei;
-第	jei;	2243
+第	jei;
 製	jei;
-制	jei;	2161
-除	jei;	2050
-諸	jei;	2131
+制	jei;
+除	jei;
+諸	jei;
 際	jei;
-祭	jei;	2265
+祭	jei;
 鼂	jo;
 鋽	jo;
 鈟	jo;
@@ -5569,48 +5569,48 @@ use_preset_vocabulary: false
 釣	jo;
 爪	jo;
 蔦	jo;
-鳥	jo;	2008
+鳥	jo;
 銚	jo;
-調	jo;	2135
+調	jo;
 眺	jo;
 潮	jo;
-朝	jo;	2411
+朝	jo;
 彫	jo;
 弔	jo;
 凋	jo;
-兆	jo;	2749
+兆	jo;
 鯛	jo;
-造	jo;	2088
+造	jo;
 遭	jo;
-走	jo;	2106
+走	jo;
 藻	jo;
 糟	jo;
 燥	jo;
 漕	jo;
 槽	jo;
 曹	jo;
-早	jo;	2438
+早	jo;
 操	jo;
 阻	jo;
 組	jo;
 粗	jo;
 租	jo;
-祖	jo;	2268
+祖	jo;
 措	jo;
 詔	jo;
 照	jo;
-助	jo;	2714
+助	jo;
 繰	jo;
 瘯	jog;
 鏃	jog;
 簇	jog;
-族	jog;	2440
-足	jog;	2104
+族	jog;
+足	jog;
 拵	jon;
-尊	jon;	2570
-存	jon;	2600
+尊	jon;
+存	jon;
 猝	jol;
-卒	jol;	2697
+卒	jol;
 拙	jol;
 瘇	jox;
 瑽	jox;
@@ -5630,15 +5630,15 @@ use_preset_vocabulary: false
 椶	jox;
 棕	jox;
 慫	jox;
-從	jox;	2520
+從	jox;
 柊	jox;
 綜	jox;
 鐘	jox;
-鍾	jox;	2062
-終	jox;	2229
-宗	jox;	2590
+鍾	jox;
+終	jox;
+宗	jox;
 腫	jox;
-種	jox;	2255
+種	jox;
 髽	joa;
 莝	joa;
 痤	joa;
@@ -5646,9 +5646,9 @@ use_preset_vocabulary: false
 挫	joa;
 座	joa;
 坐	joa;
-左	joa;	2554
+左	joa;
 佐	joa;
-罪	joi;	2219
+罪	joi;
 鼄	ju;
 霔	ju;
 霌	ju;
@@ -5682,7 +5682,7 @@ use_preset_vocabulary: false
 紂	ju;
 籌	ju;
 疇	ju;
-晝	ju;	2428
+晝	ju;
 廚	ju;
 嗾	ju;
 儔	ju;
@@ -5694,23 +5694,23 @@ use_preset_vocabulary: false
 駐	ju;
 酎	ju;
 註	ju;
-注	ju;	2353
+注	ju;
 柱	ju;
-宙	ju;	2588
+宙	ju;
 奏	ju;
-住	ju;	2775
+住	ju;
 週	ju;
 舟	ju;
 洲	ju;
 州	ju;
 周	ju;
 呪	ju;
-酒	ju;	2072
+酒	ju;
 珠	ju;
-朱	ju;	2405
-主	ju;	2800
+朱	ju;
+主	ju;
 株	ju;
-竹	jug;	2245
+竹	jug;
 粥	jug;
 鵔	jun;
 餕	jun;
@@ -5748,10 +5748,10 @@ use_preset_vocabulary: false
 俊	jun;
 噂	jun;
 乼	jul;
-眾	jux;	2166
+眾	jux;
 仲	jux;
-中	jux;	2801
-重	jux;	2069
+中	jux;
+重	jux;
 衆	jux;
 卽	jwg;
 喞	jwg;
@@ -5767,8 +5767,8 @@ use_preset_vocabulary: false
 矰	jwx;
 嶒	jwx;
 繒	jwx;
-增	jwx;	2630
-證	jwx;	2128
+增	jwx;
+證	jwx;
 烝	jwx;
 拯	jwx;
 贈	jwx;
@@ -5808,28 +5808,28 @@ use_preset_vocabulary: false
 蜘	ji;
 池	ji;
 智	ji;
-地	ji;	2639
-知	ji;	2274
+地	ji;
+知	ji;
 只	ji;
 芝	ji;
-識	ji;	2127
-持	ji;	2469
+識	ji;
+持	ji;
 誌	ji;
-至	ji;	2198
+至	ji;
 脂	ji;
 肢	ji;
-紙	ji;	2232
+紙	ji;
 祉	ji;
-止	ji;	2380
-枝	ji;	2398
+止	ji;
+枝	ji;
 旨	ji;
-支	ji;	2461
-指	ji;	2468
-志	ji;	2515
+支	ji;
+指	ji;
+志	ji;
 稷	jig;
 稙	jig;
 禝	jig;
-直	jig;	2282
+直	jig;
 職	jig;
 織	jig;
 鬒	jin;
@@ -5854,7 +5854,7 @@ use_preset_vocabulary: false
 縉	jin;
 瞋	jin;
 眞	jin;
-盡	jin;	2284
+盡	jin;
 畛	jin;
 殄	jin;
 晉	jin;
@@ -5868,7 +5868,7 @@ use_preset_vocabulary: false
 陣	jin;
 塵	jin;
 震	jin;
-進	jin;	2086
+進	jin;
 診	jin;
 秦	jin;
 疹	jin;
@@ -5892,7 +5892,7 @@ use_preset_vocabulary: false
 迭	jil;
 窒	jil;
 秩	jil;
-質	jil;	2108
+質	jil;
 疾	jil;
 嫉	jil;
 叱	jil;
@@ -5905,9 +5905,9 @@ use_preset_vocabulary: false
 咠	jib;
 緝	jib;
 什	jib;
-集	jib;	2045
+集	jib;
 輯	jib;
-執	jib;	2636
+執	jib;
 瞪	jix;
 癥	jix;
 瀓	jix;
@@ -5927,11 +5927,11 @@ use_preset_vocabulary: false
 嗟	ca;
 偖	ca;
 侘	ca;
-茶	ca;	2182
-借	ca;	2761
+茶	ca;
+借	ca;
 遮	ca;
-車	ca;	2101
-次	ca;	2384
+車	ca;
+次	ca;
 瑳	ca;
 差	ca;
 嵯	ca;
@@ -5978,7 +5978,7 @@ use_preset_vocabulary: false
 札	cal;
 擦	cal;
 拶	cal;
-察	cal;	2577
+察	cal;
 黲	cam;
 饞	cam;
 鑱	cam;
@@ -6002,7 +6002,7 @@ use_preset_vocabulary: false
 巉	cam;
 嶄	cam;
 塹	cam;
-參	cam;	2688
+參	cam;
 僭	cam;
 斬	cam;
 鶬	cax;
@@ -6020,7 +6020,7 @@ use_preset_vocabulary: false
 鬯	cax;
 蹌	cax;
 艙	cax;
-窗	cax;	2251
+窗	cax;
 瘡	cax;
 猖	cax;
 漲	cax;
@@ -6044,7 +6044,7 @@ use_preset_vocabulary: false
 彰	cax;
 廠	cax;
 娼	cax;
-唱	cax;	2659
+唱	cax;
 錆	cax;
 茝	cai;
 棌	cai;
@@ -6054,10 +6054,10 @@ use_preset_vocabulary: false
 蔡	cai;
 綵	cai;
 寨	cai;
-責	cai;	2116
-菜	cai;	2180
+責	cai;
+菜	cai;
 砦	cai;
-采	cai;	2466
+采	cai;
 採	cai;
 彩	cai;
 債	cai;
@@ -6067,8 +6067,8 @@ use_preset_vocabulary: false
 簀	caig;
 磔	caig;
 嘖	caig;
-責	caig;	2116
-冊	caig;	2734
+責	caig;
+冊	caig;
 策	caig;
 柵	caig;
 郪	ce;
@@ -6077,9 +6077,9 @@ use_preset_vocabulary: false
 萋	ce;
 淒	ce;
 悽	ce;
-處	ce;	2171
+處	ce;
 凄	ce;
-妻	ce;	2609
+妻	ce;
 摭	ceg;
 慽	ceg;
 塉	ceg;
@@ -6102,7 +6102,7 @@ use_preset_vocabulary: false
 斥	ceg;
 戚	ceg;
 隻	ceg;
-尺	ceg;	2565
+尺	ceg;
 刺	ceg;
 靝	cen;
 蕆	cen;
@@ -6123,20 +6123,20 @@ use_preset_vocabulary: false
 荐	cen;
 瓩	cen;
 濺	cen;
-淺	cen;	2338
+淺	cen;
 擅	cen;
 喘	cen;
 倩	cen;
 仟	cen;
-天	cen;	2620
+天	cen;
 辿	cen;
 遷	cen;
 薦	cen;
 舛	cen;
 穿	cen;
-泉	cen;	2357
-川	cen;	2556
-千	cen;	2700
+泉	cen;
+川	cen;
+千	cen;
 蚕	cen;
 釧	cen;
 串	cen;
@@ -6151,7 +6151,7 @@ use_preset_vocabulary: false
 澈	cel;
 喆	cel;
 餮	cel;
-鐵	cel;	2061
+鐵	cel;
 錣	cel;
 銕	cel;
 輟	cel;
@@ -6203,17 +6203,17 @@ use_preset_vocabulary: false
 淸	cex;
 蜻	cex;
 菁	cex;
-聽	cex;	2206
+聽	cex;
 廳	cex;
-青	cex;	2038
-請	cex;	2133
-晴	cex;	2426
+青	cex;
+請	cex;
+晴	cex;
 鯖	cex;
 髰	cei;
 蕞	cei;
 殢	cei;
 彘	cei;
-體	cei;	2012
+體	cei;
 靆	cei;
 遞	cei;
 軆	cei;
@@ -6270,7 +6270,7 @@ use_preset_vocabulary: false
 剿	co;
 秒	co;
 超	co;
-草	co;	2181
+草	co;
 礎	co;
 楚	co;
 酢	co;
@@ -6282,10 +6282,10 @@ use_preset_vocabulary: false
 焦	co;
 樵	co;
 梢	co;
-招	co;	2472
+招	co;
 抄	co;
 哨	co;
-初	co;	2724
+初	co;
 鍬	co;
 薥	cog;
 爥	cog;
@@ -6301,8 +6301,8 @@ use_preset_vocabulary: false
 燭	cog;
 邨	con;
 忖	con;
-村	con;	2403
-寸	con;	2574
+村	con;
+寸	con;
 吋	con;
 驄	cox;
 騘	cox;
@@ -6329,7 +6329,7 @@ use_preset_vocabulary: false
 榱	coi;
 摧	coi;
 崔	coi;
-最	coi;	2417
+最	coi;
 催	coi;
 麤	cu;
 麄	cu;
@@ -6368,7 +6368,7 @@ use_preset_vocabulary: false
 啾	cu;
 萩	cu;
 鎚	cu;
-追	cu;	2094
+追	cu;
 椎	cu;
 墜	cu;
 抽	cu;
@@ -6376,11 +6376,11 @@ use_preset_vocabulary: false
 趨	cu;
 錘	cu;
 錐	cu;
-推	cu;	2463
+推	cu;
 諏	cu;
 醜	cu;
 酋	cu;
-秋	cu;	2259
+秋	cu;
 鰍	cu;
 鼀	cug;
 蹜	cug;
@@ -6394,26 +6394,26 @@ use_preset_vocabulary: false
 畜	cug;
 築	cug;
 縮	cug;
-祝	cug;	2267
+祝	cug;
 蹴	cug;
 軸	cug;
 竺	cug;
 丑	cug;
 瑃	cun;
 椿	cun;
-春	cun;	2433
+春	cun;
 秫	cul;
 黜	cul;
 朮	cul;
-出	cul;	2729
+出	cul;
 珫	cux;
 忡	cux;
-蟲	cux;	2168
+蟲	cux;
 冲	cux;
 衷	cux;
-忠	cux;	2512
+忠	cux;
 衝	cux;
-充	cux;	2750
+充	cux;
 沖	cux;
 顇	cuei;
 疩	cuei;
@@ -6436,11 +6436,11 @@ use_preset_vocabulary: false
 脆	cui;
 翠	cui;
 炊	cui;
-吹	cui;	2667
+吹	cui;
 臭	cui;
-就	cui;	2566
+就	cui;
 趣	cui;
-取	cui;	2683
+取	cui;
 昃	cwg;
 惻	cwg;
 廁	cwg;
@@ -6458,7 +6458,7 @@ use_preset_vocabulary: false
 淄	ci;
 哆	ci;
 寘	ci;
-齒	ci;	2001
+齒	ci;
 鵄	ci;
 鴟	ci;
 鯔	ci;
@@ -6483,26 +6483,26 @@ use_preset_vocabulary: false
 侈	ci;
 薙	ci;
 馳	ci;
-致	ci;	2197
+致	ci;
 置	ci;
 稚	ci;
 痴	ci;
 恥	ci;
 値	ci;
 痔	ci;
-治	ci;	2358
+治	ci;
 敕	cig;
 飭	cig;
 勅	cig;
-則	cig;	2719
+則	cig;
 藽	cin;
 櫬	cin;
 齔	cin;
 襯	cin;
-親	cin;	2156
+親	cin;
 柒	cil;
 漆	cil;
-七	cil;	2807
+七	cil;
 鋟	cim;
 郴	cim;
 琛	cim;
@@ -6515,7 +6515,7 @@ use_preset_vocabulary: false
 寢	cim;
 枕	cim;
 沈	cim;
-針	cim;	2065
+針	cim;
 浸	cim;
 侵	cim;
 砧	cim;
@@ -6524,7 +6524,7 @@ use_preset_vocabulary: false
 稱	cix;
 夬	cix;
 秤	cix;
-快	koai;	2511
+快	koai;
 鼉	ta;
 鮀	ta;
 駞	ta;
@@ -6547,11 +6547,11 @@ use_preset_vocabulary: false
 楕	ta;
 舵	ta;
 柁	ta;
-打	ta;	2478
+打	ta;
 惰	ta;
 妥	ta;
 唾	ta;
-他	ta;	2786
+他	ta;
 逴	tag;
 踔	tag;
 蘀	tag;
@@ -6566,7 +6566,7 @@ use_preset_vocabulary: false
 柝	tag;
 拆	tag;
 倬	tag;
-度	tag;	2538
+度	tag;
 擢	tag;
 濁	tag;
 鐸	tag;
@@ -6592,7 +6592,7 @@ use_preset_vocabulary: false
 歎	tan;
 坦	tan;
 嘆	tan;
-脫	tal;	2201
+脫	tal;
 侻	tal;
 奪	tal;
 忐	tam;
@@ -6601,7 +6601,7 @@ use_preset_vocabulary: false
 貪	tam;
 眈	tam;
 耽	tam;
-探	tam;	2465
+探	tam;
 塌	tab;
 傝	tab;
 榻	tab;
@@ -6632,21 +6632,21 @@ use_preset_vocabulary: false
 台	tai;
 苔	tai;
 胎	tai;
-泰	tai;	2352
+泰	tai;
 態	tai;
 怠	tai;
 駄	tai;
 汰	tai;
-太	tai;	2619
+太	tai;
 澤	taig;
 擇	taig;
-宅	taig;	2595
+宅	taig;
 牚	taix;
 撑	taix;
 撐	taix;
 攄	te;
 討	to;
-土	to;	2641
+土	to;
 吐	to;
 兎	to;
 噋	ton;
@@ -6657,16 +6657,16 @@ use_preset_vocabulary: false
 恫	tox;
 樋	tox;
 洞	tox;
-統	tox;	2225
+統	tox;
 筒	tox;
-通	tox;	2090
+通	tox;
 痛	tox;
 桶	tox;
 頹	toi;
 隤	toi;
 褪	toi;
 槌	toi;
-退	toi;	2093
+退	toi;
 腿	toi;
 堆	toi;
 妒	tu;
@@ -6675,13 +6675,13 @@ use_preset_vocabulary: false
 渝	tu;
 偸	tu;
 透	tu;
-投	tu;	2474
+投	tu;
 套	tu;
 妬	tu;
 佟	tux;
 忒	twg;
 慝	twg;
-特	twg;	2317
+特	twg;
 闖	twm;
 鄱	pa;
 皤	pa;
@@ -6705,10 +6705,10 @@ use_preset_vocabulary: false
 罷	pa;
 芭	pa;
 婆	pa;
-破	pa;	2271
+破	pa;
 琶	pa;
 派	pa;
-波	pa;	2355
+波	pa;
 杷	pa;
 播	pa;
 把	pa;
@@ -6721,13 +6721,13 @@ use_preset_vocabulary: false
 販	pan;
 版	pan;
 板	pan;
-判	pan;	2723
+判	pan;
 阪	pan;
 坂	pan;
 汃	pal;
 朳	pal;
 叭	pal;
-八	pal;	2740
+八	pal;
 捌	pal;
 浿	pai;
 霈	pai;
@@ -6741,9 +6741,9 @@ use_preset_vocabulary: false
 稗	pai;
 狽	pai;
 牌	pai;
-敗	pai;	2453
+敗	pai;
 覇	pai;
-貝	pai;	2120
+貝	pai;
 唄	pai;
 蟛	paix;
 蟚	paix;
@@ -6767,11 +6767,11 @@ use_preset_vocabulary: false
 翩	pyen;
 扁	pyen;
 鞭	pyen;
-便	pyen;	2767
+便	pyen;
 遍	pyen;
 編	pyen;
 篇	pyen;
-片	pyen;	2320
+片	pyen;
 偏	pyen;
 窆	pyem;
 砭	pyem;
@@ -6784,7 +6784,7 @@ use_preset_vocabulary: false
 苹	pyex;
 泙	pyex;
 怦	pyex;
-平	pyex;	2544
+平	pyex;
 評	pyex;
 坪	pyex;
 獘	pyei;
@@ -6796,7 +6796,7 @@ use_preset_vocabulary: false
 嬖	pyei;
 吠	pyei;
 陛	pyei;
-閉	pyei;	2058
+閉	pyei;
 蔽	pyei;
 弊	pyei;
 幣	pyei;
@@ -6823,13 +6823,13 @@ use_preset_vocabulary: false
 咆	po;
 匏	po;
 匍	po;
-暴	po;	2421
+暴	po;
 飽	po;
 褒	po;
 胞	po;
 砲	po;
 泡	po;
-抱	po;	2473
+抱	po;
 庖	po;
 包	po;
 捕	po;
@@ -6837,13 +6837,13 @@ use_preset_vocabulary: false
 鋪	po;
 葡	po;
 怖	po;
-布	po;	2549
+布	po;
 蒲	po;
 鞄	po;
 浦	po;
 輻	pog;
 瀑	pog;
-暴	pog;	2421
+暴	pog;
 幅	pog;
 爆	pog;
 曝	pog;
@@ -6866,7 +6866,7 @@ use_preset_vocabulary: false
 嫖	pyo;
 剽	pyo;
 豹	pyo;
-表	pyo;	2162
+表	pyo;
 票	pyo;
 瓢	pyo;
 漂	pyo;
@@ -6876,13 +6876,13 @@ use_preset_vocabulary: false
 杓	pyo;
 禀	pum;
 稟	pum;
-品	pum;	2660
+品	pum;
 葑	pux;
 馮	pux;
 諷	pux;
 瘋	pux;
 豊	pux;
-風	pux;	2024
+風	pux;
 楓	pux;
 髲	pi;
 詖	pi;
@@ -6891,10 +6891,10 @@ use_preset_vocabulary: false
 辟	pi;
 避	pi;
 被	pi;
-皮	pi;	2287
+皮	pi;
 疲	pi;
 披	pi;
-彼	pi;	2527
+彼	pi;
 腷	pig;
 駜	pil;
 馝	pil;
@@ -6911,9 +6911,9 @@ use_preset_vocabulary: false
 鵯	pil;
 蹕	pil;
 篳	pil;
-筆	pil;	2242
+筆	pil;
 畢	pil;
-必	pil;	2517
+必	pil;
 弼	pil;
 疋	pil;
 匹	pil;
@@ -6935,14 +6935,14 @@ use_preset_vocabulary: false
 呀	ha;
 厦	ha;
 嚇	ha;
-賀	ha;	2112
+賀	ha;
 霞	ha;
 蝦	ha;
 荷	ha;
-河	ha;	2360
-夏	ha;	2626
-何	ha;	2774
-下	ha;	2804
+河	ha;
+夏	ha;
+何	ha;
+下	ha;
 郝	hag;
 确	hag;
 皬	hag;
@@ -6952,7 +6952,7 @@ use_preset_vocabulary: false
 瘧	hag;
 狢	hag;
 涸	hag;
-學	hag;	2596
+學	hag;
 壑	hag;
 鶴	hag;
 虐	hag;
@@ -6960,7 +6960,7 @@ use_preset_vocabulary: false
 閈	hag;
 暵	hag;
 僩	hag;
-閒	hag;	2056
+閒	hag;
 鼾	hag;
 駻	hag;
 罕	hag;
@@ -6971,14 +6971,14 @@ use_preset_vocabulary: false
 悍	hag;
 嫻	hag;
 嫺	hag;
-恨	hag;	2504
-限	hag;	2051
-韓	hag;	2033
+恨	hag;
+限	hag;
+韓	hag;
 閑	hag;
 翰	hag;
-漢	hag;	2331
+漢	hag;
 汗	hag;
-寒	hag;	2578
+寒	hag;
 瞎	hal;
 轄	hal;
 割	hal;
@@ -7011,7 +7011,7 @@ use_preset_vocabulary: false
 溘	hab;
 哈	hab;
 蛤	hab;
-合	hab;	2674
+合	hab;
 閤	hab;
 缿	hax;
 炕	hax;
@@ -7026,8 +7026,8 @@ use_preset_vocabulary: false
 伉	hax;
 亢	hax;
 項	hax;
-降	hax;	2052
-行	hax;	2165
+降	hax;
+行	hax;
 航	hax;
 港	hax;
 杭	hax;
@@ -7058,11 +7058,11 @@ use_preset_vocabulary: false
 鮭	hai;
 骸	hai;
 該	hai;
-害	hai;	2584
+害	hai;
 咳	hai;
 蟹	hai;
-海	hai;	2344
-解	hai;	2153
+海	hai;
+解	hai;
 亥	hai;
 翮	haig;
 覈	haig;
@@ -7070,26 +7070,26 @@ use_preset_vocabulary: false
 劾	haig;
 荇	haix;
 悻	haix;
-行	haix;	2165
-幸	haix;	2542
+行	haix;
+幸	haix;
 倖	haix;
 杏	haix;
-鄉	hyax;	2073
+鄉	hyax;
 薌	hyax;
 珦	hyax;
 鄕	hyax;
 餉	hyax;
 嚮	hyax;
-香	hyax;	2016
-向	hyax;	2670
+香	hyax;
+向	hyax;
 饗	hyax;
 響	hyax;
 享	hyax;
-虛	he;	2170
+虛	he;
 噓	he;
 歔	he;
 墟	he;
-許	he;	2146
+許	he;
 櫶	hen;
 攇	hen;
 幰	hen;
@@ -7109,7 +7109,7 @@ use_preset_vocabulary: false
 鬩	hyeg;
 洫	hyeg;
 奕	hyeg;
-革	hyeg;	2034
+革	hyeg;
 赫	hyeg;
 駽	hyen;
 誢	hyen;
@@ -7136,11 +7136,11 @@ use_preset_vocabulary: false
 俔	hyen;
 舷	hyen;
 絃	hyen;
-現	hyen;	2312
+現	hyen;
 玄	hyen;
 弦	hyen;
-賢	hyen;	2110
-見	hyen;	2158
+賢	hyen;
+見	hyen;
 県	hyen;
 懸	hyen;
 絢	hyen;
@@ -7148,7 +7148,7 @@ use_preset_vocabulary: false
 絜	hyel;
 孑	hyel;
 頁	hyel;
-血	hyel;	2167
+血	hyel;
 穴	hyel;
 嫌	hyem;
 頰	hyeb;
@@ -7168,7 +7168,7 @@ use_preset_vocabulary: false
 夾	hyeb;
 脇	hyeb;
 脅	hyeb;
-協	hyeb;	2696
+協	hyeb;
 叶	hyeb;
 陘	hyex;
 鎣	hyex;
@@ -7189,10 +7189,10 @@ use_preset_vocabulary: false
 夐	hyex;
 衡	hyex;
 荊	hyex;
-形	hyex;	2528
+形	hyex;
 型	hyex;
-兄	hyex;	2751
-刑	hyex;	2726
+兄	hyex;
+刑	hyex;
 亨	hyex;
 馨	hyex;
 謑	hyei;
@@ -7208,7 +7208,7 @@ use_preset_vocabulary: false
 醯	hyei;
 蹊	hyei;
 盻	hyei;
-惠	hyei;	2497
+惠	hyei;
 彗	hyei;
 兮	hyei;
 慧	hyei;
@@ -7222,7 +7222,7 @@ use_preset_vocabulary: false
 濩	ho;
 澔	ho;
 滈	ho;
-戶	ho;	2482
+戶	ho;
 岵	ho;
 嫮	ho;
 嫭	ho;
@@ -7236,7 +7236,7 @@ use_preset_vocabulary: false
 鎬	ho;
 扈	ho;
 蝴	ho;
-號	ho;	2169
+號	ho;
 蒿	ho;
 葫	ho;
 皓	ho;
@@ -7257,18 +7257,18 @@ use_preset_vocabulary: false
 濠	ho;
 壕	ho;
 浩	ho;
-好	ho;	2613
+好	ho;
 醐	ho;
 護	ho;
 瑚	ho;
 互	ho;
-虎	ho;	2172
+虎	ho;
 胡	ho;
 糊	ho;
 狐	ho;
-湖	ho;	2335
+湖	ho;
 弧	ho;
-呼	ho;	2664
+呼	ho;
 乎	ho;
 芦	ho;
 惑	hog;
@@ -7282,9 +7282,9 @@ use_preset_vocabulary: false
 溷	hon;
 渾	hon;
 魂	hon;
-混	hon;	2339
+混	hon;
 昏	hon;
-婚	hon;	2604
+婚	hon;
 囫	hol;
 笏	hol;
 惚	hol;
@@ -7301,7 +7301,7 @@ use_preset_vocabulary: false
 哄	hox;
 虹	hox;
 鴻	hox;
-紅	hox;	2234
+紅	hox;
 洪	hox;
 弘	hox;
 龢	hoa;
@@ -7312,19 +7312,19 @@ use_preset_vocabulary: false
 婲	hoa;
 俰	hoa;
 譁	hoa;
-畫	hoa;	2298
-話	hoa;	2143
-和	hoa;	2662
+畫	hoa;
+話	hoa;
+和	hoa;
 靴	hoa;
 樺	hoa;
-貨	hoa;	2117
+貨	hoa;
 嘩	hoa;
-華	hoa;	2179
-花	hoa;	2186
+華	hoa;
+花	hoa;
 禾	hoa;
 禍	hoa;
-火	hoa;	2329
-化	hoa;	2704
+火	hoa;
+化	hoa;
 鑊	hoag;
 礭	hoag;
 碻	hoag;
@@ -7351,7 +7351,7 @@ use_preset_vocabulary: false
 皖	hoan;
 煥	hoan;
 渙	hoan;
-歡	hoan;	2381
+歡	hoan;
 懽	hoan;
 寰	hoan;
 宦	hoan;
@@ -7362,15 +7362,15 @@ use_preset_vocabulary: false
 環	hoan;
 桓	hoan;
 換	hoan;
-患	hoan;	2501
+患	hoan;
 喚	hoan;
 闊	hoal;
 豁	hoal;
 蛞	hoal;
 猾	hoal;
 滑	hoal;
-活	hoal;	2349
-黃	hoax;	2005
+活	hoal;
+黃	hoax;
 貺	hoax;
 璜	hoax;
 瑝	hoax;
@@ -7397,7 +7397,7 @@ use_preset_vocabulary: false
 凰	hoax;
 幌	hoax;
 荒	hoax;
-皇	hoax;	2288
+皇	hoax;
 晃	hoax;
 慌	hoax;
 況	hoax;
@@ -7422,7 +7422,7 @@ use_preset_vocabulary: false
 懷	hoi;
 徊	hoi;
 匯	hoi;
-會	hoi;	2416
+會	hoi;
 賄	hoi;
 栃	hoi;
 灰	hoi;
@@ -7430,7 +7430,7 @@ use_preset_vocabulary: false
 恢	hoi;
 悔	hoi;
 廻	hoi;
-回	hoi;	2650
+回	hoi;
 嚄	hoig;
 獲	hoig;
 劃	hoig;
@@ -7453,14 +7453,14 @@ use_preset_vocabulary: false
 淆	hyo;
 梟	hyo;
 曉	hyo;
-效	hyo;	2455
+效	hyo;
 囂	hyo;
 嚆	hyo;
 哮	hyo;
 傚	hyo;
 肴	hyo;
 酵	hyo;
-孝	hyo;	2599
+孝	hyo;
 餱	hu;
 酗	hu;
 譃	hu;
@@ -7479,10 +7479,10 @@ use_preset_vocabulary: false
 吽	hu;
 喉	hu;
 后	hu;
-厚	hu;	2691
+厚	hu;
 候	hu;
 侯	hu;
-後	hu;	2523
+後	hu;
 朽	hu;
 鑂	hun;
 纁	hun;
@@ -7500,7 +7500,7 @@ use_preset_vocabulary: false
 熏	hun;
 暈	hun;
 勳	hun;
-訓	hun;	2150
+訓	hun;
 薨	hux;
 諼	huen;
 芔	huen;
@@ -7536,7 +7536,7 @@ use_preset_vocabulary: false
 烋	hyu;
 畦	hyu;
 携	hyu;
-休	hyu;	2778
+休	hyu;
 卹	hyul;
 鷸	hyul;
 譎	hyul;
@@ -7545,10 +7545,10 @@ use_preset_vocabulary: false
 洶	hyux;
 恟	hyux;
 匈	hyux;
-胸	hyux;	2203
+胸	hyux;
 凶	hyux;
 兇	hyux;
-黑	hwg;	2004
+黑	hwg;
 訢	hwn;
 焮	hwn;
 炘	hwn;
@@ -7580,7 +7580,7 @@ use_preset_vocabulary: false
 歙	hwb;
 吸	hwb;
 恰	hwb;
-興	hwx;	2195
+興	hwx;
 餼	hwi;
 豨	hwi;
 爔	hwi;
@@ -7609,9 +7609,9 @@ use_preset_vocabulary: false
 咥	hwi;
 僖	hwi;
 稀	hwi;
-希	hwi;	2548
+希	hwi;
 嬉	hwi;
-喜	hwi;	2655
+喜	hwi;
 犵	hil;
 黠	hil;
 頡	hil;
@@ -7620,24 +7620,24 @@ use_preset_vocabulary: false
 詰	hil;
 臵	gag;
 猑	gon;
-德	deg;	2519
+德	deg;
 悳	deg;
 遬	sog;
 涑	sog;
 洬	sog;
 贖	sog;
 謖	sog;
-續	sog;	2220
+續	sog;
 屬	sog;
-俗	sog;	2766
-速	sog;	2089
+俗	sog;
+速	sog;
 束	sog;
 粟	sog;
 鷳	han;
 閈	han;
 暵	han;
 僩	han;
-閒	han;	2056
+閒	han;
 鼾	han;
 駻	han;
 罕	han;
@@ -7648,20 +7648,20 @@ use_preset_vocabulary: false
 悍	han;
 嫻	han;
 嫺	han;
-恨	han;	2504
-限	han;	2051
-韓	han;	2033
+恨	han;
+限	han;
+韓	han;
 閑	han;
 翰	han;
-漢	han;	2331
+漢	han;
 汗	han;
-寒	han;	2578
+寒	han;
 ### 異讀及頭音規則等 ###
 秊	xyen;
 撚	xyen;
-年	xyen;	2543
+年	xyen;
 捻	xyem;
-念	xyem;	2510
+念	xyem;
 寧	lyex;
 寧	xyex;
 紐	xyu;
@@ -7678,7 +7678,7 @@ use_preset_vocabulary: false
 癩	na;
 邏	na;
 諾	lag;
-落	nag;	2177
+落	nag;
 珞	nag;
 烙	nag;
 洛	nag;
@@ -7698,20 +7698,20 @@ use_preset_vocabulary: false
 臘	nab;
 拉	nab;
 狼	nax;
-浪	nax;	2347
+浪	nax;
 朗	nax;
 廊	nax;
-來	nai;	2770
-冷	naix;	2730
+來	nai;
+冷	naix;
 略	xyag;
 掠	xyag;
-量	xyax;	2067
+量	xyax;
 諒	xyax;
-良	xyax;	2188
+良	xyax;
 糧	xyax;
 梁	xyax;
 凉	xyax;
-兩	xyax;	2741
+兩	xyax;
 亮	xyax;
 黎	xye;
 麗	xye;
@@ -7719,34 +7719,34 @@ use_preset_vocabulary: false
 閭	xye;
 礪	xye;
 濾	xye;
-旅	xye;	2441
+旅	xye;
 廬	xye;
 呂	xye;
 勵	xye;
 轢	xyeg;
-歷	xyeg;	2375
+歷	xyeg;
 曆	xyeg;
-力	xyeg;	2717
+力	xyeg;
 鍊	xyen;
-連	xyen;	2087
+連	xyen;
 輦	xyen;
 蓮	xyen;
 聯	xyen;
-練	xyen;	2221
+練	xyen;
 璉	xyen;
 煉	xyen;
 漣	xyen;
 戀	xyen;
 憐	xyen;
 裂	xyel;
-烈	xyel;	2328
+烈	xyel;
 劣	xyel;
-列	xyel;	2725
+列	xyel;
 簾	xyem;
 殮	xyem;
 廉	xyem;
 獵	xyeb;
-領	xyex;	2028
+領	xyex;
 靈	xyex;
 零	xyex;
 鈴	xyex;
@@ -7756,30 +7756,30 @@ use_preset_vocabulary: false
 怜	xyex;
 嶺	xyex;
 囹	xyex;
-令	xyex;	2783
+令	xyex;
 醴	xyei;
-禮	xyei;	2262
-例	xyei;	2769
-路	no;	2103
+禮	xyei;
+例	xyei;
+路	no;
 虜	no;
 蘆	no;
-老	no;	2214
+老	no;
 盧	no;
 爐	no;
 櫓	no;
 擄	no;
 #怒	no; # unihan korean 已有相同
-勞	no;	2708
+勞	no;
 鷺	no;
 魯	no;
-露	no;	2039
+露	no;
 菉	nog;
-綠	nog;	2223
+綠	nog;
 祿	nog;
 碌	nog;
 鹿	nog;
 錄	nog;
-論	non;	2132
+論	non;
 聾	nox;
 籠	nox;
 弄	nox;
@@ -7792,7 +7792,7 @@ use_preset_vocabulary: false
 蓼	xyo;
 療	xyo;
 燎	xyo;
-料	xyo;	2445
+料	xyo;
 寮	xyo;
 僚	xyo;
 了	xyo;
@@ -7807,22 +7807,22 @@ use_preset_vocabulary: false
 陋	nu;
 類	xyu;
 硫	xyu;
-留	xyu;	2300
+留	xyu;
 琉	xyu;
 溜	xyu;
-流	xyu;	2348
+流	xyu;
 柳	xyu;
 劉	xyu;
-陸	xyug;	2048
+陸	xyug;
 戮	xyug;
-六	xyug;	2738
+六	xyug;
 輪	xyun;
 淪	xyun;
 崙	xyun;
 倫	xyun;
 栗	xyul;
 慄	xyul;
-律	xyul;	2524
+律	xyul;
 隆	xyux;
 肋	nwg;
 勒	nwg;
@@ -7833,18 +7833,18 @@ use_preset_vocabulary: false
 凌	nwm;
 陵	nwm;
 離	xi;
-里	xi;	2070
+里	xi;
 裡	xi;
 裏	xi;
 罹	xi;
 痢	xi;
-異	li;	2297
-理	xi;	2310
+異	li;
+理	xi;
 梨	xi;
 李	xi;
 履	xi;
 吏	xi;
-利	xi;	2721
+利	xi;
 麟	xin;
 鱗	xin;
 隣	xin;
@@ -7854,13 +7854,13 @@ use_preset_vocabulary: false
 吝	xin;
 臨	xim;
 淋	xim;
-林	xim;	2400
+林	xim;
 粒	xib;
 笠	xib;
-立	xib;	2250
+立	xib;
 尿	xyo;
 丹	lan;
-怒	lo;	2509
+怒	lo;
 菱	nwx;
 綾	nwx;
 稜	nwx;
