@@ -137,8 +137,8 @@ function email_url_translator(input, seg)
   --                string.match(input, "^file:.*$")
   -- local email_in = string.match(input, "^[a-z][-_.0-9a-z]*@.*$")
 
-  -- local url_cand = Candidate("englishtype", seg.start, seg._end, input , "〔URL〕")
-  -- local email_cand = Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕")
+  -- local url_cand = Candidate("internet", seg.start, seg._end, input , "〔URL〕")
+  -- local email_cand = Candidate("internet", seg.start, seg._end, input , "〔e-mail〕")
 
   if seg:has_tag("email_url_translator") then
     if not string.match(input, "@") then
@@ -146,14 +146,14 @@ function email_url_translator(input, seg)
     -- if www_in or url1_in or url2_in or url3_in or url4_in then
     -- if www_url_in then
     -- if url_in then
-      yield(Candidate("englishtype", seg.start, seg._end, input , "〔URL〕"))
+      yield(Candidate("internet", seg.start, seg._end, input , "〔URL〕"))
       -- yield(url_cand)
       -- return
     -- end
     else
     -- elseif string.match(input, "^[a-z][-_.0-9a-z]*@.*$") then
     -- elseif email_in then
-      yield(Candidate("englishtype", seg.start, seg._end, input , "〔e-mail〕"))
+      yield(Candidate("internet", seg.start, seg._end, input , "〔e-mail〕"))
       -- yield(email_cand)
       -- return
     end
