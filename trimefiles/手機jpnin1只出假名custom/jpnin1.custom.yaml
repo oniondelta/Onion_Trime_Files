@@ -127,7 +127,9 @@ patch:
     - derive/xka(?=[.])/ka/ #ヵ
     - derive/^noma(?=[.])/dou/ #符號
     - derive/^dou(?=[.])/onaji/ #符號
+    - derive/^dou(?=[.])/onazi/ #符號
     - derive/^dou(?=[.])/odoriji/ #符號
+    - derive/^dou(?=[.])/odorizi/ #符號
     - derive/^dou(?=[.])/kigou/ #符號
 ##
 #關，減少prism大小#    - derive/^u/wu/ #うウ
