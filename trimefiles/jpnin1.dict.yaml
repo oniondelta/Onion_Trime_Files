@@ -8,6 +8,18 @@
 # 漢字假名分段
 #
 #===================================
+#
+# 資料來源：
+#    https://github.com/masui/Chaim
+#    https://github.com/google/mozc
+#    https://github.com/lazyfoxchan/rime-jaroomaji
+#    https://github.com/gkovacs/rime-japanese
+#
+#===================================
+# 原則：
+#  - 漢字中的變化用正則轉。
+#  - 假名中的變化於碼表中增加條目。
+#===================================
 # 假名時「っ」「ッ」編碼訂為「q」，其他變化編碼用正則轉寫。
 # 漢字中「っ」「ッ」編碼不標注為「q」改標注如：「sshi」形式，其他變化編碼用正則轉寫。
 # 「ー」編碼訂為「-」，其他變化編碼用正則轉寫。
@@ -34,11 +46,12 @@
 # 詞彙中(非漢字裡)含 チェ、ちぇ=tye，che、cye用正則轉換外，還需補上 chi. xe. 或 chi, xe,，漢字中不用補。
 #     例：チェコ人	tye. ko. jin;    チェコ人	chi. xe. ko. jin;
 #
-# 詞彙中(漢字裡)含 texi(てぃ)，其變化需補齊 thi （ ti 後來改不補）。
-# 詞彙中(漢字裡)含 toxu(とぅ)，其變化需補齊 twu （ tu 後來改不補）。
-# 備註： ti 和 tu 可能為 texi(てぃ)和 toxu(とぅ)，之前可能誤轉成 chi 和 tsu ？
-#     例：汀間	texima;    汀間	thima;    （後改不補 汀間	tima;）
-#     例：友寄	toxumushi;    友寄	twumushi;    （後改不補 友寄	tumushi;）
+# ####舊版#### 新版漢字裡的變化不用補，用正則轉：
+# ## 詞彙中(漢字裡)含 texi(てぃ)，其變化需補齊 thi （ ti 後來改不補）。
+# ## 詞彙中(漢字裡)含 toxu(とぅ)，其變化需補齊 twu （ tu 後來改不補）。
+# ## 備註： ti 和 tu 可能為 texi(てぃ)和 toxu(とぅ)，之前可能誤轉成 chi 和 tsu ？
+# ##     例：汀間	texima;    汀間	thima;    （後改不補 汀間	tima;）
+# ##     例：友寄	toxumushi;    友寄	twumushi;    （後改不補 友寄	tumushi;）
 #
 #
 # 詞彙中漢字和外語之間，定義須分節
@@ -1069,6 +1082,8 @@ columns:
 ふぉ	fwo,
 ゔぃ	vyi,
 ゔぇ	vye,
+きぃ	kyi,
+びぃ	byi,
 ##### 日語『補充平假名』結束 #####
 ####### 日語『補充片假名』開始 #######
 ### 日文拗音片假名 ###
@@ -1467,6 +1482,8 @@ columns:
 プヮ	pwa.
 ビヮ	bwa.
 ズヮ	zwa.
+キィ	kyi.
+ビィ	byi.
 ##### 日語『補充片假名』結束 #####
 ### 日文撥音平假名(撥音省略) ###
 #わん	wan,
@@ -18306,7 +18323,8 @@ columns:
 昌	chi;
 道	chi;
 褫	chi;
-江	chixan;
+江	tyan;
+# 江	chixan;
 #小	chii;
 鰯	chiiwashi;
 恒	chie;
@@ -22105,9 +22123,9 @@ columns:
 蹈	fu;
 躔	fu;
 躡	fu;
-菲	fuxi;
+# 菲	fuxi;
 菲	fi;
-呎	fuxi-to;
+# 呎	fuxi-to;
 呎	fi-to;
 吹	fui;
 鞴	fuigo;
@@ -22125,7 +22143,7 @@ columns:
 瘋	fuu;
 楓	fuu;	61959
 諷	fuu;
-菲	fuxei;
+# 菲	fuxei;
 菲	fei;
 #笛	fue;
 簫	fue;
@@ -25047,7 +25065,7 @@ columns:
 俚	ri;
 悧	ri;
 詈	ri;
-里	rixi;
+# 里	rixi;
 里	ryi;
 里	lyi;
 #力	riki;
@@ -26808,7 +26826,7 @@ columns:
 彪	pyou;	63104
 震	fu;	59328
 比	firipin;	62290
-比	fuxiripin;	62290
+# 比	fuxiripin;	62290
 吭	fue;	59137
 深	fukashi;	63329
 淵	fukashi;	63478
@@ -27209,11 +27227,11 @@ columns:
 林	imu;	61842
 初	u;	63056
 偉	whei;	62384
-偉	uxei;	62384
+# 偉	uxei;	62384
 薇	whei;	62134
-薇	uxei;	62134
+# 薇	uxei;	62134
 魏	whei;	61947
-魏	uxei;	61947
+# 魏	uxei;	61947
 汐	ushio;	62564
 転	utata;	62985
 中	uchi;	61952
@@ -27365,7 +27383,7 @@ columns:
 支	sasoo;	64732
 決	sadamu;	62171
 定	sadame;	61278
-里	satoxu;	60606
+# 里	satoxu;	60606
 #？#里	satu;
 里	satwu;	60606
 俊	satoshi;	63138
@@ -27426,9 +27444,9 @@ columns:
 沈	shin;	62393
 晋	shinji;	61439
 激	ji;	62913
-#堅	jen;
+堅	jen;	60655
 堅	jyen;
-堅	jixen;	60655
+# 堅	jixen;	60655
 杰	jie;	62698
 舳	jiku;	59109
 爺	jiji;	61089
@@ -27851,20 +27869,20 @@ columns:
 平	pin;	61746
 萍	pingu;	62248
 化	fa;	63281
-化	fuxa;	63281
+# 化	fuxa;	63281
 華	fa;	61753
-華	fuxa;	61753
+# 華	fuxa;	61753
 帆	fan;	63199
-帆	fuxan;	63199
+# 帆	fuxan;	63199
 翻	fan;	61811
-翻	fuxan;	61811
+# 翻	fuxan;	61811
 飜	fan;	61086
 飜	fuan;
 黄	fan;	61598
 輝	fi;	61979
-輝	fuxi;	61979
+# 輝	fuxi;	61979
 黄	fixan;	61598
-黄	fuxixan;	61598
+# 黄	fuxixan;	61598
 鯊	fuka;	58322
 洋	fukashi;	61537
 寅	fusa;	61174
@@ -29624,11 +29642,105 @@ columns:
 隼	hayato;	61378
 駿	takashi;	61952
 ####### 202105新增補充比對 japanese.mozc.dict.yaml 結束 #######
+#######@ 202305新增補充比對 japanese.mozc.dict.yaml 開始 #######
+中	nakaba;	61167
+主	nu-shi;	54971
+京	kanadome;	61509
+佻	karu;	61890
+冥	kura;	59452
+冽	kiyo;	61161
+出	iduru;	63042
+切	gi;	61265
+刻	kizami;	59131
+前	susume;	62278
+勍	tsuyo;	60153
+厳	ika;	61963
+叢	muraga;	51128
+古	fu;	55678
+吃	domo;	56652
+吽	hoe;	57615
+因	chinami;	62678
+囲	kakoi;	63876
+堅	jen;	60655
+塘	tomo;	62983
+塘	tsutsumi;	62441
+宙	kosumo;	58426
+宣	no;	55133
+庵	ihori;	62273
+強	duyo;	68357
+徹	too;	51126
+戦	zen;	63791
+挙	aga;	54583
+挙	kozo;	54584
+摩	sasu;	54581
+摩	su;	54582
+旧	fu;	55387
+昂	takabu;	57583
+晦	kura;	55998
+杯	sakaduki;	53005
+東	aduma;	63117
+架	kaka;	54580
+柳	yanadi;	59522
+梓	adusa;	62162
+梱	ko;	51155
+梱	kou;	51135
+樵	ko;	51126
+泉	idumi;	62449
+法	notto;	56313
+洞	hokora;	61895
+濃	dami;	63011
+瀞	kiyo;	61028
+煉	ne;	51145
+熟	tsukuduku;	62499
+熾	oko;	55682
+燻	ibu;	55750
+燻	kusubu;	55741
+牢	kata;	60146
+瑞	miduho;	62429
+由	yo;	60003
+痔	di;	62682
+盞	san;	61584
+稲	ichi;	54971
+管	suga;	62489
+紅	bin;	54971
+綴	tsuduru;	61987
+綴	tsuzu;	53955
+線	zen;	62467
+縁	fuchido;	60274
+縁	yo;	55273
+縮	chidimi;	62344
+繋	kaka;	54929
+繫	kaka;	54587
+纜	tomoduna;	60075
+肥	futo;	56584
+航	wata;	55273
+英	hanafusa;	61945
+訛	nama;	56126
+詰	naji;	55984
+詰	tsuma;	55997
+論	agetsura;	56974
+譲	yuduru;	62345
+賎	yasu;	56003
+賤	yasu;	60009
+蹄	hidume;	62114
+蹲	uzukumaru;	60049
+辛	zura;	67181
+達	date;	61755
+選	zen;	63068
+郡	kouri;	62871
+金	din;	62155
+釛	kogane;	60638
+鈍	nama;	55217
+雪	susugi;	59398
+雷	ikaduchi;	62541
+青	shuu;	54971
+鱇	ankou;	58667
+𩹉	tobiuo;	58203
+####### 202305新增補充比對 japanese.mozc.dict.yaml 結束 #######
 #######@ 202102新增日語符號類 開始 #######
 %	pa-sento;	66473
 ℃	doshi-;	63852
 ℃	do;	65003
-0	marumaru;
 ○	shiromaru;
 ○	zukei;
 ○	rei;
@@ -29820,3 +29932,18 @@ columns:
 ｗ	wara;
 ｗ	warai;
 #######@ 202102新增日語符號類 結束 #######
+#######@ 202305新增日語符號類 開始 #######
+# 0	marumaru;
+# 0	rei;	65446
+# 0	zero;	65699
+# 1	ichi;	66229
+# 2	ni;	67016
+# 3	san;	66956
+# 4	yon;	67227
+# 5	go;	67219
+# 6	roku;	66849
+# 7	nana;	66822
+# 8	hachi;	66781
+# 9	kyuu;	63233
+# P	pi-;	65788
+#######@ 202305新增日語符號類 結束 #######

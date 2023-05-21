@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: ocm_mixin_jp
-version: "202203"
+version: "202305"
 sort: original
 use_preset_vocabulary: false
 #max_phrase_length: 7
@@ -1085,6 +1085,8 @@ use_preset_vocabulary: false
 ふぉ	fwo,
 ゔぃ	vyi,
 ゔぇ	vye,
+きぃ	kyi,
+びぃ	byi,
 ##### 日語『補充平假名』結束 #####
 ####### 日語『補充片假名』開始 #######
 ### 日文拗音片假名 ###
@@ -1566,5 +1568,7 @@ use_preset_vocabulary: false
 プヮ	pwa.
 ビヮ	bwa.
 ズヮ	zwa.
+キィ	kyi.
+ビィ	byi.
 ##### 日語『補充片假名』結束 #####
 ####### 日語假名『總』結束 #######

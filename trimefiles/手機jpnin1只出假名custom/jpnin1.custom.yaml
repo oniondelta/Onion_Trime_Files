@@ -54,8 +54,25 @@ patch:
 #     - derive/my(?=[auoie].*;)/mixy/ #みゃ
 #     - derive/ry(?=[auoie].*;)/rixy/ #りゃ
 ##### 字詞彙中的漢字，拼音轉寫結束（以上到開頭可遮屏，節省部屬時間） #####
-### 漢字中的其他 ###
-    - derive/ty(?=e.*;)/chix/ #ちぇ
+### 漢字中的外語轉換 ###
+    - derive/ty(?=[auoie].*;)/chix/ #ちぇ
+    - derive/th(?=[ie].*;)/tex/ #てぃ、てぇ
+    - derive/tw(?=[auoie].*;)/tox/ #とぁ、とぅ、とぉ、とぃ、とぇ
+    - derive/dh(?=[ie].*;)/dex/ #でぃ、でぇ
+    - derive/dh(?=[auo].*;)/dexy/ #でゅ、でゅ、でょ
+    - derive/by(?=[auo].*;)/bixy/ #びゃ、びゅ、びょ
+    - derive/hy(?=[auo].*;)/hixy/ #ひゃ、ひゅ、ひょ
+    - derive/ny(?=[auo].*;)/nixy/ #にゃ、にゅ、にょ
+    - derive/gy(?=[auo].*;)/gixy/ #ぎゃ、ぎゅ、ぎょ
+    - derive/dy(?=[auo].*;)/dixy/ #ぢゃ、ぢゅ、ぢょ
+    - derive/dy(?=[ie].*;)/dix/ #ぢぃ、ぢぇ
+    - derive/j(?=[auo].*;)/jixy/ #じゃ、じゅ、じょ
+    - derive/j(?=[e].*;)/jix/ #じぇ
+    - derive/f(?=[aoe].*;)/fux/ #ふぁ、ふぉ、ふぇ
+    - derive/ts(?=[oeia].*;)/tsux/ #つぉ、つぇ、つぃ、つぁ
+    - derive/sy(?=i.*;)/shix/ #しぃ
+    - derive/gw(?=[auoei].*;)/gux/ #ぐゎ、ぐぅ、ぐぉ、ぐぇ、ぐぃ
+    - derive/wh(?=[auoei].*;)/ux/ #うぁ、うぅ、うぉ、うぇ、うぃ
 ##### 單字或詞彙中的假名和漢字，拼音轉寫 #####
     - derive/cchi/tti/
     - derive/sshi/ssi/
@@ -114,16 +131,16 @@ patch:
     - derive|^xx(?=[.])|kigou| #只片假名
     # - derive/q(?![yw][aeiou][,.])/xtu/ #っッ #可擴充讓「q」能輸出「っ」「ッ」
     - xform/q(?![yw][aeiou][,.])/xtu/ #っッ #完全轉走，不能用「q」輸出「っ」「ッ」
-    - derive/xtu/ltu/ #っッ
+    #略# - derive/xtu/ltu/ #っッ
     - derive/xtu/xtsu/ #っッ
-    - derive/xtu/ltsu/ #っッ
-    - derive/xy/ly/ #ゃゅょ
-    - derive/xwa/lwa/ #ゎ ヮ
-    - derive/x([aeiou])/l$1/ #ぁぇぃぉぅ
-    - derive/xke/lke/ #ヶゖ
+    #略# - derive/xtu/ltsu/ #っッ
+    #略# - derive/xy/ly/ #ゃゅょ
+    #略# - derive/xwa/lwa/ #ゎ ヮ
+    #略# - derive/x([aeiou])/l$1/ #ぁぇぃぉぅ
+    #略# - derive/xke/lke/ #ヶゖ
     - derive/xke(?=[.])/ke/ #ヶ
     - derive/xke(?=[.])/ga/ #ヶ #新增碼表沒有
-    - derive/xka/lka/ #ヵゕ
+    #略# - derive/xka/lka/ #ヵゕ
     - derive/xka(?=[.])/ka/ #ヵ
     - derive/^noma(?=[.])/dou/ #符號
     - derive/^dou(?=[.])/onaji/ #符號

@@ -4,7 +4,7 @@
 # 『洋蔥』製作
 ---
 name: bo_mixin_jp
-version: "202301"
+version: "202305"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -998,6 +998,8 @@ columns:
 ふぉ	!!!fwo
 ゔぃ	!!!vyi
 ゔぇ	!!!vye
+きぃ	!!!kyi
+びぃ	!!!byi
 ##### 日語『補充平假名』結束 #####
 ####### 日語『補充片假名』開始 #######
 ### 日文拗音片假名 ###
@@ -1396,6 +1398,8 @@ columns:
 プヮ	!!pwa
 ビヮ	!!bwa
 ズヮ	!!zwa
+キィ	!!kyi
+ビィ	!!byi
 ### 日文撥音平假名(撥音省略) ###
 # わん	!!!wan
 # らん	!!!ran
