@@ -72,6 +72,7 @@ patch:
     - derive/ts(?=[oeia].*;)/tsux/ #つぉ、つぇ、つぃ、つぁ
     - derive/sy(?=i.*;)/shix/ #しぃ
     - derive/gw(?=[auoei].*;)/gux/ #ぐゎ、ぐぅ、ぐぉ、ぐぇ、ぐぃ
+    - derive/dw(?=[auoei].*;)/dox/ #どぁ、どぅ、どぉ、どぇ、どぃ
     - derive/wh(?=[auoei].*;)/ux/ #うぁ、うぅ、うぉ、うぇ、うぃ
 ##### 單字或詞彙中的假名和漢字，拼音轉寫 #####
     - derive/cchi/tti/
