@@ -57411,6 +57411,8 @@ min_phrase_weight: 100
 人跡罕至	ren2 ji1 han3 zhi4
 人跡罕至	ren2 ji4 han3 zhi4
 人車混行	ren2 che1 hun2 xing2
+人車混行	ren2 che1 hun4 xing2
+人車混行	ren2 che1 hun3 xing2
 人道教育	ren2 dao4 jiao4 yu4
 人間	ren2 jian1
 人間仙境	ren2 jian1 xian1 jing4
@@ -64615,6 +64617,7 @@ min_phrase_weight: 100
 含沙量	han2 sha1 liang4
 含混	han2 hun3
 含混	han2 hun4
+含混	han2 hun2
 含片	han2 pian4
 含著骨頭露著肉	han2 zhe5 gu2 tou5 lou4 zhe5 rou4
 含笑入地	han2 xiao4 ru4 di4
@@ -66369,6 +66372,8 @@ min_phrase_weight: 100
 噴子	pen1 zi5
 噴射凝結器	pen1 she4 ning2 jie2 qi4
 噴射混凝土	pen1 she4 hun4 ning2 tu3
+噴射混凝土	pen1 she4 hun3 ning2 tu3
+噴射混凝土	pen1 she4 hun2 ning2 tu3
 噴薄	pen1 bo2
 噴薄欲出	pen1 bo2 yu4 chu1
 噴雲吐霧	pen1 yun2 tu3 wu4
@@ -73239,6 +73244,8 @@ min_phrase_weight: 100
 弄水	nong4 shui3
 弄法	nong4 fa3
 弄混	nong4 hun2
+弄混	nong4 hun4
+弄混	nong4 hun3
 弄清	nong4 qing1
 弄潮	nong4 chao2
 弄潮兒	nong4 chao2 er2
@@ -78344,6 +78351,8 @@ min_phrase_weight: 100
 搞不好	gao3 bu4 hao3
 搞不懂	gao3 bu4 dong3
 搞混	gao3 hun4
+搞混	gao3 hun3
+搞混	gao3 hun2
 搞笑片	gao3 xiao4 pian4
 搞花樣兒	gao3 hua1 yang4 er5	80%
 搞花樣兒	gao3 hua1 yang4 er2
@@ -78439,6 +78448,8 @@ min_phrase_weight: 100
 摁釦兒	en4 kou4 er5	80%
 摁釦兒	en4 kou4 er2
 摑混	guo2 hun4
+摑混	guo2 hun3
+摑混	guo2 hun2
 摔倒	shuai1 dao3
 摔喪	shuai1 sang1
 摔打	shuai1 da3
@@ -86100,6 +86111,8 @@ min_phrase_weight: 100
 流觴曲水	liu2 shang1 qu1 shui3
 流言切莫輕信	liu2 yan2 qie1 mo4 qing1 xin4
 流言混語	liu2 yan2 hun4 yu3
+流言混語	liu2 yan2 hun3 yu3
+流言混語	liu2 yan2 hun2 yu3
 流言蜚語	liu2 yan2 fei1 yu3
 流言蜚語	liu2 yan2 fei3 yu3
 流量	liu2 liang4
@@ -86521,128 +86534,284 @@ min_phrase_weight: 100
 淵識	yuan1 shi4
 淵遠流長	yuan1 yuan3 liu2 chang2
 混一	hun4 yi1
+混一	hun3 yi1
+混一	hun2 yi1
 混一口飯	hun4 yi4 kou3 fan4
 混一口飯	hun4 yi1 kou3 fan4
 混世魔王	hun4 shi4 mo2 wang2
 混亂	hun4 luan4
 混亂	hun3 luan4
+混亂	hun2 luan4
 混事	hun4 shi4
 混交	hun4 jiao1
+混交	hun3 jiao1
+混交	hun2 jiao1
 混交林	hun4 jiao1 lin2
+混交林	hun3 jiao1 lin2
+混交林	hun2 jiao1 lin2
 混人	hun4 ren2
 混作	hun4 zuo4
+混作	hun3 zuo4
+混作	hun2 zuo4
 混俗和光	hun4 su2 he2 guang1
+混俗和光	hun3 su2 he2 guang1
 混元	hun4 yuan2
+混元	hun3 yuan2
 混入	hun4 ru4
+混入	hun3 ru4
+混入	hun2 ru4
 混冥	hun4 ming2
+混冥	hun3 ming2
 混凝	hun4 ning2
 混凝	hun3 ning2
+混凝	hun2 ning2
 混凝劑	hun4 ning2 ji4
+混凝劑	hun3 ning2 ji4
+混凝劑	hun2 ning2 ji4
 混凝土	hun4 ning2 tu3
 混凝土	hun3 ning2 tu3
+混凝土	hun2 ning2 tu3
 混凝土攪拌機	hun4 ning2 tu3 jiao3 ban4 ji1
+混凝土攪拌機	hun3 ning2 tu3 jiao3 ban4 ji1
+混凝土攪拌機	hun2 ning2 tu3 jiao3 ban4 ji1
 混吃混玩	hun4 chi1 hun4 wan2
 混合	hun4 he2
 混合	hun3 he2
+混合	hun2 he2
 混合使用	hun4 he2 shi3 yong4
+混合使用	hun3 he2 shi3 yong4
+混合使用	hun2 he2 shi3 yong4
 混合動力車	hun4 he2 dong4 li4 che1
+混合動力車	hun3 he2 dong4 li4 che1
+混合動力車	hun2 he2 dong4 li4 che1
 混合失語症	hun4 he2 shi1 yu3 zheng4
+混合失語症	hun3 he2 shi1 yu3 zheng4
+混合失語症	hun2 he2 shi1 yu3 zheng4
 混合層	hun4 he2 ceng2
+混合層	hun3 he2 ceng2
+混合層	hun2 he2 ceng2
 混合感染	hun4 he2 gan3 ran3
+混合感染	hun3 he2 gan3 ran3
+混合感染	hun2 he2 gan3 ran3
 混合林	hun4 he2 lin2
+混合林	hun3 he2 lin2
+混合林	hun2 he2 lin2
 混合模型	hun4 he2 mo2 xing2
+混合模型	hun3 he2 mo2 xing2
+混合模型	hun2 he2 mo2 xing2
 混合毒劑	hun4 he2 du2 ji4
+混合毒劑	hun3 he2 du2 ji4
+混合毒劑	hun2 he2 du2 ji4
 混合比	hun4 he2 bi3
+混合比	hun3 he2 bi3
+混合比	hun2 he2 bi3
 混合泳	hun4 he2 yong3
+混合泳	hun3 he2 yong3
+混合泳	hun2 he2 yong3
 混合物	hun4 he2 wu4
+混合物	hun3 he2 wu4
+混合物	hun2 he2 wu4
 混合疫苗	hun4 he2 yi4 miao2
+混合疫苗	hun3 he2 yi4 miao2
+混合疫苗	hun2 he2 yi4 miao2
 混合經濟	hun4 he2 jing1 ji4
+混合經濟	hun3 he2 jing1 ji4
+混合經濟	hun2 he2 jing1 ji4
 混合肥料	hun4 he2 fei2 liao4
+混合肥料	hun3 he2 fei2 liao4
+混合肥料	hun2 he2 fei2 liao4
 混合裁判	hun4 he2 cai2 pan4
+混合裁判	hun3 he2 cai2 pan4
+混合裁判	hun2 he2 cai2 pan4
 混合語	hun4 he2 yu3
+混合語	hun3 he2 yu3
+混合語	hun2 he2 yu3
 混合體	hun4 he2 ti3
+混合體	hun3 he2 ti3
+混合體	hun2 he2 ti3
 混合齒列	hun4 he2 chi3 lie4
+混合齒列	hun3 he2 chi3 lie4
+混合齒列	hun2 he2 chi3 lie4
 混同	hun4 tong2
+混同	hun3 tong2
+混同	hun2 tong2
 混同江	hun4 tong2 jiang1
 混名	hun4 ming2
+混名	hun3 ming2
+混名	hun2 ming2
 混名兒	hun4 ming2 er5	80%
 混名兒	hun4 ming2 er2
 混和	hun4 he2
 混和	hun4 huo4
+混和	hun3 he2
+混和	hun3 huo4
+混和	hun2 he2
+混和	hun2 huo4
 混唚	hun4 qin4
+混唚	hun3 qin4
+混唚	hun2 qin4
 混嚼舌根	hun4 jiao2 she2 gen1
+混嚼舌根	hun3 jiao2 she2 gen1
+混嚼舌根	hun2 jiao2 she2 gen1
 混堂	hun4 tang2
+混堂	hun3 tang2
+混堂	hun2 tang2
 混夷	kun1 yi2
 混子	hun4 zi5
 混家	hun4 jia1
+混家	hun3 jia1
+混家	hun2 jia1
 混居	hun4 ju1
+混居	hun3 ju1
+混居	hun2 ju1
 混帳	hun4 zhang4
+混帳	hun2 zhang4
 混帳東西	hun4 zhang4 dong1 xi1
+混帳東西	hun2 zhang4 dong1 xi1
 混帳話	hun4 zhang4 hua4
+混帳話	hun2 zhang4 hua4
 混循環小數	hun4 xun2 huan2 xiao3 shu4
+混循環小數	hun3 xun2 huan2 xiao3 shu4
+混循環小數	hun2 xun2 huan2 xiao3 shu4
 混成	hun4 cheng2
+混成	hun3 cheng2
+混成	hun2 cheng2
 混戰	hun4 zhan4
+混戰	hun3 zhan4
+混戰	hun2 zhan4
 混打	hun4 da3
+混打	hun3 da3
+混打	hun2 da3
 混搭	hun4 da1
+混搭	hun3 da1
+混搭	hun2 da1
 混攪	hun4 jiao3
+混攪	hun3 jiao3
+混攪	hun2 jiao3
 混日子	hun4 ri4 zi5
 混棍	hun4 gun4
 混氧燃料	hun4 yang3 ran2 liao4
+混氧燃料	hun3 yang3 ran2 liao4
+混氧燃料	hun2 yang3 ran2 liao4
 混水摸魚	hun2 shui3 mo1 yu2
 混水摸魚	hun4 shui3 mo1 yu2
+混水摸魚	hun3 shui3 mo1 yu2
 混汞	hun4 gong3
+混汞	hun3 gong3
+混汞	hun2 gong3
 混汞法	hun4 gong3 fa3
+混汞法	hun3 gong3 fa3
+混汞法	hun2 gong3 fa3
 混沌	hun4 dun4
+混沌	hun2 dun4
 混沌世界	hun4 dun4 shi4 jie4
+混沌世界	hun2 dun4 shi4 jie4
 混沌學	hun4 dun4 xue2
+混沌學	hun2 dun4 xue2
 混淆	hun4 xiao2
 混淆	hun4 yao2
 混淆	hun3 yao2
+混淆	hun3 xiao2
+混淆	hun2 yao2
+混淆	hun2 xiao2
 混淪	hun4 lun2
+混淪	hun3 lun2
+混淪	hun2 lun2
 混混	gun3 gun3
 混混	hun4 hun4
 混混	hun2 hun2
+混混	hun3 hun3
 混混兒	hun4 hun4 er5	80%
 混混兒	hun4 hun4 er2
 混混沌沌	hun4 hun4 dun4 dun4
+混混沌沌	hun2 hun2 dun4 dun4
+混混沌沌	hun3 hun3 dun4 dun4
 混熟	hun4 shou2
 混為一談	hun4 wei2 yi4 tan2
 混為一談	hun4 wei2 yi1 tan2
+混為一談	hun3 wei2 yi4 tan2
+混為一談	hun3 wei2 yi1 tan2
+混為一談	hun2 wei2 yi4 tan2
+混為一談	hun2 wei2 yi1 tan2
 混猜	hun4 cai1
+混猜	hun3 cai1
+混猜	hun2 cai1
 混球兒	hun2 qiu2 er5	80%
 混球兒	hun4 qiu2 er2
 混矇	hun4 meng1
+混矇	hun3 meng1
+混矇	hun2 meng1
 混種	hun4 zhong3
+混種	hun3 zhong3
+混種	hun2 zhong3
 混糖	hun4 tang2
+混糖	hun3 tang2
+混糖	hun2 tang2
 混紡	hun4 fang3
+混紡	hun3 fang3
+混紡	hun2 fang3
 混編	hun4 bian1
+混編	hun3 bian1
+混編	hun2 bian1
 混纏	hun4 chan2
+混纏	hun3 chan2
+混纏	hun2 chan2
 混號	hun4 hao4
+混號	hun3 hao4
+混號	hun2 hao4
 混血	hun4 xie3
 混血	hun4 xue4
 混血	hun3 xie3
 混血	hun3 xue4
+混血	hun2 xie3
+混血	hun2 xue4
 混血兒	hun4 xie3 er2
 混血兒	hun4 xue4 er2
+混血兒	hun3 xie3 er2
+混血兒	hun3 xue4 er2
+混血兒	hun2 xie3 er2
+混血兒	hun2 xue4 er2
 混行	hun2 xing2
+混行	hun4 xing2
+混行	hun3 xing2
+混行	hun4 hang2
+混行	hun3 hang2
+混行	hun2 hang2
 混說	hun4 shuo1
+混說	hun3 shuo1
+混說	hun2 shuo1
 混賬	hun4 zhang4
+混賬	hun2 zhang4
 混賴	hun4 lai4
 混跡	hun4 ji1
 混跡	hun4 ji4
+混跡	hun3 ji1
+混跡	hun3 ji4
+混跡	hun2 ji1
+混跡	hun2 ji4
 混踐	hun4 jian4
 混造黑白	hun4 zao4 hei1 bai2
+混造黑白	hun3 zao4 hei1 bai2
+混造黑白	hun2 zao4 hei1 bai2
 混進	hun4 jin4
+混進	hun3 jin4
 混錢	hun4 qian2
 混雜	hun4 za2
+混雜	hun3 za2
+混雜	hun2 za2
 混雜物	hun4 za2 wu4
+混雜物	hun3 za2 wu4
+混雜物	hun2 za2 wu4
 混音	hun4 yin1
 混音	hun3 yin1
 混頭混腦	hun2 tou2 hun2 nao3
 混頭混腦	hun4 tou2 hun4 nao3
+混頭混腦	hun3 tou2 hun3 nao3
 混飯	hun4 fan4
 混飯吃	hun4 fan4 chi1
 混鬧	hun4 nao4
+混鬧	hun3 nao4
+混鬧	hun2 nao4
 淹宿	yan1 su4
 淹沒	yan1 mo4
 淹淹一息	yan1 yan1 yi4 xi2
@@ -92016,7 +92185,10 @@ min_phrase_weight: 100
 矇松雨	meng1 song1 yu3
 矇混	meng1 hun4
 矇混	meng2 hun4
+矇混	meng1 hun3
+矇混	meng2 hun3
 矇混過關	meng2 hun4 guo4 guan1
+矇混過關	meng2 hun3 guo4 guan1
 矇牛	meng2 niu2
 矇特卡洛法	meng2 te4 ka3 luo4 fa3
 矇特卡羅方法	meng2 te4 ka3 luo2 fang1 fa3
@@ -96951,6 +97123,7 @@ min_phrase_weight: 100
 胡掄	hu2 lun1
 胡掄混鬧	hu2 lun1 hun2 nao4
 胡掄混鬧	hu2 lun1 hun4 nao4
+胡掄混鬧	hu2 lun1 hun3 nao4
 胡攪	hu2 gao3
 胡攪	hu2 jiao3
 胡旋舞	hu2 xuan2 wu3
@@ -96960,6 +97133,8 @@ min_phrase_weight: 100
 胡樸安	hu2 pu2 an1
 胡歌野調	hu2 ge1 ye3 diao4
 胡混	hu2 hun4
+胡混	hu2 hun3
+胡混	hu2 hun2
 胡燕妮	hu2 yan1 ni1
 胡為	hu2 wei2
 胡琴	hu2 qin2
@@ -97926,6 +98101,8 @@ min_phrase_weight: 100
 舉不勝舉	ju3 bu4 sheng1 ju3
 舉不勝舉	ju3 bu2 sheng4 ju3
 舉世混濁	ju3 shi4 hun3 zhuo2
+舉世混濁	ju3 shi4 hun4 zhuo2
+舉世混濁	ju3 shi4 hun2 zhuo2
 舉世無匹	ju3 shi4 wu2 pi3
 舉世無匹	ju3 shi4 wu2 pi1
 舉場	ju3 chang2	3%
@@ -99286,6 +99463,8 @@ min_phrase_weight: 100
 蒙汗藥	meng2 han4 yao4
 蒙汜	meng2 si4
 蒙混	meng2 hun4
+蒙混	meng2 hun3
+蒙混	meng2 hun2
 蒙特利爾	meng2 te4 li4 er3
 蒙特卡洛	meng2 te4 ka3 luo4
 蒙特塞拉特	meng2 te4 sai1 la1 te4
@@ -100157,8 +100336,14 @@ min_phrase_weight: 100
 蚺䗊	tian4 tan4
 蛇無頭而不行	she2 wu2 tou2 er2 bu4 xing2
 蛇綠混雜	she2 lv4 hun4 za2
+蛇綠混雜	she2 lv4 hun3 za2
+蛇綠混雜	she2 lv4 hun2 za2
 蛇綠混雜岩	she2 lv4 hun4 za2 yan2
+蛇綠混雜岩	she2 lv4 hun3 za2 yan2
+蛇綠混雜岩	she2 lv4 hun2 za2 yan2
 蛇綠混雜岩帶	she2 lv4 hun4 za2 yan2 dai4
+蛇綠混雜岩帶	she2 lv4 hun3 za2 yan2 dai4
+蛇綠混雜岩帶	she2 lv4 hun2 za2 yan2 dai4
 蛇蛇	yi2 yi2
 蛇行	she2 xing2
 蛋中挑刺	dan4 zhong1 tiao1 ci4
@@ -104369,6 +104554,8 @@ min_phrase_weight: 100
 軍行	jun1 xing2
 軍長	jun1 zhang3
 軍閥混戰	jun1 fa2 hun4 zhan4
+軍閥混戰	jun1 fa2 hun3 zhan4
+軍閥混戰	jun1 fa2 hun2 zhan4
 軒掖	xuan1 ye4
 軒檻	xuan1 jian4
 軒渠	xuan1 qu2
@@ -107168,6 +107355,7 @@ min_phrase_weight: 100
 鋼筋水泥	gang1 jin1 shui3 ni2
 鋼筋混凝土	gang1 jin1 hun4 ning2 tu3
 鋼筋混凝土	gang1 jin1 hun3 ning2 tu3
+鋼筋混凝土	gang1 jin1 hun2 ning2 tu3
 鋼絲刷	gang1 si1 shua1
 鋼絲鋸	gang1 si1 ju4
 鋼鋸	gang1 ju4
@@ -109599,6 +109787,8 @@ min_phrase_weight: 100
 難民	nan4 min2
 難民營	nan4 min2 ying2
 難混	nan2 hun4
+難混	nan2 hun3
+難混	nan2 hun2
 難測	nan2 ce4
 難熬	nan2 ao2
 難為	nan2 wei2
@@ -110379,6 +110569,8 @@ min_phrase_weight: 100
 預力混凝土	yu4 li4 hun3 ning2 tu3
 預應力	yu4 ying4 li4
 預拌混凝土	yu4 ban4 hun4 ning2 tu3
+預拌混凝土	yu4 ban4 hun3 ning2 tu3
+預拌混凝土	yu4 ban4 hun2 ning2 tu3
 預期	yu4 qi2
 預產期	yu4 chan3 qi2
 預行	yu4 xing2
@@ -111061,6 +111253,8 @@ min_phrase_weight: 100
 香檳	xiang1 bin1
 香檳酒	xiang1 bin1 jiu3
 香水混堂	xiang1 shui3 hun4 tang2
+香水混堂	xiang1 shui3 hun3 tang2
+香水混堂	xiang1 shui3 hun2 tang2
 香水行	xiang1 shui3 hang2
 香泡樹	xiang1 pao1 shu4
 香港溼地公園	xiang1 gang3 shi1 di4 gong1 yuan2
@@ -111763,6 +111957,7 @@ min_phrase_weight: 100
 魚片	yu2 pian4
 魚目混珠	yu2 mu4 hun4 zhu1
 魚目混珠	yu2 mu4 hun3 zhu1
+魚目混珠	yu2 mu4 hun2 zhu1
 魚種	yu2 zhong3
 魚籃寶卷	yu2 lan2 bao3 juan4
 魚肚	yu2 du3
@@ -111778,6 +111973,8 @@ min_phrase_weight: 100
 魚驚鳥散	yu2 jing1 niao3 san4
 魚鱗癬	yu2 lin2 xian3
 魚龍混雜	yu2 long2 hun4 za2
+魚龍混雜	yu2 long2 hun3 za2
+魚龍混雜	yu2 long2 hun2 za2
 魟魚	hong2 yu2
 魟魚	hong1 yu2
 魭斷	wan3 duan4
@@ -112541,6 +112738,8 @@ min_phrase_weight: 100
 龍藏寺碑	long2 zang4 si4 bei1
 龍虎日子	long2 hu3 ri4 zi5
 龍蛇混雜	long2 she2 hun4 za2
+龍蛇混雜	long2 she2 hun3 za2
+龍蛇混雜	long2 she2 hun2 za2
 龍蛇渾雜	long2 she2 hun4 za2
 龍蛇雜處	long2 she2 za2 chu3
 龍行虎步	long2 xing2 hu3 bu4
@@ -112571,4 +112770,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112573 #####
+##### @結束 END - 112773 #####
