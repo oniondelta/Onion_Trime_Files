@@ -2174,6 +2174,7 @@ min_phrase_weight: 100
 察	cui4	0%
 这	zhei4	0%
 稜	leng4	0%
+撲	bu3	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -110296,7 +110297,7 @@ min_phrase_weight: 100
 非相對論性	fei1 xiang1 dui4 lun4 xing4
 非空	fei1 kong1
 非親非故	fei1 qin1 fei1 gu4
-非詞重復測驗	fei1 ci2 chong2 fu4 ce4 yan4
+非詞重複測驗	fei1 ci2 chong2 fu4 ce4 yan4
 非語文傳播	fei1 yu3 wen2 chuan2 bo4
 非負數	fei1 fu4 shu4
 非貿易創匯	fei1 mao4 yi4 chuang4 hui4
@@ -112771,4 +112772,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112774 #####
+##### @結束 END - 112775 #####
