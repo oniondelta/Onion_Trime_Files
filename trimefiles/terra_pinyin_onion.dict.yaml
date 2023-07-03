@@ -148,7 +148,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202306"
+version: "202307"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -88810,6 +88810,7 @@ min_phrase_weight: 100
 牓子	bang3 zi5
 牓帖	bang3 tie3
 牙冠	ya2 guan1
+牙冠	ya2 guan4
 牙刷	ya2 shua1
 牙印子	ya2 yin4 zi5
 牙子	ya2 zi5
@@ -112776,4 +112777,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112779 #####
+##### @結束 END - 112780 #####
