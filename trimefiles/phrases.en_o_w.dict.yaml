@@ -4,7 +4,7 @@
 # 『洋蔥』
 ---
 name: phrases.en_o_w
-version: "202306"
+version: "202307"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3199,5 +3199,7 @@ MAHJONG
 ####### 202306補充開始@ #######
 AOE
 aoe
+RFID
+rfid
 ####### 202306補充結束@ #######
 ####### 拉丁英語補充詞庫 結束 #######
