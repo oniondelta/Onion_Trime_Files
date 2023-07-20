@@ -972,7 +972,7 @@ liquid_keyboard:
   vertical_gap: 16 #1     #縱向按鍵間隙
   margin_x: 8 #0.5         #左右按鍵間隙的1/2
   # keyboards: [emoji, math, ascii, cn, history, clipboard, draft, tabs, exit, candidate, list, ids , table, symbol, unit, new, jp, pinyin, grease, rusa, korea, lation, yinbiao,  exit]  #tab列表
-  keyboards: [clipboard, draft, exit]  #tab列表
+  keyboards: [clipboard, draft, collection, exit]  #tab列表
   exit:
     name: 返回
     type: NO_KEY
@@ -998,6 +998,9 @@ liquid_keyboard:
   draft:
     type: DRAFT
     name: 草稿
+  collection:
+    type: COLLECTION
+    name: 收藏
   # math:   #tab名稱
   #   type: SINGLE
   #   name: 數學
