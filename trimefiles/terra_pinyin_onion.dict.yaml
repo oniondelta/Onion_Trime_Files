@@ -3499,7 +3499,7 @@ min_phrase_weight: 100
 黮	tan3	1%
 孌	luan3	1%
 攞	luo1	1%
-癬	xian3	1%
+癬	xian3
 穰	rang3	1%
 籠	long3	1%
 躒	luo4	1%
@@ -25864,7 +25864,7 @@ min_phrase_weight: 100
 癩	lai4
 癪	ji1
 癫	dian1
-癬	xuan3
+癬	xuan3	1%
 癭	ying3
 癮	yin3
 癯	qu2
@@ -55912,6 +55912,7 @@ min_phrase_weight: 100
 不算什麼	bu2 suan4 shen2 mo5
 不算數	bu2 suan4 shu4
 不管生癬生瘡	bu4 guan3 sheng1 xian3 sheng1 chuang1
+不管生癬生瘡	bu4 guan3 sheng1 xuan3 sheng1 chuang1	3%
 不終朝	bu4 zhong1 zhao1
 不結匯進口	bu4 jie2 hui4 jin4 kou3
 不結實	bu4 jie1 shi2
@@ -56750,7 +56751,7 @@ min_phrase_weight: 100
 乾疥	gan1 jie4
 乾瘦	gan1 shou4
 乾癟	gan1 bie3
-乾癬	gan1 xuan3
+乾癬	gan1 xuan3	3%
 乾癬	gan1 xian3
 乾眼症	gan1 yan3 zheng4
 乾著	gan1 zhe5
@@ -76001,6 +76002,7 @@ min_phrase_weight: 100
 手無縛雞之力	shou3 wu2 fu4 ji1 zhi1 li4
 手爪	shou3 zhua3
 手癬	shou3 xian3
+手癬	shou3 xuan3	3%
 手相	shou3 xiang4
 手相學	shou3 xiang4 xue2
 手磬子	shou3 qing4 zi5
@@ -82500,6 +82502,7 @@ min_phrase_weight: 100
 松濤	song1 tao2
 松濤	song1 tao1
 松皮癬	song1 pi2 xian3
+松皮癬	song1 pi2 xuan3	3%
 松筠之操	song1 yun2 zhi1 cao1
 松菌	song1 jun4
 松贊干布	song1 zan4 gan4 bu4
@@ -88848,7 +88851,7 @@ min_phrase_weight: 100
 牛氣	niu2 qi4
 牛犢子	niu2 du2 zi5
 牛皮癬	niu2 pi2 xian3
-牛皮癬	niu2 pi2 xuan3
+牛皮癬	niu2 pi2 xuan3	3%
 牛眠地	niu2 mian2 di4
 牛筋牛降	niu2 jin1 niu2 jiang4
 牛肉乾	niu2 rou4 gan1
@@ -90436,7 +90439,9 @@ min_phrase_weight: 100
 疤瘌眼	ba1 la5 yan3
 疤瘌餅	ba1 la5 bing3
 疥癬	jie4 xian3
+疥癬	jie4 xuan3	3%
 疥癬蟲	jie4 xian3 chong2
+疥癬蟲	jie4 xuan3 chong2	3%
 疱疹性咽狹症	pao4 zhen3 xing4 yan1 xia2 zheng4
 疲乏強度	pi2 fa2 qiang2 du4
 疲勞轟炸	pi2 lao2 hong1 zha4
@@ -90593,6 +90598,7 @@ min_phrase_weight: 100
 癩蝦蟆	lai4 ha2 ma5
 癩蝦蟆	lai4 ha2 ma2
 癬疥	xian3 jie4
+癬疥	xuan3 jie4	3%
 癮頭兒	yin3 tou2 er5	80%
 癮頭兒	yin3 tou2 er2
 癱倒	tan1 dao3
@@ -90747,6 +90753,7 @@ min_phrase_weight: 100
 白班兒	bai2 ban1 er2
 白當	bai2 dang1
 白癬	bai2 xian3
+白癬	bai2 xuan3	3%
 白白淨淨	bai2 bai2 jing4 jing4
 白相	bai2 xiang4
 白相人	bai2 xiang4 ren2
@@ -97008,7 +97015,7 @@ min_phrase_weight: 100
 股息股利	gu3 xi2 gu3 li4
 股本金比率	gu3 ben3 jin1 bi3 lv4
 股癬	gu3 xian3
-股癬	gu3 xuan3
+股癬	gu3 xuan3	3%
 股票分割	gu3 piao4 fen1 ge1
 股票投資獲利率	gu3 piao4 tou2 zi1 huo4 li4 lv4
 股票指數	gu3 piao4 zhi3 shu4
@@ -97440,7 +97447,7 @@ min_phrase_weight: 100
 腳指甲	jiao3 zhi3 jia3
 腳正不怕鞋歪	jiao3 zheng4 bu2 pa4 xie2 wai1
 腳癬	jiao3 xian3
-腳癬	jiao3 xuan3
+腳癬	jiao3 xuan3	3%
 腳登子	jiao3 deng1 zi5
 腳脖子	jiao3 bo2 zi5
 腳腕子	jiao3 wan4 zi5
@@ -98423,7 +98430,7 @@ min_phrase_weight: 100
 花攢錦簇	hua1 cuan2 jin3 cu4
 花教	hua1 jiao4
 花斑癬	hua1 ban1 xian3
-花斑癬	hua1 ban1 xuan3
+花斑癬	hua1 ban1 xuan3	3%
 花旗參	hua1 qi2 shen1
 花旗銀行	hua1 qi2 yin2 hang2
 花時間	hua1 shi2 jian1
@@ -103980,7 +103987,7 @@ min_phrase_weight: 100
 足恭	ju4 gong1
 足數	zu2 shu4
 足癬	zu2 xian3
-足癬	zu2 xuan3
+足癬	zu2 xuan3	3%
 足跡	zu2 ji1
 足跡	zu2 ji4
 足蹈手舞	zu2 dao4 shou3 wu3
@@ -110591,7 +110598,7 @@ min_phrase_weight: 100
 頑強	wan2 qiang2
 頑強不屈	wan2 qiang2 bu4 qu1
 頑癬	wan2 xian3
-頑癬	wan2 xuan3
+頑癬	wan2 xuan3	3%
 頑蒙	wan2 meng2
 頒行	ban1 xing2
 頓地	dun4 di4
@@ -110656,7 +110663,7 @@ min_phrase_weight: 100
 頭朝裡	tou2 chao2 li3
 頭當	tou2 dang4
 頭癬	tou2 xian3
-頭癬	tou2 xuan3
+頭癬	tou2 xuan3	3%
 頭破血出	tou2 po4 xie3 chu1
 頭破血出	tou2 po4 xue4 chu1
 頭破血流	tou2 po4 xie3 liu2
@@ -111638,7 +111645,7 @@ min_phrase_weight: 100
 體操隊	ti3 cao1 dui4
 體模	ti3 mo2
 體癬	ti3 xian3
-體癬	ti3 xuan3
+體癬	ti3 xuan3	3%
 體積百分比	ti3 ji1 bai3 fen1 bi3
 體究	ti3 jiu4
 體育場館	ti3 yu4 chang3 guan3
@@ -111812,6 +111819,7 @@ min_phrase_weight: 100
 髮油	fa3 you2
 髮漂	fa3 piao1
 髮癬	fa3 xian3
+髮癬	fa3 xuan3	3%
 髮短心長	fa3 duan3 xin1 chang2
 髮短心長	fa3 duan3 xin1 zhang3
 髮禁	fa3 jin4
@@ -111985,6 +111993,7 @@ min_phrase_weight: 100
 魚香茄子	yu2 xiang1 qie2 zi5
 魚驚鳥散	yu2 jing1 niao3 san4
 魚鱗癬	yu2 lin2 xian3
+魚鱗癬	yu2 lin2 xuan3	3%
 魚龍混雜	yu2 long2 hun4 za2
 魚龍混雜	yu2 long2 hun3 za2
 魚龍混雜	yu2 long2 hun2 za2
@@ -112419,7 +112428,7 @@ min_phrase_weight: 100
 黃澄澄	huang2 deng4 deng4
 黃熟	huang2 shu2
 黃癬	huang2 xian3
-黃癬	huang2 xuan3
+黃癬	huang2 xuan3	3%
 黃種	huang2 zhong3
 黃種人	huang2 zhong3 ren2
 黃耳傳書	huang2 er3 chuan2 shu1
@@ -112783,4 +112792,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112786 #####
+##### @結束 END - 112795 #####
