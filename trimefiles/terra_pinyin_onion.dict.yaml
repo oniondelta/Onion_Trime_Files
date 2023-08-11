@@ -94704,8 +94704,11 @@ min_phrase_weight: 100
 紀行	ji4 xing2
 紀錄創造者	ji4 lu4 chuang4 zao4 zhe3
 紀錄片	ji4 lu4 pian4
+紀錄片	ji4 lu4 pian1
 紀錄片兒	ji4 lu4 pian1 er5	80%
 紀錄片兒	ji4 lu4 pian1 er2
+紀錄片兒	ji4 lu4 pian4 er2
+紀錄片兒	ji4 lu4 pian4 er5	80%
 約分	yue1 fen1
 約分數	yue1 fen1 shu4
 約塔	yao1 ta3
@@ -96640,6 +96643,7 @@ min_phrase_weight: 100
 耳熟能詳	er3 shu2 neng2 xiang2
 耳熟能詳	er3 shou2 neng2 xiang2
 耳片	er3 pian1
+耳片	er3 pian4
 耳聞目擊	er3 wen2 mu4 ji2
 耳聽為虛	er3 ting1 wei2 xu1
 耳脖子	er3 bo2 zi5
@@ -100024,6 +100028,7 @@ min_phrase_weight: 100
 藝壓當行	yi4 ya1 dang1 hang2
 藝術歌曲	yi4 shu4 ge1 qu3
 藝術片	yi4 shu4 pian4
+藝術片	yi4 shu4 pian1
 藝術體操	yi4 shu4 ti3 cao1
 藤攀葛繞	teng2 pan1 ge2 rao4
 藤野先生	teng2 ye3 xian1 sheng1
@@ -101458,7 +101463,9 @@ min_phrase_weight: 100
 製假	zhi4 jia3
 製坯	zhi4 pei1
 製片	zhi4 pian4
+製片	zhi4 pian1
 製片人	zhi4 pian4 ren2
+製片人	zhi4 pian1 ren2
 褂子	gua4 zi5
 複分解反應	fu4 fen1 jie3 fan3 ying4
 複合企業	fu4 he2 qi4 ye4
@@ -101612,6 +101619,7 @@ min_phrase_weight: 100
 西邊兒	xi1 bian1 er2
 西部地方	xi1 bu4 di4 fang1
 西部片	xi1 bu4 pian4
+西部片	xi1 bu4 pian1
 西部開拓史	xi1 bu4 kai1 tuo4 shi3
 西都	xi1 du1
 西都賦	xi1 du1 fu4
@@ -102243,6 +102251,7 @@ min_phrase_weight: 100
 記號	ji4 hao4
 記號筆	ji4 hao4 bi3
 記錄片	ji4 lu4 pian4
+記錄片	ji4 lu4 pian1
 訛傳	e2 chuan2
 訛稱	e2 cheng1
 訛頭	e2 tou5
@@ -102324,6 +102333,7 @@ min_phrase_weight: 100
 試播	shi4 bo4
 試播	shi4 bo1
 試片	shi4 pian4
+試片	shi4 pian1
 試看	shi4 kan4
 試種	shi4 zhong4
 試行	shi4 xing2
@@ -103286,6 +103296,7 @@ min_phrase_weight: 100
 負整數	fu4 zheng3 shu4
 負數	fu4 shu4
 負片	fu4 pian4
+負片	fu4 pian1
 負笈擔簦	fu4 ji2 dan1 deng1
 負累	fu4 lei3
 負累	fu4 lei4
@@ -103446,6 +103457,7 @@ min_phrase_weight: 100
 賀喜撮空	he4 xi3 cuo1 kong1
 賀年卡	he4 nian2 ka3
 賀年片	he4 nian2 pian4
+賀年片	he4 nian2 pian1
 賀朝	he4 chao2
 賀正	he4 zheng1
 賀爾蒙	he4 er3 meng2
@@ -107384,6 +107396,7 @@ min_phrase_weight: 100
 鋼骨水泥	gang1 gu3 shui3 ni2
 錁子	ke4 zi5
 錄像片	lu4 xiang4 pian4
+錄像片	lu4 xiang4 pian1
 錄取率	lu4 qu3 lv4
 錄音間	lu4 yin1 jian1
 錐刺股	zhui1 ci4 gu3
@@ -109981,6 +109994,7 @@ min_phrase_weight: 100
 電影分級制	dian4 ying3 fen1 ji2 zhi4
 電影圈	dian4 ying3 quan1
 電影製片	dian4 ying3 zhi4 pian4
+電影製片	dian4 ying3 zhi4 pian1
 電扇	dian4 shan4
 電擊	dian4 ji2
 電擊法	dian4 ji2 fa3
@@ -110021,8 +110035,10 @@ min_phrase_weight: 100
 電荷量	dian4 he4 liang4
 電視專題片	dian4 shi4 zhuan1 ti2 pian4
 電視影片	dian4 shi4 ying3 pian4
+電視影片	dian4 shi4 ying3 pian1
 電視歌仔戲	dian4 shi4 ge1 zi3 xi4
 電視系列片	dian4 shi4 xi4 lie4 pian4
+電視系列片	dian4 shi4 xi4 lie4 pian1
 電視興奮症	dian4 shi4 xing1 fen4 zheng4
 電視轉播	dian4 shi4 zhuan3 bo1
 電視轉播車	dian4 shi4 zhuan3 bo4 che1
@@ -110489,6 +110505,7 @@ min_phrase_weight: 100
 音樂會	yin1 yue4 hui4
 音樂治療	yin1 yue4 zhi4 liao2
 音樂片	yin1 yue4 pian4
+音樂片	yin1 yue4 pian1
 音樂盒	yin1 yue4 he2
 音樂站	yin1 yue4 zhan4
 音樂節	yin1 yue4 jie2
@@ -111249,6 +111266,7 @@ min_phrase_weight: 100
 首足異處	shou3 zu2 yi4 chu4
 首身分離	shou3 shen1 fen1 li2
 首輪片	shou3 lun2 pian4
+首輪片	shou3 lun2 pian1
 首都	shou3 du1
 首都劇場	shou3 du1 ju4 chang3
 首都劇場	shou3 du1 ju4 chang2	3%
@@ -112319,6 +112337,7 @@ min_phrase_weight: 100
 麵兒	mian4 er5	80%
 麵兒	mian4 er2
 麵包片	mian4 bao1 pian1
+麵包片	mian4 bao1 pian4
 麵子	mian4 zi5
 麵子藥	mian4 zi5 yao4
 麵攤子	mian4 tan1 zi5
@@ -112526,6 +112545,7 @@ min_phrase_weight: 100
 黑白不分	hei1 bai2 bu4 fen1
 黑白分明	hei1 bai2 fen1 ming2
 黑白影片	hei1 bai2 ying3 pian4
+黑白影片	hei1 bai2 ying3 pian1
 黑白顛倒	hei1 bai2 dian1 dao3
 黑盒子	hei1 he2 zi5
 黑眼圈	hei1 yan3 quan1
@@ -112556,6 +112576,7 @@ min_phrase_weight: 100
 黔突暖席	qian2 tu2 nuan3 xi2
 黔突暖席	qian2 tu1 nuan3 xi2
 默片	mo4 pian4
+默片	mo4 pian1
 默識	mo4 zhi4
 黜降	chu4 jiang4
 點不著	dian3 bu4 zhao2
@@ -112792,4 +112813,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112795 #####
+##### @結束 END - 112816 #####
