@@ -5463,7 +5463,7 @@ columns:
 他	ta;	67673
 他	hoka;	68358
 多	ta;	66591
-多い	oo, i,	67267
+多い	oo; i,	67267
 多	oo;	66745
 汰	ta;
 打	da;	65126
@@ -6472,7 +6472,7 @@ columns:
 薄	haku;
 薄い	usu; i,	65894
 薄める	usu; me, ru,	63739
-薄まる	usu; maru,	63134
+薄まる	usu; ma, ru,	63134
 薄らぐ	usu; ra, gu,	62197
 薄れる	usu; re, ru,	63588
 薄	usu;	65793
@@ -28625,8 +28625,8 @@ columns:
 嗟	aa;
 噫	a-;
 嗟	a-;
-噫	a_a;
-嗟	a_a;
+噫	axa;
+嗟	axa;
 嘴	hashi;
 觜	hashi;
 囃	hayashi;
