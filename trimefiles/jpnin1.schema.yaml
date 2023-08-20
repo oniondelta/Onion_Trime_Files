@@ -203,12 +203,12 @@ speller:
     - xform/`//
 ##### 簡化和消除含促音字詞後綴 #####
     # - xform/^([kspt])[,.](.+)$/$1$2/
-    # - xform/^([ksptgchmyrwdbzf])[,.]/$1/
-    - derive/^([ksptgchmyrwdbzf])[,.]/$1/ #20230820測#
+    - xform/^([ksptgchmyrwdbzf])[,.]/$1/
+    # - derive/^([ksptgchmyrwdbzf])[,.]/$1/ #20230820測#
     # - xform/^([ksptgchmyrwdbz])[,.]/$1/ #「n」無法，會有bug
     # - xform/^([a-z])[,.]([a-z])/$1$2/
-    # - xform/;(?=[ksptgchmyrwdbzf])// #解放漢字，不用輸入「;」即會顯示
-    - derive/;(?=[ksptgchmyrwdbzf])// #20230820測#
+    - xform/;(?=[ksptgchmyrwdbzf])// #解放漢字，不用輸入「;」即會顯示
+    # - derive/;(?=[ksptgchmyrwdbzf])// #20230820測#
     # - xform/;([ksptgchmyrwdbz])/$1/
     # - xform/;([a-z])/$1/
 #舊版漢字中有分段才有用到#    - derive/^([a-z-]+)(;)([a-z-]+)(;)$/$1$3$4/ #漢字中含促音
