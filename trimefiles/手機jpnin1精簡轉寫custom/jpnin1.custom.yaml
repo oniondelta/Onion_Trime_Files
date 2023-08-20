@@ -4,55 +4,55 @@ patch:
     # - xform/n(?![nyaeiou])/nn/
     # - xform/^nng/ng/
 ##### 字詞彙中的漢字，拼音轉寫開始（以下到結束可遮屏，節省部屬時間） #####
-### 漢字中的促音 ###
-    - derive/cchi(?=.*;)/qchi/ #っち
-    - derive/sshi(?=.*;)/qshi/ #っし
-    - derive/ffu(?=.*;)/qfu/ #っふ
-    - derive/ttsu(?=.*;)/qtsu/ #っつ
-    - derive/jji(?=.*;)/qji/ #っじ
-##
-    - derive/kky(?=[auo].*;)/qky/ #っきょ
-    - derive/ggy(?=[auo].*;)/qgy/ #っぎょ #目前詞庫漢字無此拼音#
-    - derive/ssh(?=[auo].*;)/qsh/ #っしゃ
-    - derive/jj(?=[auo].*;)/qj/ #っじゅ #目前詞庫漢字無此拼音#
-    - derive/ddy(?=[auo].*;)/qdy/ #っぢょ #目前詞庫漢字無此拼音#
-    - derive/cch(?=[auo].*;)/qch/ #っちゅ
-    - derive/(`)nny(?=[auo].*;)/q$1ny/ #っにゃ #目前詞庫漢字無此拼音#
-    - derive/hhy(?=[auo].*;)/qhy/ #っひゃ #目前詞庫漢字無此拼音#
-    - derive/bby(?=[auo].*;)/qby/ #っびゃ #目前詞庫漢字無此拼音#
-    - derive/ppy(?=[auo].*;)/qpy/ #っぴゃ
-    - derive/mmy(?=[auo].*;)/qmy/ #っみゃ #目前詞庫漢字無此拼音#
-    - derive/rry(?=[auo].*;)/qry/ #っりゃ #目前詞庫漢字無此拼音#
-##
-    - derive/kk(?=[auoie].*;)/qk/ #っか
-    - derive/ss(?=[auoe].*;)/qs/ #っさ #「ssi」沒有（後面才轉寫）
-    - derive/tt(?=[aoe].*;)/qt/ #った #「ttu」和「tti」沒有（後面才轉寫）
-#漢字無此拼音，且會干擾ん(なにぬねの)，有標注之假名無此發音#    - derive/nn(?=[auoie].*;)/qn/ #っな
-    - derive/hh(?=[aoie].*;)/qh/ #っは #「hhu」沒有（後面才轉寫）
-    - derive/ff(?=[u].*;)/qf/ #っふ #f[aoie]沒有
-    - derive/mm(?=[auoie].*;)/qm/ #っま
-    - derive/yy(?=[auoie].*;)/qy/ #っや #打開會衝突？？？
-    - derive/rr(?=[auoie].*;)/qr/ #っら
-#漢字無此拼音，有標注之假名無此發音#    - derive/ww(?=[auoie].*;)/qw/ #っわ #打開會衝突？？？
-##
-    - derive/gg(?=[auoie].*;)/qg/ #っが
-    - derive/zz(?=[auoie].*;)/qz/ #っざ
-    - derive/dd(?=[auoie].*;)/qd/ #っだ
-    - derive/bb(?=[auoie].*;)/qb/ #っば
-    - derive/pp(?=[auoie].*;)/qp/ #っぱ
-### 漢字中的拗音 ### @此轉寫太影響效能，折衷可只遮屏此處@
-    - derive/ky(?=[auo].*;)/kixy/ #きゃ
-    - derive/gy(?=[auo].*;)/gixy/ #ぎゃ
-    - derive/sh(?=[auo].*;)/shixy/ #しゃ
-    - derive/j(?=[auo].*;)/jixy/ #じゃ
-    - derive/dy(?=[auo].*;)/dixy/ #ぢゃ
-    - derive/ch(?=[auo].*;)/chixy/ #ちゃ #ch「e」沒有（後面才轉寫）
-    - derive/`ny(?=[auoie].*;)/nixy/ #にゃ
-    - derive/hy(?=[auoie].*;)/hixy/ #ひゃ
-    - derive/by(?=[auoe].*;)/bixy/ #びゃ
-    - derive/py(?=[auoie].*;)/pixy/ #ぴゃ
-    - derive/my(?=[auoie].*;)/mixy/ #みゃ
-    - derive/ry(?=[auoie].*;)/rixy/ #りゃ
+# ### 漢字中的促音 ###
+#     - derive/cchi(?=.*;)/qchi/ #っち
+#     - derive/sshi(?=.*;)/qshi/ #っし
+#     - derive/ffu(?=.*;)/qfu/ #っふ
+#     - derive/ttsu(?=.*;)/qtsu/ #っつ
+#     - derive/jji(?=.*;)/qji/ #っじ
+# ##
+#     - derive/kky(?=[auo].*;)/qky/ #っきょ
+#     - derive/ggy(?=[auo].*;)/qgy/ #っぎょ #目前詞庫漢字無此拼音#
+#     - derive/ssh(?=[auo].*;)/qsh/ #っしゃ
+#     - derive/jj(?=[auo].*;)/qj/ #っじゅ #目前詞庫漢字無此拼音#
+#     - derive/ddy(?=[auo].*;)/qdy/ #っぢょ #目前詞庫漢字無此拼音#
+#     - derive/cch(?=[auo].*;)/qch/ #っちゅ
+#     - derive/(`)nny(?=[auo].*;)/q$1ny/ #っにゃ #目前詞庫漢字無此拼音#
+#     - derive/hhy(?=[auo].*;)/qhy/ #っひゃ #目前詞庫漢字無此拼音#
+#     - derive/bby(?=[auo].*;)/qby/ #っびゃ #目前詞庫漢字無此拼音#
+#     - derive/ppy(?=[auo].*;)/qpy/ #っぴゃ
+#     - derive/mmy(?=[auo].*;)/qmy/ #っみゃ #目前詞庫漢字無此拼音#
+#     - derive/rry(?=[auo].*;)/qry/ #っりゃ #目前詞庫漢字無此拼音#
+# ##
+#     - derive/kk(?=[auoie].*;)/qk/ #っか
+#     - derive/ss(?=[auoe].*;)/qs/ #っさ #「ssi」沒有（後面才轉寫）
+#     - derive/tt(?=[aoe].*;)/qt/ #った #「ttu」和「tti」沒有（後面才轉寫）
+# #漢字無此拼音，且會干擾ん(なにぬねの)，有標注之假名無此發音#    - derive/nn(?=[auoie].*;)/qn/ #っな
+#     - derive/hh(?=[aoie].*;)/qh/ #っは #「hhu」沒有（後面才轉寫）
+#     - derive/ff(?=[u].*;)/qf/ #っふ #f[aoie]沒有
+#     - derive/mm(?=[auoie].*;)/qm/ #っま
+#     - derive/yy(?=[auoie].*;)/qy/ #っや #打開會衝突？？？
+#     - derive/rr(?=[auoie].*;)/qr/ #っら
+# #漢字無此拼音，有標注之假名無此發音#    - derive/ww(?=[auoie].*;)/qw/ #っわ #打開會衝突？？？
+# ##
+#     - derive/gg(?=[auoie].*;)/qg/ #っが
+#     - derive/zz(?=[auoie].*;)/qz/ #っざ
+#     - derive/dd(?=[auoie].*;)/qd/ #っだ
+#     - derive/bb(?=[auoie].*;)/qb/ #っば
+#     - derive/pp(?=[auoie].*;)/qp/ #っぱ
+# ### 漢字中的拗音 ### @此轉寫太影響效能，折衷可只遮屏此處@
+#     - derive/ky(?=[auo].*;)/kixy/ #きゃ
+#     - derive/gy(?=[auo].*;)/gixy/ #ぎゃ
+#     - derive/sh(?=[auo].*;)/shixy/ #しゃ
+#     - derive/j(?=[auo].*;)/jixy/ #じゃ
+#     - derive/dy(?=[auo].*;)/dixy/ #ぢゃ
+#     - derive/ch(?=[auo].*;)/chixy/ #ちゃ #ch「e」沒有（後面才轉寫）
+#     - derive/`ny(?=[auoie].*;)/nixy/ #にゃ
+#     - derive/hy(?=[auoie].*;)/hixy/ #ひゃ
+#     - derive/by(?=[auoe].*;)/bixy/ #びゃ
+#     - derive/py(?=[auoie].*;)/pixy/ #ぴゃ
+#     - derive/my(?=[auoie].*;)/mixy/ #みゃ
+#     - derive/ry(?=[auoie].*;)/rixy/ #りゃ
 ##### 字詞彙中的漢字，拼音轉寫結束（以上到開頭可遮屏，節省部屬時間） #####
 ### 漢字中的外語轉換 ###
     - derive/ty(?=[auoie].*;)/chix/ #ちぇ
