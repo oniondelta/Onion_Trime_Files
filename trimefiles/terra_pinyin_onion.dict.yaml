@@ -55034,6 +55034,7 @@ min_phrase_weight: 100
 三和絃	san1 he2 xian2
 三和路	san1 he2 lu4
 三回九曲	san1 hui2 jiu3 qu1
+三回九曲	san1 hui2 jiu3 qu3
 三回九轉	san1 hui2 jiu3 zhuan3
 三回五轉	san1 hui2 wu3 zhuan3
 三回兩轉	san1 hui2 liang3 zhuan3
@@ -55094,6 +55095,7 @@ min_phrase_weight: 100
 三樂	san1 yao4
 三權分立	san1 quan2 fen1 li4
 三次曲線	san1 ci4 qu1 xian4
+三次曲線	san1 ci4 qu3 xian4
 三正	san1 zheng1
 三正	san1 zheng4
 三歲看老	san1 sui4 kan4 lao3
@@ -56122,6 +56124,7 @@ min_phrase_weight: 100
 不顧一切	bu2 gu4 yi2 qie4
 不顧一切	bu2 gu4 yi1 qie4
 不顧曲直	bu2 gu4 qu1 zhi2
+不顧曲直	bu2 gu4 qu3 zhi2
 不顯山不露水	bu4 xian3 shan1 bu2 lu4 shui3
 不顯山不露水	bu4 xian3 shan1 bu2 lou4 shui3
 不顯平地	bu4 xian3 ping2 di4
@@ -56597,6 +56600,7 @@ min_phrase_weight: 100
 九故十親	jiu3 gu4 shi2 qin1
 九數	jiu3 shu4
 九曲洞	jiu3 qu1 dong4
+九曲洞	jiu3 qu3 dong4
 九更天	jiu3 geng1 tian1
 九江地區	jiu3 jiang1 di4 qu1
 九流三教	jiu3 liu2 san1 jiao4
@@ -56626,6 +56630,7 @@ min_phrase_weight: 100
 乞漿得酒	qi3 jiang1 de2 jiu3
 乞留惡濫	qi3 liu2 e4 lan4
 乞留曲律	qi3 liu2 qu1 lv4
+乞留曲律	qi3 liu2 qu3 lv4
 乞窮儉相	qi3 qiong2 jian3 xiang4
 乞降	qi3 xiang2
 乞鞠	qi3 ju2
@@ -56980,8 +56985,11 @@ min_phrase_weight: 100
 二次全倒	er4 ci4 quan2 dao3
 二次函數	er4 ci4 han2 shu4
 二次曲	er4 ci4 qu1
+二次曲	er4 ci4 qu3
 二次曲線	er4 ci4 qu1 xian4
+二次曲線	er4 ci4 qu3 xian4
 二次曲面	er4 ci4 qu1 mian4
+二次曲面	er4 ci4 qu3 mian4
 二毛子	er4 mao2 zi5
 二流子	er4 liu2 zi5
 二混子	er4 hun4 zi5
@@ -57550,7 +57558,9 @@ min_phrase_weight: 100
 代數方程	dai4 shu4 fang1 cheng2
 代數方程式	dai4 shu4 fang1 cheng2 shi4
 代數曲線	dai4 shu4 qu1 xian4
+代數曲線	dai4 shu4 qu3 xian4
 代數曲面	dai4 shu4 qu1 mian4
+代數曲面	dai4 shu4 qu3 mian4
 代數流行	dai4 shu4 liu2 xing2
 代數簇	dai4 shu4 cu4
 代數結構	dai4 shu4 jie2 gou4
@@ -58521,6 +58531,7 @@ min_phrase_weight: 100
 保甲制度	bao3 jia3 zhi4 du4
 保留地	bao3 liu2 di4
 保留曲線	bao3 liu2 qu1 xian4
+保留曲線	bao3 liu2 qu3 xian4
 保真度	bao3 zhen1 du4
 保結	bao3 jie2
 保結制度	bao3 jie2 zhi4 du4
@@ -60465,6 +60476,7 @@ min_phrase_weight: 100
 共軛虛數	gong4 e4 xu1 shu4
 共軛複數	gong4 e4 fu4 shu4
 共軛雙曲線	gong4 e4 shuang1 qu1 xian4
+共軛雙曲線	gong4 e4 shuang1 qu3 xian4
 兵不由將	bing1 bu4 you2 jiang4
 兵來將擋	bing1 lai2 jiang1 dang3
 兵來將擋	bing1 lai2 jiang4 dang3
@@ -60626,6 +60638,7 @@ min_phrase_weight: 100
 冬扇夏爐	dong1 shan4 xia4 lu2
 冬藏	dong1 cang2
 冰上曲棍球	bing1 shang4 qu1 gun4 qiu2
+冰上曲棍球	bing1 shang4 qu3 gun4 qiu2
 冰坨子	bing1 tuo2 zi5
 冰場	bing1 chang3
 冰場	bing1 chang2	3%
@@ -62152,7 +62165,6 @@ min_phrase_weight: 100
 劇地	ju4 di4
 劇情影片	ju4 qing2 ying3 pian4
 劇曲	ju4 qu3
-劇曲	ju4 qu1
 劇校	ju4 xiao4
 劇種	ju4 zhong3
 劈刀	pi1 dao1
@@ -62975,6 +62987,8 @@ min_phrase_weight: 100
 千迴百轉	qian1 hui2 bai3 zhuan3
 千里一曲	qian1 li3 yi4 qu1
 千里一曲	qian1 li3 yi1 qu1
+千里一曲	qian1 li3 yi4 qu3
+千里一曲	qian1 li3 yi1 qu3
 千里之堤	qian1 li3 zhi1 ti2
 千里之堤	qian1 li3 zhi1 di1
 千里之行	qian1 li3 zhi1 xing2
@@ -63508,6 +63522,7 @@ min_phrase_weight: 100
 卷懷	juan3 huai2
 卷旗息鼓	juan3 qi2 xi2 gu3
 卷曲	quan2 qu1
+卷曲	quan2 qu3
 卷柏	juan3 bo2
 卷棚	juan3 peng2
 卷甲	juan3 jia3
@@ -64079,6 +64094,7 @@ min_phrase_weight: 100
 可圈可點	ke3 quan1 ke3 dian3
 可塞	ke3 sai4
 可展曲面	ke3 zhan3 qu1 mian4
+可展曲面	ke3 zhan3 qu3 mian4
 可待	ke3 dai4
 可待因	ke3 dai4 yin1
 可得到	ke3 de2 dao4
@@ -66086,6 +66102,7 @@ min_phrase_weight: 100
 單腳鞋銀行	dan1 jiao3 xie2 yin2 hang2
 單色照片	dan1 se4 zhao4 pian4
 單葉雙曲面	dan1 ye4 shuang1 qu1 mian4
+單葉雙曲面	dan1 ye4 shuang1 qu3 mian4
 單薄	dan1 bo2
 單薄	dan1 bao2
 單行	dan1 xing2
@@ -69444,6 +69461,7 @@ min_phrase_weight: 100
 好性子	hao3 xing4 zi5
 好惡	hao4 wu4
 好意思	hao3 yi4 si1
+好意思	hao3 yi4 si4
 好愻	hao3 sun4
 好戰	hao4 zhan4
 好戲還在後頭	hao3 xi4 hai2 zai4 hou4 tou2
@@ -69463,6 +69481,7 @@ min_phrase_weight: 100
 好死不如惡活	hao3 si3 bu4 ru2 e4 huo2
 好氧	hao4 yang3
 好沒意思	hao3 mei2 yi4 si1
+好沒意思	hao3 mei2 yi4 si4
 好法子	hao3 fa2 zi5
 好消息	hao3 xiao1 xi2
 好漢只怕病來磨	hao3 han4 zhi3 pa4 bing4 lai2 mo2
@@ -69980,6 +69999,7 @@ min_phrase_weight: 100
 字跡	zi4 ji1
 字跡	zi4 ji4
 字面意思	zi4 mian4 yi4 si1
+字面意思	zi4 mian4 yi4 si4
 存儲卡	cun2 chu3 ka3
 存勞	cun2 lao4
 存包處	cun2 bao1 chu4
@@ -70110,6 +70130,7 @@ min_phrase_weight: 100
 學籍卡	xue2 ji2 ka3
 學習	xue2 xi2
 學習曲線	xue2 xi2 qu1 xian4
+學習曲線	xue2 xi2 qu3 xian4
 學行	xue2 xing4
 學術研究	xue2 shu4 yan2 jiu4
 學說	xue2 shuo1
@@ -72765,6 +72786,7 @@ min_phrase_weight: 100
 平面幾何學	ping2 mian4 ji3 he2 xue2
 平面描跡	ping2 mian4 miao2 ji1
 平面曲線	ping2 mian4 qu1 xian4
+平面曲線	ping2 mian4 qu3 xian4
 平面測量	ping2 mian4 ce4 liang2
 平頭數	ping2 tou2 shu4
 年下	nian2 xia4
@@ -73323,6 +73345,7 @@ min_phrase_weight: 100
 弓折箭盡	gong1 zhe2 jian4 jin4
 弓漿蟲	gong1 jiang1 chong2
 弓腰曲背	gong1 yao1 qu1 bei4
+弓腰曲背	gong1 yao1 qu3 bei4
 弓調馬服	gong1 tiao2 ma3 fu2
 弓長嶺	gong1 chang2 ling3
 弓長嶺區	gong1 chang2 ling3 qu1
@@ -74676,6 +74699,7 @@ min_phrase_weight: 100
 怪念頭	guai4 nian4 tou2
 怪樣子	guai4 yang4 zi5
 怪沒意思	guai4 mei2 yi4 si1
+怪沒意思	guai4 mei2 yi4 si4
 怪物	guai4 wu4
 怪物相	guai4 wu4 xiang4
 怪相	guai4 xiang4
@@ -75254,8 +75278,10 @@ min_phrase_weight: 100
 意思	yi4 si1
 意思	yi4 si4
 意思意思	yi4 si4 yi4 si4
+意思意思	yi4 si1 yi4 si1
 意意似似	yi4 yi4 si4 si4
 意意思思	yi4 yi4 si1 si1
+意意思思	yi4 yi4 si4 si4
 意樂	yi4 le4
 意氣相傾	yi4 qi4 xiang1 qing1
 意氣相傾	yi4 qi4 xiang1 qing3
@@ -75327,6 +75353,7 @@ min_phrase_weight: 100
 愛麗思泉	ai4 li2 si1 quan2
 愜當	qie4 dang4
 感人心曲	gan3 ren2 xin1 qu1
+感人心曲	gan3 ren2 xin1 qu3
 感今懷昔	gan3 jin1 huai2 xi2
 感動天地	gan3 dong4 tian1 di4
 感化教育	gan3 hua4 jiao4 yu4
@@ -78781,9 +78808,11 @@ min_phrase_weight: 100
 撓北	nao2 bo4
 撓折	nao2 zhe2
 撓曲	nao2 qu1
+撓曲	nao2 qu3
 撓率	nao2 lv4
 撓癢癢	nao2 yang3 yang3
 撓直為曲	nao2 zhi2 wei2 qu1
+撓直為曲	nao2 zhi2 wei2 qu3
 撙省	zun3 sheng3
 撚分子	nian3 fen4 zi5
 撞一鼻子灰	zhuang4 yi4 bi2 zi5 hui1
@@ -80590,6 +80619,7 @@ min_phrase_weight: 100
 旋轉力	xuan2 zhuan3 li4
 旋轉指標	xuan2 zhuan3 zhi3 biao1
 旋轉曲面	xuan2 zhuan3 qu1 mian4
+旋轉曲面	xuan2 zhuan3 qu3 mian4
 旋轉木馬	xuan2 zhuan3 mu4 ma3
 旋轉極	xuan2 zhuan3 ji2
 旋轉烤肉	xuan2 zhuan3 kao3 rou4
@@ -80922,6 +80952,7 @@ min_phrase_weight: 100
 是非善惡	shi4 fei1 shan4 e4
 是非得失	shi4 fei1 de2 shi1
 是非曲直	shi4 fei1 qu1 zhi2
+是非曲直	shi4 fei1 qu3 zhi2
 是非顛倒	shi4 fei1 dian1 dao3
 昳麗	yi4 li4
 昴宿星團	mao3 xiu4 xing1 tuan2
@@ -81250,6 +81281,9 @@ min_phrase_weight: 100
 曬駱駝	shai4 luo4 tuo2
 曲別針	qu1 bie2 zhen1
 曲匝	qu1 za1
+曲匝	qu3 za1
+曲匝	qu1 za2	80%
+曲匝	qu3 za2	80%
 曲周	qu3 zhou1
 曲周縣	qu3 zhou1 xian4
 曲園	qu1 yuan2
@@ -81261,24 +81295,32 @@ min_phrase_weight: 100
 曲室	qu1 shi4
 曲宴	qu1 yan4
 曲射炮	qu1 she4 pao4
+曲射炮	qu3 she4 pao4
 曲尺	qu1 chi3
+曲尺	qu3 chi3
 曲尺樓梯	qu1 chi3 lou2 ti1
+曲尺樓梯	qu3 chi3 lou2 ti1
 曲局	qu1 ju2
 曲庇	qu1 bi4
 曲度	qu3 du4
 曲度	qu1 du4
 曲式	qu3 shi4
 曲律	qu1 lv4
+曲律	qu3 lv4
 曲徑通幽	qu1 jing4 tong1 you1
 曲從	qu1 cong2
 曲心矯肚	qu1 xin1 jiao3 du4
 曲意	qu1 yi4
+曲意	qu3 yi4
 曲意俯就	qu1 yi4 fu3 jiu4
 曲意逢迎	qu1 yi4 feng2 ying2
 曲房	qu1 fang2
 曲折	qu1 zhe2
+曲折	qu3 zhe2
 曲折縈紆	qu1 zhe2 ying2 yu1
+曲折縈紆	qu3 zhe2 ying2 yu1
 曲折離奇	qu1 zhe2 li2 qi2
+曲折離奇	qu3 zhe2 li2 qi2
 曲拗	qu1 ao4
 曲撓	qu1 nao2
 曲曲彎彎	qu1 qu1 wan1 wan1
@@ -81290,7 +81332,9 @@ min_phrase_weight: 100
 曲柄鑽	qu1 bing3 zuan4
 曲柄鑽	qu1 bing3 zuan1
 曲棍	qu1 gun4
+曲棍	qu3 gun4
 曲棍球	qu1 gun4 qiu2
+曲棍球	qu3 gun4 qiu2
 曲欄	qu1 lan2
 曲水流觴	qu1 shui3 liu2 shang1
 曲水縣	qu3 shui3 xian4
@@ -81303,16 +81347,22 @@ min_phrase_weight: 100
 曲沃	qu3 wo4
 曲沃縣	qu3 wo4 xian4
 曲流	qu1 liu2
+曲流	qu3 liu2
 曲牌	qu3 pai2
 曲率	qu1 lv4
+曲率	qu3 lv4
 曲率向量	qu1 lv4 xiang4 liang4
+曲率向量	qu3 lv4 xiang4 liang4
 曲球	qu1 qiu2
+曲球	qu3 qiu2
 曲瓊	qu1 qiong2
 曲盡人情	qu1 jin4 ren2 qing2
 曲盡其妙	qu1 jin4 qi2 miao4
 曲目	qu3 mu4
 曲直	qu1 zhi2
+曲直	qu3 zhi2
 曲直分明	qu1 zhi2 fen1 ming2
+曲直分明	qu3 zhi2 fen1 ming2
 曲禮	qu1 li3
 曲突徙薪	qu1 tu2 xi3 xin1
 曲突徙薪	qu1 tu1 xi3 xin1
@@ -81322,14 +81372,20 @@ min_phrase_weight: 100
 曲線	qu1 xian4
 曲線	qu3 xian4
 曲線圖	qu1 xian4 tu2
+曲線圖	qu3 xian4 tu2
 曲線擬合	qu1 xian4 ni3 he2
+曲線擬合	qu3 xian4 ni3 he2
 曲線板	qu1 xian4 ban3
+曲線板	qu3 xian4 ban3
 曲線美	qu1 xian4 mei3
+曲線美	qu3 xian4 mei3
 曲線論	qu1 xian4 lun4
+曲線論	qu3 xian4 lun4
 曲肱之樂	qu1 gong1 zhi1 le4
 曲肱而枕	qu1 gong1 er2 zhen3
 曲肱而枕	qu1 gong1 er2 zhen4
 曲背	qu1 bei4
+曲背	qu3 bei4
 曲致	qu1 zhi4
 曲台	qu1 tai2
 曲臺	qu1 tai2
@@ -81347,8 +81403,10 @@ min_phrase_weight: 100
 曲赦	qu1 she4
 曲躬躬	qu1 gong1 gong1
 曲軸	qu1 zhou2
+曲軸	qu3 zhou2
 曲辮子	qu1 bian4 zi5
 曲道	qu1 dao4
+曲道	qu3 dao4
 曲阜	qu3 fu4
 曲阜	qu1 fu4
 曲阜孔廟	qu3 fu4 kong3 miao4
@@ -81366,9 +81424,13 @@ min_phrase_weight: 100
 曲靖地區	qu3 jing4 di4 qu1
 曲靖市	qu3 jing4 shi4
 曲面	qu1 mian4
+曲面	qu3 mian4
 曲面論	qu1 mian4 lun4
+曲面論	qu3 mian4 lun4
 曲頸瓶	qu1 jing3 ping2
+曲頸瓶	qu3 jing3 ping2
 曲頸甑	qu1 jing3 zeng4
+曲頸甑	qu3 jing3 zeng4
 曲體	qu1 ti3
 曲高和寡	qu3 gao1 he4 gua3
 曲高和寡	qu3 gao1 he2 gua3
@@ -83771,6 +83833,7 @@ min_phrase_weight: 100
 橡皮釘子	xiang4 pi2 ding1 zi5
 橢圓函數	tuo3 yuan2 han2 shu4
 橢圓曲線	tuo3 yuan2 qu1 xian4
+橢圓曲線	tuo3 yuan2 qu3 xian4
 橢圓積分	tuo3 yuan2 ji1 fen1
 橦布	tong2 bu4
 橫七豎八	heng2 qi1 shu4 ba1
@@ -85181,6 +85244,7 @@ min_phrase_weight: 100
 沒奔一頭處	mei2 ben1 yi1 tou2 chu4
 沒奔頭	mei2 ben4 tou5
 沒好意思	mei2 hao3 yi4 si1
+沒好意思	mei2 hao3 yi4 si4
 沒完沒了	mei2 wan2 mei2 liao3
 沒官	mo4 guan1
 沒尋歸路處	mei2 xun2 gui1 lu4 chu4
@@ -85236,6 +85300,7 @@ min_phrase_weight: 100
 沒有勁頭兒	mei2 you3 jin4 tou2 er2
 沒有差別	mei2 you3 cha1 bie2
 沒有意思	mei2 you3 yi4 si1
+沒有意思	mei2 you3 yi4 si4
 沒有甚麼	mei2 you3 shen2 me5
 沒有甚麼不可能	mei2 you3 shen2 me5 bu4 ke3 neng2
 沒有聯繫	mei2 you3 lian2 xi4
@@ -85265,6 +85330,7 @@ min_phrase_weight: 100
 沒理會處	mei2 li3 hui4 chu4
 沒甚	mei2 shen2
 沒甚意思	mei2 shen2 yi4 si1
+沒甚意思	mei2 shen2 yi4 si4
 沒甚首尾	mei2 shen2 shou3 wei3
 沒甚麼	mei2 shen2 me5
 沒甚麼	mei2 she2 me5
@@ -86014,6 +86080,7 @@ min_phrase_weight: 100
 活動卡通	huo2 dong4 ka3 tong1
 活動扳手	huo2 dong4 ban1 shou3
 活動曲尺	huo2 dong4 qu1 chi3
+活動曲尺	huo2 dong4 qu3 chi3
 活動看板	huo2 dong4 kan4 ban3
 活化分析	huo2 hua4 fen1 xi1
 活喇喇	huo2 la1 la1
@@ -86926,8 +86993,10 @@ min_phrase_weight: 100
 渦陽	guo1 yang2
 渦陽縣	guo1 yang2 xian4
 測地曲率	ce4 di4 qu1 lv4
+測地曲率	ce4 di4 qu3 lv4
 測地線	ce4 di4 xian4
 測地線曲率	ce4 di4 xian4 qu1 lv4
+測地線曲率	ce4 di4 xian4 qu3 lv4
 測地線量學	ce4 di4 xian4 liang4 xue2
 測度	ce4 du4
 測度	ce4 duo4
@@ -91240,6 +91309,7 @@ min_phrase_weight: 100
 盤成括	pan2 cheng2 gua1
 盤旋	pan2 xuan2
 盤旋曲折	pan2 xuan2 qu1 zhe2
+盤旋曲折	pan2 xuan2 qu3 zhe2
 盤槓子	pan2 gang4 zi5
 盤渦	pan2 wo1
 盤究	pan2 jiu4
@@ -93775,6 +93845,7 @@ min_phrase_weight: 100
 空間探測	kong1 jian1 tan4 ce4
 空間時代	kong1 jian1 shi2 dai4
 空間曲線	kong1 jian1 qu1 xian4
+空間曲線	kong1 jian1 qu3 xian4
 空間站	kong1 jian1 zhan4
 空間美	kong1 jian1 mei3
 空間藝術	kong1 jian1 yi4 shu4
@@ -96296,6 +96367,7 @@ min_phrase_weight: 100
 翹思	qiao2 si1
 翹拇指	qiao2 mu3 zhi3
 翹曲	qiao2 qu1
+翹曲	qiao2 qu3
 翹望	qiao2 wang4
 翹材	qiao2 cai2
 翹棱	qiao2 leng2
@@ -99062,6 +99134,7 @@ min_phrase_weight: 100
 萬維天羅地網	wan4 wei2 tian1 luo2 di4 wang3
 萬縣地區	wan4 xian4 di4 qu1
 萬能曲尺	wan4 neng2 qu1 chi3
+萬能曲尺	wan4 neng2 qu3 chi3
 萬能鑰匙	wan4 neng2 yao4 shi5
 萬能鑰匙	wan4 neng2 yao4 shi3
 萬象更新	wan4 xiang4 geng1 xin1
@@ -100520,6 +100593,7 @@ min_phrase_weight: 100
 螺旋形	luo2 xuan2 xing2
 螺旋推進機	luo2 xuan2 tui1 jin4 ji1
 螺旋曲面	luo2 xuan2 qu1 mian4
+螺旋曲面	luo2 xuan2 qu3 mian4
 螺旋槳	luo2 xuan2 jiang3
 螺旋狀	luo2 xuan2 zhuang4
 螺旋菌	luo2 xuan2 jun4
@@ -100681,6 +100755,7 @@ min_phrase_weight: 100
 眾散親離	zhong4 san4 qin1 li2
 眾數	zhong4 shu4
 眾曲不容直	zhong4 qu1 bu4 rong2 zhi2
+眾曲不容直	zhong4 qu3 bu4 rong2 zhi2
 眾毛攢毬	zhong4 mao2 zan3 qiu2
 眾毛攢裘	zhong4 mao2 cuan2 qiu2
 眾生好度	zhong4 sheng1 hao3 du4
@@ -101263,6 +101338,7 @@ min_phrase_weight: 100
 衯衯	fen1 fen1
 衰落	shuai1 luo4
 衰變曲線	shuai1 bian4 qu1 xian4
+衰變曲線	shuai1 bian4 qu3 xian4
 衲子	na4 zi5
 衲被蒙頭	na4 bei4 meng2 tou2
 衷曲	zhong1 qu1
@@ -101536,7 +101612,12 @@ min_phrase_weight: 100
 褶子了	zhe3 zi5 le5
 褶曲	zhe2 qu1
 褶曲	zhe3 qu1
+褶曲	zhe2 qu3
+褶曲	zhe3 qu3
 褶曲山脈	zhe2 qu1 shan1 mai4
+褶曲山脈	zhe2 qu3 shan1 mai4
+褶曲山脈	zhe3 qu1 shan1 mai4
+褶曲山脈	zhe3 qu3 shan1 mai4
 褶皺	zhe2 zhou4
 褶皺	zhe3 zhou4
 褶皺山系	zhe3 zhou4 shan1 xi4
@@ -101991,6 +102072,7 @@ min_phrase_weight: 100
 角抵	jue2 di3
 角招	jue2 shao2
 角曲尺	jiao3 qu1 chi3
+角曲尺	jiao3 qu3 chi3
 角枕	jue2 zhen3
 角立	jue2 li4
 角粽	jue2 zong4
@@ -102216,6 +102298,7 @@ min_phrase_weight: 100
 討惡剪暴	tao3 e4 jian3 bao4
 討教	tao3 jiao4
 討沒意思	tao3 mei2 yi4 si1
+討沒意思	tao3 mei2 yi4 si4
 討油水	tao3 you2 shui3
 討究	tao3 jiu4
 討究	tao3 jiu1
@@ -107380,6 +107463,7 @@ min_phrase_weight: 100
 鋼叉	gang1 cha1
 鋼彈	gang1 dan4
 鋼曲尺	gang1 qu1 chi3
+鋼曲尺	gang1 qu3 chi3
 鋼片琴	gang1 pian4 qin2
 鋼琴二重奏	gang1 qin2 er4 chong2 zou4
 鋼琴酒吧	gang1 qin2 jiu3 ba1
@@ -109641,13 +109725,21 @@ min_phrase_weight: 100
 雙數	shuang1 shu4
 雙日不著單日著	shuang1 ri4 bu4 zhuo2 dan1 ri4 zhuo2
 雙曲	shuang1 qu1
+雙曲	shuang1 qu3
 雙曲拋物面	shuang1 qu1 pao1 wu4 mian4
+雙曲拋物面	shuang1 qu3 pao1 wu4 mian4
 雙曲拱橋	shuang1 qu1 gong3 qiao2
+雙曲拱橋	shuang1 qu3 gong3 qiao2
 雙曲正弦	shuang1 qu1 zheng4 xian2
+雙曲正弦	shuang1 qu3 zheng4 xian2
 雙曲線	shuang1 qu1 xian4
+雙曲線	shuang1 qu3 xian4
 雙曲線正弦	shuang1 qu1 xian4 zheng4 xian2
+雙曲線正弦	shuang1 qu3 xian4 zheng4 xian2
 雙曲餘割	shuang1 qu1 yu2 ge1
+雙曲餘割	shuang1 qu3 yu2 ge1
 雙曲餘弦	shuang1 qu1 yu2 xian2
+雙曲餘弦	shuang1 qu3 yu2 xian2
 雙柏	shuang1 bo2
 雙柏縣	shuang1 bo2 xian4
 雙核都市	shuang1 he2 du1 shi4
@@ -109734,6 +109826,7 @@ min_phrase_weight: 100
 離不開	li2 bu4 kai1
 離地	li2 di4
 離奇曲折	li2 qi2 qu1 zhe2
+離奇曲折	li2 qi2 qu3 zhe2
 離婚率	li2 hun1 lv4
 離心分離機	li2 xin1 fen1 li2 ji1
 離心率	li2 xin1 lv4
@@ -109934,6 +110027,7 @@ min_phrase_weight: 100
 零散	ling2 san4
 零數	ling2 shu4
 零曲率	ling2 qu1 lv4
+零曲率	ling2 qu3 lv4
 零稅率	ling2 shui4 lv4
 零等待狀態	ling2 deng3 dai4 zhuang4 tai4
 零落	ling2 luo4
@@ -110066,6 +110160,8 @@ min_phrase_weight: 100
 震撼彈	zhen4 han4 dan4
 震波曲線	zhen4 bo1 qu1 xian4
 震波曲線	zhen4 po1 qu1 xian4
+震波曲線	zhen4 bo1 qu3 xian4
+震波曲線	zhen4 po1 qu3 xian4
 震眩彈	zhen4 xuan4 dan4
 震顫	zhen4 chan4
 震顫	zhen4 zhan4
@@ -112490,6 +112586,7 @@ min_phrase_weight: 100
 黎曼幾何	li2 man4 ji3 he2
 黎曼幾何學	li2 man4 ji3 he2 xue2
 黎曼曲面	li2 man4 qu1 mian4
+黎曼曲面	li2 man4 qu3 mian4
 黎曼空間	li2 man4 kong1 jian1
 黏兒	nian2 er5	80%
 黏兒	nian2 er2
@@ -112792,6 +112889,7 @@ min_phrase_weight: 100
 龍鳳帖	long2 feng4 tie3
 龐巴度夫人	pang2 ba1 du4 fu1 ren2
 龐琴曲線	pang2 qin2 qu1 xian4
+龐琴曲線	pang2 qin2 qu3 xian4
 龐眉白髮	pang2 mei2 bai2 fa3
 龐眉皓髮	pang2 mei2 hao4 fa3
 龔行天罰	gong1 xing2 tian1 fa2
@@ -112813,4 +112911,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112816 #####
+##### @結束 END - 112914 #####

@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "202306"
+version: "202308"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -238,6 +238,7 @@ min_phrase_weight: 100
 噹	diang5
 瑰	gui4	10%
 鸝	li4	10%
+匝	za2	10%
 ### @補充為《一聲》，通俗慣用或方便輸入，『非正確發音』！！！ ###
 腓	fei1	1%
 琲	fei1	1%
