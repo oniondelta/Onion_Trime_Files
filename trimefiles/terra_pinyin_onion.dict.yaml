@@ -2185,6 +2185,7 @@ min_phrase_weight: 100
 櫂	di2	0%
 沍	hu2	0%
 迦	xie4	0%
+鴂	ju2	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -63523,6 +63524,8 @@ min_phrase_weight: 100
 卷旗息鼓	juan3 qi2 xi2 gu3
 卷曲	quan2 qu1
 卷曲	quan2 qu3
+卷曲	juan3 qu1
+卷曲	juan3 qu3
 卷柏	juan3 bo2
 卷棚	juan3 peng2
 卷甲	juan3 jia3
@@ -63530,6 +63533,7 @@ min_phrase_weight: 100
 卷筆刀	juan3 bi3 dao1
 卷簾門	juan3 lian2 men2
 卷紙	juan4 zhi3
+卷紙	juan3 zhi3
 卷繖花序	juan3 san3 hua1 xu4
 卷繞	juan3 rao4
 卷耳	juan3 er3
@@ -63542,8 +63546,10 @@ min_phrase_weight: 100
 卷軸	juan4 zhou2
 卷軸	juan3 zhou2
 卷軸裝	juan4 zhou2 zhuang1
+卷軸裝	juan3 zhou2 zhuang1
 卷阿	quan2 e1
 卷雲	juan3 yun2
+卷雲	quan2 yun2
 卷髮	quan2 fa3
 卷髮	juan3 fa3
 卷鬚	juan3 xu1
@@ -67924,6 +67930,7 @@ min_phrase_weight: 100
 壓冑子	ya1 zhou4 zi5
 壓力強度	ya1 li4 qiang2 du4
 壓卷	ya1 juan4
+壓卷	ya1 juan3
 壓埋	ya1 mai2
 壓壓腳	ya1 ya1 jiao3
 壓壓腳兒	ya1 ya1 jiao3 er5	80%
@@ -83057,6 +83064,7 @@ min_phrase_weight: 100
 框架	kuang1 jia4
 框框	kuang1 kuang1
 案卷	an4 juan4
+案卷	an4 juan3
 案子	an4 zi5
 案稱	an4 cheng4
 案長	an4 zhang3
@@ -96392,6 +96400,7 @@ min_phrase_weight: 100
 翻刻	fan1 ke1
 翻刻本	fan1 ke1 ben3
 翻卷	fan1 juan3
+翻卷	fan1 juan4
 翻地	fan1 di4
 翻天覆地	fan1 tian1 fu4 di4
 翻子拳	fan1 zi5 quan2
@@ -99103,6 +99112,7 @@ min_phrase_weight: 100
 萬分痛苦	wan4 fen1 tong4 ku3
 萬別千差	wan4 bie2 qian1 cha1
 萬卷	wan4 juan4
+萬卷	wan4 juan3
 萬古長新	wan4 gu3 chang2 xin1
 萬古長春	wan4 gu3 chang2 chun1
 萬古長青	wan4 gu3 chang2 qing1
@@ -100834,6 +100844,7 @@ min_phrase_weight: 100
 行匣	xing2 xia2
 行千里路	xing2 qian1 li3 lu4
 行卷	xing2 juan4
+行卷	xing2 juan3
 行取	xing2 qu3
 行口	hang2 kou3
 行口商	hang2 kou3 shang1
@@ -101060,6 +101071,7 @@ min_phrase_weight: 100
 行菜	xing2 cai4
 行萬里路	xing2 wan4 li3 lu4
 行萬里路勝讀萬卷書	xing2 wan4 li3 lu4 sheng4 du2 wan4 juan3 shu1
+行萬里路勝讀萬卷書	xing2 wan4 li3 lu4 sheng4 du2 wan4 juan4 shu1
 行葦	xing2 wei3
 行藏	xing2 cang2
 行藥	xing2 yao4
@@ -103122,6 +103134,7 @@ min_phrase_weight: 100
 讀數	du2 shu4
 讀數	du2 shu3
 讀書破萬卷	du2 shu1 po4 wan4 juan4
+讀書破萬卷	du2 shu1 po4 wan4 juan3
 讀書種子	du2 shu1 zhong3 zi3
 讀書種子	du2 shu1 zhong3 zi5
 讀書識字	du2 shu1 shi4 zi4
@@ -105611,6 +105624,8 @@ min_phrase_weight: 100
 連中三元	lian2 zhong4 san1 yuan2
 連冠	lian2 guan4
 連卷	lian2 quan2
+連卷	lian2 juan3
+連卷	lian2 juan4
 連和	lian2 he2
 連哄帶騙	lian2 hong1 dai4 pian4
 連夜奔走	lian2 ye4 ben1 zou3
@@ -112911,4 +112926,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112914 #####
+##### @結束 END - 112929 #####
