@@ -26,18 +26,11 @@
 
 ## 版本
 
-- 預設鍵盤檔適用[ trime 3.2.6 版](https://github.com/osfans/trime/releases/tag/v3.2.6) 、[ trime 3.2.7 版](https://github.com/osfans/trime/releases/tag/v3.2.7)、[ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8)
+- 預設鍵盤檔適用[ trime 3.2.14 版](https://github.com/osfans/trime/releases/tag/v3.2.14)
 
-- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 鍵盤檔
+- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 和 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 鍵盤檔
 
-- 3.2.6、3.2.7、3.2.8 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
-
-- 3.2.8 版，新增實用的剪貼簿刪除項，初始部屬順利，但後續方案更新需會排除問題。目前本人用該版。
-
-- 3.2.9 版不推薦，剪貼簿等功能會崩潰。
-
-- 3.2.10 版，本方案 .trime.yaml 鍵盤檔全數不可用，實測爬文推測不相容 __patch 等相關引用語法？！
-
+- 3.2.6、3.2.7、3.2.8、3.2.14 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
 
 ## 內容說明
 

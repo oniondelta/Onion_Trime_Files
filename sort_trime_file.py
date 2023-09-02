@@ -31,9 +31,9 @@ shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./sort_trime/洋蔥同文注音純注音版/terra_pinyin_onion.dict.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥注音328k_H.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_L.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_M.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_H.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_L.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_M.trime.yaml", "./sort_trime/洋蔥同文注音純注音版/洋蔥注音3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音純注音版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
@@ -60,12 +60,12 @@ shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注�
 shutil.copyfile("./trimefiles/sy_d_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音雙拼版/sy_d_bpmf.schema.yaml")
 shutil.copyfile("./trimefiles/element_d_bpmfmobiledouble.yaml", "./sort_trime/洋蔥同文注音雙拼版/element_d_bpmfmobiledouble.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥注音328k_H.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_L.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_M.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音328k_M.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥雙拼注音328k_H.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥雙拼注音328k_L.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥雙拼注音328k_M.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_H.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_L.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_M.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥注音3214k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥雙拼注音3214k_H.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥雙拼注音3214k_L.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥雙拼注音3214k_M.trime.yaml", "./sort_trime/洋蔥同文注音雙拼版/洋蔥雙拼注音3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
@@ -108,9 +108,9 @@ shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥同文注音mixin�
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/terra_pinyin_onion.dict.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥注音328k_H.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_L.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_M.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_H.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_L.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_M.trime.yaml", "./sort_trime/洋蔥同文注音mixin版/洋蔥注音3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/sy_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/sy_bpmf.schema.yaml")
@@ -171,9 +171,9 @@ shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥同文注音plus版
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./sort_trime/洋蔥同文注音plus版/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./sort_trime/洋蔥同文注音plus版/terra_pinyin_onion.dict.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥注音328k_H.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_L.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥注音328k_M.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_H.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_L.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥注音3214k_M.trime.yaml", "./sort_trime/洋蔥同文注音plus版/洋蔥注音3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音plus版/sy_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音plus版/sy_bpmf.schema.yaml")
@@ -217,9 +217,9 @@ shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥手機蝦/ocm_mixin
 shutil.copyfile("./trimefiles/ocm_tc_mc_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/ocm_tc_mc_m.dict.yaml")
 shutil.copyfile("./trimefiles/uniabcdword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/uniabcdword.dict.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_L.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_M.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_L.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_M.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/洋蔥蝦米3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/sy_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/sy_ocm.dict.yaml")
 shutil.copyfile("./trimefiles/sy_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_mixin/sy_ocm.schema.yaml")
@@ -268,9 +268,9 @@ shutil.copyfile("./trimefiles/rime.lua", "./sort_trime/洋蔥手機蝦/ocm_plus/
 shutil.copyfile("./trimefiles/ocm_tc_mc_m.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/ocm_tc_mc_m.dict.yaml")
 shutil.copyfile("./trimefiles/uniabcdword.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/uniabcdword.dict.yaml")
 
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米328k_H.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_L.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米328k_L.trime.yaml")
-shutil.copyfile("./trimefiles/洋蔥蝦米328k_M.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米328k_M.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_H.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米3214k_H.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_L.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米3214k_L.trime.yaml")
+shutil.copyfile("./trimefiles/洋蔥蝦米3214k_M.trime.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/洋蔥蝦米3214k_M.trime.yaml")
 
 shutil.copyfile("./trimefiles/sy_ocm.dict.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/sy_ocm.dict.yaml")
 shutil.copyfile("./trimefiles/sy_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦/ocm_plus/sy_ocm.schema.yaml")
@@ -295,6 +295,10 @@ shutil.copytree('./trimefiles/各版主程式/', './sort_trime/各版主程式/'
 
 #適用3.2.1鍵盤檔
 shutil.copytree('./trimefiles/3.2.1鍵盤檔/', './sort_trime/3.2.1鍵盤檔/')
+
+
+#適用3.2.8鍵盤檔
+shutil.copytree('./trimefiles/3.2.8鍵盤檔/', './sort_trime/3.2.8鍵盤檔/')
 
 
 #初始化方案
