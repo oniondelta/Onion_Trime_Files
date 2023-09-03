@@ -26,7 +26,7 @@ style:
   keyboard_height_land: 198 #200 #鎖定橫屏下鍵盤高度，避免切換時鍵盤高度變化而造成閃爍
 
 preset_keys:
-  K_sign: {click: "", label: "            By L'Étranger Onion  [Bpm-H]", functional: false}
+  K_sign: {click: "", label: "          By L'Étranger Onion  [Bpm-H]", functional: false}
 
 # #配色方案
 # preset_color_schemes:

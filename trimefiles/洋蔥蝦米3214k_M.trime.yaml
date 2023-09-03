@@ -1902,7 +1902,7 @@ preset_keys:
   Keyboard_bpm_ns: {label: ⌨, functional: false, send: Eisu_toggle, select: bpmfmobile_ns}
   Keyboard_42keys: {label: ⌨, functional: false, send: Eisu_toggle, select: 42keys}
   Keyboard_back: {label: ⏏ 返回, functional: false, send: Eisu_toggle, select: .last_lock}
-  K_sign: {click: "", label: "            By L'Étranger Onion  [Xia-M]", functional: false} #label: "By L'Étranger Onion
+  K_sign: {click: "", label: "          By L'Étranger Onion  [Xia-M]", functional: false} #label: "By L'Étranger Onion
   Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
 #以下方向功能頁之功能鍵
   Keyboard_duse: {label: '<I>', functional: false, send: Eisu_toggle, select: duse}
