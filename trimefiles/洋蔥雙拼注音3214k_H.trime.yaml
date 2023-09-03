@@ -8,6 +8,7 @@ name: 雙拼注音方案高版          #方案名稱
 author: 洋蔥        #作者信息
 
 preset_keys:
+  K_sign: {click: "", label: "              By L'Étranger Onion  [DBpm-H]", functional: false}
 ## 以下符號新增第一頁
   符碼: {text: '{Escape};fm', label: 符碼, functional: false}
   電腦: {text: '{Escape};dn', label: 電腦, functional: false}

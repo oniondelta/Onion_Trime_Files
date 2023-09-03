@@ -154,7 +154,7 @@ style:
   key_long_text_size: 12 #18 #長標籤字號
   key_text_size: 18 #20 #22 #24 #鍵字號
   key_width: 10.0 #鍵寬，佔屏幕寬的百分比
-  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfsimple, bpmfmobiledouble, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set] #鍵盤配置#, edit, move
+  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfmobiledouble, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set]  #, bpmfsimple  #鍵盤配置#, edit, move
   label_text_size: 0 #22 #標籤字號
   label_font: label.ttf #編標籤字體
   latin_font: latin.ttf #西文本體
@@ -1902,7 +1902,7 @@ preset_keys:
   Keyboard_bpm_ns: {label: ⌨, functional: false, send: Eisu_toggle, select: bpmfmobile_ns}
   Keyboard_42keys: {label: ⌨, functional: false, send: Eisu_toggle, select: 42keys}
   Keyboard_back: {label: ⏏ 返回, functional: false, send: Eisu_toggle, select: .last_lock}
-  K_sign: {click: "", label: "By L'Étranger Onion", functional: false}
+  K_sign: {click: "", label: "            By L'Étranger Onion  [Xia-M]", functional: false} #label: "By L'Étranger Onion
   Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
 #以下方向功能頁之功能鍵
   Keyboard_duse: {label: '<I>', functional: false, send: Eisu_toggle, select: duse}
@@ -2400,37 +2400,37 @@ preset_keyboards:
       keys/@6/hint: '7'
       keys/@43/hint: '            ␣   拉日韓'
 #####################
-  bpmfsimple:
-    name: 注音十二宮
-    author: "洋蔥"
-    width: 20
-    height: *jpgd6
-    key_press_offset_x: *offsetX1
-    key_press_offset_y: *offsetY1
-    ascii_mode: 0
-    reset_ascii_mode: true
-    lock: true
-    keys:
-      - {label: '：   ；', click: '：', swipe_right: '；', long_click: '「」{Left}{Keyboard_default}', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
-      - {label: 'ㄆ   ㄅ   ㄇ', hint: 'ㄈ', click: '1', swipe_left: 'q', swipe_right: 'a', swipe_down: 'z', symbol_text_size: 18, key_symbol_color: tkg}
-      - {label: 'ㄊ   ㄉ   ㄋ', hint: 'ㄌ', click: '2', swipe_left: 'w', swipe_right: 's', swipe_down: 'x', symbol_text_size: 18, key_symbol_color: tkg}
-      - {label: 'ㄎ   ㄍ   ㄏ', click: '3', swipe_left: 'd', swipe_right: 'c'}
-      - {hint: '123', click: Keyboard_bqrw, long_click: Keyboard_kao, composing: Tab_2, swipe_down: Keyboard_number, key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
-      - {label: '、   …', click: '、', swipe_right: '…', long_click: '（）{Left}{Keyboard_default}', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
-      - {label: 'ㄑ   ㄐ   ㄒ', click: '4', swipe_left: 'f', swipe_right: 'v'}
-      - {label: 'ㄔ   ㄓ   ㄕ', hint: 'ㄖ',click: '5', swipe_left: 't', swipe_right: 'g', swipe_down: 'b', symbol_text_size: 18, key_symbol_color: tkg}
-      - {label: 'ㄘ   ㄗ   ㄙ', click: '6', swipe_left: 'h', swipe_right: 'n'}
-      - {click: space, long_click: Menu, composing: "Escape", key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs, key_text_size: 11}
-      - {label: '!   ?', click: '！', swipe_right: '？', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
-      - {label: 'ㄛ   ㄚ   ㄜ', hint: 'ㄝ', click: '7', swipe_left: 'i', swipe_right: 'k', swipe_down: ',', symbol_text_size: 18, key_symbol_color: tkg}
-      - {label: 'ㄟ   ㄞ   ㄠ', hint: 'ㄡ', click: '8', swipe_left: 'o', swipe_right: 'l', swipe_down: '.', symbol_text_size: 18, key_symbol_color: tkg}
-      - {label: 'ㄣ   ㄢ   ㄤ', hint: 'ㄥ', click: '9', swipe_left: 'p', swipe_right: ';', swipe_down: '/', symbol_text_size: 18, key_symbol_color: tkg}
-      - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
-      - {label: '，   。', click: '，', swipe_right: '。', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
-      - {label: '˙   ㄦ   ˇ', click: '-', swipe_left: 'u', swipe_right: 'e'}
-      - {label: 'ㄨ   ㄧ   ㄩ', click: '0', swipe_left: 'j', swipe_right: 'm'}
-      - {label: 'ˊ    ˉ    ˋ', click: ' ', swipe_left: 'y', swipe_right: 'r'}
-      - {click: Return, key_text_size: "22", key_back_color: benter, key_text_color: tenter}
+  # bpmfsimple:
+  #   name: 注音十二宮
+  #   author: "洋蔥"
+  #   width: 20
+  #   height: *jpgd6
+  #   key_press_offset_x: *offsetX1
+  #   key_press_offset_y: *offsetY1
+  #   ascii_mode: 0
+  #   reset_ascii_mode: true
+  #   lock: true
+  #   keys:
+  #     - {label: '：   ；', click: '：', swipe_right: '；', long_click: '「」{Left}{Keyboard_default}', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
+  #     - {label: 'ㄆ   ㄅ   ㄇ', hint: 'ㄈ', click: '1', swipe_left: 'q', swipe_right: 'a', swipe_down: 'z', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {label: 'ㄊ   ㄉ   ㄋ', hint: 'ㄌ', click: '2', swipe_left: 'w', swipe_right: 's', swipe_down: 'x', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {label: 'ㄎ   ㄍ   ㄏ', click: '3', swipe_left: 'd', swipe_right: 'c'}
+  #     - {hint: '123', click: Keyboard_bqrw, long_click: Keyboard_kao, composing: Tab_2, swipe_down: Keyboard_number, key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
+  #     - {label: '、   …', click: '、', swipe_right: '…', long_click: '（）{Left}{Keyboard_default}', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
+  #     - {label: 'ㄑ   ㄐ   ㄒ', click: '4', swipe_left: 'f', swipe_right: 'v'}
+  #     - {label: 'ㄔ   ㄓ   ㄕ', hint: 'ㄖ',click: '5', swipe_left: 't', swipe_right: 'g', swipe_down: 'b', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {label: 'ㄘ   ㄗ   ㄙ', click: '6', swipe_left: 'h', swipe_right: 'n'}
+  #     - {click: space, long_click: Menu, composing: "Escape", key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs, key_text_size: 11}
+  #     - {label: '!   ?', click: '！', swipe_right: '？', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
+  #     - {label: 'ㄛ   ㄚ   ㄜ', hint: 'ㄝ', click: '7', swipe_left: 'i', swipe_right: 'k', swipe_down: ',', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {label: 'ㄟ   ㄞ   ㄠ', hint: 'ㄡ', click: '8', swipe_left: 'o', swipe_right: 'l', swipe_down: '.', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {label: 'ㄣ   ㄢ   ㄤ', hint: 'ㄥ', click: '9', swipe_left: 'p', swipe_right: ';', swipe_down: '/', symbol_text_size: 18, key_symbol_color: tkg}
+  #     - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
+  #     - {label: '，   。', click: '，', swipe_right: '。', key_back_color: bgn, key_text_color: tbs, key_symbol_color: tbs}
+  #     - {label: '˙   ㄦ   ˇ', click: '-', swipe_left: 'u', swipe_right: 'e'}
+  #     - {label: 'ㄨ   ㄧ   ㄩ', click: '0', swipe_left: 'j', swipe_right: 'm'}
+  #     - {label: 'ˊ    ˉ    ˋ', click: ' ', swipe_left: 'y', swipe_right: 'r'}
+  #     - {click: Return, key_text_size: "22", key_back_color: benter, key_text_color: tenter}
 ####################
 ####################
   bpmfmobiledouble:
