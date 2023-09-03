@@ -3469,7 +3469,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3544,7 +3544,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3619,7 +3619,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3694,7 +3694,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3769,7 +3769,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3843,7 +3843,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3885,7 +3885,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -3960,7 +3960,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4035,7 +4035,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4110,7 +4110,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4158,7 +4158,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4233,7 +4233,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4308,7 +4308,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4383,7 +4383,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4458,7 +4458,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4528,7 +4528,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4603,7 +4603,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4661,7 +4661,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4736,7 +4736,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4788,7 +4788,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4863,7 +4863,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -4938,7 +4938,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5013,7 +5013,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5088,7 +5088,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5163,7 +5163,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5238,7 +5238,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5289,7 +5289,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5364,7 +5364,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5439,7 +5439,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
@@ -5514,7 +5514,7 @@ preset_keyboards:
     height: *jpgd1
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    ascii_mode: 1 #0
+    ascii_mode: 0
     reset_ascii_mode: true
     keys:
     - {label: '^_^', key_text_size: 11, click: Keyboard_kao, width: 9, height: *jpgd5, key_back_color: bgn, key_text_color: tgn}
