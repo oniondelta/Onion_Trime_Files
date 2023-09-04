@@ -104,7 +104,7 @@ style:
   keyboard_padding_left: 0 #竪屏屏模式下，左手鍵盤佈局，屏幕左側與鍵盤的距離
   keyboard_padding_right: 0 #40 #竪屏屏模式下，左手鍵盤佈局，屏幕右側與鍵盤的距離
   keyboard_padding_bottom: 0 #竪屏模式下，屏幕下邊緣與鍵盤的距離（避免誤觸發全面屏手勢）
-  keyboard_padding_land: 0 #40 #橫屏模式下，屏幕左右兩側與鍵盤的距離（避免橫屏按鍵過度拉伸變形）
+  keyboard_padding_land: 55 #40 #50 #50與右側齊平 #橫屏模式下，屏幕左右兩側與鍵盤的距離（避免橫屏按鍵過度拉伸變形）
   keyboard_padding_land_bottom: 0 #橫屏模式下，屏幕下側與鍵盤的距離
   layout:
     position: fixed #候選窗口位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
