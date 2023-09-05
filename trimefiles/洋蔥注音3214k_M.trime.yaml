@@ -472,6 +472,7 @@ preset_color_schemes:
     hilited_back_color: 0xdddddd
     hilited_candidate_text_color: 0xffffff
     hilited_candidate_back_color: 0x000000
+    keyboard_back_color: 0xdddddd
 
   lost_temple:
     name: 孤寺／Lost Temple
@@ -591,6 +592,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xffffff
     hilited_candidate_back_color: 0x009fe8
+    keyboard_back_color: 0xffffff
 
   espagna:
     name: "埃斯巴尼亞／España"
@@ -777,6 +779,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xf6f6f6
     hilited_comment_text_color: 0xf6f6f6
     hilited_candidate_back_color: 0x6dbcdb
+    keyboard_back_color: 0x1778bf
 
   wii:
     name: "Wii"
@@ -819,6 +822,7 @@ preset_color_schemes:
     candidate_text_color: 0x009100
     hilited_candidate_text_color: 0x3A006F
     hilited_candidate_back_color: 0xACD6FF
+    keyboard_back_color: 0xFBFBFF
 
   google_plus:
     name: "Google+"
@@ -834,6 +838,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xffffff
     hilited_candidate_back_color: 0xdd4b39
+    keyboard_back_color: 0xffffff
 
   modern_warfare:
     name: "現代戰爭／Modern Warfare"
@@ -865,6 +870,7 @@ preset_color_schemes:
     candidate_text_color: 0x575757
     hilited_candidate_text_color: 0xdc3822
     hilited_candidate_back_color: 0xffffff
+    keyboard_back_color: 0xffffff
 
   starcraft_ii:
     name: "星際爭霸Ⅱ／StarCraft Ⅱ"
@@ -939,8 +945,10 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x730b6f
     candidate_text_color: 0x000000
     comment_text_color: 0x474747
+    keyboard_back_color: 0xe3e3e3
 
   yygc:
+    name: "一葉孤城"
     author: "小辛"
     back_color: 0xffffff
     border_color: 0xffffff
@@ -958,7 +966,6 @@ preset_color_schemes:
     hilited_text_color: 0x7f7f7f
     key_text_color: 0x7f7f7f
     label_color: 0x7f7f7f
-    name: "一葉孤城"
     off_key_text_color: 0x7f7f7f
     text_color: 0x7f7f7f
 
