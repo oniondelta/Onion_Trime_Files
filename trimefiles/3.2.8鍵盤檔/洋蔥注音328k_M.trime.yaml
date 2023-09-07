@@ -1244,11 +1244,11 @@ preset_keys:
 # 顯示 preview 出現ㄅㄆㄇㄈ和特殊鍵標示
   text_1: {label: '1', preview: 'ㄅ', text: '1', functional: false}
   text_2: {label: '2', preview: 'ㄉ', text: '2', functional: false}
-  text_3: {label: '3', preview: 'ˇ', text: '3', functional: false}
-  text_4: {label: '4', preview: 'ˋ', text: '4', functional: false}
+  text_3: {label: '3', preview: 'ˇ', send: '3', functional: false}
+  text_4: {label: '4', preview: 'ˋ', send: '4', functional: false}
   text_5: {label: '5', preview: 'ㄓ', text: '5', functional: false}
-  text_6: {label: '6', preview: 'ˊ', text: '6', functional: false}
-  text_7: {label: '7', preview: '˙', text: '7', functional: false}
+  text_6: {label: '6', preview: 'ˊ', send: '6', functional: false}
+  text_7: {label: '7', preview: '˙', send: '7', functional: false}
   text_8: {label: '8', preview: 'ㄚ', text: '8', functional: false}
   text_9: {label: '9', preview: 'ㄞ', text: '9', functional: false}
   text_0: {label: '0', preview: 'ㄢ', text: '0', functional: false}
