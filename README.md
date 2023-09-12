@@ -40,13 +40,13 @@
 
 - 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
 
+- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案（不一定更到最新）！
+
 ## sort_trime_file.py 使用方法
 
 - 本倉庫 Onion_Trime_Files 按右上綠色 〔↓Code〕 ⇨ Download ZIP ⇨ 解壓縮 ZIP 進入資料夾 ⇨ Python 執行 sort_trime_file.py ⇨ 產生『洋蔥手機同文方案_{當天日期}』資料夾
 
 - 『洋蔥手機同文方案_{當天日期}』，各個方案所需文件，分別放置於下層『方案名稱』資料夾。
-
-- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案（不一定更到最新）！
 
 - 選取欲使用方案，內含文件通通放入『 rime 』資料夾。裡面已有 opencc 資料夾，移動 opencc 裡面檔案到 opencc 資料夾內，沒有則整個 opencc 移過去 ，「重新部署」方可。
 
