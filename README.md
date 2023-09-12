@@ -46,7 +46,7 @@
 
 - 『洋蔥手機同文方案_{當天日期}』，各個方案所需文件，分別放置於下層『方案名稱』資料夾。
 
-- 「 Actions 」中，其 sort_output 裡面下方 artifact 有利用 GitHub 功能跑好 sort_trime_file.py 分類之檔案（不一定更到最新）！
+- 本倉庫 Actions 中，其 sort_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案（不一定更到最新）！
 
 - 選取欲使用方案，內含文件通通放入『 rime 』資料夾。裡面已有 opencc 資料夾，移動 opencc 裡面檔案到 opencc 資料夾內，沒有則整個 opencc 移過去 ，「重新部署」方可。
 
