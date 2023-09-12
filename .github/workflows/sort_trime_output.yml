@@ -1,4 +1,4 @@
-name: sort_output
+name: sort_trime_output
 
 on:
   workflow_dispatch:
@@ -41,7 +41,7 @@ jobs:
               cp -r $SOURCE $OUTPUT
           }
 
-          # create_zip "洋蔥手機同文方案*" "output_onion.zip"
+          # create_zip "洋蔥手機同文方案*" "洋蔥手機同文方案.zip"
           # copy "洋蔥手機同文方案*" "洋蔥同文注音純注音版*"
           copy_dir "洋蔥手機同文方案*"
 
