@@ -40,7 +40,7 @@
 
 - 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
 
-- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案（不一定更到最新）！
+- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案！（不一定更到最新，需登錄 GitHub 帳號）
 
 ## sort_trime_file.py 使用方法
 
