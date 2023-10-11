@@ -148,7 +148,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202309"
+version: "202310"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -2191,6 +2191,9 @@ min_phrase_weight: 100
 哋	die4	0%
 嚟	li2
 鄜	lu4	0%
+滎	ying1	0%
+荥	ying2	1%
+荥	ying1	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -112931,4 +112934,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112934 #####
+##### @結束 END - 112937 #####
