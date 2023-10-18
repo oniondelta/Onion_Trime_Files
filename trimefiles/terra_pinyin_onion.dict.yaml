@@ -2194,6 +2194,9 @@ min_phrase_weight: 100
 滎	ying1	0%
 荥	ying2	1%
 荥	ying1	0%
+㐌	yi2
+㐌	se4	1%
+㐌	si4	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -6609,7 +6612,7 @@ min_phrase_weight: 100
 㐄	kua4
 㐅	wu3
 㐆	yin3
-㐌	ta1
+# 㐌	ta1
 㐖	ye4
 㐜	chou2
 㐡	nuo4
@@ -112935,4 +112938,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112938 #####
+##### @結束 END - 112941 #####
