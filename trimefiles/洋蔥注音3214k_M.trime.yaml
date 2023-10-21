@@ -1253,47 +1253,47 @@ preset_keys:
   OCM_BPMF: {label: 0, text: "{B}"}
 #####################
 # 顯示 preview 出現ㄅㄆㄇㄈ和特殊鍵標示
-  text_1: {label: '1', preview: 'ㄅ', text: '1', functional: false}
-  text_2: {label: '2', preview: 'ㄉ', text: '2', functional: false}
+  text_1: {label: '1', preview: 'ㄅ', send: '1', functional: false}
+  text_2: {label: '2', preview: 'ㄉ', send: '2', functional: false}
   text_3: {label: '3', preview: 'ˇ', send: '3', functional: false}
   text_4: {label: '4', preview: 'ˋ', send: '4', functional: false}
-  text_5: {label: '5', preview: 'ㄓ', text: '5', functional: false}
+  text_5: {label: '5', preview: 'ㄓ', send: '5', functional: false}
   text_6: {label: '6', preview: 'ˊ', send: '6', functional: false}
   text_7: {label: '7', preview: '˙', send: '7', functional: false}
-  text_8: {label: '8', preview: 'ㄚ', text: '8', functional: false}
-  text_9: {label: '9', preview: 'ㄞ', text: '9', functional: false}
-  text_0: {label: '0', preview: 'ㄢ', text: '0', functional: false}
-  text_q: {label: 'q', preview: 'ㄆ', text: 'q', functional: false}
-  text_w: {label: 'w', preview: 'ㄊ', text: 'w', functional: false}
-  text_e: {label: 'e', preview: 'ㄍ', text: 'e', functional: false}
-  text_r: {label: 'r', preview: 'ㄐ', text: 'r', functional: false}
-  text_t: {label: 't', preview: 'ㄔ', text: 't', functional: false}
-  text_y: {label: 'y', preview: 'ㄗ', text: 'y', functional: false}
-  text_u: {label: 'u', preview: 'ㄧ', text: 'u', functional: false}
-  text_i: {label: 'i', preview: 'ㄛ', text: 'i', functional: false}
-  text_o: {label: 'o', preview: 'ㄟ', text: 'o', functional: false}
-  text_p: {label: 'p', preview: 'ㄣ', text: 'p', functional: false}
-  text_a: {label: 'a', preview: 'ㄇ', text: 'a', functional: false}
-  text_s: {label: 's', preview: 'ㄋ', text: 's', functional: false}
-  text_d: {label: 'd', preview: 'ㄎ', text: 'd', functional: false}
-  text_f: {label: 'f', preview: 'ㄑ', text: 'f', functional: false}
-  text_g: {label: 'g', preview: 'ㄕ', text: 'g', functional: false}
-  text_h: {label: 'h', preview: 'ㄘ', text: 'h', functional: false}
-  text_j: {label: 'j', preview: 'ㄨ', text: 'j', functional: false}
-  text_k: {label: 'k', preview: 'ㄜ', text: 'k', functional: false}
-  text_l: {label: 'l', preview: 'ㄠ', text: 'l', functional: false}
-  text_ang: {label: ';', preview: 'ㄤ', text: ';', functional: false}
-  text_z: {label: 'z', preview: 'ㄈ', text: 'z', functional: false}
-  text_x: {label: 'x', preview: 'ㄌ', text: 'x', functional: false}
-  text_c: {label: 'c', preview: 'ㄏ', text: 'c', functional: false}
-  text_v: {label: 'v', preview: 'ㄒ', text: 'v', functional: false}
-  text_b: {label: 'b', preview: 'ㄖ', text: 'b', functional: false}
-  text_n: {label: 'n', preview: 'ㄙ', text: 'n', functional: false}
-  text_m: {label: 'm', preview: 'ㄩ', text: 'm', functional: false}
-  text_ie: {label: ',', preview: 'ㄝ', text: ',', functional: false}
-  text_ou: {label: '.', preview: 'ㄡ', text: '.', functional: false}
-  text_eng: {label: '/', preview: 'ㄥ', text: '/', functional: false}
-  text_er: {label: '-', preview: 'ㄦ', text: '-', functional: false}
+  text_8: {label: '8', preview: 'ㄚ', send: '8', functional: false}
+  text_9: {label: '9', preview: 'ㄞ', send: '9', functional: false}
+  text_0: {label: '0', preview: 'ㄢ', send: '0', functional: false}
+  text_q: {label: 'q', preview: 'ㄆ', send: 'q', functional: false}
+  text_w: {label: 'w', preview: 'ㄊ', send: 'w', functional: false}
+  text_e: {label: 'e', preview: 'ㄍ', send: 'e', functional: false}
+  text_r: {label: 'r', preview: 'ㄐ', send: 'r', functional: false}
+  text_t: {label: 't', preview: 'ㄔ', send: 't', functional: false}
+  text_y: {label: 'y', preview: 'ㄗ', send: 'y', functional: false}
+  text_u: {label: 'u', preview: 'ㄧ', send: 'u', functional: false}
+  text_i: {label: 'i', preview: 'ㄛ', send: 'i', functional: false}
+  text_o: {label: 'o', preview: 'ㄟ', send: 'o', functional: false}
+  text_p: {label: 'p', preview: 'ㄣ', send: 'p', functional: false}
+  text_a: {label: 'a', preview: 'ㄇ', send: 'a', functional: false}
+  text_s: {label: 's', preview: 'ㄋ', send: 's', functional: false}
+  text_d: {label: 'd', preview: 'ㄎ', send: 'd', functional: false}
+  text_f: {label: 'f', preview: 'ㄑ', send: 'f', functional: false}
+  text_g: {label: 'g', preview: 'ㄕ', send: 'g', functional: false}
+  text_h: {label: 'h', preview: 'ㄘ', send: 'h', functional: false}
+  text_j: {label: 'j', preview: 'ㄨ', send: 'j', functional: false}
+  text_k: {label: 'k', preview: 'ㄜ', send: 'k', functional: false}
+  text_l: {label: 'l', preview: 'ㄠ', send: 'l', functional: false}
+  text_ang: {label: ';', preview: 'ㄤ', send: ';', functional: false}
+  text_z: {label: 'z', preview: 'ㄈ', send: 'z', functional: false}
+  text_x: {label: 'x', preview: 'ㄌ', send: 'x', functional: false}
+  text_c: {label: 'c', preview: 'ㄏ', send: 'c', functional: false}
+  text_v: {label: 'v', preview: 'ㄒ', send: 'v', functional: false}
+  text_b: {label: 'b', preview: 'ㄖ', send: 'b', functional: false}
+  text_n: {label: 'n', preview: 'ㄙ', send: 'n', functional: false}
+  text_m: {label: 'm', preview: 'ㄩ', send: 'm', functional: false}
+  text_ie: {label: ',', preview: 'ㄝ', send: ',', functional: false}
+  text_ou: {label: '.', preview: 'ㄡ', send: '.', functional: false}
+  text_eng: {label: '/', preview: 'ㄥ', send: '/', functional: false}
+  text_er: {label: '-', preview: 'ㄦ', send: '-', functional: false}
 
   text_m3: {label: '     "  ⓜ', preview: '"', text: '"', functional: false}
   text_eq: {label: '     。   =', preview: '。', text: '=', functional: false}
