@@ -2197,6 +2197,7 @@ min_phrase_weight: 100
 㐌	yi2
 㐌	se4	1%
 㐌	si4	0%
+轉	zhuai3	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -69598,6 +69599,7 @@ min_phrase_weight: 100
 如虎得翼	ru2 hu3 de2 yi4
 如蠅逐臭	ru2 ying2 zhu2 chou4
 如衣繡夜行	ru2 yi4 xiu4 ye4 xing2
+如衣繡夜行	ru2 yi1 xiu4 ye4 xing2
 如解倒懸	ru2 jie3 dao4 xuan2
 如蹈水火	ru2 dao4 shui3 huo3
 如蹈湯火	ru2 dao4 tang1 huo3
@@ -90822,6 +90824,7 @@ min_phrase_weight: 100
 白旄	bai2 mao2
 白旄黃鉞	bai2 mao2 huang2 yue4
 白日衣繡	bai2 ri4 yi4 xiu4
+白日衣繡	bai2 ri4 yi1 xiu4
 白日間	bai2 ri4 jian1
 白晃晃	bai2 huang3 huang3
 白曉燕	bai2 xiao3 yan4
@@ -101307,7 +101310,9 @@ min_phrase_weight: 100
 衣紫腰黃	yi4 zi3 yao1 huang2
 衣紫腰黃	yi1 zi3 yao1 huang2
 衣繡夜行	yi4 xiu4 ye4 xing2
+衣繡夜行	yi1 xiu4 ye4 xing2
 衣繡晝行	yi4 xiu4 zhou4 xing2
+衣繡晝行	yi1 xiu4 zhou4 xing2
 衣缽相傳	yi1 bo1 xiang1 chuan2
 衣缽真傳	yi1 bo1 zhen1 chuan2
 衣被	yi1 bei4
@@ -112938,4 +112943,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112941 #####
+##### @結束 END - 112946 #####
