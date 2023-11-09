@@ -59292,7 +59292,7 @@ min_phrase_weight: 100
 側重	ce4 zhong4
 偵伺	zhen1 si4
 偵查終結	zhen1 cha2 zhong1 jie2
-偵緝	zhen1 ji1
+# 偵緝	zhen1 ji1
 偵緝	zhen1 qi4
 偵緝隊	zhen1 qi4 dui4
 偵騎	zhen1 ji4
@@ -82842,7 +82842,7 @@ min_phrase_weight: 100
 查看	cha2 kan4
 查究	cha2 jiu4
 查究	cha2 jiu1
-查緝	cha2 ji1
+# 查緝	cha2 ji1
 查緝	cha2 qi4
 查處	cha2 chu3
 查裹	zha1 guo3
@@ -95707,25 +95707,27 @@ min_phrase_weight: 100
 緝事	qi4 shi4
 緝兇	qi4 xiong1
 緝屨	qi4 ju4
-緝拿	ji1 na2
+# 緝拿	ji1 na2
 緝拿	qi4 na2
 緝捉	qi4 zhuo1
-緝捕	ji1 bu3
+# 緝捕	ji1 bu3
 緝捕	qi4 bu3
-緝查	ji1 cha2
+# 緝查	ji1 cha2
+緝查	qi4 cha2
 緝毒	qi4 du2
-緝毒	ji1 du2
-緝毒犬	ji1 du2 quan3
+# 緝毒	ji1 du2
+# 緝毒犬	ji1 du2 quan3
+緝毒犬	qi4 du2 quan3
 緝熙	qi4 xi1
-緝獲	ji1 huo4
+# 緝獲	ji1 huo4
 緝獲	qi4 huo4
 緝理	qi4 li3
-緝私	ji1 si1
+# 緝私	ji1 si1
 緝私	qi4 si1
 緝穆	qi4 mu4
 緝緝	qi4 qi4
 緝聽	qi4 ting1
-緝訪	ji1 fang3
+# 緝訪	ji1 fang3
 緝訪	qi4 fang3
 緞子	duan4 zi5
 締創	di4 chuang4
@@ -105434,7 +105436,7 @@ min_phrase_weight: 100
 追歡取樂	zhui1 huan1 qu3 le4
 追究	zhui1 jiu4
 追究	zhui1 jiu1
-追緝	zhui1 ji1
+# 追緝	zhui1 ji1
 追緝	zhui1 qi4
 追蹤調查	zhui1 zong1 diao4 cha2
 追蹤躡跡	zhui1 zong1 nie4 ji1
@@ -105589,11 +105591,11 @@ min_phrase_weight: 100
 通用串行總線	tong1 yong4 chuan4 xing2 zong3 xian4
 通眉長爪	tong1 mei2 chang2 zhua3
 通稱	tong1 cheng1
-通緝	tong1 ji1
+# 通緝	tong1 ji1
 通緝	tong1 qi4
 通緝令	tong1 qi4 ling4
 通緝犯	tong1 qi4 fan4
-通緝犯	tong1 ji1 fan4
+# 通緝犯	tong1 ji1 fan4
 通脹率	tong1 zhang4 lv4
 通行	tong1 xing2
 通行本	tong1 xing2 ben3
@@ -112947,4 +112949,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112950 #####
+##### @結束 END - 112952 #####
