@@ -41,8 +41,14 @@ jobs:
               cp -r $SOURCE $OUTPUT
           }
 
+          function remove_dir() {
+              SOURCE=`find ${FOLDER} -name "$1" -type d`
+              rm -r $SOURCE
+          }
+
           # create_zip "洋蔥手機同文方案*" "洋蔥手機同文方案.zip"
           # copy "洋蔥手機同文方案*" "洋蔥同文注音純注音版*"
+          remove_dir "洋蔥手機蝦_20*"
           copy_dir "洋蔥手機同文方案*"
 
       - name: Upload artifacts
