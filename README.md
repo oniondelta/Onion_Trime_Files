@@ -34,13 +34,11 @@
 
 - 主方案：三個注音、一個注音雙拼、二個形碼。
 
-- 二個形碼方案已刪除碼表內容，無法使用！
-
 - 為易更新，不用同一檔案更新數次，trimefiles 裡文件不以方案區分。
 
 - 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
 
-- 本倉庫 Releases 中，有分類好之檔案。（不一定更到最新，無形碼方案）
+- 本倉庫 Releases 中，有分類好之檔案。（不一定更到最新）
 
 - 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案！（不一定更到最新，需登錄 GitHub 帳號）
 
