@@ -3,7 +3,7 @@
 ####  ※ 請勿使用於商業營利相關行為
 ####  ※ Commercial use is prohibited
 
-## 先導
+## 先導注意
 
 - 先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊重型方案。
 
