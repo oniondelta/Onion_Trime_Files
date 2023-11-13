@@ -67677,6 +67677,8 @@ min_phrase_weight: 100
 場內	chang3 nei4
 場區應急	chang3 qu1 ying1 ji2
 場區應急	chang2 qu1 ying1 ji2	3%
+場區應急	chang3 qu1 ying4 ji2
+場區應急	chang2 qu1 ying4 ji2	3%
 場圃	chang2 pu3	3%
 場圃	chang3 pu3
 場地	chang2 di4	3%
@@ -67687,6 +67689,8 @@ min_phrase_weight: 100
 場外交易	chang3 wai4 jiao1 yi4
 場外應急	chang3 wai4 ying1 ji2
 場外應急	chang2 wai4 ying1 ji2	3%
+場外應急	chang3 wai4 ying4 ji2
+場外應急	chang2 wai4 ying4 ji2	3%
 場子	chang3 zi5
 場子	chang2 zi5	3%
 場屋	chang2 wu1	3%
@@ -75591,22 +75595,30 @@ min_phrase_weight: 100
 應弦飲羽	ying4 xian2 yin3 yu3
 應得	ying1 de2
 應從	ying4 cong2
+應從	ying1 cong2
 應徵	ying4 zheng1
 應徵信	ying4 zheng1 xin4
 應急	ying4 ji2
 應急出口	ying4 ji2 chu1 kou3
 應急待命	ying1 ji2 dai4 ming4
+應急待命	ying4 ji2 dai4 ming4
 應急措施	ying4 ji2 cuo4 shi1
 應急照射	ying1 ji2 zhao4 she4
+應急照射	ying4 ji2 zhao4 she4
 應急狀態	ying1 ji2 zhuang4 tai4
 應急狀態	ying4 ji2 zhuang4 tai4
 應感	ying4 gan3
+應感	ying1 gan3
 應戰	ying4 zhan4
+應戰	ying1 zhan4
 應手	ying4 shou3
 應承	ying4 cheng2
+應承	ying1 cheng2
 應捕	ying4 bu3
+應捕	ying1 bu3
 應採兒	ying1 cai3 er2
 應接	ying4 jie1
+應接	ying1 jie1
 應接不暇	ying4 jie1 bu4 xia2
 應接如響	ying4 jie1 ru2 xiang3
 應援	ying4 yuan2
@@ -75616,6 +75628,7 @@ min_phrase_weight: 100
 應敵	ying4 di2
 應昂	ying4 ang2
 應時	ying4 shi2
+應戰	ying1 zhan4
 應時當令	ying4 shi2 dang1 ling4
 應時當令	ying1 shi2 dang1 ling4
 應時而生	ying4 shi2 er2 sheng1
@@ -75623,11 +75636,14 @@ min_phrase_weight: 100
 應景兒	ying4 jing3 er5	80%
 應景兒	ying4 jing3 er2
 應有	ying1 you3
+應有	ying4 you3
 應有盡有	ying1 you3 jin4 you3
+應有盡有	ying4 you3 jin4 you3
 應機權變	ying4 ji1 quan2 bian4
 應機立斷	ying4 ji1 li4 duan4
 應權通變	ying4 quan2 tong1 bian4
 應激性	ying1 ji1 xing4
+應激性	ying4 ji1 xing4
 應物	ying4 wu4
 應物斯感	ying4 wu4 si1 gan3
 應物現形	ying4 wu4 xian4 xing2
@@ -75648,6 +75664,7 @@ min_phrase_weight: 100
 應用軟件	ying4 yong4 ruan3 jian4
 應用軟體	ying4 yong4 ruan3 ti3
 應當	ying1 dang1
+應當	ying4 dang1
 應笑北溟鯤	ying1 xiao4 bei3 ming2 kun1
 應答	ying4 da2
 應答如流	ying4 da2 ru2 liu2
@@ -75658,6 +75675,7 @@ min_phrase_weight: 100
 應縣木塔	ying4 xian4 mu4 ta3
 應繼分	ying1 ji4 fen4
 應考	ying4 kao3
+應考	ying1 kao3
 應聘	ying4 pin4
 應聘者	ying4 pin4 zhe3
 應聲	ying4 sheng1
@@ -112952,4 +112970,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112955 #####
+##### @結束 END - 112973 #####
