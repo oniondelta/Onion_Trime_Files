@@ -75534,7 +75534,9 @@ min_phrase_weight: 100
 應付	ying1 fu4
 應付	ying4 fu4
 應付帳款	ying1 fu4 zhang4 kuan3
+應付帳款	ying4 fu4 zhang4 kuan3
 應付票據	ying1 fu4 piao4 ju4
+應付票據	ying4 fu4 piao4 ju4
 應付自如	ying4 fu4 zi4 ru2
 應付裕如	ying4 fu4 yu4 ru2
 應允	ying4 yun3
@@ -75597,6 +75599,7 @@ min_phrase_weight: 100
 應急措施	ying4 ji2 cuo4 shi1
 應急照射	ying1 ji2 zhao4 she4
 應急狀態	ying1 ji2 zhuang4 tai4
+應急狀態	ying4 ji2 zhuang4 tai4
 應感	ying4 gan3
 應戰	ying4 zhan4
 應手	ying4 shou3
@@ -112949,4 +112952,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112952 #####
+##### @結束 END - 112955 #####
