@@ -148,7 +148,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202311"
+version: "202312"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -2202,6 +2202,7 @@ min_phrase_weight: 100
 裥	jian4	1%
 啉	lan2	0%
 啉	lin4	0%
+揗	xun2	10%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -64390,6 +64391,7 @@ min_phrase_weight: 100
 吊扇	diao4 shan4
 吊拷絣把	diao4 kao3 beng1 ba3
 吊拷繃扒	diao4 kao3 beng1 ba1
+吊拷繃扒	diao4 kao3 beng1 pa2
 吊桶落在井裡	diao4 tong3 luo4 zai4 jing3 li3
 吊槓	diao4 gang4
 吊著鍋子底	diao4 zhe5 guo1 zi5 di3
@@ -71394,6 +71396,7 @@ min_phrase_weight: 100
 小意思	xiao3 yi4 si1
 小意思	xiao3 yi4 si4
 小扒頭	xiao3 pa2 tou5
+小扒頭	xiao3 ba1 tou5
 小拇指	xiao3 mu3 zhi3
 小插曲	xiao3 cha1 qu3
 小攤兒	xiao3 tan1 er5	80%
@@ -73382,6 +73385,7 @@ min_phrase_weight: 100
 弔場	diao4 chang2	3%
 弔場	diao4 chang3
 弔拷繃扒	diao4 kao3 beng1 ba1
+弔拷繃扒	diao4 kao3 beng1 pa2
 弔撒	diao4 sa1
 弔民伐罪	diao4 min2 fa1 zui4
 弔民伐罪	diao4 min2 fa2 zui4
@@ -76059,6 +76063,7 @@ min_phrase_weight: 100
 手心手背都是肉	shou3 xin1 shou3 bei4 dou1 shi4 rou4
 手心裡	shou3 xin1 li3
 手扒雞	shou3 pa2 ji1
+手扒雞	shou3 ba1 ji1
 手扳葫蘆	shou3 ban1 hu2 lu2
 手把子	shou3 ba3 zi5
 手拉葫蘆	shou3 la1 hu2 lu2
@@ -76168,8 +76173,10 @@ min_phrase_weight: 100
 扑打	pu1 da3
 扑撻	pu1 ta4
 扒上	pa2 shang4
+扒上	ba1 shang4
 扒城	pa2 cheng2
 扒山越嶺	pa2 shan1 yue4 ling3
+扒山越嶺	ba1 shan1 yue4 ling3
 扒得高跌得重	ba1 de5 gao1 die2 de5 zhong4
 扒房	ba1 fang2
 扒手	pa2 shou3
@@ -76177,26 +76184,37 @@ min_phrase_weight: 100
 扒拉	pa2 la1
 扒拉大山	ba1 la1 da4 shan1
 扒推	pa2 tui1
+扒推	ba1 tui1
 扒摟	ba1 lou1
+扒摟	pa2 lou1
 扒沙	pa2 sha1
+扒沙	ba1 sha1
 扒灰	pa2 hui1
+扒灰	ba1 hui1
 扒犁	pa2 li2
+扒犁	ba1 li2
 扒皮	ba1 pi2
 扒竊	pa2 qie4
 扒糕	pa2 gao1
+扒糕	ba1 gao1
 扒糞	ba1 fen4
 扒糞	pa2 fen4
 扒糞的	pa2 fen4 de5
+扒糞的	ba1 fen4 de5
 扒街淘空	pa2 jie1 tao2 kong1
+扒街淘空	ba1 jie1 tao2 kong1
 扒車	ba1 che1
 扒釘	ba1 ding1
+扒釘	pa2 ding1
 扒開	ba1 kai1
 扒開	pa2 kai1
 扒頭兒	ba1 tou5 er5	80%
 扒頭兒	ba1 tou5 er2
 扒頭探腦	ba1 tou2 tan4 nao3
 扒飯	pa2 fan4
+扒飯	ba1 fan4
 扒高踩低	pa2 gao1 cai3 di1
+扒高踩低	ba1 gao1 cai3 di1
 扒魯	ba1 lu3
 打一個吞	da3 yi2 ge5 tun1
 打一個吞	da3 yi1 ge5 tun1
@@ -77422,6 +77440,7 @@ min_phrase_weight: 100
 拼刺	pin1 ci4
 拼刺刀	pin1 ci4 dao1
 拼扒	pin1 pa2
+拼扒	pin1 ba1
 拼攢	pin1 cuan2
 拼綴	pin1 zhui4
 拼花地板	pin1 hua1 di4 ban3
@@ -78142,7 +78161,9 @@ min_phrase_weight: 100
 掣襟肘見	che4 jin1 zhou3 xian4
 掣襟露肘	che4 jin1 lu4 zhou3
 掤扒	bing1 ba1
+掤扒	bing1 pa2
 掤扒吊栲	bing1 ba1 diao4 kao3
+掤扒吊栲	bing1 pa2 diao4 kao3
 接口模塊	jie1 kou3 mo2 kuai4
 接合菌綱	jie1 he2 jun1 gang1
 接地	jie1 di4
@@ -78357,6 +78378,7 @@ min_phrase_weight: 100
 揩油	kai1 you2
 揪尾巴	jiu1 wei3 ba1
 揪心扒肝	jiu1 xin1 ba1 gan1
+揪心扒肝	jiu1 xin1 pa2 gan1
 揪捽	jiu1 zu2
 揪撏	jiu1 xun2
 揪腸子	jiu1 chang2 zi5
@@ -78602,6 +78624,7 @@ min_phrase_weight: 100
 摳字眼兒	kou1 zi4 yan3 er2
 摳心挖肚	kou1 xin1 wa1 du4
 摳扒	kou1 pa2
+摳扒	kou1 ba1
 摳搜	kou1 sou1
 摳摟	kou1 lou3
 摳摳索索	kou1 kou1 suo3 suo3
@@ -79550,6 +79573,7 @@ min_phrase_weight: 100
 攪混	jiao3 hun4
 攪肚蛆腸	jiao3 du4 qu1 chang2
 攪蛆扒	jiao3 qu1 pa2
+攪蛆扒	jiao3 qu1 ba1
 攬載	lan3 zai4
 攬轡澄清	lan3 pei4 cheng2 qing1
 攮子	nang3 zi5
@@ -88144,9 +88168,11 @@ min_phrase_weight: 100
 煎炸食品	jian1 zha2 shi2 pin3
 煎熬	jian1 ao2
 煎牛扒	jian1 niu2 ba1
+煎牛扒	jian1 niu2 pa2
 煎聒	jian1 gua1
 煎蛋卷	jian1 dan4 juan3
 煎豬扒	jian1 zhu1 ba1
+煎豬扒	jian1 zhu1 pa2
 煎餅	jian1 bing3
 煖和	nuan3 he2
 煖和	nuan3 huo5
@@ -92730,6 +92756,7 @@ min_phrase_weight: 100
 碟式相機	die2 shi4 xiang4 ji1
 碟影片	die2 ying3 pian4
 碟煞	die2 sha1
+碟煞	die2 sha4
 碟片	die2 pian4
 碧澄澄	bi4 cheng2 cheng2
 碧眼金髮	bi4 yan3 jin1 fa3
@@ -95974,10 +96001,15 @@ min_phrase_weight: 100
 繃帶	beng1 dai4
 繃弓	beng1 gong1
 繃扒	beng1 ba1
+繃扒	beng1 pa2
 繃扒吊拷	beng1 ba1 diao4 kao3
-繃扒吊拷	beng4 pa2 diao4 kao3
+繃扒吊拷	beng1 pa2 diao4 kao3
 繃扒吊拷	beng4 ba1 diao4 kao3
+繃扒吊拷	beng4 pa2 diao4 kao3
 繃扒弔拷	beng1 ba1 diao4 kao3
+繃扒弔拷	beng1 pa2 diao4 kao3
+繃扒弔拷	beng4 ba1 diao4 kao3
+繃扒弔拷	beng4 pa2 diao4 kao3
 繃拽	beng1 zhuai4
 繃接	beng1 jie1
 繃爬吊拷	beng1 pa2 diao4 kao3
@@ -103069,7 +103101,7 @@ min_phrase_weight: 100
 謬識	miu4 shi4
 謹言慎行	jin3 yan2 shen4 xing2
 謹防扒手	jin3 fang2 pa2 shou3
-謹防扒手	jin3 fang2 ba1 shou3
+# 謹防扒手	jin3 fang2 ba1 shou3
 謻台	yi2 tai2
 謻臺	yi2 tai2
 謻門	yi2 men2
@@ -112970,4 +113002,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 112973 #####
+##### @結束 END - 113005 #####
