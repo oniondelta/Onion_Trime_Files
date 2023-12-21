@@ -4,7 +4,7 @@
 # 201707把前面有「,」的打井字號！
 ---
 name: uniabcdword
-version: "202306"
+version: "202312"
 sort: original
 use_preset_vocabulary: false
 #max_phrase_length: 7
