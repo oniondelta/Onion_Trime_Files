@@ -148,7 +148,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202401"
+version: "202402"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -60786,6 +60786,7 @@ min_phrase_weight: 100
 凱旋	kai3 xuan2
 凱旋門	kai3 xuan2 men2
 凱樂	kai3 yue4
+凱樂	kai3 le4
 凳子	deng4 zi5
 凶地	xiong1 di4
 凶多吉少	xiong1 duo1 ji2 shao3
@@ -113010,4 +113011,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113013 #####
+##### @結束 END - 113014 #####
