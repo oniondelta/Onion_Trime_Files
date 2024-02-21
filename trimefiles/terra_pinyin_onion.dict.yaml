@@ -107966,6 +107966,7 @@ min_phrase_weight: 100
 長上	zhang3 shang4
 長世	chang2 shi4
 長久	chang2 jiu3
+長久	zhang3 jiu3
 長久之計	chang2 jiu3 zhi1 ji4
 長亭	chang2 ting2
 長亭短亭	chang2 ting2 duan3 ting2
@@ -108006,6 +108007,7 @@ min_phrase_weight: 100
 長噸	chang2 dun4
 長圍	chang2 wei2
 長圓	chang2 yuan2
+長圓	zhang3 yuan2
 長坂	chang2 ban3
 長坂坡	chang2 ban3 po1
 長垣	chang2 yuan2
@@ -108189,6 +108191,7 @@ min_phrase_weight: 100
 長治縣	chang2 zhi4 xian4
 長治鄉	chang2 zhi4 xiang1
 長法	chang2 fa3
+長法	zhang3 fa3
 長波	chang2 bo1
 長波	chang2 po1
 長泰	chang2 tai4
@@ -108209,6 +108212,7 @@ min_phrase_weight: 100
 長焦距鏡頭	chang2 jiao1 ju4 jing4 tou2
 長煙	chang2 yan1
 長牙	chang2 ya2
+長牙	zhang3 ya2
 長物	chang2 wu4
 長物	zhang4 wu4
 長班	chang2 ban1
@@ -108226,6 +108230,7 @@ min_phrase_weight: 100
 長痛不如短痛	chang2 tong4 bu4 ru2 duan3 tong4
 長發	chang2 fa1
 長白	chang2 bai2
+長白	zhang3 bai2
 長白山	chang2 bai2 shan1
 長白山天池	chang2 bai2 shan1 tian1 chi2
 長白朝鮮族自治縣	chang2 bai2 chao2 xian1 zu2 zi4 zhi4 xian4
@@ -108262,6 +108267,7 @@ min_phrase_weight: 100
 長篇闊論	chang2 pian1 kuo4 lun4
 長籼	chang2 xian1
 長紅	chang2 hong2
+長紅	zhang3 hong2
 長統襪	chang2 tong3 wa4
 長統靴	chang2 tong3 xue1
 長線	chang2 xian4
@@ -108278,11 +108284,13 @@ min_phrase_weight: 100
 長耳鴞	chang2 er3 xiao1
 長脾氣	zhang3 pi2 qi4
 長腰	chang2 yao1
+長腰	zhang3 yao1
 長腳蜂	chang2 jiao3 feng1
 長臂猿	chang2 bi4 yuan2
 長臂猿	chang2 bei4 yuan2
 長臂蝦	chang2 bi4 xia1
 長至	chang2 zhi4
+長至	zhang3 zhi4
 長興	chang2 xing1
 長興縣	chang2 xing1 xian4
 長舌	chang2 she2
@@ -108392,10 +108400,12 @@ min_phrase_weight: 100
 長骨	chang2 gu3
 長骨	zhang3 gu3
 長髮	chang2 fa3
+長髮	zhang3 fa3
 長鬣	chang2 lie4
 長鯨	chang2 jing1
 長鳴	chang2 ming2
 長黑	chang2 hei1
+長黑	zhang3 hei1
 長點心眼	zhang3 dian3 xin1 yan3
 長鼓	chang2 gu3
 長鼻目	chang2 bi2 mu4
@@ -113019,4 +113029,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113022 #####
+##### @結束 END - 113032 #####
