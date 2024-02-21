@@ -2210,6 +2210,13 @@ min_phrase_weight: 100
 俸	beng3	0%
 𣓌	jiu4	0%
 桕	gao1	0%
+骀	tai2
+駘	zhai4	0%
+骀	zhai4	0%
+駘	tai1	0%
+骀	tai1	0%
+絫	lei4	0%
+絫	lei2	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -108383,6 +108390,7 @@ min_phrase_weight: 100
 長驅直入	chang2 qu1 zhi2 ru4
 長驅而入	chang2 qu1 er2 ru4
 長骨	chang2 gu3
+長骨	zhang3 gu3
 長髮	chang2 fa3
 長鬣	chang2 lie4
 長鯨	chang2 jing1
@@ -113011,4 +113019,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113014 #####
+##### @結束 END - 113022 #####
