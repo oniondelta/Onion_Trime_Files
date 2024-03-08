@@ -7,7 +7,7 @@
 # 本詞庫刪除純「假名」之詞彙。純「假名」詞庫為「phrases.jp_hk」。
 ---
 name: phrases.jp_hkkreduce
-version: "202304"
+version: "202403"
 sort: by_weight #original
 use_preset_vocabulary: false
 columns:
@@ -8768,7 +8768,6 @@ columns:
 翼状
 翼賛
 老体
-老侯
 老嬢
 老実
 老廃
@@ -13704,7 +13703,6 @@ columns:
 百花繚乱
 盂蘭盆会
 直情径行
-真言秘密
 知能指数
 短期大学
 破邪顕正
