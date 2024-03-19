@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "202311"
+version: "202403"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -328,6 +328,8 @@ min_phrase_weight: 100
 娃	wa5	50%
 嬤	ma5	0%
 嬷	ma5	0%
+嬤	mo5	0%
+嬷	mo5	0%
 太	tai5	0%
 ### @補充一般可理解為《輕聲》之發音，『非正確發音』！！！ ###
 # 嗯	eng5	3% #已有「ㄥ˙」輸入「‧」間隔號

@@ -2226,6 +2226,7 @@ min_phrase_weight: 100
 贞	zheng1	0%
 閬	liang3	0%
 阆	liang3	0%
+道	dao3	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -55085,6 +55086,7 @@ min_phrase_weight: 100
 三場	san1 chang3
 三夷教	san1 yi2 jiao4
 三夾板	san1 jia2 ban3
+三夾板	san1 jia1 ban3
 三娘教子	san1 niang2 jiao4 zi3
 三小子	san1 xiao3 zi5
 三差五錯	san1 cha1 wu3 cuo4
@@ -57001,6 +57003,7 @@ min_phrase_weight: 100
 二地主	er4 di4 zhu3
 二堂舍子	er4 tang2 she3 zi3
 二夾脖子	er4 jia2 bo2 zi5
+二夾脖子	er4 jia1 bo2 zi5
 二姑娘頑老雕	er4 gu1 niang2 wan2 lao3 diao1
 二娘子	er4 niang2 zi5
 二娘子	er4 niang2 zi3
@@ -60122,6 +60125,7 @@ min_phrase_weight: 100
 內埔鄉	nei4 pu3 xiang1
 內場	nei4 chang3
 內外夾攻	nei4 wai4 jia2 gong1
+內外夾攻	nei4 wai4 jia1 gong1
 內姊	nei4 jie3
 內容和形式	nei4 rong2 han4 xing2 shi4
 內容和形式	nei4 rong2 he2 xing2 shi4
@@ -62027,6 +62031,7 @@ min_phrase_weight: 100
 剪著	jian3 zhao2
 剪著	jian3 zhe5
 剪票夾	jian3 piao4 jia2
+剪票夾	jian3 piao4 jia1
 剪莽擁篲	jian3 mang3 yong3 hui4
 剪頭髮	jian3 tou2 fa3
 剪髮	jian3 fa3
@@ -67686,6 +67691,7 @@ min_phrase_weight: 100
 報喪	bao4 sang1
 報喪帖	bao4 sang1 tie3
 報夾	bao4 jia2
+報夾	bao4 jia1
 報子	bao4 zi5
 報屁股	bao4 pi4 gu3
 報差	bao4 chai1
@@ -69111,31 +69117,49 @@ min_phrase_weight: 100
 夾具	jia2 ju4
 夾具	jia1 ju4
 夾剪	jia2 jian3
+夾剪	jia1 jian3
 夾剪艙	jia2 jian3 cang1
+夾剪艙	jia1 jian3 cang1
 夾和	jia2 huo4
+夾和	jia1 huo4
 夾單	jia2 dan1
+夾單	jia1 dan1
 夾塞兒	jia1 sai1 er5	80%
 夾塞兒	jia1 sai1 er2
+夾塞兒	jia2 sai1 er5	80%
+夾塞兒	jia2 sai1 er2
 夾壁	jia2 bi4
+夾壁	jia1 bi4
 夾子	jia1 zi5
 夾子	jia2 zi5
 夾室	jia2 shi4
+夾室	jia1 shi4
 夾屁股	jia2 pi4 gu3
+夾屁股	jia1 pi4 gu3
 夾層	jia2 ceng2
 夾層	jia1 ceng2
 夾層屋	jia2 ceng2 wu1
+夾層屋	jia1 ceng2 wu1
 夾岸	jia2 an4
+夾岸	jia1 an4
 夾布子	jia2 bu4 zi5
+夾布子	jia1 bu4 zi5
 夾帳	jia2 zhang4
+夾帳	jia1 zhang4
 夾帶	jia2 dai4
 夾帶	jia1 dai4
 夾彩塑	jia2 cai3 su4
 夾彩塑	jia2 cai3 shuo4	80%
+夾彩塑	jia1 cai3 su4
+夾彩塑	jia1 cai3 shuo4	80%
 夾心餅乾	jia2 xin1 bing3 gan1
+夾心餅乾	jia1 xin1 bing3 gan1
 夾擊	jia2 ji2
+夾擊	jia1 ji2
 夾攻	jia2 gong1
 夾攻	jia1 gong1
 夾杖	jia2 zhang4
+夾杖	jia1 zhang4
 夾板	jia2 ban3
 夾板	jia1 ban3
 夾板船	jia2 ban3 chuan2
@@ -69143,50 +69167,79 @@ min_phrase_weight: 100
 夾棍	jia2 gun4
 夾棍	jia1 gun4
 夾槍帶棒	jia2 qiang1 dai4 bang4
+夾槍帶棒	jia1 qiang1 dai4 bang4
 夾殺	jia2 sha1
+夾殺	jia1 sha1
 夾注	jia2 zhu4
+夾注	jia1 zhu4
 夾注號	jia2 zhu4 hao4
+夾注號	jia1 zhu4 hao4
 夾生	jia1 sheng1
 夾生	jia4 sheng1
 夾生飯	jia1 sheng1 fan4
 夾生飯	jia4 sheng1 fan4
 夾界	jia2 jie4
+夾界	jia1 jie4
 夾當	jia1 dang1
+夾當	jia2 dang1
 夾當兒	jia1 dang1 er5	80%
 夾當兒	jia1 dang1 er2
+夾當兒	jia2 dang1 er5	80%
+夾當兒	jia2 dang1 er2
 夾著尾巴	jia2 zhe5 wei3 ba1
 夾著尾巴	jia2 zhe5 yi3 ba1
+夾著尾巴	jia1 zhe5 wei3 ba1
+夾著尾巴	jia1 zhe5 yi3 ba1
 夾磨	jia2 mo2
+夾磨	jia1 mo2
 夾竹桃	jia4 zhu2 tao2
 夾竹桃	jia1 zhu2 tao2
 夾竹桃	jia2 zhu2 tao2
 夾緊	jia2 jin3
 夾緊	jia1 jin3
 夾縫	jia1 feng2
+夾縫	jia2 feng2
 夾縫	jia2 feng4
 夾縫	jia1 feng4
 夾縫中求生存	jia2 feng4 zhong1 qiu2 sheng1 cun2
+夾縫中求生存	jia1 feng4 zhong1 qiu2 sheng1 cun2
 夾纈	jia2 xie2
+夾纈	jia1 xie2
 夾肝	jia2 gan1
+夾肝	jia1 gan1
 夾肢窩	ga1 zhi1 wo1
 夾肢窩	jia2 zhi1 wo1
+夾肢窩	jia1 zhi1 wo1
 夾背心子	jia2 bei4 xin1 zi5
+夾背心子	jia1 bei4 xin1 zi5
 夾腦	jia2 nao3
+夾腦	jia1 nao3
 夾腦風	jia2 nao3 feng1
+夾腦風	jia1 nao3 feng1
 夾衣	jia2 yi1
+夾衣	jia1 yi1
 夾袋中人物	jia2 dai4 zhong1 ren2 wu4
+夾袋中人物	jia1 dai4 zhong1 ren2 wu4
 夾袍	jia2 pao2
+夾袍	jia1 pao2
 夾被	jia2 bei4
+夾被	jia1 bei4
 夾被摩痛	jia2 bei4 mo2 tong4
+夾被摩痛	jia1 bei4 mo2 tong4
 夾襖	jia2 ao3
+夾襖	jia1 ao3
 夾角	jia2 jiao3
 夾角	jia1 jiao3
 夾起尾巴	jia1 qi3 wei3 ba1
+夾起尾巴	jia2 qi3 wei3 ba1
 夾路	jia2 lu4
+夾路	jia1 lu4
 夾輔	jia2 fu3
+夾輔	jia1 fu3
 夾道	jia2 dao4
 夾道	jia1 dao4
 夾道歡迎	jia2 dao4 huan1 ying2
+夾道歡迎	jia1 dao4 huan1 ying2
 夾雜	jia2 za2
 夾雜	jia1 za2
 奄人	yan1 ren2
@@ -69434,7 +69487,10 @@ min_phrase_weight: 100
 奶奶	nai3 nai5
 奶奶	nai3 nai3
 奶媽懷裡的孩子	nai3 ma1 huai2 li3 de5 hai2 zi5
-奶嬤嬤	nai3 ma1 ma5
+奶嬤嬤	nai3 ma1 ma5	80%
+奶嬤嬤	nai3 ma1 ma1
+奶嬤嬤	nai3 mo2 mo2
+奶嬤嬤	nai3 mo2 mo5	80%
 奶子	nai3 zi5
 奶子酒	nai3 zi5 jiu3
 奶昔	nai3 xi2
@@ -69984,11 +70040,17 @@ min_phrase_weight: 100
 嬝娜風流	niao3 nuo2 feng1 liu2
 嬝嬝娜娜	niao3 niao3 nuo2 nuo2
 嬤嬤	ma1 ma1
-嬤嬤	ma1 ma5
+嬤嬤	ma1 ma5	80%
+嬤嬤	mo2 mo2
+嬤嬤	mo2 ma5	80%
 嬤嬤媽	ma1 ma1 ma1
-嬤嬤媽	ma1 ma5 ma1
+嬤嬤媽	ma1 ma5 ma1	80%
+嬤嬤媽	mo2 mo2 ma1
+嬤嬤媽	mo2 ma5 ma1	80%
 嬤嬤爹	ma1 ma1 die1
-嬤嬤爹	ma1 ma5 die1
+嬤嬤爹	ma1 ma5 die1	80%
+嬤嬤爹	mo2 mo2 die1
+嬤嬤爹	mo2 ma5 die1	80%
 嬪從	pin2 zong4
 嬭子	nai3 zi5
 嬰兒死亡率	ying1 er2 si3 wang2 lv4
@@ -72178,6 +72240,7 @@ min_phrase_weight: 100
 左右兩難	zuo3 you4 liang3 nan2
 左右勾拳	zuo3 you4 gou1 quan2
 左右夾攻	zuo3 you4 jia2 gong1
+左右夾攻	zuo3 you4 jia1 gong1
 左右為難	zuo3 you4 wei2 nan2
 左嗓子	zuo3 sang3 zi5
 左性	zuo3 xing4
@@ -76306,6 +76369,7 @@ min_phrase_weight: 100
 打夜作	da3 ye4 zuo1
 打夥子穿靴	da3 huo3 zi5 chuan1 xue1
 打夾帳	da3 jia2 zhang4
+打夾帳	da3 jia1 zhang4
 打孔鑽	da3 kong3 zuan4
 打孔鑽	da3 kong3 zuan1
 打官司	da3 guan1 si1
@@ -79643,6 +79707,7 @@ min_phrase_weight: 100
 收看	shou1 kan4
 收藏	shou1 cang2
 收藏夾	shou1 cang2 jia1
+收藏夾	shou1 cang2 jia2
 收藏家	shou1 cang2 jia1
 收視率	shou1 shi4 lv4
 收責	shou1 ze2
@@ -81657,6 +81722,7 @@ min_phrase_weight: 100
 書場	shu1 chang2	3%
 書場	shu1 chang3
 書夾	shu1 jia2
+書夾	shu1 jia1
 書子	shu1 zi5
 書富五車	shu1 fu4 wu3 ju1
 書山有路勤為徑	shu1 shan1 you3 lu4 qin2 wei2 jing4
@@ -84120,6 +84186,8 @@ min_phrase_weight: 100
 檔期	dang4 qi2
 檔案夾	dang3 an4 jia2
 檔案夾	dang4 an4 jia2
+檔案夾	dang3 an4 jia1
+檔案夾	dang4 an4 jia1
 檔案轉送	dang3 an4 zhuan3 song4
 檔案轉送	dang4 an4 zhuan3 song4
 檜木	gui4 mu4
@@ -84212,6 +84280,7 @@ min_phrase_weight: 100
 欺天罔地	qi1 tian1 wang3 di4
 欺天誑地	qi1 tian1 kuang2 di4
 欺瞞夾帳	qi1 man2 jia2 zhang4
+欺瞞夾帳	qi1 man2 jia1 zhang4
 欺矇	qi1 meng2
 欺行霸市	qi1 hang2 ba4 shi4
 欺誣	qi1 wu2
@@ -86213,6 +86282,7 @@ min_phrase_weight: 100
 活變	huo2 bian4
 活靶子	huo2 ba3 zi5
 活頁夾	huo2 ye4 jia2
+活頁夾	huo2 ye4 jia1
 洼地	wa1 di4
 洽商	qia4 shang1
 洽商	xia2 shang1
@@ -87861,6 +87931,7 @@ min_phrase_weight: 100
 火場留守分隊	huo3 chang3 liu2 shou3 fen1 dui4
 火場留守分隊	huo3 chang2 liu2 shou3 fen1 dui4	3%
 火夾	huo3 jia2
+火夾	huo3 jia1
 火山爆發指數	huo3 shan1 bao4 fa1 zhi3 shu4
 火性強陽	huo3 xing4 qiang2 yang2
 火捻子	huo3 nian3 zi5
@@ -89230,6 +89301,7 @@ min_phrase_weight: 100
 狗仔隊	gou3 zai3 dui4
 狗嘴裡還有象牙	gou3 zui3 li3 hai2 you3 xiang4 ya2
 狗子夾尾巴	gou3 zi5 jia2 wei3 ba1
+狗子夾尾巴	gou3 zi5 jia1 wei3 ba1
 狗屁倒灶	gou3 pi4 dao3 zao4
 狗心狗行	gou3 xin1 gou3 xing4
 狗拿耗子	gou3 na2 hao4 zi5
@@ -94272,6 +94344,7 @@ min_phrase_weight: 100
 竹刻	zhu2 ke1
 竹地雷	zhu2 di4 lei2
 竹夾膝	zhu2 jia2 xi1
+竹夾膝	zhu2 jia1 xi1
 竹子	zhu2 zi5
 竹扇	zhu2 shan4
 竹排	zhu2 pai2
@@ -96585,8 +96658,10 @@ min_phrase_weight: 100
 老婆舌頭	lao3 po2 she2 tou5
 老婆舌頭	lao3 po2 she2 tou2
 老媽子	lao3 ma1 zi5
-老嬤嬤	lao3 ma1 ma5
+老嬤嬤	lao3 ma1 ma5	80%
 老嬤嬤	lao3 ma1 ma1
+老嬤嬤	lao3 mo2 ma5	80%
+老嬤嬤	lao3 mo2 mo2
 老子	lao3 zi3
 老子	lao3 zi5
 老客兒	lao3 ke4 er5	80%
@@ -107946,6 +108021,8 @@ min_phrase_weight: 100
 鑽頭卡盤	zuan4 tou2 qia3 pan2
 鑽頭夾盤	zuan1 tou2 jia2 pan2
 鑽頭夾盤	zuan4 tou2 jia2 pan2
+鑽頭夾盤	zuan1 tou2 jia1 pan2
+鑽頭夾盤	zuan4 tou2 jia1 pan2
 鑽頭就鎖	zuan1 tou2 jiu4 suo3
 鑽頭覓縫	zuan1 tou2 mi4 feng4
 鑿井	zao2 jing3
@@ -110867,6 +110944,7 @@ min_phrase_weight: 100
 領導班子	ling3 dao3 ban1 zi5
 領帖	ling3 tie3
 領帶夾	ling3 dai4 jia2
+領帶夾	ling3 dai4 jia1
 領抹	ling3 mo3
 領掇	ling3 duo2
 領教	ling3 jiao4
@@ -111467,6 +111545,7 @@ min_phrase_weight: 100
 首善之地	shou3 shan4 zhi1 di4
 首字母拚音詞	shou3 zi4 mu3 pin1 yin1 ci2
 首尾夾攻	shou3 wei3 jia2 gong1
+首尾夾攻	shou3 wei3 jia1 gong1
 首尾相應	shou3 wei3 xiang1 ying4
 首尾相接	shou3 wei3 xiang1 jie1
 首尾相援	shou3 wei3 xiang1 yuan2
@@ -113038,4 +113117,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113041 #####
+##### @結束 END - 113120 #####
