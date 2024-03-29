@@ -2230,6 +2230,15 @@ min_phrase_weight: 100
 蔓	wan4	1%
 橢	duo3	0%
 椭	duo3	0%
+剽	piao2
+剽	biao3	0%
+剽	biao1	0%
+剝	pu1	0%
+浩	gao3	0%
+浩	ge2	0%
+皓	hui1	0%
+皺	zhou1	0%
+皱	zhou1	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -57851,6 +57860,8 @@ min_phrase_weight: 100
 伐檀	fa2 tan2
 伐毛洗髓	fa1 mao2 xi3 sui3
 伐毛洗髓	fa2 mao2 xi3 sui3
+伐毛洗髓	fa1 mao2 xi3 sui2	80%
+伐毛洗髓	fa2 mao2 xi3 sui2	80%
 伐生	fa1 sheng1
 伐生	fa2 sheng1
 伐異黨同	fa1 yi4 dang3 tong2
@@ -80191,6 +80202,7 @@ min_phrase_weight: 100
 敬鬼神而遠之	jing4 gui3 shen2 er2 yuan4 zhi1
 敬鬼神而遠之	jing4 gui3 shen2 er2 yuan3 zhi1
 敲喪鐘	qiao1 sang1 zhong1
+敲喪鐘	qiao1 sang4 zhong1
 敲扑	qiao1 pu1
 敲擊	qiao1 ji2
 敲擊樂器	qiao1 ji2 yue4 qi4
@@ -86553,7 +86565,9 @@ min_phrase_weight: 100
 浹背	jia2 bei4
 浹辰	jia2 chen2
 浹髓淪肌	jia2 sui3 lun2 ji1
+浹髓淪肌	jia2 sui2 lun2 ji1	80%
 浹髓淪膚	jia2 sui3 lun2 fu1
+浹髓淪膚	jia2 sui2 lun2 fu1	80%
 浼人親行	mei3 ren2 qin1 xing2
 浽溦	sui1 wei1
 涂爾干	tu2 er3 gan1
@@ -86730,6 +86744,8 @@ min_phrase_weight: 100
 淪漪	lun2 yi3
 淪肌浹髓	lun2 ji1 jia2 sui3
 淪肌浹髓	lun2 ji1 jia1 sui3
+淪肌浹髓	lun2 ji1 jia2 sui2	80%
+淪肌浹髓	lun2 ji1 jia1 sui2	80%
 淪落	lun2 luo4
 淪落人	lun2 luo4 ren2
 淪跡	lun2 ji1
@@ -111955,8 +111971,11 @@ min_phrase_weight: 100
 髂骨	qia4 gu3
 髒彈	zang1 dan4
 髓結	sui3 jie2
+髓結	sui2 jie2	80%
 髓膜炎	sui3 mo4 yan2	3%
 髓膜炎	sui3 mo2 yan2
+髓膜炎	sui2 mo4 yan2	3%
+髓膜炎	sui2 mo2 yan2	80%
 體己	ti1 ji3
 體己	ti3 ji3
 體己錢	ti1 ji3 qian2
@@ -113120,4 +113139,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113123 #####
+##### @結束 END - 113142 #####
