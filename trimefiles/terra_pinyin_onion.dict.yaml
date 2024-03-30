@@ -2239,6 +2239,10 @@ min_phrase_weight: 100
 皓	hui1	0%
 皺	zhou1	0%
 皱	zhou1	0%
+卜	bo2	1%
+卜	pu1	0%
+扁	bian1	0%
+扁	pian2	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -69474,6 +69478,7 @@ min_phrase_weight: 100
 女性厭惡	nv3 xing4 yan4 wu4
 女性意識	nv3 xing4 yi4 shi4
 女性荷爾蒙	nv3 xing4 he2 er3 meng2
+女性荷爾蒙	nv3 xing4 he4 er3 meng2
 女朋友	nv3 peng2 you3
 女校	nv3 xiao4
 女校尉	nv3 jiao4 wei4
@@ -74802,6 +74807,7 @@ min_phrase_weight: 100
 性相	xing4 xiang4
 性空	xing4 kong1
 性荷爾蒙	xing4 he2 er3 meng2
+性荷爾蒙	xing4 he4 er3 meng2
 性虐待	xing4 nve4 dai4
 性虐待	xing4 nve4 dai1
 性行	xing4 xing2
@@ -113139,4 +113145,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113142 #####
+##### @結束 END - 113148 #####
