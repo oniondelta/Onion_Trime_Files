@@ -187,8 +187,8 @@ shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
 
-shutil.copytree("./trimefiles/手機jpnin1只出假名custom/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1只出假名custom/")
-shutil.copytree("./trimefiles/手機jpnin1精簡轉寫custom/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1精簡轉寫custom/")
+shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1只出假名修改檔/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1只出假名修改檔/")
+shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1精簡轉寫修改檔/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1精簡轉寫修改檔/")
 
 
 #複製檔案(洋蔥手機蝦-mixin)
