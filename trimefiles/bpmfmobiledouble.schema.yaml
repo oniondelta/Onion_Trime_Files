@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202304"
+  version: "202404"
   author:
     - 『洋蔥』
   description: |
@@ -145,9 +145,9 @@ speller:
 ###########################
     - abbrev/^([a-z][a-z])\d$/$1/
     - abbrev/^([abcdfghijklmnopqrstuvwxyz])[a-z]\d$/$1/ #
-#    - abbrev/^([yui])i\d$/$1/
-#    - abbrev/^([yui])i(\d)$/$1$2/
-#    - abbrev/^([abcdfghjklmnopqrstvwxz])[a-z](\d)$/$1$2/
+    # - abbrev/^([yui])e\d$/$1/ #
+    - abbrev/^([yui])e(\d)$/$1$2/
+    - abbrev/^([abcdfghjklmnopqrstvwxz])[a-z](\d)$/$1$2/
 ###########################
     #之前聲調# - "xlit|12345|;/.,'|"
     - "xlit|12345|;/,'.|"
@@ -208,6 +208,8 @@ translator:
     - 'xform/([bpmdtnljqx]):ㄧㄢ\|ㄨㄞ/$1:ㄧㄢ/'
     - 'xform/([gkhwva]):ㄧㄢ\|ㄨㄞ/$1:ㄨㄞ/'
 #######
+    - "xform|([（ ][abcdfghjklmnopqrstvwxz])([;/,'.])|$1⁎$2|"  #只有聲母加聲調時，其可能省略韻母之提示。
+    - "xform|([（ ][yui])([;/,'.])|$1₊$2|"  #只有ㄧㄨㄩ加聲調時，其可能省略韻母之提示。
     #之前聲調# - "xlit|bpmfdtnlgkhjqxrzcsiuywvao;/.,'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄖㄗㄘㄙㄧㄨㄩㄓㄔㄕ◌ˉˊˇˋ˙|"
     - "xlit|bpmfdtnlgkhjqxrzcsiuywvao;/,'.|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄖㄗㄘㄙㄧㄨㄩㄓㄔㄕ◌ˉˊˇˋ˙|"
 #######
