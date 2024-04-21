@@ -133,6 +133,9 @@ speller:
     - xform/er/R/
     - xform/eh/E/
     - xform/([iv])e/$1E/
+##### 內嵌注音文 #####（應該要移到後面，但注音雙拼單已有調出單注音方式，故這裡不再輸出單注音）
+    - erase|^＊([bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR12345])$|| #消除單個注音
+    - xform|^＊＊|| #開頭「＊＊」使注音文不被前面縮略，該正則回復
 ###########################
     - xform/^([bpmfdtnlgkhjqxZCSrzcs])v(\d)$/$1y$2/
     - xform/^v/y/
@@ -167,7 +170,7 @@ speller:
 ###########################
 
 translator:
-  dictionary: bpmfmobile.extended
+  dictionary: bpmfmobiledouble.extended
   prism: bpmfmobiledouble
   enable_completion: false
   enable_sentence: false
@@ -212,7 +215,9 @@ translator:
     - 'xform/([pdnljqx]):ㄧㄚ\|ㄨㄚ/$1:ㄧㄚ/'
     - 'xform/([gkhavw]):ㄧㄚ\|ㄨㄚ/$1:ㄨㄚ/'
     - 'xform/([dnljqx]):ㄧㄤ\|ㄨㄤ/$1:ㄧㄤ/'
-    - 'xform/([gkhavw]):ㄧㄤ\|ㄨㄤ/$1:ㄨㄤ/'
+    - 'xform/([ghavw]):ㄧㄤ\|ㄨㄤ/$1:ㄨㄤ/' #[gkhavw]ㄎㄧㄤ
+    - 'xform/([k]):ㄧㄤ\|ㄨㄤ/$1:ㄨㄤ\|ㄧㄤ/' #校正：ㄎㄧㄤ少用，ㄎㄨㄤ較常用
+    - xform ([k]):ㄨㄤ\|ㄧㄤ([',./]) $1:ㄨㄤ$2
     - 'xform/([dtnlgkhwvarzcs]):ㄨㄣ\|ㄩㄣ/$1:ㄨㄣ/'
     - 'xform/([jqx]):ㄨㄣ\|ㄩㄣ/$1:ㄩㄣ/'
     - 'xform/([dtnlgkhwvarzcs]):ㄨㄥ\|ㄩㄥ/$1:ㄨㄥ/'

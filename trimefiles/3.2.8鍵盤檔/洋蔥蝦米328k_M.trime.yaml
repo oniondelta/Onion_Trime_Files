@@ -1224,6 +1224,7 @@ preset_keys:
   Shift_L_h: {label: Shift, preview: '⇪', functional: true, send: Shift_L, shift_lock: long}
   Tab_2: {label: 首節, send: Tab} #
   Tab_3: {label: 首單, text: '{Home}{Right}'}
+  Tab_4: {label: 首節, send: Down}  #雙拼專用
   space2: {repeatable: true, label: "␣", functional: false, send: 'space'}
   Escape2: {text: '{Escape}', label: ⌧, functional: false}
   Escape3: {label: '⌧', preview: '⌧', repeatable: false, functional: false, send: Control+Shift+Alt+BackSpace}
@@ -2462,7 +2463,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_4, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} # long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} # long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
@@ -2522,7 +2523,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 9.75}
       - {click: "'", hint: '四聲', long_click: '"', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
+      - {click: Shift_L3, composing: Tab_4, send_bindings: true, swipe_up: Keyboard_duse, key_text_color: tbs, width: 15} #Tab_3 #composing: delimiter
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
