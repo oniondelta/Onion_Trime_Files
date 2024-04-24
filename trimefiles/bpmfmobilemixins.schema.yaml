@@ -118,6 +118,8 @@ speller:
   delimiter: "+"
   use_space: true
   algebra:
+##### 非正確注音（補空碼或慣用發音）轉寫 #####
+    - xform/[)(]//
 ##### 韓文HNC轉寫開始 #####
     - derive/^(!)l/$1r/
     - derive/^(![^!]+)l/$1r/

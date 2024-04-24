@@ -110,6 +110,9 @@ speller:
   finals: ";',./"
   delimiter: "\\"
   algebra:
+##### 非正確注音（補空碼或慣用發音）轉寫 #####
+    - xform/[)(]//
+##### 拼音轉注音 #####
     - xform/iu/iU/ #iou
     - xform/ui/uI/ #uei
     - xform/ong/ung/
