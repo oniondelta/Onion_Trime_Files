@@ -2271,6 +2271,12 @@ min_phrase_weight: 100
 啐	zu2	0%
 啐	e4	0%
 揩	jia2	0%
+炖	tun2	0%
+燉	tun2	0%
+抝	niu4	0%
+抝	yu4	0%
+咯	ka1	0%
+跤	qiao1	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -65020,6 +65026,8 @@ min_phrase_weight: 100
 呼和浩特市	hu1 he2 hao4 te4 shi4
 呼哧呼哧	hu1 chi1 hu1 chi1
 呼啦啦	hu1 la1 la1
+呼啦啦	hu1 la1 la5
+呼啦啦	hu1 la5 la5
 呼啦圈	hu1 la1 quan1
 呼喝	hu1 he4
 呼天搶地	hu1 tian1 qiang1 di4
@@ -65613,7 +65621,13 @@ min_phrase_weight: 100
 哨子聲	shao4 zi5 sheng1
 哩哩啦啦	li1 li1 la1 la1
 哩哩啦啦	li1 li5 la1 la1
+哩哩啦啦	li1 li1 la1 la5
+哩哩啦啦	li1 li5 la1 la5
+哩哩啦啦	li1 li1 la5 la5
+哩哩啦啦	li1 li5 la5 la5
+哩哩啦啦	li5 li5 la5 la5
 哩哩囉囉	li1 li5 luo1 luo1
+哩哩囉囉	li1 li5 luo1 luo5
 哩哩羅羅	li1 li1 luo1 luo1
 哩嗹	li1 lian2
 哩嗹囉嗹	li1 lian2 luo1 lian2
@@ -65875,7 +65889,11 @@ min_phrase_weight: 100
 啞鼓	ya3 gu3
 啥子	sha2 zi5
 啦啦隊	la1 la1 dui4
+啦啦隊	la1 la5 dui4
+啦啦隊	la5 la5 dui4
 啦啦隊長	la1 la1 dui4 zhang3
+啦啦隊長	la1 la5 dui4 zhang3
+啦啦隊長	la5 la5 dui4 zhang3
 啪啦	pa1 la5
 啪啦	pa1 la1
 啪嗒	pa1 da1
@@ -66418,7 +66436,17 @@ min_phrase_weight: 100
 嘩啦一聲	hua1 la1 yi4 sheng1
 嘩啦一聲	hua1 la1 yi1 sheng1
 嘩啦啦	hua1 la1 la1
+嘩啦啦	hua1 la1 la5
+嘩啦啦	hua1 la5 la5
+嘩啦啦	hua5 la1 la1	80%
+嘩啦啦	hua5 la1 la5	80%
+嘩啦啦	hua5 la5 la5	80%
 嘩喇喇	hua1 la1 la1
+嘩喇喇	hua1 la1 la5	80%
+嘩喇喇	hua1 la5 la5	80%
+嘩喇喇	hua5 la1 la1	80%
+嘩喇喇	hua5 la1 la5	80%
+嘩喇喇	hua5 la5 la5	80%
 嘩嘩	hua1 hua1
 嘩然	hua2 ran2
 嘩然	hua1 ran2
@@ -76343,6 +76371,7 @@ min_phrase_weight: 100
 扎扎	zha1 zha1
 扎括	zha2 gua1
 扎掂	zha2 dian1
+扎掂	zha2 dian4	80%
 扎掙	zha2 zheng1
 扎撒	zha1 sa3
 扎撒	zha1 sa1
@@ -78005,7 +78034,9 @@ min_phrase_weight: 100
 挾貴自重	xie2 gui4 zi4 zhong4
 挾長	xie2 zhang3
 捂捂蓋蓋	wu3 wu3 gai4 gai4
+捂捂蓋蓋	wu1 wu1 gai4 gai4	80%
 捂蓋子	wu3 gai4 zi5
+捂蓋子	wu1 gai4 zi5	80%
 捅嘍子	tong3 lou2 zi5
 捅婁子	tong3 lou2 zi5
 捅樓子	tong3 lou2 zi5
@@ -78138,12 +78169,19 @@ min_phrase_weight: 100
 掀騰	xian1 teng2
 掂倈	dian1 lai2
 掂折	dian1 zhe2
+掂折	dian4 zhe2	80%
 掂掇	dian1 duo1
+掂掇	dian4 duo1	80%
 掂掇	dian1 duo2
+掂掇	dian4 duo2	80%
 掂斤抹兩	dian1 jin1 mo3 liang3
+掂斤抹兩	dian4 jin1 mo3 liang3	80%
 掂斤播兩	dian1 jin1 bo4 liang3
+掂斤播兩	dian4 jin1 bo4 liang3	80%
 掂梢折本	dian1 shao1 she2 ben3
+掂梢折本	dian4 shao1 she2 ben3	80%
 掂量	dian1 liang2
+掂量	dian4 liang2	80%
 掃地	sao3 di4
 掃地俱盡	sao3 di4 ju4 jin4
 掃地出門	sao3 di4 chu1 men2
@@ -82114,6 +82152,7 @@ min_phrase_weight: 100
 會弁	kuai4 bian4
 會得	hui4 de5
 會得	hui4 de2
+會得	hui4 dei3
 會撮	kuai4 zui4
 會操	hui4 cao1
 會文切理	hui4 wen2 qie4 li3
@@ -85406,6 +85445,7 @@ min_phrase_weight: 100
 水能載舟	shui3 neng2 zai4 zhou1
 水脈	shui3 mai4
 水舀子	shui3 yao3 zi5
+水舀子	shui3 yao2 zi5	80%
 水落	shui3 luo4
 水落歸槽	shui3 luo4 gui1 cao2
 水落石出	shui3 luo4 shi2 chu1
@@ -98473,6 +98513,7 @@ min_phrase_weight: 100
 台面呢	tai2 mian4 ni2
 臺面呢	tai2 mian4 ni2
 舀子	yao3 zi5
+舀子	yao2 zi5	80%
 舅太太	jiu4 tai4 tai4
 舅太太	jiu4 tai4 tai5
 舅奶奶	jiu4 nai3 nai5
@@ -113436,4 +113477,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113439 #####
+##### @結束 END - 113480 #####
