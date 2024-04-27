@@ -2277,6 +2277,8 @@ min_phrase_weight: 100
 抝	yu4	0%
 咯	ka1	0%
 跤	qiao1	0%
+拤	qia3
+拤	nong4	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -82155,6 +82157,7 @@ min_phrase_weight: 100
 會得	hui4 dei3
 會撮	kuai4 zui4
 會操	hui4 cao1
+會操	hui4 cao4
 會文切理	hui4 wen2 qie4 li3
 會期	hui4 qi2
 會稽	gui4 ji1
@@ -113477,4 +113480,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113480 #####
+##### @結束 END - 113483 #####
