@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202304"
+  version: "202404"
   dependencies:
     - punt_ocm
     - sy_ocm
