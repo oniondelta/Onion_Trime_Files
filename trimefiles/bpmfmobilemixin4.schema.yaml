@@ -335,10 +335,10 @@ speller:
 translator:
   dictionary: bo_mixin.extended
   prism: bpmfmobilemixin4
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
-  initial_quality: "1"
+  # initial_quality: "1"
   preedit_format:
 ### 第一種 注音顯示格式 ###
 #    - "xlit|,./-; |ABCDEF|"
@@ -508,8 +508,8 @@ translator:
 bpmf_m:
   tag: bpmf_m
   dictionary: mobile_bpmf
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: false
   prefix: "'\""
   suffix: "'\""
@@ -524,8 +524,12 @@ bpmf_m:
 emoji_sy:
   tag: emoji_sy
   dictionary: sy_bpmf
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: true
   prefix: "3"
   suffix: " "

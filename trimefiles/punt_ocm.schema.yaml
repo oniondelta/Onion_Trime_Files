@@ -51,9 +51,12 @@ speller:
 
 translator:
   dictionary: punt_ocm
-  enable_completion: false
+  enable_charset_filter: false
   enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: false
 
 key_binder:

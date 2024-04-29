@@ -3,7 +3,7 @@
 schema:
   schema_id: sy_ocm
   name: 系列符號(嘸蝦米)
-  version: "202101"
+  version: "202404"
   description: |
     由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
     可在Mac中輸入iOS設備通用的Emoji表情，其他系統可能需安装專門字體。
@@ -46,9 +46,12 @@ speller:
 
 translator:
   dictionary: sy_ocm
-  enable_completion: false
+  enable_charset_filter: false
   enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: false
   preedit_format:
     __include: element_ovff:/emoji_series

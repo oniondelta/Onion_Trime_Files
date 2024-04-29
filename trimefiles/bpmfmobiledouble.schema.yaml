@@ -177,8 +177,8 @@ speller:
 translator:
   dictionary: bpmfmobiledouble.extended
   prism: bpmfmobiledouble
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   preedit_format:
     - xform/\\/ /
@@ -253,8 +253,12 @@ emoji_sy:
   tag: emoji_sy
   dictionary: sy_bpmf
   prism: sy_d_bpmf
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: true
   prefix: ";"
   suffix: " "

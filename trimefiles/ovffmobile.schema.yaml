@@ -207,8 +207,8 @@ speller:
 
 translator:
   dictionary: ovffmobile.extended
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   preedit_format:
     - 'xform/Z/ᶻ/' #㊥
@@ -218,14 +218,22 @@ translator:
 
 top_fixed:
   __include: /translator
+  enable_encoder: false
+  # encode_commit_history: false
+  enable_sentence: false
+  # sentence_over_completion: false
   enable_user_dict: false
   initial_quality: 1000
 
 puntocm:
   tag: puntocm
   dictionary: punt_ocm
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: false
   preedit_format:
     - xform/^/〔蝦符〕/
@@ -233,8 +241,12 @@ puntocm:
 syocm:
   tag: syocm
   dictionary: sy_ocm
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: true
   prefix: "'"
   suffix: " "

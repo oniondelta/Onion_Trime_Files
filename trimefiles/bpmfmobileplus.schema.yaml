@@ -172,8 +172,8 @@ speller:
 translator:
   dictionary: bpmfmobile.extended
   prism: bpmfmobileplus
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙|"
@@ -182,8 +182,8 @@ translator:
 european:
   tag: european
   dictionary: latinin1.extended
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   prefix: "4"
   suffix: " "
@@ -199,8 +199,8 @@ european:
 korea:
   tag: korea
   dictionary: hangeul_hnc_m.extended
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   prefix: "7"
   suffix: " "
@@ -239,8 +239,8 @@ korea:
 japan:
   tag: japan
   dictionary: jpnin1.extended
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   prefix: "6"
   suffix: " "
@@ -267,8 +267,8 @@ japan:
 bpmf_m:
   tag: bpmf_m
   dictionary: mobile_bpmf
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: false
   prefix: "'\""
   suffix: "'\""
@@ -282,8 +282,12 @@ bpmf_m:
 emoji_sy:
   tag: emoji_sy
   dictionary: sy_bpmf
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: true
   prefix: "3"
   suffix: " "

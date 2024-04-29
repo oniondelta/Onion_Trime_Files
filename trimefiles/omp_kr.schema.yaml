@@ -5,7 +5,7 @@
 schema:
   schema_id: omp_kr
   name: ✹OCM-KR✹
-  version: "202109"
+  version: "202404"
   author:
     - 『洋蔥』
   description: |
@@ -52,9 +52,9 @@ speller:
 translator:
   dictionary: omp_kr.extended
   prism: omp_kr
-  enable_user_dict: true
-  enable_sentence: false
+  enable_charset_filter: false
   enable_completion: false
+  enable_user_dict: true
   preedit_format:
     - 'xform/\\/ /'
 #    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"

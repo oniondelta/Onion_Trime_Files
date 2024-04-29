@@ -140,8 +140,8 @@ speller:
 
 translator:
   dictionary: ovffmobile_plus.extended
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   preedit_format:
     - 'xform/Z/ /' #㊥
@@ -151,14 +151,22 @@ translator:
 
 top_fixed:
   __include: /translator
+  enable_encoder: false
+  # encode_commit_history: false
+  enable_sentence: false
+  # sentence_over_completion: false
   enable_user_dict: false
   initial_quality: 1000
 
 puntocm:
   tag: puntocm
   dictionary: punt_ocm
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: false
   preedit_format:
     - xform/^/〔蝦符〕/
@@ -166,8 +174,12 @@ puntocm:
 syocm:
   tag: syocm
   dictionary: sy_ocm
-  enable_completion: false
+  enable_charset_filter: false
+  enable_encoder: false
+  # encode_commit_history: false
   enable_sentence: false
+  enable_completion: false
+  # sentence_over_completion: false
   enable_user_dict: true
   prefix: "'"
   suffix: " "
@@ -180,8 +192,8 @@ jphi:
   tag: jphi
   dictionary: omp_jp.extended
   prism: omp_jphi
-  # enable_completion: false
-  enable_sentence: false
+  enable_charset_filter: false
+  enable_completion: false
   enable_user_dict: true
   suffix: ","
   disable_user_dict_for_patterns:
@@ -208,8 +220,8 @@ jpka:
   tag: jpka
   dictionary: omp_jp.extended
   prism: omp_jpka
-  # enable_completion: false
-  enable_sentence: false
+  enable_charset_filter: false
+  enable_completion: false
   enable_user_dict: true
   suffix: "."
   disable_user_dict_for_patterns:
@@ -236,8 +248,8 @@ korea:
   tag: korea
   dictionary: omp_kr.extended
   prism: omp_kr
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
   suffix: "/"
   disable_user_dict_for_patterns:
@@ -253,8 +265,8 @@ latin:
   tag: latin
   dictionary: omp_la.extended
   prism: omp_la
+  enable_charset_filter: false
   enable_completion: false
-  enable_sentence: false
   enable_user_dict: true
 #  prefix: "'"
   # suffix: "'"
