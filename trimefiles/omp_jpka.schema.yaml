@@ -5,7 +5,7 @@
 schema:
   schema_id: omp_jpka
   name: ✹OMP-JPKA✹
-  version: "202404"
+  version: "202405"
   author:
     - 『洋蔥』
   description: |
@@ -108,7 +108,7 @@ speller:
 translator:
   dictionary: omp_jp.extended
   prism: omp_jpka
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:

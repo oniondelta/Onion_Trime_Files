@@ -2,7 +2,7 @@
 
 schema:
   schema_id: punt_ocm
-  name: 標點(蝦)
+  name: 單符號(蝦)
   version: "2.2"
   description: |
     由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
@@ -14,9 +14,9 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 標, 英 ]
-  - name: full_shape
-    reset: 0
-    states: [ 半, 全 ]
+  # - name: full_shape
+  #   reset: 0
+  #   states: [ 半, 全 ]
 
 engine:
   processors:
@@ -51,8 +51,8 @@ speller:
 
 translator:
   dictionary: punt_ocm
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false

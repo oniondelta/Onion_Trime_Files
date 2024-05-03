@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202404"
+  version: "202405"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -207,7 +207,7 @@ speller:
 
 translator:
   dictionary: ovffmobile.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:
@@ -218,7 +218,7 @@ translator:
 
 top_fixed:
   __include: /translator
-  enable_encoder: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   # sentence_over_completion: false
@@ -228,8 +228,8 @@ top_fixed:
 puntocm:
   tag: puntocm
   dictionary: punt_ocm
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false
@@ -241,8 +241,8 @@ puntocm:
 syocm:
   tag: syocm
   dictionary: sy_ocm
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false

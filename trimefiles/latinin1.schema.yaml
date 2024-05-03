@@ -4,7 +4,7 @@
 schema:
   schema_id: latinin1 # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
   name: ❃拉丁 in 1❃
-  version: "202404"
+  version: "202405"
   author:
     - 『洋蔥』
   description: |
@@ -63,7 +63,7 @@ speller:
 translator:
   dictionary: latinin1.extended
 #  prism: latinin1
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   disable_user_dict_for_patterns:

@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobileplus
   name: "《洋蔥手機注音plus》"
-  version: "202404"
+  version: "202405"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -172,7 +172,7 @@ speller:
 translator:
   dictionary: bpmfmobile.extended
   prism: bpmfmobileplus
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:
@@ -182,7 +182,7 @@ translator:
 european:
   tag: european
   dictionary: latinin1.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   prefix: "4"
@@ -199,7 +199,7 @@ european:
 korea:
   tag: korea
   dictionary: hangeul_hnc_m.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   prefix: "7"
@@ -239,7 +239,7 @@ korea:
 japan:
   tag: japan
   dictionary: jpnin1.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   prefix: "6"
@@ -267,7 +267,7 @@ japan:
 bpmf_m:
   tag: bpmf_m
   dictionary: mobile_bpmf
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: false
   prefix: "'\""
@@ -282,8 +282,8 @@ bpmf_m:
 emoji_sy:
   tag: emoji_sy
   dictionary: sy_bpmf
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false

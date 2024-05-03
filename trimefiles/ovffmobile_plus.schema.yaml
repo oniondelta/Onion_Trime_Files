@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202404"
+  version: "202405"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -140,7 +140,7 @@ speller:
 
 translator:
   dictionary: ovffmobile_plus.extended
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   preedit_format:
@@ -151,7 +151,7 @@ translator:
 
 top_fixed:
   __include: /translator
-  enable_encoder: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   # sentence_over_completion: false
@@ -161,8 +161,8 @@ top_fixed:
 puntocm:
   tag: puntocm
   dictionary: punt_ocm
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false
@@ -174,8 +174,8 @@ puntocm:
 syocm:
   tag: syocm
   dictionary: sy_ocm
-  enable_charset_filter: false
-  enable_encoder: false
+  # enable_charset_filter: false
+  # enable_encoder: false
   # encode_commit_history: false
   enable_sentence: false
   enable_completion: false
@@ -192,7 +192,7 @@ jphi:
   tag: jphi
   dictionary: omp_jp.extended
   prism: omp_jphi
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   suffix: ","
@@ -220,7 +220,7 @@ jpka:
   tag: jpka
   dictionary: omp_jp.extended
   prism: omp_jpka
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   suffix: "."
@@ -248,7 +248,7 @@ korea:
   tag: korea
   dictionary: omp_kr.extended
   prism: omp_kr
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
   suffix: "/"
@@ -265,7 +265,7 @@ latin:
   tag: latin
   dictionary: omp_la.extended
   prism: omp_la
-  enable_charset_filter: false
+  # enable_charset_filter: false
   enable_completion: false
   enable_user_dict: true
 #  prefix: "'"
