@@ -67892,7 +67892,6 @@ min_phrase_weight: 100
 塔什庫爾干塔吉克自治縣	ta3 shi2 ku4 er3 gan1 ta3 ji2 ke4 zi4 zhi4 xian4
 塔什庫爾干自治縣	ta3 shi2 ku4 er3 gan1 zi4 zhi4 xian4
 塔什庫爾干鄉	ta3 shi2 ku4 er3 gan1 xiang1
-塔克拉瑪干	ta3 ke4 la1 ma3 gan4
 塔克拉瑪干	ta3 ke4 la1 ma3 gan1
 塔克拉瑪干沙漠	ta3 ke4 la1 ma3 gan1 sha1 mo4
 塔克拉馬干	ta3 ke4 la1 ma3 gan1
@@ -71300,7 +71299,6 @@ min_phrase_weight: 100
 封鎖現場	feng1 suo3 xian4 chang3
 射中	she4 zhong4
 射干	she4 gan1
-射干	ye4 gan4
 射干	ye4 gan1
 射影幾何	she4 ying3 ji3 he2
 射影幾何學	she4 ying3 ji3 he2 xue2
@@ -83048,9 +83046,8 @@ min_phrase_weight: 100
 松皮癬	song1 pi2 xuan3	3%
 松筠之操	song1 yun2 zhi1 cao1
 松菌	song1 jun4
-松贊干布	song1 zan4 gan4 bu4
 松贊干布	song1 zan4 gan1 bu4
-松贊干布陵	song1 zan4 gan4 bu4 ling2
+松贊干布陵	song1 zan4 gan1 bu4 ling2
 松露	song1 lu4
 松露豬	song1 lu4 zhu1
 松香油	song1 xiang1 you2
@@ -104059,8 +104056,8 @@ min_phrase_weight: 100
 費思量	fei4 si1 liang2
 費思量	fei4 si1 liang4
 費洛蒙	fei4 luo4 meng2
-費爾干納	fei4 er3 gan4 na4
-費爾干納槃地	fei4 er3 gan4 na4 pan2 di4
+費爾干納	fei4 er3 gan1 na4
+費爾干納槃地	fei4 er3 gan1 na4 pan2 di4
 費爾幹納盆地	fei4 er3 gan4 na4 pen2 di4
 費率	fei4 lv4
 費盡心思	fei4 jin4 xin1 si1
@@ -105312,6 +105309,9 @@ min_phrase_weight: 100
 載舟覆舟	zai4 zhou1 fu4 zhou1
 載芟	zai4 shan1
 載荷	zai4 he4
+載荷	zai3 he4
+載荷	zai3 he2
+載荷	zai4 he2
 載見	zai4 jian4
 載記	zai4 ji4
 載譽	zai4 yu4
