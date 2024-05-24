@@ -126,6 +126,7 @@
 #    詞句中，「膜」臺灣日常慣用語音為「mo2」，臺灣標準為「mo4」，除「膜拜」語意之詞彙為「mo2」，故「膜」除前面語意詞彙，皆補齊「mo2」「mo4」，「mo4」詞頻設為3%。
 #    詞句中，「質」臺灣字典不同語意分別發音「zhi2」「zhi4」，但語意品質時發「zhi2」，大陸則為「zhi4」，日常易混，故皆補齊「zhi2」「zhi4」，語意為品質等「zhi4」詞頻設為3%。
 #    詞句中，「塑」日常發音常會誤發為「shuo4」，故皆補齊「su4」「shuo4」，後者詞頻設為80%。
+#    詞句中，「遍」皆補齊「bian4」「pian4」。
 #    預計比對「輕聲和一聲」變音。
 #
 #  〈2020修改字詞彙發音〉：
@@ -57658,6 +57659,7 @@ min_phrase_weight: 100
 代數幾何學	dai4 shu4 ji3 he2 xue2
 代數式	dai4 shu4 shi4
 代數拓撲	dai4 shu4 tuo4 pu1
+代數拓撲	dai4 shu4 tuo4 bu3
 代數數域	dai4 shu4 shu4 yu4
 代數方程	dai4 shu4 fang1 cheng2
 代數方程式	dai4 shu4 fang1 cheng2 shi4
@@ -59690,6 +59692,7 @@ min_phrase_weight: 100
 傳送帶	chuan2 song4 dai4
 傳送服務	chuan2 song4 fu2 wu4
 傳遍	chuan2 bian4
+傳遍	chuan2 pian4
 傳道	chuan2 dao4
 傳道受業	chuan2 dao4 shou4 ye4
 傳道書	chuan2 dao4 shu1
@@ -65512,6 +65515,7 @@ min_phrase_weight: 100
 哀腸百轉	ai1 chang2 bai3 zhuan3
 哀號	ai1 hao2
 哀鴻遍地	ai1 hong2 bian4 di4
+哀鴻遍地	ai1 hong2 pian4 di4
 品位分類	pin3 wei4 fen1 lei4
 品度	pin3 duo4
 品弄	pin3 nong4
@@ -73155,7 +73159,9 @@ min_phrase_weight: 100
 幾何圖案	ji3 he2 tu2 an4
 幾何學	ji3 he2 xue2
 幾何拓撲	ji3 he2 tuo4 pu1
+幾何拓撲	ji3 he2 tuo4 bu3
 幾何拓撲學	ji3 he2 tuo4 pu1 xue2
+幾何拓撲學	ji3 he2 tuo4 bu3 xue2
 幾何級數	ji3 he2 ji2 shu4
 幾何線	ji3 he2 xian4
 幾何量	ji3 he2 liang4
@@ -77449,9 +77455,13 @@ min_phrase_weight: 100
 拓展	tuo4 zhan3
 拓拔	tuo4 ba2
 拓撲	tuo4 pu1
+拓撲	tuo4 bu3
 拓撲學	tuo4 pu1 xue2
+拓撲學	tuo4 bu3 xue2
 拓撲空間	tuo4 pu1 kong1 jian1
+拓撲空間	tuo4 bu3 kong1 jian1
 拓撲結構	tuo4 pu1 jie2 gou4
+拓撲結構	tuo4 bu3 jie2 gou4
 拓本	ta4 ben3
 拓本	tuo4 ben3
 拓殖	tuo4 zhi2
@@ -81558,6 +81568,7 @@ min_phrase_weight: 100
 普通強盜罪	pu3 tong1 qiang2 dao4 zui4
 普通教育	pu3 tong1 jiao4 yu4
 普遍性假設	pu3 bian4 xing4 jia3 she4
+普遍性假設	pu3 pian4 xing4 jia3 she4
 普里切特	pu3 li3 qie4 te4
 普陀洛伽山	pu3 tuo2 luo4 qie2 shan1
 普降	pu3 jiang4
@@ -84339,6 +84350,7 @@ min_phrase_weight: 100
 橫夭	heng4 yao1
 橫寫	heng2 xie3
 橫屍遍野	heng2 shi1 bian4 ye3
+橫屍遍野	heng2 shi1 pian4 ye3
 橫山	heng2 shan1
 橫山縣	heng2 shan1 xian4
 橫山鄉	heng2 shan1 xiang1
@@ -84873,6 +84885,7 @@ min_phrase_weight: 100
 歷經波折	li4 jing1 po1 zhe2
 歷落	li4 luo4
 歷遍	li4 pian4
+歷遍	li4 bian4
 歸宿	gui1 su4
 歸寧	gui1 ning2
 歸帆	gui1 fan2
@@ -87928,6 +87941,7 @@ min_phrase_weight: 100
 漫天漫地	man4 tian1 man4 di4
 漫天蓋地	man4 tian1 gai4 di4
 漫天遍地	man4 tian1 bian4 di4
+漫天遍地	man4 tian1 pian4 di4
 漫山塞野	man4 shan1 se4 ye3
 漫漫長夜	man4 man4 chang2 ye4
 漫漫長夜	man2 man2 chang2 ye4
@@ -88437,6 +88451,7 @@ min_phrase_weight: 100
 烹龍炮鳳	peng1 long2 pao2 feng4
 烽火相連	feng1 huo3 xiang1 lian2
 烽煙遍地	feng1 yan1 bian4 di4
+烽煙遍地	feng1 yan1 pian4 di4
 焉得	yan1 de2
 焉得虎子	yan1 de2 hu3 zi3
 焉耆盆地	yan1 qi2 pen2 di4
@@ -106332,9 +106347,13 @@ min_phrase_weight: 100
 遍地	bian4 di4
 遍地	pian4 di4
 遍地荒旱	bian4 di4 huang1 han4
+遍地荒旱	pian4 di4 huang1 han4
 遍地開花	bian4 di4 kai1 hua1
+遍地開花	pian4 di4 kai1 hua1
 遍處	bian4 chu4
+遍處	pian4 chu4
 遍行	bian4 xing2
+遍行	pian4 xing2
 過一會兒	guo4 yi4 hui3 er5	80%
 過一會兒	guo4 yi4 hui3 er2
 過一會兒	guo4 yi1 hui3 er5	80%
@@ -111833,6 +111852,7 @@ min_phrase_weight: 100
 餓莩	e4 piao3
 餓莩載道	e4 piao3 zai4 dao4
 餓莩遍野	e4 piao3 bian4 ye3
+餓莩遍野	e4 piao3 pian4 ye3
 餔啜	bu1 chuo4
 餔子	bu4 zi5
 餔時	bu1 shi2
@@ -113482,4 +113502,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113485 #####
+##### @結束 END - 113505 #####
