@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "202404"
+version: "202406"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -163,6 +163,7 @@ min_phrase_weight: 100
 鎩	(sha4)	1%
 铩	(sha4)	1%
 韋	(wei3)	1%
+韦	(wei3)	1%
 頷	(han2)	1%
 颔	(han2)	1%
 妨	(fang3)	1%

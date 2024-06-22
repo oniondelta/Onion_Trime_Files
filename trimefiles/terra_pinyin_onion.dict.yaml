@@ -127,6 +127,7 @@
 #    詞句中，「質」臺灣字典不同語意分別發音「zhi2」「zhi4」，但語意品質時發「zhi2」，大陸則為「zhi4」，日常易混，故皆補齊「zhi2」「zhi4」，語意為品質等「zhi4」詞頻設為3%。
 #    詞句中，「塑」日常發音常會誤發為「shuo4」，故皆補齊「su4」「shuo4」，後者詞頻設為80%。
 #    詞句中，「遍」皆補齊「bian4」「pian4」。
+#    詞句中，「韋」日常發音常會誤發為「wei3」，故皆補齊「wei2」「wei3」，後者詞頻設為80%。
 #    預計比對「輕聲和一聲」變音。
 #
 #  〈2020修改字詞彙發音〉：
@@ -149,7 +150,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202404"
+version: "202406"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -2281,6 +2282,8 @@ min_phrase_weight: 100
 拤	qia3
 拤	long4	0%
 𤆬	chua1
+韋	hui2	0%
+韦	hui2	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -68002,6 +68005,7 @@ min_phrase_weight: 100
 塞門	sai4 men2
 塞門	se4 men2
 塞韋里諾	sai4 wei2 li3 nuo4
+塞韋里諾	sai4 wei3 li3 nuo4	80%
 塞音	se4 yin1
 填咽	tian2 ye4
 填塞	tian2 se4
@@ -83601,6 +83605,8 @@ min_phrase_weight: 100
 梅酢	mei2 cu4
 梅里亞姆‧韋伯斯特	mei2 li3 ya3 mu3 eng5 wei2 bo2 si1 te4
 梅里亞姆‧韋伯斯特	mei2 li3 ya4 mu3 eng5 wei2 bo2 si1 te4
+梅里亞姆‧韋伯斯特	mei2 li3 ya3 mu3 eng5 wei3 bo2 si1 te4	80%
+梅里亞姆‧韋伯斯特	mei2 li3 ya4 mu3 eng5 wei3 bo2 si1 te4	80%
 梅開二度	mei2 kai1 er4 du4
 梅香拜把子	mei2 xiang1 bai4 ba3 zi5
 梆子	bang1 zi5
@@ -109559,6 +109565,7 @@ min_phrase_weight: 100
 阿昌族	a1 chang1 zu2
 阿明	a1 ming2
 阿昔洛韋	a1 xi1 luo4 wei2
+阿昔洛韋	a1 xi1 luo4 wei3	80%
 阿是穴	e1 shi4 xue4
 阿是穴	a1 shi4 xue2	3%
 阿普吐龍	a1 pu3 tu3 long2
@@ -111135,11 +111142,17 @@ min_phrase_weight: 100
 韁繩	jiang1 sheng2
 韃子	da2 zi5
 韋布匹夫	wei2 bu4 pi3 fu1
+韋布匹夫	wei3 bu4 pi3 fu1	80%
 韋應物	wei2 ying4 wu4
+韋應物	wei3 ying4 wu4	80%
 韋斯卡	wei2 si1 ka3
+韋斯卡	wei3 si1 ka3	80%
 韋轂	wei2 gu3
+韋轂	wei3 gu3	80%
 韋馱	wei2 tuo2
+韋馱	wei3 tuo2	80%
 韋馱菩薩	wei2 tuo2 pu2 sa4
+韋馱菩薩	wei3 tuo2 pu2 sa4	80%
 韓亞航空	han2 ya3 hang2 kong1
 韓亞航空	han2 ya4 hang2 kong1
 韓信將兵	han2 xin4 jiang4 bing1
@@ -113502,4 +113515,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113505 #####
+##### @結束 END - 113518 #####
