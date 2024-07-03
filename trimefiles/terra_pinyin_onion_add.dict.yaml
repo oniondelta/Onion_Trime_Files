@@ -18,7 +18,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion_add
-version: "202406"
+version: "202407"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -1320,7 +1320,7 @@ min_phrase_weight: 100
 噢	(o5)	1%
 呵	(o5)	1%
 哦	(e5)	1%
-呃	(e5)	3%
+# 呃	(e5)	3%
 𡅅	(e5)	0%
 啈	(e5)	1%
 誒	(eh5)	1%

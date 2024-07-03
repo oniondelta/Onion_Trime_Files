@@ -150,7 +150,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202406"
+version: "202407"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -2284,6 +2284,8 @@ min_phrase_weight: 100
 𤆬	chua1
 韋	hui2	0%
 韦	hui2	0%
+蟠	fan2	0%
+呃	e5	3%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -59035,6 +59037,8 @@ min_phrase_weight: 100
 倒車擋	dao4 che1 dang3
 倒載干戈	dao4 zai4 gan1 ge1
 倒轉	dao4 zhuan3
+倒轉	dao4 zhuan4
+倒轉	dao3 zhuan3
 倒退	dao4 tui4
 倒運	dao3 yun4
 倒過兒	dao4 guo4 er5	80%
@@ -101165,6 +101169,7 @@ min_phrase_weight: 100
 螺線圈	luo2 xian4 quan1
 螺螄	luo2 si1
 螺鈿	luo2 dian4
+螺鈿	luo2 tian2
 螻蟻得志	lou2 yi3 de2 zhi4
 螾廬曲談	yin3 lu2 qu3 tan2
 蟄伏	zhi2 fu2
@@ -113515,4 +113520,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113518 #####
+##### @結束 END - 113523 #####
