@@ -31,11 +31,9 @@ min_phrase_weight: 100
 # 厘	(li3)
 # 釐	(li3)
 # 割	(gua4)	0%
-# 脊	(ji1)
 # 泵	(bang1)	1%
 # 翹	(qiao1)	0.1%
 # 翘	(qiao1)	0.1%
-# 蓬	(peng1)	0.1%
 # 濛	(meng1)	0.1%
 # 弦	(xuan2)	0.1%
 # 答	(da5)
@@ -93,7 +91,6 @@ min_phrase_weight: 100
 毘	(bi4)
 毗	(pi4)	50%
 毘	(pi4)	50%
-# 哞	(mou2)	10%
 焙	(pei2)
 呷	(jia3)
 楔	(qi4)
@@ -175,6 +172,7 @@ min_phrase_weight: 100
 豌	(wan3)	10%
 犍	(jian4)	0.1%
 捩	(lei4)	0.1%
+唭	(qi1)	1%
 唭	(qi2)	0.1%
 窿	(long5)	0%
 朵	(duo5)	0%
@@ -252,6 +250,11 @@ min_phrase_weight: 100
 嗝	(ge3)	1%
 舀	(yao2)	1%
 瞄	(miao1)	1%
+蓬	(peng1)	1%
+脊	(ji1)
+囔	(nang2)	1%
+錏	(ya3)
+铔	(ya3)
 ### @補充為《一聲》，通俗慣用或方便輸入，『非正確發音』！！！ ###
 腓	(fei1)	1%
 琲	(fei1)	1%
@@ -613,7 +616,7 @@ min_phrase_weight: 100
 咔	(long5)	0%
 哢	(long5)	0%
 哷	(lv5)	0%
-喇	(la5)	1%
+# 喇	(la5)	1%
 叻	(la5)	0%
 嘞	(le5)	0%
 叻	(le5)	0%
