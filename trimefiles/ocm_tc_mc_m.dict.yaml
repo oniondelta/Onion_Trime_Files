@@ -4,7 +4,7 @@
 # 字碼有少部分重複，但勿用excel去刪除重複的，因會把相通的字給一並刪除，如：aduu->[朗]和[朗]會給一並的刪除！
 ---
 name: ocm_tc_mc_m
-version: "202211"
+version: "202407"
 sort: original
 use_preset_vocabulary: false
 #max_phrase_length: 7
@@ -1274,7 +1274,7 @@ use_preset_vocabulary: false
 缽	ate	319
 鉢	ate
 翎	atee	76
-鉢	atev
+鉢	atev	1
 錰	atf
 怷	ath	1
 怸	ath
@@ -1449,7 +1449,7 @@ use_preset_vocabulary: false
 壹	axe	117
 銪	axe
 弌	axe
-弌	axer
+弌	axer	1
 銪	axev	1
 甙	axg
 忒	axh	8
@@ -1470,8 +1470,8 @@ use_preset_vocabulary: false
 貳	axr	80
 弍	axr
 貳	axrb	80
-弍	axrv
-弎	axs
+弍	axrv	1
+弎	axs	1
 鎩	axtu	10
 發	axu	42036
 髮	axu
@@ -1615,7 +1615,7 @@ use_preset_vocabulary: false
 阾	bat
 阾	batf
 涂	batr	110
-凃	bats
+凃	bats	1
 除	batv	10955
 隃	baur	1
 慈	bav	998
@@ -1650,7 +1650,7 @@ use_preset_vocabulary: false
 涂	bbh
 凃	bbh
 涂	bbhr	110
-凃	bbhs
+凃	bbhs	1
 慫	bbhv	24
 鄫	bbi	1
 睂	bbim
@@ -2012,7 +2012,7 @@ use_preset_vocabulary: false
 羏	bhm
 着	bhm
 羳	bhmq	1
-着	bhmr
+着	bhmr	1
 羏	bhmv
 余	bhn	613
 餘	bhn
@@ -2180,7 +2180,7 @@ use_preset_vocabulary: false
 差	bkpi	5604
 著	bkpm	28730
 着	bkpm
-着	bkpmv
+着	bkpmv	1
 齹	bkpu	1
 羌	bkr	34
 鄯	bkrb	1
@@ -4091,7 +4091,7 @@ use_preset_vocabulary: false
 鬥	dda	1434
 鬪	dda
 劉	ddar	2559
-鬪	ddav
+鬪	ddav	1
 暸	ddbs	3
 晚	ddcr	5193
 冕	ddcr
@@ -4123,7 +4123,7 @@ use_preset_vocabulary: false
 晻	ddil	1
 殗	ddil
 殗	ddilv	1
-鬦	ddj
+鬦	ddj	1
 暍	ddl	7
 暻	ddls	3
 貿	ddmb	1998
@@ -4581,7 +4581,7 @@ use_preset_vocabulary: false
 暺	doj	1
 殫	doj
 殫	dojv	5
-鬬	dok
+鬬	dok	1
 袈	dolk	6
 毠	dom	1
 賀	domb	462
@@ -4595,16 +4595,16 @@ use_preset_vocabulary: false
 暺	dooj	1
 殫	dooj
 殫	doojv	5
-鬬	dook
+鬬	dook	1
 鬭	dook
-鬭	dookv
+鬭	dookv	1
 巶	dool
 曮	doop	1
 夻	door
 召	doov	2066
 卲	dop	4
 刟	dor
-鬬	dork
+鬬	dork	1
 架	dot	2823
 哿	doto	3
 冔	dou	1
@@ -4750,7 +4750,7 @@ use_preset_vocabulary: false
 殌	dsiv	1
 昳	dsn	1
 曭	dsnf	2
-晧	dso
+晧	dso	1
 殊	dss	1649
 殜	dst
 題	dt	22095
@@ -5480,7 +5480,7 @@ use_preset_vocabulary: false
 舉	ehj	8919
 挙	ehj
 擧	ehj
-擧	ehjr
+擧	ehjr	1
 挙	ehjv
 酥	ehn	162
 鷫	ehnf	1
@@ -5839,7 +5839,7 @@ use_preset_vocabulary: false
 醖	eobfv
 群	eobh	5631
 羣	eobh
-羣	eobhv
+羣	eobhv	1
 焄	eof	1
 崮	eojo	1
 崓	eojo
@@ -5924,7 +5924,7 @@ use_preset_vocabulary: false
 峌	epe	1
 峰	epf	1307
 峯	epf
-峯	epfv
+峯	epfv	1
 崥	epg	1
 印	epi	4458
 峳	epip
@@ -6129,7 +6129,7 @@ use_preset_vocabulary: false
 巋	erev	1
 嶆	erfd	1
 醩	erfd
-醩	erfdv
+醩	erfdv	1
 醼	erff	1
 丣	erff
 丣	erffv
@@ -6157,7 +6157,7 @@ use_preset_vocabulary: false
 醴	erod	13
 嶆	erod
 醩	erod
-醩	erodr
+醩	erodr	1
 嶆	erodv	1
 醼	erof	1
 嶩	erok	1
@@ -6369,7 +6369,7 @@ use_preset_vocabulary: false
 崉	ewd
 雞	ewdf	1387
 鷄	ewdf
-鷄	ewdfv
+鷄	ewdfv	1
 谿	ewdo	12
 崉	ewdr
 雞	ewdv	1387
@@ -7257,7 +7257,7 @@ use_preset_vocabulary: false
 眞	fmlb
 顚	fmlb
 顚	fmlbr
-眞	fmlbv
+眞	fmlbv	1
 顚	fmlt
 騗	fmmf
 匷	fmmv	1
@@ -7403,7 +7403,7 @@ use_preset_vocabulary: false
 劶	fod
 煾	fodh
 劶	fodr
-烟	fodv
+烟	fodv	1
 煆	fofu	1
 匰	foj	1
 燀	foj
@@ -7445,7 +7445,7 @@ use_preset_vocabulary: false
 啟	fop	2322
 啓	fop
 焒	fopo
-啓	fopv
+啓	fopv	1
 罶	foq	5
 熘	foq
 熘	foqv
@@ -7527,7 +7527,7 @@ use_preset_vocabulary: false
 啓	fpo
 燠	fpob	12
 熜	fpoh	1
-啓	fpor
+啓	fpor	1
 烙	fpov	65
 焷	fpqg
 戸	fpr
@@ -8980,7 +8980,7 @@ use_preset_vocabulary: false
 床	gtn
 牀	gtn
 媆	gtnd
-牀	gtnr
+牀	gtnr	1
 床	gtnv	1674
 牁	gto	1
 妸	gto
@@ -9549,7 +9549,7 @@ use_preset_vocabulary: false
 忋	hflv
 惼	hfm	1
 稨	hfm
-愼	hfmb
+愼	hfmb	1
 稨	hfmv	1
 秋	hfn	1891
 煑	hfn
@@ -9662,7 +9662,7 @@ use_preset_vocabulary: false
 慎	hjb	752
 稹	hjb
 愼	hjb
-愼	hjbr
+愼	hjbr	1
 稹	hjbv	5
 懶	hjcb	605
 悚	hjcs	44
@@ -9678,7 +9678,7 @@ use_preset_vocabulary: false
 慎	hjmb	752
 稹	hjmb
 愼	hjmb
-愼	hjmbr
+愼	hjmbr	1
 稹	hjmbv	5
 稙	hjme	2
 稙	hjml	2
@@ -11395,7 +11395,7 @@ use_preset_vocabulary: false
 枣	jba
 枣	jbaf
 抔	jbar	1
-眞	jbas
+眞	jbas	1
 扒	jbav	78
 扵	jbb
 賫	jbbb
@@ -12183,7 +12183,7 @@ use_preset_vocabulary: false
 顛	jmlb
 眞	jmlb
 顚	jmlb
-眞	jmlbr
+眞	jmlbr	1
 顚	jmlbs
 顛	jmlbv	334
 鷏	jmlf	1
@@ -12715,7 +12715,7 @@ use_preset_vocabulary: false
 奭	jtdb	6
 揸	jtde
 擾	jtdp	1606
-擡	jte
+擡	jte	1
 打	jti	13878
 捅	jtj	17
 揸	jtm
@@ -12916,7 +12916,7 @@ use_preset_vocabulary: false
 撎	jynd
 拮	jyo	44
 擷	jyob	100
-擡	jyop
+擡	jyop	1
 擷	jyot	100
 搘	jypd	1
 拷	jypk	148
@@ -13148,7 +13148,7 @@ use_preset_vocabulary: false
 璙	kdbs
 琩	kdd	1
 珕	kddd
-瑠	kddq
+瑠	kddq	1
 瑒	kdem	1
 氱	kdem
 氱	kdemv
@@ -13567,7 +13567,7 @@ use_preset_vocabulary: false
 瑠	koq
 璢	koq
 璢	koqr
-瑠	koqv
+瑠	koqv	1
 琄	kou	1
 亟	koue	133
 焏	kouf
@@ -14207,13 +14207,13 @@ use_preset_vocabulary: false
 癚	lbni	1
 麅	lbnl
 疱	lbnl
-疱	lbnlv
+疱	lbnlv	1
 疚	lbnn	65
 痀	lbno	1
 痌	lbno
 痌	lbnov	4
 麅	lbnr
-疱	lbns
+疱	lbns	1
 庂	lbnv	1
 耜	lbo	8
 瘕	lbo
@@ -15383,12 +15383,12 @@ use_preset_vocabulary: false
 競	lor
 矵	lor
 礶	lor
-礡	lora	16
+礡	lora	1
 礬	lora
 礣	lora
 礴	lora
 礣	lorar	1
-礴	loras
+礴	loras	16
 礬	lorav	1
 碘	lorb	34
 磺	lorb
@@ -15431,7 +15431,7 @@ use_preset_vocabulary: false
 礶	lorv
 礶	lorvv
 磁	lorw	568
-礡	lorx	16
+礡	lorx	1
 砹	lorx
 砹	lorxv
 京	los	3029
@@ -18033,7 +18033,7 @@ use_preset_vocabulary: false
 竇	nbyb	45
 窾	nbyi	1
 竇	nbym	45
-竈	nbyx
+竈	nbyx	1
 窐	nbyy	1
 窙	nbyz	1
 穵	nbz	1
@@ -18320,8 +18320,8 @@ use_preset_vocabulary: false
 宓	nhp	13
 蜜	nhpc	539
 密	nhpe	3850
-寗	nhpq
-寗	nhpy
+寗	nhpq	1
+寗	nhpy	1
 寈	nhu
 市	ni	27036
 巾	ni
@@ -18857,7 +18857,7 @@ use_preset_vocabulary: false
 竇	nryb	45
 窾	nryi	1
 竇	nrym	45
-竈	nryx
+竈	nryx	1
 窐	nryy	1
 窙	nryz	1
 冗	nrz	65
@@ -19429,7 +19429,7 @@ use_preset_vocabulary: false
 囙	ofo
 嘔	ofoo	164
 囙	ofov
-咔	ofp
+咔	ofp	1
 囉	ofsv	485
 跡	ofv	1187
 嗾	ofvd	1
@@ -20279,7 +20279,7 @@ use_preset_vocabulary: false
 圗	oulo
 嘇	oum
 圎	oumb
-咏	oun
+咏	oun	1
 鵑	ounf	113
 咍	ouo	1
 囼	ouo
@@ -20309,7 +20309,7 @@ use_preset_vocabulary: false
 咋	ovf	22
 噍	ovf
 嘸	ovff	40
-噍	ovfv
+噍	ovfv	1
 咈	ovj	4
 噗	ovn	68
 鷕	ovnf	2
@@ -20735,7 +20735,7 @@ use_preset_vocabulary: false
 蹤	ozns	1004
 躥	ozns
 踪	ozns
-踪	oznsr
+踪	oznsr	1
 躥	oznsv	3
 跑	oznv	3451
 呫	ozo	1
@@ -21637,7 +21637,7 @@ use_preset_vocabulary: false
 值	pje	5788
 傋	pje
 値	pje
-値	pjer
+値	pjer	1
 傋	pjev	2
 倢	pjez	1
 什	pjj	18494
@@ -21645,16 +21645,16 @@ use_preset_vocabulary: false
 倅	pjjv	1
 值	pjl	5788
 値	pjl
-値	pjlv
+値	pjlv	1
 牘	pjm	23
 儥	pjm
 傎	pjmb	1
 值	pjme	5788
 値	pjme
-値	pjmev
+値	pjmev	1
 值	pjml	5788
 値	pjml
-値	pjmlv
+値	pjmlv	1
 儥	pjmv	1
 伂	pjn	1
 偍	pjn
@@ -22451,7 +22451,7 @@ use_preset_vocabulary: false
 仴	puev	2
 俓	pui	2
 伃	pui
-伃	puiv
+伃	puiv	1
 傪	pum
 佁	puo	1
 儒	pur	600
@@ -23089,7 +23089,7 @@ use_preset_vocabulary: false
 勥	qocd
 謽	qoci	1
 犟	qocs
-强	qocv
+强	qocv	1
 猳	qofu	1
 歄	qoi
 彈	qoj	2889
@@ -23283,7 +23283,7 @@ use_preset_vocabulary: false
 勥	qucd
 謽	quci	1
 犟	qucs
-强	qucv
+强	qucv	1
 骻	qudk	1
 骨	que	1572
 胃	que
@@ -25314,7 +25314,7 @@ use_preset_vocabulary: false
 茝	rre
 蘣	rrek	1
 蒒	rren
-亖	rrer
+亖	rrer	1
 茝	rres
 臦	rrev	1
 蘳	rrey	1
@@ -25703,7 +25703,7 @@ use_preset_vocabulary: false
 蓪	rtn
 朶	rtn
 师	rtn
-朶	rtnf
+朶	rtnf	1
 荋	rtnr	2
 聏	rtnr
 萙	rtnr
@@ -26371,7 +26371,7 @@ use_preset_vocabulary: false
 紹	sdo	1904
 糿	sdp
 煭	sdrf
-絝	sdrk
+絝	sdrk	1
 繓	sdru	1
 犦	sdrw	1
 尜	sds
@@ -26556,7 +26556,7 @@ use_preset_vocabulary: false
 緖	shov
 繡	shr	155
 綉	shr
-綉	shrv
+綉	shrv	1
 縤	shs	1
 綪	shu	1
 掌	shv	2234
@@ -27173,7 +27173,7 @@ use_preset_vocabulary: false
 緋	srss	65
 躲	srt	596
 躱	srt
-躱	srtv
+躱	srtv	1
 緅	sru	2
 繖	srup	1
 弊	srv	539
@@ -27225,7 +27225,7 @@ use_preset_vocabulary: false
 犇	sss
 尛	sss
 尛	sssr	1
-犇	sssv
+犇	sssv	1
 緤	sst
 綃	ssu	1
 甧	ssu
@@ -27343,7 +27343,7 @@ use_preset_vocabulary: false
 牴	sxe	38
 絠	sxe
 絠	sxev
-絝	sxk
+絝	sxk	1
 繩	sxl	282
 牜	sxr
 紘	sxu	9
@@ -29317,7 +29317,7 @@ use_preset_vocabulary: false
 参	uds
 参	udsf
 絫	udsr	1
-叁	udss
+叁	udss	1
 參	udsv	11296
 膜	udv	616
 腸	udvm	800
@@ -30392,7 +30392,7 @@ use_preset_vocabulary: false
 叁	use
 叄	use
 胱	user	27
-叄	uses
+叄	uses	1
 胜	usev	5
 臘	usfs	303
 脛	usi	40
@@ -30509,7 +30509,7 @@ use_preset_vocabulary: false
 剼	uuurv	1
 絫	uuus	1
 叄	uuus
-叄	uuusv
+叄	uuusv	1
 桑	uuut	436
 顙	uuut
 顙	uuutv	1
@@ -32254,7 +32254,7 @@ use_preset_vocabulary: false
 齎	whmb
 齎	whmbv	1
 濪	whnc
-瀞	whne
+瀞	whne	1
 淸	whnl
 濪	whnl
 濪	whnlv
@@ -32282,7 +32282,7 @@ use_preset_vocabulary: false
 清	whu	10433
 淸	whu
 濪	whuc
-瀞	whue
+瀞	whue	1
 濪	whul
 淸	whuv
 涂	whv	110
@@ -32689,7 +32689,7 @@ use_preset_vocabulary: false
 泪	wmor
 涙	wmos
 灛	wmov	1
-彣	wmp
+彣	wmp	1
 灁	wmpw	1
 潘	wmq	523
 瀵	wmqb	1
@@ -35302,7 +35302,7 @@ use_preset_vocabulary: false
 卻	yup	11141
 却	yup
 叝	yupu
-却	yupv
+却	yupv	1
 壖	yur	2
 刦	yur
 弆	yur
