@@ -129,6 +129,8 @@
 #    詞句中，「遍」皆補齊「bian4」「pian4」。
 #    詞句中，「韋」日常發音常會誤發為「wei3」，故皆補齊「wei2」「wei3」，後者詞頻設為80%。
 #    詞句中，「懲」日常發音常會誤發為「cheng3」，故皆補齊「cheng2」「cheng3」。
+#    詞句中，「痙」日常發音常會誤發為「jing1」，臺灣標準為「jing4」，故皆補齊「jing1」「jing4」。
+#    詞句中，「孿」臺灣字典發音為「luan2」，又音為「lvan2」，故皆補齊「luan2」「lvan2」。
 #    預計比對「輕聲和一聲」變音。
 #
 #  〈2020修改字詞彙發音〉：
@@ -70450,6 +70452,7 @@ min_phrase_weight: 100
 孽障種子	nie4 zhang4 zhong3 zi3
 孽障種子	nie4 zhang4 zhong3 zi5
 孿生素數	luan2 sheng1 su4 shu4
+孿生素數	lvan2 sheng1 su4 shu4
 它們	ta1 men5
 它們	tuo1 men5	0%
 它們	ta1 men2
@@ -75823,7 +75826,9 @@ min_phrase_weight: 100
 憑軾結轍	ping2 shi4 jie2 zhe2
 憤切	fen4 qie4
 憤怒痙攣	fen4 nu4 jing4 lvan2
+憤怒痙攣	fen4 nu4 jing1 lvan2	80%
 憤怒痙攣	fen4 nu4 jing4 luan2
+憤怒痙攣	fen4 nu4 jing1 luan2	80%
 憤惋	fen4 wan4
 憤薄	fen4 bo2
 憨厚	han1 hou4
@@ -89008,7 +89013,9 @@ min_phrase_weight: 100
 熱淚盈眶	re4 lei4 ying2 kuang4
 熱爪哇	re4 zhao3 wa1
 熱痙攣	re4 jing4 lvan2
+熱痙攣	re4 jing1 lvan2	80%
 熱痙攣	re4 jing4 luan2
+熱痙攣	re4 jing1 luan2	80%
 熱發光劑量計	re4 fa1 guang1 ji4 liang4 ji4
 熱脈衝	re4 mai4 chong1
 熱處理	re4 chu3 li3
@@ -91184,10 +91191,13 @@ min_phrase_weight: 100
 痘子	dou4 zi5
 痘疹娘娘	dou4 zhen3 niang2 niang2
 痙攣	jing4 lvan2
-痙攣	jing1 luan2
+痙攣	jing1 luan2	80%
 痙攣	jing4 luan2
+痙攣	jing1 lvan2	80%
 痙攣派	jing4 lvan2 pai4
+痙攣派	jing1 lvan2 pai4	80%
 痙攣派	jing4 luan2 pai4
+痙攣派	jing1 luan2 pai4	80%
 痛切	tong4 qie4
 痛切心骨	tong4 qie4 xin1 gu3
 痛喝	tong4 he1
@@ -113643,4 +113653,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 113646 #####
+##### @結束 END - 113656 #####
