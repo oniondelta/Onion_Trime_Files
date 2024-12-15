@@ -24,7 +24,7 @@
 
 - 預設鍵盤檔適用[ trime 3.2.14 版](https://github.com/osfans/trime/releases/tag/v3.2.14)
 
-- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 和 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 鍵盤檔
+- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 、 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 、 [ trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 鍵盤檔
 
 - 3.2.6、3.2.7、3.2.8、3.2.14 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
 
