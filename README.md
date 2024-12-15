@@ -11,20 +11,20 @@
 
   > 「螢幕關閉休眠」會影響「部署」時間，甚至「部署」不起來。
 
-- 「設定」→「鍵盤設定」→「嵌入式編輯模式」選「無」。
+- 「設定」→「鍵盤設定」→「嵌入式編輯模式」選「無」。（3.3.1版不需要）
 
   > 符合方案初衷樣式。
 
-- 「設定」→「鍵盤設定」→「點擊候選詞」打開「直接上屏候選詞」。
+- 「設定」→「鍵盤設定」→「點擊候選詞」打開「直接上屏候選詞」。（3.3.1版不需要）
 
   > 符合方案初衷樣式。
 
 
 ## 版本
 
-- 預設鍵盤檔適用[ trime 3.2.14 版](https://github.com/osfans/trime/releases/tag/v3.2.14)
+- 預設鍵盤檔適用[ trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 
 
-- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 、 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 、 [ trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 鍵盤檔
+- 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 、 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 、 [ trime 3.2.14 版](https://github.com/osfans/trime/releases/tag/v3.2.14) 鍵盤檔
 
 - 3.2.6、3.2.7、3.2.8、3.2.14 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
 
