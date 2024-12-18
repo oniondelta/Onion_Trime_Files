@@ -26,9 +26,9 @@
 
 - 內附舊版[ trime 3.2.1 版](https://github.com/osfans/trime/releases/tag/v3.2.1) 、 [ trime 3.2.8 版](https://github.com/osfans/trime/releases/tag/v3.2.8) 、 [ trime 3.2.14 版](https://github.com/osfans/trime/releases/tag/v3.2.14) 鍵盤檔
 
-- 3.2.6、3.2.7、3.2.8、3.2.14 版方案部署比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
+- 3.2.6、3.2.7、3.2.8、3.2.14 版方案「部署」比舊版慢很多，需很有耐心，全部方案一次性加入「部署」要 60 分鐘 XD
 
-- 3.3.1 版方案部屬超快，不知是因為新手機還是新版本的關係 👍🏻
+- 3.3.1 版方案「部屬」變超快 👍🏻
 
 ## 內容說明
 
