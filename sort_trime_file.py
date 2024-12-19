@@ -76,6 +76,8 @@ shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文�
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.txt")
 
+shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./sort_trime/洋蔥同文注音雙拼版/custom檔_手機注音雙拼不開頭簡拼/")
+
 
 #複製檔案(洋蔥同文注音mixin版)
 shutil.copyfile("./trimefiles/essay-zh-hant-mc-mixin.txt", "./sort_trime/洋蔥同文注音mixin版/essay-zh-hant-mc-mixin.txt")
