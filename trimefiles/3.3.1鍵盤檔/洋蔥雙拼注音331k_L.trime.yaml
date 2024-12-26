@@ -301,6 +301,7 @@ preset_keys:
   肉類: {text: '{Escape};rl', label: 肉類, functional: false}
 #  肉品: {text: '{Escape};rp', label: 肉品, functional: false}
   食物: {text: '{Escape};au', label: 食物, functional: false}
+  工業: {text: '{Escape};gi', label: 工業, functional: false}
 
   顏開心: {text: '{Escape};;1', label: 〘開心〙, functional: false}
   顏喜歡: {text: '{Escape};;2', label: 〘喜歡〙, functional: false}
