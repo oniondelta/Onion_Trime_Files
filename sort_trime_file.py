@@ -41,6 +41,10 @@ shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥同文
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/emoji_t_m.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/punct_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥同文注音純注音版/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥同文注音純注音版/opencc/back_mark_table_t.txt")
 
 
 #複製檔案(洋蔥同文注音雙拼版版)
@@ -75,6 +79,10 @@ shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥同文
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/emoji_t_m.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/punct_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥同文注音雙拼版/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥同文注音雙拼版/opencc/back_mark_table_t.txt")
 
 shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./sort_trime/洋蔥同文注音雙拼版/custom檔_手機注音雙拼不開頭簡拼/")
 
@@ -119,14 +127,16 @@ shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_M.trime.yaml", "./
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音mixin版/sy_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音mixin版/sy_bpmf.schema.yaml")
 
-shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_t.json")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音mixin版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_t_m.json")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/emoji_t_m.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/punct_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥同文注音mixin版/opencc/back_mark_table_t.txt")
 
 
 #複製檔案(洋蔥同文注音plus版)
@@ -182,14 +192,16 @@ shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_M.trime.yaml", "./
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./sort_trime/洋蔥同文注音plus版/sy_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./sort_trime/洋蔥同文注音plus版/sy_bpmf.schema.yaml")
 
-shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_t.json")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥同文注音plus版/opencc/bpm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/bpm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥同文注音plus版/opencc/bpm_moedict_big5e_hkscs_jis.txt")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_t_m.json")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥同文注音plus版/opencc/emoji_t_m.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/punct_mark_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥同文注音plus版/opencc/back_mark_table_t.txt")
 
 shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1只出假名修改檔/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1只出假名修改檔/")
 shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1精簡轉寫修改檔/", "./sort_trime/洋蔥同文注音plus版/手機jpnin1精簡轉寫修改檔/")
@@ -230,12 +242,14 @@ shutil.copyfile("./trimefiles/sy_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦
 
 shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/ocm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/ocm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_t.json")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/punct_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_t_m.json")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/emoji_t_m.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/back_mark_table_t.txt")
 
 
 #複製檔案(洋蔥手機蝦-plus)
@@ -281,12 +295,14 @@ shutil.copyfile("./trimefiles/sy_ocm.schema.yaml", "./sort_trime/洋蔥手機蝦
 
 shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/ocm_moedict_big5e_hkscs_jis.json")
 shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/ocm_moedict_big5e_hkscs_jis.txt")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.json")
-shutil.copyfile("./trimefiles/opencc/back_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.json")
 shutil.copyfile("./trimefiles/opencc/punct_mark_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/punct_mark_t.txt")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_t_m.json")
 shutil.copyfile("./trimefiles/opencc/emoji_t_m.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/emoji_t_m.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_series_t.json")
+shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_script_t.txt")
+shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋蔥手機蝦/ocm_plus/opencc/back_mark_table_t.txt")
 
 
 #實體(藍牙)鍵盤專用

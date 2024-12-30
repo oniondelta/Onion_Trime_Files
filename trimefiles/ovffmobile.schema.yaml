@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202405"
+  version: "202412"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -56,6 +56,7 @@ engine:
     - simplifier@emoji_switch
     - simplifier
     - simplifier@back_mark
+    - simplifier@back_mark_series
     - simplifier@punct_mark
     - uniquifier
   processors:
@@ -93,6 +94,9 @@ character_range_bhjm:
   tags: [ abc ]
 #  tips: all
 
+charset_filter2:
+  tags: [ abc ]
+
 # big5:
 #   tags: [ abc ]
 
@@ -102,12 +106,25 @@ emoji_switch:
   tags: [ abc ]
 #  tips: all
 
+back_mark_series:
+  opencc_config: back_mark_series_t.json
+  option_name: back_mark
+  show_in_comment: true
+  tags: [ syocm ]
+  tips: all
+  comment_format:
+    - erase/^.*〕.+$/  #去除一個條目有多個轉換。
+    - erase/^.+〔.*$/  #去除一個條目有多個轉換。
+
 back_mark:
   opencc_config: back_mark_t.json
   option_name: back_mark
   show_in_comment: true
-  tags: [ abc, syocm ]
+  tags: [ abc ]
   tips: char #all
+  # comment_format:
+  #   - erase/^.*〕.+$/  #去除一個條目有多個轉換。
+  #   - erase/^.+〔.*$/  #去除一個條目有多個轉換。
 
 punct_mark:
   opencc_config: punct_mark_t.json

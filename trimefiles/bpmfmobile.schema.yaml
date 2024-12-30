@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobile
   name: "《洋蔥手機注音》"
-  version: "202405"
+  version: "202412"
   author:
     - 『洋蔥』 #以佛振注音支持聲韻亂序方案改編
   description: |
@@ -33,6 +33,9 @@ switches:
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
+  - name: back_mark
+    reset: 1
+#    states: [ " 無 ", " 註 " ]
   - name: punct_mark
     reset: 1
 #    states: [ 無, 註 ]
@@ -43,6 +46,7 @@ engine:
     - lua_filter@charset_filter2
     - simplifier@emoji_switch
     - simplifier
+    - simplifier@back_mark_series
     - simplifier@punct_mark
     - uniquifier
   processors:
@@ -84,11 +88,24 @@ character_range_bhjm:
   option_name: character_range_bhjm
   tags: [ abc ]
 
+charset_filter2:
+  tags: [ abc ]
+
 emoji_switch:
   opencc_config: emoji_t_m.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all
+
+back_mark_series:
+  opencc_config: back_mark_series_t.json
+  option_name: back_mark
+  show_in_comment: true
+  tags: [ emoji_sy ]
+  tips: all
+  comment_format:
+    - erase/^.*〕.+$/  #去除一個條目有多個轉換。
+    - erase/^.+〔.*$/  #去除一個條目有多個轉換。
 
 punct_mark:
   opencc_config: punct_mark_t.json

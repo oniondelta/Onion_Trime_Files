@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202405"
+  version: "202412"
   author:
     - 『洋蔥』
   description: |
@@ -45,6 +45,7 @@ engine:
     - simplifier@emoji_switch
     - simplifier
     - simplifier@back_mark
+    - simplifier@back_mark_series
     - simplifier@punct_mark
     - uniquifier
   processors:
@@ -81,18 +82,34 @@ character_range_bhjm:
   option_name: character_range_bhjm
   tags: [ abc ]
 
+charset_filter2:
+  tags: [ abc ]
+
 emoji_switch:
   opencc_config: emoji_t_m.json
   option_name: emoji_segestion
   tags: [ abc ]
 #  tips: all
 
+back_mark_series:
+  opencc_config: back_mark_series_t.json
+  option_name: back_mark
+  show_in_comment: true
+  tags: [ emoji_sy ]
+  tips: all
+  comment_format:
+    - erase/^.*〕.+$/  #去除一個條目有多個轉換。
+    - erase/^.+〔.*$/  #去除一個條目有多個轉換。
+
 back_mark:
   opencc_config: back_mark_t.json
   option_name: back_mark
   show_in_comment: true
-  tags: [ abc, emoji_sy ]
+  tags: [ abc ]
   tips: char #all
+  # comment_format:
+  #   - erase/^.*〕.+$/  #去除一個條目有多個轉換。
+  #   - erase/^.+〔.*$/  #去除一個條目有多個轉換。
 
 punct_mark:
   opencc_config: punct_mark_t.json
