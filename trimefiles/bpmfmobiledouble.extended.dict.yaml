@@ -5,7 +5,7 @@
 # 中文字詞標註使用拼音
 ---
 name: bpmfmobiledouble.extended
-version: "202404"
+version: "202501"
 sort: by_weight
 vocabulary: essay-zh-hant-mc
 use_preset_vocabulary: true
@@ -32,7 +32,7 @@ import_tables:
 ㄉ	ｅｄ
 ㄊ	ｅｔ
 ㄋ	ｅｎ
-ㄌ	ｅｌ　
+ㄌ	ｅｌ
 ㄍ	ｅｇ
 ㄎ	ｅｋ
 ㄏ	ｅｈ
