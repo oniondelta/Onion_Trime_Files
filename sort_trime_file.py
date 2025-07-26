@@ -4,12 +4,12 @@ import shutil
 import time
 
 #※新增資料夾(多層目錄, 如前一層data資料夾不存在, 將自動新增)※
-os.makedirs('./sort_trime/洋蔥同文注音純注音版/opencc/', exist_ok=True)
-os.makedirs('./sort_trime/洋蔥同文注音雙拼版/opencc/', exist_ok=True)
-os.makedirs('./sort_trime/洋蔥同文注音plus版/opencc/', exist_ok=True)
-os.makedirs('./sort_trime/洋蔥同文注音mixin版/opencc/', exist_ok=True)
-os.makedirs('./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/', exist_ok=True)
-os.makedirs('./sort_trime/洋蔥手機蝦/ocm_plus/opencc/', exist_ok=True)
+os.makedirs("./sort_trime/洋蔥同文注音純注音版/opencc/", exist_ok=True)
+os.makedirs("./sort_trime/洋蔥同文注音雙拼版/opencc/", exist_ok=True)
+os.makedirs("./sort_trime/洋蔥同文注音plus版/opencc/", exist_ok=True)
+os.makedirs("./sort_trime/洋蔥同文注音mixin版/opencc/", exist_ok=True)
+os.makedirs("./sort_trime/洋蔥手機蝦/ocm_mixin/opencc/", exist_ok=True)
+os.makedirs("./sort_trime/洋蔥手機蝦/ocm_plus/opencc/", exist_ok=True)
 
 
 #複製檔案(洋蔥同文注音純注音版)
@@ -306,49 +306,49 @@ shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime/洋�
 
 
 #實體(藍牙)鍵盤專用
-shutil.copytree('./trimefiles/實體(藍牙)鍵盤專用/', './sort_trime/實體(藍牙)鍵盤專用/')
+shutil.copytree("./trimefiles/實體(藍牙)鍵盤專用/", "./sort_trime/實體(藍牙)鍵盤專用/")
 
 
 #各版主程式
-shutil.copytree('./trimefiles/各版主程式/', './sort_trime/各版主程式/')
+shutil.copytree("./trimefiles/各版主程式/", "./sort_trime/各版主程式/")
 
 
 #適用3.2.1鍵盤檔
-shutil.copytree('./trimefiles/3.2.1鍵盤檔/', './sort_trime/3.2.1鍵盤檔/')
+shutil.copytree("./trimefiles/3.2.1鍵盤檔/", "./sort_trime/3.2.1鍵盤檔/")
 
 #適用3.2.8鍵盤檔
-shutil.copytree('./trimefiles/3.2.8鍵盤檔/', './sort_trime/3.2.8鍵盤檔/')
+shutil.copytree("./trimefiles/3.2.8鍵盤檔/", "./sort_trime/3.2.8鍵盤檔/")
 
 #適用3.2.14鍵盤檔
-shutil.copytree('./trimefiles/3.2.14鍵盤檔/', './sort_trime/3.2.14鍵盤檔/')
+shutil.copytree("./trimefiles/3.2.14鍵盤檔/", "./sort_trime/3.2.14鍵盤檔/")
 
 #適用3.3.1鍵盤檔
-shutil.copytree('./trimefiles/3.3.1鍵盤檔/', './sort_trime/3.3.1鍵盤檔/')
+shutil.copytree("./trimefiles/3.3.1鍵盤檔/", "./sort_trime/3.3.1鍵盤檔/")
 
 
 #初始化方案
-shutil.copytree('./trimefiles/初始化方案/', './sort_trime/初始化方案/')
+shutil.copytree("./trimefiles/初始化方案/", "./sort_trime/初始化方案/")
 
 
 #OpenCC_ocd_64位元
-shutil.copytree('./trimefiles/OpenCC_ocd_64位元/', './sort_trime/OpenCC_ocd_64位元/')
+shutil.copytree("./trimefiles/OpenCC_ocd_64位元/", "./sort_trime/OpenCC_ocd_64位元/")
 
 
 #font字型
-shutil.copytree('./trimefiles/fonts/', './sort_trime/fonts/')
+shutil.copytree("./trimefiles/fonts/", "./sort_trime/fonts/")
 
 
 #名稱增加日期
 localtime=time.strftime("%Y%m%d", time.localtime())
 
-os.rename('./sort_trime/洋蔥同文注音純注音版/', './sort_trime/洋蔥同文注音純注音版_'+localtime)
-os.rename('./sort_trime/洋蔥同文注音雙拼版/', './sort_trime/洋蔥同文注音雙拼版_'+localtime)
-os.rename('./sort_trime/洋蔥同文注音mixin版/', './sort_trime/洋蔥同文注音mixin版_'+localtime)
-os.rename('./sort_trime/洋蔥同文注音plus版/', './sort_trime/洋蔥同文注音plus版_'+localtime)
+os.rename("./sort_trime/洋蔥同文注音純注音版/", "./sort_trime/洋蔥同文注音純注音版_"+localtime)
+os.rename("./sort_trime/洋蔥同文注音雙拼版/", "./sort_trime/洋蔥同文注音雙拼版_"+localtime)
+os.rename("./sort_trime/洋蔥同文注音mixin版/", "./sort_trime/洋蔥同文注音mixin版_"+localtime)
+os.rename("./sort_trime/洋蔥同文注音plus版/", "./sort_trime/洋蔥同文注音plus版_"+localtime)
 
-os.rename('./sort_trime/洋蔥手機蝦/ocm_plus/', './sort_trime/洋蔥手機蝦/ocm_plus_'+localtime)
-os.rename('./sort_trime/洋蔥手機蝦/ocm_mixin/', './sort_trime/洋蔥手機蝦/ocm_mixin_'+localtime)
-os.rename('./sort_trime/洋蔥手機蝦/', './sort_trime/洋蔥手機蝦_'+localtime)
+os.rename("./sort_trime/洋蔥手機蝦/ocm_plus/", "./sort_trime/洋蔥手機蝦/ocm_plus_"+localtime)
+os.rename("./sort_trime/洋蔥手機蝦/ocm_mixin/", "./sort_trime/洋蔥手機蝦/ocm_mixin_"+localtime)
+os.rename("./sort_trime/洋蔥手機蝦/", "./sort_trime/洋蔥手機蝦_"+localtime)
 
-os.rename('./sort_trime/', './洋蔥手機同文方案_'+localtime)
+os.rename("./sort_trime/", "./洋蔥手機同文方案_"+localtime)
 
