@@ -6,6 +6,7 @@ import time
 #※新增資料夾(多層目錄, 如前一層data資料夾不存在, 將自動新增)※
 os.makedirs("./sort_trime/trime﹤allin1﹥/opencc/", exist_ok=True)
 
+
 #複製檔案(洋蔥同文注音純注音版)
 shutil.copyfile("./trimefiles/essay-zh-hant-mc.txt", "./sort_trime/trime﹤allin1﹥/essay-zh-hant-mc.txt")
 shutil.copyfile("./trimefiles/bpmfmobile.extended.dict.yaml", "./sort_trime/trime﹤allin1﹥/bpmfmobile.extended.dict.yaml")
@@ -176,3 +177,6 @@ localtime=time.strftime("%Y%m%d", time.localtime())
 os.rename("./sort_trime/trime﹤allin1﹥/", "./sort_trime/trime﹤allin1﹥_"+localtime)
 
 os.rename("./sort_trime/", "./洋蔥手機同文方案﹤allin1﹥_"+localtime)
+
+
+
