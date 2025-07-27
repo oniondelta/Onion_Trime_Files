@@ -37,41 +37,6 @@ shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./sort_trime_allx
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./sort_trime_allx6/trime﹤allin1﹥/opencc/back_mark_table_t.txt")
 
 
-#複製檔案(洋蔥同文注音雙拼版版)
-shutil.copyfile("./trimefiles/bpmfmobiledouble.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobiledouble.extended.dict.yaml")
-shutil.copyfile("./trimefiles/bpmfmobiledouble.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobiledouble.schema.yaml")
-shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/mixin_bpmf.dict.yaml")
-shutil.copyfile("./trimefiles/sy_d_bpmf.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/sy_d_bpmf.schema.yaml")
-shutil.copyfile("./trimefiles/element_d_bpmfmobiledouble.yaml", "./sort_trime_allx6/trime﹤allin1﹥/element_d_bpmfmobiledouble.yaml")
-shutil.copyfile("./trimefiles/punct_d_bpmf.yaml", "./sort_trime_allx6/trime﹤allin1﹥/punct_d_bpmf.yaml")
-shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_H.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_H.trime.yaml")
-shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_L.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_L.trime.yaml")
-shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_M.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_M.trime.yaml")
-shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./sort_trime_allx6/trime﹤allin1﹥/custom檔_手機注音雙拼不開頭簡拼/")
-
-
-#複製檔案(洋蔥同文注音mixin版)
-shutil.copyfile("./trimefiles/essay-zh-hant-mc-mixin.txt", "./sort_trime_allx6/trime﹤allin1﹥/essay-zh-hant-mc-mixin.txt")
-shutil.copyfile("./trimefiles/bo_mixin_jp.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_jp.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin_kr_m.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_kr_m.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin_kr_hnc_m.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_kr_hnc_m.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin_la.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_la.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin_en.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_en.dict.yaml")
-shutil.copyfile("./trimefiles/bo_mixin.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin.extended.dict.yaml")
-shutil.copyfile("./trimefiles/bpmfmobilemixin2.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixin2.schema.yaml")
-shutil.copyfile("./trimefiles/bpmfmobilemixins.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixins.schema.yaml")
-shutil.copyfile("./trimefiles/bpmfmobilemixin4.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixin4.schema.yaml")
-shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.cht_en_w.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_l_w.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_o_w.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_u_w.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hk.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.jp_hkkreduce.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkkreduce.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.kr.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.kr.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.la_py_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.la_py_w.dict.yaml")
-shutil.copyfile("./trimefiles/phrases.la_eu_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.la_eu_w.dict.yaml")
-
-
 #複製檔案(洋蔥同文注音plus版)
 shutil.copyfile("./trimefiles/essay-jp-onion.txt", "./sort_trime_allx6/trime﹤allin1﹥/essay-jp-onion.txt")
 shutil.copyfile("./trimefiles/essay-kr-hanja.txt", "./sort_trime_allx6/trime﹤allin1﹥/essay-kr-hanja.txt")
@@ -91,14 +56,49 @@ shutil.copyfile("./trimefiles/jpnin1.schema.yaml", "./sort_trime_allx6/trime﹤a
 shutil.copyfile("./trimefiles/latinin1.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/latinin1.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/latinin1.extended.dict.yaml")
 shutil.copyfile("./trimefiles/latinin1.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/latinin1.schema.yaml")
+shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_l_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_o_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.en_u_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hk.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hk.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hk_more.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hk_more.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkk.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkk.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.jp_hkkseg.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkkseg.dict.yaml")
 # shutil.copyfile("./trimefiles/phrases.jp_hkup_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkup_w.dict.yaml")
 # shutil.copyfile("./trimefiles/phrases.jp_hkmoreup_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkmoreup_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.kr.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.kr.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.la_py_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.la_py_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.la_eu_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.la_eu_w.dict.yaml")
 # shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1只出假名修改檔/", "./sort_trime_allx6/trime﹤allin1﹥/手機jpnin1只出假名修改檔/")
 # shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1精簡轉寫修改檔/", "./sort_trime_allx6/trime﹤allin1﹥/手機jpnin1精簡轉寫修改檔/")
 shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/", "./sort_trime_allx6/trime﹤allin1﹥/custom檔_日語jpnin1精簡/")
+
+
+#複製檔案(洋蔥同文注音mixin版)
+shutil.copyfile("./trimefiles/essay-zh-hant-mc-mixin.txt", "./sort_trime_allx6/trime﹤allin1﹥/essay-zh-hant-mc-mixin.txt")
+shutil.copyfile("./trimefiles/bo_mixin_jp.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_jp.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin_kr_m.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_kr_m.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin_kr_hnc_m.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_kr_hnc_m.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin_la.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_la.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin_en.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin_en.dict.yaml")
+shutil.copyfile("./trimefiles/bo_mixin.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bo_mixin.extended.dict.yaml")
+shutil.copyfile("./trimefiles/bpmfmobilemixin2.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixin2.schema.yaml")
+shutil.copyfile("./trimefiles/bpmfmobilemixins.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixins.schema.yaml")
+shutil.copyfile("./trimefiles/bpmfmobilemixin4.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobilemixin4.schema.yaml")
+shutil.copyfile("./trimefiles/phrases.cht_en_w.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.cht_en_w.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.jp_hkkreduce.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/phrases.jp_hkkreduce.dict.yaml")
+
+
+#複製檔案(洋蔥同文注音雙拼版版)
+shutil.copyfile("./trimefiles/bpmfmobiledouble.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobiledouble.extended.dict.yaml")
+shutil.copyfile("./trimefiles/bpmfmobiledouble.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/bpmfmobiledouble.schema.yaml")
+shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/mixin_bpmf.dict.yaml")
+shutil.copyfile("./trimefiles/sy_d_bpmf.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/sy_d_bpmf.schema.yaml")
+shutil.copyfile("./trimefiles/element_d_bpmfmobiledouble.yaml", "./sort_trime_allx6/trime﹤allin1﹥/element_d_bpmfmobiledouble.yaml")
+shutil.copyfile("./trimefiles/punct_d_bpmf.yaml", "./sort_trime_allx6/trime﹤allin1﹥/punct_d_bpmf.yaml")
+shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_H.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_H.trime.yaml")
+shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_L.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_L.trime.yaml")
+shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_M.trime.yaml", "./sort_trime_allx6/trime﹤allin1﹥/洋蔥雙拼注音331k_M.trime.yaml")
+shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./sort_trime_allx6/trime﹤allin1﹥/custom檔_手機注音雙拼不開頭簡拼/")
 
 
 #複製檔案(洋蔥手機蝦-mixin)
@@ -145,16 +145,10 @@ shutil.copytree("./trimefiles/各版主程式/", "./sort_trime_allx6/各版主�
 
 #適用3.2.1鍵盤檔
 shutil.copytree("./trimefiles/3.2.1鍵盤檔/", "./sort_trime_allx6/3.2.1鍵盤檔/")
-
-
 #適用3.2.8鍵盤檔
 shutil.copytree("./trimefiles/3.2.8鍵盤檔/", "./sort_trime_allx6/3.2.8鍵盤檔/")
-
-
 #適用3.2.14鍵盤檔
 shutil.copytree("./trimefiles/3.2.14鍵盤檔/", "./sort_trime_allx6/3.2.14鍵盤檔/")
-
-
 #適用3.3.1鍵盤檔
 shutil.copytree("./trimefiles/3.3.1鍵盤檔/", "./sort_trime_allx6/3.3.1鍵盤檔/")
 
