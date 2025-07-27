@@ -101,12 +101,19 @@ shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_M.trime.yaml
 shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./sort_trime_allx6/trime﹤allin1﹥/custom檔_手機注音雙拼不開頭簡拼/")
 
 
-#複製檔案(洋蔥手機蝦-mixin)
+#複製檔案(洋蔥手機蝦-plus)
+shutil.copyfile("./trimefiles/omp_jp.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jp.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_jphi.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jphi.schema.yaml")
+shutil.copyfile("./trimefiles/omp_jpka.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jpka.schema.yaml")
+shutil.copyfile("./trimefiles/omp_kr.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_kr.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_kr.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_kr.schema.yaml")
+shutil.copyfile("./trimefiles/omp_la.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_la.extended.dict.yaml")
+shutil.copyfile("./trimefiles/omp_la.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_la.schema.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ocm_mixin_jp.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ocm_mixin_kr.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ocm_mixin_la.dict.yaml")
-shutil.copyfile("./trimefiles/ovffmobile.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile.extended.dict.yaml")
-shutil.copyfile("./trimefiles/ovffmobile.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile.schema.yaml")
+shutil.copyfile("./trimefiles/ovffmobile_plus.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile_plus.extended.dict.yaml")
+shutil.copyfile("./trimefiles/ovffmobile_plus.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile_plus.schema.yaml")
 shutil.copyfile("./trimefiles/punct_ovff.yaml", "./sort_trime_allx6/trime﹤allin1﹥/punct_ovff.yaml")
 shutil.copyfile("./trimefiles/element_ovff.yaml", "./sort_trime_allx6/trime﹤allin1﹥/element_ovff.yaml")
 shutil.copyfile("./trimefiles/punt_ocm.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/punt_ocm.dict.yaml")
@@ -123,16 +130,9 @@ shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.json", "./sort_
 shutil.copyfile("./trimefiles/opencc/ocm_moedict_big5e_hkscs_jis.txt", "./sort_trime_allx6/trime﹤allin1﹥/opencc/ocm_moedict_big5e_hkscs_jis.txt")
 
 
-#複製檔案(洋蔥手機蝦-plus)
-shutil.copyfile("./trimefiles/omp_jp.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jp.extended.dict.yaml")
-shutil.copyfile("./trimefiles/omp_jphi.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jphi.schema.yaml")
-shutil.copyfile("./trimefiles/omp_jpka.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_jpka.schema.yaml")
-shutil.copyfile("./trimefiles/omp_kr.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_kr.extended.dict.yaml")
-shutil.copyfile("./trimefiles/omp_kr.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_kr.schema.yaml")
-shutil.copyfile("./trimefiles/omp_la.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_la.extended.dict.yaml")
-shutil.copyfile("./trimefiles/omp_la.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/omp_la.schema.yaml")
-shutil.copyfile("./trimefiles/ovffmobile_plus.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile_plus.extended.dict.yaml")
-shutil.copyfile("./trimefiles/ovffmobile_plus.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile_plus.schema.yaml")
+#複製檔案(洋蔥手機蝦-mixin)
+shutil.copyfile("./trimefiles/ovffmobile.extended.dict.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile.extended.dict.yaml")
+shutil.copyfile("./trimefiles/ovffmobile.schema.yaml", "./sort_trime_allx6/trime﹤allin1﹥/ovffmobile.schema.yaml")
 
 
 #實體(藍牙)鍵盤專用
