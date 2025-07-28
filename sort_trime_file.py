@@ -363,3 +363,5 @@ os.rename("./"+sort_trime+"/"+trime_ocm_folder+"/", "./"+sort_trime+"/"+trime_oc
 
 os.rename("./"+sort_trime+"/", "./"+the_name+"_"+localtime)
 
+
+
