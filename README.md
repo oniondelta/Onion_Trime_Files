@@ -41,7 +41,7 @@
 
 - 為易更新，不用同一檔案更新數次，『trimefiles』裡文件不以方案區分。
 
-  > 提供 sort_trime_file.py，把所需 Rime 文件放到各個方案資料夾。
+  > 提供 sort_trime_file.py，把所需 Rime 和 trime 鍵盤檔文件放到各個方案資料夾。
 
 ## 下載方案（三擇一）
 
