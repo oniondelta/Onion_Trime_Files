@@ -19,7 +19,6 @@
 
   > 符合方案初衷樣式。
 
-
 ## 版本
 
 - 預設鍵盤檔適用[ trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 
@@ -30,28 +29,41 @@
 
 - 3.3.1 版方案「部屬」變超快 👍🏻，全部方案一次性加入「部屬」約 10 分鐘以下完成！
 
-## 內容說明
+## 內容
 
 - trimefiles 包含六個主方案和一眾掛接方案。
 
-- 主方案：三個注音、一個注音雙拼、二個形碼。
+  > 主方案:
+  > |音碼類|形碼類|
+  > |:---|:---|
+  > |注音（[純注音](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-%E7%B4%94%E6%B3%A8%E9%9F%B3-%E7%89%88-%E3%80%8F)、[plus](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-plus-%E7%89%88-%E3%80%8F)、[mix-in](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-mixin-%E7%89%88-%E3%80%8F)）|形碼（[plus](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B4%8B%E8%94%A5%E7%89%88-%E5%BD%A2%E7%A2%BC-plus-%E7%89%88-%E3%80%8F)、[mix-in](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B4%8B%E8%94%A5%E7%89%88-%E5%BD%A2%E7%A2%BC-mixin-%E7%89%88-%E3%80%8F)）|
+  > |雙拼（[洋蔥雙拼](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-%E9%9B%99%E6%8B%BC-%E7%89%88-%E3%80%8F)）||
 
-- 為易更新，不用同一檔案更新數次，trimefiles 裡文件不以方案區分。
+- 為易更新，不用同一檔案更新數次，『trimefiles』裡文件不以方案區分。
 
-- 提供 sort_trime_file.py，把所需 Trime 文件放到各個方案資料夾。
+  > 提供 sort_trime_file.py，把所需 Rime 文件放到各個方案資料夾。
 
-- 本倉庫 Releases 中，有分類好之檔案。（不一定更到最新）
+## 下載方案（三擇一）
 
-- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑好 sort_trime_file.py 分類之檔案！（不一定更到最新，需登錄 GitHub 帳號）
+- Download ZIP，使用 sort_trime_file.py 分類各方案。
 
-## sort_trime_file.py 使用方法
+  > 本倉庫 Onion_Trime_Files 按右上綠色 〔↓Code〕 ⇨ Download ZIP ⇨ 解壓縮 ZIP 進入資料夾 ⇨ Python 執行 sort_trime_file.py ⇨ 產生『洋蔥手機同文方案_{當天日期}』資料夾
 
-- 本倉庫 Onion_Trime_Files 按右上綠色 〔↓Code〕 ⇨ Download ZIP ⇨ 解壓縮 ZIP 進入資料夾 ⇨ Python 執行 sort_trime_file.py ⇨ 產生『洋蔥手機同文方案_{當天日期}』資料夾
+- 本倉庫 Releases 中，有分好方案之 ZIP 檔。
 
-- 『洋蔥手機同文方案_{當天日期}』，各個方案所需文件，分別放置於下層『方案名稱』資料夾。
+  > 不一定更到最新。
 
-- 選取欲使用方案，內含文件通通放入『rime』資料夾。裡面已有『opencc』資料夾，移動『opencc』裡面檔案到『opencc』資料夾內，沒有則整個『opencc』移過去 ，「重新部署」方可。
+- 本倉庫 Actions 中，其 sort_trime_output 裡 artifact 有已跑 sort_trime_file.py 分好方案之 ZIP 檔。
 
+  > 不一定更到最新，需登錄 GitHub 帳號。
+
+## 安裝方案
+
+- 開啟『洋蔥手機同文方案_{日期}』資料夾，各個方案所需文件，已放置於『方案名稱』資料夾。
+
+- 選取欲使用方案，內含文件通通放入『Rime』用戶設定資料夾，如已有『opencc』資料夾，勿整個覆蓋，移動『opencc』裡面文件過去，無則整個『opencc』移過去。最後按「重新部署」完成！
+
+<!--
 ## 各方案說明
 
 - [手機同文輸入法『注音（洋蔥 純注音 版）』](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B3%A8%E9%9F%B3-%E6%B4%8B%E8%94%A5-%E7%B4%94%E6%B3%A8%E9%9F%B3-%E7%89%88-%E3%80%8F)
@@ -65,12 +77,11 @@
 - [手機同文輸入法〖 形碼（洋蔥 plus 版）〗](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B4%8B%E8%94%A5%E7%89%88-%E5%BD%A2%E7%A2%BC-plus-%E7%89%88-%E3%80%8F)
 
 - [手機同文輸入法〖 形碼（洋蔥 mix‧in 版）〗](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%8E-%E6%B4%8B%E8%94%A5%E7%89%88-%E5%BD%A2%E7%A2%BC-mixin-%E7%89%88-%E3%80%8F)
-
+-->
 
 ## 同文洋蔥系列功能說明
 
 - [各方案共通功能](https://github.com/oniondelta/Onion_Trime_Files/wiki/%E5%90%8C%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95%E3%80%94%E6%B4%8B%E8%94%A5%E7%B3%BB%E5%88%97%E3%80%95%EF%BC%9A%E5%8A%9F%E8%83%BD)
-
 
 ## 虛擬鍵盤圖示
 
@@ -101,7 +112,6 @@
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_08.png" alt="介紹8" width="400" />
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/onion_mobile_09.png" alt="介紹9" width="400" />
-
 
 ## 虛擬鍵盤功能說明
  
