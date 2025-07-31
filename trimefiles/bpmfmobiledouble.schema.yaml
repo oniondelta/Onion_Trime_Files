@@ -327,6 +327,10 @@ key_binder:
     - {accept: 8, send: Pause, when: has_menu}
     - {accept: 9, send: Pause, when: has_menu}
     - {accept: 0, send: Pause, when: has_menu}
+### 切換 ###
+    - { accept: Control+Shift+2, toggle: ascii_mode, when: always}
+    - { accept: Control+Shift+3, toggle: simplification, when: always}
+    - { accept: Control+Shift+4, toggle: character_range_bhjm, when: always}
 
 editor:
   bindings:

@@ -63,7 +63,10 @@ key_binder:
 #    - {accept: 7, send: Escape, when: composing}
     - {accept: 7, send: 7, when: has_menu}
 ## 以上可以改為使用send: Return Escape Cancel BackSpace Break
-### 其他 ###
+### 切換 ###
+    - { accept: Control+Shift+2, toggle: ascii_mode, when: always}
+    - { accept: Control+Shift+3, toggle: simplification, when: always}
+    - { accept: Control+Shift+4, toggle: character_range_bhjm, when: always}
 #    - {accept: Control+Shift+5, toggle: emoji_segestion, when: always}
 
 
