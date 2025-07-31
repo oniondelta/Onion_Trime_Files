@@ -59,6 +59,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files_1+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_1+"/opencc/back_mark_table_t.txt")
 
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_1+"/predict_office.db")
+
 
 #複製檔案(洋蔥同文注音plus版)
 shutil.copyfile("./trimefiles/essay-zh-hant-mc.txt", "./"+sort_trime+"/"+trime_files_2+"/essay-zh-hant-mc.txt")
@@ -128,6 +130,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"
 # shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/手機jpnin1精簡轉寫修改檔/", "./"+sort_trime+"/"+trime_files_2+"/手機jpnin1精簡轉寫修改檔/")
 shutil.copytree("./trimefiles/custom檔_日語jpnin1精簡/", "./"+sort_trime+"/"+trime_files_2+"/custom檔_日語jpnin1精簡/")
 
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_2+"/predict_office.db")
+
 
 #複製檔案(洋蔥同文注音mixin版)
 shutil.copyfile("./trimefiles/essay-zh-hant-mc-mixin.txt", "./"+sort_trime+"/"+trime_files_3+"/essay-zh-hant-mc-mixin.txt")
@@ -180,6 +184,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files_3+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_3+"/opencc/back_mark_table_t.txt")
 
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_3+"/predict_office.db")
+
 
 #複製檔案(洋蔥同文注音雙拼版版)
 shutil.copyfile("./trimefiles/essay-zh-hant-mc.txt", "./"+sort_trime+"/"+trime_files_4+"/essay-zh-hant-mc.txt")
@@ -219,6 +225,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_4+"/opencc/back_mark_table_t.txt")
 
 shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./"+sort_trime+"/"+trime_files_4+"/custom檔_手機注音雙拼不開頭簡拼/")
+
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_4+"/predict_office.db")
 
 
 #複製檔案(洋蔥手機蝦-plus)
@@ -273,6 +281,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files_5+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_5+"/opencc/back_mark_table_t.txt")
 
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_5+"/predict_office.db")
+
 
 #複製檔案(洋蔥手機蝦-mixin)
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_jp.dict.yaml")
@@ -317,6 +327,8 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./"+sort_trime+"/"+trim
 shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"/"+trime_files_6+"/opencc/back_mark_series_t.json")
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files_6+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_6+"/opencc/back_mark_table_t.txt")
+
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_6+"/predict_office.db")
 
 
 #實體(藍牙)鍵盤專用

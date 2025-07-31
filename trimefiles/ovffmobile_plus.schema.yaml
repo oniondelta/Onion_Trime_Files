@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-plus》"
   schema_id: ovffmobile_plus
-  version: "202412"
+  version: "202507"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -33,20 +33,23 @@ switches:
   - name: character_range_bhjm
     reset: 0
     states: [" 完 ", " 精 "]
-#   - options: [ utf8, big5] # (※2) 字符集選單
-# #    reset: 0 # 默認
-#     states: # 可以通過切功能鍵，切至 UTF8 等超大字符集
-#       - " U "
-#       - " B "
+  # - options: [ utf8, big5] # (※2) 字符集選單
+  #   # reset: 0 # 默認
+  #   states: # 可以通過切功能鍵，切至 UTF8 等超大字符集
+  #     - " U "
+  #     - " B "
+  - name: prediction
+    # reset: 1
+    states: [ " 無 ", " 預 " ]
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
   - name: back_mark
     reset: 1
-#    states: [ " 無 ", " 註 " ]
+    # states: [ " 無 ", " 註 " ]
   - name: punct_mark
     reset: 1
-#    states: [ " 無 ", " 註 " ]
+    # states: [ " 無 ", " 註 " ]
 
 menu:
   alternative_select_keys: "123456789"
@@ -64,6 +67,7 @@ engine:
     - simplifier@punct_mark
     - uniquifier
   processors:
+    - predictor
     - ascii_composer
     - recognizer
     - key_binder
@@ -85,6 +89,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - predict_translator
     - punct_translator
     - script_translator@jphi #加上","可以直出日語平假名
     - script_translator@jpka #加上"."可以直出日語片假名
@@ -327,3 +332,7 @@ recognizer:
     latin: "^[-a-z]+[';][-a-z';]*$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 
+predictor:
+  db: predict_office.db  #predict.db  #文件名，predict db file in user directory/shared directory
+  max_candidates: 0  #5  #每次預測的最大候選項數量，0表示全部候選項
+  max_iterations: 0  #1  #最大預測次數，0表示不限制

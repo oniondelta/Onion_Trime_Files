@@ -42,6 +42,7 @@ shutil.copyfile("./trimefiles/opencc/back_mark_t.json", "./"+sort_trime+"/"+trim
 shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"/"+trime_files+"/opencc/back_mark_series_t.json")
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files+"/opencc/back_mark_table_t.txt")
+shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files+"/predict_office.db")
 
 
 #複製檔案(洋蔥同文注音plus版)

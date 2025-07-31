@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixin2
   name: "《洋蔥手機注音mixin2》"
-  version: "202412"
+  version: "202507"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -28,17 +28,20 @@ switches:
     reset: 0
     states: [" 原 ", " 简 "]
   - name: character_range_bhjm
-#    reset: 0
+    # reset: 1
     states: [" 完 ", " 精 "]
+  - name: prediction
+    # reset: 1
+    states: [ " 無 ", " 預 " ]
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
   - name: back_mark
     reset: 1
-#    states: [ " 無 ", " 註 " ]
+    # states: [ " 無 ", " 註 " ]
   - name: punct_mark
     reset: 1
-#    states: [ 無, 註 ]
+    # states: [ 無, 註 ]
 
 engine:
   filters:
@@ -52,6 +55,7 @@ engine:
     - uniquifier
   processors:
     - lua_processor@mobile_bpmf
+    - predictor
     - ascii_composer
     - recognizer
     - key_binder
@@ -70,6 +74,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - predict_translator
     - punct_translator
     - table_translator@emoji_sy
     - script_translator@bpmf_m
@@ -565,3 +570,8 @@ recognizer:
     bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
     punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
+
+predictor:
+  db: predict_office.db  #predict.db  #文件名，predict db file in user directory/shared directory
+  max_candidates: 0  #5  #每次預測的最大候選項數量，0表示全部候選項
+  max_iterations: 0  #1  #最大預測次數，0表示不限制
