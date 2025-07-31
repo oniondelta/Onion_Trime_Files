@@ -34,9 +34,6 @@ switches:
   #   states: # 可以通過切功能鍵，切至 UTF8 等超大字符集
   #     - " U "
   #     - " B "
-  - name: prediction
-    # reset: 1
-    states: [ " 無 ", " 預 " ]
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
@@ -46,6 +43,9 @@ switches:
   - name: punct_mark
     reset: 1
     # states: [ " 無 ", " 註 " ]
+  - name: prediction
+    # reset: 1
+    states: [ " 無 ", " 預 " ]
 
 menu:
   alternative_select_keys: "123456789"

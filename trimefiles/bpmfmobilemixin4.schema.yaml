@@ -40,9 +40,6 @@ switches:
   - name: character_range_bhjm
     # reset: 1
     states: [" 完 ", " 精 "]
-  - name: prediction
-    # reset: 1
-    states: [ " 無 ", " 預 " ]
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
@@ -51,7 +48,10 @@ switches:
     # states: [ " 無 ", " 註 " ]
   - name: punct_mark
     reset: 1
-    # states: [ 無, 註 ]
+    # states: [ " 無 ", " 註 " ]
+  - name: prediction
+    # reset: 1
+    states: [ " 無 ", " 預 " ]
 
 engine:
   filters:

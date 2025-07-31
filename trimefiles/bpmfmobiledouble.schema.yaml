@@ -28,9 +28,6 @@ switches:
   - name: character_range_bhjm
     # reset: 1
     states: [" 完 ", " 精 "]
-  - name: prediction
-    # reset: 1
-    states: [ " 無 ", " 預 " ]
   - name: emoji_segestion
     reset: 1
     states: [ " 無 ", " 圖 " ]
@@ -39,7 +36,10 @@ switches:
     # states: [ " 無 ", " 註 " ]
   - name: punct_mark
     reset: 1
-    # states: [ 無, 註 ]
+    # states: [ " 無 ", " 註 " ]
+  - name: prediction
+    # reset: 1
+    states: [ " 無 ", " 預 " ]
 
 engine:
   filters:
@@ -331,6 +331,7 @@ key_binder:
     - { accept: Control+Shift+2, toggle: ascii_mode, when: always}
     - { accept: Control+Shift+3, toggle: simplification, when: always}
     - { accept: Control+Shift+4, toggle: character_range_bhjm, when: always}
+    - { accept: Control+Shift+5, toggle: emoji_segestion, when: always}
 
 editor:
   bindings:

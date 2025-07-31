@@ -61,7 +61,7 @@ key_binder:
     - { accept: Control+Shift+2, toggle: ascii_mode, when: always}
     - { accept: Control+Shift+3, toggle: simplification, when: always}
     - { accept: Control+Shift+4, toggle: character_range_bhjm, when: always}
-#    - {accept: Control+Shift+5, toggle: emoji_segestion, when: always}
+    - { accept: Control+Shift+5, toggle: emoji_segestion, when: always}
 
 
 emoji_series:
