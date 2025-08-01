@@ -115,7 +115,7 @@
 
 ## 虛擬鍵盤功能說明
  
-3.3.1 版鍵盤檔，新增剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
+3.3.1 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/mix-in_description.png" alt="介紹PURE" width="600" />
 
