@@ -67,6 +67,8 @@ __patch:
 
   preset_keyboards/ovffmobile/height: *jpgd7
   preset_keyboards/ovffmobile/keys/@40/height: *jpgd8
+  preset_keyboards/ovffmobile_plus/height: *jpgd7
+  preset_keyboards/ovffmobile_plus/keys/@40/height: *jpgd8
   preset_keyboards/ovffmobile_full/height: *jpgd7
   preset_keyboards/ovffmobile_full/keys/@39/height: *jpgd8
   preset_keyboards/ovffmobile_up/height: *jpgd7

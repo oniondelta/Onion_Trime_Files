@@ -2668,6 +2668,10 @@ preset_keyboards:
       - {click: '.', hint: '        片', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, width: 9.2} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 15.5, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
 #####################
+  ovffmobile_plus:
+    __include: preset_keyboards/ovffmobile
+    # import_preset: ovffmobile  #新版會有問題
+#####################
   ovffmobile_full:
     name: 蝦米Full（預設改36鍵）
     author: "洋蔥"

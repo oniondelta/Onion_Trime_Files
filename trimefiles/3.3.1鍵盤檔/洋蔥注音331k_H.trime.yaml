@@ -62,6 +62,8 @@ __patch:
 
   preset_keyboards/bpmfmobiledouble/height: *jpgd7
   preset_keyboards/bpmfmobiledouble/keys/@40/height: *jpgd8
+  preset_keyboards/bpmfmobiledouble_plus/height: *jpgd7
+  preset_keyboards/bpmfmobiledouble_plus/keys/@40/height: *jpgd8
   preset_keyboards/bpmfmobiledouble_full/height: *jpgd7
   preset_keyboards/bpmfmobiledouble_full/keys/@40/height: *jpgd8
 
