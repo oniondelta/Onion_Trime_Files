@@ -6,8 +6,8 @@ import time
 
 #名稱(取出來較好變換)
 sort_trime="sort_trime_bpx4"
-trime_files="trime﹤bpin1﹥"
-the_name="洋蔥手機同文方案﹤bpin1﹥"
+trime_files="trime＜bpin1＞"
+the_name="洋蔥手機同文方案＜bpin1＞"
 
 
 #※新增資料夾(多層目錄, 如前一層data資料夾不存在, 將自動新增)※
