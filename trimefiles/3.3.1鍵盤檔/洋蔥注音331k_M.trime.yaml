@@ -154,7 +154,7 @@ style:
   key_long_text_size: 12 #18 #長標籤字號
   key_text_size: 18 #20 #22 #24 #鍵字號
   key_width: 10.0 #鍵寬，佔屏幕寬的百分比
-  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfmobiledouble, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set]  #, bpmfsimple  #鍵盤配置#, edit, move
+  keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfmobiledouble, bpmfmobiledouble_t2, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set]  #, bpmfsimple  #鍵盤配置#, edit, move
   label_text_size: 20 #22 #0 #標籤字號
   label_font: label.ttf #編標籤字體
   latin_font: latin.ttf #西文本體
@@ -2545,6 +2545,10 @@ preset_keyboards:
       - {click: ',', hint: '三聲', long_click: '?', swipe_up: End, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 9.1}
       - {click: '.', hint: '輕聲', long_click: '!', swipe_up: cut_all, swipe_left: Left, swipe_right: Right, symbol_text_size: *sf4, width: 9.1} #hint: '    片'
       - {click: Return, long_click: CommitScriptText, key_text_size: "22", swipe_up: CommitRawInput, width: 15.5, key_back_color: benter, key_text_color: tenter, key_symbol_color: tajs} #width: 18 #, composing: "Escape"
+#####################
+  bpmfmobiledouble_t2:
+    __include: preset_keyboards/bpmfmobiledouble
+    # import_preset: bpmfmobiledouble  #新版會有問題
 #####################
   bpmfmobiledouble_full:
     name: 注音雙拼Full（預設改36鍵）

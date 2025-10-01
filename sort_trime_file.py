@@ -192,6 +192,7 @@ shutil.copyfile("./trimefiles/essay-zh-hant-mc.txt", "./"+sort_trime+"/"+trime_f
 
 shutil.copyfile("./trimefiles/bpmfmobiledouble.extended.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/bpmfmobiledouble.extended.dict.yaml")
 shutil.copyfile("./trimefiles/bpmfmobiledouble.schema.yaml", "./"+sort_trime+"/"+trime_files_4+"/bpmfmobiledouble.schema.yaml")
+shutil.copyfile("./trimefiles/bpmfmobiledouble_t2.schema.yaml", "./"+sort_trime+"/"+trime_files_4+"/bpmfmobiledouble_t2.schema.yaml")
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/phrases.chtp.dict.yaml")
@@ -224,7 +225,7 @@ shutil.copyfile("./trimefiles/opencc/back_mark_series_t.json", "./"+sort_trime+"
 shutil.copyfile("./trimefiles/opencc/back_mark_script_t.txt", "./"+sort_trime+"/"+trime_files_4+"/opencc/back_mark_script_t.txt")
 shutil.copyfile("./trimefiles/opencc/back_mark_table_t.txt", "./"+sort_trime+"/"+trime_files_4+"/opencc/back_mark_table_t.txt")
 
-shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./"+sort_trime+"/"+trime_files_4+"/custom檔_手機注音雙拼不開頭簡拼/")
+# shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./"+sort_trime+"/"+trime_files_4+"/custom檔_手機注音雙拼不開頭簡拼/")
 
 shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_files_4+"/predict_office.db")
 

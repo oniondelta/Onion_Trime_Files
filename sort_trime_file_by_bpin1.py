@@ -99,6 +99,7 @@ shutil.copyfile("./trimefiles/phrases.jp_hkkreduce.dict.yaml", "./"+sort_trime+"
 #複製檔案(洋蔥同文注音雙拼版版)
 shutil.copyfile("./trimefiles/bpmfmobiledouble.extended.dict.yaml", "./"+sort_trime+"/"+trime_files+"/bpmfmobiledouble.extended.dict.yaml")
 shutil.copyfile("./trimefiles/bpmfmobiledouble.schema.yaml", "./"+sort_trime+"/"+trime_files+"/bpmfmobiledouble.schema.yaml")
+shutil.copyfile("./trimefiles/bpmfmobiledouble_t2.schema.yaml", "./"+sort_trime+"/"+trime_files+"/bpmfmobiledouble_t2.schema.yaml")
 shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_files+"/mixin_bpmf.dict.yaml")
 shutil.copyfile("./trimefiles/sy_d_bpmf.schema.yaml", "./"+sort_trime+"/"+trime_files+"/sy_d_bpmf.schema.yaml")
 shutil.copyfile("./trimefiles/element_d_bpmfmobiledouble.yaml", "./"+sort_trime+"/"+trime_files+"/element_d_bpmfmobiledouble.yaml")
@@ -106,7 +107,7 @@ shutil.copyfile("./trimefiles/punct_d_bpmf.yaml", "./"+sort_trime+"/"+trime_file
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_H.trime.yaml", "./"+sort_trime+"/"+trime_files+"/洋蔥雙拼注音331k_H.trime.yaml")
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_L.trime.yaml", "./"+sort_trime+"/"+trime_files+"/洋蔥雙拼注音331k_L.trime.yaml")
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_M.trime.yaml", "./"+sort_trime+"/"+trime_files+"/洋蔥雙拼注音331k_M.trime.yaml")
-shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./"+sort_trime+"/"+trime_files+"/custom檔_手機注音雙拼不開頭簡拼/")
+# shutil.copytree("./trimefiles/custom檔_手機注音雙拼不開頭簡拼/", "./"+sort_trime+"/"+trime_files+"/custom檔_手機注音雙拼不開頭簡拼/")
 
 
 #實體(藍牙)鍵盤專用
