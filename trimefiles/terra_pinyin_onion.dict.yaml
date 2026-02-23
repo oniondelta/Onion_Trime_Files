@@ -187,6 +187,7 @@
 #    詞句中，「惋」臺灣標準為「wan4」，大陸標準為「wan3」，日常易混，故皆補齊「wan4」「wan3」。
 #    詞句中，「頊」臺灣標準為「xu4」，大陸標準為「xu1」，日常易混，故全都補齊「xu4」「xu1」。
 #    詞句中，「蹈」臺灣標準為「dao4」，大陸標準為「dao3」，日常易混，故全都補齊「dao4」「dao3」。
+#    詞句中，「巍」臺灣標準為「wei2」，大陸標準為「wei1」，日常易混，故全都補齊「wei2」「wei1」。
 #    詞句中，「肘」臺灣標準為「zhou3」，日常發音常會誤發為「zhou2」，故皆補齊「zhou3」「zhou2」，後者詞頻設為80%。
 #    詞句中，「蕾」臺灣標準為「lei3」，日常發音常會誤發為「lei2」，，故皆補齊「lei3」「lei2」，後者詞頻設為80%。
 #    詞句中，「炔」臺灣標準為「que1」，日常發音常會發「jue2」，故皆補齊「que1」「jue2」。
@@ -226,6 +227,7 @@
 #    詞句中，「誼」皆補齊「yi4」「yi2」。
 #    詞句中，「儲」皆補齊「chu2」「chu3」。
 #    詞句中，「訥」皆補齊「ne4」「na4」。
+#    詞句中，「禧」皆補齊「xi1」「xi3」。
 #    詞句中，「檔」皆補齊「dang3」「dang4」。
 #    詞句中，「孿」皆補齊「luan2」「lvan2」。
 #    詞句中，「穹」皆補齊「qiong1」「qiong2」。
@@ -3654,6 +3656,7 @@ min_phrase_weight: 100
 # 㤇	yu4	0%
 輗	yi4	0%
 𫐐	yi4	0%
+濯	shuo4	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -4103,7 +4106,7 @@ min_phrase_weight: 100
 婐	e3	1%
 寀	cai3	1%
 屠	chu2	1%
-崢	cheng2	1%
+崢	cheng2	14%
 帴	can2	1%
 庳	bei1	1%
 弸	peng2	1%
@@ -4943,7 +4946,7 @@ min_phrase_weight: 100
 齞	yan3	1%
 囀	zhuan3	1%
 囁	zhe2	1%
-巍	wei2	1%
+巍	wei2
 爚	yao4	1%
 瓓	lan2	1%
 籔	shu4	1%
@@ -66060,6 +66063,7 @@ min_phrase_weight: 100
 另一種	ling4 yi1 zhong3
 另存為	ling4 cun2 wei4
 另巍巍	ling4 wei2 wei2
+另巍巍	ling4 wei1 wei1
 另搭架子	ling4 da1 jia4 zi5
 另當別論	ling4 dang1 bie2 lun4
 另眼相待	ling4 yan3 xiang1 dai4
@@ -74445,6 +74449,7 @@ min_phrase_weight: 100
 崛地而起	jue2 di4 er2 qi3
 崛強	jue2 jiang4
 崢巆	zheng1 ying2
+崢巆	cheng2 ying2
 崧生嶽降	song1 sheng1 yue4 jiang4
 崩倒	beng1 dao3
 崩落	beng1 luo4
@@ -74518,10 +74523,13 @@ min_phrase_weight: 100
 巍巍	wei2 wei2
 巍巍	wei1 wei1
 巍巍蕩蕩	wei2 wei2 dang4 dang4
+巍巍蕩蕩	wei1 wei1 dang4 dang4
 巍然	wei2 ran2
 巍然	wei1 ran2
 巍然屹立	wei2 ran2 yi4 li4
+巍然屹立	wei1 ran2 yi4 li4
 巍科	wei2 ke1
+巍科	wei1 ke1
 巔峰負載	dian1 feng1 fu4 zai4
 巖居穴處	yan2 ju1 xue4 chu3
 巖徼	yan2 jiao4
@@ -117143,6 +117151,7 @@ min_phrase_weight: 100
 鴻漸	hong2 jian4
 鴻爪	hong2 zhao3
 鴻禧	hong2 xi1
+鴻禧	hong2 xi3
 鴻蒙	hong2 meng2
 鴻運當頭	hong2 yun4 dang1 tou2
 鴻都	hong2 du1
@@ -117822,4 +117831,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 117825 #####
+##### @結束 END - 117834 #####
