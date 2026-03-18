@@ -296,6 +296,7 @@
 #    詞句中，「落魄」臺灣字典發音為「luo4 tuo4」，日常發音常發「luo4 po4」，故皆補齊「luo4 tuo4」「luo4 po4」。
 #    詞句中，「破涕」臺灣字典發音為「po4 ti4」，日常發音常發「po4 ti2」，故皆補齊「po4 ti4」「po4 ti2」，後者詞頻設為80%。
 #    詞句中，「咆哮」臺灣字典發音為「pao2 xiao4」和「pao2 xiao1」，語義有區別，但日常易混，故皆補齊「pao2 xiao4」「pao2 xiao1」。
+#    詞句中，「朝鮮」臺灣字典發音為「chao2 xian1」和「zhao1 xian1」，日常「鮮」發音常發「xian3」，故皆補齊「chao2 xian1」「zhao1 xian1」「chao2 xian3」「zhao1 xian3」。
 #    詞句中，「擂臺」「擂台」臺灣字典發音為「lei4 tai2」，日常發音常發「lei2 tai2」，故皆補齊「lei2 tai4」「lei2 tai2」。
 #    詞句中，「相片」「照片」「影片」「碟片」「唱片」「畫片」，其「片」發音，皆補齊「pian4」和「pian1」。
 #    詞句中，「傍晚」臺灣字典發音為「bang1 wan3」，大陸標準為「bang4 wan3」，易誤按，且無相似發音詞彙，故皆補齊「bang1 wan3」「bang4 wan3」。
@@ -3666,6 +3667,8 @@ min_phrase_weight: 100
 歜	zan4	0%
 歜	can3	0%
 斁	tu2	0%
+夋	jun4
+毂	gu1	50%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -4254,7 +4257,7 @@ min_phrase_weight: 100
 敦	dui1	1%
 敦	dui4	1%
 敦	dun4	1%
-斐	fei1	1%
+斐	fei1	10%
 景	ying3	1%
 棣	ti4	1%
 棲	xi1	1%
@@ -64819,6 +64822,8 @@ min_phrase_weight: 100
 北朝	bei3 chao2
 北朝鮮	bei3 chao2 xian3
 北朝鮮	bei3 chao2 xian1
+北朝鮮	bei3 zhao1 xian3
+北朝鮮	bei3 zhao1 xian1
 北極圈	bei3 ji2 quan1
 北極地區	bei3 ji2 di4 qu1
 北極星飛彈	bei3 ji2 xing1 fei1 dan4
@@ -65181,6 +65186,8 @@ min_phrase_weight: 100
 南朝陳	nan2 chao2 chen2
 南朝鮮	nan2 chao2 xian3
 南朝鮮	nan2 chao2 xian1
+南朝鮮	nan2 zhao1 xian3
+南朝鮮	nan2 zhao1 xian1
 南朝齊	nan2 chao2 qi2
 南柯太守傳	nan2 ke1 tai4 shou3 zhuan4
 南梆子	nan2 bang1 zi5
@@ -75748,6 +75755,8 @@ min_phrase_weight: 100
 延邊大學	yan2 bian1 da4 xue2
 延邊朝鮮族自治州	yan2 bian1 chao2 xian1 zu2 zi4 zhi4 zhou1
 延邊朝鮮族自治州	yan2 bian1 chao2 xian3 zu2 zi4 zhi4 zhou1
+延邊朝鮮族自治州	yan2 bian1 zhao1 xian1 zu2 zi4 zhi4 zhou1
+延邊朝鮮族自治州	yan2 bian1 zhao1 xian3 zu2 zi4 zhi4 zhou1
 延釐	yan2 xi1
 延長	yan2 chang2
 延長線	yan2 chang2 xian4
@@ -85394,15 +85403,23 @@ min_phrase_weight: 100
 朝鐘暮鼓	zhao1 zhong1 mu4 gu3
 朝門	chao2 men2
 朝陽區	chao2 yang2 qu1
+朝陽區	zhao1 yang2 qu1
 朝陽地區	zhao1 yang2 di4 qu1
+朝陽地區	chao2 yang2 di4 qu1
 朝陽市	chao2 yang2 shi4
+朝陽市	zhao1 yang2 shi4
 朝陽方案	zhao1 yang2 fang1 an4
+朝陽方案	chao2 yang2 fang1 an4
 朝陽產業	zhao1 yang2 chan3 ye4
+朝陽產業	chao2 yang2 chan3 ye4
 朝陽科技大學	chao2 yang2 ke1 ji4 da4 xue2
 朝陽科技大學	zhao1 yang2 ke1 ji4 da4 xue2
 朝陽縣	chao2 yang2 xian4
+朝陽縣	zhao1 yang2 xian4
 朝陽花	chao2 yang2 hua1
+朝陽花	zhao1 yang2 hua1
 朝陽門	chao2 yang2 men2
+朝陽門	zhao1 yang2 men2
 朝陽鳴鳳	zhao1 yang2 ming2 feng4
 朝隱	chao2 yin3
 朝雨	zhao1 yu3
@@ -85421,39 +85438,83 @@ min_phrase_weight: 100
 朝鮮	chao2 xian1
 朝鮮	chao2 xian3
 朝鮮	zhao1 xian1
+朝鮮	zhao1 xian3
 朝鮮中央新聞社	chao2 xian3 zhong1 yang1 xin1 wen2 she4
+朝鮮中央新聞社	chao2 xian1 zhong1 yang1 xin1 wen2 she4
+朝鮮中央新聞社	zhao1 xian3 zhong1 yang1 xin1 wen2 she4
+朝鮮中央新聞社	zhao1 xian1 zhong1 yang1 xin1 wen2 she4
 朝鮮中央通訊社	chao2 xian1 zhong1 yang1 tong1 xun4 she4
 朝鮮中央通訊社	chao2 xian3 zhong1 yang1 tong1 xun4 she4
+朝鮮中央通訊社	zhao1 xian1 zhong1 yang1 tong1 xun4 she4
+朝鮮中央通訊社	zhao1 xian3 zhong1 yang1 tong1 xun4 she4
 朝鮮人	chao2 xian3 ren2
 朝鮮人	chao2 xian1 ren2
 朝鮮人	zhao1 xian1 ren2
+朝鮮人	zhao1 xian3 ren2
 朝鮮八道	chao2 xian3 ba1 dao4
+朝鮮八道	chao2 xian1 ba1 dao4
+朝鮮八道	zhao1 xian3 ba1 dao4
+朝鮮八道	zhao1 xian1 ba1 dao4
 朝鮮勞動黨	chao2 xian3 lao2 dong4 dang3
+朝鮮勞動黨	chao2 xian1 lao2 dong4 dang3
+朝鮮勞動黨	zhao1 xian3 lao2 dong4 dang3
+朝鮮勞動黨	zhao1 xian1 lao2 dong4 dang3
 朝鮮半島	chao2 xian1 ban4 dao3
 朝鮮半島	chao2 xian3 ban4 dao3
 朝鮮半島	zhao1 xian1 ban4 dao3
+朝鮮半島	zhao1 xian3 ban4 dao3
 朝鮮太宗	chao2 xian3 tai4 zong1
+朝鮮太宗	chao2 xian1 tai4 zong1
+朝鮮太宗	zhao1 xian3 tai4 zong1
+朝鮮太宗	zhao1 xian1 tai4 zong1
 朝鮮字母	chao2 xian3 zi4 mu3
+朝鮮字母	chao2 xian1 zi4 mu3
+朝鮮字母	zhao1 xian3 zi4 mu3
+朝鮮字母	zhao1 xian1 zi4 mu3
 朝鮮戰爭	chao2 xian3 zhan4 zheng1
+朝鮮戰爭	chao2 xian1 zhan4 zheng1
+朝鮮戰爭	zhao1 xian3 zhan4 zheng1
+朝鮮戰爭	zhao1 xian1 zhan4 zheng1
 朝鮮文	chao2 xian1 wen2
 朝鮮文	chao2 xian3 wen2
+朝鮮文	zhao1 xian1 wen2
+朝鮮文	zhao1 xian3 wen2
 朝鮮族	chao2 xian1 zu2
 朝鮮族	chao2 xian3 zu2
 朝鮮族	zhao1 xian1 zu2
+朝鮮族	zhao1 xian3 zu2
 朝鮮日報	chao2 xian3 ri4 bao4
-朝鮮日報	zhao1 xian1 ri4 bao4
 朝鮮日報	chao2 xian1 ri4 bao4
+朝鮮日報	zhao1 xian3 ri4 bao4
+朝鮮日報	zhao1 xian1 ri4 bao4
 朝鮮核談	chao2 xian3 he2 tan2
+朝鮮核談	chao2 xian1 he2 tan2
+朝鮮核談	zhao1 xian3 he2 tan2
+朝鮮核談	zhao1 xian1 he2 tan2
 朝鮮民主主義人民共和國	chao2 xian3 min2 zhu3 zhu3 yi4 ren2 min2 gong4 he2 guo2
 朝鮮民主主義人民共和國	chao2 xian1 min2 zhu3 zhu3 yi4 ren2 min2 gong4 he2 guo2
+朝鮮民主主義人民共和國	zhao1 xian3 min2 zhu3 zhu3 yi4 ren2 min2 gong4 he2 guo2
+朝鮮民主主義人民共和國	zhao1 xian1 min2 zhu3 zhu3 yi4 ren2 min2 gong4 he2 guo2
 朝鮮海峽	chao2 xian1 hai3 xia2
 朝鮮海峽	chao2 xian3 hai3 xia2
+朝鮮海峽	zhao1 xian1 hai3 xia2
+朝鮮海峽	zhao1 xian3 hai3 xia2
 朝鮮箏	chao2 xian3 zheng1
+朝鮮箏	chao2 xian1 zheng1
+朝鮮箏	zhao1 xian3 zheng1
+朝鮮箏	zhao1 xian1 zheng1
 朝鮮總督府	chao2 xian3 zong3 du1 fu3
+朝鮮總督府	chao2 xian1 zong3 du1 fu3
+朝鮮總督府	zhao1 xian3 zong3 du1 fu3
+朝鮮總督府	zhao1 xian1 zong3 du1 fu3
 朝鮮薊	chao2 xian1 ji4
+朝鮮薊	chao2 xian3 ji4
+朝鮮薊	zhao1 xian1 ji4
+朝鮮薊	zhao1 xian3 ji4
 朝鮮語	chao2 xian1 yu3
 朝鮮語	chao2 xian3 yu3
 朝鮮語	zhao1 xian1 yu3
+朝鮮語	zhao1 xian3 yu3
 期中考	qi2 zhong1 kao3
 期中選舉	qi2 zhong1 xuan3 ju3
 期刊	qi2 kan1
@@ -85701,6 +85762,9 @@ min_phrase_weight: 100
 李昌鎬	li3 chang1 hao4
 李朝威	li3 chao2 wei1
 李氏朝鮮	li3 shi4 chao2 xian3
+李氏朝鮮	li3 shi4 chao2 xian1
+李氏朝鮮	li3 shi4 zhao1 xian3
+李氏朝鮮	li3 shi4 zhao1 xian1
 李漁叔	li3 yu2 shu2
 李漁叔	li3 yu2 shu1
 李澤楷	li3 ze2 kai3
@@ -105579,7 +105643,13 @@ min_phrase_weight: 100
 衛星轉播	wei4 xing1 zhuan3 bo1
 衛星都市	wei4 xing1 du1 shi4
 衛氏朝鮮	wei4 shi4 chao2 xian3
+衛氏朝鮮	wei4 shi4 chao2 xian1
+衛氏朝鮮	wei4 shi4 zhao1 xian3
+衛氏朝鮮	wei4 shi4 zhao1 xian1
 衛滿朝鮮	wei4 man3 chao2 xian3
+衛滿朝鮮	wei4 man3 chao2 xian1
+衛滿朝鮮	wei4 man3 zhao1 xian3
+衛滿朝鮮	wei4 man3 zhao1 xian1
 衛生掩埋	wei4 sheng1 yan3 mai2
 衛生間	wei4 sheng1 jian1
 衝入	chong1 ru4
@@ -112916,6 +112986,8 @@ min_phrase_weight: 100
 長白山天池	chang2 bai2 shan1 tian1 chi2
 長白朝鮮族自治縣	chang2 bai2 chao2 xian1 zu2 zi4 zhi4 xian4
 長白朝鮮族自治縣	chang2 bai2 chao2 xian3 zu2 zi4 zhi4 xian4
+長白朝鮮族自治縣	chang2 bai2 zhao1 xian1 zu2 zi4 zhi4 xian4
+長白朝鮮族自治縣	chang2 bai2 zhao1 xian3 zu2 zi4 zhi4 xian4
 長白縣	chang2 bai2 xian4
 長白鎮	chang2 bai2 zhen4
 長相	zhang3 xiang4
@@ -117923,4 +117995,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 117926 #####
+##### @結束 END - 117998 #####
