@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixin2
   name: "《洋蔥手機注音mixin2》"
-  version: "202507"
+  version: "202603"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -42,6 +42,9 @@ switches:
   - name: prediction
     # reset: 1
     states: [ " 無 ", " 預 " ]
+
+  - options: [ _key_Hide ]
+    states: [ " ▾ " ] #▼▽▿⌵ˇ
 
 engine:
   filters:

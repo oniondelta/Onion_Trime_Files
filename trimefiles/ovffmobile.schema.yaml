@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202507"
+  version: "202603"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -46,6 +46,9 @@ switches:
   - name: prediction
     # reset: 1
     states: [ " 無 ", " 預 " ]
+
+  - options: [ _key_Hide ]
+    states: [ " ▾ " ] #▼▽▿⌵ˇ
 
 menu:
   alternative_select_keys: "123456789"
