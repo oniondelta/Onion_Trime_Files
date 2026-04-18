@@ -249,6 +249,7 @@ emoji_series:
     - xform/^mm$/【粗糧】/
     - xform/^nm$/【肉類】/
     - xform/^no$/【肉品】/
+    - xform/^ov$/【跳舞】/
     - xform/^zv$/【船隻】/
     - xform/^rj$/【花卉】/
     - xform/^rr$/【蔬菜】/
@@ -367,6 +368,7 @@ emoji_series:
     - xform/^ok$/【圓形】/
     - xform/^sn$/【三角】/
     - xform/^jn$/【打勾】/
+    - xform/^np$/【空白】(空格)/
     - xform/^pw$/【血液／血型】/
     - xform/^pk$/【血型／血液】/
     - xform/^on$/【器官】/

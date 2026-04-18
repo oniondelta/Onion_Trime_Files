@@ -248,6 +248,7 @@ emoji_series:
     - xform/^bx/【肉類／肉品】/
     - xform/^bq/【肉品／肉類】/
     - xform/^dv/【科學】/
+    - xform/^wj/【跳舞】/
     - xform/^t5/【船隻】/
     - xform/^cc/【花卉】/
     - xform/^gh/【蔬菜】/
@@ -370,6 +371,8 @@ emoji_series:
     - xform/^mv/【圓形】/
     - xform/^nr/【三角】/
     - xform/^2e/【打勾】/
+    - xform/^d1/【空白／空格】/
+    - xform/^de/【空格／空白】/
     - xform/^bm/【日用／日用品】/
     - xform/^vu/【血液／血型圖】/
     - xform/^fe/【器官】/
