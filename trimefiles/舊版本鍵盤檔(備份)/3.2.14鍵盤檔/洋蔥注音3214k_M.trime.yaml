@@ -1861,6 +1861,10 @@ preset_keys:
   數字色: {text: '{Escape}3gyn', label: 數字色, functional: false}
   漢字色: {text: '{Escape}3cyn', label: 漢字色, functional: false}
 
+  跳舞: {text: '{Escape}3wj', label: 跳舞, functional: false}
+  空格: {text: '{Escape}3de', label: 空格, functional: false}
+#  空白: {text: '{Escape}3d1', label: 空白, functional: false}
+
 ## 以下符號新增第六頁
   a變: {text: '{Escape}33a', label: 'A變化', functional: false}
   b變: {text: '{Escape}33b', label: 'B變化', functional: false}
@@ -3386,7 +3390,7 @@ preset_keyboards:
       - {click: 零食, long_click: 顏怒, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 甜點, long_click: 顏指示, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: 速食, long_click: 顏回話, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
-      - {click: 日本菜, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
+      - {click: 日本菜, long_click: 跳舞, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 中餐, long_click: 蟲圖, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6} #, symbol_text_size: '8'
       - {click: 西餐, long_click: 野生動物, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols4, swipe_down: Keyboard_symbols6}
       - {click: space2, width: 14, composing: Page_Down, key_back_color: bbs, key_text_color: tbs} #key_back_color: bgn
@@ -3466,7 +3470,8 @@ preset_keyboards:
 
       - {click: y變, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
       - {click: z變, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
-      - {click: '', width: 21.5, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color}
+      - {click: 空格, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
+      - {click: '', key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color} #, width: 21.5
       - {click: Keyboard_symbols6, label: 6/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right

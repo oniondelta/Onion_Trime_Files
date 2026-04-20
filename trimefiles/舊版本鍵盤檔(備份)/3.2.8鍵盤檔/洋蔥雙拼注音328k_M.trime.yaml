@@ -382,6 +382,10 @@ preset_keys:
   數字色: {text: '{Escape};azs', label: 數字色, functional: false}
   漢字色: {text: '{Escape};hzs', label: 漢字色, functional: false}
 
+  跳舞: {text: '{Escape};tu', label: 跳舞, functional: false}
+  空格: {text: '{Escape};kg', label: 空格, functional: false}
+#  空格: {text: '{Escape};kb', label: 空白, functional: false}
+
 ## 以下符號新增第六頁
   a變: {text: '{Escape};;a', label: 'A變化', functional: false}
   b變: {text: '{Escape};;b', label: 'B變化', functional: false}
