@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobiledouble
   name: "《洋蔥手機注音雙拼》"
-  version: "202603"
+  version: "202606"
   author:
     - 『洋蔥』
   description: |
@@ -345,11 +345,12 @@ editor:
 
 recognizer:
   patterns:
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
+    punct: ";;$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     # punct: "^e[a-z,./;']?[a-z]?[,./;']?$|[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
     # email: "^[a-z][-_.0-9a-z]*@.*$"
     # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
-    emoji_sy: "(?<![a-z]);[;0-9a-z]* ?$"
+    emoji_sy: "(?<![a-z;]);[0-9a-z]*$|(?<=[a-z];);[0-9a-z]*$|(?<![a-z]);;[;0-9a-z]$"
+    # emoji_sy: "(?<![a-z]);[;0-9a-z]* ?$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
 
 predictor:
