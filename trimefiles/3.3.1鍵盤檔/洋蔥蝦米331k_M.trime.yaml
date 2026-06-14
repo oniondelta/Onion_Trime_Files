@@ -1565,17 +1565,17 @@ preset_keys:
   羅馬大寫: {text: "{Escape}'fmd", label: 大寫, functional: false}
   俄語: {text: "{Escape}'pi", label: 俄語, functional: false}
   俄語大寫: {text: "{Escape}'pid", label: 大寫, functional: false}
-  一: {text: "{Escape}'e'", label: 1}
-  二: {text: "{Escape}'r'", label: 2}
-  三: {text: "{Escape}'s'", label: 3}
-  四: {text: "{Escape}'f'", label: 4}
-  五: {text: "{Escape}'w'", label: 5}
-  六: {text: "{Escape}'l'", label: 6}
-  七: {text: "{Escape}'c'", label: 7}
-  八: {text: "{Escape}'b'", label: 8}
-  九: {text: "{Escape}'k'", label: 9}
-  零: {text: "{Escape}'o'", label: 0}
-  十: {text: "{Escape}'j'", label: 10}
+  一: {text: "{Escape}'e/", label: 1}
+  二: {text: "{Escape}'r/", label: 2}
+  三: {text: "{Escape}'s/", label: 3}
+  四: {text: "{Escape}'f/", label: 4}
+  五: {text: "{Escape}'w/", label: 5}
+  六: {text: "{Escape}'l/", label: 6}
+  七: {text: "{Escape}'c/", label: 7}
+  八: {text: "{Escape}'b/", label: 8}
+  九: {text: "{Escape}'k/", label: 9}
+  零: {text: "{Escape}'o/", label: 0}
+  十: {text: "{Escape}'j/", label: 10}
   分數: {text: "{Escape}'bm", label: 分數, functional: false}
   標點: {text: "{Escape}'tq", label: 標點, functional: false}
   偏旁: {text: "{Escape}'pl", label: 偏旁, functional: false}

@@ -392,6 +392,40 @@ emoji_series:
     - xform/^([0-9]-?[0-9]?)$/【 $1 】/
     - xform/^ab$/【 AB 】/
     - xform/^([a-z])$/【 \U$1\E 】/
+    - xform|^([a-z])/$|【 \U$1\E 】(小寫)|
+    - xform|^([a-z]);$|【 \U$1\E 】(大寫)|
     - xform/^3([a-z])$/〖 \U$1\E 變化〗/
+    - xform|^3([a-z])/$|〖 \U$1\E 變化〗(小寫)|
+    - xform|^3([a-z]);$|〖 \U$1\E 變化〗(大寫)|
     - xform//Mac/
 ##### 結束 #####
+
+
+patterns_bpmf_mixin:
+#    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    # url: "^(https?:|ftp:|mailto:|file:).*$|[-0-9][-0-9]+$"
+    # url: "^(www[.]|https?:|ftp:|mailto:|file:).*$"
+    # email: "^[a-z][-_.0-9a-z]*@.*$"
+    emoji_sy: "(?<![-,./;a-z125890])3[-/;0-9a-z]* ?$"
+    # emoji_sy: "^3[-/;0-9a-z]* ?$"
+    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$" #一定要加「+」才可分節
+#    punct: "[\"][']"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
+    email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
+
+
+patterns_plus:
+#    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    # email: "^[a-z][-_.0-9a-z]*@.*$"
+    # url: "^(https?:|ftp:|mailto:|file:).*$"
+    emoji_sy: "(?<![-,./;a-z125890])3[-/;0-9a-z]* ?$"
+    # emoji_sy: "^3[-/;0-9a-z]* ?$"
+    european: "(?<![-,./;a-z125890])4[+a-z;,./-]* ?$" #一定要加「+」才可分節
+    japan: "(?<![-,./;a-z125890])6[+a-z;,./-]* ?$" #一定要加「+」才可分節
+    korea: "(?<![-,./;a-z125890])7[+a-z;,./]* ?$" #一定要加「+」才可分節
+    #韓文形碼專用# korea: "(?<![-,./;a-z125890])7[+a-z;/]* ?$"
+    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$" #一定要加「+」才可分節
+#    punct: "[\"][']"
+    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
+    email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
+

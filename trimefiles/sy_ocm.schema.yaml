@@ -3,7 +3,7 @@
 schema:
   schema_id: sy_ocm
   name: 系列符號(嘸蝦米)
-  version: "202405"
+  version: "202606"
   description: |
     由Unicode中「Emoticons」部份和「Miscellaneous Symbols and Pictographs」部份合成。
     可在Mac中輸入iOS設備通用的Emoji表情，其他系統可能需安装專門字體。
@@ -43,8 +43,24 @@ menu:
   page_size: 5
 
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz'"
+  alphabet: "abcdefghijklmnopqrstuvwxyz';/"
   delimiter: " "
+  algebra:
+    # ## 以下為「顏文字」，針對手機鍵盤順手性作轉換。
+    # -  xform|^;1$|e//|
+    # -  xform|^;2$|r//|
+    # -  xform|^;3$|s//|
+    # -  xform|^;4$|f//|
+    # -  xform|^;5$|w//|
+    # -  xform|^;6$|l//|
+    # -  xform|^;7$|c//|
+    # -  xform|^;8$|b//|
+    # -  xform|^;9$|k//|
+    # -  xform|^;0$|o//|
+    # -  xform|^;-$|j//|
+    ## 以下「拼寫運算」順序會影響「選字單」上的排列順序！
+    # - xform|^(;?)([a-z])[/]$|'$2'|
+    - derive|^('?[a-z])[';]$|$1|
 
 translator:
   dictionary: sy_ocm

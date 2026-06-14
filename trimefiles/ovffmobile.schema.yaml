@@ -8,7 +8,7 @@ schema:
     
   name: "《手機蝦-mixin》"
   schema_id: ovffmobile
-  version: "202603"
+  version: "202606"
   dependencies:
     - punt_ocm
     - sy_ocm
@@ -301,7 +301,8 @@ recognizer:
     # email: "^[a-z][-_.0-9a-z]*@.*$"
     # url: "^(https?:|ftp:|mailto:|file:).*$" #www[.]|
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
-    syocm: "^'[a-z']* ?$"
+    syocm: "^'[a-z';/]*$"
+    # syocm: "^'[a-z']* ?$"
     punct: "[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 

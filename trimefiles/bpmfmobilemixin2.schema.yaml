@@ -4,7 +4,7 @@
 schema:
   schema_id: bpmfmobilemixin2
   name: "《洋蔥手機注音mixin2》"
-  version: "202603"
+  version: "202606"
   author:
     - 『洋蔥』 # 以佛振注音支持聲韻亂序方案改編
   description: |
@@ -566,13 +566,7 @@ editor:
 
 recognizer:
   patterns:
-#    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
-    # url: "^(https?:|ftp:|mailto:|file:).*$|[-0-9][-0-9]+$"
-    # email: "^[a-z][-_.0-9a-z]*@.*$"
-    emoji_sy: "(?<![-,./;a-z125890])3[-/0-9a-z]* ?$"
-    bpmf_m: "^[-+/0-9a-z.,; ]+'\"$|^'\"[-+/0-9a-z.,; ]*$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|[<][>]$|''$|\"\"$"
-    email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(https?:|ftp:|mailto:|file:).*$"
+    __include: element_bpmf:/patterns_bpmf_mixin
 
 predictor:
   db: predict_office.db  #predict.db  #文件名，predict db file in user directory/shared directory

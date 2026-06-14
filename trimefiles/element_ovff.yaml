@@ -374,7 +374,7 @@ emoji_series:
     - xform/^on$/【器官】/
     - xform/^cm$/【蟲類／蟲圖】/
     - xform/^co$/【蟲圖／蟲類】/
-    - "xlit|'|=|"
+    - "xlit|/|=|"
     - xform/^e==/【1 E== 開心〗(顏文字)/
     - xform/^r==/【2 R== 喜歡〗(顏文字)/
     - xform/^s==/【3 S== 傷心〗(顏文字)/
@@ -412,10 +412,14 @@ emoji_series:
     - xform/s【10 J= EO=】/【30 SJ= SO=】/
     - xform/f【10 J= EO=】/【40 FJ= FO=】/
     - xform/w【10 J= EO=】/【50 WJ= WO=】/
-    - xform/^=([a-z])$/〖 \U$1\E 變化〗/
+    - xform/^'([a-z])$/〖 \U$1\E 變化〗/
+    - xform/^'([a-z])'$/〖 \U$1\E 變化〗(小寫)/
+    - xform/^'([a-z]);$/〖 \U$1\E 變化〗(大寫)/
     - xform/^ab$/【 AB 】/
     - xform/^([a-z])$/【 \U$1\E 】/
-    - "xlit|=|'|"
+    - xform/^([a-z])'$/【 \U$1\E 】(小寫)/
+    - xform/^([a-z]);$/【 \U$1\E 】(大寫)/
+    - "xlit|=|/|"
 #    - "xlit|abcdefghijklmnopqrstuvwxyz|ABCDEFGHIJKLMNOPQRSTUVWXYZ|"
     - xform//Mac/
     - xform/^【([0-9])/【 $1/
