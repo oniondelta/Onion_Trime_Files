@@ -159,6 +159,7 @@ punct_mark:
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyzB"
   initials: "abcdefghijklmnopqrstuvwxyz"
+  finals: "B"
   delimiter: "\\Z" #" '"
   algebra:
     - xform/^([a-z]+)[.][.]$/$1B/ #注音文偏旁尾綴改寫
@@ -239,6 +240,8 @@ jphi:
     - ^-{1,2},$
 #    - ^[.]$
   preedit_format:
+    - xform/(?:^|\\),/  , / #日文標點
+    - xform/(?:^|\\)[.]/  . / #日文標點
     - xform/\\/ /
 
 jpka:
@@ -267,6 +270,8 @@ jpka:
     - ^-{1,2}[.]$
 #    - ^[.]$
   preedit_format:
+    - xform/(?:^|\\),/  , / #日文標點
+    - xform/(?:^|\\)[.]/  . / #日文標點
     - xform/\\/ /
 
 korea:
@@ -284,6 +289,7 @@ korea:
 #    - ^[a-z/]{4}$
     - ^[a-z]{1,2}[/]$
   preedit_format:
+    - xform/(?:^|\\)\x{2f}/\x{20}\x{20}\x{2f}\x{20}/ #韓文標點
     - xform/\\/ /
 
 latin:
@@ -329,10 +335,10 @@ recognizer:
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^'[a-z';/]*$"
     # syocm: "^'[a-z']* ?$"
-    punct: "^[svc][.]$|[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
+    punct: "^[svc][.]$|;;$|[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
     jphi: "^[-a-z]+,[-a-z,.]*$"
     jpka: "^(?![svc][.]|www[.])[-a-z]+[.][-a-z.,]*$"
-    korea: "^[a-z]+/[a-z/]*$"
+    korea: "^[a-z/]+/[a-z/]*$"  # 「韓文」前面第一個「/」為補「空格」bug，但尚有問題。
     latin: "^[-a-z]+[';][-a-z';]*$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 

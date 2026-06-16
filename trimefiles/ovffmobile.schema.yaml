@@ -147,6 +147,7 @@ punct_mark:
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz,./';BZ"
   initials: "abcdefghijklmnopqrstuvwxyz"
+  finals: ",./';BZ"
   delimiter: "\\" #" '"
   algebra:
 ### 日語 ###
@@ -303,7 +304,7 @@ recognizer:
     puntocm: "^,[,.'a-z]*$|^[.][.,]+[a-z]*$|^[.](oq|mp)$"
     syocm: "^'[a-z';/]*$"
     # syocm: "^'[a-z']* ?$"
-    punct: "[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
+    punct: ";;$|[(][)]$|[[][]]$|[{][}]$|<>$|''$|\"\"$"
     email_url_translator: "^[a-z][-_.0-9a-z]*@.*$|^(www[.]|https?:|ftp:|mailto:|file:).*$"
 
 predictor:

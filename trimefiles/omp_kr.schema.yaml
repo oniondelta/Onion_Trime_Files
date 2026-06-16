@@ -43,11 +43,13 @@ menu:
 
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz/"
+  finals: "/"
 #  finals: ";'"
   delimiter: "\\"
   algebra:
-    - xform|^([a-z]+[/]+)!$|$1|
     - derive|^([a-z]+)[/]$|$1|
+    - xform|^([a-z]+[/]+)!$|$1|
+    # - abbrev/@$//
 
 translator:
   dictionary: omp_kr.extended

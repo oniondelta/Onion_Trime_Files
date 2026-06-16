@@ -42,7 +42,8 @@ engine:
   # alternative_select_keys: "1234567890"
 
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz;'-"
+  alphabet: "abcdefghijklmnopqrstuvwxyz-';"
+  finals: "';"
 #  finals: ";'"
   delimiter: "\\"
   algebra:
