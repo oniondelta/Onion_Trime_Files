@@ -5,7 +5,7 @@
 schema:
   schema_id: omp_kr
   name: ✹OCM-KR✹
-  version: "202405"
+  version: "202606"
   author:
     - 『洋蔥』
   description: |
@@ -48,8 +48,9 @@ speller:
   delimiter: "\\"
   algebra:
     - derive|^([a-z]+)[/]$|$1|
-    - xform|^([a-z]+[/]+)!$|$1|
-    # - abbrev/@$//
+    # - xform|^([a-z]+[/]+)!$|$1|
+    - abbrev|^([a-z]+[/]+)!$|$1|
+    - abbrev/@$//
 
 translator:
   dictionary: omp_kr.extended
