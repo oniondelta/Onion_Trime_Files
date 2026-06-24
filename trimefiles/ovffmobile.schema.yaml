@@ -147,7 +147,7 @@ punct_mark:
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz,./';BZ"
   initials: "abcdefghijklmnopqrstuvwxyz"
-  finals: ",./';BZ"
+  # finals: ",./';BZ" #不能開啟，否則組合字符無法輸入！
   delimiter: "\\" #" '"
   algebra:
 ### 日語 ###

@@ -4,7 +4,7 @@
 schema:
   schema_id: latinin1 # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
   name: ❃拉丁 in 1❃
-  version: "202405"
+  version: "202606"
   author:
     - 『洋蔥』
   description: |
@@ -59,6 +59,8 @@ speller:
   delimiter: "'"
   algebra:
     - derive|^([a-z]+)[;/]$|$1|
+    ### 避免影響「標點符號」之編碼 ###
+    - abbrev/@$//
 
 translator:
   dictionary: latinin1.extended
