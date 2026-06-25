@@ -137,16 +137,16 @@ patch:
     - derive|^xx(?=[.])|kigou| #只片假名
     # - derive/q(?![yw][aeiou][,.])/xtu/ #っッ #可擴充讓「q」能輸出「っ」「ッ」
     - xform/q(?![yw][aeiou][,.])/xtu/ #っッ #完全轉走，不能用「q」輸出「っ」「ッ」
-    #略# - derive/xtu/ltu/ #っッ
+    #可略# - derive/xtu/ltu/ #っッ #可略#
     - derive/xtu/xtsu/ #っッ
-    #略# - derive/xtu/ltsu/ #っッ
-    #略# - derive/xy/ly/ #ゃゅょ
-    #略# - derive/xwa/lwa/ #ゎ ヮ
-    #略# - derive/x([aeiou])/l$1/ #ぁぇぃぉぅ
-    #略# - derive/xke/lke/ #ヶゖ
+    #可略# - derive/xtu/ltsu/ #っッ #可略#
+    #可略# - derive/xy/ly/ #ゃゅょ #可略#
+    #可略# - derive/xwa/lwa/ #ゎ ヮ #可略#
+    #可略# - derive/x([aeiou])/l$1/ #ぁぇぃぉぅ #可略#
+    #可略# - derive/xke/lke/ #ヶゖ #可略#
     - derive/xke(?=[.])/ke/ #ヶ
     - derive/xke(?=[.])/ga/ #ヶ #新增碼表沒有
-    #略# - derive/xka/lka/ #ヵゕ
+    #可略# - derive/xka/lka/ #ヵゕ #可略#
     - derive/xka(?=[.])/ka/ #ヵ
     - derive/^noma(?=[.])/dou/ #符號
     - derive/^dou(?=[.])/onaji/ #符號
@@ -185,7 +185,7 @@ patch:
     - abbrev/^([kstnhmyrwgzdbpjlfxv])[naiueo][,.]$/$1/ #後面「n」原為了「んン」之「nn」，碼表中目前沒有該編碼。可不用！
     - abbrev/^(c)h[aiueo][,.]$/$1/ #避免「c」開頭沒有對應假名
     - abbrev/^([kstnhmyrwgzdbpjlfcxvq][kstnhmyrwgzdbpjlfc]y?)[aiueo][,.]$/$1/
-    - abbrev/^(q)[wy][aiueo][,.]$/$1/ #避免「q」開頭沒有對應假名
+    - abbrev/^(q)[wy][aiueo][,.]$/$1/ #避免「q」開頭沒有對應假名  #配合上方「っッ」之「q」是否被完全轉走，可略#
 ##### 避免下方「標點」編碼影響，轉換「組合字符」和「特殊」編碼 #####
     - xform/(?<=\w)(,,)$/$1@/
     - xform/(?<=\w)([.][.])$/$1@/
