@@ -111,6 +111,7 @@ shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥雙拼注音331k_M.trime.yaml
 
 
 #複製檔案(洋蔥手機蝦-plus)
+shutil.copyfile("./trimefiles/essay-kr-onion.txt", "./"+sort_trime+"/"+trime_files+"/essay-kr-onion.txt")
 shutil.copyfile("./trimefiles/omp_jp.extended.dict.yaml", "./"+sort_trime+"/"+trime_files+"/omp_jp.extended.dict.yaml")
 shutil.copyfile("./trimefiles/omp_jphi.schema.yaml", "./"+sort_trime+"/"+trime_files+"/omp_jphi.schema.yaml")
 shutil.copyfile("./trimefiles/omp_jpka.schema.yaml", "./"+sort_trime+"/"+trime_files+"/omp_jpka.schema.yaml")
@@ -119,7 +120,8 @@ shutil.copyfile("./trimefiles/omp_kr.schema.yaml", "./"+sort_trime+"/"+trime_fil
 shutil.copyfile("./trimefiles/omp_la.extended.dict.yaml", "./"+sort_trime+"/"+trime_files+"/omp_la.extended.dict.yaml")
 shutil.copyfile("./trimefiles/omp_la.schema.yaml", "./"+sort_trime+"/"+trime_files+"/omp_la.schema.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ocm_mixin_jp.dict.yaml")
-shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ocm_mixin_kr.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_m.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ocm_mixin_kr_m.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_hnc_m.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ocm_mixin_kr_hnc_m.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ocm_mixin_la.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile_plus.extended.dict.yaml", "./"+sort_trime+"/"+trime_files+"/ovffmobile_plus.extended.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile_plus.schema.yaml", "./"+sort_trime+"/"+trime_files+"/ovffmobile_plus.schema.yaml")

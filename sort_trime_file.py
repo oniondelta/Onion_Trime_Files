@@ -231,6 +231,8 @@ shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_file
 
 
 #複製檔案(洋蔥手機蝦-plus)
+shutil.copyfile("./trimefiles/essay-kr-onion.txt", "./"+sort_trime+"/"+trime_files_5+"/essay-kr-onion.txt")
+
 shutil.copyfile("./trimefiles/omp_jp.extended.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/omp_jp.extended.dict.yaml")
 shutil.copyfile("./trimefiles/omp_jphi.schema.yaml", "./"+sort_trime+"/"+trime_files_5+"/omp_jphi.schema.yaml")
 shutil.copyfile("./trimefiles/omp_jpka.schema.yaml", "./"+sort_trime+"/"+trime_files_5+"/omp_jpka.schema.yaml")
@@ -240,7 +242,8 @@ shutil.copyfile("./trimefiles/omp_la.extended.dict.yaml", "./"+sort_trime+"/"+tr
 shutil.copyfile("./trimefiles/omp_la.schema.yaml", "./"+sort_trime+"/"+trime_files_5+"/omp_la.schema.yaml")
 
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ocm_mixin_jp.dict.yaml")
-shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ocm_mixin_kr.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_m.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ocm_mixin_kr_m.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_hnc_m.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ocm_mixin_kr_hnc_m.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ocm_mixin_la.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile_plus.extended.dict.yaml", "./"+sort_trime+"/"+trime_files_5+"/ovffmobile_plus.extended.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile_plus.schema.yaml", "./"+sort_trime+"/"+trime_files_5+"/ovffmobile_plus.schema.yaml")
@@ -287,7 +290,8 @@ shutil.copyfile("./trimefiles/predict_office.db", "./"+sort_trime+"/"+trime_file
 
 #複製檔案(洋蔥手機蝦-mixin)
 shutil.copyfile("./trimefiles/ocm_mixin_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_jp.dict.yaml")
-shutil.copyfile("./trimefiles/ocm_mixin_kr.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_kr.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_m.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_kr_m.dict.yaml")
+shutil.copyfile("./trimefiles/ocm_mixin_kr_hnc_m.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_kr_hnc_m.dict.yaml")
 shutil.copyfile("./trimefiles/ocm_mixin_la.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ocm_mixin_la.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile.extended.dict.yaml", "./"+sort_trime+"/"+trime_files_6+"/ovffmobile.extended.dict.yaml")
 shutil.copyfile("./trimefiles/ovffmobile.schema.yaml", "./"+sort_trime+"/"+trime_files_6+"/ovffmobile.schema.yaml")
