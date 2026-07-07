@@ -4,7 +4,7 @@
 # 字碼有少部分重複，但勿用excel去刪除重複的，因會把相通的字給一並刪除，如：aduu->[朗]和[朗]會給一並的刪除！
 ---
 name: ocm_tc_mc_m
-version: "202512"
+version: "202606"
 sort: original
 use_preset_vocabulary: false
 #max_phrase_length: 7
@@ -5658,6 +5658,7 @@ use_preset_vocabulary: false
 巃	elul	2
 巄	elul
 巄	elulv
+#可能為「vrsf」，官方刻意標# 免	elv	5280
 免	elv	5280
 嵟	elv
 嵟	elvv
@@ -5881,9 +5882,11 @@ use_preset_vocabulary: false
 釅	eop
 釅	eopv	2
 嵧	eoq	1
+畐	eoq
 鶝	eoqf	1
 疈	eoqq
 副	eoqr	3417
+畐	eoqv
 逼	eoqw	703
 岲	eor
 嶯	eorq	5
@@ -14171,6 +14174,7 @@ use_preset_vocabulary: false
 麖	lbls
 麖	lblsr
 癝	lblsv
+#可能為「vrsf」，官方刻意標# 鹿	lblv	613
 鹿	lblv	613
 癕	lblv
 癕	lblvv
@@ -35293,13 +35297,16 @@ use_preset_vocabulary: false
 刼	yudn
 刧	yudr
 朅	yudv	3
+垇	yue
 盍	yuf	6
 凷	yui
 圩	yuj	1
 逺	yukw
 墋	yum	1
 坮	yuo
+垇	yuo
 唟	yuof
+垇	yuov
 卻	yup	11141
 却	yup
 叝	yupu
@@ -36714,8 +36721,10 @@ use_preset_vocabulary: false
 孨	zzz
 孴	zzzd
 孨	zzzv
-##### 網友補充VRSF 結束 @36717 #####
-##### 日文漢字 和 簡體字 開始 #####
+##### 網友補充VRSF 結束 @36724 #####
+##### 打繁出簡、日文漢字、簡體字 開始 #####
+## 順序應該要為「繁出簡」「日漢字」「簡體」（以下可能有誤，尚需調整！）
+## 以下遮屏所有VRSF編碼
 ## 舊的rime碼表，含有日文漢字
 对	a
 対	a
@@ -37725,16 +37734,18 @@ use_preset_vocabulary: false
 轿	cgnr
 轿	cgo
 #蟜	cgov
-慰	ch
 击	ch
 撃	ch
+慰	ch
+#击	ch #提前
+#撃	ch #提前
 轷	chj
 辅	cij
 软	cin
 轴	ciq
 #届	ciqv
 #轼	civ
-#譬	civ
+譬	civ
 车	cj
 #轒	cjav
 鸨	cjnf
@@ -37815,8 +37826,9 @@ use_preset_vocabulary: false
 #蟌	cpav
 蛳	cpbn
 轿	cpdo
+轎	cpdr	198
 轿	cpdr
-轎	cpdr
+#轎	cpdr #提前
 轹	cpdt
 轾	cpe
 #蛜	cpev
@@ -39058,7 +39070,7 @@ use_preset_vocabulary: false
 惯	homb
 稆	hoo
 稆	hov
-#黏	hov
+黏	hov
 #稆	hovv
 惯	hoxb
 麦	hp
@@ -39080,7 +39092,7 @@ use_preset_vocabulary: false
 #頽	hrtv
 慑	hruu
 悭	hruy
-#悦	hrv
+悦	hrv
 获	hrvu
 悩	hsi
 #悩	hsov
@@ -39116,7 +39128,7 @@ use_preset_vocabulary: false
 懒	hvsb
 懶	hvst	605
 #惟	hvv
-#懼	hvv
+懼	hvv	506
 导	hwa
 惕	hwm	87
 穑	hwoo
@@ -39372,7 +39384,7 @@ use_preset_vocabulary: false
 噪	ioot
 #诏	iov
 #词	iov
-#詞	iov
+詞	iov
 评	ip
 讣	ipa
 讹	ipf
@@ -39671,7 +39683,7 @@ use_preset_vocabulary: false
 掀	ji
 搜	jigu	1119
 捜	jigu
-#掀	jiv
+#可能為「vrsf」，官方錯標？# 掀	jiv
 扌	jj
 抃	jja
 构	jje
@@ -40021,7 +40033,7 @@ use_preset_vocabulary: false
 环	kon
 玫	kp
 徴	kp
-#戡	kqv
+戡	kqv	36
 佩	kren
 尴	krf
 刬	kri
@@ -40243,7 +40255,7 @@ use_preset_vocabulary: false
 庼	lftb
 变	lfu
 #码	lfv
-#碼	lfv
+#可能為「vrsf」，官方錯標？# 碼	lfv
 废	lfx
 廃	lfx
 亪	lfy
@@ -40416,7 +40428,7 @@ use_preset_vocabulary: false
 硁	loui
 碜	loum
 硁	louy
-#店	lov
+店	lov
 #磈	lovv
 硲	low
 矶	lowb
@@ -40983,8 +40995,9 @@ use_preset_vocabulary: false
 阃	mot
 #阃	motv
 团	mou
-闾	mov
 閭	mov
+闾	mov
+#閭	mov #提前
 团	mox
 御	mp
 糗	mpad	54
@@ -41078,7 +41091,7 @@ use_preset_vocabulary: false
 徒	mz
 从	mz
 #従	mzv
-#貶	mzv
+貶	mzv
 宊	nad
 宠	nakp
 宠	nal
@@ -41357,6 +41370,7 @@ use_preset_vocabulary: false
 咙	oaxf
 念	oayh
 圆	ob
+円	ob
 鄙	ob
 叭	oba
 囵	obf
@@ -41388,7 +41402,7 @@ use_preset_vocabulary: false
 喝	odnf	2139
 #晋	odv
 #兽	odv
-#嗜	odv
+嗜	odv
 哒	odw
 亚	oe
 哕	oec
@@ -41899,7 +41913,7 @@ use_preset_vocabulary: false
 傧	pnpb
 傧	pnsb
 伫	pnt
-#師	pnv
+師	pnv
 譬	po
 个	po
 俭	poa
@@ -42076,8 +42090,8 @@ use_preset_vocabulary: false
 狱	qd
 体	qd
 #狱	qdv
-#黙	qdv
-#默	qdv
+黙	qdv
+默	qdv
 #默	qdvv
 狰	qee
 弖	qee
@@ -42112,7 +42126,7 @@ use_preset_vocabulary: false
 狱	qiad
 吊	qij
 鸭	qinf
-#甲	qiv
+甲	qiv	1248
 弹	qj
 毕	qj
 獭	qjcb
@@ -42219,7 +42233,7 @@ use_preset_vocabulary: false
 狮	qyen
 猪	qypd
 橥	qypt
-#弓	qyv
+#可能為「vrsf」，官方錯標？# 弓	qyv
 畴	qyya
 点	qzof
 狲	qzs
@@ -43156,7 +43170,7 @@ use_preset_vocabulary: false
 捆	sot
 绢	sou
 #当	sov
-#営	sov
+営	sov
 缗	soxd
 缴	sp
 总	spa
@@ -43272,11 +43286,14 @@ use_preset_vocabulary: false
 绷	suu
 缀	suuu
 经	suy
-带	sv
-耀	sv
 线	sv
 帯	sv
 帶	sv
+带	sv
+耀	sv
+#线	sv #提前
+#帯	sv #提前
+#帶	sv #提前
 维	sve
 绋	svj
 缆	svl
@@ -43541,7 +43558,7 @@ use_preset_vocabulary: false
 椢	toka
 栂	tom
 捆	tot
-#哥	tov
+哥	tov
 梠	tov
 樸	tpa
 梍	tpdc
@@ -43969,7 +43986,7 @@ use_preset_vocabulary: false
 脶	uonb
 灵	uoow
 溜	uoq
-#露	uov
+露	uov
 脚	up
 雾	upd
 #脚	upv
@@ -44345,7 +44362,7 @@ use_preset_vocabulary: false
 響	wdud	6861
 嚮	wduo	174
 饗	wdux	97
-#渓	wdv
+渓	wdv
 湿	wdwf
 氵	we
 浔	wea
@@ -44599,7 +44616,7 @@ use_preset_vocabulary: false
 弥	wqr
 #淕	wquv
 #湾	wqv
-#浅	wqv
+浅	wqv
 泄	wqx
 刘	wr
 测	wr
@@ -44830,7 +44847,7 @@ use_preset_vocabulary: false
 饮	xin
 飮	xin
 #郷	xiv
-#弑	xiv
+弑	xiv
 饿	xix
 馕	xjck
 饽	xjnz
@@ -44969,7 +44986,7 @@ use_preset_vocabulary: false
 冬	ydjb
 壌	ydjk
 者	ydo
-#堵	ydv
+堵	ydv	250
 垯	ydw
 埘	ydya
 埓	yea
@@ -45019,7 +45036,7 @@ use_preset_vocabulary: false
 势	ykad
 热	ykaf
 #墴	ykav
-#堪	ykv
+堪	ykv	604
 坜	yld
 坏	ylfk
 壊	ylfk
@@ -45416,9 +45433,11 @@ use_preset_vocabulary: false
 篮	zrvf
 舰	zrvf
 #舰	zrvfv
-策	zs
 岁	zs
 歳	zs
+策	zs
+#岁	zs #提前
+#歳	zs #提前
 孙	zsa
 筜	zse
 笹	zsl
@@ -45473,7 +45492,7 @@ use_preset_vocabulary: false
 舻	zzc
 笂	zzj
 笂	zzx
-##### 日文漢字 和 簡體字 結束 #####
+##### 打繁出簡、日文漢字、簡體字 結束 #####
 ##### 注音符號起始(注音與電腦的方案上的「尾綴」和「順序」不同) #####
 ### 漢語拼音注音符號 ###
 ㄅ	b..
