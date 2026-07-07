@@ -6,7 +6,7 @@
 # 包含中文、韓語、日語、拉丁+音標
 ---
 name: bo_mixin.extended
-version: "202301"
+version: "202606"
 sort: by_weight
 vocabulary: essay-zh-hant-mc-mixin
 use_preset_vocabulary: true
@@ -15,6 +15,7 @@ min_phrase_weight: 100
 import_tables:
   - terra_pinyin_onion
   - terra_pinyin_onion_add
+  - mixin_bpmf  #內嵌注音文，混打。
   - bo_mixin_la
   # - bo_mixin_en  #《英文26字母和符號》  #此項打開時，bo_mixin_la 和 phrases.la_py_w 請關閉。
   - bo_mixin_jp

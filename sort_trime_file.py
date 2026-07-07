@@ -43,6 +43,7 @@ shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_file
 shutil.copyfile("./trimefiles/sy_bpmf.schema.yaml", "./"+sort_trime+"/"+trime_files_1+"/sy_bpmf.schema.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/terra_pinyin_onion.dict.yaml")
+shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/mixin_bpmf.dict.yaml")
 
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_H.trime.yaml", "./"+sort_trime+"/"+trime_files_1+"/洋蔥注音331k_H.trime.yaml")
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_L.trime.yaml", "./"+sort_trime+"/"+trime_files_1+"/洋蔥注音331k_L.trime.yaml")
@@ -107,6 +108,7 @@ shutil.copyfile("./trimefiles/punct_bpmf.yaml", "./"+sort_trime+"/"+trime_files_
 shutil.copyfile("./trimefiles/rime.lua", "./"+sort_trime+"/"+trime_files_2+"/rime.lua")
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/terra_pinyin_onion.dict.yaml")
+shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/mixin_bpmf.dict.yaml")
 
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_H.trime.yaml", "./"+sort_trime+"/"+trime_files_2+"/洋蔥注音331k_H.trime.yaml")
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_L.trime.yaml", "./"+sort_trime+"/"+trime_files_2+"/洋蔥注音331k_L.trime.yaml")
@@ -165,6 +167,7 @@ shutil.copyfile("./trimefiles/punct_bpmf.yaml", "./"+sort_trime+"/"+trime_files_
 shutil.copyfile("./trimefiles/rime.lua", "./"+sort_trime+"/"+trime_files_3+"/rime.lua")
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./"+sort_trime+"/"+trime_files_3+"/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./"+sort_trime+"/"+trime_files_3+"/terra_pinyin_onion.dict.yaml")
+shutil.copyfile("./trimefiles/mixin_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_files_3+"/mixin_bpmf.dict.yaml")
 
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_H.trime.yaml", "./"+sort_trime+"/"+trime_files_3+"/洋蔥注音331k_H.trime.yaml")
 shutil.copyfile("./trimefiles/3.3.1鍵盤檔/洋蔥注音331k_L.trime.yaml", "./"+sort_trime+"/"+trime_files_3+"/洋蔥注音331k_L.trime.yaml")
