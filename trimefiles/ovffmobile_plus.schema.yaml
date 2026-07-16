@@ -60,6 +60,7 @@ menu:
 
 engine:
   filters:
+    - lua_filter@predictor_m_filter
     - simplifier@character_range_bhjm
     - lua_filter@charset_filter2
 #    - charset_filter@big5
@@ -155,6 +156,9 @@ punct_mark:
   comment_format:
     - erase/^.*〔.*〕.+$/
     - erase/^.+〔.*〕$/
+
+predictor_m_filter:
+  tags: [ prediction ]
 
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyzB"
