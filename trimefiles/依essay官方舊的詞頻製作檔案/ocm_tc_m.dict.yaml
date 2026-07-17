@@ -4,7 +4,7 @@
 # 字碼有少部分重複，但勿用excel去刪除重複的，因會把相通的字給一並刪除，如：aduu->[朗]和[朗]會給一並的刪除！
 ---
 name: ocm_tc_m
-version: "202604"
+version: "202606"
 sort: original
 use_preset_vocabulary: false
 #max_phrase_length: 7
@@ -5658,6 +5658,7 @@ use_preset_vocabulary: false
 巃	elul	357
 巄	elul
 巄	elulv	254
+#可能為「vrsf」，官方刻意標# 免	elv	3671
 免	elv	3671
 嵟	elv
 嵟	elvv	278
@@ -5881,9 +5882,11 @@ use_preset_vocabulary: false
 釅	eop
 釅	eopv	557
 嵧	eoq	236
+畐	eoq
 鶝	eoqf	286
 疈	eoqq	200
 副	eoqr	17939
+畐	eoqv	494
 逼	eoqw	4063
 岲	eor	319
 嶯	eorq	260
@@ -14171,6 +14174,7 @@ use_preset_vocabulary: false
 麖	lbls
 麖	lblsr	294
 癝	lblsv
+#可能為「vrsf」，官方刻意標# 鹿	lblv	1708
 鹿	lblv	1708
 癕	lblv
 癕	lblvv	322
@@ -35293,13 +35297,16 @@ use_preset_vocabulary: false
 刼	yudn	334
 刧	yudr	342
 朅	yudv	374
+垇	yue	332
 盍	yuf	552
 凷	yui	323
 圩	yuj	801
 逺	yukw	596
 墋	yum	251
 坮	yuo	278
+垇	yuo
 唟	yuof
+垇	yuov	332
 卻	yup	44530
 却	yup
 叝	yupu	224
@@ -36714,7 +36721,7 @@ use_preset_vocabulary: false
 孨	zzz
 孴	zzzd	289
 孨	zzzv	394
-##### 網友補充VRSF 結束 @36717 #####
+##### 網友補充VRSF 結束 @36724 #####
 ##### 日文漢字 和 簡體字 開始 #####
 ## 舊的rime碼表，含有日文漢字
 对	a
