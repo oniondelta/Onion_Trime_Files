@@ -175,7 +175,7 @@ style:
   # repeat_interval: 50 #空白鍵、刪除鍵等自動重復間隔：50毫秒即1秒20次
   # repeat_start_delay: 400 #按鍵超過400毫秒後開始重復按鍵
   # reset_ascii_mode: true #顯示鍵盤時重置為中文狀態
-  reset_ascii_mode_on_focus_change: true #false #焦點變更彈起輸入法軟鍵盤時，重置 ascii_mode
+  reset_ascii_mode_on_focus_change: false #焦點變更彈起輸入法軟鍵盤時，重置 ascii_mode
   round_corner: 8 #12 #按鍵圓角半徑
   shadow_radius: 0.0 #按鍵陰影半徑
   # speech_opencc_config: none #s2t.json #語音輸入簡繁轉換
@@ -271,7 +271,7 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: 預設／default #"標準配色！"  #方案名稱
+    name: "預設／Default" #"標準配色！"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color48 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
@@ -337,7 +337,7 @@ preset_color_schemes:
   #  th4: *color2 #第四行文字顏色
 
   default_original:
-    name: "先前預設／previous default" #"原(舊)標準配色！"  #方案名稱
+    name: "先前預設／Previous Default" #"原(舊)標準配色！"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color14 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
@@ -403,7 +403,7 @@ preset_color_schemes:
   #  th4: *color2 #第四行文字顏色
 
   tongwenfeng:
-    name: 同文風／Tong Weng Feng  #方案名稱
+    name: "同文風／Tong Weng Feng"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color2 #候選區背景狀態欄
     candidate_separator_color: *color2 #候選分割背景
@@ -459,7 +459,7 @@ preset_color_schemes:
     bzymixin: 0xffeef1f5 #0xffe8f0ff
 
   aqua:
-    name: 碧水／Aqua
+    name: "碧水／Aqua"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xeeeeec
@@ -470,7 +470,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x0a3afa
 
   azure:
-    name: 青天／Azure
+    name: "青天／Azure"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0xcae8ff
     candidate_text_color: 0xeef8ff
@@ -483,7 +483,7 @@ preset_color_schemes:
     comment_text_color: 0x6496c6
 
   luna:
-    name: 明月／Luna
+    name: "明月／Luna"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xffffff
@@ -494,7 +494,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x000000
 
   ink:
-    name: 墨池／Ink
+    name: "墨池／Ink"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xffffff
@@ -506,7 +506,7 @@ preset_color_schemes:
     keyboard_back_color: 0xdddddd
 
   lost_temple:
-    name: 孤寺／Lost Temple
+    name: "孤寺／Lost Temple"
     author: 佛振 <chen.sst@gmail.com>, based on ir_black
     text_color: 0xf6f3e8
     back_color: 0x444444
@@ -517,7 +517,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xcae682
 
   dark_temple:
-    name: 暗堂／Dark Temple
+    name: "暗堂／Dark Temple"
     author: 佛振 <chen.sst@gmail.com>, based on ir_black
     text_color: 0xdaf692
     candidate_text_color: 0xe6e3d8
@@ -530,7 +530,7 @@ preset_color_schemes:
     comment_text_color: 0xff6c60
 
   starcraft:
-    name: 星際我爭霸／StarCraft
+    name: "星際我爭霸／StarCraft"
     author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
     text_color: 0x88aacc
     candidate_text_color: 0x55bb30
@@ -542,7 +542,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x000000
 
   google:
-    name: 谷歌／Google
+    name: "谷歌／Google"
     author: skoj <skoj@qq.com>
     text_color: 0x666666
     candidate_text_color: 0x000000
@@ -554,7 +554,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x3975CE
 
   solarized_rock:
-    name: 曬經石／Solarized Rock
+    name: "曬經石／Solarized Rock"
     author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
     back_color: 0x002b36
     border_color: 0x002b36
@@ -565,7 +565,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xd33682
 
   tintin:
-    name: "丁丁／ Tintin"
+    name: "丁丁／Tintin"
     author: "Patricivs <ipatrickmac@me.com>"
     text_color: 0xffffff
     back_color: 0x0095d9
@@ -965,7 +965,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xffffff
 
   tantsing:
-    name: 丹青
+    name: "丹青／Tantsing"
     author: Mijiag
     back_color: 0xe3e3e3
     border_color: 0x000000
@@ -979,7 +979,7 @@ preset_color_schemes:
     keyboard_back_color: 0xe3e3e3
 
   yygc:
-    name: "一葉孤城"
+    name: "一葉孤城／Ye Gucheng"
     author: "小辛"
     back_color: 0xffffff
     border_color: 0xffffff
@@ -1258,7 +1258,7 @@ tool_bar:
     action: Mode_switch
 
   # 右側按鈕列表（從右向左排列）
-  buttons: [ *hide_button, *clipboard_button, *prediction_button, *emoji_segestion_button, *character_range_button, *simplification_button, *full_shape_button, *ascii_mode_button ]
+  buttons: [ *hide_button, *clipboard_button, *prediction_button, *emoji_segestion_button, *character_range_button, *simplification_button, *ascii_punct_button, *full_shape_button, *ascii_mode_button ]
 
 # android_keys:
 #   # 僅供編輯鍵盤時參考，實際不產生任何效果
@@ -1277,13 +1277,13 @@ preset_keys:
   POWER: {label: 電源, send: POWER}
   SEARCH: {label: 搜尋, send: Find}
   SLEEP: {label: 休眠, send: SLEEP}
-  # VOICE_ASSIST: {label: 語音, functional: true, send: VOICE_ASSIST}
-  VOICE_ASSIST: {label: 語音, send: VOICE_ASSIST}
+  VOICE_ASSIST: {label: 語音, functional: true, send: VOICE_ASSIST}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
   VOLUME_UP: {label: 音量+, send: VOLUME_UP}
   VOLUME_MUTE: {label: 靜音, send: VOLUME_MUTE}
   # 編輯
   Shift_L: {label: Shift, preview: '⇪', functional: false, send: Shift_L, shift_lock: long}
+  Shift_Ld: {label: Shift, preview: '⇪', functional: false, send: Shift_L, shift_lock: click}
   Return: {label: '↲', preview: '↲', functional: false, send: Return} #'↩'#label: Enter, preview: '↲'
   Return_1: {label: enter_labels, send: Return}
   Return_c: {label: '回車', send: Return }
@@ -1322,7 +1322,7 @@ preset_keys:
   CommitComment: {label: 編碼, send: Control+Shift+Return}
   DeleteCandidate: {label: 刪詞, preview: '刪', send: Control+Delete, functional: false}
   # rime狀態
-  Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中, 英 ]} # states: [ 中文, 西文 ]
+  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中, 英 ]} # states: [ 中文, 西文 ]
   Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
   Henkan: {toggle: simplification, send: Mode_switch, states: [ 漢字, 汉字 ]}
   Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增廣 ]}
@@ -1392,9 +1392,9 @@ preset_keys:
   # Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
   # Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲當前字符
   # # Deploy: {label: 部署, send: function, command: apply, option: "DEPLOY"} #重新部署
-  # Sync: {label: 同步, send: function, command: apply, option: "SYNC_USER_DATA"} #用户资料同步
+  # Sync: {label: 同步, send: function, command: apply, option: "SYNC_USER_DATA"} #用戶資料同步
   # updateConfig: {label: 更新配置, send: function, command: apply, option: "UPDATE_CONFIG"} #更新配置文件
-  # RepeatCommit: { label: 重复,  command: commit, option: "%1$s" } #重复输入刚上屏的内容
+  # RepeatCommit: { label: 重復,  command: commit, option: "%1$s" } #重復輸入剛上屏的內容
 ##########
   # 舊的按鍵
   # Keyboard_move: {label: ❖, functional: true, send: Eisu_toggle, select: move}
@@ -2093,10 +2093,8 @@ preset_keys:
   Settings2: {label: ⚙, functional: false, send: SETTINGS}
   Menu2: {label: ㄓ, functional: false, send: Menu}
   Theme_settings2: {label: ▦, send: SETTINGS, option: "theme"}
-  # Comment_switch: {toggle: _hide_comment, functional: false, send: Mode_switch, states: [〔半角〕, ─ ]}
-  Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [〔半角〕, ─ ]} #[ 有註釋, 無註釋]
-  # Candidate_switch: {toggle: _hide_candidate, functional: false, send: Mode_switch, states: [ ▭, ─ ]}
-  Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ ▭, ─ ]} #[ 有候選, 無候選]
+  Comment_switch: {toggle: _hide_comment, functional: false, send: Mode_switch, states: [〔半角〕, ─ ]} #[ 有註釋, 無註釋]
+  Candidate_switch: {toggle: _hide_candidate, functional: false, send: Mode_switch, states: [ ▭, ─ ]} #[ 有候選, 無候選]
   Color_switch2: {label: ◪, functional: false, send: PROG_RED}
   Keyboard_kmenu: {label: ⌨, functional: false, send: Eisu_toggle, select: kmenu}
   Keyboard_schema_default: {label: ⌨, functional: false, send: Eisu_toggle, select: .default}
@@ -2114,7 +2112,7 @@ preset_keys:
   Keyboard_back: {label: ⏏ 返回, functional: false, send: Eisu_toggle, select: .last_lock}
   K_sign: {click: "", label: "          By L'Étranger Onion  [Xia-M]", functional: false} #label: "By L'Étranger Onion
   # Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
-  Deploy: {label: ⟲ 部署, send: function, command: apply, option: "DEPLOY"}
+  Deploy: {label: ⟲ 部署, functional: false, send: function, command: apply, option: "DEPLOY"}
 #以下方向功能頁之功能鍵
   Keyboard_duse: {label: '<I>', functional: false, send: Eisu_toggle, select: duse}
   Shift_duse: {label: '<I>', functional: false, preview: '<I>', send: Shift_L, shift_lock: click}
@@ -2205,7 +2203,7 @@ preset_keyboards:
       - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: Escape, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs} #, composing: delimiter
+      - {click: Shift_L, composing: Escape, double_click: Shift_Ld, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs} #, composing: delimiter
       - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
       - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
@@ -2273,7 +2271,7 @@ preset_keyboards:
       - {click: ',', long_click: '<', width: 9.75}
       - {click: '.', long_click: '>', width: 9.75}
       - {click: '/', long_click: '?', width: 11}
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8}
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8}
       - {click: Keyboard_bqrw, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9}
       - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, width: 10.9}
       - {click: space, long_click: Keyboard_kmenu, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down, width: 20.4, key_text_size: "8"}
@@ -2333,7 +2331,7 @@ preset_keyboards:
       - {label: 'ㄝ', click: 'text_ie', long_click: '<', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, long_click: 'text_do' #, key_back_color: blue1
       - {label: 'ㄡ', click: 'text_ou', long_click: '>', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 9.75} #, long_click: 'text_gi' #, key_back_color: blue1
       - {label: 'ㄥ', click: 'text_eng', long_click: '?', swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 11} #, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 # composing: delimiter_2
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 # composing: delimiter_2
       - {click: Keyboard_bqrw, composing: delimiter_3, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9}
       - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, swipe_left: Left1, swipe_right: Right1, width: 10.9} #, ascii: '+', composing: 'text_do' #, composing: "Escape"
       - {click: space, long_click: Keyboard_kmenu, hint: S, swipe_up: switch_ascii, swipe_left: Left1, swipe_right: Right1, width: 20.4, key_text_size: "8"} #, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2392,7 +2390,7 @@ preset_keyboards:
       - {label: 'ㄝ', click: 'text_ie', long_click: 'text_dh', width: 9.75} #, long_click: 'text_do' #, key_back_color: blue1
       - {label: 'ㄡ', click: 'text_ou', long_click: '<', width: 9.75} #, long_click: 'text_gi' #, key_back_color: blue1
       - {label: 'ㄥ', click: 'text_eng', long_click: '>', width: 11} #, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 # composing: delimiter_2
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 # composing: delimiter_2
       - {click: Keyboard_bqrw, composing: delimiter_3, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9}
       - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, swipe_left: Left1, swipe_right: Right1, width: 10.9} #click: 'text_add', ascii: '+', composing: 'text_do' #, composing: "Escape"
       - {click: space, long_click: Keyboard_kmenu, hint: NS, swipe_up: switch_ascii, swipe_left: Left1, swipe_right: Right1, width: 20.4, key_text_size: "8"} #, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2452,7 +2450,7 @@ preset_keyboards:
       - {label: 'ㄝ', hint: '     ，平 ', click: 'text_ie', long_click: '<', width: 9.75} #, long_click: 'text_do' #◉, key_back_color: blue1
       - {label: 'ㄡ', hint: '     ．片 ', click: 'text_ou', long_click: '>', width: 9.75} #, long_click: 'text_gi' #◉, key_back_color: blue1
       - {label: 'ㄥ', hint: '       /  小', click: 'text_eng', long_click: '?', width: 11} #◉, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: delimiter_2#
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: delimiter_2#
       - {click: Keyboard_bqrw, composing: delimiter_3, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9}
       - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, swipe_left: Left1, swipe_right: Right1, width: 10.9} #click: 'text_add', ascii: '+', composing: 'text_do' #, composing: "Escape"
       - {click: space, long_click: Keyboard_kmenu, swipe_up: switch_ascii, swipe_left: Left1, swipe_right: Right1, width: 20.4, key_text_size: "7"} #, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2511,7 +2509,7 @@ preset_keyboards:
       - {label: 'ㄝ', hint: '     ，平 ', click: 'text_ie', long_click: 'text_dh', width: 9.75} #, long_click: 'text_do' #◉, key_back_color: blue1
       - {label: 'ㄡ', hint: '     ．片 ', click: 'text_ou', long_click: '!', width: 9.75} #, long_click: 'text_gi' #◉, key_back_color: blue1
       - {label: 'ㄥ', hint: '       /  小', click: 'text_eng', long_click: '?', width: 11} #◉, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: delimiter_2 #composing: Left
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: delimiter_2 #composing: Left
       - {click: Keyboard_bqrw, composing: delimiter_3, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9} #composing: Right
       - {click: 'text_add', ascii: '+', composing: 'text_do', long_click: 'text_eq', key_text_size: "18", swipe_up: cut_all, swipe_left: Left1, swipe_right: Right1, width: 10.9} #, composing: "Escape"
       - {click: space, long_click: Keyboard_kmenu, swipe_up: switch_ascii, swipe_left: Left1, swipe_right: Right1, width: 20.4, key_text_size: "7"} #, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2573,7 +2571,7 @@ preset_keyboards:
       - {label: 'ㄝ', hint: '     ，平 ', click: 'text_ie', long_click: '<', width: 9.75} #, long_click: 'text_do' #◉, key_back_color: blue1
       - {label: 'ㄡ', hint: '     ．片 ', click: 'text_ou', long_click: '>', width: 9.75} #, long_click: 'text_gi' #◉, key_back_color: blue1
       - {label: 'ㄥ', hint: '       /  小', click: 'text_eng', long_click: '?', width: 11} #◉, key_back_color: blue1
-      - {click: Shift_L, composing: "Tab_2", send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: Left2 #composing: delimiter_2 #composing: Left
+      - {click: Shift_L, composing: "Tab_2", double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, width: 13.5, height: *jpgd8} #, composing: Escape #composing: Tab_3 #composing: Left2 #composing: delimiter_2 #composing: Left
       - {click: Keyboard_bqrw, composing: delimiter_3, long_click: clipboard_window2, swipe_up: Keyboard_number, width: 10.9} #composing: Right
       - {click: 'text_do_2', long_click: 'text_gi_2', key_text_size: "18", swipe_up: cut_all, swipe_left: Left1, swipe_right: Right1, width: 10.9} #, ascii: '+', composing: 'text_do' #, composing: "Escape" #click: 'text_add'
       - {click: space, hint: '            ␣       拉', long_click: Keyboard_kmenu, swipe_up: switch_ascii, swipe_left: Left1, swipe_right: Right1, width: 20.4, key_text_size: "6"} #, swipe_up: Mode_switch, swipe_left: Page_Up, swipe_right: Page_Down
@@ -2687,7 +2685,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_4, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_4, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} # long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} # long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
@@ -2752,7 +2750,7 @@ preset_keyboards:
       - {label: 'L', hint: 'ㄨㄟ|ㄩㄝ', click: 'l', long_click: text_dvv2_d, symbol_text_size: *sf4, width: 9.75}
       - {click: "'", hint: '四聲', long_click: '"', swipe_up: Menu_duse, symbol_text_size: *sf4, width: 11} #, swipe_up: Color_switch, swipe_left: Page_Up, height: *jpgd8     #, long_click: 'text_bs' #, swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_4, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_4, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', hint: 'ㄨㄚ|ㄧㄚ', click: 'z', long_click: 'text_yy_d2', symbol_text_size: *sf4, width: 10.5} #long_click: 'text_rr_d' #'“”{Left}{Keyboard_default}'
       - {label: 'X', hint: 'ㄨㄤ|ㄧㄤ', click: 'x', long_click: 'text_gg_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_ii_d' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', hint: 'ㄧㄡ', click: 'c', long_click: 'text_dh_d2', symbol_text_size: *sf4, width: 9.8} #long_click: 'text_yy_d' #'「」{Left}{Keyboard_default}'
@@ -2813,7 +2811,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '>', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: '\', width: 11} #, long_click: 'text_bs' #, swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_2, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -2878,7 +2876,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '>', width: 9.75}
       - {click: '/', hint: '        韓', long_click: '\', swipe_up: Menu_duse, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_2, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #Tab_3 #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -2938,7 +2936,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '>', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: 'text_bs', swipe_up: 'text_bs', width: 11}
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_3, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_3, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', click: 'z', long_click: 'text_yy_2', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_gg_2', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dh_2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -2998,7 +2996,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '#', width: 10.5}
 #      - {click: '/', hint: '        韓', long_click: DeleteCandidate, width: 11} #, long_click: 'text_bs', swipe_up: 'text_bs'
       - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #Tab_3 #composing: "Escape" #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_2, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #Tab_3 #composing: "Escape" #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_dyy', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dyy2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -3059,7 +3057,7 @@ preset_keyboards:
       - {label: 'L', click: 'l', long_click: '#', width: 9.75}
       - {click: '/', hint: '        韓', long_click: Theme_settings, swipe_up: Menu_duse, width: 11} #, long_click: Hide, long_click: 'text_bs', swipe_up: 'text_bs'
 #      - {width: 4.5}
-      - {click: Shift_L3, composing: Tab_2, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #Tab_3 #composing: "Escape" #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
+      - {click: Shift_L3, composing: Tab_2, double_click: Shift_Ld, send_bindings: true, swipe_up: Keyboard_duse, on_key_back_color: benter, hilited_key_back_color: benter, width: 15} #composing: delimiter #Tab_3 #composing: "Escape" #, hilited_key_back_color: benter, key_back_color: bgn, key_text_color: tbs
       - {label: 'Z', click: 'z', long_click: 'text_dbb', width: 10.5} #long_click: 'text_rr' #'“”{Left}{Keyboard_default}'
       - {label: 'X', click: 'x', long_click: 'text_dyy', width: 9.8} #long_click: 'text_ii' #'‘’{Left}{Keyboard_default}'
       - {label: 'C', click: 'c', long_click: 'text_dyy2', width: 9.8} #long_click: 'text_yy' #'「」{Left}{Keyboard_default}'
@@ -3147,7 +3145,7 @@ preset_keyboards:
       - {label: 'ㅣ', click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L3, width: 15, on_key_back_color: benter, hilited_key_back_color: benter}  #click: Shift_L_h
+      - {click: Shift_L3, double_click: Shift_Ld, width: 15, on_key_back_color: benter, hilited_key_back_color: benter}  #click: Shift_L_h
       - {label: 'ㅋ', click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
       - {label: 'ㅌ', click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
       - {label: 'ㅊ', click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
@@ -3260,8 +3258,8 @@ preset_keyboards:
     height: *jpgd6
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    # ascii_mode: 0
-    # reset_ascii_mode: true
+    ascii_mode: 0
+    reset_ascii_mode: false #true
     keys:
       - {click: Clear_duse, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
       - {click: ClearH, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}

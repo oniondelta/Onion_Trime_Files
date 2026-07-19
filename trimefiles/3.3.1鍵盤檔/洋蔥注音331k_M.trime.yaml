@@ -240,7 +240,7 @@ fallback_colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: "標準配色！"  #方案名稱
+    name: "預設／Default" #"標準配色！"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color48 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
@@ -305,8 +305,8 @@ preset_color_schemes:
   #  bh4: *color2 #第四行背景色
   #  th4: *color2 #第四行文字顏色
 
-  default_2:
-    name: "原標準配色！"  #方案名稱
+  default_original:
+    name: "先前預設／Previous Default" #"原(舊)標準配色！"  #方案名稱
     author: 風花絮 #作者信息
     back_color: *color14 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
@@ -428,7 +428,7 @@ preset_color_schemes:
     bzymixin: 0xffeef1f5 #0xffe8f0ff
 
   aqua:
-    name: 碧水／Aqua
+    name: "碧水／Aqua"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xeeeeec
@@ -439,7 +439,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x0a3afa
 
   azure:
-    name: 青天／Azure
+    name: "青天／Azure"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0xcae8ff
     candidate_text_color: 0xeef8ff
@@ -452,7 +452,7 @@ preset_color_schemes:
     comment_text_color: 0x6496c6
 
   luna:
-    name: 明月／Luna
+    name: "明月／Luna"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xffffff
@@ -463,7 +463,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x000000
 
   ink:
-    name: 墨池／Ink
+    name: "墨池／Ink"
     author: 佛振 <chen.sst@gmail.com>
     text_color: 0x000000
     back_color: 0xffffff
@@ -475,7 +475,7 @@ preset_color_schemes:
     keyboard_back_color: 0xdddddd
 
   lost_temple:
-    name: 孤寺／Lost Temple
+    name: "孤寺／Lost Temple"
     author: 佛振 <chen.sst@gmail.com>, based on ir_black
     text_color: 0xf6f3e8
     back_color: 0x444444
@@ -486,7 +486,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xcae682
 
   dark_temple:
-    name: 暗堂／Dark Temple
+    name: "暗堂／Dark Temple"
     author: 佛振 <chen.sst@gmail.com>, based on ir_black
     text_color: 0xdaf692
     candidate_text_color: 0xe6e3d8
@@ -499,7 +499,7 @@ preset_color_schemes:
     comment_text_color: 0xff6c60
 
   starcraft:
-    name: 星際我爭霸／StarCraft
+    name: "星際我爭霸／StarCraft"
     author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
     text_color: 0x88aacc
     candidate_text_color: 0x55bb30
@@ -511,7 +511,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x000000
 
   google:
-    name: 谷歌／Google
+    name: "谷歌／Google"
     author: skoj <skoj@qq.com>
     text_color: 0x666666
     candidate_text_color: 0x000000
@@ -523,7 +523,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x3975CE
 
   solarized_rock:
-    name: 曬經石／Solarized Rock
+    name: "曬經石／Solarized Rock"
     author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
     back_color: 0x002b36
     border_color: 0x002b36
@@ -534,7 +534,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xd33682
 
   tintin:
-    name: "丁丁／ Tintin"
+    name: "丁丁／Tintin"
     author: "Patricivs <ipatrickmac@me.com>"
     text_color: 0xffffff
     back_color: 0x0095d9
@@ -934,7 +934,7 @@ preset_color_schemes:
     hilited_candidate_back_color: 0xffffff
 
   tantsing:
-    name: 丹青
+    name: "丹青／Tantsing"
     author: Mijiag
     back_color: 0xe3e3e3
     border_color: 0x000000
@@ -948,7 +948,7 @@ preset_color_schemes:
     keyboard_back_color: 0xe3e3e3
 
   yygc:
-    name: "一葉孤城"
+    name: "一葉孤城／Ye Gucheng"
     author: "小辛"
     back_color: 0xffffff
     border_color: 0xffffff
@@ -1941,8 +1941,8 @@ preset_keys:
   Settings2: {label: ⚙, functional: false, send: SETTINGS}
   Menu2: {label: ㄓ, functional: false, send: Menu}
   Theme_settings2: {label: ▦, send: SETTINGS, option: "theme"}
-  Comment_switch: {toggle: _hide_comment, functional: false, send: Mode_switch, states: [〔半角〕, ─ ]}
-  Candidate_switch: {toggle: _hide_candidate, functional: false, send: Mode_switch, states: [ ▭, ─ ]}
+  Comment_switch: {toggle: _hide_comment, functional: false, send: Mode_switch, states: [〔半角〕, ─ ]} #[ 有註釋, 無註釋]
+  Candidate_switch: {toggle: _hide_candidate, functional: false, send: Mode_switch, states: [ ▭, ─ ]} #[ 有候選, 無候選]
   Color_switch2: {label: ◪, functional: false, send: PROG_RED}
   Keyboard_kmenu: {label: ⌨, functional: false, send: Eisu_toggle, select: kmenu}
   Keyboard_schema_default: {label: ⌨, functional: false, send: Eisu_toggle, select: .default}
@@ -1959,7 +1959,8 @@ preset_keys:
   Keyboard_42keys: {label: ⌨, functional: false, send: Eisu_toggle, select: 42keys}
   Keyboard_back: {label: ⏏ 返回, functional: false, send: Eisu_toggle, select: .last_lock}
   K_sign: {click: "", label: "          By L'Étranger Onion  [Bpm-M]", functional: false} #label: "By L'Étranger Onion"
-  Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
+  # Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
+  Deploy: {label: ⟲ 部署, functional: false, send: function, command: apply, option: "DEPLOY"}
 #以下方向功能頁之功能鍵
   Keyboard_duse: {label: '<I>', functional: false, send: Eisu_toggle, select: duse}
   Shift_duse: {label: '<I>', functional: false, preview: '<I>', send: Shift_L, shift_lock: click}
@@ -3105,8 +3106,8 @@ preset_keyboards:
     height: *jpgd6
     key_press_offset_x: *offsetX1
     key_press_offset_y: *offsetY1
-    # ascii_mode: 0
-    # reset_ascii_mode: true
+    ascii_mode: 0
+    reset_ascii_mode: false #true
     keys:
       - {click: Clear_duse, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
       - {click: ClearH, key_text_size: "10", width: 11.8, key_back_color: bgn, key_text_color: tgn, key_symbol_color: tgn}
