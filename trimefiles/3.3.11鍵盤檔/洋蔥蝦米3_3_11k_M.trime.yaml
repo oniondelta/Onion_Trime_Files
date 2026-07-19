@@ -102,11 +102,11 @@ style:
   comment_text_size: 10 #12 #編碼提示字號
   hanb_font: HanaMinB.ttf #hanb.ttf #擴充字體
   # horizontal: true #水平模式
-  horizontal_gap: 4 #4 #鍵水平間距
+  horizontal_gap: 4 #4 #鍵水平間距（左右兩鍵的間距）
   keyboard_padding: 0 #竪屏模式下，屏幕左右兩側與鍵盤的距離（曲面屏減少誤觸）
   keyboard_padding_left: 0 #竪屏屏模式下，左手鍵盤佈局，屏幕左側與鍵盤的距離
   keyboard_padding_right: 0 #40 #竪屏屏模式下，左手鍵盤佈局，屏幕右側與鍵盤的距離
-  keyboard_padding_bottom: 24 #0 #竪屏模式下，屏幕下邊緣與鍵盤的距離（避免誤觸發全面屏手勢）
+  keyboard_padding_bottom: 26 #0 #竪屏模式下，屏幕下邊緣與鍵盤的距離（避免誤觸發全面屏手勢）
   keyboard_padding_land: 60 #55 #40 #50 #50與右側齊平 #橫屏模式下，屏幕左右兩側與鍵盤的距離（避免橫屏按鍵過度拉伸變形）
   keyboard_padding_land_bottom: 0 #橫屏模式下，屏幕下側與鍵盤的距離
   # layout:
@@ -167,10 +167,16 @@ style:
   keyboard_height_land: 188 #200 #鎖定橫屏下鍵盤高度，避免切換時鍵盤高度變化而造成閃爍
 #  longpress_timeout: 300 #150 #按鍵超過800毫秒即為長按
 #  multitap_interval: 400 #800毫秒內快速按兩次鍵
-  preview_font: LucidaGrande.ttc #latin.ttf #按鍵提示字體 #測#
-  preview_height: 54 #59 #56 #按鍵提示高度 #測#
-  preview_offset: -2 #-7 #-4 #-1 #標準 -12 #-32 #按鍵提示縱向偏移 #測#
-  preview_text_size: 24 #28 #32 #40 #26 #按鍵提示字號 #測#
+  # preview_font: LucidaGrande.ttc #latin.ttf #按鍵提示字體 #測#
+  # preview_height: 54 #59 #56 #按鍵提示高度 #測#
+  # preview_offset: -2 #-7 #-4 #-1 #標準 -12 #-32 #按鍵提示縱向偏移 #測#
+  # preview_text_size: 24 #28 #32 #40 #26 #按鍵提示字號 #測#
+  popup_font: LucidaGrande.ttc #latin.ttf #按鍵提示字體 #測#
+  popup_width: 38 #按鍵提示寬度
+  popup_height: 48 #按鍵提示高度
+  popup_bottom_margin: 68 #按鍵提示底邊距
+  popup_key_height: 48 #按鍵提示内鍵高度
+  popup_text_size: 23 #按鍵提示字號
   # proximity_correction: true #按鍵糾錯
   # repeat_interval: 50 #空白鍵、刪除鍵等自動重復間隔：50毫秒即1秒20次
   # repeat_start_delay: 400 #按鍵超過400毫秒後開始重復按鍵
@@ -185,7 +191,7 @@ style:
 #  text_height: 32 #編碼區高度
   # text_size: 17 ##20 #編碼區字號
   # vertical_correction: -7 ##-10 ##-5
-  vertical_gap: 4 #8 #鍵盤行距
+  vertical_gap: 4 #8 #鍵盤行距（上下兩行的間距）
   long_text_font: comment.ttf #剪貼板等可能包含大段文本使用的字體
   #background_folder: #背景圖保存在background目錄下的哪個子目錄
   # key_long_text_border: 1
@@ -295,8 +301,11 @@ preset_color_schemes:
     label_color: *color6 #標籤
     off_key_back_color: *color4 #按鍵關閉狀態背景 #*color2 #*color4
     off_key_text_color: *color2 #按鍵關閉狀態文本 #*color1 #*color8
-    preview_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
-    preview_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    # preview_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
+    # preview_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    popup_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
+    popup_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    hilited_popup_text_color: *color1 #高亮按鍵氣提示文本
     text_color: *color16 #編碼 #*color6 #*color1 #*color2
     text_back_color: *color48 #編碼區背景 #*color2
     on_key_back_color: *color6 #shift
@@ -361,8 +370,11 @@ preset_color_schemes:
     label_color: *color6 #標籤
     off_key_back_color: *color4 #按鍵關閉狀態背景 #*color2 #*color4
     off_key_text_color: *color2 #按鍵關閉狀態文本 #*color1 #*color8
-    preview_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
-    preview_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    # preview_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
+    # preview_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    popup_back_color: *color28 #按鍵提示背景 #*color10 #*color4 #*color17 #*color9
+    popup_text_color: *color2 #按鍵提示文本 #*color18 #*color6 #*color2
+    hilited_popup_text_color: *color1 #高亮按鍵氣提示文本
     text_color: *color16 #編碼 #*color6 #*color1 #*color2
     text_back_color: *color14 #編碼區背景 #*color2
     on_key_back_color: *color6 #shift
@@ -426,8 +438,11 @@ preset_color_schemes:
     label_color: 0xff3266a0 #標籤
     off_key_back_color: 0xffacb2c2  #按鍵關閉狀態背景
     off_key_text_color: 0xff838383 #按鍵關閉狀態文本
-    preview_back_color: 0xffacb2c2 #按鍵提示背景
-    preview_text_color: 0xff3266a0 #按鍵提示文本
+    # preview_back_color: 0xffacb2c2 #按鍵提示背景
+    # preview_text_color: 0xff3266a0 #按鍵提示文本
+    popup_back_color: 0xffacb2c2 #按鍵提示背景
+    popup_text_color: *color2 #按鍵提示文本
+    hilited_popup_text_color: *color1 #高亮按鍵氣提示文本
     text_color: 0xff3266a0 #編碼
     text_back_color: *color2 #編碼區背景
     bkg: *color2 #空格鍵背景色
@@ -1169,7 +1184,7 @@ tool_bar:
     # size: [120, 24]      # 視圖組件整體寬高 (支持: -1: 填充(matchParent), -2: 自適應(wrapContent))
     # 背景樣式設置
     background:
-      type: circle           # 高亮形狀 (可選值: circle|rectangle)
+      type: rectangle #circle           # 高亮形狀 (可選值: circle|rectangle)
       corner_radius: 10      # 圓角半徑
       normal: 0x00        # 正常狀態背景顏色
       highlight: hilited_candidate_button_color  # 高亮狀態背景色
