@@ -1,0 +1,417 @@
+# Trime custom style settings
+# encoding: utf-8
+
+__include : 洋蔥注音3_3_11k_M.trime.yaml:/
+__patch:
+config_version: "3.0"
+name: 雙拼注音方案中版          #方案名稱
+author: 洋蔥        #作者信息
+
+preset_keys:
+  K_sign: {click: "", label: "            By L'Étranger Onion  [DBpm-M]", functional: false}
+## 以下符號新增第一頁
+  符碼: {text: '{Escape};fm', label: 符碼, functional: false}
+  電腦: {text: '{Escape};dn', label: 電腦, functional: false}
+  象棋: {text: '{Escape};xq', label: 象棋, functional: false}
+#  西洋棋: {text: '{Escape};xiq', label: 西洋棋, functional: false}
+  麻將: {text: '{Escape};mj', label: 麻將, functional: false}
+  骰子: {text: '{Escape};az', label: 骰子, functional: false}
+  撲克: {text: '{Escape};pk', label: 撲克, functional: false}
+  天氣: {text: '{Escape};tq', label: 天氣, functional: false}
+  音樂: {text: '{Escape};iy', label: 音樂, functional: false}
+  八卦: {text: '{Escape};bg', label: 八卦, functional: false}
+  易經: {text: '{Escape};ij', label: 易經, functional: false} #text: '{Escape};xgne'
+  天體: {text: '{Escape};tt', label: 天體, functional: false}
+  星座: {text: '{Escape};xz', label: 星座, functional: false}
+  星號: {text: '{Escape};xh', label: 星號, functional: false}
+  方塊: {text: '{Escape};fk', label: 方塊, functional: false}
+  幾何: {text: '{Escape};jh', label: 幾何, functional: false}
+  箭頭: {text: '{Escape};jt', label: 箭頭, functional: false}
+  數學: {text: '{Escape};ax', label: 數學, functional: false}
+  上標: {text: '{Escape};ab', label: 上標, functional: false}
+  下標: {text: '{Escape};xb', label: 下標, functional: false}
+  單位: {text: '{Escape};du', label: 單位, functional: false}
+  貨幣: {text: '{Escape};hb', label: 貨幣, functional: false}
+  拼音: {text: '{Escape};pi', label: 拼音, functional: false}
+  注音: {text: '{Escape};wi', label: 注音, functional: false}
+  假名: {text: '{Escape};jm', label: 假名, functional: false}
+  片假名: {text: '{Escape};pmjm', label: 片假名, functional: false}
+  韓文: {text: '{Escape};hu', label: 韓文, functional: false}
+  希臘: {text: '{Escape};xl', label: 希臘, functional: false}
+  希臘大寫: {text: '{Escape};xld', label: 大寫, functional: false}
+  羅馬: {text: '{Escape};lm', label: 羅馬, functional: false}
+  羅馬大寫: {text: '{Escape};lmd', label: 大寫, functional: false}
+  俄語: {text: '{Escape};oy', label: 俄語, functional: false}
+  俄語大寫: {text: '{Escape};oyd', label: 大寫, functional: false}
+  一: {text: '{Escape};1', label: 1}
+  二: {text: '{Escape};2', label: 2}
+  三: {text: '{Escape};3', label: 3}
+  四: {text: '{Escape};4', label: 4}
+  五: {text: '{Escape};5', label: 5}
+  六: {text: '{Escape};6', label: 6}
+  七: {text: '{Escape};7', label: 7}
+  八: {text: '{Escape};8', label: 8}
+  九: {text: '{Escape};9', label: 9}
+  零: {text: '{Escape};0', label: 0}
+  十: {text: '{Escape};10', label: 10}
+  分數: {text: '{Escape};fa', label: 分數, functional: false}
+  標點: {text: '{Escape};bd', label: 標點, functional: false}
+  偏旁: {text: '{Escape};pp', label: 偏旁, functional: false}
+  竪標點: {text: '{Escape};bdw', label: 竪標, functional: false}
+
+  占星: {text: '{Escape};wx', label: 占星, functional: false}
+  文化: {text: '{Escape};uh', label: 文化, functional: false}
+  線段: {text: '{Escape};xd', label: 線段, functional: false}
+  三角: {text: '{Escape};sj', label: 三角, functional: false}
+  聲調: {text: '{Escape};ad', label: 聲調, functional: false}
+  部首: {text: '{Escape};ba', label: 部首, functional: false}
+  筆畫: {text: '{Escape};bh', label: 筆畫, functional: false}
+  圓形: {text: '{Escape};yx', label: 圓形, functional: false}
+  假名半: {text: '{Escape};jmb', label: 假名半形, functional: false}
+
+## 以下符號新增第二頁
+  表情: {text: '{Escape};bq', label: 表情, functional: false} #, label: 😁
+  自然: {text: '{Escape};zr', label: 自然, functional: false}
+  飲食: {text: '{Escape};ia', label: 飲食, functional: false}
+  活動: {text: '{Escape};hd', label: 活動, functional: false}
+  旅遊: {text: '{Escape};li', label: 旅遊, functional: false}
+  物品: {text: '{Escape};up', label: 物品, functional: false}
+  符號: {text: '{Escape};fh', label: 符號, functional: false}
+  國旗: {text: '{Escape};gq', label: 國旗, functional: false}
+
+  a的: {text: '{Escape};a', label: A, functional: false}
+  b的: {text: '{Escape};b', label: B, functional: false}
+  c的: {text: '{Escape};c', label: C, functional: false}
+  d的: {text: '{Escape};d', label: D, functional: false}
+  e的: {text: '{Escape};e', label: E, functional: false}
+  f的: {text: '{Escape};f', label: F, functional: false}
+  g的: {text: '{Escape};g', label: G, functional: false}
+  h的: {text: '{Escape};h', label: H, functional: false}
+
+  微笑: {text: '{Escape};ux', label: 微笑, functional: false}
+  大笑: {text: '{Escape};dx', label: 大笑, functional: false}
+  討厭: {text: '{Escape};ti', label: 討厭, functional: false}
+  無奈: {text: '{Escape};un', label: 無奈, functional: false}
+  哭泣: {text: '{Escape};kq', label: 哭泣, functional: false}
+  冷淡: {text: '{Escape};ld', label: 冷淡, functional: false}
+  驚訝: {text: '{Escape};ji', label: 驚訝, functional: false}
+  懷疑: {text: '{Escape};hi', label: 懷疑, functional: false}
+#  冒汗: {text: '{Escape};mh', label: 冒汗, functional: false}
+
+  i的: {text: '{Escape};i', label: I, functional: false}
+  j的: {text: '{Escape};j', label: J, functional: false}
+  k的: {text: '{Escape};k', label: K, functional: false}
+  l的: {text: '{Escape};l', label: L, functional: false}
+  m的: {text: '{Escape};m', label: M, functional: false}
+  n的: {text: '{Escape};n', label: N, functional: false}
+  o的: {text: '{Escape};o', label: O, functional: false}
+  p的: {text: '{Escape};p', label: P, functional: false}
+
+  生氣: {text: '{Escape};aq', label: 生氣, functional: false}
+  喜愛: {text: '{Escape};xo', label: 喜愛, functional: false}
+  咧嘴笑: {text: '{Escape};lzx', label: 咧嘴笑, functional: false}
+  猴子頭: {text: '{Escape};hzt', label: 猴子頭, functional: false}
+  動物臉: {text: '{Escape};dul', label: 動物臉, functional: false}
+  大頭: {text: '{Escape};dt', label: 大頭, functional: false}
+  獸面: {text: '{Escape};am', label: 獸面, functional: false}
+  貓頭: {text: '{Escape};mt', label: 貓頭, functional: false}
+  人物: {text: '{Escape};ru', label: 人物, functional: false}
+
+  q的: {text: '{Escape};q', label: Q, functional: false}
+  r的: {text: '{Escape};r', label: R, functional: false}
+  s的: {text: '{Escape};s', label: S, functional: false}
+  t的: {text: '{Escape};t', label: T, functional: false}
+  u的: {text: '{Escape};u', label: U, functional: false}
+  v的: {text: '{Escape};v', label: V, functional: false}
+  w的: {text: '{Escape};w', label: W, functional: false}
+  x的: {text: '{Escape};x', label: X, functional: false}
+
+  手勢: {text: '{Escape};aa', label: 手勢, functional: false}
+  衣物: {text: '{Escape};iu', label: 衣物, functional: false}
+  化妝: {text: '{Escape};hw', label: 化妝, functional: false}
+  效果: {text: '{Escape};xg', label: 效果, functional: false}
+
+  y的: {text: '{Escape};y', label: Y, functional: false}
+  z的: {text: '{Escape};z', label: Z, functional: false}
+  五官: {text: '{Escape};ug', label: 五官, functional: false}
+  兩性: {text: '{Escape};lx', label: 兩性, functional: false}
+
+## 以下符號新增第三頁
+  假名圈: {text: '{Escape};jmq', label: '假名◯', functional: false}
+  字母圈: {text: '{Escape};zmq', label: '字母◯小', functional: false}
+  字母括: {text: '{Escape};zmg', label: '字母( )小', functional: false}
+  字母框: {text: '{Escape};zmk', label: '字母□', functional: false}
+#  字母方(字母帶方框)
+  數字圈: {text: '{Escape};azq', label: '數字◯', functional: false}
+  愛情: {text: '{Escape};oq', label: 愛情, functional: false}
+  愛心: {text: '{Escape};ox', label: 愛心, functional: false}
+  時鐘: {text: '{Escape};aw', label: 時鐘, functional: false}
+
+  字母圈黑: {text: '{Escape};zmqh', label: '字母⚫︎', functional: false}
+#  字母黑圈(字母帶圓圈)
+  字母圈大: {text: '{Escape};zmqd', label: 字母◯大, functional: false}
+  字母括大: {text: '{Escape};zmgd', label: 字母( )大, functional: false}
+  字母框黑: {text: '{Escape};zmkh', label: '字母◼', functional: false}
+#  字母黑方(字母帶圓角方框)
+#  字母方黑(字母帶圓角方框)
+#  字母黑框(字母帶圓角方框)
+  數字圈黑: {text: '{Escape};azqh', label: '數字⚫︎', functional: false}
+#  數字黑圈: {text: '{Escape};azhq', label: 數字黑圈, functional: false}
+  數字括: {text: '{Escape};azg', label: '數字( )', functional: false}
+  數字點: {text: '{Escape};azd', label: '數字．', functional: false}
+  數字標: {text: '{Escape};azb', label: 數字標, functional: false}
+
+  警消護: {text: '{Escape};jxh', label: 警消護, functional: false}
+  辦公室: {text: '{Escape};bga', label: 辦公室, functional: false}
+  圖示: {text: '{Escape};ta', label: 圖示, functional: false}
+  圖標: {text: '{Escape};tb', label: 圖標, functional: false}
+  通訊: {text: '{Escape};tx', label: 通訊, functional: false}
+  科學: {text: '{Escape};kx', label: 科學, functional: false}
+#  景點: {text: '{Escape};jd', label: 景點, functional: false}
+  名勝: {text: '{Escape};ma', label: 名勝, functional: false}
+  建築: {text: '{Escape};jw', label: 建築, functional: false}
+
+#  漢字: {text: '{Escape};hz', label: 漢字, functional: false}
+  漢字圈: {text: '{Escape};hzq', label: '漢字◯', functional: false}
+  漢字框: {text: '{Escape};hzk', label: '漢字□', functional: false}
+  漢字括: {text: '{Escape};hzg', label: '漢字( )', functional: false}
+  韓文圈: {text: '{Escape};huq', label: '韓文◯', functional: false}
+  韓文括: {text: '{Escape};hug', label: '韓文( )', functional: false}
+  輸入法: {text: '{Escape};arf', label: 輸入法, functional: false}
+  倉頡: {text: '{Escape};cj', label: 倉頡, functional: false}
+  蘇州碼: {text: '{Escape};swm', label: 蘇州碼, functional: false}
+  日本年: {text: '{Escape};rbn', label: 日本年, functional: false}
+  合字: {text: '{Escape};hz', label: 合字, functional: false}
+#  羅馬數字: {text: '{Escape};lmaz', label: 羅馬數字, functional: false}
+#  羅馬數字大: {text: '{Escape};lmazd', label: 羅馬數字大, functional: false}
+
+  娛樂: {text: '{Escape};yl', label: 娛樂, functional: false}
+  遊戲: {text: '{Escape};ix', label: 遊戲, functional: false}
+  節日: {text: '{Escape};jr', label: 節日, functional: false}
+  宗教: {text: '{Escape};zj', label: 宗教, functional: false}
+  地球: {text: '{Escape};dq', label: 地球, functional: false}
+  景色: {text: '{Escape};js', label: 景色, functional: false}
+  下雪: {text: '{Escape};xx', label: 下雪, functional: false}
+  大自然: {text: '{Escape};dzr', label: 大自然, functional: false}
+
+  怪物: {text: '{Escape};gu', label: 怪物, functional: false}
+  遊樂園: {text: '{Escape};ily', label: 遊樂園, functional: false}
+  生肖圖: {text: '{Escape};axt', label: 生肖圖, functional: false}
+  十字架: {text: '{Escape};azj', label: 十字架, functional: false}
+  美國: {text: '{Escape};mg', label: 美國, functional: false}
+  日本: {text: '{Escape};rb', label: 日本, functional: false}
+  法國: {text: '{Escape};fg', label: 法國, functional: false}
+  節氣: {text: '{Escape};jq', label: 節氣, functional: false}
+
+  月相圖: {text: '{Escape};yxt', label: 月相圖, functional: false}
+  夜空: {text: '{Escape};ik', label: 夜空, functional: false}
+  鈔票: {text: '{Escape};vp', label: 鈔票, functional: false}
+#  紙鈔: {text: '{Escape};wv', label: 紙鈔, functional: false}
+#  紙幣: {text: '{Escape};wb', label: 紙幣, functional: false}
+  錢財: {text: '{Escape};qc', label: 錢財, functional: false}
+
+  月份: {text: '{Escape};yf', label: 月份, functional: false}
+  日期: {text: '{Escape};rq', label: 日期, functional: false}
+  時間: {text: '{Escape};aj', label: 時間, functional: false}
+  曜日: {text: '{Escape};ir', label: 曜日, functional: false}
+#  日本星期: {text: '{Escape};rbxq', label: 日本星期, functional: false}
+
+## 以下符號新增第四頁
+  有害: {text: '{Escape};ih', label: 有害, functional: false}
+  標誌: {text: '{Escape};bw', label: 標誌, functional: false}
+  交通圖: {text: '{Escape};jtt', label: 交通圖, functional: false}
+  公交: {text: '{Escape};gj', label: 公交, functional: false}
+#  公共運輸: {text: '{Escape};ggya', label: 公共運輸, functional: false}
+  捷運: {text: '{Escape};jy', label: 捷運, functional: false}
+#  城軌: {text: '{Escape};vg', label: 城軌, functional: false}
+  火車: {text: '{Escape};hv', label: 火車, functional: false}
+  車輛: {text: '{Escape};vl', label: 車輛, functional: false}
+#  汽車: {text: '{Escape};qv', label: 汽車, functional: false}
+  船隻: {text: '{Escape};vw', label: 船隻, functional: false}
+
+  k假名: {text: '{Escape};kjm', label: 'k 假名', functional: false}
+  g假名: {text: '{Escape};gjm', label: 'g 假名', functional: false}
+  s假名: {text: '{Escape};sjm', label: 's 假名', functional: false}
+  z假名: {text: '{Escape};zjm', label: 'z 假名', functional: false}
+  t假名: {text: '{Escape};tjm', label: 't 假名', functional: false}
+  d假名: {text: '{Escape};djm', label: 'd 假名', functional: false}
+  n假名: {text: '{Escape};njm', label: 'n 假名', functional: false}
+  十二宮: {text: '{Escape};aog', label: 十二宮, functional: false}
+
+  飛機: {text: '{Escape};fj', label: 飛機, functional: false}
+#  飛行器: {text: '{Escape};fxq', label: 飛行器, functional: false}
+  酒類: {text: '{Escape};jl', label: 酒類, functional: false}
+#  酒精: {text: '{Escape};jj', label: 酒精, functional: false}
+  飲料: {text: '{Escape};il', label: 飲料, functional: false}
+  熱飲: {text: '{Escape};ri', label: 熱飲, functional: false}
+  餐具圖: {text: '{Escape};cjt', label: 餐具圖, functional: false}
+  樂器: {text: '{Escape};yq', label: 樂器, functional: false}
+  球具: {text: '{Escape};qj', label: 球具, functional: false}
+  獎牌: {text: '{Escape};jp', label: 獎牌, functional: false}
+#  獎項: {text: '{Escape};jx', label: 獎項, functional: false}
+
+  h假名: {text: '{Escape};hjm', label: 'h 假名', functional: false}
+  b假名: {text: '{Escape};bjm', label: 'b 假名', functional: false}
+  p假名: {text: '{Escape};pjm', label: 'p 假名', functional: false}
+  m假名: {text: '{Escape};mjm', label: 'm 假名', functional: false}
+  y假名: {text: '{Escape};yjm', label: 'y 假名', functional: false}
+  r假名: {text: '{Escape};rjm', label: 'r 假名', functional: false}
+  w假名: {text: '{Escape};wjm', label: 'w 假名', functional: false}
+  星座名: {text: '{Escape};xzm', label: 星座名, functional: false}
+
+  運動: {text: '{Escape};yd', label: 運動, functional: false}
+  做運動: {text: '{Escape};zyd', label: 做運動, functional: false}
+  運動女: {text: '{Escape};ydny', label: 運動女, functional: false}
+  運動男: {text: '{Escape};ydnh', label: 運動男, functional: false}
+  黃種人: {text: '{Escape};hwr', label: 黃種人, functional: false}
+#  亞裔: {text: '{Escape};ii', label: 亞裔, functional: false}
+  棕色人: {text: '{Escape};zsr', label: 棕色人, functional: false}
+#  拉美裔: {text: '{Escape};lmi', label: 拉美裔, functional: false}
+  黑人: {text: '{Escape};hr', label: 黑人, functional: false}
+  白人: {text: '{Escape};br', label: 白人, functional: false}
+#  白種人: {text: '{Escape};bwr', label: 白種人, functional: false}
+
+  a假名: {text: '{Escape};ajm', label: '*a 假名', functional: false}
+  e假名: {text: '{Escape};ejm', label: '*e 假名', functional: false}
+  i假名: {text: '{Escape};ijm', label: '*i 假名', functional: false}
+  o假名: {text: '{Escape};ojm', label: '*o 假名', functional: false}
+  u假名: {text: '{Escape};ujm', label: '*u 假名', functional: false}
+  卦名: {text: '{Escape};gm', label: 卦名, functional: false}
+  六十四卦名: {text: '{Escape};lasgm', label: 64卦名, functional: false}
+
+  阿拉伯: {text: '{Escape};olb', label: 阿拉伯, functional: false}
+  幾何圖: {text: '{Escape};jht', label: 幾何圖, functional: false}
+  指示: {text: '{Escape};wa', label: 指示, functional: false}
+#  箭標: {text: '{Escape};jb', label: 箭標, functional: false}
+  打勾: {text: '{Escape};dg', label: 打勾, functional: false}
+  いろは: {text: '{Escape};iro', label: いろは, functional: false}
+
+  太玄經: {text: '{Escape};txj', label: 太玄經, functional: false}
+  天干: {text: '{Escape};tg', label: 天干, functional: false}
+  地支: {text: '{Escape};dw', label: 地支, functional: false}
+  干支: {text: '{Escape};gw', label: 60干支, functional: false}
+
+## 以下符號新增第五頁
+  植物: {text: '{Escape};wu', label: 植物, functional: false}
+  水果: {text: '{Escape};ag', label: 水果, functional: false}
+  葉子: {text: '{Escape};iz', label: 葉子, functional: false}
+  花卉: {text: '{Escape};hh', label: 花卉, functional: false}
+  蔬菜: {text: '{Escape};ac', label: 蔬菜, functional: false}
+  粗糧: {text: '{Escape};cl', label: 粗糧, functional: false}
+  肉類: {text: '{Escape};rl', label: 肉類, functional: false}
+#  肉品: {text: '{Escape};rp', label: 肉品, functional: false}
+  食物: {text: '{Escape};au', label: 食物, functional: false}
+  工業: {text: '{Escape};gi', label: 工業, functional: false}
+
+  顏開心: {text: '{Escape};;1', label: 〘開心〙, functional: false}
+  顏喜歡: {text: '{Escape};;2', label: 〘喜歡〙, functional: false}
+  顏傷心: {text: '{Escape};;3', label: 〘傷心〙, functional: false}
+  顏生氣: {text: '{Escape};;4', label: 〘生氣〙, functional: false}
+  顏驚訝: {text: '{Escape};;5', label: 〘驚訝〙, functional: false}
+  顏無奈: {text: '{Escape};;6', label: 〘無奈〙, functional: false}
+
+  早餐: {text: '{Escape};zc', label: 早餐, functional: false}
+#  早點: {text: '{Escape};zd', label: 早點, functional: false}
+  午餐: {text: '{Escape};uc', label: 午餐, functional: false}
+#  正飯: {text: '{Escape};wf', label: 正飯, functional: false}
+  零食: {text: '{Escape};la', label: 零食, functional: false}
+  甜點: {text: '{Escape};td', label: 甜點, functional: false}
+#  甜食圖: {text: '{Escape};tat', label: 甜食圖, functional: false}
+  速食: {text: '{Escape};sa', label: 速食, functional: false}
+#  快餐: {text: '{Escape};kc', label: 快餐, functional: false}
+  日本菜: {text: '{Escape};rbc', label: 日本菜, functional: false}
+#  日式料理: {text: '{Escape};rall', label: 日式料理, functional: false}
+#  日本料理: {text: '{Escape};rbll', label: 日本料理, functional: false}
+  中餐: {text: '{Escape};wc', label: 中餐, functional: false}
+  西餐: {text: '{Escape};xc', label: 西餐, functional: false}
+
+  顏喜: {text: '{Escape};;7', label: 〘喜〙, functional: false}
+  顏樂: {text: '{Escape};;8', label: 〘樂〙, functional: false}
+  顏怒: {text: '{Escape};;9', label: 〘怒〙, functional: false}
+  顏指示: {text: '{Escape};;0', label: 〘指示〙, functional: false}
+  顏回話: {text: '{Escape};;;', label: 〘回話〙, functional: false}
+  衣服: {text: '{Escape};if', label: 衣服, functional: false}
+  包包: {text: '{Escape};bb', label: 包包, functional: false}
+  鞋子圖: {text: '{Escape};xzt', label: 鞋子圖, functional: false}
+
+  串物: {text: '{Escape};vu', label: 串物, functional: false}
+  捲物: {text: '{Escape};ju', label: 捲物, functional: false}
+#  食物捲: {text: '{Escape};auj', label: 食物捲, functional: false}
+  米飯: {text: '{Escape};mf', label: 米飯, functional: false}
+  麵包: {text: '{Escape};mb', label: 麵包, functional: false}
+  動物圖: {text: '{Escape};dut', label: 動物圖, functional: false}
+  牲畜: {text: '{Escape};av', label: 牲畜, functional: false}
+#  畜牲: {text: '{Escape};va', label: 畜牲, functional: false}
+  禽類: {text: '{Escape};ql', label: 禽類, functional: false}
+#  家禽圖: {text: '{Escape};jqt', label: 家禽圖, functional: false}
+  鳥類: {text: '{Escape};nl', label: 鳥類, functional: false}
+#  鳥圖: {text: '{Escape};nt', label: 鳥圖, functional: false}
+
+  魚圖: {text: '{Escape};yt', label: 魚圖, functional: false}
+#  魚類圖: {text: '{Escape};ylt', label: 魚類圖, functional: false}
+  精怪圖: {text: '{Escape};jgt', label: 精怪圖, functional: false}
+  精怪女: {text: '{Escape};jgny', label: 精怪女, functional: false}
+  精怪男: {text: '{Escape};jgnh', label: 精怪男, functional: false}
+
+  日用: {text: '{Escape};ry', label: 日用, functional: false}
+  色塊心: {text: '{Escape};skx', label: 色塊心, functional: false}
+  色塊圓: {text: '{Escape};sky', label: 色塊圓, functional: false}
+  色塊方: {text: '{Escape};skf', label: 色塊方, functional: false}
+  填色: {text: '{Escape};ts', label: 填色, functional: false}
+  單線框: {text: '{Escape};dxk', label: 單線框, functional: false}
+  雙線框: {text: '{Escape};axk', label: 雙線框, functional: false}
+  電器圖: {text: '{Escape};dqt', label: 電器圖, functional: false}
+  工具圖: {text: '{Escape};gjt', label: 工具圖, functional: false}
+  眼鏡圖: {text: '{Escape};ijt', label: 眼鏡圖, functional: false}
+  褲子: {text: '{Escape};kz', label: 褲子, functional: false}
+  膚色: {text: '{Escape};fs', label: 膚色, functional: false}
+  色塊: {text: '{Escape};sk', label: 色塊, functional: false}
+  電子: {text: '{Escape};dz', label: 電子, functional: false}
+  武器: {text: '{Escape};uq', label: 武器, functional: false}
+  頭髮: {text: '{Escape};tf', label: 頭髮, functional: false}
+  帽子: {text: '{Escape};mz', label: 帽子, functional: false}
+  中華: {text: '{Escape};wh', label: 中華, functional: false}
+  回收: {text: '{Escape};ha', label: 回收, functional: false}
+
+  血液: {text: '{Escape};xi', label: 血液, functional: false}
+  器官: {text: '{Escape};qg', label: 器官, functional: false}
+  蟲圖: {text: '{Escape};vt', label: 蟲圖, functional: false}
+  多媒體: {text: '{Escape};dmt', label: 多媒體, functional: false}
+  野生動物: {text: '{Escape};iadu', label: 野生動物, functional: false}
+
+  箭頭色: {text: '{Escape};jts', label: 箭頭色, functional: false}
+  數字色: {text: '{Escape};azs', label: 數字色, functional: false}
+  漢字色: {text: '{Escape};hzs', label: 漢字色, functional: false}
+
+  跳舞: {text: '{Escape};tu', label: 跳舞, functional: false}
+  空格: {text: '{Escape};kg', label: 空格, functional: false}
+#  空白: {text: '{Escape};kb', label: 空白, functional: false}
+
+## 以下符號新增第六頁
+  a變: {text: '{Escape};;a', label: 'A變化', functional: false}
+  b變: {text: '{Escape};;b', label: 'B變化', functional: false}
+  c變: {text: '{Escape};;c', label: 'C變化', functional: false}
+  d變: {text: '{Escape};;d', label: 'D變化', functional: false}
+  e變: {text: '{Escape};;e', label: 'E變化', functional: false}
+  f變: {text: '{Escape};;f', label: 'F變化', functional: false}
+  g變: {text: '{Escape};;g', label: 'G變化', functional: false}
+  h變: {text: '{Escape};;h', label: 'H變化', functional: false}
+  i變: {text: '{Escape};;i', label: 'I變化', functional: false}
+  j變: {text: '{Escape};;j', label: 'J變化', functional: false}
+  k變: {text: '{Escape};;k', label: 'K變化', functional: false}
+  l變: {text: '{Escape};;l', label: 'L變化', functional: false}
+  m變: {text: '{Escape};;m', label: 'M變化', functional: false}
+  n變: {text: '{Escape};;n', label: 'N變化', functional: false}
+  o變: {text: '{Escape};;o', label: 'O變化', functional: false}
+  p變: {text: '{Escape};;p', label: 'P變化', functional: false}
+  q變: {text: '{Escape};;q', label: 'Q變化', functional: false}
+  r變: {text: '{Escape};;r', label: 'R變化', functional: false}
+  s變: {text: '{Escape};;s', label: 'S變化', functional: false}
+  t變: {text: '{Escape};;t', label: 'T變化', functional: false}
+  u變: {text: '{Escape};;u', label: 'U變化', functional: false}
+  v變: {text: '{Escape};;v', label: 'V變化', functional: false}
+  w變: {text: '{Escape};;w', label: 'W變化', functional: false}
+  x變: {text: '{Escape};;x', label: 'X變化', functional: false}
+  y變: {text: '{Escape};;y', label: 'Y變化', functional: false}
+  z變: {text: '{Escape};;z', label: 'Z變化', functional: false}
+##############################
