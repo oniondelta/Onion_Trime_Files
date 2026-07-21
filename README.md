@@ -7,11 +7,11 @@
 
 - ⚠️ 請注意 trime 主程式和鍵盤檔 .trime.yaml 適配的版本，預設鍵盤檔只適配 3.3.11 版。
 
-- 先安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，可正常運作再裝這邊重型方案。
-
 - 手機「設定」「螢幕亮屏」時間拉到最長再「部署」。
 
   > 「螢幕關閉休眠」會影響「部署」時間，甚至「部署」不起來。
+
+- 如發生錯誤，可改安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，去查找問題。
 
 <!--
 ## 舊版建議
