@@ -109,10 +109,6 @@
 
 <img width="400" alt="介紹3" src="https://github.com/user-attachments/assets/5221c4b3-9455-44a5-aef7-5bb9330385df" />
 
-<img width="400" alt="介紹9" src="https://github.com/user-attachments/assets/db94c5bb-56e4-4e7b-ad8a-f2d475583c18" />
-
-<img width="400" alt="介紹4" src="https://github.com/user-attachments/assets/98481973-764f-4f16-bc74-ee8f28bb7d37" />
-
 <br>
 
 <img width="400" alt="介紹5" src="https://github.com/user-attachments/assets/97d5bf3c-4303-4258-a555-f4ef7353ec33" />
@@ -122,6 +118,12 @@
 <img width="400" alt="介紹7" src="https://github.com/user-attachments/assets/c81e063d-a184-4781-a647-20bb99870edc" />
 
 <img width="400" alt="介紹8" src="https://github.com/user-attachments/assets/f69af589-fe53-4630-a8f4-a129fe01f7c9" />
+
+<br>
+
+<img width="400" alt="介紹9" src="https://github.com/user-attachments/assets/db94c5bb-56e4-4e7b-ad8a-f2d475583c18" />
+
+<img width="400" alt="介紹4" src="https://github.com/user-attachments/assets/98481973-764f-4f16-bc74-ee8f28bb7d37" />
 
 
 <!--
@@ -156,18 +158,30 @@
 
 
 ## 虛擬鍵盤功能說明
- 
+
+3.3.11 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
+
+<img width="600" alt="介紹MIXIN" src="https://github.com/user-attachments/assets/a7034cc8-7c4c-43f9-ab0c-f2c52acdfa11" />
+
+<img width="600" alt="介紹PLUS" src="https://github.com/user-attachments/assets/54667798-206a-446c-809d-7c112bca87de" />
+
+<img width="600" alt="介紹PURE" src="https://github.com/user-attachments/assets/c76c61a9-bd81-4d62-b8c4-19be204e27aa" />
+
+
+<!--
 3.3.1 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/mix-in_description.png" alt="介紹PURE" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/mix-in_description.png" alt="介紹MIXIN" width="600" />
 
 <img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/plus_description.png" alt="介紹PLUS" width="600" />
 
-<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/pure_description.png" alt="介紹MIXIN" width="600" />
+<img src="https://github.com/oniondelta/Onion_Trime_Files/blob/main/img/pure_description.png" alt="介紹PURE" width="600" />
+-->
+
 
 ## 贊助 Donate
 
-方案已持續更新六年以上！大改、新創、新增非常多功能！做了許多圖文說明！花了族繁不及備載的心力！
+方案已持續更新七年以上！大改、新創、新增非常多功能！做了許多圖文說明！花了族繁不及備載的心力！
 
 贊助 (Donate) 支持，讓 Rime 洋蔥一系列方案更新更有動力！
 
