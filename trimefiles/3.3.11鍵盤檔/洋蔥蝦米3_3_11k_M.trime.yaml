@@ -1,8 +1,8 @@
 # Trime custom style settings
 # encoding: utf-8
 
-config_version: "3.0"
-name: 蝦米方案中版          #方案名稱
+config_version: "3.3.11"
+name: 蝦米方案中版(3.3.11)          #方案名稱
 author: 洋蔥        #作者信息
 
 #鍵盤高度
@@ -336,14 +336,14 @@ preset_color_schemes:
     blue1: *color11 #淺藍
     blued: *color21 #灰藍色
 #
-  #  bh1: *color2 #第一行背景色
-  #  th1: *color2 #第一行文字顏色
-  #  bh2: *color2 #第二行背景色
-  #  th2: *color2 #第二行文字顏色
-  #  bh3: *color2 #第三行背景色
-  #  th3: *color2 #第三行文字顏色
-  #  bh4: *color2 #第四行背景色
-  #  th4: *color2 #第四行文字顏色
+    bh1: *color2 #第一行背景色
+    th1: *color1 #第一行文字顏色
+    bh2: *color2 #第二行背景色
+    th2: *color1 #第二行文字顏色
+    bh3: *color2 #第三行背景色
+    th3: *color1 #第三行文字顏色
+    bh4: *color2 #第四行背景色
+    th4: *color1 #第四行文字顏色
 
   default_original:
     name: "先前預設／Previous Default" #"原(舊)標準配色！"  #方案名稱
@@ -405,14 +405,14 @@ preset_color_schemes:
     blue1: *color11 #淺藍
     blued: *color21 #灰藍色
 #
-  #  bh1: *color2 #第一行背景色
-  #  th1: *color2 #第一行文字顏色
-  #  bh2: *color2 #第二行背景色
-  #  th2: *color2 #第二行文字顏色
-  #  bh3: *color2 #第三行背景色
-  #  th3: *color2 #第三行文字顏色
-  #  bh4: *color2 #第四行背景色
-  #  th4: *color2 #第四行文字顏色
+    bh1: *color2 #第一行背景色
+    th1: *color1 #第一行文字顏色
+    bh2: *color2 #第二行背景色
+    th2: *color1 #第二行文字顏色
+    bh3: *color2 #第三行背景色
+    th3: *color1 #第三行文字顏色
+    bh4: *color2 #第四行背景色
+    th4: *color1 #第四行文字顏色
 
   tongwenfeng:
     name: "同文風／Tong Weng Feng"  #方案名稱

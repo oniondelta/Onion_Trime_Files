@@ -3,8 +3,8 @@
 
 __include : 洋蔥注音3_3_11k_M.trime.yaml:/
 __patch:
-config_version: "3.0"
-name: 雙拼注音方案中版          #方案名稱
+config_version: "3.3.11"
+name: 雙拼注音方案中版(3.3.11)          #方案名稱
 author: 洋蔥        #作者信息
 
 preset_keys:

@@ -3,8 +3,8 @@
 
 __include : 洋蔥蝦米331k_M.trime.yaml:/
 __patch:
-config_version: "3.0"
-name: 蝦米方案低版          #方案名稱
+config_version: "3.3.1"
+name: 蝦米方案低版(3.3.1)          #方案名稱
 author: 洋蔥        #作者信息
 
 # 鍵盤高度
