@@ -2,7 +2,7 @@
 
 - 適用[ trime 3.3.11 版](https://github.com/osfans/trime/releases/tag/v3.3.11)
 
-- 該 3.3.11 版實測版本為 Nightly Build 之 Commit 71d61a0，使用 android 16。
+- 該 3.3.11 版實測版本為 Nightly Build 之 [Commit 71d61a0](https://github.com/osfans/trime/actions/runs/28877614405)，使用 android 16。
 
 - 該版輸入翻頁時，多會展開所有選項，無法只在候選列顯示下一頁選項，造成非設想之行為。
 
