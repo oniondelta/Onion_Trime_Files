@@ -336,9 +336,12 @@ key_binder:
     - {accept: 0, send: Pause, when: has_menu}
 ### 切換 ###
     - { accept: Control+Shift+2, toggle: ascii_mode, when: always}
-    - { accept: Control+Shift+3, toggle: simplification, when: always}
-    - { accept: Control+Shift+4, toggle: character_range_bhjm, when: always}
-    - { accept: Control+Shift+5, toggle: emoji_segestion, when: always}
+    - { accept: Control+Shift+3, toggle: full_shape, when: always}
+    - { accept: Control+Shift+4, toggle: ascii_punct, when: always}
+    - { accept: Control+Shift+5, toggle: simplification, when: always}
+    - { accept: Control+Shift+6, toggle: character_range_bhjm, when: always}
+    - { accept: Control+Shift+7, toggle: emoji_segestion, when: always}
+    - { accept: Control+Shift+8, toggle: prediction, when: always}
 
 editor:
   bindings:
