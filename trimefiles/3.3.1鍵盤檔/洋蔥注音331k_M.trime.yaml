@@ -86,9 +86,9 @@ colors:
 style:
   auto_caps: false #自動句首大寫:true|false|ascii
   background_dim_amount: 0.5
-  candidate_font: han.ttf  #候選字體 #Arial Unicode.ttf
+  candidate_font: han.ttf #["TaipeiSansTCBeta-Regular.ttf"] #候選字體 #Arial Unicode.ttf #3.3.1版只能掛一種字型！
   candidate_padding: 8 #7 #5 #候選項內邊距
-  candidate_spacing: 0 #候選間距
+  candidate_spacing: 0 #候選間距（候選分割線）
   candidate_text_size: 19 #19 #18 #候選字號
   candidate_use_cursor: true #高亮候選項
   candidate_view_height: 34 #42 #28 #候選區高度
@@ -97,9 +97,9 @@ style:
   comment_height: 11 #10 #12 #14 #編碼提示區高度
   comment_on_top: true #編碼提示在上方或右側
   comment_text_size: 10 #12 #編碼提示字號
-  hanb_font: HanaMinB.ttf #hanb.ttf #擴充字體
+  hanb_font: hanb.ttf #["Jigmo2.ttf"] #["HanaMinB.ttf"] #擴充字體 #新版改用[列表]形式 #3.3.1版只能掛一種字型！
   horizontal: true #水平模式
-  horizontal_gap: 4 #4 #鍵水平間距
+  horizontal_gap: 4 #4 #鍵水平間距（左右兩鍵的間距）
   keyboard_padding: 0 #竪屏模式下，屏幕左右兩側與鍵盤的距離（曲面屏減少誤觸）
   keyboard_padding_left: 0 #竪屏屏模式下，左手鍵盤佈局，屏幕左側與鍵盤的距離
   keyboard_padding_right: 0 #40 #竪屏屏模式下，左手鍵盤佈局，屏幕右側與鍵盤的距離
@@ -149,7 +149,7 @@ style:
   #   # - {start: "", click: "Return", label: " 輸入 "}  #label: " ↲ " #某些操作下會當機
   #   # - {start: "", click: "liquid_keyboard_exit", label: " 返回 "}
 ######
-  key_font: LucidaGrande.ttc #symbol.ttf #鍵盤字體
+  key_font: symbol.ttf #["LucidaGrande.ttc"] #鍵盤字體
   key_height: 48 #鍵高
   key_long_text_size: 12 #18 #長標籤字號
   key_text_size: 18 #20 #22 #24 #鍵字號
@@ -164,7 +164,7 @@ style:
   keyboard_height_land: 188 #200 #鎖定橫屏下鍵盤高度，避免切換時鍵盤高度變化而造成閃爍
 #  longpress_timeout: 300 #150 #按鍵超過800毫秒即為長按
 #  multitap_interval: 400 #800毫秒內快速按兩次鍵
-  preview_font: LucidaGrande.ttc #latin.ttf #按鍵提示字體 #測#
+  preview_font: latin.ttf #["LucidaGrande.ttc"] #按鍵提示字體 #測#
   preview_height: 54 #59 #56 #按鍵提示高度 #測#
   preview_offset: -2 #-7 #-4 #-1 #標準 -12 #-32 #按鍵提示縱向偏移 #測#
   preview_text_size: 24 #28 #32 #40 #26 #按鍵提示字號 #測#
@@ -181,7 +181,7 @@ style:
 #  text_height: 32 #編碼區高度
   text_size: 17 ##20 #編碼區字號
   vertical_correction: -7 ##-10 ##-5
-  vertical_gap: 4 #8 #鍵盤行距
+  vertical_gap: 4 #8 #鍵盤行距（上下兩行的間距）
   long_text_font: comment.ttf #剪貼板等可能包含大段文本使用的字體
   #background_folder: #背景圖保存在background目錄下的哪個子目錄
   key_long_text_border: 1
@@ -241,7 +241,7 @@ fallback_colors:
 preset_color_schemes:
   default:
     name: "預設／Default" #"標準配色！"  #方案名稱
-    author: 風花絮 #作者信息
+    author: "風花絮" #作者信息
     back_color: *color48 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
     candidate_separator_color: *color48 #候選分割背景 #*color2
@@ -296,18 +296,18 @@ preset_color_schemes:
     blue1: *color11 #淺藍
     blued: *color21 #灰藍色
 #
-  #  bh1: *color2 #第一行背景色
-  #  th1: *color1 #第一行文字顏色
-  #  bh2: *color2 #第二行背景色
-  #  th2: *color1 #第二行文字顏色
-  #  bh3: *color2 #第三行背景色
-  #  th3: *color1 #第三行文字顏色
-  #  bh4: *color2 #第四行背景色
-  #  th4: *color1 #第四行文字顏色
+    # bh1: *color2 #第一行背景色
+    # th1: *color1 #第一行文字顏色
+    # bh2: *color2 #第二行背景色
+    # th2: *color1 #第二行文字顏色
+    # bh3: *color2 #第三行背景色
+    # th3: *color1 #第三行文字顏色
+    # bh4: *color2 #第四行背景色
+    # th4: *color1 #第四行文字顏色
 
   default_original:
     name: "先前預設／Previous Default" #"原(舊)標準配色！"  #方案名稱
-    author: 風花絮 #作者信息
+    author: "風花絮" #作者信息
     back_color: *color14 #候選區背景狀態欄 #*color2
     border_color: *color4 #邊框 #*color5
     candidate_separator_color: *color14 #候選分割背景 #*color2
@@ -362,18 +362,18 @@ preset_color_schemes:
     blue1: *color11 #淺藍
     blued: *color21 #灰藍色
 #
-  #  bh1: *color2 #第一行背景色
-  #  th1: *color1 #第一行文字顏色
-  #  bh2: *color2 #第二行背景色
-  #  th2: *color1 #第二行文字顏色
-  #  bh3: *color2 #第三行背景色
-  #  th3: *color1 #第三行文字顏色
-  #  bh4: *color2 #第四行背景色
-  #  th4: *color1 #第四行文字顏色
+    # bh1: *color2 #第一行背景色
+    # th1: *color1 #第一行文字顏色
+    # bh2: *color2 #第二行背景色
+    # th2: *color1 #第二行文字顏色
+    # bh3: *color2 #第三行背景色
+    # th3: *color1 #第三行文字顏色
+    # bh4: *color2 #第四行背景色
+    # th4: *color1 #第四行文字顏色
 
   tongwenfeng:
     name: "同文風／Tong Weng Feng"  #方案名稱
-    author: 風花絮 #作者信息
+    author: "風花絮" #作者信息
     back_color: *color2 #候選區背景狀態欄
     candidate_separator_color: *color2 #候選分割背景
     candidate_text_color: *color1 #候選文本
@@ -409,14 +409,14 @@ preset_color_schemes:
     tbs: *color2 #退格鍵文字顏色
     baoe: *color2 #aoeiu背景色
     taoe: 0xff3266a0 #aoeiu文字顏色
-    bh1: *color2 #第一行背景色
-    th1: *color1 #第一行文字顏色
-    bh2: *color2 #第二行背景色
-    th2: *color1 #第二行文字顏色
-    bh3: *color2 #第三行背景色
-    th3: *color1 #第三行文字顏色
-    bh4: *color2 #第四行背景色
-    th4: *color1 #第四行文字顏色
+    # bh1: *color2 #第一行背景色
+    # th1: *color1 #第一行文字顏色
+    # bh2: *color2 #第二行背景色
+    # th2: *color1 #第二行文字顏色
+    # bh3: *color2 #第三行背景色
+    # th3: *color1 #第三行文字顏色
+    # bh4: *color2 #第四行背景色
+    # th4: *color1 #第四行文字顏色
     bgn3: 0xffacb2c2
     bsz2: 0xffacb2c2
 #    tajs: *color2
@@ -429,7 +429,7 @@ preset_color_schemes:
 
   aqua:
     name: "碧水／Aqua"
-    author: 佛振 <chen.sst@gmail.com>
+    author: "佛振 <chen.sst@gmail.com>"
     text_color: 0x000000
     back_color: 0xeeeeec
     border_color: 0xe0e0e0
@@ -439,14 +439,18 @@ preset_color_schemes:
     hilited_candidate_back_color: 0x0a3afa
     # benter: 0xeeeeec
     # bbs: 0xeeeeec
-    # bsz2: 0xe8e88a
-    # bzymixin: 0xe8e88a
-    # bzymix: 0xe8e88a
-    # bzyplus: 0xee8e88a
+    # bsz2: 0xfafaf9
+    # bzymixin: 0xfafaf9
+    # bzymix: 0xfafaf9
+    # bzyplus: 0xfafaf9
+    # bmk: 0xfafaf9
+    # bjt: 0xfafaf9
+    # bgn: 0xfafaf9
+    # bgn3: 0xeeeeec
 
   azure:
     name: "青天／Azure"
-    author: 佛振 <chen.sst@gmail.com>
+    author: "佛振 <chen.sst@gmail.com>"
     text_color: 0xcae8ff
     candidate_text_color: 0xeef8ff
     back_color: 0x014e8b
@@ -459,7 +463,7 @@ preset_color_schemes:
 
   luna:
     name: "明月／Luna"
-    author: 佛振 <chen.sst@gmail.com>
+    author: "佛振 <chen.sst@gmail.com>"
     text_color: 0x000000
     back_color: 0xffffff
     border_color: 0xcccccc
@@ -473,10 +477,14 @@ preset_color_schemes:
     # bzymixin: 0xebebeb
     # bzymix: 0xebebeb
     # bzyplus: 0xebebeb
+    # bmk: 0xebebeb
+    # bjt: 0xebebeb
+    # bgn: 0xebebeb
+    # bgn3: 0xffffff
 
   ink:
     name: "墨池／Ink"
-    author: 佛振 <chen.sst@gmail.com>
+    author: "佛振 <chen.sst@gmail.com>"
     text_color: 0x000000
     back_color: 0xffffff
     border_color: 0x000000
@@ -491,10 +499,14 @@ preset_color_schemes:
     # bzymixin: 0xebebeb
     # bzymix: 0xebebeb
     # bzyplus: 0xebebeb
+    # bmk: 0xebebeb
+    # bjt: 0xebebeb
+    # bgn: 0xebebeb
+    # bgn3: 0xffffff
 
   lost_temple:
     name: "孤寺／Lost Temple"
-    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    author: "佛振 <chen.sst@gmail.com>, based on ir_black"
     text_color: 0xf6f3e8
     back_color: 0x444444
     border_color: 0x444444
@@ -505,7 +517,7 @@ preset_color_schemes:
 
   dark_temple:
     name: "暗堂／Dark Temple"
-    author: 佛振 <chen.sst@gmail.com>, based on ir_black
+    author: "佛振 <chen.sst@gmail.com>, based on ir_black"
     text_color: 0xdaf692
     candidate_text_color: 0xe6e3d8
     back_color: 0x222222
@@ -518,7 +530,7 @@ preset_color_schemes:
 
   starcraft:
     name: "星際我爭霸／StarCraft"
-    author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
+    author: "Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment"
     text_color: 0x88aacc
     candidate_text_color: 0x55bb30
     back_color: 0x000000
@@ -533,18 +545,32 @@ preset_color_schemes:
     # bzymixin: 0x292929
     # bzymix: 0x292929
     # bzyplus: 0x292929
+    # bmk: 0x292929
+    # bjt: 0x292929
+    # bgn: 0x292929
+    # bgn3: 0x000000
 
   google:
     name: "谷歌／Google"
-    author: skoj <skoj@qq.com>
+    author: "skoj <skoj@qq.com>"
     text_color: 0x666666
     candidate_text_color: 0x000000
-    back_color: 0xFFFFFF
-    border_color: 0xE2E2E2
+    back_color: 0xffffff
+    border_color: 0xe2e2e2
     hilited_text_color: 0x000000
-    hilited_back_color: 0xFFFFFF
-    hilited_candidate_text_color: 0xFFFFFF
-    hilited_candidate_back_color: 0x3975CE
+    hilited_back_color: 0xffffff
+    hilited_candidate_text_color: 0xffffff
+    hilited_candidate_back_color: 0x3975ce
+    benter: 0xffffff
+    bbs: 0xffffff
+    bsz2: 0xf54536
+    bzymixin: 0xf54536
+    bzymix: 0xf54536
+    bzyplus: 0xf54536
+    bmk: 0xf54536
+    bjt: 0xf54536
+    bgn: 0xf54536
+    bgn3: 0xffffff
 
   solarized_rock:
     name: "曬經石／Solarized Rock"
@@ -782,15 +808,16 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xeee8d5
     hilited_comment_text_color: 0xeee8d5
     hilited_candidate_back_color: 0x2aa198
-    bmk: 0xb2d5d6 #0x2aa198
-    bjt: 0xf5f4e6 #0xfff8e5
-    bgn: 0xf5f4e6 #0xfff8e5
-    bzyplus: 0xf5f4e6 #0xfff8e5
-    bzymix: 0xf5f4e6 #0xfff8e5
-    bzymixin: 0xf5f4e6 #0xfff8e5
     # benter: 0xfdf6e3
     # bbs: 0xfdf6e3
     # bsz2: 0xf5f4e6
+    bzyplus: 0xf5f4e6 #0xfff8e5
+    bzymix: 0xf5f4e6 #0xfff8e5
+    bzymixin: 0xf5f4e6 #0xfff8e5
+    bmk: 0xb2d5d6 #0x2aa198
+    bjt: 0xf5f4e6 #0xfff8e5
+    bgn: 0xf5f4e6 #0xfff8e5
+    # bgn3: 0xfdf6e3
 
   smurfs:
     name: "藍精靈／Smurfs"
@@ -869,7 +896,7 @@ preset_color_schemes:
 
   modern_warfare:
     name: "現代戰爭／Modern Warfare"
-    author: P1461
+    author: "P1461"
     text_color: 0x70bc14
     back_color: 0x0d1b0a
     border_color: 0x83ad4b
@@ -879,15 +906,16 @@ preset_color_schemes:
     comment_text_color: 0xfbfdfc
     hilited_candidate_text_color: 0xdcfeab
     hilited_candidate_back_color: 0x636f67
-    bmk: 0x4b544e #0x636f67
-    bjt: 0x2f382e #0x1C3B16 #0x162e11
-    bgn: 0x2f382e #0x1C3B16 #0x162e11
-    bzyplus: 0x2f382e #0x1C3B16 #0x162e11
-    bzymix: 0x2f382e #0x1C3B16 #0x162e11
-    bzymixin: 0x2f382e #0x1C3B16 #0x162e11
     # benter: 0x0d1b0a
     # bbs: 0x0d1b0a
     # bsz2: 0x2f382e
+    bzyplus: 0x2f382e #0x1C3B16 #0x162e11
+    bzymix: 0x2f382e #0x1C3B16 #0x162e11
+    bzymixin: 0x2f382e #0x1C3B16 #0x162e11
+    bmk: 0x4b544e #0x636f67
+    bjt: 0x2f382e #0x1C3B16 #0x162e11
+    bgn: 0x2f382e #0x1C3B16 #0x162e11
+    # bgn3: 0x0d1b0a
 
   brisk:
     name: "輕盈／Brisk"
@@ -916,15 +944,16 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xffffff
     hilited_candidate_back_color: 0x1eadef
-    bmk: 0x1eadef
-    bjt: 0x0f253d
-    bgn: 0x0f253d
-    bzyplus: 0x0f253d
-    bzymix: 0x0f253d
-    bzymixin: 0x0f253d
     # benter: 0x0a1929
     # bbs: 0x0a1929
     # bsz2: 0x0f253d
+    bzyplus: 0x0f253d
+    bzymix: 0x0f253d
+    bzymixin: 0x0f253d
+    bmk: 0x1eadef
+    bjt: 0x0f253d
+    bgn: 0x0f253d
+    # bgn3: 0x0a1929
 
   steam:
     name: "Steam"
@@ -940,15 +969,16 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xa9a7a7
     hilited_candidate_back_color: 0x314259
-    bmk: 0x314259
-    bjt: 0x262521 #0x383631
-    bgn: 0x262521 #0x383631
-    bzyplus: 0x262521 #0x383631
-    bzymix: 0x262521 #0x383631
-    bzymixin: 0x262521 #0x383631
     # benter: 0x171614
     # bbs: 0x171614
     # bsz2: 0x262521
+    bzyplus: 0x262521 #0x383631
+    bzymix: 0x262521 #0x383631
+    bzymixin: 0x262521 #0x383631
+    bmk: 0x314259
+    bjt: 0x262521 #0x383631
+    bgn: 0x262521 #0x383631
+    # bgn3: 0x171614
 
   flypy:
     # description: |
@@ -974,10 +1004,14 @@ preset_color_schemes:
     # bzymixin: 0xebebeb
     # bzymix: 0xebebeb
     # bzyplus: 0xebebeb
+    # bmk: 0xebebeb
+    # bjt: 0xebebeb
+    # bgn: 0xebebeb
+    # bgn3: 0xffffff
 
   tantsing:
     name: "丹青／Tantsing"
-    author: Mijiag
+    author: "Mijiag"
     back_color: 0xe3e3e3
     border_color: 0x000000
     text_color: 0x000000
@@ -1234,8 +1268,8 @@ preset_keys:
   Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
   # 切換鍵盤
   Keyboard_symbols: {label: 符集, functional: false, send: Eisu_toggle, select: symbols}
-  Keyboard_number: {label: 123, functional: false, send: Eisu_toggle, select: number}
-  Keyboard_numberb: {label: 123, functional: false, send: Eisu_toggle, select: numberb}
+  Keyboard_number: {label: 123, preview: '⌗', functional: false, send: Eisu_toggle, select: number}
+  # Keyboard_numberb: {label: 123, functional: false, send: Eisu_toggle, select: numberb}
   Keyboard_letter: {label: 字母, functional: true, send: Eisu_toggle, select: default}
   Keyboard_default: {label: 返回, functional: false, send: Eisu_toggle, select: .default}
   Keyboard_switch: {label: 鍵盤, functional: true, send: Eisu_toggle, select: .next}
@@ -1563,7 +1597,7 @@ preset_keys:
 
 #####################
 # 顏文字鍵盤
-  Keyboard_kao: {label: ^_^, functional: false, send: Eisu_toggle, select: kao_happy}
+  Keyboard_kao: {label: ^_^, preview: '顏文字', functional: false, send: Eisu_toggle, select: kao_happy}
   Keyboard_kaoh: {label: 開心, functional: false, send: Eisu_toggle, select: kao_happy}
   Keyboard_kaof: {label: 喜歡, functional: false, send: Eisu_toggle, select: kao_fond}
   Keyboard_kaos: {label: 傷心, functional: false, send: Eisu_toggle, select: kao_sad}
@@ -2016,7 +2050,7 @@ preset_keys:
   # Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
   Deploy: {label: ⟲ 部署, functional: false, send: function, command: apply, option: "DEPLOY"}
 #以下方向功能頁之功能鍵
-  Keyboard_duse: {label: '<I>', functional: false, send: Eisu_toggle, select: duse}
+  Keyboard_duse: {label: '<I>', functional: false, preview: '☩', send: Eisu_toggle, select: duse} #, preview: '⬄'
   Shift_duse: {label: '<I>', functional: false, preview: 'Ｉ', send: Shift_L, shift_lock: click} #, preview: '<I>'
   undo1: {label: "↩", functional: false, send: Control+z} #>=Android 6.0
   redo1: {label: "↪", functional: false, send: Control+y} #>=Android 6.0
@@ -2082,44 +2116,44 @@ preset_keyboards:
     reset_ascii_mode: true
     lock: true
     keys:
-      - {click: q, long_click: 1, key_back_color: bh1, key_text_color: th1}
-      - {click: w, long_click: 2, key_back_color: bh1, key_text_color: th1}
-      - {click: e, long_click: 3, key_back_color: bh1, key_text_color: th1}
-      - {click: r, long_click: 4, key_back_color: bh1, key_text_color: th1}
-      - {click: t, long_click: 5, key_back_color: bh1, key_text_color: th1}
-      - {click: y, long_click: 6, key_back_color: bh1, key_text_color: th1}
-      - {click: u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: i, long_click: 8, key_back_color: bh1, key_text_color: th1}
-      - {click: o, long_click: 9, key_back_color: bh1, key_text_color: th1}
-      - {click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+      - {click: q, long_click: 1} #, key_back_color: bh1, key_text_color: th1}
+      - {click: w, long_click: 2} #, key_back_color: bh1, key_text_color: th1}
+      - {click: e, long_click: 3} #, key_back_color: bh1, key_text_color: th1}
+      - {click: r, long_click: 4} #, key_back_color: bh1, key_text_color: th1}
+      - {click: t, long_click: 5} #, key_back_color: bh1, key_text_color: th1}
+      - {click: y, long_click: 6} #, key_back_color: bh1, key_text_color: th1}
+      - {click: u, long_click: 7} #, key_back_color: bh1, key_text_color: th1}
+      - {click: i, long_click: 8} #, key_back_color: bh1, key_text_color: th1}
+      - {click: o, long_click: 9} #, key_back_color: bh1, key_text_color: th1}
+      - {click: p, long_click: 0} #, key_back_color: bh1, key_text_color: th1}
 
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
-      - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
-      - {click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {click: g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {width: 5} #, key_back_color: bh2, key_text_color: th2}
+      - {click: a, long_click: select_all} #, key_back_color: bh2, key_text_color: th2}
+      - {click: s, long_click: '@'} #, key_back_color: bh2, key_text_color: th2}
+      - {click: d, long_click: '#'} #, key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '$'} #, key_back_color: bh2, key_text_color: th2}
+      - {click: g, long_click: '%', swipe_down: "date_time"} #, key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '!', swipe_down: "+"} #, key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '&', swipe_down: "-"} #, key_back_color: bh2, key_text_color: th2}
+      - {click: k, long_click: '*', swipe_down: "_"} #, key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '(){Left}', swipe_down: "="} #, key_back_color: bh2, key_text_color: th2}
+      - {width: 5} #, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, composing: Escape, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs} #, composing: delimiter
-      - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: paste, swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: ";", key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: z, long_click: '`', swipe_down: '[]{Left}'} #, key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: cut, swipe_down: '{}{Left}'} #, key_back_color: bh3, key_text_color: th3}
+      - {click: c, long_click: copy, swipe_down: ' '} #, key_back_color: bh3, key_text_color: th3}
+      - {click: v, long_click: paste, swipe_down: "\\"} #, key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: ";"} #, key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: ":"} #, key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: '?', swipe_down: "|"} #, key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
       - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs}
-      - {click: ',', label: '，', long_click: liquid_keyboard_clipboard2, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Keyboard_kmenu, swipe_left: "Left", swipe_right: "Right", swipe_up: Mode_switch_a, width: 30, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
-      - {click: '.', label: '。', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
+      - {click: ',', label: '，', long_click: liquid_keyboard_clipboard2} #, key_back_color: bh4, key_text_color: th4}
+      - {click: space, long_click: Keyboard_kmenu, swipe_left: "Left", swipe_right: "Right", swipe_up: Mode_switch_a, width: 30} #, key_back_color: bkg, key_text_color: tkg} #, swipe_up: Schema_switchcn
+      - {click: '.', label: '。', long_click: '<>{Left}'} #, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: CommitRawInput, width: 25, key_back_color: benter, key_text_color: tenter} #, swipe_up: Escape
 #####################
   42keys:
@@ -3024,44 +3058,44 @@ preset_keyboards:
     reset_ascii_mode: true
     lock: true
     keys:
-      - {label: 'ㅂ', hint: 'ㅃ', click: q, long_click: 1, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅈ', hint: 'ㅉ', click: w, long_click: 2, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㄷ', hint: 'ㄸ', click: e, long_click: 3, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㄱ', hint: 'ㄲ', click: r, long_click: 4, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅅ', hint: 'ㅆ', click: t, long_click: 5, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅛ', click: y, long_click: 6, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅕ', click: u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅑ', click: i, long_click: 8, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅐ', hint: 'ㅒ', click: o, long_click: 9, key_back_color: bh1, key_text_color: th1}
-      - {label: 'ㅔ', hint: 'ㅖ', click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅂ', hint: 'ㅃ', click: q, long_click: 1} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅈ', hint: 'ㅉ', click: w, long_click: 2} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㄷ', hint: 'ㄸ', click: e, long_click: 3} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㄱ', hint: 'ㄲ', click: r, long_click: 4} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅅ', hint: 'ㅆ', click: t, long_click: 5} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅛ', click: y, long_click: 6} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅕ', click: u, long_click: 7} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅑ', click: i, long_click: 8} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅐ', hint: 'ㅒ', click: o, long_click: 9} #, key_back_color: bh1, key_text_color: th1}
+      - {label: 'ㅔ', hint: 'ㅖ', click: p, long_click: 0} #, key_back_color: bh1, key_text_color: th1}
 
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅁ', click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㄴ', click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅇ', click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㄹ', click: f, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅎ', click: g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅗ', click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅓ', click: j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅏ', click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {label: 'ㅣ', click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {width: 5} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅁ', click: a, long_click: select_all} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㄴ', click: s, long_click: '@'} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅇ', click: d, long_click: '#'} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㄹ', click: f, long_click: '$'} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅎ', click: g, long_click: '%', swipe_down: "date_time"} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅗ', click: h, long_click: '!', swipe_down: "+"} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅓ', click: j, long_click: '&', swipe_down: "-"} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅏ', click: k, long_click: '*', swipe_down: "_"} #, key_back_color: bh2, key_text_color: th2}
+      - {label: 'ㅣ', click: l, long_click: '(){Left}', swipe_down: "="} #, key_back_color: bh2, key_text_color: th2}
+      - {width: 5} #, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L3, width: 15, on_key_back_color: benter, hilited_key_back_color: benter}  #click: Shift_L_h
-      - {label: 'ㅋ', click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅌ', click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅊ', click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅍ', click: v, long_click: paste, swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅠ', click: b, long_click: ";", key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅜ', click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
-      - {label: 'ㅡ', click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅋ', click: z, long_click: '`', swipe_down: '[]{Left}'} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅌ', click: x, long_click: cut, swipe_down: '{}{Left}'} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅊ', click: c, long_click: copy, swipe_down: ' '} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅍ', click: v, long_click: paste, swipe_down: "\\"} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅠ', click: b, long_click: ";"} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅜ', click: n, long_click: ":"} #, key_back_color: bh3, key_text_color: th3}
+      - {label: 'ㅡ', click: m, long_click: '?', swipe_down: "|"} #, key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Menu_duse, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs, height: *jpgd9}
       - {click: Keyboard_bqrw, long_click: Theme_settings, width: 12.5, key_back_color: bgn3, key_text_color: tgn, key_symbol_color: tajs}
-      - {click: ',', label: ',', long_click: liquid_keyboard_clipboard2, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch_Korea, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', label: '.', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
+      - {click: ',', label: ',', long_click: liquid_keyboard_clipboard2} #, key_back_color: bh4, key_text_color: th4}
+      - {click: space, long_click: Mode_switch_Korea, swipe_left: "Left", swipe_right: "Right", swipe_up: Keyboard_kmenu, width: 30} #, key_back_color: bkg, key_text_color: tkg}
+      - {click: '.', label: '.', long_click: '<>{Left}'} #, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, width: 25, key_back_color: benter, key_text_color: tenter}
 #####################
 #####################
