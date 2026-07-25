@@ -1601,7 +1601,7 @@ preset_keys:
   OCM_ZH: {label: 9, text: "{Z}"}
   OCM_BPMF: {label: 0, text: "{B}"}
 ####
-  noop_key: {label: " ", send: VoidSymbol} #原「click: ''」失效造成排版錯亂，以此取代可恢復原先。
+  _s_: {label: " ", send: VoidSymbol} #原「click: ''」失效造成排版錯亂，以此取代可恢復原先。
 #####################
 # 顯示 preview 出現ㄅㄆㄇㄈ和特殊鍵標示
   text_1: {label: '1', preview: 'ㄅ', send: '1', functional: false}
@@ -3370,14 +3370,14 @@ preset_keyboards:
     ascii_mode: 0 #1
     reset_ascii_mode: false #true
     keys:
-      - {click: noop_key, width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: _s_, width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Settings2, width: 16, hint: 設置, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Menu2, width: 16, hint: 方案, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Theme_settings2, width: 16, hint: 主題, key_symbol_color: candidate_text_color, key_text_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Color_switch2, width: 16, hint: 配色, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Candidate_switch, width: 16, hint: 候選窗, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Comment_switch, width: 16, hint: 上排, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
-      - {click: noop_key, width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: _s_, width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
 
 #      - {width: 100, height: 0.4}
 
@@ -3825,7 +3825,7 @@ preset_keyboards:
       - {click: y變, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
       - {click: z變, key_text_size: "11", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
       - {click: 空白, key_text_size: "15", swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols} #, symbol_text_size: '8'
-      - {click: noop_key, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color} #, width: 21.5
+      - {click: _s_, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color} #, width: 21.5
       - {click: Keyboard_symbols6, label: 6/6, key_text_size: "15", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqz1, swipe_right: Keyboard_kao, swipe_up: Keyboard_symbols5, swipe_down: Keyboard_symbols, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
       - {click: Left, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Left
       - {click: Right, key_text_size: "30", key_back_color: bjt, key_text_color: tgn} #click: '備用', composing: Right
@@ -4235,15 +4235,15 @@ preset_keyboards:
     - {click: '📿', key_text_size: *sf5, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1}
     - {click: '💄', key_text_size: *sf5, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1}
     - {click: '💍', key_text_size: *sf5, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1}
-    - {click: noop_key, width: 50, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 50, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqrw6, label: 6/6, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqfh1, swipe_right: Keyboard_bqhc1, swipe_up: Keyboard_bqrw5, swipe_down: Keyboard_bqrw1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -4511,13 +4511,13 @@ preset_keyboards:
     - {click: ⚫, key_text_size: *sf5, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1}
     - {click: 🔴, key_text_size: *sf5, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1}
     - {click: 🔵, key_text_size: *sf5, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1}
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqqt4, label: 4/4, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqkj1, swipe_right: Keyboard_bqqz1, swipe_up: Keyboard_bqqt3, swipe_down: Keyboard_bqqt1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -4887,7 +4887,7 @@ preset_keyboards:
     - {click: 🇿🇲, key_text_size: *sf5, swipe_left: Keyboard_bqqt1, swipe_right: Keyboard_symbols, swipe_up: Keyboard_bqqz4, swipe_down: Keyboard_bqqz1}
 
     - {click: 🇿🇼, key_text_size: *sf5, swipe_left: Keyboard_bqqt1, swipe_right: Keyboard_symbols, swipe_up: Keyboard_bqqz4, swipe_down: Keyboard_bqqz1}
-    - {click: noop_key, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqt1, swipe_right: Keyboard_symbols, swipe_up: Keyboard_bqqz4, swipe_down: Keyboard_bqqz1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqqt1, swipe_right: Keyboard_symbols, swipe_up: Keyboard_bqqz4, swipe_down: Keyboard_bqqz1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqqz5, label: 5/5, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqqt1, swipe_right: Keyboard_symbols, swipe_up: Keyboard_bqqz4, swipe_down: Keyboard_bqqz1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5016,11 +5016,11 @@ preset_keyboards:
     - {click: 🍴, key_text_size: *sf5, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1}
     - {click: 🔪, key_text_size: *sf5, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1}
     - {click: 🏺, key_text_size: *sf5, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1}
-    - {click: noop_key, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqpt2, label: 2/2, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqhc1, swipe_right: Keyboard_bqlx1, swipe_up: Keyboard_bqpt1, swipe_down: Keyboard_bqpt1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5141,13 +5141,13 @@ preset_keyboards:
     - {click: 🃏, key_text_size: *sf5, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1}
     - {click: 🀄, key_text_size: *sf5, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1}
     - {click: 🎴, key_text_size: *sf5, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1}
-    - {click: noop_key, width: 30, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 30, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
   
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqhd2, label: 2/2, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqlx1, swipe_right: Keyboard_bqkj1, swipe_up: Keyboard_bqhd1, swipe_down: Keyboard_bqhd1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5297,7 +5297,7 @@ preset_keyboards:
     - {click: 🍁, key_text_size: *sf5, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1}
     - {click: 🍂, key_text_size: *sf5, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1}
     - {click: 🍃, key_text_size: *sf5, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1}
-    - {click: noop_key, width: 10, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 10, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqhc2, label: 2/2, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqrw1, swipe_right: Keyboard_bqpt1, swipe_up: Keyboard_bqhc1, swipe_down: Keyboard_bqhc1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5642,13 +5642,13 @@ preset_keyboards:
     - {click: 🔥, key_text_size: *sf5, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1}
     - {click: 💧, key_text_size: *sf5, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1}
     - {click: 🌊, key_text_size: *sf5, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1}
-    - {click: noop_key, width: 40, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 40, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqlx5, label: 5/5, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqpt1, swipe_right: Keyboard_bqhd1, swipe_up: Keyboard_bqlx4, swipe_down: Keyboard_bqlx1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5927,11 +5927,11 @@ preset_keyboards:
     - {click: 🗿, key_text_size: *sf5, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1}
     - {click: 🛢, key_text_size: *sf5, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1}
     - {click: 🔮, key_text_size: *sf5, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1}
-    - {click: noop_key, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 60, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
 
-    - {click: noop_key, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
+    - {click: _s_, width: 70, key_back_color: keyboard_back_color, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color}
     - {click: Keyboard_bqkj4, label: 4/4, key_text_size: "14", key_back_color: keyboard_back_color, key_text_color: bbs, swipe_left: Keyboard_bqhd1, swipe_right: Keyboard_bqqt1, swipe_up: Keyboard_bqkj3, swipe_down: Keyboard_bqkj1, hilited_key_back_color: keyboard_back_color, hilited_key_text_color: bbs}
     - {click: BackSpace, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
     - {click: Keyboard_last_lock, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
@@ -5999,14 +5999,14 @@ preset_keyboards:
 
     - {click: '〃', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
     - {click: '〻', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh14, swipe_down: Keyboard_bqfh2}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bmk, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6075,19 +6075,19 @@ preset_keyboards:
     - {click: '<>{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
     - {click: '[]{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
     - {click: '{}{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh1, swipe_down: Keyboard_bqfh3}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bmk, key_text_color: tenter}
@@ -6229,27 +6229,27 @@ preset_keyboards:
     - {click: '｛｝{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
     - {click: '＜＞{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh3, swipe_down: Keyboard_bqfh5}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6311,25 +6311,25 @@ preset_keyboards:
 
     - {click: '﹛﹜{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
     - {click: '﹤﹥{Left}', key_text_size: "14", swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh4, swipe_down: Keyboard_bqfh6}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6396,21 +6396,21 @@ preset_keyboards:
     - {click: '‱', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
     - {click: '℃', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
     - {click: '℉', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh5, swipe_down: Keyboard_bqfh7}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6475,23 +6475,23 @@ preset_keyboards:
     - {click: '☓', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
     - {click: '㏂', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
     - {click: '㏘', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh6, swipe_down: Keyboard_bqfh8}
 
     - {click: Keyboard_bqfh1a, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh2, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6563,15 +6563,15 @@ preset_keyboards:
     - {click: '▴', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
 
     - {click: '▾', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh7, swipe_down: Keyboard_bqfh9}
 
     - {click: Keyboard_bqfh8, key_text_size: 12, key_back_color: bmk, key_text_color: tenter}
     - {click: Keyboard_bqfh9, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6811,7 +6811,7 @@ preset_keyboards:
     - {click: '┒', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
     - {click: '┖', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
     - {click: '┚', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
     - {click: '┃', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh10, swipe_down: Keyboard_bqfh12}
 
     - {click: Keyboard_bqfh8, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6882,15 +6882,15 @@ preset_keyboards:
     - {click: '╜', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
     - {click: '╱', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
     - {click: '╲', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh11, swipe_down: Keyboard_bqfh13}
 
     - {click: Keyboard_bqfh8, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -6970,7 +6970,7 @@ preset_keyboards:
     - {click: '☤', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh12, swipe_down: Keyboard_bqfh14}
     - {click: '☮', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh12, swipe_down: Keyboard_bqfh14}
     - {click: '❅', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh12, swipe_down: Keyboard_bqfh14}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh12, swipe_down: Keyboard_bqfh14}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh12, swipe_down: Keyboard_bqfh14}
 
     - {click: Keyboard_bqfh8, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh9, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -7019,38 +7019,38 @@ preset_keyboards:
     - {click: '︑', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
     - {click: '︱', swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
 
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
-    - {click: noop_key, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
+    - {click: _s_, swipe_left: Keyboard_kao, swipe_right: Keyboard_bqrw1, swipe_up: Keyboard_bqfh13, swipe_down: Keyboard_bqfh1}
 
     - {click: Keyboard_bqfh8, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
     - {click: Keyboard_bqfh9, key_text_size: 12, key_back_color: bgn, key_text_color: tenter}
@@ -7112,7 +7112,7 @@ preset_keyboards:
       - {click: "乁( ˙ ω˙乁)", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "✧*｡٩(ˊωˋ*)و✧*｡", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
       - {click: "～(￣▽￣～)(～￣▽￣)～", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaod, swipe_down: Keyboard_kaof, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7121,7 +7121,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_fond:
@@ -7171,7 +7171,7 @@ preset_keyboards:
       - {click: "～(^з^)-☆", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "(´∀｀)♡", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
       - {click: "ლ(´ڡ`ლ)", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoh, swipe_down: Keyboard_kaoa, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7180,7 +7180,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_astonished:
@@ -7228,7 +7228,7 @@ preset_keyboards:
       - {click: "ヽ(*。>Д<)o゜", key_text_size: "9", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "(๑ŐдŐ)b☆d(ŐдŐ๑)", width: 33.2, key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
       - {click: "━((*′д｀)爻(′д｀*))━!!!!", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaof, swipe_down: Keyboard_kaoi, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
@@ -7237,7 +7237,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_impotent:
@@ -7287,7 +7287,7 @@ preset_keyboards:
       - {click: "ㄟ( ▔, ▔ )ㄏ", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "( ＿ ＿)ノ｜壁", key_text_size: "10", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
       - {click: "▄█▀█●", key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoa, swipe_down: Keyboard_kaos, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7296,7 +7296,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_sad:
@@ -7346,7 +7346,7 @@ preset_keyboards:
       - {click: "┗( T﹏T )┛", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "QAQ", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
       - {click: "ヘ(_ _ヘ)", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaoi, swipe_down: Keyboard_kaom, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7355,7 +7355,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_mad:
@@ -7405,7 +7405,7 @@ preset_keyboards:
       - {click: "（▼へ▼メ）", key_text_size: "13", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "☄ฺ(◣д◢)☄ฺ", key_text_size: "12", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
       - {click: "→_→", key_text_size: "14", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod}
-      # - {click: noop_key, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 20, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaos, swipe_down: Keyboard_kaod, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7414,7 +7414,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
   kao_dialogue:
@@ -7458,7 +7458,7 @@ preset_keyboards:
       - {click: "★*゜*(感’v`激)*゜*★", width: 33.2, key_text_size: "11", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: "Ⓣⓗⓐⓝⓚ｡:.ﾟヽ(｡◕‿◕｡)ﾉﾟ.:｡+ﾟ Ⓨⓞⓤ☆", width: 33.2, key_text_size: "7", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
       - {click: ":+*☆SёёYou☆*+:｡(◎’v`)ﾉ～～～", width: 33.2, key_text_size: "8", swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh}
-      # - {click: noop_key, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 100, key_back_color: keyboard_back_color, swipe_left: Keyboard_symbols, swipe_right: Keyboard_bqfh1, swipe_up: Keyboard_kaom, swipe_down: Keyboard_kaoh, hilited_key_back_color: keyboard_back_color}
       - {click: Keyboard_kaoh, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn, height: *jpgd3}
       - {click: Keyboard_kaof, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaoa, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
@@ -7467,7 +7467,7 @@ preset_keyboards:
       - {click: Keyboard_kaom, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_kaod, width: 10, key_text_size: "12", key_back_color: bmk, key_text_color: tenter}
       - {click: Keyboard_knext, width: 10, key_text_size: "12", key_back_color: bgn, key_text_color: tgn}
-      # - {click: noop_key, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      # - {click: _s_, width: 0.2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: BackSpace, width: 10, key_text_size: "14", key_back_color: bbs, key_text_color: tenter} #key_back_color: benter
       - {click: Keyboard_last_lock, width: 10, key_text_size: "14", key_back_color: benter, key_text_color: tenter}
 
