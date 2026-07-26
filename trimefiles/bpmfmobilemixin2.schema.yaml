@@ -17,32 +17,36 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [" 中 ", " 英 "]
+    states: ["中", "英"]
   - name: full_shape
     reset: 0
-    states: [" 半 ", " 全 "]
+    states: ["半", "全"]
   - name: ascii_punct
     reset: 0
-    states: [ " 。", " ．" ]
+    states: [ "。", "．" ]
   - name: simplification
     reset: 0
-    states: [" 原 ", " 简 "]
+    states: ["原", "简"]
   - name: character_range_bhjm
     # reset: 1
-    states: [" 完 ", " 精 "]
+    states: ["完", "精"]
   - name: emoji_segestion
     reset: 1
-    states: [ " 無 ", " 圖 " ]
+    states: [ "無", "圖" ]
   - name: back_mark
     reset: 1
-    # states: [ " 無 ", " 註 " ]
+    # states: [ "無", "註" ]
   - name: punct_mark
     reset: 1
-    # states: [ " 無 ", " 註 " ]
+    # states: [ "無", "註" ]
   - name: prediction
     # reset: 1
-    states: [ " 無 ", " 預 " ]
+    states: [ "無", "預" ]
 
+  - options: [ _key_VoidSymbol ]
+    states: [ " " ]
+  - options: [ _keyboard_.default, _keyboard_mini ]
+    states: [ "⌨", "▬" ]
   - options: [ _key_Hide ]
     states: [ " ▾ " ] #▼▽▿⌵ˇ
 
