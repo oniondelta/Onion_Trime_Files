@@ -17,7 +17,7 @@
 
   > 可打開鍵盤檔修改「keyboard_padding_bottom: 」數值，去調整下排空間。
 
-  > 手機設定：「無障礙設定」＞「系統控制項」＞「操作模式」 
+  > 手機：「設定」＞「無障礙設定」＞「系統控制項」＞「操作模式」 
 
   <img width="400" alt="Screenshot_20260727-022634" src="https://github.com/user-attachments/assets/04fca52c-d6e8-455f-a6cf-586750dde0aa" />
 
