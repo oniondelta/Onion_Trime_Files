@@ -13,7 +13,7 @@
 
 - 如發生錯誤，可改安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，去查找問題。
 
-- 鍵盤檔（.trime.yaml）置入選定後，會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。
+- 鍵盤檔（.trime.yaml）置入選定後，3.3.11 版會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。
 
   > 可打開鍵盤檔修改「keyboard_padding_bottom: 」數值，去調整下排空間。
 
