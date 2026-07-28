@@ -195,7 +195,7 @@
 
 <img width="700" alt="介紹PURE" src="https://github.com/user-attachments/assets/3d8a3e35-13d2-48cd-95b9-abac1cdfd72d" />
 
-<img width="700" alt="介紹上排" src="https://github.com/user-attachments/assets/5b5819d2-678e-4b90-a900-96dccf1482c9" />
+<img width="650" alt="介紹上排" src="https://github.com/user-attachments/assets/5b5819d2-678e-4b90-a900-96dccf1482c9" />
 
 <!--
 3.3.1 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
