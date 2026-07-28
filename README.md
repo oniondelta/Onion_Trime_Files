@@ -121,37 +121,37 @@
 
 以下為 3.3.11 版鍵盤檔圖示
 
-<img width="400" alt="介紹1" src="https://github.com/user-attachments/assets/9a2f4215-e184-4e10-b46e-f584d0becd2b" />
+<img width="400" alt="介紹1" src="https://github.com/user-attachments/assets/e40dec62-e43d-4b7a-b700-26751a235067" />
 
-<img width="400" alt="介紹1-4" src="https://github.com/user-attachments/assets/ab8a9c9b-efcd-4f17-8ee7-4103c535de13" />
+<img width="400" alt="介紹1-2" src="https://github.com/user-attachments/assets/e16731c9-0e69-4188-a1f7-28f11b2ffd5a" />
 
-<img width="400" alt="介紹1-2" src="https://github.com/user-attachments/assets/b7736386-3326-44de-9703-961e1c5a0c60" />
+<img width="400" alt="介紹1-3" src="https://github.com/user-attachments/assets/9b060aab-f5ca-4362-8289-e0d02a1171c5" />
 
-<img width="400" alt="介紹1-3" src="https://github.com/user-attachments/assets/146f65f7-83b6-486a-bd05-829b28cfded1" />
+<img width="400" alt="介紹1-4" src="https://github.com/user-attachments/assets/f904b418-d4f9-48e3-b9ee-18bfb200c2b1" />
 
-<img width="400" alt="介紹ocm-mixin" src="https://github.com/user-attachments/assets/8d8e769d-bdd6-4ee6-84f3-f7a3c7927a87" />
-
-<br>
-
-<img width="400" alt="介紹2" src="https://github.com/user-attachments/assets/478632ae-f07a-47fd-bafe-cf373c3ec289" />
-
-<img width="400" alt="介紹3" src="https://github.com/user-attachments/assets/5221c4b3-9455-44a5-aef7-5bb9330385df" />
+<img width="400" alt="介紹ocm-mixin" src="https://github.com/user-attachments/assets/904236f2-b2cb-4932-bea4-0e7c44503b46" />
 
 <br>
 
-<img width="400" alt="介紹5" src="https://github.com/user-attachments/assets/97d5bf3c-4303-4258-a555-f4ef7353ec33" />
+<img width="400" alt="介紹2" src="https://github.com/user-attachments/assets/9437121a-6090-4bcf-a674-db1f39647870" />
 
-<img width="400" alt="介紹6" src="https://github.com/user-attachments/assets/ab01349b-f3b5-43e8-9f1a-4eaa386a4f94" />
-
-<img width="400" alt="介紹7" src="https://github.com/user-attachments/assets/c81e063d-a184-4781-a647-20bb99870edc" />
-
-<img width="400" alt="介紹8" src="https://github.com/user-attachments/assets/f69af589-fe53-4630-a8f4-a129fe01f7c9" />
+<img width="400" alt="介紹3" src="https://github.com/user-attachments/assets/d98f9209-bfd5-44da-9c27-c6ae07f07ebd" />
 
 <br>
 
-<img width="400" alt="介紹9" src="https://github.com/user-attachments/assets/db94c5bb-56e4-4e7b-ad8a-f2d475583c18" />
+<img width="400" alt="介紹5" src="https://github.com/user-attachments/assets/46a14525-19c5-4fa0-8e73-1e51eee84755" />
 
-<img width="400" alt="介紹4" src="https://github.com/user-attachments/assets/98481973-764f-4f16-bc74-ee8f28bb7d37" />
+<img width="400" alt="介紹6" src="https://github.com/user-attachments/assets/7bf1d0d5-f84f-4618-ae88-5b123d762250" />
+
+<img width="400" alt="介紹7" src="https://github.com/user-attachments/assets/137f169f-5b4a-48b8-9cbf-4946fcc42625" />
+
+<img width="400" alt="介紹8" src="https://github.com/user-attachments/assets/f1695e46-4dbe-471e-ad05-4ee1e68f724d" />
+
+<br>
+
+<img width="400" alt="介紹9" src="https://github.com/user-attachments/assets/c2f6ca7e-9ec9-4dac-9e6b-e5b2273e7e2f" />
+
+<img width="400" alt="介紹4" src="https://github.com/user-attachments/assets/5721bec3-e0c2-43c1-aba8-c7f36c87bf8a" />
 
 
 <!--
@@ -189,12 +189,13 @@
 
 3.3.11 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
 
-<img width="600" alt="介紹MIXIN" src="https://github.com/user-attachments/assets/a7034cc8-7c4c-43f9-ab0c-f2c52acdfa11" />
+<img width="700" alt="介紹MIXIN" src="https://github.com/user-attachments/assets/5fcbdf7e-c231-4910-8ba0-834a778cb66e" />
 
-<img width="600" alt="介紹PLUS" src="https://github.com/user-attachments/assets/54667798-206a-446c-809d-7c112bca87de" />
+<img width="700" alt="介紹PLUS" src="https://github.com/user-attachments/assets/e8c82a2b-c16e-44b5-91bc-4c6548b7a1dd" />
 
-<img width="600" alt="介紹PURE" src="https://github.com/user-attachments/assets/c76c61a9-bd81-4d62-b8c4-19be204e27aa" />
+<img width="700" alt="介紹PURE" src="https://github.com/user-attachments/assets/3d8a3e35-13d2-48cd-95b9-abac1cdfd72d" />
 
+<img width="700" alt="介紹上排" src="https://github.com/user-attachments/assets/5b5819d2-678e-4b90-a900-96dccf1482c9" />
 
 <!--
 3.3.1 版鍵盤檔，包含剪貼簿功能，合併「顏文字」和「符號 emoji 」鍵盤 。
