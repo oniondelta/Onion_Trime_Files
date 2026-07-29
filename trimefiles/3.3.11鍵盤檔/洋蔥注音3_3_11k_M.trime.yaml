@@ -91,7 +91,8 @@ style:
   candidate_spacing: 2 #0 #候選間距（候選分割線）
   candidate_text_size: 20 #19 #18 #候選字號
   # candidate_use_cursor: true #高亮候選項
-  candidate_view_height: 50 #40 #34 #42 #28 #候選區高度
+  candidate_text_vertical_bias: 1.0 #候選文本垂直偏移位置（僅 overlay 模式使用，需要間隙空間足夠，範圍 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
+  candidate_view_height: 48 #50 #40 #34 #42 #28 #候選區高度
   candidate_corner_radius: 4 #候選項圓角半徑
   # color_scheme: default #配色方案
   comment_font: comment.ttf #編碼提示字體
