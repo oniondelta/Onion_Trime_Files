@@ -131,6 +131,9 @@
 
 <img width="400" alt="介紹ocm-mixin" src="https://github.com/user-attachments/assets/904236f2-b2cb-4932-bea4-0e7c44503b46" />
 
+<img width="400" alt="介紹mini" src="https://github.com/user-attachments/assets/c5cf9133-c19f-407e-9afe-6ac9b9d26ec9" />
+
+
 <br>
 
 <img width="400" alt="介紹2" src="https://github.com/user-attachments/assets/9437121a-6090-4bcf-a674-db1f39647870" />
