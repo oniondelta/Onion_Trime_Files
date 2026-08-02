@@ -13,7 +13,7 @@
 
 - 如發生錯誤，可改安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，去查找問題。
 
-- 鍵盤檔（.trime.yaml）置入選定後，3.3.11 版會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。後來 3.3.11 版 Nightly Build 又改回原先😓，設定「keyboard_padding_bottom: 0」也會留空間。
+- 鍵盤檔（.trime.yaml）置入選定後，3.3.11 版會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。後來 3.3.11 版 Nightly Build 又改回原先 😓，設定「keyboard_padding_bottom: 0」也會自動強制留空間。
 
   > 下排空間如太大或不足，可打開鍵盤檔修改「keyboard_padding_bottom: 」數值，去調整下排空間。
 
@@ -28,6 +28,18 @@
   <br>
 
   <img width="400" alt="Screenshot_20260727-022822" src="https://github.com/user-attachments/assets/8e784a07-74f0-46a5-839b-f5c47c2fd94d" />
+
+- 3.3.11 版初安裝使用，推薦於「同文輸入法」內「設定」設置：
+
+  > 「常規」＞「切換中英文模式時顯示提示」＞「關閉」
+
+  > 「常規」＞「首選語音輸入」＞「選擇使用之語音輸入」
+
+  > 「虛擬鍵盤」＞「啟用橫屏模式」＞「僅限橫屏」
+
+  > 「虛擬鍵盤」＞「自動分割鍵盤比例」＞「50 %」
+
+  > 「虛擬鍵盤」＞「按鍵時彈出顯示字符」＞「打開」
 
 - 中文選字項中，罕見字無法顯示，出現「⊠」之類的符號。
 
