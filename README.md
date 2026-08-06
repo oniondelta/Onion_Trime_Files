@@ -13,6 +13,8 @@
 
 - 如發生錯誤，可改安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，去查找問題。
 
+- 建議使用 3.3.11 版 2026/08/01 之後的 Nightly Build 主程式。官方於該版中更改功能名稱，使原先設定功能失效，跟隨官方更改後，不知前面版本是否有問題。
+
 - 鍵盤檔（.trime.yaml）置入選定後，3.3.11 版會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。後來 3.3.11 版 Nightly Build 又改回原先 😓，設定「keyboard_padding_bottom: 0」也會自動強制留空間。
 
   > 下排空間如太大或不足，可打開鍵盤檔修改「keyboard_padding_bottom: 」數值，去調整下排空間。
@@ -63,7 +65,7 @@
 
 - 預設鍵盤檔適用[ trime 3.3.11 版](https://github.com/osfans/trime/releases/tag/v3.3.11)
 
-- 實測使用 [trime 3.3.11 版 Nightly Build](https://github.com/osfans/trime/actions/runs/28877614405)
+- 實測使用 [trime 3.3.11 版 Nightly Build 之 Commit bdd90db](https://github.com/osfans/trime/actions/runs/30911525293)
 
 - 內附舊版 [trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 鍵盤檔
 

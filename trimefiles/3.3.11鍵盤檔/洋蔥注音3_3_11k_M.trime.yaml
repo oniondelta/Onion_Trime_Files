@@ -1442,7 +1442,7 @@ preset_keys:
   EXPLORER: {label: 瀏覽器, send: EXPLORER}
   MUSIC: {label: 音樂, send: MUSIC}
   POWER: {label: 電源, send: POWER}
-  SEARCH: {label: 搜尋, send: Find}
+  SEARCH: {label: 搜尋, send: SEARCH} #send: Find
   SLEEP: {label: 休眠, send: SLEEP}
   VOICE_ASSIST: {label: 語音, functional: true, send: VOICE_ASSIST}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
@@ -1473,6 +1473,7 @@ preset_keys:
   Right: {label: '⇨', send: Right, repeatable: true, functional: false} #→➡⇨
   select_all: {label: 全選, preview: '☑', functional: false, send: Control+a}
   Clear: {label: 清除, text: "{Control+a}{BackSpace}"} #全選並刪除 #舊：  Clear: {label: 全清, send: Clear}
+  #無作用# Clear: {label: 全清, send: CLEAR}
   cut: {label: 剪下, preview: '✂', functional: false, send: Control+x}
   cut_all: {label: 全剪下, preview: '✂', functional: false, text: "{Control+a}{Control+x}"} #全選並剪切
   copy: {label: 複製, preview: '📄', functional: false, send: Control+c}
@@ -1489,59 +1490,59 @@ preset_keys:
   CommitComment: {label: 編碼, preview: '註', send: Control+Shift+Return}
   DeleteCandidate: {label: 刪詞, preview: '刪', send: Control+Delete, functional: false}
   # rime狀態
-  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中文, 西文 ]}
-  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
-  Henkan: {toggle: simplification, send: Mode_switch, states: [ 漢字, 汉字 ]}
-  Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增廣 ]}
-  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
+  Mode_switch: {toggle: ascii_mode, functional: false, send: SWITCH_CHARSET, states: [ 中文, 西文 ]} #send: Mode_switch
+  Zenkaku_Hankaku: {toggle: full_shape, send: SWITCH_CHARSET, states: [ 半角, 全角 ]} #send: Mode_switch
+  Henkan: {toggle: simplification, send: SWITCH_CHARSET, states: [ 漢字, 汉字 ]} #send: Mode_switch
+  Charset_switch: {toggle: extended_charset, send: SWITCH_CHARSET, states: [ 常用, 增廣 ]} #send: Mode_switch
+  Punct_switch: {toggle: ascii_punct, send: SWITCH_CHARSET, states: [ 。，, ．， ]} #send: Mode_switch
   # 切換鍵盤
   Keyboard_symbols: {label: 符集, functional: false, send: Eisu_toggle, select: symbols}
   Keyboard_number: {label: 123, preview: '⌗', functional: false, send: Eisu_toggle, select: number}
   # Keyboard_numberb: {label: 123, functional: false, send: Eisu_toggle, select: numberb}
   Keyboard_mini: {label: 迷你, send: Eisu_toggle, select: mini}
-  #Keyboard_mini: {toggle: _keyboard_mini, send: Mode_switch, states: [ ⌨, ▬]}
+  #Keyboard_mini: {toggle: _keyboard_mini, send: SWITCH_CHARSET, states: [ ⌨, ▬]} #send: Mode_switch
   Keyboard_letter: {label: 字母, functional: true, send: Eisu_toggle, select: default}
   Keyboard_default: {label: 返回, functional: false, send: Eisu_toggle, select: .default}
   Keyboard_switch: {label: 鍵盤, functional: true, send: Eisu_toggle, select: .next}
   # 舊版liquid按鍵
   # liquid_keyboard_switch: {label: 更多, command: liquid_keyboard, option: "特殊"}
-  # liquid_keyboard_switch2: {toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 更多 ]}
+  # liquid_keyboard_switch2: {toggle: _liquid_keyboard, send: SWITCH_CHARSET, states: [ 更多, 更多 ]} #send: Mode_switch
   # liquid_keyboard_emoji: {label: 🙂, command: liquid_keyboard, option: "emoji"}
   # liquid_keyboard_clipboard: {label: 剪貼, command: liquid_keyboard, option: "剪貼"}
   # liquid_keyboard_clipboard2: {label: ↱▤, command: liquid_keyboard, option: "收藏"} #剪貼
   # 新版liquid按鍵
-  # liquid_keyboard_switch: {label: 更多, send: function, command: liquid_keyboard, option: "更多"}
-  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
-  # liquid_keyboard_emoji: {label: 🙂, send: function, command: liquid_keyboard, option: "emoji"}
+  # liquid_keyboard_switch: {label: 更多, send: FUNCTION, command: liquid_keyboard, option: "更多"} #send: function
+  liquid_keyboard_exit: {label: 返回, send: FUNCTION, command: liquid_keyboard, option: "-1"} #send: function  #退出liquidkeyboard
+  # liquid_keyboard_emoji: {label: 🙂, send: FUNCTION, command: liquid_keyboard, option: "emoji"} #send: function
   # 次舊版liquid按鍵
-  # liquid_keyboard_clipboard: {label: 剪貼, functional: false, send: function, command: liquid_keyboard, option: "剪貼"}
-  # liquid_keyboard_clipboard2: {label: ↱▤, functional: false, send: function, command: liquid_keyboard, option: "收藏"} #剪貼
+  # liquid_keyboard_clipboard: {label: 剪貼, functional: false, send: FUNCTION, command: liquid_keyboard, option: "剪貼"} #send: function
+  # liquid_keyboard_clipboard2: {label: ↱▤, functional: false, send: FUNCTION, command: liquid_keyboard, option: "收藏"} #send: function #剪貼
   # 最新版clipboard按鍵
-  menu_keyboard: {label: 選單, send: function, command: menu_keyboard}
-  clipboard_window: {label: "剪貼", functional: false, send: function, command: "clipboard_window", option: "0"} #0剪貼板，1收藏夾
-  clipboard_window2: {label: "↱▤", functional: false, send: function, command: "clipboard_window", option: "1"} #0剪貼板，1收藏夾
-  # set_color_ink: {label: 切換到ink配色, send: function, command: set_color_scheme, option: "ink"}
-  # set_theme_ink: {label: 切換到ink主題, send: function, command: set_theme, option: "ink"} #空參數為刷新主題
+  menu_keyboard: {label: 選單, send: FUNCTION, command: menu_keyboard} #send: function
+  clipboard_window: {label: "剪貼", functional: false, send: FUNCTION, command: "clipboard_window", option: "0"} #send: function #0剪貼板，1收藏夾
+  clipboard_window2: {label: "↱▤", functional: false, send: FUNCTION, command: "clipboard_window", option: "1"} #send: function #0剪貼板，1收藏夾
+  # set_color_ink: {label: 切換到ink配色, send: FUNCTION, command: set_color_scheme, option: "ink"} #send: function
+  # set_theme_ink: {label: 切換到ink主題, send: FUNCTION, command: set_theme, option: "ink"} #send: function #空參數為刷新主題
   # trime設定
   #舊# IME_switch: {label: 下一輸入法, send: LANGUAGE_SWITCH, select: .next}
   IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
   IME_last: {label: 上一輸入法, send: LANGUAGE_SWITCH, select: .last} #直接切換到上一輸入法
   IME_next: {label: 下一輸入法, send: LANGUAGE_SWITCH, select: .next} #直接切換到下一輸入法
   Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
-  # one_hand_switch_1: {toggle: _one_hand_mode_1, send: Mode_switch, states: [ 左手, 普通 ]}
-  # one_hand_switch_2: {toggle: _one_hand_mode_2, send: Mode_switch, states: [ 右手, 普通 ]}
-  # one_hand_switch_3: {toggle: _one_hand_mode_3, send: Mode_switch, states: [ 左手, 右手 ]}
+  # one_hand_switch_1: {toggle: _one_hand_mode_1, send: SWITCH_CHARSET, states: [ 左手, 普通 ]} #send: Mode_switch
+  # one_hand_switch_2: {toggle: _one_hand_mode_2, send: SWITCH_CHARSET, states: [ 右手, 普通 ]} #send: Mode_switch
+  # one_hand_switch_3: {toggle: _one_hand_mode_3, send: SWITCH_CHARSET, states: [ 左手, 右手 ]} #send: Mode_switch
   Color_switch: {label: 配色, functional: false, send: PROG_RED}
-  Help: {label: 說明, send: Help}
+  Help: {label: 說明, send: HELP} #send: Help
   Info: {label: 關於, send: INFO}
-  Menu: {label: 選單, functional: false, send: Menu} #label: 選單 '✵'
+  Menu: {label: 選單, functional: false, send: MENU} #label: 選單 '✵'
   Settings: {label: 設置, functional: false, send: SETTINGS}
   Color_settings: {label: 配色, send: SETTINGS, option: "color"}
   Theme_settings: {label: 主題, send: SETTINGS, option: "theme"}
   Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
-  #重複# Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ 有候選, 無候選]}
-  #重複# Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有註釋, 無註釋]}
-  Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ 有助記, 無助記]}
+  #重複# Candidate_switch: {toggle: _hide_candidate, send: SWITCH_CHARSET, states: [ 有候選, 無候選]} #send: Mode_switch
+  #重複# Comment_switch: {toggle: _hide_comment, send: SWITCH_CHARSET, states: [ 有註釋, 無註釋]} #send: Mode_switch
+  Hint_switch: {toggle: _hide_key_hint, send: SWITCH_CHARSET, states: [ 有助記, 無助記]} #send: Mode_switch
   # trime命令
   Date: {label: 日期, preview: '📅', command: date, option: " yyyy-MM-dd "}
   Time: {label: 時間, preview: '🕤', command: date, option: " HH:mm:ss "}
@@ -1561,9 +1562,9 @@ preset_keys:
   # Tieba: {label: 貼吧, command: run, option: ""}
   # Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
   # Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲當前字符
-  # # Deploy: {label: 部署, send: function, command: apply, option: "DEPLOY"} #重新部署
-  # Sync: {label: 同步, send: function, command: apply, option: "SYNC_USER_DATA"} #用戶資料同步
-  # updateConfig: {label: 更新配置, send: function, command: apply, option: "UPDATE_CONFIG"} #更新配置文件
+  # # Deploy: {label: 部署, send: FUNCTION, command: apply, option: "DEPLOY"} #send: function #重新部署
+  # Sync: {label: 同步, send: FUNCTION, command: apply, option: "SYNC_USER_DATA"} #send: function #用戶資料同步
+  # updateConfig: {label: 更新配置, send: FUNCTION, command: apply, option: "UPDATE_CONFIG"} #send: function #更新配置文件
   # RepeatCommit: { label: 重復,  command: commit, option: "%1$s" } #重復輸入剛上屏的內容
 ##########
   # 舊的按鍵
@@ -1603,15 +1604,15 @@ preset_keys:
   BackToPreviousSyllable3: {label: '刪音節', preview: '⭅', repeatable: true, functional: false, send: Control+Shift+BackSpace}
   Keyboard_backlong: {label: ⏏, functional: false, send: Eisu_toggle, select: .last_lock}
 #### 以下「Mode_switch_」：3.3.1 版會直接上屏。3.3.11 版無法即時作用，會慢一鍵才作用，ascci 同樣直接上屏。
-  Mode_switch_Korea: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 韓, 英 ]}
-  Mode_switch_a: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中, 英 ]}
-  Mode_switch_f: {toggle: full_shape, functional: false, send: Mode_switch, states: [ 全, 半 ]}
-  Mode_switch_pt: {toggle: ascii_punct, functional: false, send: Mode_switch, states: [ 。, ． ]}
-  Mode_switch_s: {toggle: simplification, functional: false, send: Mode_switch, states: [ 原, 简 ]}
-  Mode_switch_c: {toggle: extended_charset, functional: false, send: Mode_switch, states: [ 常, 廣 ]}
-  Mode_switch_r: {toggle: character_range_bhjm, functional: false, send: Mode_switch, states: [ 完, 精 ]}
-  Mode_switch_e: {toggle: emoji_segestion, functional: false, send: Mode_switch, states: [ 無, 圖 ]}
-  Mode_switch_p: {toggle: prediction, functional: false, send: Mode_switch, states: [ 無, 預 ]}
+  Mode_switch_Korea: {toggle: ascii_mode, functional: false, send: SWITCH_CHARSET, states: [ 韓, 英 ]} #send: Mode_switch
+  Mode_switch_a: {toggle: ascii_mode, functional: false, send: SWITCH_CHARSET, states: [ 中, 英 ]} #send: Mode_switch
+  Mode_switch_f: {toggle: full_shape, functional: false, send: SWITCH_CHARSET, states: [ 全, 半 ]} #send: Mode_switch
+  Mode_switch_pt: {toggle: ascii_punct, functional: false, send: SWITCH_CHARSET, states: [ 。, ． ]} #send: Mode_switch
+  Mode_switch_s: {toggle: simplification, functional: false, send: SWITCH_CHARSET, states: [ 原, 简 ]} #send: Mode_switch
+  Mode_switch_c: {toggle: extended_charset, functional: false, send: SWITCH_CHARSET, states: [ 常, 廣 ]} #send: Mode_switch
+  Mode_switch_r: {toggle: character_range_bhjm, functional: false, send: SWITCH_CHARSET, states: [ 完, 精 ]} #send: Mode_switch
+  Mode_switch_e: {toggle: emoji_segestion, functional: false, send: SWITCH_CHARSET, states: [ 無, 圖 ]} #send: Mode_switch
+  Mode_switch_p: {toggle: prediction, functional: false, send: SWITCH_CHARSET, states: [ 無, 預 ]} #send: Mode_switch
 #### 以下「switch_」可即時作用，但無法顯示「states」狀態。
   switch_ascii: {label: '英文', send: Control+Shift+2} #, states: [ 中, 英 ]
   switch_full: {label: '全形', send: Control+Shift+3} #, states: [ 全, 半 ]
@@ -2316,10 +2317,10 @@ preset_keys:
 ##############################
 #以下鍵盤功能頁使用之功能鍵
   Settings2: {label: ⚙, functional: false, send: SETTINGS}
-  Menu2: {label: ㄓ, functional: false, send: Menu}
+  Menu2: {label: ㄓ, functional: false, send: MENU}
   Theme_settings2: {label: ▦, send: SETTINGS, option: "theme"}
-  Comment_switch: {toggle: _hide_comment, functional: false, send: Mode_switch, states: [〔半角〕, ─ ]} #[ 有註釋, 無註釋]
-  Candidate_switch: {toggle: _hide_candidate, functional: false, send: Mode_switch, states: [ ▭, ─ ]} #[ 有候選, 無候選]
+  Comment_switch: {toggle: _hide_comment, functional: false, send: SWITCH_CHARSET, states: [〔半角〕, ─ ]} #send: Mode_switch #[ 有註釋, 無註釋]
+  Candidate_switch: {toggle: _hide_candidate, functional: false, send: SWITCH_CHARSET, states: [ ▭, ─ ]} #send: Mode_switch #[ 有候選, 無候選]
   Color_switch2: {label: ◪, functional: false, send: PROG_RED}
   Keyboard_kmenu: {label: ⌨, functional: false, send: Eisu_toggle, select: kmenu}
   Keyboard_schema_default: {label: ⌨, functional: false, send: Eisu_toggle, select: .default}
@@ -2337,7 +2338,7 @@ preset_keys:
   Keyboard_back: {label: ⏏ 返回, functional: false, send: Eisu_toggle, select: .last_lock}
   K_sign: {click: "", label: "          By L'Étranger Onion  [Bpm-M]", functional: false} #label: "By L'Étranger Onion"
   # Deploy: {label: ⟲ 部署, functional: false, command: broadcast, option: "com.osfans.trime.deploy"} #部署
-  Deploy: {label: ⟲ 部署, functional: false, send: function, command: apply, option: "DEPLOY"}
+  Deploy: {label: ⟲ 部署, functional: false, send: FUNCTION, command: apply, option: "DEPLOY"} #send: function
 #以下方向功能頁之功能鍵
   Keyboard_duse: {label: '☩', functional: false, preview: '☩', send: Eisu_toggle, select: duse} #label: '<I>' #, preview: '⬄'
   Shift_duse: {label: '<I>', functional: false, preview: 'Ｉ', send: Shift_L, shift_lock: click} #, preview: '<I>'
@@ -2347,6 +2348,7 @@ preset_keys:
   Home_duse: {label: ⇤, functional: false, preview: '⇤', send: Home}
   End_duse: {label: ⇥, functional: false, preview: '⇥', send: End}
   Clear_duse: {label: 全清除, preview: '⌧', functional: false, text: "{Control+a}{BackSpace}"} #全選並刪除 #舊：  Clear: {label: 全清, send: Clear}
+  #無作用# Clear_duse: {label: 全清除, preview: '⌧', functional: false, send: CLEAR} #send: Clear
   ClearH: {label: 整行清除, preview: '⌧', functional: false, text: "{End}{Shift+Home}{Delete}"} #清除行
   copyH: {label: 整行複製, preview: '📄', functional: false, text: "{End}{Shift+Home}{Control+c}"} #複製行
   select_H: {label: 整行選, preview: '☑', functional: false, text: "{End}{Shift+Home}"}#選擇行
@@ -2359,7 +2361,7 @@ preset_keys:
   Page_Up_duse: {label: ↥, preview: '↥', send: Page_Up, repeatable: true, functional: false}
   Page_Down_duse: {label: ↧, preview: '↧', send: Page_Down, repeatable: true, functional: false}
   Delete_duse: {label: ⌦, send: Delete, functional: false}
-  Menu_duse: {label: 方案, functional: false, send: Menu} #label: 選單 '✵'
+  Menu_duse: {label: 方案, functional: false, send: MENU} #label: 選單 '✵'
 #直出標點符號
   text_dh_2: {label: '‹、›', preview: '、', text: '、', functional: false} #'{!}、{Left}{BackSpace}{Right}' #'{!}{BackSpace}、{Right}{Keyboard_default}' #"{\"}{'}{Return}"
   text_fh_2: {label: '‹；›', preview: '；', text: '；', functional: false} #'{!}；{Left}{BackSpace}{Right}' #'{!}{BackSpace}；{Right}{Keyboard_default}' #"{\"}{'}{Right}{Return}"
