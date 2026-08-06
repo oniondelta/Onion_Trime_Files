@@ -13,7 +13,9 @@
 
 - 如發生錯誤，可改安裝精簡的 [初始化方案](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%A1%88)，去查找問題。
 
-- 建議使用 3.3.11 版 2026/08/01 之後的 Nightly Build 主程式。官方於該版中更改功能名稱，使原先設定功能失效，跟隨官方更改後，不知前面版本是否有問題。
+- 建議使用 3.3.11 版 2026/08/01 之後的 Nightly Build 主程式。
+
+  > 官方於該版中更改功能名稱，使原先鍵盤檔（.trime.yaml）設定功能產生問題，跟隨官方更改後，不知前面版本是否有問題。
 
 - 鍵盤檔（.trime.yaml）置入選定後，3.3.11 版會因手機下排功能「操作模式」不同，下排空間產生偏差。如下列圖示，其設定皆為「keyboard_padding_bottom: 30」。後來 3.3.11 版 Nightly Build 又改回原先 😓，設定「keyboard_padding_bottom: 0」也會自動強制留空間。
 
