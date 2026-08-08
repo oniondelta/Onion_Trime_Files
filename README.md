@@ -67,7 +67,7 @@
 
 - 預設鍵盤檔適用[ trime 3.3.11 版](https://github.com/osfans/trime/releases/tag/v3.3.11)
 
-- 實測使用 [trime 3.3.11 版 Nightly Build 之 Commit bdd90db](https://github.com/osfans/trime/actions/runs/30911525293)
+- 實測使用 [trime 3.3.11 版 Nightly Build 之 Commit ad48dae](https://github.com/osfans/trime/actions/runs/31180140199)
 
 - 內附舊版 [trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1) 鍵盤檔
 
