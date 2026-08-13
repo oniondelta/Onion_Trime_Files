@@ -2,7 +2,7 @@
 
 - 適用[ trime 3.3.1 版](https://github.com/osfans/trime/releases/tag/v3.3.1)
 
-- 該 3.3.1 版實測版本為 Nightly Build 之 Commit 9807916，使用 android 14。
+- 該 3.3.1 版實測版本為 Nightly Build 之 [Commit 89e9285](https://github.com/osfans/trime/commit/89e9285ab8c8712483479676b2e4c183417fead7)，使用 android 8.1.0。
 
 - 該 3.3.1 版測試發現無法吃下：「 hilited_candidate_back_color: 」，故「選中未上屏之字詞」之背景無法添加顏色。 Nightly Build 版已修復。
 
