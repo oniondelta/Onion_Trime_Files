@@ -158,7 +158,7 @@ style:
   key_long_text_size: 12 #18 #長標籤字號
   key_text_size: 18 #20 #22 #24 #鍵字號
   key_width: 10.0 #鍵寬，佔屏幕寬的百分比
-  # keyboards: [.default, default, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfmobiledouble, bpmfmobiledouble_t2, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set]  #, bpmfsimple  #鍵盤配置#, edit, move
+  # keyboards: [.default, default, mini, number, symbols, symbols2, symbols3, symbols4, symbols5, symbols6, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqrw6, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, bqfh5, bqfh6, bqfh7, bqfh8, bqfh9, bqfh10, bqfh11, bqfh12, bqfh13, bqfh14, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, kao_dialogue, kmenu, duse, 42keys, bpmfmobile, bpmfmobile_ns, bpmfmobileplus, bpmfmobilemix, bpmfmobilemixin, bpmfmobilemixins, bpmfmobilemixin2, bpmfmobilemixin3, bpmfmobilemixin4, bpmfmobiledouble, bpmfmobiledouble_t2, bpmfmobiledouble_full, ovffmobile, ovffmobile_full, ovffmobile_up, ovffmobile_lessd8, ovffmobile_less, numov, hangeul2set]  #, bpmfsimple  #鍵盤配置#, edit, move
   label_text_size: 20 #22 #0 #標籤字號
   label_font: label.ttf #編標籤字體
   latin_font: latin.ttf #西文本體
@@ -1540,9 +1540,11 @@ preset_keys:
   Color_settings: {label: 配色, send: SETTINGS, option: "color"}
   Theme_settings: {label: 主題, send: SETTINGS, option: "theme"}
   Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
-  #重複# Candidate_switch: {toggle: _hide_candidate, send: SWITCH_CHARSET, states: [ 有候選, 無候選]} #send: Mode_switch
-  #重複# Comment_switch: {toggle: _hide_comment, send: SWITCH_CHARSET, states: [ 有註釋, 無註釋]} #send: Mode_switch
-  Hint_switch: {toggle: _hide_key_hint, send: SWITCH_CHARSET, states: [ 有助記, 無助記]} #send: Mode_switch
+  #重複# #已廢棄# Candidate_switch: {toggle: _hide_candidate, send: SWITCH_CHARSET, states: [ 有候選, 無候選]} #send: Mode_switch
+  #重複# #已廢棄# Comment_switch: {toggle: _hide_comment, send: SWITCH_CHARSET, states: [ 有註釋, 無註釋]} #send: Mode_switch
+  #已廢棄# Hint_switch: {toggle: _hide_key_hint, send: SWITCH_CHARSET, states: [ 有助記, 無助記]} #send: Mode_switch
+  hide_key_symbol: {label: 隱藏符標, send: FUNCTION, command: switch_hide_key_symbol}
+  hide_key_hint: {label: 隱藏註記, send: FUNCTION, command: switch_hide_key_hint}
   # trime命令
   Date: {label: 日期, preview: '📅', command: date, option: " yyyy-MM-dd "}
   Time: {label: 時間, preview: '🕤', command: date, option: " HH:mm:ss "}
@@ -2319,8 +2321,12 @@ preset_keys:
   Settings2: {label: ⚙, functional: false, send: SETTINGS}
   Menu2: {label: ㄓ, functional: false, send: MENU}
   Theme_settings2: {label: ▦, send: SETTINGS, option: "theme"}
-  Comment_switch: {toggle: _hide_comment, functional: false, send: SWITCH_CHARSET, states: [〔半角〕, ─ ]} #send: Mode_switch #[ 有註釋, 無註釋]
-  Candidate_switch: {toggle: _hide_candidate, functional: false, send: SWITCH_CHARSET, states: [ ▭, ─ ]} #send: Mode_switch #[ 有候選, 無候選]
+  #已廢棄# Comment_switch: {toggle: _hide_comment, functional: false, send: SWITCH_CHARSET, states: [ 〔半角〕, ─ ]} #send: Mode_switch #[ 有註釋, 無註釋]
+  #已廢棄# Candidate_switch: {toggle: _hide_candidate, functional: false, send: SWITCH_CHARSET, states: [ ▭, ─ ]} #send: Mode_switch #[ 有候選, 無候選]
+  h_key_symbol: {label: 'ˢʸᵐᵇᵒˡ', text: '{hide_key_symbol}'} #label: '﹉' #label: 'symbol'
+  h_key_hint: {label: 'ₕᵢₙₜ', text: '{hide_key_hint}'} #label: '﹍' #label: 'hint'
+  # Symbol_switch: {toggle: _key_h_key_symbol, functional: false, send: SWITCH_CHARSET, states: [ ﹉, ◌ ]}
+  # Hint_switch: {toggle: _key_h_key_hint, functional: false, send: SWITCH_CHARSET, states: [ ﹍, ◌ ]}
   Color_switch2: {label: ◪, functional: false, send: PROG_RED}
   Keyboard_kmenu: {label: ⌨, functional: false, send: Eisu_toggle, select: kmenu}
   Keyboard_schema_default: {label: ⌨, functional: false, send: Eisu_toggle, select: .default}
@@ -3449,8 +3455,10 @@ preset_keyboards:
       - {click: Menu2, width: 16, hint: 方案, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Theme_settings2, width: 16, hint: 主題, key_symbol_color: candidate_text_color, key_text_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: Color_switch2, width: 16, hint: 配色, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
-      - {click: Candidate_switch, width: 16, hint: 候選窗, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
-      - {click: Comment_switch, width: 16, hint: 上排, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      - {click: h_key_symbol, width: 16, hint: 符標, label_symbol: '✓', key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color} #, label_symbol: 'ˢʸᵐᵇᵒˡ' #, label_symbol: 'sʏᴍʙᴏʟ' #click: Symbol_switch
+      - {click: h_key_hint, width: 16, hint: 註記, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color} #, label_symbol: 'ʰⁱⁿᵗ' #, label_symbol: 'ʜɪɴᴛ' #click: Hint_switch
+      #已廢棄# - {click: Candidate_switch, width: 16, hint: 候選窗, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
+      #已廢棄# - {click: Comment_switch, width: 16, hint: 上排, key_symbol_color: candidate_text_color, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
       - {click: _s_, width: 2, key_back_color: keyboard_back_color, hilited_key_back_color: keyboard_back_color}
 
 #      - {width: 100, height: 0.4}
