@@ -374,7 +374,7 @@
 # ===============================
 ---
 name: terra_pinyin_onion
-version: "202608"
+version: "202609"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7 #20
@@ -4078,6 +4078,35 @@ min_phrase_weight: 100
 芩	yin2	0%
 𦬘	zhong1	0%
 逽	nve4
+麫	mian4
+齰	zha4	0%
+齰	ze2
+齚	ze2
+# 齚	zha4	0%
+齟	zha1	0%
+龃	zha1	0%
+齮	qi3	0%
+鹶	jing1	0%
+鹹	jian3	0%
+鹿	lv2	0%
+# 麀	ou1	0%
+麅	biao1	0%
+麅	piao2	0%
+麙	qian2	0%
+麡	ji1	0%
+麦	ling2	0%
+黊	xi1	0%
+# 黚	an2	0%
+黢	qu4	0%
+黣	mei2	0%
+# 黽	en3	0%
+黽	meng3	0%
+黽	mian3	0%
+黽	meng2	0%
+黾	min3	0%
+黾	meng3	0%
+黾	meng2	0%
+鼁	cu4	0%
 鼑	zhen1	0%
 鼰	ju2	0%
 齁	ku4	0%
@@ -4115,6 +4144,31 @@ min_phrase_weight: 100
 乪	nang2
 事	zi4	0%
 亏	xu1	0%
+亣	da4	0%
+亣	dai4	0%
+亣	ji1	0%
+亣	ji4	0%
+亣	qi2	0%
+亣	tai4	0%
+亨	xiang3	0%
+亨	peng1	0%
+亨	heng2	0%
+享	heng1	0%
+# 享	heng2	0%
+享	peng1	0%
+亯	heng1	0%
+亯	heng2	0%
+亯	peng1	0%
+亾	wu2	0%
+仂	li4	0%
+仇	ju1	0%
+仏	bi4	0%
+仏	fu2	0%
+仏	si4	0%
+仡	wu4	0%
+仙	xian3	0%
+伋	fan1	0%
+他	tuo2	0%
 ##### @@201912 比對教育部相關字詞典檔所新增（重編國語詞典？） #####
 丁	zheng1	1%
 丂	kao3	1%
@@ -4189,8 +4243,6 @@ min_phrase_weight: 100
 襾	xia4	1%
 阤	zhi4	1%
 阤	yi3	1%
-亨	peng1	1%
-亨	heng2	1%
 估	gu3	1%
 佃	tian2	1%
 佔	zhan1	1%
@@ -5446,7 +5498,6 @@ min_phrase_weight: 100
 蠰	rang3	1%
 鱒	zun4	1%
 鱖	jue2	50%
-齰	ze2	1%
 㶟	lei2	1%
 贛	gong4	1%
 躟	rang3	1%
@@ -6423,27 +6474,7 @@ min_phrase_weight: 100
 髺	kuo4	0.3%
 魟	hong2	0.3%
 鮁	ba4	0.3%
-麫	mian4	0.3%
-齚	ze2	0.3%
 ##### @202608 比對可能為〈異體字字典〉之發音（來源：https://github.com/ryanwuson/rime-liur） #####
-亣	da4	0%
-亣	dai4	0%
-亣	ji1	0%
-亣	ji4	0%
-亣	qi2	0%
-亣	tai4	0%
-亨	xiang3	0%
-享	heng1	0%
-享	peng1	0%
-亯	heng1	0%
-亯	heng2	0%
-亯	peng1	0%
-亾	wu2	0%
-仂	li4	0%
-仏	bi4	0%
-仏	fu2	0%
-仏	si4	0%
-仡	wu4	0%
 仧	zhang3	0%
 仧	zhang4	0%
 仮	fan1	0%
@@ -8296,22 +8327,6 @@ min_phrase_weight: 100
 鸄	jiao1	0%
 鸍	shi1	0%
 鸖	hao2	0%
-鹶	jing1	0%
-鹹	jian3	0%
-麀	ou1	0%
-麅	biao1	0%
-麅	piao2	0%
-麙	qian2	0%
-麡	ji1	0%
-麦	ling2	0%
-黊	xi1	0%
-黚	an2	0%
-黢	qu4	0%
-黣	mei2	0%
-黽	en3	0%
-黽	meng3	0%
-黾	min3	0%
-鼁	cu4	0%
 ##### @補充 Big5E Hkscs JIS 中有的單字 #####
 㑀	tai4	0.2%
 㒯	ye4	0.2%
@@ -17638,7 +17653,7 @@ min_phrase_weight: 100
 亠	tou2
 亡	wang2
 亢	kang4
-亣	ta4
+# 亣	ta4
 交	jiao1
 亥	hai4
 亦	yi4
@@ -41468,7 +41483,7 @@ min_phrase_weight: 100
 麨	chao3
 麩	fu1
 麪	mian4
-麫	mian3
+# 麫	mian3
 麬	fu1
 麭	pao4
 麮	qu4
@@ -120972,4 +120987,4 @@ min_phrase_weight: 100
 𣝓弧	yan3 hu2
 𣝓絲	yan3 si1
 𧑗蝦	ning2 xia1
-##### @結束 END - 120975 #####
+##### @結束 END - 120990 #####
