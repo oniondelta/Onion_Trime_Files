@@ -6,7 +6,7 @@ import time
 
 #名稱(取出來較好變換)
 sort_trime="sort_trime_bpx4"
-trime_files="onion_trime＜bpin1＞"
+trime_files="OnionTrime＜bpin1＞"
 the_name="洋蔥手機同文方案＜bpin1＞"
 
 
