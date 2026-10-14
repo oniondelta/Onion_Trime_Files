@@ -1,0 +1,105 @@
+name: Release-sort_trime_output
+
+on:
+  workflow_dispatch: # 手動觸發
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 確保有權限建立 Release
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: 'main'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' 
+
+      - name: 執行 Python 與檔案處理
+        run: |
+          # 取得台北時間（+8）的當天日期
+          RELEASE_DATE=$(TZ="Asia/Taipei" date +"%Y%m%d")
+          echo "TODAY_DATE=${RELEASE_DATE}" >> $GITHUB_ENV
+
+          # 執行您的 Python 腳本
+          python sort_trime_file.py
+          BASEDIR=`pwd`
+          FOLDER=`find ${BASEDIR} -name "洋蔥手機同文方案*" -type d`
+          OUTPUT="${BASEDIR}/output"
+          mkdir -p $OUTPUT
+
+          # function create_zip1() {
+          #     SOURCE=`find ${FOLDER} -name "$1" -type d`
+          #     cd $SOURCE
+          #     zip -qq -r ${OUTPUT}/$2 ./
+          # }
+
+          # function create_zip2() {
+          #     SOURCE=`find ${FOLDER} -name "$1" -type d`
+          #     cd $SOURCE && cd ..
+          #     zip -qq -r ${OUTPUT}/$2 $1
+          # }
+
+          function remove_dir() {
+              SOURCE=`find ${FOLDER} -name "$1" -type d`
+              rm -r $SOURCE
+          }
+
+          # 刪除不需要的資料夾
+          remove_dir "洋蔥手機蝦_20*"
+
+          # （解壓縮後資料夾名稱為：Onion_Trime_Files）
+          # 將調整後的整個「洋蔥手機同文方案*」資料夾壓縮成 Onion_Trime_Files.zip 並放到 output 目錄
+          # cd $FOLDER
+          # zip -qq -r ${OUTPUT}/Onion_Trime_Files.zip ./
+          # zip -qq -r ${OUTPUT}/Onion_Trime_Files_${RELEASE_DATE}.zip ./
+
+          # （解壓縮後資料夾名稱為：Onion_Trime_Files）
+          # 使用前面 create_zip1 函數壓縮
+          # create_zip1 "洋蔥手機同文方案*" "Onion_Trime_Files_${RELEASE_DATE}.zip"
+
+          # （解壓縮後資料夾名稱為：洋蔥手機同文方案*）
+          # 使用前面 create_zip2 函數壓縮
+          # create_zip2 "洋蔥手機同文方案*" "Onion_Trime_Files_${RELEASE_DATE}.zip"
+
+          # （解壓縮後資料夾名稱為：洋蔥手機同文方案*）
+          # 進入該資料夾，並立刻退回它的上一層
+          # cd $FOLDER && cd ..
+          # 直接指定打包「洋蔥手機同文方案*」這個資料夾
+          # zip -qq -r ${OUTPUT}/Onion_Trime_Files_${RELEASE_DATE}.zip 洋蔥手機同文方案*
+
+          # （解壓縮後資料夾名稱為：洋蔥手機同文方案*）
+          # 取得純資料夾名稱（例如："洋蔥手機同文方案*"）
+          FOLDER_NAME=$(basename "$FOLDER")
+          # 切換到該資料夾的上一層目錄
+          cd "$(dirname "$FOLDER")"
+          # 打包該資料夾（加上雙引號，防止名稱中有空白字元導致報錯）
+          zip -qq -r "${OUTPUT}/Onion_Trime_Files_${RELEASE_DATE}.zip" "${FOLDER_NAME}"
+
+      # 新增步驟：自動建立 GitHub Release 並上傳 zip 檔案
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          # artifacts: "output/Onion_Trime_Files.zip"
+          artifacts: "output/Onion_Trime_Files_${{ env.TODAY_DATE }}.zip"
+          # 調用上方日期變數，tag：release_{當天日期}
+          tag: "release_${{ env.TODAY_DATE }}"
+          # 調用上方日期變數，name：洋蔥手機方案_{當天日期}
+          name: "洋蔥手機方案_${{ env.TODAY_DATE }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ## 方案
+
+            - 含〈純注音〉〈注音plus〉〈注音mixin〉〈雙拼注音〉。
+
+            ## 使用方法
+
+            - 預設鍵盤檔適用[ trime 3.3.11 版](https://github.com/osfans/trime/releases/tag/v3.3.11)，理論上適用更高之 Nightly Build 版，但遇過錯誤。可使用已測試過之主程式，於 [各版主程式](https://github.com/oniondelta/Onion_Trime_Files/tree/main/trimefiles/%E5%90%84%E7%89%88%E4%B8%BB%E7%A8%8B%E5%BC%8F) 中的「 com.osfans.trime-v3.3.11-... .apk」。使用 trime 其他早先之版本，需更換相符的鍵盤檔。
+
+            - Onion_Trime_Files 之 zip 檔內，各個方案所需文件，分別放置於其內『方案名稱』資料夾。
+
+            - 選取欲使用方案，內含文件通通放入『rime』資料夾。裡面已有『opencc』資料夾，移動『opencc』裡面檔案到『opencc』資料夾內，沒有則整個『opencc』移過去 ，「重新部署」方可。
+
