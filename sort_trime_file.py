@@ -36,6 +36,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./"+sort_trime+"/"+trim
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtp_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_1+"/phrases.chtp.dict_jp.yaml")
 
 shutil.copyfile("./trimefiles/punct_bpmf.yaml", "./"+sort_trime+"/"+trime_files_1+"/punct_bpmf.yaml")
 shutil.copyfile("./trimefiles/rime.lua", "./"+sort_trime+"/"+trime_files_1+"/rime.lua")
@@ -91,6 +92,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./"+sort_trime+"/"+trim
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtp_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.chtp_jp.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_l_w.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.en_l_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_o_w.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.en_o_w.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.en_u_w.dict.yaml", "./"+sort_trime+"/"+trime_files_2+"/phrases.en_u_w.dict.yaml")
@@ -199,6 +201,7 @@ shutil.copyfile("./trimefiles/bpmfmobiledouble_t2.schema.yaml", "./"+sort_trime+
 
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtp_jp.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/phrases.chtp_jp.dict.yaml")
 
 shutil.copyfile("./trimefiles/terra_pinyin_onion_add.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/terra_pinyin_onion_add.dict.yaml")
 shutil.copyfile("./trimefiles/terra_pinyin_onion.dict.yaml", "./"+sort_trime+"/"+trime_files_4+"/terra_pinyin_onion.dict.yaml")

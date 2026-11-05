@@ -23,6 +23,7 @@ shutil.copyfile("./trimefiles/mobile_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_
 shutil.copyfile("./trimefiles/mobile_bpmf.schema.yaml", "./"+sort_trime+"/"+trime_files+"/mobile_bpmf.schema.yaml")
 shutil.copyfile("./trimefiles/phrases.cht.dict.yaml", "./"+sort_trime+"/"+trime_files+"/phrases.cht.dict.yaml")
 shutil.copyfile("./trimefiles/phrases.chtp.dict.yaml", "./"+sort_trime+"/"+trime_files+"/phrases.chtp.dict.yaml")
+shutil.copyfile("./trimefiles/phrases.chtp_jp.dict.yaml", "./"+sort_trime+"/"+trime_files+"/phrases.chtp_jp.dict.yaml")
 shutil.copyfile("./trimefiles/punct_bpmf.yaml", "./"+sort_trime+"/"+trime_files+"/punct_bpmf.yaml")
 shutil.copyfile("./trimefiles/rime.lua", "./"+sort_trime+"/"+trime_files+"/rime.lua")
 shutil.copyfile("./trimefiles/sy_bpmf.dict.yaml", "./"+sort_trime+"/"+trime_files+"/sy_bpmf.dict.yaml")
